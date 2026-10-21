@@ -1,21 +1,55 @@
-{
-  "courseCode": "KINS 0000",
-  "courseTitle": "Course Title Template",
+﻿{
+  "courseCode": "KINS 2203",
+  "courseTitle": "Introduction to Kinesiology",
   "institution": "Southeastern University",
-  "description": "Interactive online modules, laboratory simulations, and conceptual mastery.",
+  "description": "Interactive learning modules, sub-discipline explorations, and professional practice foundations.",
   "units": [
     {
-      "unitTitle": "Unit 1: Foundations",
+      "unitTitle": "Unit 1: The Scope of Kinesiology & Human Movement",
       "unitTag": "Weeks 1-4",
       "chapters": [
         {
           "num": "01",
-          "title": "Chapter 1: Foundational Principles",
+          "title": "Chapter 1: Foundations of Kinesiology & Physical Activity",
           "modules": [
             {
               "id": "1.1",
-              "title": "Core Mechanisms & Dynamics",
+              "title": "The Nature of Human Movement & Sub-disciplines",
               "href": "viewer.html?ch=01&mod=1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Unit 2: Physiological & Biomechanical Foundations",
+      "unitTag": "Weeks 5-8",
+      "chapters": [
+        {
+          "num": "02",
+          "title": "Chapter 2: Biophysical Foundations of Human Movement",
+          "modules": [
+            {
+              "id": "2.1",
+              "title": "Basic Neuromechanics & Energy Systems",
+              "href": "viewer.html?ch=02&mod=2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Unit 3: Professional Pathways & Careers",
+      "unitTag": "Weeks 9-12",
+      "chapters": [
+        {
+          "num": "03",
+          "title": "Chapter 3: Allied Health, Coaching & Human Performance Careers",
+          "modules": [
+            {
+              "id": "3.1",
+              "title": "Pre-PT, Pre-OT, and Clinical Exercise Pathways",
+              "href": "viewer.html?ch=03&mod=3.1"
             }
           ]
         }
