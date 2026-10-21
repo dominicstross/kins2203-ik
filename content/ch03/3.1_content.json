@@ -7,11 +7,11 @@
   },
   "activities": [
     {
-      "id": "act-starter",
-      "title": "Sub-Discipline Continuum Explorer",
+      "id": "act-ch03",
+      "title": "Allied Health & Clinical Career Navigator",
       "type": "sim",
-      "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",
-      "file": "content/ch01/activities/starter_simulation.html"
+      "desc": "Interactive prerequisites, clinical observation, and credential comparison matrix for DPT, OTD, PA, and CSCS.",
+      "file": "content/ch03/activities/starter_simulation.html"
     }
   ],
   "pages": [
@@ -28,11 +28,11 @@
       "readingHtml": "<h3>Allied Health & Clinical Careers</h3><p>Undergraduate kinesiology coursework serves as the primary academic prerequisite track for graduate education in physical therapy (DPT), occupational therapy (OTD), physician assistant (PA) studies, and athletic training (MSAT).</p><h3>Performance and Wellness Careers</h3><p>Outside clinical medicine, kinesiologists work in strength and conditioning (CSCS), clinical exercise physiology, tactical human performance, and corporate health management.</p>",
       "activities": [
         {
-          "id": "act-starter",
-          "title": "Sub-Discipline Continuum Explorer",
+          "id": "act-ch03",
+          "title": "Allied Health & Clinical Career Navigator",
           "type": "sim",
-          "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",
-          "file": "content/ch01/activities/starter_simulation.html"
+          "desc": "Interactive prerequisites, clinical observation, and credential comparison matrix for DPT, OTD, PA, and CSCS.",
+          "file": "content/ch03/activities/starter_simulation.html"
         }
       ]
     }

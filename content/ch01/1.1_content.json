@@ -7,7 +7,7 @@
   },
   "activities": [
     {
-      "id": "act-starter",
+      "id": "act-ch01",
       "title": "Sub-Discipline Continuum Explorer",
       "type": "sim",
       "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",
@@ -28,7 +28,7 @@
       "readingHtml": "<h3>Defining Kinesiology and Physical Activity</h3><p>Kinesiology is the academic discipline focused on the art and science of human movement. Rather than viewing physical movement merely as mechanics or exercise, kinesiology investigates physical activity across experiential, theoretical, and professional spheres.</p><h3>The Three Primary Spheres</h3><p>The discipline integrates three primary pillars of knowledge:</p><ul><li><strong>Biophysical:</strong> Exercise physiology, biomechanics, and sports medicine.</li><li><strong>Behavioral:</strong> Sport and exercise psychology, motor learning, and motor development.</li><li><strong>Socio-cultural:</strong> History, philosophy, and sociology of physical activity and sport.</li></ul><p>Each sub-discipline provides unique conceptual lenses for evaluating athletic performance, clinical rehabilitation, and lifelong wellness.</p>",
       "activities": [
         {
-          "id": "act-starter",
+          "id": "act-ch01",
           "title": "Sub-Discipline Continuum Explorer",
           "type": "sim",
           "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",

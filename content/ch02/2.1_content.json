@@ -7,11 +7,11 @@
   },
   "activities": [
     {
-      "id": "act-starter",
-      "title": "Sub-Discipline Continuum Explorer",
+      "id": "act-ch02",
+      "title": "Bioenergetics & Energy Systems Continuum",
       "type": "sim",
-      "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",
-      "file": "content/ch01/activities/starter_simulation.html"
+      "desc": "Interactive duration-based metabolic simulator modeling ATP-PCr, glycolytic, and aerobic pathway contributions.",
+      "file": "content/ch02/activities/starter_simulation.html"
     }
   ],
   "pages": [
@@ -28,11 +28,11 @@
       "readingHtml": "<h3>Neuromechanical Foundations</h3><p>Human movement requires the coordinated interaction of the nervous system and the musculoskeletal system. Skeletal muscles act as active motors pulling on bony levers across joint axes.</p><h3>Bioenergetic Systems</h3><p>Muscular contraction is powered by ATP hydrolysis via three interconnected energy systems:</p><ul><li><strong>ATP-PCr:</strong> Immediate high-power substrate for short-duration maximal efforts (< 10 seconds).</li><li><strong>Glycolytic:</strong> Anaerobic degradation of glucose producing rapid ATP and lactate (10–120 seconds).</li><li><strong>Oxidative / Aerobic:</strong> Mitochondrial respiration utilizing carbohydrates and fats for prolonged, sustained work.</li></ul>",
       "activities": [
         {
-          "id": "act-starter",
-          "title": "Sub-Discipline Continuum Explorer",
+          "id": "act-ch02",
+          "title": "Bioenergetics & Energy Systems Continuum",
           "type": "sim",
-          "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",
-          "file": "content/ch01/activities/starter_simulation.html"
+          "desc": "Interactive duration-based metabolic simulator modeling ATP-PCr, glycolytic, and aerobic pathway contributions.",
+          "file": "content/ch02/activities/starter_simulation.html"
         }
       ]
     }
