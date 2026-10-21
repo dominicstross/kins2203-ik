@@ -6,11 +6,47 @@
         "options": [
           "The comprehensive study of human movement and physical activity",
           "The exclusive study of competitive athletic training",
-          "The clinical practice of orthopedics and joint surgery",
-          "The administrative management of fitness facilities"
+          "The clinical practice of orthopedic surgery",
+          "The commercial management of health clubs"
         ],
         "ans": 0,
         "feedback": "Kinesiology encompasses the holistic study of human movement across biophysical, behavioral, and socio-cultural dimensions."
+      }
+    ],
+    "ms": [
+      {
+        "q": "Select all core spheres of knowledge integrated within the discipline of Kinesiology:",
+        "options": [
+          "Biophysical foundations (e.g., exercise physiology, biomechanics)",
+          "Behavioral foundations (e.g., sport psychology, motor behavior)",
+          "Socio-cultural foundations (e.g., sport sociology, history)",
+          "Invasive surgical interventions"
+        ],
+        "ans": [
+          0,
+          1,
+          2
+        ],
+        "feedback": "Kinesiology integrates biophysical, behavioral, and socio-cultural foundations."
+      }
+    ],
+    "tf": [
+      {
+        "q": "Physical activity within kinesiology is defined strictly as involuntary muscular contractions and reflexes.",
+        "ans": false,
+        "feedback": "Physical activity is intentional, voluntary movement directed toward achieving an identifiable goal."
+      }
+    ],
+    "cloze": [
+      {
+        "q": "The three knowledge spheres in kinesiology are [biophysical], [behavioral], and [sociocultural].",
+        "feedback": "These three spheres form the multidisciplinary foundation of the field."
+      }
+    ],
+    "sa": [
+      {
+        "q": "How does the academic definition of physical activity differ from simple involuntary biological movement?",
+        "rubric": "Answers should note that physical activity is intentional, voluntary, and directed toward a purposeful goal, unlike involuntary twitches or biological reflexes."
       }
     ]
   }
