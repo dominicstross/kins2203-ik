@@ -2,51 +2,67 @@
   "p1": {
     "mcq": [
       {
+        "id": "p1_mcq_1",
         "q": "Which of the following best defines the academic discipline of Kinesiology?",
-        "options": [
+        "opts": [
           "The comprehensive study of human movement and physical activity",
-          "The exclusive study of competitive athletic training",
-          "The clinical practice of orthopedic surgery",
-          "The commercial management of health clubs"
+          "The exclusive study of competitive athletic conditioning",
+          "The surgical practice of musculoskeletal repair",
+          "The commercial management of health and fitness clubs"
         ],
-        "ans": 0,
-        "feedback": "Kinesiology encompasses the holistic study of human movement across biophysical, behavioral, and socio-cultural dimensions."
+        "correct": 0,
+        "rationale": "Kinesiology is the multidisciplinary field addressing human movement across biophysical, behavioral, and sociocultural perspectives."
       }
     ],
     "ms": [
       {
-        "q": "Select all core spheres of knowledge integrated within the discipline of Kinesiology:",
-        "options": [
+        "id": "p1_ms_1",
+        "q": "Which of the following represent core knowledge spheres integrated within the discipline of Kinesiology? (Select all that apply)",
+        "opts": [
           "Biophysical foundations (e.g., exercise physiology, biomechanics)",
-          "Behavioral foundations (e.g., sport psychology, motor behavior)",
-          "Socio-cultural foundations (e.g., sport sociology, history)",
-          "Invasive surgical interventions"
+          "Behavioral foundations (e.g., motor behavior, sport psychology)",
+          "Socio-cultural foundations (e.g., history and sociology of physical activity)",
+          "Invasive surgical pharmacology"
         ],
-        "ans": [
+        "correctArray": [
           0,
           1,
           2
         ],
-        "feedback": "Kinesiology integrates biophysical, behavioral, and socio-cultural foundations."
+        "rationale": "Kinesiology integrates biophysical, behavioral, and socio-cultural foundations. Surgical pharmacology is outside the discipline's core scope."
       }
     ],
     "tf": [
       {
-        "q": "Physical activity within kinesiology is defined strictly as involuntary muscular contractions and reflexes.",
+        "id": "p1_tf_1",
+        "q": "Within kinesiology, physical activity is defined as any involuntary biological muscle twitch or reflex.",
         "ans": false,
-        "feedback": "Physical activity is intentional, voluntary movement directed toward achieving an identifiable goal."
+        "feedback": "False. Physical activity is defined as intentional, voluntary movement directed toward an identifiable goal."
       }
     ],
     "cloze": [
       {
-        "q": "The three knowledge spheres in kinesiology are [biophysical], [behavioral], and [sociocultural].",
-        "feedback": "These three spheres form the multidisciplinary foundation of the field."
+        "id": "p1_clz_1",
+        "statement": "The academic discipline that investigates the science, art, and practice of human movement is known as **kinesiology**.",
+        "target": "kinesiology",
+        "optionsBank": [
+          "kinesiology",
+          "orthopedics",
+          "biomechanics",
+          "ergonomics"
+        ]
       }
     ],
     "sa": [
       {
-        "q": "How does the academic definition of physical activity differ from simple involuntary biological movement?",
-        "rubric": "Answers should note that physical activity is intentional, voluntary, and directed toward a purposeful goal, unlike involuntary twitches or biological reflexes."
+        "id": "p1_sa_1",
+        "q": "How does the academic definition of physical activity distinguish itself from simple involuntary biological movement or reflexes?",
+        "model": "Physical activity requires voluntary, intentional muscular movement directed toward achieving an identifiable goal, whereas involuntary biological reflexes or twitches lack intentionality and goal orientation.",
+        "criteria": [
+          "Identifies that physical activity requires intentional and voluntary muscular action.",
+          "Notes that movement must be directed toward an identifiable goal.",
+          "Distinguishes physical activity from non-purposeful or involuntary biological reflexes."
+        ]
       }
     ]
   }
