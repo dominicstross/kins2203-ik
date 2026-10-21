@@ -1,20 +1,24 @@
-{
-  "title": "Core Mechanisms & Dynamics",
-  "unit": "Unit 1",
+﻿{
+  "title": "The Nature of Human Movement & Sub-disciplines",
+  "unit": "Unit 1: The Scope of Kinesiology",
   "chapter": "01",
   "module": "1.1",
   "sections": [
     {
-      "heading": "Introduction to Foundational Principles",
-      "content": "This is a starter lesson template demonstrating the interactive learning architecture. Use the activities tab above to test interactive simulations."
+      "heading": "Defining Kinesiology and Physical Activity",
+      "content": "Kinesiology is the academic discipline focused on the art and science of human movement. Rather than viewing physical movement merely as mechanics or exercise, kinesiology investigates physical activity across experiential, theoretical, and professional spheres."
+    },
+    {
+      "heading": "The Core Sub-disciplines",
+      "content": "The discipline integrates three primary pillars: Biophysical (exercise physiology, biomechanics), Behavioral (motor behavior, sport and exercise psychology), and Socio-cultural (history, philosophy, and sociology of physical activity). Each sub-discipline provides unique conceptual lenses for evaluating athletic performance, clinical rehabilitation, and lifelong wellness."
     }
   ],
   "activities": [
     {
       "id": "act-01-1-1",
-      "title": "Foundational Interactive Simulator",
+      "title": "Sub-Discipline Continuum Explorer",
       "type": "sim",
-      "desc": "Starter interactive simulation exploring physiological dynamics and variable shifts.",
+      "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",
       "file": "content/ch01/activities/starter_simulation.html"
     }
   ]
