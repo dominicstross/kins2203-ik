@@ -1,0 +1,25 @@
+{
+  "courseCode": "KINS 0000",
+  "courseTitle": "Course Title Template",
+  "institution": "Southeastern University",
+  "description": "Interactive online modules, laboratory simulations, and conceptual mastery.",
+  "units": [
+    {
+      "unitTitle": "Unit 1: Foundations",
+      "unitTag": "Weeks 1-4",
+      "chapters": [
+        {
+          "num": "01",
+          "title": "Chapter 1: Foundational Principles",
+          "modules": [
+            {
+              "id": "1.1",
+              "title": "Core Mechanisms & Dynamics",
+              "href": "viewer.html?ch=01&mod=1.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Core Mechanisms & Dynamics",
+  "unit": "Unit 1",
+  "chapter": "01",
+  "module": "1.1",
+  "sections": [
+    {
+      "heading": "Introduction to Foundational Principles",
+      "content": "This is a starter lesson template demonstrating the interactive learning architecture. Use the activities tab above to test interactive simulations."
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-01-1-1",
+      "title": "Foundational Interactive Simulator",
+      "type": "sim",
+      "desc": "Starter interactive simulation exploring physiological dynamics and variable shifts.",
+      "file": "content/ch01/activities/starter_simulation.html"
+    }
+  ]
+}

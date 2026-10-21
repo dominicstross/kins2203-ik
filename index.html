@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KINS 4403 - Online Learning Modules | Southeastern University</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #17324d;
+      --primary-light: #234567;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --accent-bg: #eff6ff;
+      --slate-50: #f8fafc;
+      --slate-100: #f1f5f9;
+      --slate-200: #e2e8f0;
+      --slate-300: #cbd5e1;
+      --slate-400: #94a3b8;
+      --slate-500: #64748b;
+      --slate-600: #475569;
+      --slate-700: #334155;
+      --slate-800: #1e293b;
+      --slate-900: #0f172a;
+      --success: #15803d;
+      --success-bg: #dcfce7;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--slate-50);
+      color: var(--slate-800);
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+
+    /* Top Banner */
+    .top-bar {
+      background: linear-gradient(135deg, var(--primary) 0%, #0c1a29 100%);
+      color: #fff;
+      padding: 48px 24px;
+      text-align: center;
+      border-bottom: 4px solid var(--accent);
+      box-shadow: var(--shadow-md);
+    }
+    .top-bar-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .inst-pill {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      background: rgba(255, 255, 255, 0.12);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      margin-bottom: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .top-bar h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+    .top-bar p {
+      font-size: 1.1rem;
+      color: var(--slate-300);
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1100px;
+      margin: 36px auto 0;
+      padding: 0 20px;
+    }
+
+    .unit-section {
+      margin-bottom: 36px;
+    }
+    .unit-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--slate-200);
+      padding-bottom: 10px;
+      margin-bottom: 16px;
+    }
+    .unit-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .unit-tag {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--slate-500);
+    }
+
+    /* Chapter Accordion Styling */
+    details.chapter-accordion {
+      background: #fff;
+      border: 1px solid var(--slate-200);
+      border-radius: 12px;
+      margin-bottom: 14px;
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      transition: border-color 0.15s ease;
+    }
+    details.chapter-accordion:hover {
+      border-color: var(--slate-300);
+    }
+    details.chapter-accordion[open] {
+      border-color: var(--accent);
+      box-shadow: var(--shadow-md);
+    }
+
+    /* Summary / Clickable Header */
+    summary.chapter-summary {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 24px;
+      cursor: pointer;
+      user-select: none;
+      background: #fff;
+      transition: background 0.15s ease;
+    }
+    summary.chapter-summary::-webkit-details-marker {
+      display: none;
+    }
+    summary.chapter-summary:hover {
+      background: var(--slate-50);
+    }
+    details.chapter-accordion[open] summary.chapter-summary {
+      border-bottom: 1px solid var(--slate-100);
+      background: #fafcff;
+    }
+
+    .summary-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .chapter-badge {
+      background: var(--primary);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 5px 12px;
+      border-radius: 6px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .chapter-name {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--slate-800);
+    }
+
+    .summary-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .chapter-counts {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--slate-500);
+    }
+    .accordion-arrow {
+      font-size: 0.9rem;
+      color: var(--slate-400);
+      transition: transform 0.2s ease, color 0.15s ease;
+    }
+    details.chapter-accordion[open] .accordion-arrow {
+      transform: rotate(90deg);
+      color: var(--accent);
+    }
+
+    /* Accordion Body */
+    .accordion-content {
+      padding: 20px 24px 24px;
+      background: var(--slate-50);
+    }
+
+    /* Grid of Modules */
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 14px;
+    }
+
+    .mod-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid var(--slate-200);
+      border-radius: 8px;
+      padding: 16px;
+      background: #fff;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.15s ease-in-out;
+    }
+    .mod-card.active:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+    .mod-card.disabled {
+      background: var(--slate-100);
+      border-color: var(--slate-200);
+      cursor: not-allowed;
+      opacity: 0.75;
+    }
+
+    .mod-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .mod-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--accent);
+      background: var(--accent-bg);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .mod-card.disabled .mod-num {
+      color: var(--slate-500);
+      background: var(--slate-200);
+    }
+    .mod-status {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--slate-500);
+    }
+    .mod-status.ready {
+      color: var(--success);
+      background: var(--success-bg);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .mod-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--slate-800);
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .mod-arrow {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .mod-card.disabled .mod-arrow {
+      display: none;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--slate-400);
+      margin-top: 48px;
+    }
+  </style>
+
+<style>
+  .module-list { display: flex; flex-direction: column; gap: 8px; padding: 12px 16px; }
+  .module-card {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 16px; background: #fff; border: 1px solid var(--slate-200);
+    border-radius: 8px; text-decoration: none; color: var(--slate-800);
+    transition: all 0.15s ease;
+  }
+  .module-card:hover {
+    border-color: var(--accent); background: var(--accent-bg);
+    transform: translateX(4px);
+  }
+  .module-card-body { display: flex; align-items: center; gap: 12px; }
+  .module-id-badge {
+    background: var(--slate-100); color: var(--slate-700);
+    font-size: 0.75rem; font-weight: 700; padding: 4px 8px;
+    border-radius: 6px; font-family: 'JetBrains Mono', monospace;
+  }
+  .module-card:hover .module-id-badge { background: #dbeafe; color: var(--accent); }
+  .module-title-text { font-weight: 600; font-size: 0.95rem; }
+  .module-arrow { color: var(--slate-400); font-weight: bold; }
+  .module-card:hover .module-arrow { color: var(--accent); }
+  summary {
+    cursor: pointer; user-select: none; padding: 16px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-weight: 700; color: var(--slate-800); list-style: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  .summary-left { display: flex; align-items: center; gap: 10px; }
+  .module-count { font-size: 0.8rem; color: var(--slate-500); background: var(--slate-100); padding: 3px 8px; border-radius: 9999px; }
+  details[open] summary .chapter-chevron { transform: rotate(90deg); }
+  .chapter-chevron { display: inline-block; transition: transform 0.2s ease; font-size: 0.85rem; color: var(--slate-500); }
+</style>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="top-bar-inner">
+      <div id="courseInst" class="inst-pill">Southeastern University</div>
+      <h1 id="courseTitle">Exercise Science Learning Portal</h1>
+      <p id="courseDesc">Interactive online modules, laboratory simulations, and conceptual mastery.</p>
+    </div>
+  </header>
+
+  <main class="container" id="unitsContainer">
+    <div style="text-align: center; padding: 48px; color: var(--slate-500); font-weight: 500;">
+      Loading course curriculum...
+    </div>
+  </main>
+
+  <script>
+    async function loadCoursePortal() {
+      const container = document.getElementById("unitsContainer");
+      try {
+        const res = await fetch("content/manifest.json");
+        if (!res.ok) throw new Error("Status " + res.status);
+        const data = await res.json();
+
+        // Update header metadata
+        if (data.institution) document.getElementById("courseInst").textContent = data.institution;
+        if (data.courseTitle) document.getElementById("courseTitle").textContent = data.courseTitle;
+        if (data.description) document.getElementById("courseDesc").textContent = data.description;
+        if (data.courseCode) document.title = `${data.courseCode} - Course Portal`;
+
+        if (!data.units || !data.units.length) {
+          container.innerHTML = '<div style="padding:24px; text-align:center;">No course units found in manifest.</div>';
+          return;
+        }
+
+        container.innerHTML = "";
+
+        data.units.forEach((unit, uIdx) => {
+          const unitSec = document.createElement("section");
+          unitSec.className = "unit-section";
+
+          unitSec.innerHTML = `
+            <div class="unit-header">
+              <h2 class="unit-title">${unit.unitTitle || ("Unit " + (uIdx + 1))}</h2>
+              ${unit.unitTag ? `<span class="unit-tag">${unit.unitTag}</span>` : ""}
+            </div>
+            <div class="unit-chapters" id="unit-chapters-${uIdx}"></div>
+          `;
+
+          const chapContainer = unitSec.querySelector(`#unit-chapters-${uIdx}`);
+
+          (unit.chapters || []).forEach((ch, chIdx) => {
+            const details = document.createElement("details");
+            details.className = "chapter-accordion";
+            // Keep first chapter open by default
+            if (uIdx === 0 && chIdx === 0) details.open = true;
+
+            let modLinksHtml = "";
+            (ch.modules || []).forEach(m => {
+              const href = m.href || `viewer.html?ch=${ch.num}&mod=${m.id}`;
+              modLinksHtml += `
+                <a href="${href}" class="module-card">
+                  <div class="module-card-body">
+                    <span class="module-id-badge">${m.id || "Mod"}</span>
+                    <span class="module-title-text">${m.title || "Interactive Lesson"}</span>
+                  </div>
+                  <span class="module-arrow">&rarr;</span>
+                </a>
+              `;
+            });
+
+            details.innerHTML = `
+              <summary>
+                <div class="summary-left">
+                  <span class="chapter-chevron">&#9656;</span>
+                  <span class="chapter-name">${ch.title || ("Chapter " + ch.num)}</span>
+                </div>
+                <span class="module-count">${(ch.modules || []).length} Modules</span>
+              </summary>
+              <div class="chapter-content">
+                <div class="module-list">
+                  ${modLinksHtml || '<div style="padding:12px; color:var(--slate-400); font-size:0.9rem;">Modules in development.</div>'}
+                </div>
+              </div>
+            `;
+
+            chapContainer.appendChild(details);
+          });
+
+          container.appendChild(unitSec);
+        });
+
+      } catch (err) {
+        console.error("Portal render error:", err);
+        container.innerHTML = `
+          <div style="background:#fee2e2; border:1px solid #f87171; padding:24px; border-radius:8px; color:#991b1b; margin-top:20px; text-align:center;">
+            <h3>Failed to load course modules</h3>
+            <p style="margin-top:8px; font-size:0.9rem;">Could not load <code>content/manifest.json</code>. Ensure the local server is running.</p>
+          </div>
+        `;
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", loadCoursePortal);
+  </script>
+</body>
+</html>
