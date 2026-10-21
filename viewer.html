@@ -576,13 +576,15 @@
         console.warn("No quiz file found for this module.");
       }
 
-      if (!resContent.ok || !resQuiz.ok) throw new Error(`Could not load files for Ch ${currentCh}, Module ${currentMod}`);
-
-      moduleData = await resContent.json();
-      quizData = await resQuiz.json();
-
-      document.getElementById('moduleTitle').textContent = moduleData.meta.moduleTitle;
-      document.getElementById('courseTitle').textContent = moduleData.meta.course;
+        if (!resContent.ok) throw new Error(`Could not fetch content for Ch ${currentCh}, Module ${currentMod} (HTTP ${resContent.status})`);
+        moduleData = await resContent.json();
+        quizData = resQuiz.ok ? await resQuiz.json() : null;
+        const title = (moduleData.meta && moduleData.meta.moduleTitle) || moduleData.title || `Module ${currentMod}`;
+        const course = (moduleData.meta && moduleData.meta.course) || moduleData.course || moduleData.unit || 'KINS 2203';
+        const titleEl = document.getElementById('moduleTitle');
+        const courseEl = document.getElementById('courseTitle');
+        if (titleEl) titleEl.textContent = title;
+        if (courseEl) courseEl.textContent = course;
 
       buildPartPills();
       buildGlossary();
