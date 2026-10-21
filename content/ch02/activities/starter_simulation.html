@@ -60,21 +60,28 @@
       document.getElementById('durVal').textContent = label;
 
       let pc, glyc, ox, note;
+      
+      // Gastin (2001) calibrated continuous continuum equations
       if (s <= 10) {
-        pc = Math.max(90 - s * 3, 50);
-        glyc = Math.min(s * 4, 40);
-        ox = 100 - pc - glyc;
-        note = "<strong>Immediate Power:</strong> Intramuscular ATP and phosphocreatine (PCr) provide immediate energy without oxygen requirement. Rate of ATP turnover is maximal, but capacity is strictly limited.";
+        // 1-10s: Phosphagen dominates; glycolysis surges; oxidative baseline is always active (~3-10%)
+        pc = 85 - (s - 1) * 3.5;          // ~85% -> 53.5%
+        ox = 3 + (s - 1) * 0.9;           // ~3% -> 11.1%
+        glyc = 100 - pc - ox;            // ~12% -> 35.4%
+        note = "<strong>Immediate Power (Dimmer Switch Active):</strong> Intramuscular ATP-PCr turnover is maximal. Notice that oxidative phosphorylation is NEVER zero—mitochondrial respiration runs continuously from onset.";
       } else if (s <= 60) {
-        pc = Math.max(50 - (s - 10) * 1.5, 5);
-        glyc = Math.max(65 - (s - 30) * 0.5, 45);
-        ox = 100 - pc - glyc;
-        note = "<strong>Anaerobic Lactic Transition:</strong> Glycolytic breakdown of intramuscular glycogen dominates ATP resynthesis, resulting in elevated accumulation of hydrogen ions (H+) and lactate.";
+        // 10-60s: Glycolysis peaks (~50-55%); PCr depletes; aerobic ramps toward ~40-45%
+        const t = (s - 10) / 50;          // 0 to 1
+        pc = 53.5 * (1 - t) + 8 * t;      // 53.5% down to 8%
+        ox = 11.1 * (1 - t) + 45 * t;     // 11.1% up to 45%
+        glyc = 100 - pc - ox;            // peaks at ~47-50%
+        note = "<strong>Anaerobic-to-Aerobic Transition:</strong> Fast glycolysis provides rapid ATP turnover. As duration approaches 60 seconds, oxidative pathways accelerate to supply nearly half of total ATP.";
       } else {
-        pc = Math.max(5 - (s - 60) * 0.1, 1);
-        glyc = Math.max(45 - (s - 60) * 0.3, 10);
-        ox = 100 - pc - glyc;
-        note = "<strong>Oxidative Predominance:</strong> Beyond 75-90 seconds of continuous maximal exertion, aerobic mitochondrial phosphorylation becomes the primary pathway, metabolizing blood glucose and free fatty acids.";
+        // 60-180s: Aerobic crossover (>50% at ~75s) dominating prolonged work
+        const t = Math.min((s - 60) / 120, 1); // 0 to 1
+        pc = 8 * (1 - t) + 1 * t;         // 8% down to 1%
+        glyc = 47 * (1 - t) + 12 * t;     // 47% down to 12%
+        ox = 100 - pc - glyc;            // climbs from 45% up to 87%
+        note = "<strong>Oxidative Dominance:</strong> Beyond 75 seconds of maximal exertion, mitochondrial phosphorylation becomes the primary energy contributor, sparing finite anaerobic reserves.";
       }
 
       document.getElementById('bar-pc').style.width = pc + '%';
