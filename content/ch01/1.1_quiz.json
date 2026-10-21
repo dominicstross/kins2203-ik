@@ -44,13 +44,16 @@
       {
         "id": "p1_clz_1",
         "statement": "The academic discipline that investigates the science, art, and practice of human movement is known as **kinesiology**.",
-        "target": "kinesiology",
+        "targets": [
+          "kinesiology"
+        ],
         "optionsBank": [
           "kinesiology",
           "orthopedics",
           "biomechanics",
           "ergonomics"
-        ]
+        ],
+        "hint": "Think of the overarching academic discipline rather than a specific sub-discipline."
       }
     ],
     "sa": [
