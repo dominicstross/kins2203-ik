@@ -1,0 +1,17 @@
+{
+  "p1": {
+    "mcq": [
+      {
+        "q": "Which of the following best defines the academic discipline of Kinesiology?",
+        "options": [
+          "The comprehensive study of human movement and physical activity",
+          "The exclusive study of competitive athletic training",
+          "The clinical practice of orthopedics and joint surgery",
+          "The administrative management of fitness facilities"
+        ],
+        "ans": 0,
+        "feedback": "Kinesiology encompasses the holistic study of human movement across biophysical, behavioral, and socio-cultural dimensions."
+      }
+    ]
+  }
+}

@@ -1,16 +1,25 @@
-﻿{
-  "title": "The Nature of Human Movement & Sub-disciplines",
-  "unit": "Unit 1: The Scope of Kinesiology",
-  "chapter": "01",
-  "module": "1.1",
-  "sections": [
+{
+  "meta": {
+    "course": "KINS 2203: Introduction to Kinesiology",
+    "moduleTitle": "1.1 The Nature of Human Movement & Sub-disciplines",
+    "chapter": "01",
+    "module": "1.1"
+  },
+  "pages": [
     {
-      "heading": "Defining Kinesiology and Physical Activity",
-      "content": "Kinesiology is the academic discipline focused on the art and science of human movement. Rather than viewing physical movement merely as mechanics or exercise, kinesiology investigates physical activity across experiential, theoretical, and professional spheres."
+      "id": "p1",
+      "title": "Defining Kinesiology",
+      "html": "<h3>Defining Kinesiology and Physical Activity</h3><p>Kinesiology is the academic discipline focused on the art and science of human movement. Rather than viewing physical movement merely as mechanics or exercise, kinesiology investigates physical activity across experiential, theoretical, and professional spheres.</p><h3>The Core Sub-disciplines</h3><p>The discipline integrates three primary pillars: Biophysical (exercise physiology, biomechanics), Behavioral (motor behavior, sport and exercise psychology), and Socio-cultural (history, philosophy, and sociology of physical activity).</p>"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Kinesiology",
+      "def": "The academic discipline that studies physical activity and human movement across physiological, mechanical, and behavioral dimensions."
     },
     {
-      "heading": "The Core Sub-disciplines",
-      "content": "The discipline integrates three primary pillars: Biophysical (exercise physiology, biomechanics), Behavioral (motor behavior, sport and exercise psychology), and Socio-cultural (history, philosophy, and sociology of physical activity). Each sub-discipline provides unique conceptual lenses for evaluating athletic performance, clinical rehabilitation, and lifelong wellness."
+      "term": "Physical Activity",
+      "def": "Intentional, voluntary movement directed toward achieving an identifiable goal."
     }
   ],
   "activities": [
