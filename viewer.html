@@ -557,10 +557,24 @@
 
     try {
       const cacheBust = Date.now();
-      const [resContent, resQuiz] = await Promise.all([
-        fetch(`content/ch${currentCh}/${currentMod}_content.json?t=${cacheBust}`),
-        fetch(`content/ch${currentCh}/${currentMod}_quiz.json?t=${cacheBust}`)
-      ]);
+      // Normalize ch format to padded 2-digit if folder is padded (e.g., '1' -> '01')
+      const chPadded = currentCh.toString().padStart(2, '0');
+      let resContent = await fetch(`content/ch${chPadded}/${currentMod}_content.json?t=${cacheBust}`);
+      if (!resContent.ok) {
+        // Fallback to unpadded ch if padded was not found
+        resContent = await fetch(`content/ch${currentCh}/${currentMod}_content.json?t=${cacheBust}`);
+      }
+
+      // Quiz is optional - don't let a missing quiz block the lesson content
+      let resQuiz = { ok: false };
+      try {
+        resQuiz = await fetch(`content/ch${chPadded}/${currentMod}_quiz.json?t=${cacheBust}`);
+        if (!resQuiz.ok) {
+          resQuiz = await fetch(`content/ch${currentCh}/${currentMod}_quiz.json?t=${cacheBust}`);
+        }
+      } catch (e) {
+        console.warn("No quiz file found for this module.");
+      }
 
       if (!resContent.ok || !resQuiz.ok) throw new Error(`Could not load files for Ch ${currentCh}, Module ${currentMod}`);
 
