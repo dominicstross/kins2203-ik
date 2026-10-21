@@ -8,7 +8,7 @@
           "The comprehensive study of human movement and physical activity",
           "The exclusive study of competitive athletic conditioning",
           "The surgical practice of musculoskeletal repair",
-          "The commercial management of health and fitness clubs"
+          "The commercial management of health clubs"
         ],
         "correct": 0,
         "rationale": "Kinesiology is the multidisciplinary field addressing human movement across biophysical, behavioral, and sociocultural perspectives."
@@ -17,27 +17,27 @@
     "ms": [
       {
         "id": "p1_ms_1",
-        "q": "Which of the following represent core knowledge spheres integrated within the discipline of Kinesiology? (Select all that apply)",
+        "q": "Which of the following domains fall within the primary scope of kinesiology education? (Select all that apply)",
         "opts": [
-          "Biophysical foundations (e.g., exercise physiology, biomechanics)",
-          "Behavioral foundations (e.g., motor behavior, sport psychology)",
-          "Socio-cultural foundations (e.g., history and sociology of physical activity)",
-          "Invasive surgical pharmacology"
+          "Biophysical foundations",
+          "Behavioral dynamics",
+          "Sociocultural context",
+          "Invasive orthopedic surgery"
         ],
         "correctArray": [
           0,
           1,
           2
         ],
-        "rationale": "Kinesiology integrates biophysical, behavioral, and socio-cultural foundations. Surgical pharmacology is outside the discipline's core scope."
+        "rationale": "Kinesiology integrates biophysical, behavioral, and socio-cultural domains."
       }
     ],
     "tf": [
       {
         "id": "p1_tf_1",
-        "q": "Within kinesiology, physical activity is defined as any involuntary biological muscle twitch or reflex.",
-        "ans": false,
-        "feedback": "False. Physical activity is defined as intentional, voluntary movement directed toward an identifiable goal."
+        "q": "Kinesiology studies movement across theoretical, experiential, and professional spheres.",
+        "ans": true,
+        "feedback": "True. The holistic study of kinesiology bridges theory, personal movement experience, and professional practice."
       }
     ],
     "cloze": [
@@ -53,18 +53,18 @@
           "biomechanics",
           "ergonomics"
         ],
-        "hint": "Think of the overarching academic discipline rather than a specific sub-discipline."
+        "hint": "Check the reading overview for the key foundational term."
       }
     ],
     "sa": [
       {
         "id": "p1_sa_1",
-        "q": "How does the academic definition of physical activity distinguish itself from simple involuntary biological movement or reflexes?",
-        "model": "Physical activity requires voluntary, intentional muscular movement directed toward achieving an identifiable goal, whereas involuntary biological reflexes or twitches lack intentionality and goal orientation.",
+        "q": "Briefly describe how kinesiology integrates multiple sub-disciplines to evaluate human movement.",
+        "model": "Kinesiology synthesizes biophysical disciplines (exercise physiology, biomechanics) with behavioral disciplines (motor control, sport psychology) and socio-cultural perspectives to deliver a comprehensive analysis of movement in health, performance, and rehabilitation.",
         "criteria": [
-          "Identifies that physical activity requires intentional and voluntary muscular action.",
-          "Notes that movement must be directed toward an identifiable goal.",
-          "Distinguishes physical activity from non-purposeful or involuntary biological reflexes."
+          "Mentions biophysical perspectives (physiology/biomechanics).",
+          "Mentions behavioral or psychological perspectives.",
+          "Identifies application to human health, performance, or clinical settings."
         ]
       }
     ]

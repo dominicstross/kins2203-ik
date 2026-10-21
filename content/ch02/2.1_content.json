@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "course": "KINS 2203: Introduction to Kinesiology",
+    "moduleTitle": "2.1 Basic Neuromechanics & Energy Systems",
+    "chapter": "02",
+    "module": "2.1"
+  },
+  "activities": [
+    {
+      "id": "act-starter",
+      "title": "Sub-Discipline Continuum Explorer",
+      "type": "sim",
+      "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",
+      "file": "content/ch01/activities/starter_simulation.html"
+    }
+  ],
+  "pages": [
+    {
+      "id": "p1",
+      "title": "2.1 Basic Neuromechanics & Energy Systems",
+      "sampleCounts": {
+        "mcq": 1,
+        "ms": 1,
+        "tf": 1,
+        "cloze": 1,
+        "sa": 1
+      },
+      "readingHtml": "<h3>Neuromechanical Foundations</h3><p>Human movement requires the coordinated interaction of the nervous system and the musculoskeletal system. Skeletal muscles act as active motors pulling on bony levers across joint axes.</p><h3>Bioenergetic Systems</h3><p>Muscular contraction is powered by ATP hydrolysis via three interconnected energy systems:</p><ul><li><strong>ATP-PCr:</strong> Immediate high-power substrate for short-duration maximal efforts (< 10 seconds).</li><li><strong>Glycolytic:</strong> Anaerobic degradation of glucose producing rapid ATP and lactate (10–120 seconds).</li><li><strong>Oxidative / Aerobic:</strong> Mitochondrial respiration utilizing carbohydrates and fats for prolonged, sustained work.</li></ul>",
+      "activities": [
+        {
+          "id": "act-starter",
+          "title": "Sub-Discipline Continuum Explorer",
+          "type": "sim",
+          "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",
+          "file": "content/ch01/activities/starter_simulation.html"
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Kinesiology",
+      "def": "The academic discipline that studies human movement and physical activity."
+    },
+    {
+      "term": "Physical Activity",
+      "def": "Intentional, voluntary movement directed toward achieving an identifiable goal."
+    }
+  ]
+}

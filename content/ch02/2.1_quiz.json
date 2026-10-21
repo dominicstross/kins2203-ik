@@ -1,0 +1,72 @@
+{
+  "p1": {
+    "mcq": [
+      {
+        "id": "p1_mcq_1",
+        "q": "Which metabolic pathway provides the immediate energy reserve for maximal muscular contractions lasting under 10 seconds?",
+        "opts": [
+          "Phosphagen / ATP-PCr System",
+          "Mitochondrial Beta-Oxidation",
+          "Slow Glycolytic Cycle",
+          "Electron Transport Chain"
+        ],
+        "correct": 0,
+        "rationale": "The ATP-PCr pathway relies on stored intramuscular phosphocreatine to rapidly regenerate ATP during immediate, maximal burst efforts."
+      }
+    ],
+    "ms": [
+      {
+        "id": "p1_ms_1",
+        "q": "Which of the following domains fall within the primary scope of kinesiology education? (Select all that apply)",
+        "opts": [
+          "Biophysical foundations",
+          "Behavioral dynamics",
+          "Sociocultural context",
+          "Invasive orthopedic surgery"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Kinesiology integrates biophysical, behavioral, and socio-cultural domains."
+      }
+    ],
+    "tf": [
+      {
+        "id": "p1_tf_1",
+        "q": "Kinesiology studies movement across theoretical, experiential, and professional spheres.",
+        "ans": true,
+        "feedback": "True. The holistic study of kinesiology bridges theory, personal movement experience, and professional practice."
+      }
+    ],
+    "cloze": [
+      {
+        "id": "p1_clz_1",
+        "statement": "The energy pathway capable of generating rapid ATP during high-intensity efforts lasting up to two minutes without immediate oxygen is **glycolysis**.",
+        "targets": [
+          "glycolysis"
+        ],
+        "optionsBank": [
+          "glycolysis",
+          "beta-oxidation",
+          "citric acid cycle",
+          "gluconeogenesis"
+        ],
+        "hint": "Check the reading overview for the key foundational term."
+      }
+    ],
+    "sa": [
+      {
+        "id": "p1_sa_1",
+        "q": "Briefly describe how kinesiology integrates multiple sub-disciplines to evaluate human movement.",
+        "model": "Kinesiology synthesizes biophysical disciplines (exercise physiology, biomechanics) with behavioral disciplines (motor control, sport psychology) and socio-cultural perspectives to deliver a comprehensive analysis of movement in health, performance, and rehabilitation.",
+        "criteria": [
+          "Mentions biophysical perspectives (physiology/biomechanics).",
+          "Mentions behavioral or psychological perspectives.",
+          "Identifies application to human health, performance, or clinical settings."
+        ]
+      }
+    ]
+  }
+}

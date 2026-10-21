@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "course": "KINS 2203: Introduction to Kinesiology",
+    "moduleTitle": "3.1 Professional Pathways in Allied Health & Human Performance",
+    "chapter": "03",
+    "module": "3.1"
+  },
+  "activities": [
+    {
+      "id": "act-starter",
+      "title": "Sub-Discipline Continuum Explorer",
+      "type": "sim",
+      "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",
+      "file": "content/ch01/activities/starter_simulation.html"
+    }
+  ],
+  "pages": [
+    {
+      "id": "p1",
+      "title": "3.1 Professional Pathways in Allied Health & Human Performance",
+      "sampleCounts": {
+        "mcq": 1,
+        "ms": 1,
+        "tf": 1,
+        "cloze": 1,
+        "sa": 1
+      },
+      "readingHtml": "<h3>Allied Health & Clinical Careers</h3><p>Undergraduate kinesiology coursework serves as the primary academic prerequisite track for graduate education in physical therapy (DPT), occupational therapy (OTD), physician assistant (PA) studies, and athletic training (MSAT).</p><h3>Performance and Wellness Careers</h3><p>Outside clinical medicine, kinesiologists work in strength and conditioning (CSCS), clinical exercise physiology, tactical human performance, and corporate health management.</p>",
+      "activities": [
+        {
+          "id": "act-starter",
+          "title": "Sub-Discipline Continuum Explorer",
+          "type": "sim",
+          "desc": "Interactive decision matrix mapping clinical, performance, and behavioral cases to core kinesiology sub-disciplines.",
+          "file": "content/ch01/activities/starter_simulation.html"
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Kinesiology",
+      "def": "The academic discipline that studies human movement and physical activity."
+    },
+    {
+      "term": "Physical Activity",
+      "def": "Intentional, voluntary movement directed toward achieving an identifiable goal."
+    }
+  ]
+}
