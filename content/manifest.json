@@ -15,9 +15,13 @@
             {
               "id": "1.1",
               "title": "The Nature of Human Movement & Sub-disciplines",
-              "href": "viewer.html?ch=01&mod=1.1"
+              "href": "viewer.html?ch=01&mod=1.1",
+              "status": "Under Development",
+              "locked": true
             }
-          ]
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
         }
       ]
     },
@@ -32,9 +36,13 @@
             {
               "id": "2.1",
               "title": "Basic Neuromechanics & Energy Systems",
-              "href": "viewer.html?ch=02&mod=2.1"
+              "href": "viewer.html?ch=02&mod=2.1",
+              "status": "Under Development",
+              "locked": true
             }
-          ]
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
         },
         {
           "num": "07",
@@ -42,25 +50,37 @@
           "modules": [
             {
               "id": "07.1",
-              "title": "Chemistry of Energy Production"
+              "title": "Chemistry of Energy Production",
+              "status": "Active",
+              "locked": false
             },
             {
               "id": "07.2",
-              "title": "Immediate Energy – Phosphagen System"
+              "title": "Immediate Energy – Phosphagen System",
+              "status": "Active",
+              "locked": false
             },
             {
               "id": "07.3",
-              "title": "Short-term Energy – Glycolytic System"
+              "title": "Short-term Energy – Glycolytic System",
+              "status": "Active",
+              "locked": false
             },
             {
               "id": "07.4",
-              "title": "Long-term Energy – Oxidative System"
+              "title": "Long-term Energy – Oxidative System",
+              "status": "Active",
+              "locked": false
             },
             {
               "id": "07.5",
-              "title": "Energy Systems Interaction"
+              "title": "Energy Systems Interaction",
+              "status": "Active",
+              "locked": false
             }
-          ]
+          ],
+          "status": "Active",
+          "badge": "Active"
         },
         {
           "num": "09",
@@ -68,33 +88,49 @@
           "modules": [
             {
               "id": "9.1",
-              "title": "Types of Study"
+              "title": "Types of Study",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "9.2",
-              "title": "Anatomical Directions"
+              "title": "Anatomical Directions",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "9.3",
-              "title": "Motion Concepts and Levers"
+              "title": "Motion Concepts and Levers",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "9.4",
-              "title": "Newton's Laws of Motion"
+              "title": "Newton's Laws of Motion",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "9.5",
-              "title": "Fluid Dynamics"
+              "title": "Fluid Dynamics",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "9.6",
-              "title": "Body Balance and Stability Control"
+              "title": "Body Balance and Stability Control",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "9.7",
-              "title": "Qualitative Analysis of Human Motion"
+              "title": "Qualitative Analysis of Human Motion",
+              "status": "Under Development",
+              "locked": true
             }
-          ]
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
         }
       ]
     },
@@ -109,9 +145,13 @@
             {
               "id": "3.1",
               "title": "Pre-PT, Pre-OT, and Clinical Exercise Pathways",
-              "href": "viewer.html?ch=03&mod=3.1"
+              "href": "viewer.html?ch=03&mod=3.1",
+              "status": "Under Development",
+              "locked": true
             }
-          ]
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
         },
         {
           "num": "12",
@@ -119,25 +159,37 @@
           "modules": [
             {
               "id": "12.1",
-              "title": "Conditions for Skill Acquisition"
+              "title": "Conditions for Skill Acquisition",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "12.2",
-              "title": "Stages of Learning a Skill"
+              "title": "Stages of Learning a Skill",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "12.3",
-              "title": "Feedback for Skill Learning"
+              "title": "Feedback for Skill Learning",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "12.4",
-              "title": "Transfer in Motor Learning"
+              "title": "Transfer in Motor Learning",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "12.5",
-              "title": "Designing Effective Practice"
+              "title": "Designing Effective Practice",
+              "status": "Under Development",
+              "locked": true
             }
-          ]
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
         }
       ]
     },
@@ -150,37 +202,55 @@
           "modules": [
             {
               "id": "15.1",
-              "title": "FITT Principle"
+              "title": "FITT Principle",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "15.2",
-              "title": "Training Principles"
+              "title": "Training Principles",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "15.3",
-              "title": "Components of Physical Fitness – Muscular Strength"
+              "title": "Components of Physical Fitness – Muscular Strength",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "15.4",
-              "title": "Components of Physical Fitness – Muscular Endurance"
+              "title": "Components of Physical Fitness – Muscular Endurance",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "15.5",
-              "title": "Components of Physical Fitness – Cardiorespiratory Endurance"
+              "title": "Components of Physical Fitness – Cardiorespiratory Endurance",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "15.6",
-              "title": "Components of Physical Fitness – Flexibility, Body Composition"
+              "title": "Components of Physical Fitness – Flexibility, Body Composition",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "15.7",
-              "title": "Components of Motor Ability"
+              "title": "Components of Motor Ability",
+              "status": "Under Development",
+              "locked": true
             },
             {
               "id": "15.8",
-              "title": "Fitness Training Activities"
+              "title": "Fitness Training Activities",
+              "status": "Under Development",
+              "locked": true
             }
-          ]
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
         }
       ]
     }

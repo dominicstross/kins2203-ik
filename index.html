@@ -294,6 +294,41 @@
       color: var(--slate-400);
       margin-top: 48px;
     }
+  
+    .status-badge-locked {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 8px;
+      border-radius: 9999px;
+      background: #f1f5f9;
+      color: #64748b;
+      border: 1px solid #cbd5e1;
+      margin-left: auto;
+      margin-right: 12px;
+    }
+    .status-badge-active {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 8px;
+      border-radius: 9999px;
+      background: #ecfdf5;
+      color: #059669;
+      border: 1px solid #a7f3d0;
+      margin-left: auto;
+      margin-right: 12px;
+    }
+    .module-card.locked-card {
+      opacity: 0.55;
+      pointer-events: none;
+      cursor: not-allowed;
+      border-style: dashed;
+      background: #f8fafc;
+    }
+
   </style>
 
 <style>
@@ -328,7 +363,42 @@
   .module-count { font-size: 0.8rem; color: var(--slate-500); background: var(--slate-100); padding: 3px 8px; border-radius: 9999px; }
   details[open] summary .chapter-chevron { transform: rotate(90deg); }
   .chapter-chevron { display: inline-block; transition: transform 0.2s ease; font-size: 0.85rem; color: var(--slate-500); }
-</style>
+
+    .status-badge-locked {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 8px;
+      border-radius: 9999px;
+      background: #f1f5f9;
+      color: #64748b;
+      border: 1px solid #cbd5e1;
+      margin-left: auto;
+      margin-right: 12px;
+    }
+    .status-badge-active {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 8px;
+      border-radius: 9999px;
+      background: #ecfdf5;
+      color: #059669;
+      border: 1px solid #a7f3d0;
+      margin-left: auto;
+      margin-right: 12px;
+    }
+    .module-card.locked-card {
+      opacity: 0.55;
+      pointer-events: none;
+      cursor: not-allowed;
+      border-style: dashed;
+      background: #f8fafc;
+    }
+
+  </style>
 </head>
 <body>
   <header class="top-bar">
@@ -390,7 +460,7 @@
             (ch.modules || []).forEach(m => {
               const href = m.href || `viewer.html?ch=${ch.num}&mod=${m.id}`;
               modLinksHtml += `
-                <a href="${href}" class="module-card">
+                <a href="${m.locked ? 'javascript:void(0)' : href}" class="module-card ${m.locked ? 'locked-card' : ''}">
                   <div class="module-card-body">
                     <span class="module-id-badge">${m.id || "Mod"}</span>
                     <span class="module-title-text">${m.title || "Interactive Lesson"}</span>
