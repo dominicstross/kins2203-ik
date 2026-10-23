@@ -51,7 +51,7 @@
       },
       {
         "id": 5,
-        "q": "What is the primary physiological role of molecular oxygen (\\(\\text{O}_2\\)) in the electron transport chain?",
+        "q": "What is the primary physiological role of molecular oxygen (O₂) in the electron transport chain?",
         "opts": [
           "To act as the terminal electron acceptor, forming water",
           "To directly phosphorylate ADP into ATP",
@@ -105,7 +105,7 @@
         "opts": [
           "2 molecules of ATP",
           "6 molecules of NADH",
-          "2 molecules of FADH2",
+          "2 molecules of FADH₂",
           "4 molecules of CO2"
         ],
         "correctArray": [
@@ -114,7 +114,7 @@
           2,
           3
         ],
-        "rationale": "Two turns of the Krebs cycle yield 2 ATP, 6 NADH, 2 FADH2, and 4 CO2 molecules from one mole of glucose (2 acetyl-CoA)."
+        "rationale": "Two turns of the Krebs cycle yield 2 ATP, 6 NADH, 2 FADH₂, and 4 CO2 molecules from one mole of glucose (2 acetyl-CoA)."
       },
       {
         "id": 2,
@@ -153,7 +153,7 @@
         "q": "Which reduced coenzymes carry high-energy electrons from metabolic pathways to the electron transport chain? (Select all that apply)",
         "opts": [
           "NADH",
-          "FADH2",
+          "FADH₂",
           "Creatine Phosphate",
           "Lactic Acid"
         ],
@@ -161,7 +161,7 @@
           0,
           1
         ],
-        "rationale": "NADH and FADH2 are the primary electron carrier molecules produced during glycolysis, pyruvate conversion, and the Krebs cycle that feed into the ETC."
+        "rationale": "NADH and FADH₂ are the primary electron carrier molecules produced during glycolysis, pyruvate conversion, and the Krebs cycle that feed into the ETC."
       }
     ],
     "tf": [
@@ -173,9 +173,9 @@
       },
       {
         "id": 2,
-        "q": "Each molecule of FADH2 entering the electron transport chain yields more ATP than a molecule of NADH.",
-        "ans": false,
-        "feedback": "False. FADH2 enters the ETC at Complex II, bypassing the first proton pump, yielding ~1.5 to 2 ATP compared to ~2.5 to 3 ATP for NADH."
+        "q": "Each molecule of FADH₂ entering the electron transport chain yields more ATP than a molecule of NADH.",
+        "ans": true,
+        "feedback": "False. FADH₂ enters the ETC at Complex II, bypassing the first proton pump, yielding ~1.5 to 2 ATP compared to ~2.5 to 3 ATP for NADH."
       },
       {
         "id": 3,
@@ -186,7 +186,7 @@
       {
         "id": 4,
         "q": "Complete aerobic oxidation of one mole of glycogen yields less ATP than complete oxidation of one mole of free blood glucose.",
-        "ans": false,
+        "ans": true,
         "feedback": "False. Muscle glycogen yields 37 to 39 ATP per mole, which is 1 ATP higher than free blood glucose (36 to 38 ATP) because glycogen bypasses the hexokinase step."
       }
     ],
@@ -228,17 +228,17 @@
       {
         "id": 1,
         "prompt": "Trace the aerobic path of pyruvate from the sarcoplasm through complete oxidation in the mitochondria, highlighting key pathways and end-products.",
-        "model": "Under aerobic conditions, pyruvate enters the mitochondrial matrix where pyruvate dehydrogenase converts it into acetyl-CoA, producing NADH and CO2. Acetyl-CoA combines with oxaloacetate to enter the Krebs cycle, yielding ATP, NADH, FADH2, and CO2. The electron carriers NADH and FADH2 transfer high-energy electrons to the electron transport chain on the inner mitochondrial membrane, pumping protons to establish a gradient. Protons flow back through ATP synthase to resynthesize ATP, while oxygen acts as the terminal electron acceptor to form water.",
+        "model": "Under aerobic conditions, pyruvate enters the mitochondrial matrix where pyruvate dehydrogenase converts it into acetyl-CoA, producing NADH and CO2. Acetyl-CoA combines with oxaloacetate to enter the Krebs cycle, yielding ATP, NADH, FADH₂, and CO2. The electron carriers NADH and FADH₂ transfer high-energy electrons to the electron transport chain on the inner mitochondrial membrane, pumping protons to establish a gradient. Protons flow back through ATP synthase to resynthesize ATP, while oxygen acts as the terminal electron acceptor to form water.",
         "criteria": [
           "Identify pyruvate conversion to acetyl-CoA in the mitochondrial matrix by pyruvate dehydrogenase.",
-          "Describe acetyl-CoA entry into the Krebs cycle producing CO2, ATP, NADH, and FADH2.",
+          "Describe acetyl-CoA entry into the Krebs cycle producing CO2, ATP, NADH, and FADH₂.",
           "Explain electron transport chain function, proton gradient generation, ATP synthase action, and oxygen acting as terminal electron acceptor."
         ]
       },
       {
         "id": 2,
         "prompt": "Compare the total net ATP yield of complete aerobic carbohydrate oxidation with anaerobic glycolysis, explaining the mechanism behind this vast difference.",
-        "model": "Complete aerobic oxidation of blood glucose yields 36 to 38 net ATP (37 to 39 for glycogen), whereas anaerobic glycolysis yields only 2 net ATP (3 for glycogen). This vast difference exists because anaerobic glycolysis stops at pyruvate/lactate in the sarcoplasm, extracting only a fraction of stored energy. Aerobic metabolism transports pyruvate into the mitochondria, where the Krebs cycle and oxidative phosphorylation via the electron transport chain harvest high-energy electrons from NADH and FADH2 to produce large quantities of ATP through chemiosmosis.",
+        "model": "Complete aerobic oxidation of blood glucose yields 36 to 38 net ATP (37 to 39 for glycogen), whereas anaerobic glycolysis yields only 2 net ATP (3 for glycogen). This vast difference exists because anaerobic glycolysis stops at pyruvate/lactate in the sarcoplasm, extracting only a fraction of stored energy. Aerobic metabolism transports pyruvate into the mitochondria, where the Krebs cycle and oxidative phosphorylation via the electron transport chain harvest high-energy electrons from NADH and FADH₂ to produce large quantities of ATP through chemiosmosis.",
         "criteria": [
           "State the net ATP yield for aerobic oxidation (36-38 ATP for glucose; 37-39 for glycogen) vs. anaerobic glycolysis (2-3 ATP).",
           "Explain that anaerobic glycolysis extracts minimal energy because it ends at pyruvate/lactate in sarcoplasm.",
@@ -313,13 +313,13 @@
         "id": 6,
         "q": "What metric represents the gold-standard measure of cardiorespiratory fitness and maximal rate of oxygen utilization?",
         "opts": [
-          "VO2max (Maximal Aerobic Power)",
+          "V̇O₂max (Maximal Aerobic Power)",
           "EPOC",
           "Anaerobic Capacity",
           "Lactate Threshold"
         ],
         "correct": 0,
-        "rationale": "VO2max defines the maximum rate at which the cardiorespiratory and muscular systems can transport and utilize molecular oxygen during exhaustive exercise."
+        "rationale": "V̇O₂max defines the maximum rate at which the cardiorespiratory and muscular systems can transport and utilize molecular oxygen during exhaustive exercise."
       },
       {
         "id": 7,
@@ -335,7 +335,7 @@
       },
       {
         "id": 8,
-        "q": "By approximately how much can chronic endurance conditioning increase an individual's maximal oxygen uptake (VO2max)?",
+        "q": "By approximately how much can chronic endurance conditioning increase an individual's maximal oxygen uptake (V̇O₂max)?",
         "opts": [
           "15% to 25%",
           "100% to 200%",
@@ -343,7 +343,7 @@
           "500%"
         ],
         "correct": 0,
-        "rationale": "Chronic endurance conditioning typically increases VO2max by 15% to 25%, depending on initial fitness and training volume."
+        "rationale": "Chronic endurance conditioning typically increases V̇O₂max by 15% to 25%, depending on initial fitness and training volume."
       }
     ],
     "ms": [
@@ -361,7 +361,7 @@
           1,
           2
         ],
-        "rationale": "EPOC maintains elevated VO2 to restore CP stores, re-oxygenate blood/myoglobin, clear lactate, and support elevated heart rate and temperature. It does not immediately double cell count."
+        "rationale": "EPOC maintains elevated V̇O₂ to restore CP stores, re-oxygenate blood/myoglobin, clear lactate, and support elevated heart rate and temperature. It does not immediately double cell count."
       },
       {
         "id": 2,
@@ -416,7 +416,7 @@
       {
         "id": 1,
         "q": "Beta-oxidation takes place in the sarcoplasm and does not require mitochondria.",
-        "ans": false,
+        "ans": true,
         "feedback": "False. Beta-oxidation takes place exclusively within the mitochondrial matrix."
       },
       {
@@ -428,8 +428,8 @@
       {
         "id": 3,
         "q": "Oxygen deficit refers to the elevated oxygen consumption observed after exercise has completely ceased.",
-        "ans": false,
-        "feedback": "False. The elevation in VO2 after exercise is EPOC; oxygen deficit is the initial lag in VO2 at exercise onset."
+        "ans": true,
+        "feedback": "False. The elevation in V̇O₂ after exercise is EPOC; oxygen deficit is the initial lag in V̇O₂ at exercise onset."
       },
       {
         "id": 4,
@@ -465,7 +465,7 @@
         "optionsBank": [
           "oxygen deficit",
           "EPOC",
-          "VO2max",
+          "V̇O₂max",
           "lactate threshold",
           "glycogen deficit"
         ],
@@ -476,7 +476,7 @@
       {
         "id": 1,
         "prompt": "Explain the concept of the glycogen-sparing effect in endurance-trained athletes, describing the underlying physiological adaptations.",
-        "model": "The glycogen-sparing effect is an endurance adaptation where trained athletes burn a higher proportion of fats and a lower proportion of carbohydrates at submaximal workloads. This adaptation is driven by mitochondrial biogenesis (50-100% increase in mitochondria), increased capillary density surrounding Type I fibers, and upregulation of lipolytic and beta-oxidation enzymes (e.g., CPT, HSL). By oxidizing more free fatty acids at workloads like 65% VO2max, athletes preserve limited muscle glycogen reserves for late-race surges or high-intensity finishes.",
+        "model": "The glycogen-sparing effect is an endurance adaptation where trained athletes burn a higher proportion of fats and a lower proportion of carbohydrates at submaximal workloads. This adaptation is driven by mitochondrial biogenesis (50-100% increase in mitochondria), increased capillary density surrounding Type I fibers, and upregulation of lipolytic and beta-oxidation enzymes (e.g., CPT, HSL). By oxidizing more free fatty acids at workloads like 65% V̇O₂max, athletes preserve limited muscle glycogen reserves for late-race surges or high-intensity finishes.",
         "criteria": [
           "Define the glycogen-sparing effect (increased fat oxidation, reduced glycogen utilization at submaximal exercise).",
           "List underlying adaptations (mitochondrial biogenesis, increased capillarity, upregulated beta-oxidation enzymes).",
@@ -488,8 +488,8 @@
         "prompt": "Differentiate between oxygen deficit and EPOC, detailing the physiological causes of each during an exercise bout.",
         "model": "Oxygen deficit is the lag in oxygen consumption during the first 1 to 3 minutes of exercise, where oxygen delivery cannot immediately meet metabolic demand, forcing reliance on anaerobic ATP-CP and glycolytic pathways. EPOC (Excess Post-exercise Oxygen Consumption) is the sustained elevation of oxygen consumption above resting levels after exercise ceases. EPOC is caused by the physiological demands of restoring depleted ATP-CP stores, re-oxygenating blood hemoglobin and muscle myoglobin, clearing accumulated lactate, and supporting elevated body temperature and cardiorespiratory circulation.",
         "criteria": [
-          "Define oxygen deficit as the initial lag in VO2 met by anaerobic systems at exercise onset.",
-          "Define EPOC as elevated recovery VO2 above baseline following exercise cessation.",
+          "Define oxygen deficit as the initial lag in V̇O₂ met by anaerobic systems at exercise onset.",
+          "Define EPOC as elevated recovery V̇O₂ above baseline following exercise cessation.",
           "List physiological mechanisms of EPOC (CP resynthesis, myoglobin re-oxygenation, lactate clearance, elevated body temp/circulation)."
         ]
       }

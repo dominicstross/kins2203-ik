@@ -8,7 +8,7 @@
           "Adenosine Triphosphate (ATP)",
           "Creatine Phosphate (CP)",
           "Nicotinamide Adenine Dinucleotide (NADH)",
-          "Flavin Adenine Dinucleotide (FADH2)"
+          "Flavin Adenine Dinucleotide (FADH₂)"
         ],
         "correct": 0,
         "rationale": "Adenosine Triphosphate (ATP) serves as the universal energy currency of the body because its chemical breakdown directly powers all cellular work and muscular contractions."
@@ -75,7 +75,7 @@
       },
       {
         "id": 7,
-        "q": "Which process describes the endergonic recombination of ADP and an inorganic phosphate ion (P_i) to regenerate ATP?",
+        "q": "Which process describes the endergonic recombination of ADP and an inorganic phosphate ion (Pᵢ) to regenerate ATP?",
         "opts": [
           "ATP Resynthesis",
           "ATP Hydrolysis",
@@ -103,7 +103,7 @@
         "id": 1,
         "q": "Which of the following statements regarding intramuscular ATP stores and breakdown are correct? (Select all that apply)",
         "opts": [
-          "ATP breakdown yields ADP, an inorganic phosphate ion (P_i), and free energy.",
+          "ATP breakdown yields ADP, an inorganic phosphate ion (Pᵢ), and free energy.",
           "Skeletal muscle stores enough ATP at rest to sustain several minutes of maximal sprinting.",
           "The hydrolysis of ATP is catalyzed by the enzyme adenosine triphosphatase (ATPase).",
           "ATP resynthesis is an exergonic process that produces heat without requiring energy."
@@ -112,7 +112,7 @@
           0,
           2
         ],
-        "rationale": "Hydrolysis of ATP requires ATPase and breaks down ATP into ADP, P_i, and free energy. Intramuscular ATP stores last only 1-2 seconds during maximal effort, and ATP resynthesis is endergonic (requires energy)."
+        "rationale": "Hydrolysis of ATP requires ATPase and breaks down ATP into ADP, Pᵢ, and free energy. Intramuscular ATP stores last only 1-2 seconds during maximal effort, and ATP resynthesis is endergonic (requires energy)."
       },
       {
         "id": 2,
@@ -144,7 +144,7 @@
           1,
           2
         ],
-        "rationale": "Hydrolysis uses water to cleave the terminal phosphate bond of ATP, liberating free energy that powers cross-bridge cycling. It yields ADP + P_i, not Adenosine Tetraphosphate."
+        "rationale": "Hydrolysis uses water to cleave the terminal phosphate bond of ATP, liberating free energy that powers cross-bridge cycling. It yields ADP + Pᵢ, not Adenosine Tetraphosphate."
       },
       {
         "id": 4,
@@ -174,7 +174,7 @@
         "id": 2,
         "q": "Hydrolysis of ATP requires water and is catalyzed by the enzyme ATPase.",
         "ans": true,
-        "feedback": "True. ATPase catalyzes the reaction ATP + H2O -> ADP + P_i + Energy."
+        "feedback": "True. ATPase catalyzes the reaction ATP + H2O -> ADP + Pᵢ + Energy."
       },
       {
         "id": 3,
@@ -186,7 +186,7 @@
         "id": 4,
         "q": "ATP resynthesis is an endergonic process, meaning it requires an input of energy derived from macronutrient breakdown.",
         "ans": true,
-        "feedback": "True. Recombining ADP and P_i requires energy input supplied by exergonic nutrient catabolism."
+        "feedback": "True. Recombining ADP and Pᵢ requires energy input supplied by exergonic nutrient catabolism."
       }
     ],
     "cloze": [
@@ -237,10 +237,10 @@
       {
         "id": 2,
         "prompt": "Write out the chemical equation for ATP hydrolysis and describe the physiological role of each product released.",
-        "model": "The equation for ATP hydrolysis is: \\text{ATP} + \\text{H}_2\\text{O} \\xrightarrow{\\text{ATPase}} \\text{ADP} + \\text{P}_i + \\text{Energy}. The products are Adenosine Diphosphate (ADP) and Inorganic Phosphate (P_i), along with liberated free energy (~7.3 kcal/mol). The liberated free energy directly powers the pivoting of the myosin globular head during the sliding filament mechanism of muscle contraction.",
+        "model": "The equation for ATP hydrolysis is: ATP + H₂O —(ATPase)→ ADP + Pᵢ + Energy. The products are Adenosine Diphosphate (ADP) and Inorganic Phosphate (Pᵢ), along with liberated free energy (~7.3 kcal/mol). The liberated free energy directly powers the pivoting of the myosin globular head during the sliding filament mechanism of muscle contraction.",
         "criteria": [
-          "Provide the correct balanced chemical equation including ATP, H2O, ATPase, ADP, P_i, and Energy.",
-          "Identify ADP and inorganic phosphate (P_i) as chemical by-products.",
+          "Provide the correct balanced chemical equation including ATP, H2O, ATPase, ADP, Pᵢ, and Energy.",
+          "Identify ADP and inorganic phosphate (Pᵢ) as chemical by-products.",
           "State that liberated free energy powers myosin head pivoting and cross-bridge cycling."
         ]
       }
@@ -366,7 +366,7 @@
         "id": 2,
         "q": "Which metabolic features distinguish the Oxidative System from anaerobic energy pathways? (Select all that apply)",
         "opts": [
-          "It requires molecular oxygen (O_2).",
+          "It requires molecular oxygen (O₂).",
           "It occurs inside the mitochondria.",
           "It yields a massive total quantity of ATP per substrate mole (36-39 ATP per glucose).",
           "It has the fastest rate of ATP production among all three systems."

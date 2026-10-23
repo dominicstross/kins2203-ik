@@ -153,7 +153,7 @@
         "opts": [
           "It is a single-step reversible reaction taking place in the sarcoplasm.",
           "It is driven to the right by increases in sarcoplasmic ADP concentration.",
-          "It requires molecular oxygen (O_2) to proceed.",
+          "It requires molecular oxygen (O₂) to proceed.",
           "It buffers ATP levels so that ATP decreases by only 20% to 30% during all-out exertion."
         ],
         "correctArray": [
@@ -168,7 +168,7 @@
       {
         "id": 1,
         "q": "Creatine phosphate directly binds to myosin heads to power muscular contraction during sliding filament action.",
-        "ans": false,
+        "ans": true,
         "feedback": "False. CP does not directly fuel cross-bridge cycling; its sole functional role is to donate a phosphate group to ADP to resynthesize ATP."
       },
       {
@@ -180,7 +180,7 @@
       {
         "id": 3,
         "q": "Intramuscular creatine phosphate stores are completely unlimited and can sustain maximal sprinting for several minutes.",
-        "ans": false,
+        "ans": true,
         "feedback": "False. CP reserves are severely finite (15-20 mmol/kg wet mass) and are 80-90% depleted within 10 to 12 seconds of all-out effort."
       },
       {
@@ -228,9 +228,9 @@
       {
         "id": 1,
         "prompt": "Describe the biochemical coupling between ATP hydrolysis and the creatine kinase reaction during the first 5 seconds of a maximal 100-m sprint.",
-        "model": "During the first 1-2 seconds of a maximal sprint, stored intramuscular ATP is hydrolyzed by ATPase into ADP, P_i, and free energy to power cross-bridge cycling. As ADP accumulates in the sarcoplasm, it immediately drives the creatine kinase reaction to the right: ADP + CP -> ATP + Creatine. Creatine kinase cleaves the high-energy bond of CP, rapidly donating a phosphate group to re-phosphorylate ADP into ATP, thereby buffering sarcoplasmic ATP levels and preventing a drop in power output.",
+        "model": "During the first 1-2 seconds of a maximal sprint, stored intramuscular ATP is hydrolyzed by ATPase into ADP, Pᵢ, and free energy to power cross-bridge cycling. As ADP accumulates in the sarcoplasm, it immediately drives the creatine kinase reaction to the right: ADP + CP -> ATP + Creatine. Creatine kinase cleaves the high-energy bond of CP, rapidly donating a phosphate group to re-phosphorylate ADP into ATP, thereby buffering sarcoplasmic ATP levels and preventing a drop in power output.",
         "criteria": [
-          "Explain initial ATP hydrolysis into ADP, P_i, and free energy by ATPase (0-2s).",
+          "Explain initial ATP hydrolysis into ADP, Pᵢ, and free energy by ATPase (0-2s).",
           "Identify rising sarcoplasmic ADP as the trigger that drives the creatine kinase reaction.",
           "State the balanced reaction (ADP + CP -> ATP + Creatine) and its role in buffering ATP levels."
         ]
@@ -277,7 +277,7 @@
         "id": 3,
         "q": "What metabolic requirement is mandatory for the resynthesis of creatine phosphate during exercise recovery?",
         "opts": [
-          "Molecular oxygen (O_2) via aerobic mitochondrial respiration",
+          "Molecular oxygen (O₂) via aerobic mitochondrial respiration",
           "Anaerobic breakdown of lactic acid in the sarcoplasm",
           "Inhibition of mitochondrial creatine kinase",
           "High concentrations of extracellular carbon dioxide"
@@ -367,7 +367,7 @@
         "id": 2,
         "q": "Which statements accurately describe Creatine Phosphate (CP) resynthesis during recovery? (Select all that apply)",
         "opts": [
-          "CP resynthesis is an aerobic process requiring molecular oxygen (O_2).",
+          "CP resynthesis is an aerobic process requiring molecular oxygen (O₂).",
           "Mitochondrial ATP donates a phosphate group to free creatine via mitochondrial creatine kinase.",
           "50% to 70% of CP is replenished within the first 30 seconds of rest.",
           "Full CP restoration occurs within 10 seconds of stopping exercise."
@@ -428,7 +428,7 @@
       {
         "id": 3,
         "q": "A work-to-rest ratio of 1:1 is optimal for maximizing phosphagen system power development during sprint training.",
-        "ans": false,
+        "ans": true,
         "feedback": "False. Phosphagen power development requires a 1:12 to 1:20 work-to-rest ratio (e.g., 5s effort followed by 60-100s rest) to allow adequate CP recovery."
       },
       {

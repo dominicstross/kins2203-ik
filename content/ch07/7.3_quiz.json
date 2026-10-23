@@ -68,7 +68,7 @@
           "High ATP concentrations",
           "Elevated AMP levels",
           "Elevated ADP levels",
-          "High inorganic phosphate (P_i)"
+          "High inorganic phosphate (Pᵢ)"
         ],
         "correct": 0,
         "rationale": "High resting levels of ATP, creatine phosphate, and citrate indicate high energy availability and allosterically inhibit PFK to slow glycolytic flux."
@@ -105,7 +105,7 @@
         "opts": [
           "Elevated sarcoplasmic ADP levels",
           "Elevated sarcoplasmic AMP levels",
-          "Increased inorganic phosphate (P_i) concentration",
+          "Increased inorganic phosphate (Pᵢ) concentration",
           "High resting ATP concentration"
         ],
         "correctArray": [
@@ -113,7 +113,7 @@
           1,
           2
         ],
-        "rationale": "PFK is activated by signals of cellular energy depletion, including elevated ADP, AMP, and P_i. High ATP indicates high energy charge and inhibits PFK."
+        "rationale": "PFK is activated by signals of cellular energy depletion, including elevated ADP, AMP, and Pᵢ. High ATP indicates high energy charge and inhibits PFK."
       },
       {
         "id": 2,
@@ -174,7 +174,7 @@
       {
         "id": 2,
         "q": "Phosphofructokinase (PFK) is activated by high intracellular concentrations of ATP and creatine phosphate.",
-        "ans": false,
+        "ans": true,
         "feedback": "False. High levels of ATP and CP signal cellular energy sufficiency and allosterically inhibit PFK."
       },
       {
@@ -186,7 +186,7 @@
       {
         "id": 4,
         "q": "Gluconeogenesis is the breakdown of intramuscular glycogen during high-intensity exercise.",
-        "ans": false,
+        "ans": true,
         "feedback": "False. Gluconeogenesis is the synthesis of new glucose from non-carbohydrate precursors; glycogen breakdown is glycogenolysis."
       }
     ],
@@ -238,10 +238,10 @@
       {
         "id": 2,
         "prompt": "Describe the allosteric regulation of phosphofructokinase (PFK) during a high-intensity 400-meter sprint.",
-        "model": "At the onset of a 400-meter sprint, rapid ATP breakdown and phosphagen depletion cause sarcoplasmic levels of ADP, AMP, and inorganic phosphate (P_i) to rise rapidly. These molecules act as allosteric activators of phosphofructokinase (PFK), increasing its catalytic rate and accelerating glycolytic flux to resynthesize ATP rapidly. Conversely, if ATP or citrate concentrations are high, PFK is inhibited, slowing glycolysis.",
+        "model": "At the onset of a 400-meter sprint, rapid ATP breakdown and phosphagen depletion cause sarcoplasmic levels of ADP, AMP, and inorganic phosphate (Pᵢ) to rise rapidly. These molecules act as allosteric activators of phosphofructokinase (PFK), increasing its catalytic rate and accelerating glycolytic flux to resynthesize ATP rapidly. Conversely, if ATP or citrate concentrations are high, PFK is inhibited, slowing glycolysis.",
         "criteria": [
           "Identify PFK as the primary rate-limiting allosteric enzyme of glycolysis.",
-          "List key allosteric activators (ADP, AMP, P_i) elevated during high energy demand.",
+          "List key allosteric activators (ADP, AMP, Pᵢ) elevated during high energy demand.",
           "Explain how allosteric activation increases glycolytic flux to match rapid ATP consumption."
         ]
       }
@@ -323,21 +323,21 @@
       },
       {
         "id": 7,
-        "q": "At what approximate percentage of VO2max does the anaerobic (lactate) threshold typically occur in untrained individuals?",
+        "q": "At what approximate percentage of V̇O₂max does the anaerobic (lactate) threshold typically occur in untrained individuals?",
         "opts": [
-          "50% to 60% of VO2max",
-          "20% to 30% of VO2max",
-          "70% to 85% of VO2max",
-          "95% to 100% of VO2max"
+          "50% to 60% of V̇O₂max",
+          "20% to 30% of V̇O₂max",
+          "70% to 85% of V̇O₂max",
+          "95% to 100% of V̇O₂max"
         ],
         "correct": 0,
-        "rationale": "In untrained individuals, blood lactate begins to accumulate exponentially above baseline at 50% to 60% of VO2max."
+        "rationale": "In untrained individuals, blood lactate begins to accumulate exponentially above baseline at 50% to 60% of V̇O₂max."
       },
       {
         "id": 8,
         "q": "Which recovery modality accelerates blood lactate clearance most effectively following exhaustive glycolytic exercise?",
         "opts": [
-          "Active recovery (light aerobic exercise at 35%-45% VO2max)",
+          "Active recovery (light aerobic exercise at 35%-45% V̇O₂max)",
           "Passive recovery (complete rest/sitting)",
           "Hyperbaric oxygen therapy",
           "Ice immersion without movement"
@@ -401,7 +401,7 @@
         "opts": [
           "Blood lactate production exceeds the rate of blood lactate clearance.",
           "Blood lactate concentration begins to rise exponentially above resting baseline (~1-2 mmol/L).",
-          "It occurs at 50-60% VO2max in untrained individuals and 70-85% VO2max in endurance athletes.",
+          "It occurs at 50-60% V̇O₂max in untrained individuals and 70-85% V̇O₂max in endurance athletes.",
           "It represents the total exhaustion of all intramuscular glycogen stores."
         ],
         "correctArray": [
@@ -416,7 +416,7 @@
       {
         "id": 1,
         "q": "Lactate anions are the direct cause of muscle acidosis and sensory muscle burning during high-intensity exercise.",
-        "ans": false,
+        "ans": true,
         "feedback": "False. Free hydrogen ions (H+) derived from lactic acid dissociation cause muscle acidosis and pain receptor stimulation, not lactate anions."
       },
       {
@@ -434,8 +434,8 @@
       {
         "id": 4,
         "q": "Passive rest clears blood lactate faster than active light aerobic recovery.",
-        "ans": false,
-        "feedback": "False. Active recovery at 35%-45% VO2max maintains perfusion and fuels aerobic lactate oxidation in slow-twitch fibers, clearing lactate faster."
+        "ans": true,
+        "feedback": "False. Active recovery at 35%-45% V̇O₂max maintains perfusion and fuels aerobic lactate oxidation in slow-twitch fibers, clearing lactate faster."
       }
     ],
     "cloze": [
@@ -457,7 +457,7 @@
       },
       {
         "id": 2,
-        "statement": "The point where blood lactate accumulation exceeds clearance is the **anaerobic threshold**, occurring at **50% to 60%** of VO2max in untrained individuals.",
+        "statement": "The point where blood lactate accumulation exceeds clearance is the **anaerobic threshold**, occurring at **50% to 60%** of V̇O₂max in untrained individuals.",
         "targets": [
           "anaerobic threshold",
           "50% to 60%"
@@ -469,7 +469,7 @@
           "90% to 100%",
           "10% to 20%"
         ],
-        "hint": "Defines the threshold concept and its typical percentage of VO2max in untrained persons."
+        "hint": "Defines the threshold concept and its typical percentage of V̇O₂max in untrained persons."
       }
     ],
     "sa": [

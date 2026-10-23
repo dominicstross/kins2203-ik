@@ -3,7 +3,7 @@
     "mcq": [
       {
         "id": 1,
-        "q": "What typical percentage range of increase in VO2max can a previously sedentary individual expect following a chronic, structured endurance training program?",
+        "q": "What typical percentage range of increase in V̇O₂max can a previously sedentary individual expect following a chronic, structured endurance training program?",
         "opts": [
           "15% to 25%",
           "50% to 100%",
@@ -11,7 +11,7 @@
           "200% to 300%"
         ],
         "correct": 0,
-        "rationale": "Chronic endurance training typically increases maximal aerobic power (VO2max) in previously sedentary individuals by 15% to 25%."
+        "rationale": "Chronic endurance training typically increases maximal aerobic power (V̇O₂max) in previously sedentary individuals by 15% to 25%."
       },
       {
         "id": 2,
@@ -39,7 +39,7 @@
       },
       {
         "id": 4,
-        "q": "At what age range does human maximal aerobic power (VO2max) naturally reach its physiological peak?",
+        "q": "At what age range does human maximal aerobic power (V̇O₂max) naturally reach its physiological peak?",
         "opts": [
           "18 to 25 years",
           "10 to 12 years",
@@ -47,11 +47,11 @@
           "50 to 60 years"
         ],
         "correct": 0,
-        "rationale": "VO2max naturally peaks between 18 and 25 years of age in human populations before undergoing a gradual age-related decline."
+        "rationale": "V̇O₂max naturally peaks between 18 and 25 years of age in human populations before undergoing a gradual age-related decline."
       },
       {
         "id": 5,
-        "q": "At what estimated rate does VO2max decline per year in sedentary adults following its peak in early adulthood?",
+        "q": "At what estimated rate does V̇O₂max decline per year in sedentary adults following its peak in early adulthood?",
         "opts": [
           "0.5% to 1.5% per year",
           "5.0% to 10.0% per year",
@@ -117,7 +117,7 @@
       },
       {
         "id": 2,
-        "q": "Which factors influence the magnitude and rate of VO2max improvements in response to endurance exercise? (Select all that apply)",
+        "q": "Which factors influence the magnitude and rate of V̇O₂max improvements in response to endurance exercise? (Select all that apply)",
         "opts": [
           "Genetic predisposition (genotype)",
           "Age of the individual at training onset",
@@ -129,7 +129,7 @@
           1,
           2
         ],
-        "rationale": "Genetics, age, and baseline fitness dictate the ceiling, rate, and percentage improvement in VO2max in response to training."
+        "rationale": "Genetics, age, and baseline fitness dictate the ceiling, rate, and percentage improvement in V̇O₂max in response to training."
       },
       {
         "id": 3,
@@ -149,19 +149,19 @@
       },
       {
         "id": 4,
-        "q": "Which statements regarding VO2max kinetics across the human lifespan are correct? (Select all that apply)",
+        "q": "Which statements regarding V̇O₂max kinetics across the human lifespan are correct? (Select all that apply)",
         "opts": [
-          "VO2max naturally peaks between ages 18 and 25.",
-          "Sedentary adults experience a decline in VO2max of approximately 0.5% to 1.5% per year after age 25.",
-          "Older adults can still achieve percentage improvements in VO2max through endurance training.",
-          "VO2max increases continuously every year from birth until age 80 without training."
+          "V̇O₂max naturally peaks between ages 18 and 25.",
+          "Sedentary adults experience a decline in V̇O₂max of approximately 0.5% to 1.5% per year after age 25.",
+          "Older adults can still achieve percentage improvements in V̇O₂max through endurance training.",
+          "V̇O₂max increases continuously every year from birth until age 80 without training."
         ],
         "correctArray": [
           0,
           1,
           2
         ],
-        "rationale": "VO2max peaks in early adulthood (18-25) and declines ~0.5-1.5% yearly in sedentary adults, but older adults retain plastic capacity for training improvements."
+        "rationale": "V̇O₂max peaks in early adulthood (18-25) and declines ~0.5-1.5% yearly in sedentary adults, but older adults retain plastic capacity for training improvements."
       }
     ],
     "tf": [
@@ -174,7 +174,7 @@
       {
         "id": 2,
         "q": "The glycogen-sparing effect increases an athlete's reliance on carbohydrate breakdown during submaximal exercise.",
-        "ans": false,
+        "ans": true,
         "feedback": "False. The glycogen-sparing effect increases fat oxidation, which preserves (spares) muscle glycogen stores."
       },
       {
@@ -185,9 +185,9 @@
       },
       {
         "id": 4,
-        "q": "Genetics plays no role in determining an individual's baseline VO2max or training responsiveness.",
-        "ans": false,
-        "feedback": "False. Genotype heavily dictates individual baseline VO2max limits and separates high-responders from low-responders."
+        "q": "Genetics plays no role in determining an individual's baseline V̇O₂max or training responsiveness.",
+        "ans": true,
+        "feedback": "False. Genotype heavily dictates individual baseline V̇O₂max limits and separates high-responders from low-responders."
       }
     ],
     "cloze": [
@@ -221,7 +221,7 @@
           "10% to 20% per year",
           "5 to 10 years"
         ],
-        "hint": "Age range for peak VO2max and annual rate of decline in sedentary individuals."
+        "hint": "Age range for peak V̇O₂max and annual rate of decline in sedentary individuals."
       }
     ],
     "sa": [
@@ -238,7 +238,7 @@
       {
         "id": 2,
         "prompt": "Explain the physiological significance of the glycogen-sparing effect for a competitive marathon runner.",
-        "model": "The glycogen-sparing effect allows a marathon runner to rely more heavily on fat oxidation (lipolysis and beta-oxidation) at submaximal running speeds (e.g., 65-75% VO2max). Because intramuscular glycogen reserves are severely limited (exhausting within 90-120 minutes of intense exertion), burning a higher ratio of free fatty acids preserves glycogen for late-race surges, steep inclines, or the final sprint, preventing early exhaustion.",
+        "model": "The glycogen-sparing effect allows a marathon runner to rely more heavily on fat oxidation (lipolysis and beta-oxidation) at submaximal running speeds (e.g., 65-75% V̇O₂max). Because intramuscular glycogen reserves are severely limited (exhausting within 90-120 minutes of intense exertion), burning a higher ratio of free fatty acids preserves glycogen for late-race surges, steep inclines, or the final sprint, preventing early exhaustion.",
         "criteria": [
           "Define glycogen-sparing as increased fat oxidation during submaximal effort.",
           "Note the finite nature of muscle glycogen stores.",
@@ -416,7 +416,7 @@
       {
         "id": 1,
         "q": "Energy systems operate in strict sequential order, where glycolysis only turns on after the phosphagen system is 100% depleted.",
-        "ans": false,
+        "ans": true,
         "feedback": "False. Energy systems coexist and overlap along a continuum; glycolysis begins resynthesizing ATP within seconds of exercise initiation."
       },
       {
