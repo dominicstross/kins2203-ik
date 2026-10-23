@@ -1,4 +1,4 @@
-﻿{
+{
   "courseCode": "KINS 2203",
   "courseTitle": "Introduction to Kinesiology",
   "institution": "Southeastern University",
@@ -35,6 +35,66 @@
               "href": "viewer.html?ch=02&mod=2.1"
             }
           ]
+        },
+        {
+          "num": "07",
+          "title": "Chapter 7: Energy for Muscular Activity",
+          "modules": [
+            {
+              "id": "07.1",
+              "title": "Chemistry of Energy Production"
+            },
+            {
+              "id": "07.2",
+              "title": "Immediate Energy – Phosphagen System"
+            },
+            {
+              "id": "07.3",
+              "title": "Short-term Energy – Glycolytic System"
+            },
+            {
+              "id": "07.4",
+              "title": "Long-term Energy – Oxidative System"
+            },
+            {
+              "id": "07.5",
+              "title": "Energy Systems Interaction"
+            }
+          ]
+        },
+        {
+          "num": "09",
+          "title": "Chapter 9: The Science of Biomechanics",
+          "modules": [
+            {
+              "id": "9.1",
+              "title": "Types of Study"
+            },
+            {
+              "id": "9.2",
+              "title": "Anatomical Directions"
+            },
+            {
+              "id": "9.3",
+              "title": "Motion Concepts and Levers"
+            },
+            {
+              "id": "9.4",
+              "title": "Newton's Laws of Motion"
+            },
+            {
+              "id": "9.5",
+              "title": "Fluid Dynamics"
+            },
+            {
+              "id": "9.6",
+              "title": "Body Balance and Stability Control"
+            },
+            {
+              "id": "9.7",
+              "title": "Qualitative Analysis of Human Motion"
+            }
+          ]
         }
       ]
     },
@@ -50,6 +110,75 @@
               "id": "3.1",
               "title": "Pre-PT, Pre-OT, and Clinical Exercise Pathways",
               "href": "viewer.html?ch=03&mod=3.1"
+            }
+          ]
+        },
+        {
+          "num": "12",
+          "title": "Chapter 12: Motor Learning in Practice",
+          "modules": [
+            {
+              "id": "12.1",
+              "title": "Conditions for Skill Acquisition"
+            },
+            {
+              "id": "12.2",
+              "title": "Stages of Learning a Skill"
+            },
+            {
+              "id": "12.3",
+              "title": "Feedback for Skill Learning"
+            },
+            {
+              "id": "12.4",
+              "title": "Transfer in Motor Learning"
+            },
+            {
+              "id": "12.5",
+              "title": "Designing Effective Practice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Unit 4",
+      "chapters": [
+        {
+          "num": "15",
+          "title": "Chapter 15: Developing Physical Fitness",
+          "modules": [
+            {
+              "id": "15.1",
+              "title": "FITT Principle"
+            },
+            {
+              "id": "15.2",
+              "title": "Training Principles"
+            },
+            {
+              "id": "15.3",
+              "title": "Components of Physical Fitness – Muscular Strength"
+            },
+            {
+              "id": "15.4",
+              "title": "Components of Physical Fitness – Muscular Endurance"
+            },
+            {
+              "id": "15.5",
+              "title": "Components of Physical Fitness – Cardiorespiratory Endurance"
+            },
+            {
+              "id": "15.6",
+              "title": "Components of Physical Fitness – Flexibility, Body Composition"
+            },
+            {
+              "id": "15.7",
+              "title": "Components of Motor Ability"
+            },
+            {
+              "id": "15.8",
+              "title": "Fitness Training Activities"
             }
           ]
         }
