@@ -1,0 +1,498 @@
+{
+  "p1": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What is the primary high-energy phosphate compound stored in muscle sarcoplasm that donates a phosphate group to resynthesize ATP?",
+        "opts": [
+          "Creatine Phosphate (CP)",
+          "Adenosine Monophosphate (AMP)",
+          "Nicotinamide Adenine Dinucleotide (NADH)",
+          "Oxaloacetate"
+        ],
+        "correct": 0,
+        "rationale": "Creatine phosphate (CP or PCr) acts as an immediate biochemical reservoir in the sarcoplasm, rapidly donating its phosphate group to ADP to resynthesize ATP."
+      },
+      {
+        "id": 2,
+        "q": "Which enzyme catalyzes the single-step transfer of a phosphate group from creatine phosphate to ADP?",
+        "opts": [
+          "Creatine Kinase (CK)",
+          "Myokinase",
+          "Phosphofructokinase (PFK)",
+          "Lactate Dehydrogenase (LDH)"
+        ],
+        "correct": 0,
+        "rationale": "Creatine kinase (CK) catalyzes the reversible reaction: ADP + CP <-> ATP + Creatine."
+      },
+      {
+        "id": 3,
+        "q": "What is the resting concentration of creatine phosphate (CP) per kilogram of wet muscle mass?",
+        "opts": [
+          "15 to 20 mmol/kg",
+          "5 to 6 mmol/kg",
+          "50 to 60 mmol/kg",
+          "100 to 120 mmol/kg"
+        ],
+        "correct": 0,
+        "rationale": "Resting skeletal muscle maintains a CP concentration of approximately 15 to 20 mmol/kg wet muscle mass, which is roughly 3 to 4 times greater than the resting ATP pool (5-6 mmol/kg)."
+      },
+      {
+        "id": 4,
+        "q": "Why is the phosphagen system described as 'anaerobic alactic'?",
+        "opts": [
+          "It operates without oxygen and produces zero lactic acid as a by-product.",
+          "It requires molecular oxygen but produces no carbon dioxide.",
+          "It operates anaerobically while producing high levels of lactate.",
+          "It relies exclusively on aerobic oxidation inside the mitochondria."
+        ],
+        "correct": 0,
+        "rationale": "The phosphagen system is anaerobic because it requires no oxygen, and alactic because CP breakdown yields creatine and inorganic phosphate without forming lactic acid."
+      },
+      {
+        "id": 5,
+        "q": "Which energy system possesses the highest maximal power (rate of ATP resynthesis) in human physiology?",
+        "opts": [
+          "Phosphagen System",
+          "Glycolytic System",
+          "Oxidative System",
+          "Beta-Oxidation Pathway"
+        ],
+        "correct": 0,
+        "rationale": "Because the creatine kinase reaction involves only a single enzymatic step in the sarcoplasm, the phosphagen system exhibits the highest maximal power/rate of ATP production."
+      },
+      {
+        "id": 6,
+        "q": "After how many seconds of maximal all-out exertion are intramuscular creatine phosphate stores reduced by 50% to 70%?",
+        "opts": [
+          "5 to 10 seconds",
+          "1 to 2 seconds",
+          "30 to 45 seconds",
+          "2 to 3 minutes"
+        ],
+        "correct": 0,
+        "rationale": "During maximal power output, CP stores decline rapidly, reaching a 50% to 70% reduction within 5 to 10 seconds of all-out effort."
+      },
+      {
+        "id": 7,
+        "q": "By approximately how much does intramuscular ATP concentration drop during all-out maximal exertion due to effective buffering by CP?",
+        "opts": [
+          "Less than 20% to 30%",
+          "More than 80% to 90%",
+          "Exactly 100%",
+          "0% (it remains completely unchanged)"
+        ],
+        "correct": 0,
+        "rationale": "Creatine phosphate buffers ATP so effectively during maximal effort that intracellular ATP levels drop by less than 20% to 30%, while CP stores drop dramatically."
+      },
+      {
+        "id": 8,
+        "q": "What is the resting ratio of creatine phosphate to free ATP stored in skeletal muscle?",
+        "opts": [
+          "3 to 4 times more CP than ATP",
+          "10 to 12 times more ATP than CP",
+          "Equal concentrations (1:1 ratio)",
+          "100 times more CP than ATP"
+        ],
+        "correct": 0,
+        "rationale": "Skeletal muscle stores approximately 3 to 4 times more CP (15-20 mmol/kg) than free ATP (5-6 mmol/kg wet mass)."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which of the following characteristics accurately describe Creatine Phosphate (CP)? (Select all that apply)",
+        "opts": [
+          "It donates its high-energy phosphate group to ADP to resynthesize ATP.",
+          "It directly powers myosin head pivoting during cross-bridge cycling.",
+          "It is stored in the cell sarcoplasm in concentrations 3 to 4 times greater than ATP.",
+          "Its breakdown yields zero lactic acid by-products."
+        ],
+        "correctArray": [
+          0,
+          2,
+          3
+        ],
+        "rationale": "CP is an immediate phosphate donor stored in sarcoplasm in 3-4x greater amounts than ATP, operating anaerobically and alactically. ATP (not CP) directly powers myosin head pivoting."
+      },
+      {
+        "id": 2,
+        "q": "What physiological events occur during the first 10 seconds of maximal all-out sprinting? (Select all that apply)",
+        "opts": [
+          "Initial contraction is powered by stored intramuscular ATP during seconds 0 to 2.",
+          "Creatine phosphate breakdown rapidly accelerates to resynthesize ATP during seconds 2 to 5.",
+          "Intramuscular CP stores decline by 50% to 70% between 5 and 10 seconds.",
+          "Intramuscular glycogen stores are completely exhausted within the first 3 seconds."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Maximal effort relies initially on stored ATP (0-2s), followed by rapid CP breakdown (2-5s), leading to a 50-70% CP depletion by 5-10s. Glycogen stores are not exhausted in 3 seconds."
+      },
+      {
+        "id": 3,
+        "q": "Which sports or athletic movements rely primarily on the phosphagen system for peak performance? (Select all that apply)",
+        "opts": [
+          "100-meter sprint start",
+          "Maximal vertical jump",
+          "Shot put throw",
+          "26.2-mile marathon run"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Short-duration, maximal power movements lasting under 10 seconds (sprint starts, jumps, throws) rely on the phosphagen system. A marathon relies predominantly on the aerobic oxidative system."
+      },
+      {
+        "id": 4,
+        "q": "Which statements regarding the Creatine Kinase reaction are TRUE? (Select all that apply)",
+        "opts": [
+          "It is a single-step reversible reaction taking place in the sarcoplasm.",
+          "It is driven to the right by increases in sarcoplasmic ADP concentration.",
+          "It requires molecular oxygen (O_2) to proceed.",
+          "It buffers ATP levels so that ATP decreases by only 20% to 30% during all-out exertion."
+        ],
+        "correctArray": [
+          0,
+          1,
+          3
+        ],
+        "rationale": "Creatine kinase catalyzes a single-step, sarcoplasmic, anaerobic reaction driven by rising ADP that buffers ATP levels. It requires no oxygen."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Creatine phosphate directly binds to myosin heads to power muscular contraction during sliding filament action.",
+        "ans": false,
+        "feedback": "False. CP does not directly fuel cross-bridge cycling; its sole functional role is to donate a phosphate group to ADP to resynthesize ATP."
+      },
+      {
+        "id": 2,
+        "q": "The phosphagen system has the highest maximal power (rate of ATP resynthesis) of all three human energy systems.",
+        "ans": true,
+        "feedback": "True. Because the creatine kinase reaction involves a single enzymatic step in the sarcoplasm near myofilaments, it resynthesizes ATP faster than any other pathway."
+      },
+      {
+        "id": 3,
+        "q": "Intramuscular creatine phosphate stores are completely unlimited and can sustain maximal sprinting for several minutes.",
+        "ans": false,
+        "feedback": "False. CP reserves are severely finite (15-20 mmol/kg wet mass) and are 80-90% depleted within 10 to 12 seconds of all-out effort."
+      },
+      {
+        "id": 4,
+        "q": "The breakdown of creatine phosphate yields zero lactic acid and requires no oxygen.",
+        "ans": true,
+        "feedback": "True. The phosphagen system is classified as anaerobic alactic."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "The enzyme **creatine kinase** catalyzes the transfer of a phosphate group from **creatine phosphate** to ADP.",
+        "targets": [
+          "creatine kinase",
+          "creatine phosphate"
+        ],
+        "optionsBank": [
+          "creatine kinase",
+          "creatine phosphate",
+          "myokinase",
+          "glycogen phosphorylase",
+          "lactate dehydrogenase"
+        ],
+        "hint": "Identifies the enzyme and high-energy phosphate donor of the phosphagen system."
+      },
+      {
+        "id": 2,
+        "statement": "Resting muscle contains **15 to 20 mmol/kg** of CP, which is depleted by over 80% within **10 to 12 seconds** of maximal exertion.",
+        "targets": [
+          "15 to 20 mmol/kg",
+          "10 to 12 seconds"
+        ],
+        "optionsBank": [
+          "15 to 20 mmol/kg",
+          "10 to 12 seconds",
+          "50 to 60 mmol/kg",
+          "2 to 3 minutes",
+          "30 seconds"
+        ],
+        "hint": "Quantitative values for resting CP concentration and depletion timeline during maximal effort."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Describe the biochemical coupling between ATP hydrolysis and the creatine kinase reaction during the first 5 seconds of a maximal 100-m sprint.",
+        "model": "During the first 1-2 seconds of a maximal sprint, stored intramuscular ATP is hydrolyzed by ATPase into ADP, P_i, and free energy to power cross-bridge cycling. As ADP accumulates in the sarcoplasm, it immediately drives the creatine kinase reaction to the right: ADP + CP -> ATP + Creatine. Creatine kinase cleaves the high-energy bond of CP, rapidly donating a phosphate group to re-phosphorylate ADP into ATP, thereby buffering sarcoplasmic ATP levels and preventing a drop in power output.",
+        "criteria": [
+          "Explain initial ATP hydrolysis into ADP, P_i, and free energy by ATPase (0-2s).",
+          "Identify rising sarcoplasmic ADP as the trigger that drives the creatine kinase reaction.",
+          "State the balanced reaction (ADP + CP -> ATP + Creatine) and its role in buffering ATP levels."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Explain why an athlete experiences a noticeable decline in maximal running velocity after 10 seconds of all-out sprinting, referencing CP depletion kinetics.",
+        "model": "An athlete experiences a drop in maximal velocity after 10 seconds because intramuscular creatine phosphate stores become severely depleted (>80% to 90% reduction). Between 5 and 10 seconds, CP stores decline by 50% to 70%, and by 10 to 12 seconds, CP availability is insufficient to sustain maximal ATP resynthesis rates. The muscle is forced to transition to anaerobic glycolysis as its primary ATP source, which has a lower maximal power output (rate of ATP resynthesis) than the phosphagen system, causing a decrease in peak running speed.",
+        "criteria": [
+          "Identify CP depletion kinetics (>80-90% reduction by 10-12s).",
+          "Explain the transition from the phosphagen system to anaerobic glycolysis as the primary ATP source.",
+          "Connect the lower ATP resynthesis rate (power) of glycolysis to the observed decline in running velocity."
+        ]
+      }
+    ]
+  },
+  "p2": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "Which auxiliary enzyme catalyzes the reaction ADP + ADP <-> ATP + AMP during intense metabolic stress?",
+        "opts": [
+          "Myokinase (Adenylate Kinase)",
+          "Creatine Kinase",
+          "Phosphofructokinase (PFK)",
+          "Lactate Dehydrogenase"
+        ],
+        "correct": 0,
+        "rationale": "Myokinase (adenylate kinase) catalyzes the emergency resynthesis reaction: ADP + ADP -> ATP + AMP during severe ADP accumulation."
+      },
+      {
+        "id": 2,
+        "q": "How does the elevation of adenosine monophosphate (AMP) produced by the myokinase reaction affect muscle metabolism?",
+        "opts": [
+          "It acts as a potent allosteric activator of phosphofructokinase (PFK), stimulating glycolysis.",
+          "It inhibits glycogen phosphorylase, shutting down carbohydrate metabolism.",
+          "It directly donates a phosphate group to myosin to power contraction.",
+          "It converts lactic acid back into glycogen inside the mitochondria."
+        ],
+        "correct": 0,
+        "rationale": "AMP serves as a key cellular signal that allosterically activates PFK, triggering an increased rate of anaerobic glycolysis to meet high energy demand."
+      },
+      {
+        "id": 3,
+        "q": "What metabolic requirement is mandatory for the resynthesis of creatine phosphate during exercise recovery?",
+        "opts": [
+          "Molecular oxygen (O_2) via aerobic mitochondrial respiration",
+          "Anaerobic breakdown of lactic acid in the sarcoplasm",
+          "Inhibition of mitochondrial creatine kinase",
+          "High concentrations of extracellular carbon dioxide"
+        ],
+        "correct": 0,
+        "rationale": "While CP breakdown is anaerobic, CP resynthesis during recovery is strictly aerobic, taking place in mitochondria using ATP generated by oxidative phosphorylation."
+      },
+      {
+        "id": 4,
+        "q": "Approximately what percentage of depleted intramuscular CP stores are restored within the first 30 seconds of passive rest?",
+        "opts": [
+          "50% to 70%",
+          "10% to 20%",
+          "98% to 100%",
+          "0% (restoration takes hours)"
+        ],
+        "correct": 0,
+        "rationale": "CP recovery follows a biphasic exponential curve where the fast phase restores 50% to 70% of depleted CP within the initial 30 seconds."
+      },
+      {
+        "id": 5,
+        "q": "How long must a passive rest interval last to achieve near-complete (90% to 100%) replenishment of intramuscular CP stores?",
+        "opts": [
+          "3 to 5 minutes",
+          "15 to 30 seconds",
+          "10 to 12 minutes",
+          "60 to 90 seconds"
+        ],
+        "correct": 0,
+        "rationale": "Near-complete restoration (90%-100%) of creatine phosphate reserves requires 3 to 5 minutes of resting recovery."
+      },
+      {
+        "id": 6,
+        "q": "What recommended work-to-rest ratio is prescribed for training protocols targeting maximal phosphagen system power?",
+        "opts": [
+          "1:12 to 1:20",
+          "1:1 to 1:2",
+          "1:3 to 1:5",
+          "5:1 to 10:1"
+        ],
+        "correct": 0,
+        "rationale": "For high-power phosphagen activities (1-10s effort), a work-to-rest ratio of 1:12 to 1:20 allows adequate CP re-phosphorylation during rest intervals."
+      },
+      {
+        "id": 7,
+        "q": "By how much can dietary supplementation with creatine monohydrate expand resting intramuscular CP stores?",
+        "opts": [
+          "10% to 40%",
+          "100% to 200%",
+          "1% to 2%",
+          "500%"
+        ],
+        "correct": 0,
+        "rationale": "Creatine monohydrate supplementation increases total muscle creatine and CP content by 10% to 40%, enhancing high-intensity power capacity."
+      },
+      {
+        "id": 8,
+        "q": "Which physiological adaptation occurs in response to chronic, heavy resistance training and high-velocity sprint training?",
+        "opts": [
+          "Increased activity and concentration of creatine kinase and myokinase enzymes",
+          "Conversion of Type II fast-twitch fibers into Type I slow-twitch fibers",
+          "Complete elimination of the myokinase reaction",
+          "Permanent loss of mitochondrial density"
+        ],
+        "correct": 0,
+        "rationale": "Anaerobic power conditioning increases sarcoplasmic concentrations and activity of key phosphagen enzymes (creatine kinase and myokinase) and modestly expands CP stores."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which of the following occur as a result of the myokinase reaction during high-intensity exercise? (Select all that apply)",
+        "opts": [
+          "Two ADP molecules are converted into one ATP and one AMP molecule.",
+          "Accumulating AMP allosterically activates phosphofructokinase (PFK).",
+          "Glycolysis is stimulated to assist in ATP resynthesis.",
+          "Massive amounts of lactic acid are directly produced by myokinase."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Myokinase converts 2 ADP into ATP + AMP. AMP activates PFK, accelerating glycolysis. Myokinase does not produce lactic acid."
+      },
+      {
+        "id": 2,
+        "q": "Which statements accurately describe Creatine Phosphate (CP) resynthesis during recovery? (Select all that apply)",
+        "opts": [
+          "CP resynthesis is an aerobic process requiring molecular oxygen (O_2).",
+          "Mitochondrial ATP donates a phosphate group to free creatine via mitochondrial creatine kinase.",
+          "50% to 70% of CP is replenished within the first 30 seconds of rest.",
+          "Full CP restoration occurs within 10 seconds of stopping exercise."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "CP resynthesis occurs in mitochondria aerobically using oxygen and mitochondrial CK. 50-70% restores in 30s, but full restoration requires 3-5 minutes."
+      },
+      {
+        "id": 3,
+        "q": "What are the physiological consequences of using short rest intervals (e.g., 15 to 30 seconds) between maximal power sprints? (Select all that apply)",
+        "opts": [
+          "Intramuscular CP stores recover to less than 50% of resting levels.",
+          "Subsequent sprint efforts exhibit decreased peak velocity and power output.",
+          "The body is forced to rely prematurely on anaerobic glycolysis.",
+          "CP stores achieve 100% full replenishment."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Short rest periods (<30s) prevent full CP restoration (<50%), forcing reliance on glycolysis and leading to reduced peak power in subsequent bouts."
+      },
+      {
+        "id": 4,
+        "q": "Which adaptations are associated with long-term heavy resistance and sprint training? (Select all that apply)",
+        "opts": [
+          "Elevated sarcoplasmic activity of creatine kinase and myokinase.",
+          "Modest increases (10% to 25%) in resting ATP and CP storage in Type II fibers.",
+          "Improved aerobic capacity allowing faster inter-set CP resynthesis.",
+          "Complete conversion of skeletal muscle into cardiac tissue."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Training increases phosphagen enzyme activity, expands resting phosphate stores (especially in Type II fibers), and improves aerobic recovery rate."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "The resynthesis of creatine phosphate during rest periods requires molecular oxygen and occurs in the mitochondria.",
+        "ans": true,
+        "feedback": "True. Although CP breakdown is anaerobic, CP resynthesis is an aerobic mitochondrial process."
+      },
+      {
+        "id": 2,
+        "q": "The myokinase reaction yields adenosine monophosphate (AMP), which acts as an activator of phosphofructokinase (PFK) to stimulate glycolysis.",
+        "ans": true,
+        "feedback": "True. AMP produced by myokinase signals low cellular energy charge and allosterically activates PFK."
+      },
+      {
+        "id": 3,
+        "q": "A work-to-rest ratio of 1:1 is optimal for maximizing phosphagen system power development during sprint training.",
+        "ans": false,
+        "feedback": "False. Phosphagen power development requires a 1:12 to 1:20 work-to-rest ratio (e.g., 5s effort followed by 60-100s rest) to allow adequate CP recovery."
+      },
+      {
+        "id": 4,
+        "q": "Creatine monohydrate supplementation can expand resting muscle CP stores by 10% to 40%.",
+        "ans": true,
+        "feedback": "True. Creatine supplementation increases total intramuscular free creatine and CP reserves."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "The secondary phosphagen enzyme **myokinase** converts two ADP molecules into one ATP and one **AMP**.",
+        "targets": [
+          "myokinase",
+          "AMP"
+        ],
+        "optionsBank": [
+          "myokinase",
+          "AMP",
+          "creatine kinase",
+          "pyruvate",
+          "lactate"
+        ],
+        "hint": "Identifies the auxiliary enzyme and its nucleotide product."
+      },
+      {
+        "id": 2,
+        "statement": "Full restoration of CP stores requires **3 to 5 minutes** of rest, requiring a work-to-rest ratio of **1:12 to 1:20** for power training.",
+        "targets": [
+          "3 to 5 minutes",
+          "1:12 to 1:20"
+        ],
+        "optionsBank": [
+          "3 to 5 minutes",
+          "1:12 to 1:20",
+          "15 to 30 seconds",
+          "1:1 to 1:2",
+          "30 minutes"
+        ],
+        "hint": "Rest duration required for 100% CP recovery and the corresponding work-to-rest ratio."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Explain why a track sprinter performing 5-second maximal acceleration runs needs 60 to 100 seconds of rest between repetitions, referencing CP recovery kinetics.",
+        "model": "A 5-second maximal acceleration run exhausts a significant portion of intramuscular creatine phosphate stores. CP resynthesis is an aerobic process that follows an exponential curve: 50% to 70% of CP is restored in the first 30 seconds, but achieving 85% to 95% restoration requires 2 to 3 minutes (or at least 60-100 seconds for a 1:12 to 1:20 work-to-rest ratio). If the rest period is too short (e.g., 15-20 seconds), CP stores remain depleted (<50%), forcing the athlete to rely on anaerobic glycolysis, accumulating hydrogen ions and reducing peak velocity on subsequent runs.",
+        "criteria": [
+          "State the aerobic nature and time course of CP resynthesis (50-70% in 30s; near-full in 2-3+ min).",
+          "Apply the 1:12 to 1:20 work-to-rest ratio rule for a 5-second effort (60-100s rest).",
+          "Explain the negative consequence of inadequate rest (incomplete CP recovery, reduced peak power, premature glycolysis)."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Describe the myokinase reaction and explain how its metabolic by-product AMP regulates carbohydrate breakdown during high-intensity exercise.",
+        "model": "The myokinase (adenylate kinase) reaction is an auxiliary phosphagen pathway that occurs during severe metabolic stress when ADP accumulates rapidly: ADP + ADP -> ATP + AMP. It generates one molecule of ATP and one molecule of adenosine monophosphate (AMP). The accumulated sarcoplasmic AMP serves as an allosteric signal indicating low cellular energy status. AMP directly activates phosphofructokinase (PFK), the key rate-limiting enzyme of anaerobic glycolysis, thereby stimulating glycolytic flux to increase ATP resynthesis as CP stores become depleted.",
+        "criteria": [
+          "State the myokinase reaction equation (ADP + ADP -> ATP + AMP).",
+          "Identify AMP as the critical signaling by-product.",
+          "Explain how AMP allosterically activates phosphofructokinase (PFK) to stimulate anaerobic glycolysis."
+        ]
+      }
+    ]
+  }
+}

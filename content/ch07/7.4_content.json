@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "course": "PX - KINS 4403 Physiology of Exercise",
+    "chapter": "7",
+    "section": "07.4",
+    "ch": "7",
+    "mod": "07.4",
+    "moduleTitle": "07.4 KINS 4403: Long-term Energy – Oxidative System"
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "title": "Part 1: Mitochondrial Architecture, Carbohydrate Oxidation, and Aerobic Resynthesis",
+      "sampleCounts": {
+        "mcq": 2,
+        "ms": 2,
+        "tf": 2,
+        "cloze": 2,
+        "sa": 1
+      },
+      "readingHtml": "<h2>Overview of the Oxidative System and Subcellular Site</h2><p>When physical activity extends beyond \\(2\\text{ minutes}\\) of duration—such as during distance running, road cycling, cross-country skiing, or sustained swimming—the body relies predominantly on the <strong>oxidative system</strong> (also known as the <em>aerobic system</em> or <em>long-term energy system</em>). Unlike the immediate phosphagen and short-term glycolytic pathways operating in the sarcoplasm, the oxidative system requires molecular oxygen (\\(\\text{O}_2\\)) to resynthesize adenosine triphosphate (ATP). Oxidative phosphorylation represents the most complex metabolic pathway in human physiology, delivering a massive total ATP yield from the complete catabolism of carbohydrates, fats, and, to a lesser extent, proteins.</p><p>Aerobic metabolism takes place inside specialized subcellular organelles termed <strong>mitochondria</strong>, often described as the cellular powerhouses. Mitochondria are double-membrane organelles consisting of a smooth outer membrane, a highly folded inner membrane containing <strong>cristae</strong> (which house the protein complexes of the <strong>electron transport chain [ETC]</strong>), and an internal fluid-filled <strong>matrix</strong> containing the enzymes responsible for the <strong>Krebs cycle</strong> (also known as the <em>citric acid cycle</em> or <em>tricarboxylic acid [TCA] cycle</em>).</p><h2>Carbohydrate Oxidation: From Pyruvate to Acetyl-CoA and the Krebs Cycle</h2><p>The aerobic catabolism of carbohydrates begins with glycolysis in the sarcoplasm. Under aerobic conditions, the end-product <strong>pyruvate</strong> does not reduce to lactic acid. Instead, pyruvate is transported across the mitochondrial double membrane into the matrix, where the enzyme complex <em>pyruvate dehydrogenase</em> catalyzes its irreversible oxidative decarboxylation into <strong>acetyl-coenzyme A (acetyl-CoA)</strong>:</p>\\[\\text{Pyruvate} + \\text{NAD}^+ + \\text{CoA} \\xrightarrow{\\text{Pyruvate Dehydrogenase}} \\text{Acetyl-CoA} + \\text{CO}_2 + \\text{NADH}\\]<p>Acetyl-CoA enters the <strong>Krebs cycle</strong> within the mitochondrial matrix, combining with oxaloacetate (\\(4\\text{ carbons}\\)) to form citrate (\\(6\\text{ carbons}\\)). Across one turn of the cycle, citrate undergoes a series of enzymatic decarboxylations and dehydrogenations, producing:</p><ul><li><strong>\\(2\\text{ molecules of CO}_2\\)</strong> released as metabolic waste.</li><li><strong>\\(1\\text{ molecule of ATP}\\)</strong> (generated via substrate-level phosphorylation from GTP).</li><li><strong>\\(3\\text{ molecules of NADH}\\)</strong> and <strong>\\(1\\text{ molecule of FADH}_2\\)</strong> (reduced flavin adenine dinucleotide), which act as high-energy electron carriers.</li></ul><p>Because one mole of glucose yields two moles of pyruvate, each glucose molecule drives two complete cycles of the Krebs cycle, resulting in \\(2\\text{ ATP}\\), \\(6\\text{ NADH}\\), \\(2\\text{ FADH}_2\\), and \\(4\\text{ CO}_2\\).</p><h2>The Electron Transport Chain and Oxidative Phosphorylation Yields</h2><p>The high-energy electrons harvested by \\(\\text{NADH}\\) and \\(\\text{FADH}_2\\) during glycolysis, acetyl-CoA conversion, and the Krebs cycle are shuttled to the <strong>electron transport chain (ETC)</strong> embedded in the inner mitochondrial membrane. The ETC consists of a series of electron acceptors and proton pumps (Complexes I–IV). As electrons pass down the chain from higher to lower energy states, released energy pumps hydrogen ions (\\(\\text{H}^+\\)) from the matrix across the inner membrane into the intermembrane space, establishing a steep electrochemical proton gradient.</p><p>Protons flow back into the matrix down their concentration gradient through the enzyme <strong>ATP synthase</strong>, driving the phosphorylation of ADP into ATP—a process termed <strong>oxidative phosphorylation</strong>. Molecular oxygen (\\(\\text{O}_2\\)) acts as the <strong>terminal electron acceptor</strong> at Complex IV, combining with free hydrogen ions and electrons to form water (\\(\\text{H}_2\\text{O}\\)):</p>\\[\\frac{1}{2}\\text{O}_2 + 2\\text{H}^+ + 2e^- \\rightarrow \\text{H}_2\\text{O}\\]<p>P/O ratios establish that each \\(\\text{NADH}\\) entering the ETC yields approximately \\(2.5\\text{ to }3\\text{ ATP}\\), whereas each \\(\\text{FADH}_2\\) (entering at Complex II) yields approximately \\(1.5\\text{ to }2\\text{ ATP}\\). Summing sarcoplasmic glycolysis, pyruvate conversion, the Krebs cycle, and electron transport, the complete oxidation of one mole of blood glucose yields a net total of <strong>\\(36\\text{ to }38\\text{ mol ATP}\\)</strong> (or \\(37\\text{ to }39\\text{ mol ATP}\\) from muscle glycogen).</p><table class=\"data-table\"><thead><tr><th>Metabolic Process</th><th>Location</th><th>Substrate Input</th><th>ATP / Carrier Yield per Glucose</th></tr></thead><tbody><tr><td><strong>Glycolysis</strong></td><td>Sarcoplasm</td><td>1 Glucose / Glycogen</td><td>2 Net ATP + 2 NADH</td></tr><tr><td><strong>Pyruvate Conversion</strong></td><td>Mitochondrial Matrix</td><td>2 Pyruvate</td><td>2 Acetyl-CoA + 2 NADH + \\(2\\text{ CO}_2\\)</td></tr><tr><td><strong>Krebs Cycle</strong></td><td>Mitochondrial Matrix</td><td>2 Acetyl-CoA</td><td>2 ATP + 6 NADH + \\(2\\text{ FADH}_2\\) + \\(4\\text{ CO}_2\\)</td></tr><tr><td><strong>Electron Transport Chain</strong></td><td>Inner Mitochondrial Membrane</td><td>10 NADH + \\(2\\text{ FADH}_2\\) + \\(\\text{O}_2\\)</td><td>\\(\\approx 32 - 34\\text{ ATP}\\) + \\(\\text{H}_2\\text{O}\\)</td></tr><tr><td><strong>Total Net Aerobic Yield</strong></td><td>Sarcoplasm & Mitochondria</td><td>1 Blood Glucose Mole</td><td><strong>\\(36 - 38\\text{ mol ATP}\\)</strong></td></tr></tbody></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>The vast ATP yield of carbohydrate oxidation (\\(36\\text{ to }38\\text{ ATP}\\) vs. \\(2\\text{ to }3\\text{ ATP}\\) in anaerobic glycolysis) highlights why the aerobic system is the foundation of endurance performance. However, because electron transport depends strictly on molecular oxygen as the final electron acceptor, any limitation in pulmonary ventilation, cardiac output, or tissue oxygen delivery immediately halts oxidative phosphorylation, forcing the cell to rely on anaerobic pathways with their accompanying metabolic acidosis and rapid fatigue.</p></div>"
+    },
+    {
+      "id": "p2",
+      "title": "Part 2: Lipid/Protein Catabolism, Oxygen Kinetics, and Endurance Training Adaptations",
+      "sampleCounts": {
+        "mcq": 2,
+        "ms": 2,
+        "tf": 2,
+        "cloze": 2,
+        "sa": 1
+      },
+      "readingHtml": "<h2>Lipid Metabolism: Lipolysis and Beta-Oxidation</h2><p>While carbohydrates are the preferred substrate for moderate-to-high intensity aerobic work, <strong>fats (triglycerides)</strong> represent the body's largest energy reserve. Stored within adipose tissue and intramuscular lipid droplets, triglycerides consist of a glycerol backbone bound to three <strong>free fatty acid (FFA)</strong> chains. The enzyme <em>hormone-sensitive lipase (HSL)</em> breaks down triglycerides into glycerol and FFAs via <strong>lipolysis</strong>.</p><p>Free fatty acids enter the mitochondrial matrix and undergo <strong>beta-oxidation</strong> (\\(\\beta\\)-oxidation)—a sequential cyclic pathway that cleaves 2-carbon acetyl units from the long carbon chain of the fatty acid. Each cycle of beta-oxidation yields \\(1\\text{ Acetyl-CoA}\\), \\(1\\text{ NADH}\\), and \\(1\\text{ FADH}_2\\). For example, a \\(16\\text{-carbon}\\) palmitic acid molecule undergoes \\(7\\text{ cycles}\\) of beta-oxidation, producing \\(8\\text{ Acetyl-CoA}\\), \\(7\\text{ NADH}\\), and \\(7\\text{ FADH}_2\\). When these products enter the Krebs cycle and ETC, the total yield reaches a massive <strong>\\(129\\text{ to }147\\text{ mol ATP}\\)</strong> per mole of fatty acid.</p><h2>Protein Catabolism and Nitrogen Excretion</h2><p>Proteins are composed of amino acids and serve primarily structural and functional roles in muscle tissue. During prolonged, carbohydrate-depleted exercise, proteins can contribute \\(5\\%\\text{ to }10\\%\\) of total ATP production. Before amino acids can be oxidized, their nitrogen-containing amino group (\\(\\text{NH}_2\\)) must be removed via <strong>deamination</strong> in the liver or <strong>transamination</strong> in skeletal muscle. The remaining carbon skeletons (keto acids) are converted into pyruvate, acetyl-CoA, or Krebs cycle intermediates (e.g., \\(\\alpha\\)-ketoglutarate) to resynthesize ATP, while excreted nitrogen forms urea.</p><h2>Oxygen Transport, VO2max, and EPOC Kinetics</h2><p>Aerobic ATP production is directly proportional to oxygen consumption (\\(\\text{VO}_2\\)). As physical activity commences, oxygen demand instantly increases, but actual \\(\\text{VO}_2\\) lags behind demand during the initial \\(1\\text{ to }3\\text{ minutes}\\)—a phenomenon termed <strong>oxygen deficit</strong>, during which anaerobic systems supply the missing ATP. Once a steady rate of exertion is maintained below the anaerobic threshold, oxygen supply matches demand, achieving a <strong>steady-state oxygen uptake</strong>.</p><p>The maximal rate at which an individual can transport and utilize oxygen during exhaustive exercise is defined as <strong>maximal aerobic power (\\(\\text{VO}_2\\text{max}\\))</strong>. \\(\\text{VO}_2\\text{max}\\) is the gold-standard metric of cardiorespiratory fitness, expressed in absolute units (\\(\\text{L/min}\\)) or relative to body mass (\\(\\text{mL/kg/min}\\)). Following exercise cessation, oxygen consumption remains elevated above resting levels during <strong>excess post-exercise oxygen consumption (EPOC)</strong> (formerly oxygen debt), which serves to replenish CP stores, re-oxygenate blood myoglobin, clear lactate, and restore elevated core body temperature and circulation.</p><h2>Chronic Endurance Training Adaptations</h2><p>Repeated endurance conditioning (e.g., \\(40\\text{+ minutes}\\) at \\(60\\%\\text{ to }75\\%\\text{ VO}_2\\text{max}\\)) induces profound physiological adaptations within the oxidative system:</p><ol><li><strong>Increased Capillarity (Vascularization):</strong> Expansion of capillary density surrounding Type I slow-twitch muscle fibers, enhancing muscle blood flow and \\(\\text{O}_2\\) diffusion.</li><li><strong>Mitochondrial Biogenesis:</strong> Substantial increases in both the size and total number of muscle mitochondria (\\(50\\%\\text{ to }100\\%\\text{ increase}\\)).</li><li><strong>Elevated Aerobic Enzyme Activity:</strong> Upregulation of key oxidative enzymes, including <em>succinate dehydrogenase (SDH)</em>, <em>citrate synthase</em>, and <em>carnitine palmitoyltransferase (CPT)</em>.</li><li><strong>Glycogen-Sparing Effect:</strong> Increased capacity for \\(\\beta\\)-oxidation, shifting fuel utilization toward fats at submaximal workloads and sparing limited intramuscular glycogen reserves.</li></ol><table class=\"data-table\"><thead><tr><th>Substrate Class</th><th>Primary Storage Form</th><th>Metabolic Processing Pathway</th><th>ATP Yield per Substrate Mole</th></tr></thead><tbody><tr><td><strong>Carbohydrates</strong></td><td>Muscle/Liver Glycogen, Blood Glucose</td><td>Glycolysis \\(\\rightarrow\\) Krebs Cycle \\(\\rightarrow\\) ETC</td><td>\\(36 - 39\\text{ mol ATP}\\)</td></tr><tr><td><strong>Fats / Lipids</strong></td><td>Adipose / Intramuscular Triglycerides</td><td>Lipolysis \\(\\rightarrow\\) Beta-Oxidation \\(\\rightarrow\\) Krebs \\(\\rightarrow\\) ETC</td><td>\\(129 - 147\\text{ mol ATP}\\)</td></tr><tr><td><strong>Proteins</strong></td><td>Skeletal Muscle Amino Acids</td><td>Deamination/Transamination \\(\\rightarrow\\) Krebs Cycle</td><td>Variable (\\(\\\\approx 5 - 10\\%\\) of energy)</td></tr></tbody></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>Long-term endurance training increases an individual's \\(\\text{VO}_2\\text{max}\\) by \\(15\\%\\text{ to }25\\%\\). A hallmark adaptation is the <strong>glycogen-sparing effect</strong>: by increasing mitochondrial density and beta-oxidation enzymes, trained athletes burn a higher proportion of fats at submaximal speeds (e.g., \\(65\\%\\text{ VO}_2\\text{max}\\)), preserving muscle glycogen for high-intensity surges or late-race finishes. Coaches can maximize this adaptation by incorporating long, slow distance (LSD) sessions alongside aerobic interval workouts.</p></div>"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Oxidative System",
+      "def": "An aerobic metabolic energy pathway located in mitochondria that utilizes oxygen to resynthesize large quantities of ATP from carbohydrates, fats, and proteins."
+    },
+    {
+      "term": "Mitochondria",
+      "def": "Double-membrane subcellular organelles containing cristae and matrix that serve as the site for the Krebs cycle, beta-oxidation, and oxidative phosphorylation."
+    },
+    {
+      "term": "Krebs Cycle",
+      "def": "A series of mitochondrial matrix enzymatic reactions (citric acid cycle) that oxidizes acetyl-CoA, producing carbon dioxide, ATP, and electron carriers NADH and FADH2."
+    },
+    {
+      "term": "Electron Transport Chain (ETC)",
+      "def": "A series of protein complexes embedded in the inner mitochondrial membrane that transfers electrons to create a proton gradient driving ATP resynthesis via ATP synthase."
+    },
+    {
+      "term": "Oxidative Phosphorylation",
+      "def": "The mitochondrial synthesis of ATP from ADP and Pi driven by the proton gradient created as electrons flow down the electron transport chain to molecular oxygen."
+    },
+    {
+      "term": "Beta-Oxidation",
+      "def": "The cyclic mitochondrial pathway that cleaves 2-carbon acetyl-CoA units from free fatty acid chains to feed into the Krebs cycle."
+    },
+    {
+      "term": "Lipolysis",
+      "def": "The enzymatic breakdown of stored triglycerides into glycerol and three free fatty acids by hormone-sensitive lipase."
+    },
+    {
+      "term": "Deamination",
+      "def": "The chemical removal of the nitrogen-containing amino group (NH2) from an amino acid before its carbon skeleton can be oxidized for energy."
+    },
+    {
+      "term": "Maximal Aerobic Power (VO2max)",
+      "def": "The maximum rate at which the body can transport and utilize molecular oxygen during exhaustive physical exertion."
+    },
+    {
+      "term": "Oxygen Deficit",
+      "def": "The lag in oxygen consumption at the onset of exercise where anaerobic systems supply ATP until steady-state aerobic metabolism is achieved."
+    },
+    {
+      "term": "EPOC (Excess Post-exercise Oxygen Consumption)",
+      "def": "The elevated volume of oxygen consumed above resting levels during recovery following exercise, used to restore homeostasis and phosphagen stores."
+    },
+    {
+      "term": "Glycogen-Sparing Effect",
+      "def": "An endurance training adaptation characterized by increased reliance on fat oxidation during submaximal exercise, preserving muscle glycogen stores."
+    }
+  ]
+}

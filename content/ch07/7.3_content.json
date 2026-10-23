@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "course": "PX - KINS 4403 Physiology of Exercise",
+    "chapter": "7",
+    "section": "07.3",
+    "ch": "7",
+    "mod": "07.3",
+    "moduleTitle": "07.3 KINS 4403: Short-term Energy – Glycolytic System"
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "title": "Part 1: Biochemical Pathways of Glycolysis and ATP Yield",
+      "sampleCounts": {
+        "mcq": 2,
+        "ms": 2,
+        "tf": 2,
+        "cloze": 2,
+        "sa": 1
+      },
+      "readingHtml": "<h2>Anaerobic Glycolysis and Carbohydrate Substrate Mobilization</h2><p>When physical exertion demands sustained high-power output beyond the \\(10\\text{ to }12\\text{ second}\\) capacity of the phosphagen system—such as during a \\(400\\text{-m}\\) sprint, a \\(100\\text{-m}\\) swim, or a fast-break transition in basketball—skeletal muscle transitions to the <strong>glycolytic system</strong> (also known as the <em>short-term energy system</em> or <em>anaerobic lactic system</em>). The glycolytic system powers high-intensity physical activity lasting approximately \\(15\\text{ seconds}\\) to \\(2\\text{ minutes}\\) by rapidly catabolizing carbohydrate substrates without requiring molecular oxygen (\\(\\text{O}_2\\)).</p><p>The primary fuel source for glycolysis is carbohydrate, stored and transported in two distinct physiological forms:</p><ul><li><strong>Blood Glucose:</strong> Free glucose circulating in the vascular system derived from dietary intake or liver breakdown, delivered across the sarcolemma via specialized GLUT-4 glucose transporters.</li><li><strong>Muscle Glycogen:</strong> A large, highly branched storage polysaccharide composed of interconnected glucose units stored directly within the muscle sarcoplasm.</li></ul><p>The metabolic processing of carbohydrates involves several distinct pathways:</p><ul><li><strong>Glycolysis:</strong> The enzymatic breakdown of glucose or glycogen into pyruvate or lactate, yielding ATP.</li><li><strong>Glycogenolysis:</strong> The breakdown of stored intramuscular or liver glycogen into glucose-6-phosphate.</li><li><strong>Glycogenesis:</strong> The anabolic synthesis of glycogen from glucose molecules for cellular storage.</li><li><strong>Gluconeogenesis:</strong> The liver synthesis of new glucose from non-carbohydrate precursors (e.g., lactate, glycerol, amino acids).</li></ul><h2>Enzymatic Sequence and Rate-Limiting Regulation</h2><p>Glycolysis takes place entirely within the fluid <strong>sarcoplasm (cytoplasm)</strong> of the muscle fiber through a sequential series of 10 enzymatic reactions. The pathway requires an initial investment of ATP to phosphorylate free blood glucose, whereas intramuscular glycogen bypasses the initial ATP-consuming hexokinase step:</p><ol><li><strong>Blood Glucose Pathway:</strong> Free glucose entering the muscle cell requires \\(1\\text{ ATP}\\) investment (catalyzed by <em>hexokinase</em>) to form glucose-6-phosphate. The net ATP yield from one mole of blood glucose is <strong>\\(2\\text{ mol ATP}\\)</strong> per mole of glucose.</li><li><strong>Muscle Glycogen Pathway:</strong> Intramuscular glycogen is cleaved by <em>glycogen phosphorylase</em> directly into glucose-1-phosphate and converted to glucose-6-phosphate without expending ATP. Consequently, the net ATP yield from one mole of muscle glycogen subunit is <strong>\\(3\\text{ mol ATP}\\)</strong>.</li></ol><p>The central control point regulating the overall rate of glycolysis is catalyzed by the enzyme <strong>phosphofructokinase (PFK)</strong> (specifically PFK-1). PFK converts fructose-6-phosphate into fructose-1,6-bisphosphate. PFK is an <strong>allosteric enzyme</strong> whose catalytic activity responds dynamically to the intracellular energy state:</p><ul><li><strong>Allosteric Activators:</strong> Elevated sarcoplasmic concentrations of ADP, AMP, inorganic phosphate (\\(\\text{P}_i\\)), and rising intracellular pH stimulate PFK, accelerating glycolytic rate during high energy demand.</li><li><strong>Allosteric Inhibitors:</strong> High resting levels of ATP, creatine phosphate (CP), citrate, and accumulating hydrogen ions (\\(\\text{H}^+\\)) inhibit PFK, slowing glycolytic flux when energy supply is sufficient or when severe acidosis threatens cellular integrity.</li></ul><h2>Substrate-Level Phosphorylation and Net Energy Balance</h2><p>Downstream of PFK, the 6-carbon fructose-1,6-bisphosphate molecule is cleaved into two 3-carbon intermediate molecules (glyceraldehyde-3-phosphate). Each 3-carbon molecule undergoes oxidation and phosphorylation, generating \\(2\\text{ ATP}\\) molecules via <strong>substrate-level phosphorylation</strong> alongside \\(1\\text{ molecule of NADH}\\) (reduced nicotinamide adenine dinucleotide).</p><p>Because two 3-carbon intermediates proceed through the lower pathway per glucose molecule, the gross ATP production is \\(4\\text{ ATP}\\). Subtracting the initial investment (\\(1\\text{ ATP}\\) for glucose, \\(0\\text{ ATP}\\) for glycogen), the overall net energy summary equations are:</p>\\[\\text{Glucose} + 2\\text{ ADP} + 2\\text{ P}_i + 2\\text{ NAD}^+ \\rightarrow 2\\text{ Pyruvate} + 2\\text{ Net ATP} + 2\\text{ NADH} + 2\\text{ H}^+\\]\\[\\text{Glycogen subunit} + 3\\text{ ADP} + 3\\text{ P}_i + 2\\text{ NAD}^+ \\rightarrow 2\\text{ Pyruvate} + 3\\text{ Net ATP} + 2\\text{ NADH} + 2\\text{ H}^+\\]<table class=\"data-table\"><thead><tr><th>Glycolytic Parameter</th><th>Blood Glucose Pathway</th><th>Muscle Glycogen Pathway</th></tr></thead><tbody><tr><td><strong>Initial Substrate Source</strong></td><td>Circulating Blood Glucose</td><td>Intramuscular Stored Glycogen</td></tr><tr><td><strong>Initial Enzymatic Step</strong></td><td>Hexokinase (Uses \\(1\\text{ ATP}\\))</td><td>Glycogen Phosphorylase (Uses \\(0\\text{ ATP}\\))</td></tr><tr><td><strong>Initial ATP Investment</strong></td><td>\\(1\\text{ mol ATP}\\) per mole glucose</td><td>\\(0\\text{ mol ATP}\\) per mole subunit</td></tr><tr><td><strong>Gross ATP Production</strong></td><td>\\(4\\text{ mol ATP}\\)</td><td>\\(4\\text{ mol ATP}\\)</td></tr><tr><td><strong>Net ATP Yield</strong></td><td><strong>\\(2\\text{ mol ATP}\\)</strong></td><td><strong>\\(3\\text{ mol ATP}\\)</strong></td></tr><tr><td><strong>Primary Rate-Limiting Enzyme</strong></td><td>Phosphofructokinase (PFK)</td><td>Phosphofructokinase (PFK)</td></tr></tbody></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>Because muscle glycogen yields \\(3\\text{ net ATP}\\) compared to \\(2\\text{ net ATP}\\) from circulating blood glucose, maintaining high pre-exercise intramuscular glycogen stores through proper dietary carbohydrate intake is vital for high-intensity athletic performance. Athletes entering high-intensity competition with depleted glycogen stores experience early metabolic fatigue because the muscle is forced to rely on blood glucose, which yields \\(33\\%\\) less net ATP per unit time and requires active transport across the sarcolemma.</p></div>"
+    },
+    {
+      "id": "p2",
+      "title": "Part 2: Lactic Acid Metabolism, Muscle Acidosis, and Clearance Pathways",
+      "sampleCounts": {
+        "mcq": 2,
+        "ms": 2,
+        "tf": 2,
+        "cloze": 2,
+        "sa": 1
+      },
+      "readingHtml": "<h2>The Metabolic Fate of Pyruvate: Fast vs. Slow Glycolysis</h2><p>The 3-carbon end-product of glycolysis is <strong>pyruvic acid (pyruvate)</strong>. The ultimate metabolic fate of pyruvate depends primarily on exercise intensity, cellular oxygen availability, and the rate of mitochondrial oxidative capacity relative to glycolytic flux:</p><ul><li><strong>Fast (Anaerobic) Glycolysis:</strong> When exercise intensity is very high and the rate of ATP resynthesis required exceeds the oxidative capacity of the mitochondria, pyruvate remains in the sarcoplasm. The enzyme <strong>lactate dehydrogenase (LDH)</strong> catalyzes the reduction of pyruvate into <strong>lactic acid</strong> by transferring two hydrogen atoms from NADH:</li></ul>\\[\\text{Pyruvate} + \\text{NADH} + \\text{H}^+ \\xrightarrow{\\text{Lactate Dehydrogenase}} \\text{Lactic Acid} + \\text{NAD}^+\\]<p>This conversion regenerates oxidized \\(\\text{NAD}^+\\), which is indispensable for allowing step 6 of glycolysis (glyceraldehyde-3-phosphate dehydrogenase) to continue, thereby sustaining rapid ATP resynthesis without oxygen.</p><ul><li><strong>Slow (Aerobic) Glycolysis:</strong> When exercise intensity is moderate and adequate oxygen is present, pyruvate is transported across the double membrane of the mitochondria into the matrix. There, it is converted by <em>pyruvate dehydrogenase</em> into <strong>acetyl-CoA</strong>, entering the Krebs cycle and electron transport chain for long-term aerobic ATP production.</li></ul><h2>Lactic Acid Dissociation and the Mechanisms of Muscle Acidosis</h2><p>A widespread misconception in exercise science is that lactate itself causes muscle pain and fatigue. In human skeletal muscle at physiological pH (\\(\\approx 7.0\\)), lactic acid (\\(\\text{C}_3\\text{H}_6\\text{O}_3\\)) immediately dissociates into a <strong>lactate anion</strong> (\\(\\text{C}_3\\text{H}_5\\text{O}_3^-\\)) and a free <strong>hydrogen ion</strong> (\\(\\text{H}^+\\)):</p>\\[\\text{Lactic Acid} \\rightarrow \\text{Lactate}^- + \\text{H}^+\\]<p>It is the progressive accumulation of free <strong>hydrogen ions (\\(\\text{H}^+\\))</strong>—not lactate—that causes intracellular <strong>muscle acidosis</strong>. High-intensity fast glycolysis causes sarcoplasmic pH to drop from a resting value of \\(\\approx 7.1\\) down to as low as \\(6.4\\text{ to }6.5\\). Metabolic acidosis induces muscle fatigue through three primary physiological mechanisms:</p><ol><li><strong>Enzyme Inhibition:</strong> High \\(\\text{H}^+\\) concentration directly inhibits key glycolytic enzymes, particularly phosphofructokinase (PFK), slowing down the rate of ATP resynthesis.</li><li><strong>Impaired Excitation-Contraction Coupling:</strong> Excess \\(\\text{H}^+\\) competes with calcium ions (\\(\\text{Ca}^{2+}\\)) for binding sites on troponin C, disrupting the shift of tropomyosin and decreasing cross-bridge force production.</li><li><strong>Nerve Receptor Stimulation:</strong> \\(\\text{H}^+\\) ions stimulate sensory pain nerve endings in skeletal muscle tissue, sending fatigue signals to the central nervous system and producing the characteristic muscular 'burn'.</li></ol><h2>Lactate Shuttle, the Cori Cycle, and the Anaerobic Threshold</h2><p>Far from being a metabolic waste product, lactate is a valuable energy substrate utilized by cardiac muscle, adjacent Type I slow-twitch fibers, and the liver. Intracellular and extracellular <strong>monocarboxylate transporters (MCTs)</strong> shuttle lactate across cell membranes:</p><ul><li><strong>Intracellular Lactate Shuttle:</strong> Lactate produced in Type II (fast-twitch) glycolytic muscle fibers is transported into neighboring Type I (slow-twitch) oxidative fibers or nearby cardiac muscle, converted back to pyruvate by LDH, and oxidized aerobically.</li><li><strong>The Cori Cycle:</strong> Circulating blood lactate is carried to the liver, where hepatic enzymes convert lactate back into glucose via <strong>gluconeogenesis</strong>. This newly synthesized glucose is released into the bloodstream to replenish blood glucose or muscle glycogen stores.</li></ul><p>Under resting conditions, blood lactate remains low (\\(1.0\\text{ to }2.0\\text{ mmol/L}\\)). As exercise intensity increases, a workload threshold is reached where lactate production exceeds the body's rate of clearance and removal. This point is defined as the <strong>anaerobic threshold</strong> (or <em>lactate threshold</em>), typically occurring at \\(50\\%\\text{ to }60\\%\\) of \\(\\text{VO}_2\\text{max}\\) in untrained individuals, and shifting to \\(70\\%\\text{ to }85\\%\\) of \\(\\text{VO}_2\\text{max}\\) in endurance-trained athletes.</p><table class=\"data-table\"><thead><tr><th>Metabolic Parameter</th><th>Fast (Anaerobic) Glycolysis</th><th>Slow (Aerobic) Glycolysis</th></tr></thead><tbody><tr><td><strong>Oxygen Requirement</strong></td><td>None (Anaerobic)</td><td>Requires \\(\\text{O}_2\\) downstream in mitochondria</td></tr><tr><td><strong>Primary End-Product</strong></td><td>Lactic Acid (Lactate + \\(\\text{H}^+\\))</td><td>Pyruvate \\(\\rightarrow\\) Acetyl-CoA</td></tr><tr><td><strong>Key Rate-Limiting Enzyme</strong></td><td>Phosphofructokinase (PFK)</td><td>Phosphofructokinase (PFK)</td></tr><tr><td><strong>Primary Sarcoplasmic Location</strong></td><td>Cytoplasm / Sarcoplasm</td><td>Cytoplasm \\(\\rightarrow\\) Mitochondrial Matrix</td></tr><tr><td><strong>Sarcoplasmic pH Impact</strong></td><td>Causes Acidosis (pH drops to \\(6.4 - 6.5\\))</td><td>Minimal pH change (H+ processed in mitochondria)</td></tr><tr><td><strong>Predominant Duration</strong></td><td>\\(15\\text{ seconds to }2\\text{ minutes}\\)</td><td>\\(> 2\\text{ minutes}\\) (transition to oxidative)</td></tr></tbody></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>High-intensity interval training (HIIT) with work intervals lasting \\(30\\text{ to }90\\text{ seconds}\\) (work-to-rest ratio of 1:3 to 1:5) stresses the glycolytic pathway and enhances intracellular hydrogen ion buffering capacity (via bicarbonate and carnosine buffers). Furthermore, implementing an <strong>active recovery</strong> (e.g., low-intensity walking or light cycling at \\(35\\% - 45\\%\\) \\(\\text{VO}_2\\text{max}\\)) following intense glycolytic exercise dramatically accelerates blood lactate clearance compared to passive rest, as light muscular movement maintains elevated blood flow and fuels aerobic oxidation of lactate in slow-twitch muscle fibers.</p></div>"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Glycolysis",
+      "def": "An anaerobic metabolic pathway located in the sarcoplasm that breaks down glucose or glycogen into pyruvate or lactate, resynthesizing ATP."
+    },
+    {
+      "term": "Glycogen",
+      "def": "The stored complex polysaccharide form of glucose found primarily in skeletal muscle sarcoplasm and the liver."
+    },
+    {
+      "term": "Phosphofructokinase (PFK)",
+      "def": "The key rate-limiting allosteric enzyme of glycolysis that catalyzes the conversion of fructose-6-phosphate to fructose-1,6-bisphosphate."
+    },
+    {
+      "term": "Lactic Acid",
+      "def": "An organic acid formed during fast anaerobic glycolysis when pyruvate accepts hydrogen atoms from NADH; rapidly dissociates into lactate and H+."
+    },
+    {
+      "term": "Lactate",
+      "def": "The conjugate base anion formed when lactic acid dissociates at physiological pH; serves as a mobile metabolic substrate for oxidative muscle and liver gluconeogenesis."
+    },
+    {
+      "term": "Muscle Acidosis",
+      "def": "The drop in intracellular sarcoplasmic pH caused by the accumulation of free hydrogen ions (H+) during high-rate anaerobic glycolysis, leading to fatigue."
+    },
+    {
+      "term": "Glycogenolysis",
+      "def": "The enzymatic cleavage of stored intracellular glycogen into glucose-6-phosphate for entry into the glycolytic pathway."
+    },
+    {
+      "term": "Glycogenesis",
+      "def": "The anabolic metabolic pathway that synthesizes glycogen from individual glucose molecules for cellular energy storage."
+    },
+    {
+      "term": "Gluconeogenesis",
+      "def": "The metabolic process occurring primarily in the liver that synthesizes new glucose molecules from non-carbohydrate precursors such as lactate, glycerol, and amino acids."
+    },
+    {
+      "term": "Cori Cycle",
+      "def": "The metabolic pathway in which blood lactate produced by active skeletal muscle is transported to the liver, converted back into glucose via gluconeogenesis, and returned to the blood."
+    },
+    {
+      "term": "Anaerobic Threshold",
+      "def": "The specific exercise intensity or workload at which blood lactate concentration begins to accumulate exponentially above resting baseline levels."
+    },
+    {
+      "term": "Lactate Dehydrogenase (LDH)",
+      "def": "The sarcoplasmic enzyme that catalyzes the reversible conversion of pyruvate and NADH into lactic acid and NAD+."
+    }
+  ]
+}

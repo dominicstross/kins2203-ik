@@ -1,0 +1,498 @@
+{
+  "p1": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What typical percentage range of increase in VO2max can a previously sedentary individual expect following a chronic, structured endurance training program?",
+        "opts": [
+          "15% to 25%",
+          "50% to 100%",
+          "1% to 5%",
+          "200% to 300%"
+        ],
+        "correct": 0,
+        "rationale": "Chronic endurance training typically increases maximal aerobic power (VO2max) in previously sedentary individuals by 15% to 25%."
+      },
+      {
+        "id": 2,
+        "q": "Which cellular adaptation to endurance training allows muscle fibers to burn a higher proportion of free fatty acids at submaximal workloads, preserving glycogen?",
+        "opts": [
+          "Glycogen-sparing effect",
+          "Lactate accumulation effect",
+          "Anaerobic shift effect",
+          "Myofibrillar hypertrophy"
+        ],
+        "correct": 0,
+        "rationale": "The glycogen-sparing effect is an endurance adaptation where increased mitochondrial density and beta-oxidation enzymes increase fat reliance at submaximal speeds, sparing muscle glycogen."
+      },
+      {
+        "id": 3,
+        "q": "By approximately how much can the total volume and count of mitochondria within muscle fibers expand in response to chronic endurance conditioning?",
+        "opts": [
+          "50% to 100%",
+          "5% to 10%",
+          "300% to 500%",
+          "0% (mitochondria cannot change in size or number)"
+        ],
+        "correct": 0,
+        "rationale": "Mitochondrial biogenesis induced by chronic aerobic conditioning can increase mitochondrial volume and count by 50% to 100%."
+      },
+      {
+        "id": 4,
+        "q": "At what age range does human maximal aerobic power (VO2max) naturally reach its physiological peak?",
+        "opts": [
+          "18 to 25 years",
+          "10 to 12 years",
+          "35 to 45 years",
+          "50 to 60 years"
+        ],
+        "correct": 0,
+        "rationale": "VO2max naturally peaks between 18 and 25 years of age in human populations before undergoing a gradual age-related decline."
+      },
+      {
+        "id": 5,
+        "q": "At what estimated rate does VO2max decline per year in sedentary adults following its peak in early adulthood?",
+        "opts": [
+          "0.5% to 1.5% per year",
+          "5.0% to 10.0% per year",
+          "0.01% per year",
+          "15% to 25% per year"
+        ],
+        "correct": 0,
+        "rationale": "In sedentary adults, maximal aerobic power undergoes a natural decline of approximately 0.5% to 1.5% per year after age 25."
+      },
+      {
+        "id": 6,
+        "q": "Which process describes the expansion of capillary density surrounding skeletal muscle fibers in response to chronic aerobic training?",
+        "opts": [
+          "Vascularization (Angiogenesis)",
+          "Myofibrillar Splitting",
+          "Glycogenolysis",
+          "Gluconeogenesis"
+        ],
+        "correct": 0,
+        "rationale": "Vascularization (angiogenesis) is the increased formation of capillaries around muscle fibers, enhancing O2 delivery and waste removal."
+      },
+      {
+        "id": 7,
+        "q": "Which mitochondrial oxidative enzyme's catalytic activity is significantly upregulated by endurance conditioning?",
+        "opts": [
+          "Succinate Dehydrogenase (SDH)",
+          "Creatine Kinase",
+          "Myokinase",
+          "Lactate Dehydrogenase"
+        ],
+        "correct": 0,
+        "rationale": "Succinate dehydrogenase (SDH) and citrate synthase are key mitochondrial Krebs cycle enzymes upregulated by aerobic training."
+      },
+      {
+        "id": 8,
+        "q": "What heart rate range is typically prescribed during a 40-minute continuous endurance exercise session to stimulate oxidative system adaptations?",
+        "opts": [
+          "130 to 140 beats per minute (60% to 75% max HR)",
+          "190 to 200 beats per minute (95% to 100% max HR)",
+          "70 to 80 beats per minute (resting HR)",
+          "220 beats per minute"
+        ],
+        "correct": 0,
+        "rationale": "Continuous endurance exercise targeting aerobic oxidative adaptations is typically prescribed at 130 to 140 bpm (~60% to 75% max HR) for 40+ minutes."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which of the following physiological adaptations occur within skeletal muscle in response to chronic endurance training? (Select all that apply)",
+        "opts": [
+          "Increased capillary density (vascularization) surrounding muscle fibers",
+          "Mitochondrial biogenesis (50% to 100% increase in size and number)",
+          "Upregulation of oxidative enzymes like succinate dehydrogenase (SDH)",
+          "Complete loss of all Type I slow-twitch muscle fibers"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Endurance training enhances capillarity, increases mitochondrial size/count, and upregulates oxidative enzymes. It preserves and enhances Type I oxidative fibers."
+      },
+      {
+        "id": 2,
+        "q": "Which factors influence the magnitude and rate of VO2max improvements in response to endurance exercise? (Select all that apply)",
+        "opts": [
+          "Genetic predisposition (genotype)",
+          "Age of the individual at training onset",
+          "Baseline cardiorespiratory fitness level",
+          "Hair color and eye color"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Genetics, age, and baseline fitness dictate the ceiling, rate, and percentage improvement in VO2max in response to training."
+      },
+      {
+        "id": 3,
+        "q": "Which benefits are directly derived from the glycogen-sparing effect in endurance athletes? (Select all that apply)",
+        "opts": [
+          "Delayed depletion of intramuscular glycogen reserves",
+          "Increased proportion of fat oxidation during submaximal effort",
+          "Delayed onset of metabolic glycogen-depletion fatigue",
+          "Complete elimination of the need for ATP resynthesis"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Glycogen sparing shifts substrate utilization toward fats at submaximal intensities, preserving muscle glycogen and delaying exhaustion. ATP resynthesis is always required."
+      },
+      {
+        "id": 4,
+        "q": "Which statements regarding VO2max kinetics across the human lifespan are correct? (Select all that apply)",
+        "opts": [
+          "VO2max naturally peaks between ages 18 and 25.",
+          "Sedentary adults experience a decline in VO2max of approximately 0.5% to 1.5% per year after age 25.",
+          "Older adults can still achieve percentage improvements in VO2max through endurance training.",
+          "VO2max increases continuously every year from birth until age 80 without training."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "VO2max peaks in early adulthood (18-25) and declines ~0.5-1.5% yearly in sedentary adults, but older adults retain plastic capacity for training improvements."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Endurance training increases capillary density around working skeletal muscle fibers through angiogenesis.",
+        "ans": true,
+        "feedback": "True. Enhanced capillarity expands surface area for O2/nutrient delivery and waste removal."
+      },
+      {
+        "id": 2,
+        "q": "The glycogen-sparing effect increases an athlete's reliance on carbohydrate breakdown during submaximal exercise.",
+        "ans": false,
+        "feedback": "False. The glycogen-sparing effect increases fat oxidation, which preserves (spares) muscle glycogen stores."
+      },
+      {
+        "id": 3,
+        "q": "Mitochondrial volume within skeletal muscle can increase by 50% to 100% following chronic aerobic conditioning.",
+        "ans": true,
+        "feedback": "True. Mitochondrial biogenesis significantly expands both the size and total number of mitochondria."
+      },
+      {
+        "id": 4,
+        "q": "Genetics plays no role in determining an individual's baseline VO2max or training responsiveness.",
+        "ans": false,
+        "feedback": "False. Genotype heavily dictates individual baseline VO2max limits and separates high-responders from low-responders."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Endurance training stimulates **mitochondrial biogenesis** and increases capillary density through **vascularization**.",
+        "targets": [
+          "mitochondrial biogenesis",
+          "vascularization"
+        ],
+        "optionsBank": [
+          "mitochondrial biogenesis",
+          "vascularization",
+          "glycolysis",
+          "myofibrillar atrophy",
+          "acidosis"
+        ],
+        "hint": "Cellular adaptation involving powerhouses and new capillary growth."
+      },
+      {
+        "id": 2,
+        "statement": "Maximal aerobic power naturally peaks between **18 to 25 years** of age and declines by **0.5% to 1.5% per year** in sedentary adults.",
+        "targets": [
+          "18 to 25 years",
+          "0.5% to 1.5% per year"
+        ],
+        "optionsBank": [
+          "18 to 25 years",
+          "0.5% to 1.5% per year",
+          "50 to 60 years",
+          "10% to 20% per year",
+          "5 to 10 years"
+        ],
+        "hint": "Age range for peak VO2max and annual rate of decline in sedentary individuals."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Detail four major cellular and vascular adaptations within skeletal muscle that occur as a result of chronic endurance training.",
+        "model": "Chronic endurance training induces four major adaptations: 1) Increased vascularization (capillarity) surrounding muscle fibers, expanding O2 and nutrient delivery; 2) Mitochondrial biogenesis, expanding mitochondrial size and number by 50% to 100%; 3) Upregulation of aerobic enzymes, increasing catalytic activity of SDH and citrate synthase; and 4) The glycogen-sparing effect, which increases fat oxidation at submaximal workloads to preserve glycogen stores.",
+        "criteria": [
+          "List increased capillarity/vascularization for enhanced O2/nutrient diffusion.",
+          "Describe mitochondrial biogenesis (50-100% increase in size/number).",
+          "Identify upregulation of oxidative enzymes (e.g., SDH, citrate synthase) and the glycogen-sparing effect."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Explain the physiological significance of the glycogen-sparing effect for a competitive marathon runner.",
+        "model": "The glycogen-sparing effect allows a marathon runner to rely more heavily on fat oxidation (lipolysis and beta-oxidation) at submaximal running speeds (e.g., 65-75% VO2max). Because intramuscular glycogen reserves are severely limited (exhausting within 90-120 minutes of intense exertion), burning a higher ratio of free fatty acids preserves glycogen for late-race surges, steep inclines, or the final sprint, preventing early exhaustion.",
+        "criteria": [
+          "Define glycogen-sparing as increased fat oxidation during submaximal effort.",
+          "Note the finite nature of muscle glycogen stores.",
+          "Explain how preserving glycogen delays fatigue and maintains pace late in a race."
+        ]
+      }
+    ]
+  },
+  "p2": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "Which concept best describes how all three human energy systems operate simultaneously rather than as isolated, sequential switches?",
+        "opts": [
+          "Metabolic Energy Continuum",
+          "All-or-None Law",
+          "Rate-Limiting Isolation",
+          "Sequential Energy Cascade"
+        ],
+        "correct": 0,
+        "rationale": "The metabolic energy continuum illustrates that all three energy systems overlap and contribute to ATP resynthesis concurrently."
+      },
+      {
+        "id": 2,
+        "q": "What is the primary factor determining which metabolic energy system dominates ATP production during exercise?",
+        "opts": [
+          "Exercise Intensity",
+          "Exercise Duration",
+          "Ambient Temperature",
+          "Resting Heart Rate"
+        ],
+        "correct": 0,
+        "rationale": "Exercise intensity (rate of ATP demand) is the primary factor determining energy system dominance, with duration acting as secondary."
+      },
+      {
+        "id": 3,
+        "q": "Which energy system provides the vast majority (over 90%) of ATP for maximal effort activities lasting 0 to 10 seconds?",
+        "opts": [
+          "Phosphagen System",
+          "Glycolytic System",
+          "Oxidative System",
+          "Beta-Oxidation Pathway"
+        ],
+        "correct": 0,
+        "rationale": "Short-duration, maximal power movements lasting 0 to 10 seconds rely almost exclusively on stored ATP and creatine phosphate via the phosphagen system."
+      },
+      {
+        "id": 4,
+        "q": "At what performance duration does an equal metabolic intersection occur where energy supply is approximately 50% anaerobic and 50% aerobic?",
+        "opts": [
+          "6 to 9 minutes",
+          "10 to 15 seconds",
+          "30 to 60 seconds",
+          "2 to 3 hours"
+        ],
+        "correct": 0,
+        "rationale": "At 6 to 9 minutes of high-intensity effort (e.g., 2000-m rowing), ATP resynthesis is supplied approximately 50% anaerobically and 50% aerobically."
+      },
+      {
+        "id": 5,
+        "q": "Which relative energy system contribution profile corresponds to a high-intensity 400-meter track sprint lasting 30 to 60 seconds?",
+        "opts": [
+          "70% - 80% Anaerobic / 20% - 30% Aerobic",
+          "95% Anaerobic / 5% Aerobic",
+          "10% Anaerobic / 90% Aerobic",
+          "50% Anaerobic / 50% Aerobic"
+        ],
+        "correct": 0,
+        "rationale": "A 30-60 second effort is dominated by anaerobic glycolysis (~70-80% anaerobic) with a growing 20-30% aerobic contribution."
+      },
+      {
+        "id": 6,
+        "q": "For athletic events lasting longer than 10 minutes, what percentage range of total ATP resynthesis is supplied by the aerobic oxidative system?",
+        "opts": [
+          "70% to 95%+",
+          "10% to 20%",
+          "50%",
+          "0% to 5%"
+        ],
+        "correct": 0,
+        "rationale": "For sustained events beyond 10 minutes (10K, marathon, triathlon), the oxidative system supplies 70% to 95%+ of total ATP."
+      },
+      {
+        "id": 7,
+        "q": "Which athletic event relies predominantly on the anaerobic phosphagen system for immediate high-power energy?",
+        "opts": [
+          "Shot Put Throw",
+          "10,000-meter Run",
+          "2000-meter Rowing",
+          "Marathon"
+        ],
+        "correct": 0,
+        "rationale": "Shot put is an explosive field event lasting under 2 seconds, relying almost entirely on the phosphagen system."
+      },
+      {
+        "id": 8,
+        "q": "What is the secondary factor determining which energy system predominates during exercise?",
+        "opts": [
+          "Exercise Duration",
+          "Exercise Intensity",
+          "Dietary Fat Intake",
+          "Muscle Fiber Color"
+        ],
+        "correct": 0,
+        "rationale": "While intensity is the primary determinant, exercise duration is the secondary factor governing how long anaerobic systems can contribute before oxidative dominance."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which statements accurately reflect the concept of the Metabolic Energy Continuum? (Select all that apply)",
+        "opts": [
+          "All three energy systems operate concurrently rather than sequentially.",
+          "Exercise intensity is the primary factor determining system dominance.",
+          "Exercise duration is the secondary factor determining system dominance.",
+          "Only one energy system can be biochemically active in the body at any single moment."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "The energy continuum establishes that systems overlap concurrently, governed primarily by intensity and secondarily by duration. Systems do not operate in isolation."
+      },
+      {
+        "id": 2,
+        "q": "Which athletic events receive at least 70% or more of their ATP resynthesis from ANAEROBIC energy pathways? (Select all that apply)",
+        "opts": [
+          "100-meter track sprint",
+          "Shot put throw",
+          "400-meter track sprint",
+          "Marathon (42.2 km)"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "100-m sprint (phosphagen, 95% anaerobic), shot put (phosphagen, 95%+ anaerobic), and 400-m sprint (glycolytic, 70-80% anaerobic) rely heavily on anaerobic pathways. A marathon is 95%+ aerobic."
+      },
+      {
+        "id": 3,
+        "q": "How do energy systems interact during a multi-directional team sport like soccer or basketball? (Select all that apply)",
+        "opts": [
+          "Explosive sprints and jumps utilize the phosphagen system.",
+          "Sustained high-speed transitions engage anaerobic glycolysis.",
+          "Low-intensity jogging and stoppages rely on the oxidative system to restore CP and clear waste.",
+          "The oxidative system shuts down completely during the entire match."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Intermittent team sports engage all three systems along the continuum: phosphagen for sprints, glycolysis for sustained bursts, and oxidative for recovery."
+      },
+      {
+        "id": 4,
+        "q": "Which parameters describe an athletic effort lasting 6 to 9 minutes (such as 2000-m rowing)? (Select all that apply)",
+        "opts": [
+          "Energy supply is approximately 50% anaerobic and 50% aerobic.",
+          "Both glycolytic and oxidative systems contribute substantially to ATP resynthesis.",
+          "It represents an equal metabolic intersection along the energy continuum.",
+          "It is powered 100% by stored ATP without any oxygen uptake."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Efforts lasting 6 to 9 minutes represent an equal 50/50 intersection of anaerobic glycolysis and aerobic oxidation."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Energy systems operate in strict sequential order, where glycolysis only turns on after the phosphagen system is 100% depleted.",
+        "ans": false,
+        "feedback": "False. Energy systems coexist and overlap along a continuum; glycolysis begins resynthesizing ATP within seconds of exercise initiation."
+      },
+      {
+        "id": 2,
+        "q": "Exercise intensity is the primary determinant of which energy system supplies the majority of ATP.",
+        "ans": true,
+        "feedback": "True. Intensity dictates the required rate of ATP resynthesis, governing energy system contribution."
+      },
+      {
+        "id": 3,
+        "q": "A marathon run relies on the oxidative system for over 90% to 95% of its total ATP production.",
+        "ans": true,
+        "feedback": "True. Long-duration events (>10 min) are overwhelmingly powered by aerobic oxidative metabolism."
+      },
+      {
+        "id": 4,
+        "q": "During low-intensity rest intervals in intermittent sports, the oxidative system helps replenish depleted creatine phosphate stores.",
+        "ans": true,
+        "feedback": "True. Aerobic mitochondrial respiration resynthesizes ATP to re-phosphorylate free creatine into CP during recovery."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "The primary factor determining energy system contribution is exercise **intensity**, while the secondary factor is exercise **duration**.",
+        "targets": [
+          "intensity",
+          "duration"
+        ],
+        "optionsBank": [
+          "intensity",
+          "duration",
+          "frequency",
+          "temperature",
+          "flexibility"
+        ],
+        "hint": "The two main variables dictating metabolic energy system dominance."
+      },
+      {
+        "id": 2,
+        "statement": "An effort lasting 6 to 9 minutes represents an equal **50% anaerobic** and **50% aerobic** metabolic intersection.",
+        "targets": [
+          "50% anaerobic",
+          "50% aerobic"
+        ],
+        "optionsBank": [
+          "50% anaerobic",
+          "50% aerobic",
+          "95% anaerobic",
+          "100% aerobic",
+          "5% anaerobic"
+        ],
+        "hint": "The relative 50/50 energy split corresponding to 6-9 minute maximal efforts."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Explain the concept of the metabolic energy continuum, clarifying why it is inaccurate to state that only one energy system functions during a given exercise.",
+        "model": "The metabolic energy continuum describes the continuous, overlapping contribution of all three energy systems (phosphagen, glycolytic, and oxidative) to ATP resynthesis. It is inaccurate to state that only one system functions because all three pathways operate concurrently at all times. The relative contribution of each system shifts fluidly based on exercise intensity (primary factor) and duration (secondary factor), with one system predominating to meet the specific ATP demand.",
+        "criteria": [
+          "Define the metabolic energy continuum as the concurrent, overlapping operation of all three energy systems.",
+          "State that no energy system operates in complete isolation.",
+          "Identify exercise intensity (primary) and duration (secondary) as the key governing factors."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Analyze the energy system interaction during a soccer match, mapping specific game movements to their predominant metabolic pathways.",
+        "model": "Soccer involves intermittent work along the energy continuum. Explosive 2-5 second sprints, jumping headers, and hard tackles rely predominantly on the anaerobic phosphagen system for immediate high-power ATP. Sustained 15-45 second high-speed transitions or repeated pressings engage anaerobic glycolysis, generating lactate. During walking, light jogging, or injury stoppages, the aerobic oxidative system predominates, clearing metabolic by-products and aerobically resynthesizing ATP to restore depleted creatine phosphate stores.",
+        "criteria": [
+          "Map explosive sprints/jumps (0-10s) to the phosphagen system.",
+          "Map sustained high-speed efforts (15-45s) to anaerobic glycolysis.",
+          "Map low-intensity jogging/stoppage recovery to the oxidative system for CP restoration and lactate clearance."
+        ]
+      }
+    ]
+  }
+}

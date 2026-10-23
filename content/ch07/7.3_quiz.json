@@ -1,0 +1,498 @@
+{
+  "p1": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What is the primary duration range of high-intensity physical exertion powered predominantly by the glycolytic energy system?",
+        "opts": [
+          "15 seconds to 2 minutes",
+          "0 to 10 seconds",
+          "5 to 10 minutes",
+          "30 to 60 minutes"
+        ],
+        "correct": 0,
+        "rationale": "The glycolytic system serves as the primary short-term energy pathway, powering high-intensity exercise lasting from approximately 15 seconds up to 2 minutes."
+      },
+      {
+        "id": 2,
+        "q": "What is the net ATP yield per mole of intramuscular glycogen subunit degraded through anaerobic glycolysis?",
+        "opts": [
+          "3 mol ATP",
+          "2 mol ATP",
+          "36 mol ATP",
+          "1 mol ATP"
+        ],
+        "correct": 0,
+        "rationale": "Intramuscular glycogen enters glycolysis via glycogenolysis as glucose-1-phosphate, bypassing the initial ATP-consuming hexokinase reaction, thereby yielding a net of 3 ATP (compared to 2 ATP from free blood glucose)."
+      },
+      {
+        "id": 3,
+        "q": "What is the net ATP yield per mole of circulating blood glucose processed through anaerobic glycolysis?",
+        "opts": [
+          "2 mol ATP",
+          "3 mol ATP",
+          "4 mol ATP",
+          "38 mol ATP"
+        ],
+        "correct": 0,
+        "rationale": "Free blood glucose requires 1 ATP during the hexokinase step to form glucose-6-phosphate. After gross production of 4 ATP in the lower pathway, the net yield is 2 mol ATP per mole of blood glucose."
+      },
+      {
+        "id": 4,
+        "q": "Which enzyme catalyzes the key rate-limiting step of glycolysis by converting fructose-6-phosphate into fructose-1,6-bisphosphate?",
+        "opts": [
+          "Phosphofructokinase (PFK)",
+          "Hexokinase",
+          "Glycogen Phosphorylase",
+          "Lactate Dehydrogenase (LDH)"
+        ],
+        "correct": 0,
+        "rationale": "Phosphofructokinase (PFK) is the primary rate-limiting allosteric enzyme regulating the rate of glycolytic flux based on cellular energy charge."
+      },
+      {
+        "id": 5,
+        "q": "Which cellular location serves as the site for all 10 enzymatic reactions of anaerobic glycolysis?",
+        "opts": [
+          "Sarcoplasm (Cytoplasm)",
+          "Mitochondrial Matrix",
+          "Inner Mitochondrial Membrane",
+          "Sarcoplasmic Reticulum"
+        ],
+        "correct": 0,
+        "rationale": "Anaerobic glycolysis takes place entirely within the sarcoplasm (cytoplasm) of the muscle fiber."
+      },
+      {
+        "id": 6,
+        "q": "Which allosteric factor acts as an inhibitor of the rate-limiting enzyme phosphofructokinase (PFK)?",
+        "opts": [
+          "High ATP concentrations",
+          "Elevated AMP levels",
+          "Elevated ADP levels",
+          "High inorganic phosphate (P_i)"
+        ],
+        "correct": 0,
+        "rationale": "High resting levels of ATP, creatine phosphate, and citrate indicate high energy availability and allosterically inhibit PFK to slow glycolytic flux."
+      },
+      {
+        "id": 7,
+        "q": "Which enzyme catalyzes the breakdown of stored intramuscular glycogen into glucose-1-phosphate?",
+        "opts": [
+          "Glycogen Phosphorylase",
+          "Hexokinase",
+          "Pyruvate Kinase",
+          "Aldolase"
+        ],
+        "correct": 0,
+        "rationale": "Glycogenolysis is catalyzed by glycogen phosphorylase, which cleaves terminal glucose units from glycogen without expending ATP."
+      },
+      {
+        "id": 8,
+        "q": "What process describes the anabolic synthesis of glycogen from individual glucose molecules for storage in muscle and liver tissue?",
+        "opts": [
+          "Glycogenesis",
+          "Glycogenolysis",
+          "Gluconeogenesis",
+          "Glycolysis"
+        ],
+        "correct": 0,
+        "rationale": "Glycogenesis is the metabolic pathway that synthesizes glycogen from glucose for cellular energy storage."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which of the following factors allosterically STIMULATE the rate-limiting enzyme Phosphofructokinase (PFK)? (Select all that apply)",
+        "opts": [
+          "Elevated sarcoplasmic ADP levels",
+          "Elevated sarcoplasmic AMP levels",
+          "Increased inorganic phosphate (P_i) concentration",
+          "High resting ATP concentration"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "PFK is activated by signals of cellular energy depletion, including elevated ADP, AMP, and P_i. High ATP indicates high energy charge and inhibits PFK."
+      },
+      {
+        "id": 2,
+        "q": "Which statements regarding ATP yield in anaerobic glycolysis are correct? (Select all that apply)",
+        "opts": [
+          "Gross ATP production is 4 mol ATP per glucose molecule.",
+          "Net ATP yield from circulating blood glucose is 2 mol ATP.",
+          "Net ATP yield from muscle glycogen is 3 mol ATP.",
+          "Muscle glycogen yields less net ATP than blood glucose because glycogen phosphorylase consumes 2 ATP."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Gross ATP production is 4. Blood glucose requires 1 ATP investment (net 2 ATP). Muscle glycogen bypasses hexokinase requiring 0 ATP investment (net 3 ATP)."
+      },
+      {
+        "id": 3,
+        "q": "Which carbohydrate metabolic terms are correctly matched with their physiological definitions? (Select all that apply)",
+        "opts": [
+          "Glycolysis — Breakdown of glucose or glycogen into pyruvate or lactate.",
+          "Glycogenolysis — Breakdown of stored glycogen into glucose subunits.",
+          "Gluconeogenesis — Liver synthesis of new glucose from non-carbohydrate precursors.",
+          "Glycogenesis — Rapid breakdown of glucose into free fatty acids."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Glycolysis breaks down glucose/glycogen; glycogenolysis breaks down glycogen; gluconeogenesis synthesizes glucose from non-carbohydrates. Glycogenesis is glycogen synthesis from glucose."
+      },
+      {
+        "id": 4,
+        "q": "Which of the following occur during the initial investment phase of glycolysis? (Select all that apply)",
+        "opts": [
+          "Free blood glucose is phosphorylated by hexokinase consuming 1 ATP.",
+          "Glucose-6-phosphate is converted to fructose-6-phosphate.",
+          "Fructose-6-phosphate is phosphorylated by PFK consuming 1 ATP.",
+          "Substrate-level phosphorylation directly generates 36 moles of ATP."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "The investment phase includes phosphorylation of glucose by hexokinase (-1 ATP) and fructose-6-phosphate by PFK (-1 ATP). Substrate-level phosphorylation occurs in the yield phase generating 4 gross ATP."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Anaerobic glycolysis from muscle glycogen yields a net of 3 ATP, whereas glycolysis from blood glucose yields a net of 2 ATP.",
+        "ans": true,
+        "feedback": "True. Muscle glycogen bypasses the initial hexokinase phosphorylation step that consumes 1 ATP, resulting in a higher net yield of 3 ATP."
+      },
+      {
+        "id": 2,
+        "q": "Phosphofructokinase (PFK) is activated by high intracellular concentrations of ATP and creatine phosphate.",
+        "ans": false,
+        "feedback": "False. High levels of ATP and CP signal cellular energy sufficiency and allosterically inhibit PFK."
+      },
+      {
+        "id": 3,
+        "q": "All 10 enzymatic reactions of glycolysis take place in the sarcoplasm of the muscle cell.",
+        "ans": true,
+        "feedback": "True. Glycolysis is a sarcoplasmic (cytoplasmic) anaerobic pathway."
+      },
+      {
+        "id": 4,
+        "q": "Gluconeogenesis is the breakdown of intramuscular glycogen during high-intensity exercise.",
+        "ans": false,
+        "feedback": "False. Gluconeogenesis is the synthesis of new glucose from non-carbohydrate precursors; glycogen breakdown is glycogenolysis."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "The primary rate-limiting enzyme of glycolysis is **phosphofructokinase**, which is allosterically activated by **AMP**.",
+        "targets": [
+          "phosphofructokinase",
+          "AMP"
+        ],
+        "optionsBank": [
+          "phosphofructokinase",
+          "AMP",
+          "hexokinase",
+          "ATP",
+          "citrate"
+        ],
+        "hint": "Identifies the key regulatory enzyme and its energy-depletion activator."
+      },
+      {
+        "id": 2,
+        "statement": "Anaerobic breakdown of blood glucose yields a net of **2 ATP**, while muscle glycogen yields **3 ATP**.",
+        "targets": [
+          "2 ATP",
+          "3 ATP"
+        ],
+        "optionsBank": [
+          "2 ATP",
+          "3 ATP",
+          "36 ATP",
+          "1 ATP",
+          "10 ATP"
+        ],
+        "hint": "Net ATP yields for circulating glucose vs. intramuscular stored glycogen."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Explain why initiating anaerobic glycolysis from intramuscular glycogen provides a bioenergetic advantage over starting from free circulating blood glucose.",
+        "model": "Intramuscular glycogen provides a bioenergetic advantage because it enters glycolysis via glycogenolysis as glucose-1-phosphate, bypassing the initial hexokinase step that consumes 1 ATP when phosphorylating blood glucose. Consequently, glycogen breakdown requires an investment of 1 less ATP in the upper glycolytic pathway, yielding a net of 3 ATP per glycogen subunit compared to 2 ATP per mole of blood glucose—a 50% increase in net energy efficiency per substrate mole.",
+        "criteria": [
+          "State that blood glucose requires 1 ATP for hexokinase phosphorylation, yielding 2 net ATP.",
+          "Explain that glycogen bypasses hexokinase via glycogenolysis, requiring 0 ATP investment initially.",
+          "Conclude that muscle glycogen yields 3 net ATP, providing greater net energy per mole during high-intensity exercise."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Describe the allosteric regulation of phosphofructokinase (PFK) during a high-intensity 400-meter sprint.",
+        "model": "At the onset of a 400-meter sprint, rapid ATP breakdown and phosphagen depletion cause sarcoplasmic levels of ADP, AMP, and inorganic phosphate (P_i) to rise rapidly. These molecules act as allosteric activators of phosphofructokinase (PFK), increasing its catalytic rate and accelerating glycolytic flux to resynthesize ATP rapidly. Conversely, if ATP or citrate concentrations are high, PFK is inhibited, slowing glycolysis.",
+        "criteria": [
+          "Identify PFK as the primary rate-limiting allosteric enzyme of glycolysis.",
+          "List key allosteric activators (ADP, AMP, P_i) elevated during high energy demand.",
+          "Explain how allosteric activation increases glycolytic flux to match rapid ATP consumption."
+        ]
+      }
+    ]
+  },
+  "p2": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "Which enzyme catalyzes the reversible conversion of pyruvate into lactic acid during fast anaerobic glycolysis?",
+        "opts": [
+          "Lactate Dehydrogenase (LDH)",
+          "Pyruvate Dehydrogenase",
+          "Phosphofructokinase (PFK)",
+          "Creatine Kinase"
+        ],
+        "correct": 0,
+        "rationale": "Lactate dehydrogenase (LDH) catalyzes the reduction of pyruvate to lactic acid by transferring hydrogen atoms from NADH."
+      },
+      {
+        "id": 2,
+        "q": "What essential coenzyme is regenerated in its oxidized form (NAD+) when pyruvate is reduced to lactic acid?",
+        "opts": [
+          "NAD+",
+          "FAD",
+          "Coenzyme A",
+          "ATP"
+        ],
+        "correct": 0,
+        "rationale": "Converting pyruvate to lactate oxidizes NADH back to NAD+, restoring the NAD+ pool required to sustain step 6 of glycolysis."
+      },
+      {
+        "id": 3,
+        "q": "At physiological pH (approx. 7.0), what does lactic acid immediately dissociate into within skeletal muscle?",
+        "opts": [
+          "A lactate anion and a free hydrogen ion (H+)",
+          "Pyruvate and carbon dioxide",
+          "Glucose and water",
+          "Urea and ammonia"
+        ],
+        "correct": 0,
+        "rationale": "Lactic acid has a low pKa and immediately dissociates at physiological pH into a lactate anion and a free hydrogen ion (H+)."
+      },
+      {
+        "id": 4,
+        "q": "Which chemical species is directly responsible for intracellular muscle acidosis and muscle fatigue during fast glycolysis?",
+        "opts": [
+          "Free Hydrogen Ions (H+)",
+          "Lactate Anions",
+          "Pyruvate",
+          "Inorganic Phosphate"
+        ],
+        "correct": 0,
+        "rationale": "Accumulation of free hydrogen ions (H+) lowers sarcoplasmic pH, causing acidosis and impairing enzymatic and contractile function."
+      },
+      {
+        "id": 5,
+        "q": "To what resting level can sarcoplasmic pH drop during severe, exhaustive glycolytic exercise?",
+        "opts": [
+          "6.4 to 6.5",
+          "7.1 to 7.2",
+          "5.0 to 5.2",
+          "7.8 to 8.0"
+        ],
+        "correct": 0,
+        "rationale": "Intense anaerobic glycolysis drives sarcoplasmic pH down from a resting ~7.1 to as low as 6.4 - 6.5."
+      },
+      {
+        "id": 6,
+        "q": "What metabolic pathway describes the transport of circulating blood lactate to the liver for conversion back into glucose via gluconeogenesis?",
+        "opts": [
+          "The Cori Cycle",
+          "The Krebs Cycle",
+          "The Glucose-Alanine Cycle",
+          "The Electron Transport Chain"
+        ],
+        "correct": 0,
+        "rationale": "The Cori Cycle transports blood lactate to the liver, where hepatic gluconeogenesis converts it back into glucose."
+      },
+      {
+        "id": 7,
+        "q": "At what approximate percentage of VO2max does the anaerobic (lactate) threshold typically occur in untrained individuals?",
+        "opts": [
+          "50% to 60% of VO2max",
+          "20% to 30% of VO2max",
+          "70% to 85% of VO2max",
+          "95% to 100% of VO2max"
+        ],
+        "correct": 0,
+        "rationale": "In untrained individuals, blood lactate begins to accumulate exponentially above baseline at 50% to 60% of VO2max."
+      },
+      {
+        "id": 8,
+        "q": "Which recovery modality accelerates blood lactate clearance most effectively following exhaustive glycolytic exercise?",
+        "opts": [
+          "Active recovery (light aerobic exercise at 35%-45% VO2max)",
+          "Passive recovery (complete rest/sitting)",
+          "Hyperbaric oxygen therapy",
+          "Ice immersion without movement"
+        ],
+        "correct": 0,
+        "rationale": "Active recovery maintains elevated blood flow and fuels aerobic oxidation of lactate in Type I slow-twitch fibers, clearing lactate significantly faster than passive rest."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Through which mechanisms does intracellular hydrogen ion (H+) accumulation cause muscular fatigue? (Select all that apply)",
+        "opts": [
+          "Inhibition of phosphofructokinase (PFK), slowing glycolytic ATP resynthesis.",
+          "Competition with calcium (Ca2+) for binding sites on troponin C, impairing cross-bridge formation.",
+          "Stimulation of sensory pain receptors, increasing central perception of fatigue.",
+          "Direct dissolution of thick myosin filaments."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "H+ accumulation induces acidosis, inhibiting PFK, competing with Ca2+ on troponin C to reduce contractile force, and stimulating pain nerve endings. H+ does not dissolve filaments."
+      },
+      {
+        "id": 2,
+        "q": "Which statements regarding lactate metabolism and the Intracellular Lactate Shuttle are TRUE? (Select all that apply)",
+        "opts": [
+          "Lactate is not a waste product, but a valuable energy substrate.",
+          "Lactate produced in Type II glycolytic fibers can be shuttled to Type I oxidative fibers for aerobic oxidation.",
+          "Cardiac muscle can take up lactate and convert it back to pyruvate for ATP resynthesis.",
+          "Lactate causes permanent muscle soreness lasting up to 72 hours."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Lactate is a mobile fuel shuttled to slow-twitch fibers and cardiac muscle for aerobic oxidation. Delayed onset muscle soreness (DOMS) is caused by microscopic muscle damage, not lactate."
+      },
+      {
+        "id": 3,
+        "q": "Which parameters distinguish Fast (Anaerobic) Glycolysis from Slow (Aerobic) Glycolysis? (Select all that apply)",
+        "opts": [
+          "Fast glycolysis converts pyruvate to lactate in the sarcoplasm.",
+          "Slow glycolysis transports pyruvate into the mitochondria for oxidation via Acetyl-CoA.",
+          "Fast glycolysis regenerates NAD+ via lactate dehydrogenase.",
+          "Fast glycolysis produces 36 to 39 net ATP directly in the sarcoplasm."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Fast glycolysis yields lactate in sarcoplasm and regenerates NAD+. Slow glycolysis shuttles pyruvate into mitochondria. 36-39 ATP is the total yield of complete oxidative phosphorylation, not sarcoplasmic fast glycolysis."
+      },
+      {
+        "id": 4,
+        "q": "Which physiological changes occur at the Anaerobic (Lactate) Threshold? (Select all that apply)",
+        "opts": [
+          "Blood lactate production exceeds the rate of blood lactate clearance.",
+          "Blood lactate concentration begins to rise exponentially above resting baseline (~1-2 mmol/L).",
+          "It occurs at 50-60% VO2max in untrained individuals and 70-85% VO2max in endurance athletes.",
+          "It represents the total exhaustion of all intramuscular glycogen stores."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "The lactate threshold is the point where production exceeds clearance, causing exponential blood lactate accumulation. It does not mean glycogen is completely exhausted."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Lactate anions are the direct cause of muscle acidosis and sensory muscle burning during high-intensity exercise.",
+        "ans": false,
+        "feedback": "False. Free hydrogen ions (H+) derived from lactic acid dissociation cause muscle acidosis and pain receptor stimulation, not lactate anions."
+      },
+      {
+        "id": 2,
+        "q": "Converting pyruvate to lactic acid via LDH oxidizes NADH back to NAD+, allowing glycolysis to continue generating ATP.",
+        "ans": true,
+        "feedback": "True. NAD+ regeneration is essential for step 6 of glycolysis during anaerobic conditions."
+      },
+      {
+        "id": 3,
+        "q": "The Cori Cycle converts blood lactate into glucose inside the liver via gluconeogenesis.",
+        "ans": true,
+        "feedback": "True. The liver takes up circulating lactate and synthesizes glucose through gluconeogenesis."
+      },
+      {
+        "id": 4,
+        "q": "Passive rest clears blood lactate faster than active light aerobic recovery.",
+        "ans": false,
+        "feedback": "False. Active recovery at 35%-45% VO2max maintains perfusion and fuels aerobic lactate oxidation in slow-twitch fibers, clearing lactate faster."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Lactic acid dissociates into a **lactate anion** and a free **hydrogen ion**, which causes muscle acidosis.",
+        "targets": [
+          "lactate anion",
+          "hydrogen ion"
+        ],
+        "optionsBank": [
+          "lactate anion",
+          "hydrogen ion",
+          "pyruvate",
+          "bicarbonate",
+          "glucose"
+        ],
+        "hint": "Identifies the two dissociation products of lactic acid."
+      },
+      {
+        "id": 2,
+        "statement": "The point where blood lactate accumulation exceeds clearance is the **anaerobic threshold**, occurring at **50% to 60%** of VO2max in untrained individuals.",
+        "targets": [
+          "anaerobic threshold",
+          "50% to 60%"
+        ],
+        "optionsBank": [
+          "anaerobic threshold",
+          "50% to 60%",
+          "aerobic threshold",
+          "90% to 100%",
+          "10% to 20%"
+        ],
+        "hint": "Defines the threshold concept and its typical percentage of VO2max in untrained persons."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Differentiate between fast (anaerobic) glycolysis and slow (aerobic) glycolysis in terms of pyruvate's metabolic fate and NAD+ regeneration.",
+        "model": "In fast (anaerobic) glycolysis, high ATP demand exceeds mitochondrial oxidative capacity. Pyruvate remains in the sarcoplasm and is reduced to lactic acid by lactate dehydrogenase (LDH), converting NADH back to NAD+ to sustain rapid glycolytic ATP resynthesis without oxygen. In slow (aerobic) glycolysis, pyruvate enters the mitochondria, is converted to acetyl-CoA by pyruvate dehydrogenase, and enters the Krebs cycle, while NADH shuttles electrons to the electron transport chain aerobically.",
+        "criteria": [
+          "State that fast glycolysis reduces pyruvate to lactate in the sarcoplasm, regenerating NAD+ via LDH.",
+          "State that slow glycolysis transports pyruvate into mitochondria to form acetyl-CoA for the Krebs cycle.",
+          "Identify oxygen availability and mitochondrial rate capacity as the key determinants."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Explain the three physiological mechanisms by which hydrogen ion (H+) accumulation induces muscular fatigue during exhaustive 400-meter running.",
+        "model": "During a 400-meter sprint, rapid anaerobic glycolysis generates high concentrations of lactic acid, which dissociates into lactate and free H+ ions, dropping sarcoplasmic pH to ~6.4. H+ induces fatigue by: 1) directly inhibiting phosphofructokinase (PFK), slowing the rate of ATP resynthesis; 2) competing with Ca2+ for binding sites on troponin C, impairing excitation-contraction coupling and reducing cross-bridge force; and 3) stimulating sensory nerve endings in muscle, causing pain and central fatigue perception.",
+        "criteria": [
+          "Explain PFK enzyme inhibition by elevated H+ ions.",
+          "Explain H+ competition with Ca2+ on troponin C, disrupting cross-bridge binding.",
+          "Describe sensory nerve ending stimulation causing pain and neural fatigue."
+        ]
+      }
+    ]
+  }
+}
