@@ -1460,26 +1460,58 @@
       document.querySelectorAll('.accordion-card').forEach(c => c.classList.toggle('open', open));
     };
 
+    function buildActivities() {
+      const container = document.getElementById("activitiesGrid") || document.getElementById("activitiesContainer") || document.getElementById("activitiesList");
+      const badge = document.getElementById("actCount") || document.getElementById("activityBadge") || document.getElementById("activitiesCount");
+      const activities = moduleData.activities || [];
 
-    // Clean and normalize the raw path
-    let rawPath = (act.file || act.path || act.src || act.href || "").trim();
+      if (badge) badge.textContent = activities.length;
+      if (!container) return;
 
-    if (rawPath.startsWith("http://") || rawPath.startsWith("https://")) {
-      pill.href = rawPath;
-    } else if (rawPath.includes("content/")) {
-      // If path already contains 'content/', strip any leading slashes or dots
-      pill.href = "./" + rawPath.replace(/^(\.\/|\/)+/, "");
-    } else if (rawPath.includes("activities/")) {
-      // Extract chapter from URL parameter, or fallback to current chapter
+      container.innerHTML = "";
+      if (activities.length === 0) {
+        container.innerHTML = '<p style="color:var(--slate-400); font-style:italic; grid-column: 1 / -1;">No interactive activities for this module.</p>';
+        return;
+      }
+
       const urlParams = new URLSearchParams(window.location.search);
-      let ch = urlParams.get("ch") || (dataObj.meta && dataObj.meta.chapter) || "01";
-      ch = String(ch).padStart(2, "0"); // Ensures '9' becomes '09', '10' stays '10'
+      let ch = urlParams.get("ch") || (moduleData.meta && moduleData.meta.chapter) || "01";
+      ch = String(ch).padStart(2, "0");
 
-      // Strip any leading 'activities/' to avoid double prefixes
-      const cleanActPath = rawPath.replace(/^(\.\/|\/)*activities\//, "");
-      pill.href = `./content/ch${ch}/activities/${cleanActPath}`;
-    } else {
-      pill.href = "./" + rawPath;
+      activities.forEach((act, idx) => {
+        let rawPath = (act.file || act.path || act.src || act.href || "").trim();
+        let finalHref = "";
+
+        if (rawPath.startsWith("http://") || rawPath.startsWith("https://")) {
+          finalHref = rawPath;
+        } else if (rawPath.includes("content/")) {
+          finalHref = "./" + rawPath.replace(/^(\.\/|\/)+/, "");
+        } else if (rawPath.includes("activities/")) {
+          const cleanActPath = rawPath.replace(/^(\.\/|\/)*activities\//, "");
+          finalHref = `./content/ch${ch}/activities/${cleanActPath}`;
+        } else {
+          finalHref = `./content/ch${ch}/activities/${rawPath}`;
+        }
+
+        const card = document.createElement("div");
+        card.className = "activity-card";
+        card.style.cssText = "background:#fff; border:1px solid var(--slate-200); border-radius:8px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; gap:14px; box-shadow:0 1px 3px rgba(0,0,0,0.05);";
+
+        const descText = act.desc || act.description || "";
+        const typeBadge = act.type ? `<span style="font-size:0.7rem; font-weight:700; text-transform:uppercase; padding:2px 8px; border-radius:4px; background:var(--accent-bg, #eff6ff); color:var(--accent, #2563eb); margin-bottom:8px; display:inline-block;">${act.type}</span>` : "";
+
+        card.innerHTML = `
+          <div>
+            ${typeBadge}
+            <h4 style="margin:0 0 6px 0; font-size:1rem; color:var(--slate-800);">${act.title || ("Activity " + (idx + 1))}</h4>
+            <p style="margin:0; font-size:0.85rem; color:var(--slate-600); line-height:1.4;">${descText}</p>
+          </div>
+          <div style="margin-top:auto; padding-top:8px;">
+            <a href="${finalHref}" target="_blank" class="launch-btn" style="display:inline-block; text-align:center; padding:8px 16px; background:var(--accent, #2563eb); color:#fff; border-radius:6px; text-decoration:none; font-weight:600; font-size:0.85rem;">Launch Activity &rarr;</a>
+          </div>
+        `;
+        container.appendChild(card);
+      });
     }
 
     function buildGlossary() {
