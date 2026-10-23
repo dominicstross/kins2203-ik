@@ -1,0 +1,14 @@
+{
+  "chapter": "05",
+  "module": "5.1",
+  "title": "Muscular Strength Assessment & Prescription",
+  "activities": [
+    {
+      "type": "h5p",
+      "title": "1 RM Load Calculator",
+      "desc": "Interactive activity to help understand the prediction of 1RM from different rep RMs",
+      "file": "content/ch05/activities/1rm_loading_zone_calculator.html",
+      "path": "content/ch05/activities/1rm_loading_zone_calculator.html"
+    }
+  ]
+}

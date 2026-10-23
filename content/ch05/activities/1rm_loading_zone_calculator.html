@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1RM Prediction & Loading Zone Calculator</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-light: #3b82f6;
+      --strength: #dc2626;
+      --power: #d97706;
+      --hypertrophy: #2563eb;
+      --endurance: #059669;
+      --bg-surface: #ffffff;
+      --bg-subtle: #f8fafc;
+      --border: #e2e8f0;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 1.5rem;
+      background-color: var(--bg-subtle);
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      background: var(--bg-surface);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+
+    header {
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1rem;
+    }
+
+    h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.5rem;
+      color: var(--primary);
+    }
+
+    p.desc {
+      margin: 0;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* Input Grid */
+    .input-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .input-group label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .input-group input, .input-group select {
+      padding: 0.6rem 0.75rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 1rem;
+      background: #ffffff;
+      outline: none;
+      transition: border-color 150ms ease;
+    }
+
+    .input-group input:focus, .input-group select:focus {
+      border-color: var(--primary-light);
+    }
+
+    /* Quick Stats Display */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .stat-card.highlight {
+      border-color: var(--primary-light);
+      background: #eff6ff;
+    }
+
+    .stat-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    .stat-num {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin: 0.35rem 0 0 0;
+    }
+
+    .stat-sub {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Target Zone Slider & Dynamic Card */
+    .slider-section {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .slider-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .slider-label {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .slider-readout {
+      font-size: 1.25rem;
+      font-weight: 700;
+      font-family: monospace;
+      color: var(--primary);
+    }
+
+    input[type="range"] {
+      width: 100%;
+      height: 8px;
+      border-radius: 4px;
+      background: #cbd5e1;
+      outline: none;
+      margin: 0.75rem 0;
+      cursor: pointer;
+    }
+
+    .zone-badge {
+      display: inline-block;
+      padding: 0.25rem 0.6rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .zone-info-card {
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 6px;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      font-size: 0.85rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .zone-detail-item strong {
+      display: block;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+    }
+
+    /* Loading Table */
+    .table-container {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      text-align: left;
+    }
+
+    thead {
+      background: var(--bg-subtle);
+      border-bottom: 2px solid var(--border);
+    }
+
+    th, td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background-color: #f1f5f9;
+    }
+
+    .badge-cell {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>1RM Prediction & Loading Zone Calculator</h1>
+    <p class="desc">Estimate maximal strength from submaximal repetitions and map target training loads across NSCA resistance training domains.</p>
+  </header>
+
+  <!-- Inputs -->
+  <div class="input-grid">
+    <div class="input-group">
+      <label for="weightInput">Load Lifted</label>
+      <input type="number" id="weightInput" value="225" min="1" step="0.5">
+    </div>
+    <div class="input-group">
+      <label for="unitSelect">Units</label>
+      <select id="unitSelect">
+        <option value="lbs">Pounds (lbs)</option>
+        <option value="kg">Kilograms (kg)</option>
+      </select>
+    </div>
+    <div class="input-group">
+      <label for="repsInput">Reps Completed (1–10)</label>
+      <input type="number" id="repsInput" value="5" min="1" max="15" step="1">
+    </div>
+  </div>
+
+  <!-- Primary Stat Cards -->
+  <div class="stats-row">
+    <div class="stat-card highlight">
+      <div class="stat-title">Estimated 1RM (Mean)</div>
+      <div class="stat-num" id="mean1RM">257</div>
+      <div class="stat-sub" id="meanUnit">lbs</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-title">Brzycki Equation</div>
+      <div class="stat-num" id="brzycki1RM" style="font-size: 1.35rem; color: #475569;">253</div>
+      <div class="stat-sub">Load / (1.0278 - 0.0278 * r)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-title">Epley Equation</div>
+      <div class="stat-num" id="epley1RM" style="font-size: 1.35rem; color: #475569;">262</div>
+      <div class="stat-sub">Load * (1 + 0.0333 * r)</div>
+    </div>
+  </div>
+
+  <!-- Interactive Target Zone Selector -->
+  <div class="slider-section">
+    <div class="slider-header">
+      <span class="slider-label">Explore Training Intensity: <span id="zoneBadgeContainer"></span></span>
+      <span class="slider-readout" id="sliderPctLabel">80% 1RM</span>
+    </div>
+    <input type="range" id="intensitySlider" min="50" max="100" value="80" step="1">
+
+    <div class="zone-info-card">
+      <div class="zone-detail-item">
+        <strong>Prescribed Weight</strong>
+        <span id="calculatedZoneLoad" style="font-size: 1.1rem; font-weight: 700; color: var(--primary);">205 lbs</span>
+      </div>
+      <div class="zone-detail-item">
+        <strong>Target Repetition Range</strong>
+        <span id="zoneReps">~6 - 8 reps</span>
+      </div>
+      <div class="zone-detail-item">
+        <strong>Rest Period</strong>
+        <span id="zoneRest">2 - 3 minutes</span>
+      </div>
+      <div class="zone-detail-item">
+        <strong>Primary Adaptation</strong>
+        <span id="zoneGoal">Muscular Hypertrophy</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reference Percentage Table -->
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>% 1RM</th>
+          <th>Prescribed Load</th>
+          <th>Max Reps (NSCA)</th>
+          <th>Training Adaptation</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- Dynamically injected -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  const weightInput = document.getElementById('weightInput');
+  const unitSelect = document.getElementById('unitSelect');
+  const repsInput = document.getElementById('repsInput');
+  const mean1RMDisplay = document.getElementById('mean1RM');
+  const brzyckiDisplay = document.getElementById('brzycki1RM');
+  const epleyDisplay = document.getElementById('epley1RM');
+  const meanUnitDisplay = document.getElementById('meanUnit');
+
+  const intensitySlider = document.getElementById('intensitySlider');
+  const sliderPctLabel = document.getElementById('sliderPctLabel');
+  const calculatedZoneLoad = document.getElementById('calculatedZoneLoad');
+  const zoneBadgeContainer = document.getElementById('zoneBadgeContainer');
+  const zoneReps = document.getElementById('zoneReps');
+  const zoneRest = document.getElementById('zoneRest');
+  const zoneGoal = document.getElementById('zoneGoal');
+  const tableBody = document.getElementById('tableBody');
+
+  const standardPercentages = [
+    { pct: 100, reps: 1, goal: "Maximal Strength", classColor: "#dc2626" },
+    { pct: 95, reps: 2, goal: "Maximal Strength", classColor: "#dc2626" },
+    { pct: 90, reps: 4, goal: "Strength / Power", classColor: "#d97706" },
+    { pct: 85, reps: 6, goal: "Strength / Hypertrophy", classColor: "#2563eb" },
+    { pct: 80, reps: 8, goal: "Hypertrophy", classColor: "#2563eb" },
+    { pct: 75, reps: 10, goal: "Hypertrophy", classColor: "#2563eb" },
+    { pct: 70, reps: 12, goal: "Hypertrophy / Endurance", classColor: "#059669" },
+    { pct: 65, reps: 15, goal: "Muscular Endurance", classColor: "#059669" }
+  ];
+
+  function roundLoad(val) {
+    return Math.round(val * 2) / 2; // rounds to nearest 0.5
+  }
+
+  function calculate() {
+    const weight = parseFloat(weightInput.value) || 0;
+    const reps = parseInt(repsInput.value, 10) || 1;
+    const unit = unitSelect.value;
+    meanUnitDisplay.textContent = unit;
+
+    if (weight <= 0 || reps <= 0) return;
+
+    let brzycki = weight;
+    let epley = weight;
+
+    if (reps === 1) {
+      brzycki = weight;
+      epley = weight;
+    } else {
+      // Brzycki: Weight / (1.0278 - (0.0278 * Reps))
+      // Protected against reps >= 37
+      const denom = 1.0278 - (0.0278 * reps);
+      brzycki = denom > 0 ? weight / denom : weight * 1.5;
+
+      // Epley: Weight * (1 + 0.0333 * Reps)
+      epley = weight * (1 + (0.0333 * reps));
+    }
+
+    const mean1RM = (brzycki + epley) / 2;
+
+    brzyckiDisplay.textContent = roundLoad(brzycki);
+    epleyDisplay.textContent = roundLoad(epley);
+    mean1RMDisplay.textContent = roundLoad(mean1RM);
+
+    updateSliderZone(mean1RM, unit);
+    renderTable(mean1RM, unit);
+  }
+
+  function updateSliderZone(oneRM, unit) {
+    const pct = parseInt(intensitySlider.value, 10);
+    const load = roundLoad(oneRM * (pct / 100));
+
+    sliderPctLabel.textContent = `${pct}% 1RM`;
+    calculatedZoneLoad.textContent = `${load} ${unit}`;
+
+    let badgeText = "";
+    let badgeColor = "";
+    let repsText = "";
+    let restText = "";
+    let goalText = "";
+
+    if (pct >= 90) {
+      badgeText = "Max Strength";
+      badgeColor = "var(--strength)";
+      repsText = "1 - 3 reps";
+      restText = "2 - 5 minutes";
+      goalText = "Neuromuscular Recruitment & High-Threshold Motor Units";
+    } else if (pct >= 80) {
+      badgeText = "Strength / Hypertrophy";
+      badgeColor = "var(--primary-light)";
+      repsText = "4 - 8 reps";
+      restText = "2 - 3 minutes";
+      goalText = "Mechanical Tension & Myofibrillar Hypertrophy";
+    } else if (pct >= 67) {
+      badgeText = "Hypertrophy";
+      badgeColor = "var(--hypertrophy)";
+      repsText = "8 - 12 reps";
+      restText = "60 - 90 seconds";
+      goalText = "Metabolic Stress & Sarcoplasmic Adaptations";
+    } else {
+      badgeText = "Muscular Endurance";
+      badgeColor = "var(--endurance)";
+      repsText = "15+ reps";
+      restText = "30 - 60 seconds";
+      goalText = "Buffering Capacity, Capillarization & Mitochondrial Density";
+    }
+
+    zoneBadgeContainer.innerHTML = `<span class="zone-badge" style="background:${badgeColor}">${badgeText}</span>`;
+    zoneReps.textContent = repsText;
+    zoneRest.textContent = restText;
+    zoneGoal.textContent = goalText;
+  }
+
+  function renderTable(oneRM, unit) {
+    tableBody.innerHTML = "";
+    standardPercentages.forEach(row => {
+      const prescribed = roundLoad(oneRM * (row.pct / 100));
+      const tr = document.createElement("tr");
+
+      tr.innerHTML = `
+        <td style="font-weight: 700;">${row.pct}%</td>
+        <td style="font-weight: 700; color: var(--primary);">${prescribed} ${unit}</td>
+        <td>${row.reps}</td>
+        <td><span class="badge-cell" style="background-color: ${row.classColor}15; color: ${row.classColor}; border: 1px solid ${row.classColor}40;">${row.goal}</span></td>
+      `;
+      tableBody.appendChild(tr);
+    });
+  }
+
+  // Event Listeners
+  [weightInput, unitSelect, repsInput].forEach(el => {
+    el.addEventListener('input', calculate);
+  });
+
+  intensitySlider.addEventListener('input', () => {
+    const mean = parseFloat(mean1RMDisplay.textContent) || 0;
+    updateSliderZone(mean, unitSelect.value);
+  });
+
+  // Initial Calculation
+  calculate();
+</script>
+
+</body>
+</html>

@@ -70,5 +70,13 @@
       "term": "Predominant Energy System",
       "def": "The specific metabolic pathway providing the majority percentage of ATP resynthesis for a given exercise intensity and duration."
     }
+  ],
+  "activities": [
+    {
+      "type": "sim",
+      "title": "Anaerobic Glycolysis Simulation",
+      "desc": "Interactive breakdown of substrate-level phosphorylation and rate-limiting enzymes.",
+      "file": "content/ch07/activities/starter_simulation.html"
+    }
   ]
 }

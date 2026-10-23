@@ -1,16 +1,16 @@
 {
   "courseCode": "KINS 2203",
-  "courseTitle": "Introduction to Kinesiology",
-  "institution": "Southeastern University",
-  "description": "Interactive learning modules, sub-discipline explorations, and professional practice foundations.",
+  "courseTitle": "KINS 2203 Introduction to Kinesiology",
+  "institution": "Kinesiology",
+  "description": "Interactive Learning Modules (OLMs)",
   "units": [
     {
-      "unitTitle": "Unit 1: The Scope of Kinesiology & Human Movement",
-      "unitTag": "Weeks 1-4",
+      "unitTitle": "Unit 1: What is Kinesiology",
+      "unitTag": "Week",
       "chapters": [
         {
           "num": "01",
-          "title": "Chapter 1: Foundations of Kinesiology & Physical Activity",
+          "title": "Chapter 1: What is Kinesiology",
           "modules": [
             {
               "id": "1.1",
@@ -22,20 +22,14 @@
           ],
           "status": "Under Development",
           "badge": "Under Development"
-        }
-      ]
-    },
-    {
-      "unitTitle": "Unit 2: Physiological & Biomechanical Foundations",
-      "unitTag": "Weeks 5-8",
-      "chapters": [
+        },
         {
           "num": "02",
-          "title": "Chapter 2: Biophysical Foundations of Human Movement",
+          "title": "Chapter 2: Careers in Kinesiology",
           "modules": [
             {
               "id": "2.1",
-              "title": "Basic Neuromechanics & Energy Systems",
+              "title": "Basic",
               "href": "viewer.html?ch=02&mod=2.1",
               "status": "Under Development",
               "locked": true
@@ -43,6 +37,107 @@
           ],
           "status": "Under Development",
           "badge": "Under Development"
+        }
+      ]
+    },
+    {
+      "unitTitle": "Unit 2: Physiological & Biomechanical Foundations",
+      "unitTag": "Week",
+      "chapters": [
+        {
+          "num": "03",
+          "title": "Chapter 3: What is Anatomy",
+          "modules": [
+            {
+              "id": "3.1",
+              "title": "The Language of Anatomy",
+              "href": "viewer.html?ch=03&mod=3.1",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "3.2",
+              "title": "The Musculoskeletal System",
+              "href": "viewer.html?ch=03&mod=3.2",
+              "status": "Under Development",
+              "locked": true
+            }
+          ]
+        },
+        {
+          "num": "05",
+          "title": "Chapter 5: Muscle Structure and Function",
+          "modules": [
+            {
+              "id": "5.1",
+              "title": "Skeletal Muscle",
+              "href": "viewer.html?ch=05&mod=5.1",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "5.2",
+              "title": "Structure of Muscle",
+              "href": "viewer.html?ch=05&mod=5.2",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "5.3",
+              "title": "Sliding Filament Theory",
+              "href": "viewer.html?ch=05&mod=5.3",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "5.4",
+              "title": "Fiber Types",
+              "href": "viewer.html?ch=05&mod=5.4",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "5.5",
+              "title": "Nerve-Muscle Interaction and Adaptation to Exercise",
+              "href": "viewer.html?ch=05&mod=5.5",
+              "status": "Under Development",
+              "locked": true
+            }
+          ]
+        },
+        {
+          "num": "06",
+          "title": "Chapter 6: Muscles at Work",
+          "modules": [
+            {
+              "id": "6.1",
+              "title": "Types of Muscle Action",
+              "href": "viewer.html?ch=06&mod=6.1",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "6.2",
+              "title": "Factors Influencing Muscle Action - Joint Angle, CSA",
+              "href": "viewer.html?ch=06&mod=6.2",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "6.3",
+              "title": "Factors Influencing Muscle Action - Speed of Movement, Muscle Fiber Type",
+              "href": "viewer.html?ch=06&mod=6.3",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "6.4",
+              "title": "Factors Influencing Muscle Action - Age, Sex",
+              "href": "viewer.html?ch=06&mod=6.4",
+              "status": "Under Development",
+              "locked": true
+            }
+          ]
         },
         {
           "num": "07",
@@ -56,19 +151,19 @@
             },
             {
               "id": "7.2",
-              "title": "Immediate Energy – Phosphagen System",
+              "title": "Immediate Energy - Phosphagen System",
               "status": "Active",
               "locked": false
             },
             {
               "id": "7.3",
-              "title": "Short-term Energy – Glycolytic System",
+              "title": "Short-term Energy - Glycolytic System",
               "status": "Active",
               "locked": false
             },
             {
               "id": "7.4",
-              "title": "Long-term Energy – Oxidative System",
+              "title": "Long-term Energy - Oxidative System",
               "status": "Active",
               "locked": false
             },
@@ -135,12 +230,12 @@
       ]
     },
     {
-      "unitTitle": "Unit 3: Professional Pathways & Careers",
-      "unitTag": "Weeks 9-12",
+      "unitTitle": "Unit 3",
+      "unitTag": "Week",
       "chapters": [
         {
           "num": "03",
-          "title": "Chapter 3: Allied Health, Coaching & Human Performance Careers",
+          "title": "Chapter X: Allied Health, Coaching & Human Performance Careers",
           "modules": [
             {
               "id": "3.1",
@@ -195,6 +290,7 @@
     },
     {
       "unitTitle": "Unit 4",
+      "unitTag": "Week",
       "chapters": [
         {
           "num": "15",
@@ -214,25 +310,25 @@
             },
             {
               "id": "15.3",
-              "title": "Components of Physical Fitness – Muscular Strength",
+              "title": "Components of Physical Fitness - Muscular Strength",
               "status": "Under Development",
               "locked": true
             },
             {
               "id": "15.4",
-              "title": "Components of Physical Fitness – Muscular Endurance",
+              "title": "Components of Physical Fitness - Muscular Endurance",
               "status": "Under Development",
               "locked": true
             },
             {
               "id": "15.5",
-              "title": "Components of Physical Fitness – Cardiorespiratory Endurance",
+              "title": "Components of Physical Fitness - Cardiorespiratory Endurance",
               "status": "Under Development",
               "locked": true
             },
             {
               "id": "15.6",
-              "title": "Components of Physical Fitness – Flexibility, Body Composition",
+              "title": "Components of Physical Fitness - Flexibility, Body Composition",
               "status": "Under Development",
               "locked": true
             },

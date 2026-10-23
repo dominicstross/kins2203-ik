@@ -70,5 +70,19 @@
       "term": "Oxidative System",
       "def": "An aerobic energy system operating within mitochondria that uses oxygen to produce large quantities of ATP from carbohydrates, fats, and proteins."
     }
+  ],
+  "activities": [
+    {
+      "type": "sim",
+      "title": "Bioenergetic Pathways Simulator",
+      "desc": "Interactive simulation modeling ATP-PCr, glycolytic, and oxidative energy system contributions across exercise intensities.",
+      "file": "content/ch07/activities/starter_simulation.html"
+    },
+    {
+      "type": "h5p",
+      "title": "Fuel Substrates",
+      "desc": "Interactive activity to help understand the metabolism of the various substrates",
+      "file": "content/ch07/activities/fuel_substrates.html"
+    }
   ]
 }

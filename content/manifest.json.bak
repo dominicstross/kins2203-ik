@@ -1,0 +1,301 @@
+{
+  "courseCode": "KINS 2203",
+  "courseTitle": "KINS 2203 Introduction to Kinesiology",
+  "institution": "Southeastern University",
+  "description": "Interactive learning modules, sub-discipline explorations, and professional practice foundations.",
+  "units": [
+    {
+      "unitTitle": "Unit 1: What is Kinesiology?",
+      "unitTag": "Weeks 1-2",
+      "chapters": [
+        {
+          "num": "01",
+          "title": "Chapter 1: What is Kinesiology",
+          "modules": [
+            {
+              "id": "1.1",
+              "title": "The Nature of Human Movement & Sub-disciplines",
+              "href": "viewer.html?ch=01&mod=1.1",
+              "status": "Under Development",
+              "locked": true
+            }
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
+        }
+      ]
+    },
+      {
+          "num": "02",
+          "title": "Chapter 2: Careers in Kinesiology",
+          "modules": [
+            {
+              "id": "2.1",
+              "title": "Careers in Kinesiology",
+              "href": "viewer.html?ch=02&mod=2.1",
+              "status": "Under Development",
+              "locked": true
+            }
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
+        },
+    {
+      "unitTitle": "Unit 2: Physiological & Biomechanical Foundations",
+      "unitTag": "Weeks 5-8",
+      "chapters": [
+  {
+    "num": "03",
+    "title": "What is Anatomy",
+    "active": false,
+    "modules": [
+      { "id": "3.1", "title": "The Language of Anatomy", "active": false },
+      { "id": "3.2", "title": "The Musculoskeletal System", "active": false }
+    ]
+  },
+      [
+        {
+          "num": "07",
+          "title": "Chapter 7: Energy for Muscular Activity",
+          "modules": [
+            {
+              "id": "7.1",
+              "title": "Chemistry of Energy Production",
+              "status": "Active",
+              "locked": false
+            },
+            {
+              "id": "7.2",
+              "title": "Immediate Energy – Phosphagen System",
+              "status": "Active",
+              "locked": false
+            },
+            {
+              "id": "7.3",
+              "title": "Short-term Energy – Glycolytic System",
+              "status": "Active",
+              "locked": false
+            },
+            {
+              "id": "7.4",
+              "title": "Long-term Energy – Oxidative System",
+              "status": "Active",
+              "locked": false
+            },
+            {
+              "id": "7.5",
+              "title": "Energy Systems Interaction",
+              "status": "Active",
+              "locked": false
+            }
+          ],
+          "status": "Active",
+          "badge": "Active"
+        },
+        {
+          "num": "09",
+          "title": "Chapter 9: The Science of Biomechanics",
+          "modules": [
+            {
+              "id": "9.1",
+              "title": "Types of Study",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "9.2",
+              "title": "Anatomical Directions",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "9.3",
+              "title": "Motion Concepts and Levers",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "9.4",
+              "title": "Newton's Laws of Motion",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "9.5",
+              "title": "Fluid Dynamics",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "9.6",
+              "title": "Body Balance and Stability Control",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "9.7",
+              "title": "Qualitative Analysis of Human Motion",
+              "status": "Under Development",
+              "locked": true
+            }
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
+        }
+      ]
+    },
+    {
+      "unitTitle": "Unit 3: Professional Pathways & Careers",
+      "unitTag": "Weeks 9-12",
+      "chapters": [
+        {
+          "num": "03",
+          "title": "Chapter 3: Allied Health, Coaching & Human Performance Careers",
+          "modules": [
+            {
+              "id": "3.1",
+              "title": "Pre-PT, Pre-OT, and Clinical Exercise Pathways",
+              "href": "viewer.html?ch=03&mod=3.1",
+              "status": "Under Development",
+              "locked": true
+            }
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
+        },
+        {
+          "num": "12",
+          "title": "Chapter 12: Motor Learning in Practice",
+          "modules": [
+            {
+              "id": "12.1",
+              "title": "Conditions for Skill Acquisition",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "12.2",
+              "title": "Stages of Learning a Skill",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "12.3",
+              "title": "Feedback for Skill Learning",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "12.4",
+              "title": "Transfer in Motor Learning",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "12.5",
+              "title": "Designing Effective Practice",
+              "status": "Under Development",
+              "locked": true
+            }
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
+        }
+      ]
+    },
+    {
+      "unitTitle": "Unit 4",
+      "chapters": [
+        {
+          "num": "15",
+          "title": "Chapter 15: Developing Physical Fitness",
+          "modules": [
+            {
+              "id": "15.1",
+              "title": "FITT Principle",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "15.2",
+              "title": "Training Principles",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "15.3",
+              "title": "Components of Physical Fitness – Muscular Strength",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "15.4",
+              "title": "Components of Physical Fitness – Muscular Endurance",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "15.5",
+              "title": "Components of Physical Fitness – Cardiorespiratory Endurance",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "15.6",
+              "title": "Components of Physical Fitness – Flexibility, Body Composition",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "15.7",
+              "title": "Components of Motor Ability",
+              "status": "Under Development",
+              "locked": true
+            },
+            {
+              "id": "15.8",
+              "title": "Fitness Training Activities",
+              "status": "Under Development",
+              "locked": true
+            }
+          ],
+          "status": "Under Development",
+          "badge": "Under Development"
+        }
+      ]
+    }
+  ]
+}[
+  {
+    "num": "03",
+    "title": "What is Anatomy",
+    "active": false,
+    "modules": [
+      { "id": "3.1", "title": "The Language of Anatomy", "active": false },
+      { "id": "3.2", "title": "The Musculoskeletal System", "active": false }
+    ]
+  },
+  {
+    "num": "05",
+    "title": "Muscle Structure and Function",
+    "active": false,
+    "modules": [
+      { "id": "5.1", "title": "Skeletal Muscle", "active": false },
+      { "id": "5.2", "title": "Structure of Muscle", "active": false },
+      { "id": "5.3", "title": "Sliding Filament Theory", "active": false },
+      { "id": "5.4", "title": "Fiber Types", "active": false },
+      { "id": "5.5", "title": "Nerve-Muscle Interaction and Adaptation to Exercise", "active": false }
+    ]
+  },
+  {
+    "num": "06",
+    "title": "Muscles at Work",
+    "active": false,
+    "modules": [
+      { "id": "6.1", "title": "Types of Muscle Action", "active": false },
+      { "id": "6.2", "title": "Factors Influencing Muscle Action - Joint Angle, CSA", "active": false },
+      { "id": "6.3", "title": "Factors Influencing Muscle Action - Speed of Movement, Muscle Fiber Type", "active": false },
+      { "id": "6.4", "title": "Factors Influencing Muscle Action - Age, Sex", "active": false }
+    ]
+  }
+]
