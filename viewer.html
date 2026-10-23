@@ -653,20 +653,57 @@
 
     try {
       const cacheBust = Date.now();
-      // Normalize ch format to padded 2-digit if folder is padded (e.g., '1' -> '01')
       const chPadded = currentCh.toString().padStart(2, '0');
-      let resContent = await fetch(`content/ch${chPadded}/${currentMod}_content.json?t=${cacheBust}`);
-      if (!resContent.ok) {
-        // Fallback to unpadded ch if padded was not found
-        resContent = await fetch(`content/ch${currentCh}/${currentMod}_content.json?t=${cacheBust}`);
+      const chUnpadded = currentCh.toString().replace(/^0+/, '');
+      const modRaw = currentMod.toString();
+      const modUnpadded = modRaw.replace(/^0+/, '');
+      const modPadded = modRaw.includes('.') 
+        ? modRaw.split('.')[0].padStart(2, '0') + '.' + modRaw.split('.')[1] 
+        : modRaw.padStart(2, '0');
+
+      // Candidate file paths to check in order:
+      // 1. content/ch07/7.1_content.json
+      // 2. content/ch07/07.1_content.json
+      // 3. content/ch7/7.1_content.json
+      // 4. content/ch7/07.1_content.json
+      const candidatePaths = [
+        `content/ch${chPadded}/${modUnpadded}`,
+        `content/ch${chPadded}/${modPadded}`,
+        `content/ch${chPadded}/${modRaw}`,
+        `content/ch${chUnpadded}/${modUnpadded}`,
+        `content/ch${chUnpadded}/${modPadded}`,
+        `content/ch${chUnpadded}/${modRaw}`
+      ];
+      // Deduplicate candidate base paths
+      const uniqueBases = [...new Set(candidatePaths)];
+
+      let resContent = null;
+      let matchedBase = null;
+      for (const base of uniqueBases) {
+        try {
+          const testRes = await fetch(`${base}_content.json?t=${cacheBust}`);
+          if (testRes.ok) {
+            resContent = testRes;
+            matchedBase = base;
+            break;
+          }
+        } catch (e) {}
+      }
+      if (!resContent) {
+        resContent = { ok: false, status: 404 };
       }
 
       // Quiz is optional - don't let a missing quiz block the lesson content
       let resQuiz = { ok: false };
       try {
-        resQuiz = await fetch(`content/ch${chPadded}/${currentMod}_quiz.json?t=${cacheBust}`);
-        if (!resQuiz.ok) {
-          resQuiz = await fetch(`content/ch${currentCh}/${currentMod}_quiz.json?t=${cacheBust}`);
+        if (matchedBase) {
+          resQuiz = await fetch(`${matchedBase}_quiz.json?t=${cacheBust}`);
+        }
+        if (!resQuiz || !resQuiz.ok) {
+          for (const base of uniqueBases) {
+            const qRes = await fetch(`${base}_quiz.json?t=${cacheBust}`);
+            if (qRes.ok) { resQuiz = qRes; break; }
+          }
         }
       } catch (e) {
         console.warn("No quiz file found for this module.");
