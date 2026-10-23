@@ -49,31 +49,31 @@
           "title": "Chapter 7: Energy for Muscular Activity",
           "modules": [
             {
-              "id": "07.1",
+              "id": "7.1",
               "title": "Chemistry of Energy Production",
               "status": "Active",
               "locked": false
             },
             {
-              "id": "07.2",
+              "id": "7.2",
               "title": "Immediate Energy – Phosphagen System",
               "status": "Active",
               "locked": false
             },
             {
-              "id": "07.3",
+              "id": "7.3",
               "title": "Short-term Energy – Glycolytic System",
               "status": "Active",
               "locked": false
             },
             {
-              "id": "07.4",
+              "id": "7.4",
               "title": "Long-term Energy – Oxidative System",
               "status": "Active",
               "locked": false
             },
             {
-              "id": "07.5",
+              "id": "7.5",
               "title": "Energy Systems Interaction",
               "status": "Active",
               "locked": false
