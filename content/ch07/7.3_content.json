@@ -78,5 +78,14 @@
       "term": "Lactate Dehydrogenase (LDH)",
       "def": "The sarcoplasmic enzyme that catalyzes the reversible conversion of pyruvate and NADH into lactic acid and NAD+."
     }
+  ],
+  "activities": [
+    {
+      "type": "lab",
+      "title": "Cori Cycle Lab",
+      "desc": "Lactate shuttling to Type I muscle fibers and the liver",
+      "file": "content/ch07/activities/cori_cycle.html",
+      "path": "content/ch07/activities/cori_cycle.html"
+    }
   ]
 }
