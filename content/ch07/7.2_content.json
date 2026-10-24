@@ -70,5 +70,14 @@
       "term": "Creatine Monohydrate",
       "def": "A popular nutritional supplement that increases resting intramuscular stores of free creatine and creatine phosphate, improving explosive power capacity."
     }
+  ],
+  "activities": [
+    {
+      "type": "lab",
+      "title": "Phosphagen Kinetic Lab",
+      "desc": "Intramuscular ATP-CP Buffering & Power Kinetics during Maximal 100-m Sprinting",
+      "file": "content/ch07/activities/phosphagen_kinetic_lab.html",
+      "path": "content/ch07/activities/phosphagen_kinetic_lab.html"
+    }
   ]
 }
