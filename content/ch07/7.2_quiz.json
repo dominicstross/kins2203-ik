@@ -15,15 +15,16 @@
       },
       {
         "id": 2,
-        "q": "Which enzyme catalyzes the single-step transfer of a phosphate group from creatine phosphate to ADP?",
+        "q": "The phosphagen system:",
         "opts": [
-          "Creatine Kinase (CK)",
-          "Myokinase",
-          "Phosphofructokinase (PFK)",
-          "Lactate Dehydrogenase (LDH)"
+          "is limited by the small muscle stores of high energy phosphate groups",
+          "uses high energy phosphate groups including creatine and ADP",
+          "is required for low-intensity muscle activity that is done over a short time interval",
+          "produces energy at a very slow rate",
+          "none of the above"
         ],
         "correct": 0,
-        "rationale": "Creatine kinase (CK) catalyzes the reversible reaction: ADP + CP <-> ATP + Creatine."
+        "rationale": "Total capacity of the phosphagen system is fundamentally constrained by limited intramuscular concentrations of resting phosphocreatine and ATP."
       },
       {
         "id": 3,
@@ -226,7 +227,7 @@
     ],
     "sa": [
       {
-        "id": 1,
+        "id": 3,
         "prompt": "Describe the biochemical coupling between ATP hydrolysis and the creatine kinase reaction during the first 5 seconds of a maximal 100-m sprint.",
         "model": "During the first 1-2 seconds of a maximal sprint, stored intramuscular ATP is hydrolyzed by ATPase into ADP, Pᵢ, and free energy to power cross-bridge cycling. As ADP accumulates in the sarcoplasm, it immediately drives the creatine kinase reaction to the right: ADP + CP -> ATP + Creatine. Creatine kinase cleaves the high-energy bond of CP, rapidly donating a phosphate group to re-phosphorylate ADP into ATP, thereby buffering sarcoplasmic ATP levels and preventing a drop in power output.",
         "criteria": [
@@ -236,7 +237,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 4,
         "prompt": "Explain why an athlete experiences a noticeable decline in maximal running velocity after 10 seconds of all-out sprinting, referencing CP depletion kinetics.",
         "model": "An athlete experiences a drop in maximal velocity after 10 seconds because intramuscular creatine phosphate stores become severely depleted (>80% to 90% reduction). Between 5 and 10 seconds, CP stores decline by 50% to 70%, and by 10 to 12 seconds, CP availability is insufficient to sustain maximal ATP resynthesis rates. The muscle is forced to transition to anaerobic glycolysis as its primary ATP source, which has a lower maximal power output (rate of ATP resynthesis) than the phosphagen system, causing a decrease in peak running speed.",
         "criteria": [
@@ -474,7 +475,7 @@
     ],
     "sa": [
       {
-        "id": 1,
+        "id": 3,
         "prompt": "Explain why a track sprinter performing 5-second maximal acceleration runs needs 60 to 100 seconds of rest between repetitions, referencing CP recovery kinetics.",
         "model": "A 5-second maximal acceleration run exhausts a significant portion of intramuscular creatine phosphate stores. CP resynthesis is an aerobic process that follows an exponential curve: 50% to 70% of CP is restored in the first 30 seconds, but achieving 85% to 95% restoration requires 2 to 3 minutes (or at least 60-100 seconds for a 1:12 to 1:20 work-to-rest ratio). If the rest period is too short (e.g., 15-20 seconds), CP stores remain depleted (<50%), forcing the athlete to rely on anaerobic glycolysis, accumulating hydrogen ions and reducing peak velocity on subsequent runs.",
         "criteria": [
@@ -484,7 +485,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 4,
         "prompt": "Describe the myokinase reaction and explain how its metabolic by-product AMP regulates carbohydrate breakdown during high-intensity exercise.",
         "model": "The myokinase (adenylate kinase) reaction is an auxiliary phosphagen pathway that occurs during severe metabolic stress when ADP accumulates rapidly: ADP + ADP -> ATP + AMP. It generates one molecule of ATP and one molecule of adenosine monophosphate (AMP). The accumulated sarcoplasmic AMP serves as an allosteric signal indicating low cellular energy status. AMP directly activates phosphofructokinase (PFK), the key rate-limiting enzyme of anaerobic glycolysis, thereby stimulating glycolytic flux to increase ATP resynthesis as CP stores become depleted.",
         "criteria": [

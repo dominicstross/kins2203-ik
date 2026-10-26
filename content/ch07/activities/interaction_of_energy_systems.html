@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioenergetics in Motion: Energy System Interaction Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .font-mono-code {
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Custom Range Sliders */
+        input[type=range] {
+            -webkit-appearance: none;
+            width: 100%;
+            background: transparent;
+        }
+
+        input[type=range]:focus {
+            outline: none;
+        }
+
+        input[type=range]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 8px;
+            cursor: pointer;
+            border-radius: 9999px;
+        }
+
+        input[type=range]::-webkit-slider-thumb {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            -webkit-appearance: none;
+            margin-top: -6px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+            border: 2px solid #ffffff;
+        }
+
+        .track-pcr::-webkit-slider-runnable-track {
+            background: #cbd5e1;
+        }
+
+        .track-pcr::-webkit-slider-thumb {
+            background: #f59e0b;
+        }
+
+        .track-glyc::-webkit-slider-runnable-track {
+            background: #cbd5e1;
+        }
+
+        .track-glyc::-webkit-slider-thumb {
+            background: #ef4444;
+        }
+
+        .track-ox::-webkit-slider-runnable-track {
+            background: #cbd5e1;
+        }
+
+        .track-ox::-webkit-slider-thumb {
+            background: #10b981;
+        }
+
+        /* Custom Transitions */
+        .fade-in {
+            animation: fadeIn 0.4s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(6px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body
+    class="bg-slate-950 text-slate-100 min-h-screen flex flex-col antialiased selection:bg-cyan-500 selection:text-white">
+
+    <!-- Header Banner -->
+    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div
+                    class="p-2.5 rounded-xl bg-gradient-to-tr from-cyan-600 to-blue-500 text-white shadow-lg shadow-cyan-900/30">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold tracking-tight text-white flex items-center gap-2">
+                        Bioenergetics in Exercise Physiology
+                        <span
+                            class="text-xs px-2 py-0.5 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800 font-mono-code font-normal">KIN-301
+                            LAB</span>
+                    </h1>
+                    <p class="text-xs text-slate-400">Interactive Inquiry of Energy System Kinetics &amp; Substrate
+                        Partitioning</p>
+                </div>
+            </div>
+
+            <!-- Lab Score & Progress Stats -->
+            <div class="flex items-center gap-4 bg-slate-800/80 border border-slate-700/60 rounded-xl px-4 py-2">
+                <div class="text-right">
+                    <div class="text-xs text-slate-400 font-medium">Scenarios Completed</div>
+                    <div class="text-sm font-bold text-white font-mono-code" id="completionCounter">0 / 5</div>
+                </div>
+                <div class="h-8 w-px bg-slate-700"></div>
+                <div class="text-right">
+                    <div class="text-xs text-slate-400 font-medium">Assessment Score</div>
+                    <div class="text-sm font-bold text-emerald-400 font-mono-code" id="masteryScore">0%</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full flex-1 grid grid-cols-1 lg:grid-cols-12 gap-6">
+
+        <!-- Left Control & Scenario Column (lg:col-span-4) -->
+        <section class="lg:col-span-4 space-y-5">
+
+            <!-- Scenario Selector Card -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl">
+                <h2
+                    class="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-3 flex items-center justify-between">
+                    <span>Exercise Scenario</span>
+                    <span class="text-[10px] text-slate-400 font-normal">Select an Event</span>
+                </h2>
+
+                <div class="grid grid-cols-1 gap-2" id="scenarioBtnGroup">
+                    <!-- Populated by JS -->
+                </div>
+
+                <div class="mt-4 p-3.5 bg-slate-800/60 rounded-xl border border-slate-700/60 text-xs text-slate-300 space-y-1.5"
+                    id="scenarioSpecs">
+                    <!-- Dynamic Scenario Description -->
+                </div>
+            </div>
+
+            <!-- Predictive Inquiry Panel -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl relative overflow-hidden"
+                id="predictionContainer">
+                <div class="flex items-center justify-between mb-2">
+                    <h2 class="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+                        Step 1: Your Prediction
+                    </h2>
+                    <span class="text-xs font-mono-code px-2.5 py-1 rounded-md font-bold transition-colors border"
+                        id="sumBadge">Total: 0%</span>
+                </div>
+                <p class="text-xs text-slate-400 mb-3">
+                    Predict the relative ATP resynthesis percentage contribution from each system. Sliders operate
+                    independently and must total <strong>exactly 100%</strong> to submit:
+                </p>
+
+                <!-- Helper Control Bar -->
+                <div
+                    class="flex items-center justify-between gap-2 mb-3 bg-slate-950/60 p-2 rounded-lg border border-slate-800 text-[11px]">
+                    <span class="text-slate-400">Sum Status: <span id="sumStatusText"
+                            class="font-semibold text-amber-400">Under by 100%</span></span>
+                    <div class="flex items-center gap-1.5">
+                        <button id="btnAutoBalance" type="button"
+                            class="px-2 py-1 rounded bg-cyan-950 hover:bg-cyan-900 border border-cyan-700/60 text-cyan-300 font-mono-code text-[10px] transition">
+                            Balance to 100%
+                        </button>
+                        <button id="btnResetPred" type="button"
+                            class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-400 hover:text-slate-200 font-mono-code text-[10px] transition">
+                            Reset 0%
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Slider 1: ATP-PCr -->
+                <div class="space-y-1 mb-3.5 bg-slate-950/40 p-2.5 rounded-xl border border-slate-800/80">
+                    <div class="flex justify-between items-center text-xs font-medium mb-1">
+                        <span class="text-amber-400 flex items-center gap-1.5">
+                            <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span> Phosphagen (ATP-PCr)
+                        </span>
+                        <div class="flex items-center gap-1">
+                            <button type="button" onclick="stepSlider('pcr', -1)"
+                                class="w-5 h-5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center font-bold text-xs">-</button>
+                            <input type="number" min="0" max="100" value="0" id="numInputPcr"
+                                class="w-12 text-center bg-slate-900 border border-slate-700 rounded px-1 py-0.5 font-mono-code text-xs text-amber-400 font-bold focus:outline-none focus:border-amber-400">
+                            <span class="text-slate-400 text-xs">%</span>
+                            <button type="button" onclick="stepSlider('pcr', 1)"
+                                class="w-5 h-5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center font-bold text-xs">+</button>
+                        </div>
+                    </div>
+                    <input type="range" min="0" max="100" value="0" class="track-pcr" id="sliderPcr">
+                </div>
+
+                <!-- Slider 2: Fast Glycolysis -->
+                <div class="space-y-1 mb-3.5 bg-slate-950/40 p-2.5 rounded-xl border border-slate-800/80">
+                    <div class="flex justify-between items-center text-xs font-medium mb-1">
+                        <span class="text-rose-400 flex items-center gap-1.5">
+                            <span class="w-2.5 h-2.5 rounded-full bg-rose-500"></span> Glycolytic (Fast/Lactic)
+                        </span>
+                        <div class="flex items-center gap-1">
+                            <button type="button" onclick="stepSlider('glyc', -1)"
+                                class="w-5 h-5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center font-bold text-xs">-</button>
+                            <input type="number" min="0" max="100" value="0" id="numInputGlyc"
+                                class="w-12 text-center bg-slate-900 border border-slate-700 rounded px-1 py-0.5 font-mono-code text-xs text-rose-400 font-bold focus:outline-none focus:border-rose-400">
+                            <span class="text-slate-400 text-xs">%</span>
+                            <button type="button" onclick="stepSlider('glyc', 1)"
+                                class="w-5 h-5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center font-bold text-xs">+</button>
+                        </div>
+                    </div>
+                    <input type="range" min="0" max="100" value="0" class="track-glyc" id="sliderGlyc">
+                </div>
+
+                <!-- Slider 3: Oxidative -->
+                <div class="space-y-1 mb-4 bg-slate-950/40 p-2.5 rounded-xl border border-slate-800/80">
+                    <div class="flex justify-between items-center text-xs font-medium mb-1">
+                        <span class="text-emerald-400 flex items-center gap-1.5">
+                            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span> Oxidative Phosphorylation
+                        </span>
+                        <div class="flex items-center gap-1">
+                            <button type="button" onclick="stepSlider('ox', -1)"
+                                class="w-5 h-5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center font-bold text-xs">-</button>
+                            <input type="number" min="0" max="100" value="0" id="numInputOx"
+                                class="w-12 text-center bg-slate-900 border border-slate-700 rounded px-1 py-0.5 font-mono-code text-xs text-emerald-400 font-bold focus:outline-none focus:border-emerald-400">
+                            <span class="text-slate-400 text-xs">%</span>
+                            <button type="button" onclick="stepSlider('ox', 1)"
+                                class="w-5 h-5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center font-bold text-xs">+</button>
+                        </div>
+                    </div>
+                    <input type="range" min="0" max="100" value="0" class="track-ox" id="sliderOx">
+                </div>
+
+                <!-- Qualitative Hypotheses -->
+                <div class="space-y-3 pt-2 border-t border-slate-800 text-xs">
+                    <div>
+                        <label class="block text-slate-400 mb-1 font-medium">Predicted Primary Substrate:</label>
+                        <select id="predSubstrate"
+                            class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-slate-200 focus:outline-none focus:border-cyan-500 text-xs">
+                            <option value="pcr">Intramuscular Phosphagens (PCr + cellular ATP)</option>
+                            <option value="glycogen">Muscle Glycogen (Anaerobic / Rapid Glycolytic)</option>
+                            <option value="mixed_cho">Muscle Glycogen + Blood Glucose (Oxidative CHO)</option>
+                            <option value="lipids">Plasma Free Fatty Acids &amp; Intramuscular Triglycerides (IMTG)
+                            </option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-slate-400 mb-1 font-medium">Predicted Limiting Fatigue Factor:</label>
+                        <select id="predFatigue"
+                            class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-slate-200 focus:outline-none focus:border-cyan-500 text-xs">
+                            <option value="pcr_depletion">PCr Depletion &amp; High Inorganic Phosphate (Pi) Accumulation
+                            </option>
+                            <option value="h_acidosis">Proton (H+) Accumulation, Acidosis &amp; Ca2+ Sensitivity Drop
+                            </option>
+                            <option value="glycogen_depletion">Substrate Glycogen Depletion ("Hitting the Wall")
+                            </option>
+                            <option value="hyperthermia">Cardiovascular Drift, Dehydration &amp; Hyperthermia</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button id="btnSubmitPrediction" disabled
+                    class="mt-4 w-full py-2.5 px-4 rounded-xl font-semibold text-xs tracking-wider uppercase transition-all duration-200 bg-slate-800 text-slate-500 cursor-not-allowed shadow-none">
+                    Submit Prediction &amp; Reveal Data (Sum Must Equal 100%)
+                </button>
+            </div>
+
+        </section>
+
+        <!-- Right Data & Analysis Column (lg:col-span-8) -->
+        <section class="lg:col-span-8 space-y-5">
+
+            <!-- Bioenergetic Kinetics Curve Canvas Card -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl">
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <div>
+                        <h2 class="text-sm font-bold text-white flex items-center gap-2">
+                            <span>Bioenergetic Kinetic Continuum</span>
+                            <span
+                                class="text-[10px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded border border-slate-700 font-mono-code">ATP
+                                Rate vs. Time</span>
+                        </h2>
+                        <p class="text-xs text-slate-400">Continuous interaction of phosphagen, glycolytic, and
+                            oxidative systems over time</p>
+                    </div>
+                    <!-- Legend -->
+                    <div class="flex items-center gap-3 text-[11px] font-medium font-mono-code">
+                        <span class="flex items-center gap-1 text-amber-400"><span
+                                class="w-3 h-1 rounded bg-amber-500"></span> PCr</span>
+                        <span class="flex items-center gap-1 text-rose-400"><span
+                                class="w-3 h-1 rounded bg-rose-500"></span> Glycolytic</span>
+                        <span class="flex items-center gap-1 text-emerald-400"><span
+                                class="w-3 h-1 rounded bg-emerald-500"></span> Oxidative</span>
+                    </div>
+                </div>
+
+                <div class="relative w-full h-56 bg-slate-950/80 rounded-xl border border-slate-800/80 overflow-hidden">
+                    <canvas id="kineticsCanvas" class="w-full h-full block"></canvas>
+                    <!-- Current Scenario Duration Highlight Indicator -->
+                    <div id="eventDurationMarker"
+                        class="absolute top-2 right-3 bg-slate-900/90 border border-slate-700 text-slate-300 text-[11px] px-2.5 py-1 rounded-md shadow pointer-events-none">
+                        Event Duration: <span id="markerTimeText"
+                            class="font-bold text-cyan-400 font-mono-code">--</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comparative Analysis Section (Revealed upon submission) -->
+            <div id="resultsSection" class="hidden space-y-5 fade-in">
+
+                <!-- Comparative Bar Visualizations -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-sm font-bold text-white flex items-center gap-2">
+                            <span>System Contribution: Predicted vs. Empirical Benchmark</span>
+                        </h3>
+                        <span id="accuracyBadge"
+                            class="text-xs font-mono-code font-bold px-2.5 py-0.5 rounded-full bg-cyan-950 text-cyan-300 border border-cyan-800">
+                            Evaluation
+                        </span>
+                    </div>
+
+                    <div class="space-y-4">
+                        <!-- Your Prediction Bar -->
+                        <div>
+                            <div class="flex justify-between text-xs mb-1.5 font-medium text-slate-300">
+                                <span class="flex items-center gap-1.5">
+                                    <svg class="w-3.5 h-3.5 text-cyan-400" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    Your Hypothesis
+                                </span>
+                                <span class="font-mono-code text-[11px] text-slate-400" id="predBarLegend"></span>
+                            </div>
+                            <div class="h-6 w-full bg-slate-950 rounded-lg overflow-hidden flex border border-slate-800"
+                                id="predictedBarContainer">
+                                <!-- Stacked sections inserted by JS -->
+                            </div>
+                        </div>
+
+                        <!-- Empirical Actual Bar -->
+                        <div>
+                            <div class="flex justify-between text-xs mb-1.5 font-medium text-slate-300">
+                                <span class="flex items-center gap-1.5">
+                                    <svg class="w-3.5 h-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    Exercise Physiology Benchmark (Gastin 2001; Spencer &amp; Gastin 2001)
+                                </span>
+                                <span class="font-mono-code text-[11px] text-emerald-400" id="actualBarLegend"></span>
+                            </div>
+                            <div class="h-6 w-full bg-slate-950 rounded-lg overflow-hidden flex border border-slate-800"
+                                id="actualBarContainer">
+                                <!-- Stacked sections inserted by JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secondary Markers Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                    <!-- Marker 1: Bioenergetic Kinetics & Power -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4.5 shadow-xl space-y-3">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-1.5">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                            Rate vs Capacity Metrics
+                        </h4>
+                        <div class="space-y-2 text-xs">
+                            <div
+                                class="flex justify-between items-center p-2 rounded-lg bg-slate-950/60 border border-slate-800">
+                                <span class="text-slate-400">Peak ATP Resynthesis Rate:</span>
+                                <span class="font-mono-code font-bold text-amber-400" id="statAtpRate">--</span>
+                            </div>
+                            <div
+                                class="flex justify-between items-center p-2 rounded-lg bg-slate-950/60 border border-slate-800">
+                                <span class="text-slate-400">Estimated Total Energy Yield:</span>
+                                <span class="font-mono-code font-bold text-slate-200" id="statTotalEnergy">--</span>
+                            </div>
+                            <div
+                                class="flex justify-between items-center p-2 rounded-lg bg-slate-950/60 border border-slate-800">
+                                <span class="text-slate-400">Primary Power Limitation:</span>
+                                <span class="font-semibold text-rose-300" id="statLimitation">--</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Marker 2: Substrate Partitioning & RER -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4.5 shadow-xl space-y-3">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-1.5">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                            </svg>
+                            Substrate Partitioning &amp; RER
+                        </h4>
+                        <div class="space-y-2 text-xs">
+                            <div
+                                class="flex justify-between items-center p-2 rounded-lg bg-slate-950/60 border border-slate-800">
+                                <span class="text-slate-400">Respiratory Exchange Ratio (RER):</span>
+                                <span class="font-mono-code font-bold text-purple-400" id="statRer">--</span>
+                            </div>
+                            <div
+                                class="flex justify-between items-center p-2 rounded-lg bg-slate-950/60 border border-slate-800">
+                                <span class="text-slate-400">Carbohydrate vs Lipid Ratio:</span>
+                                <span class="font-mono-code font-bold text-slate-200" id="statChoFat">--</span>
+                            </div>
+                            <div
+                                class="flex justify-between items-center p-2 rounded-lg bg-slate-950/60 border border-slate-800">
+                                <span class="text-slate-400">Dominant Endogenous Fuel:</span>
+                                <span class="font-semibold text-emerald-300" id="statDominantFuel">--</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Marker 3: Metabolic Byproducts & Physiology -->
+                    <div
+                        class="bg-slate-900 border border-slate-800 rounded-2xl p-4.5 shadow-xl md:col-span-2 space-y-3">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-1.5">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                            Physiological Etiology of Fatigue &amp; Byproducts
+                        </h4>
+                        <div class="p-3.5 bg-slate-950/70 border border-slate-800 rounded-xl text-xs space-y-2 text-slate-300 leading-relaxed"
+                            id="etiologyDetail">
+                            <!-- Dynamically populated with deep physiological explanation -->
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Formative Assessment Question Card -->
+                <div class="bg-gradient-to-br from-slate-900 to-slate-900/90 border border-cyan-900/40 rounded-2xl p-5 shadow-2xl relative overflow-hidden"
+                    id="quizContainer">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                        <span class="text-xs font-bold uppercase tracking-wider text-cyan-400">Step 2: Formative
+                            Assessment Question</span>
+                    </div>
+
+                    <h4 class="text-sm font-semibold text-white mb-3" id="quizQuestionText">Loading question...</h4>
+
+                    <div class="space-y-2 text-xs" id="quizOptionsList">
+                        <!-- Populated by JS -->
+                    </div>
+
+                    <div id="quizFeedbackBox"
+                        class="hidden mt-4 p-3.5 rounded-xl text-xs border leading-relaxed fade-in">
+                        <!-- Feedback explanation -->
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Initial Callout prompt (before submission) -->
+            <div id="awaitingPredictionPrompt"
+                class="p-8 text-center bg-slate-900/50 border border-dashed border-slate-800 rounded-2xl">
+                <div
+                    class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mx-auto mb-3 text-cyan-400">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                </div>
+                <h3 class="text-sm font-bold text-slate-200">Awaiting Student Prediction</h3>
+                <p class="text-xs text-slate-400 max-w-md mx-auto mt-1">
+                    Adjust the bioenergetic contribution sliders on the left for this athletic event, choose your
+                    predicted substrate and fatigue factors, then click <strong>"Submit Prediction &amp; Reveal
+                        Data"</strong>.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Terminology Reference Modal / Drawer Footer -->
+    <footer class="border-t border-slate-800 bg-slate-900/60 py-4 text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-4">
+                <span class="font-medium text-slate-400">Kinesiology Physiological Concepts:</span>
+                <span class="hover:text-cyan-400 cursor-pointer" onclick="showConceptModal('pcr')">ATP-PCr
+                    Kinetics</span>
+                <span class="hover:text-cyan-400 cursor-pointer" onclick="showConceptModal('crossover')">Crossover
+                    Concept</span>
+                <span class="hover:text-cyan-400 cursor-pointer" onclick="showConceptModal('acidosis')">Lactic Acidosis
+                    Paradox</span>
+                <span class="hover:text-cyan-400 cursor-pointer" onclick="showConceptModal('capacity')">Rate vs.
+                    Capacity</span>
+            </div>
+            <div>Designed for Exercise Physiology &amp; Bioenergetics Curricula</div>
+        </div>
+    </footer>
+
+    <!-- Modal Component for Concept Explanations -->
+    <div id="conceptModal"
+        class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-lg w-full p-6 shadow-2xl relative">
+            <button onclick="closeConceptModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script>
+        /* =======================================================================
+           1. DATA DEFINITIONS & PHYSIOLOGICAL BENCHMARKS (Kinesiology Literature)
+           Gastin PB (2001) Sports Med; Spencer & Gastin (2001); Brooks GA (2018)
+           ======================================================================= */
+        const SCENARIOS = [
+            {
+                id: '100m',
+                name: '100m Sprint',
+                duration: '9.8 – 10.5 seconds',
+                durationSec: 10,
+                intensity: 'Supramaximal (>250% VO2max)',
+                description: 'All-out maximal acceleration and sprint velocity from stationary blocks.',
+                actualPcr: 50,
+                actualGlyc: 45,
+                actualOx: 5,
+                correctSubstrate: 'pcr',
+                correctFatigue: 'pcr_depletion',
+                atpRate: '2.4 – 3.2 mmol·kg⁻¹·s⁻¹ (Maximal)',
+                totalEnergy: '~150 – 200 kJ',
+                primaryLimitation: 'Phosphocreatine depletion & inorganic phosphate (Pi) accumulation',
+                rer: '> 1.15 (Transient metabolic blast)',
+                choFat: '100% CHO / 0% Lipid',
+                dominantFuel: 'Intramuscular PCr + Muscle Glycogen',
+                etiology: 'Peak velocity drops around 6-7 seconds due to rapid exhaustion of intramuscular PCr stores (which decrease by >70%). Free inorganic phosphate (Pi) accumulates rapidly from ATP hydrolysis, inhibiting myofibrillar cross-bridge transition and impairing sarcoplasmic reticulum Ca²⁺ release. Fast glycolysis is running at capacity by 3-5 seconds, producing lactate and H⁺, but acidosis is not yet the primary culprit at 10 seconds—PCr depletion and Pi buildup dominate.',
+                question: {
+                    text: 'During the first 5-6 seconds of an all-out 100m sprint, why does sprint velocity begin to decline even in elite sprinters?',
+                    options: [
+                        { text: 'Complete exhaustion of muscle glycogen stores within type IIx fibers.', correct: false, explanation: 'Glycogen depletion takes hours or multiple bouts; at 10 seconds, glycogen remains largely intact.' },
+                        { text: 'Rapid PCr breakdown and accumulating inorganic phosphate (Pi), impairing actin-myosin detachment and Ca²⁺ release.', correct: true, explanation: 'Correct! Rapid PCr depletion directly restricts the creatine kinase reaction, while Pi accumulation impairs myofibrillar force and calcium handling.' },
+                        { text: 'A sudden switch to lipid oxidation which produces ATP at a slower rate.', correct: false, explanation: 'Lipid oxidation contributes negligible ATP during a 10-second sprint.' },
+                        { text: 'Inadequate pulmonary oxygen diffusion capacity (hypoxemia).', correct: false, explanation: 'Pulmonary diffusion is not the limiting factor in immediate supramaximal burst power.' }
+                    ]
+                }
+            },
+            {
+                id: '400m',
+                name: '400m Dash',
+                duration: '43 – 48 seconds',
+                durationSec: 45,
+                intensity: 'Severe Supramaximal (~130–140% VO2max)',
+                description: 'Sustained maximal velocity tolerance; near-maximal speed maintained under progressive metabolic perturbation.',
+                actualPcr: 15,
+                actualGlyc: 65,
+                actualOx: 20,
+                correctSubstrate: 'glycogen',
+                correctFatigue: 'h_acidosis',
+                atpRate: '1.8 – 2.2 mmol·kg⁻¹·s⁻¹',
+                totalEnergy: '~550 – 700 kJ',
+                primaryLimitation: 'Intracellular acidosis (H⁺ accumulation) & PCr depletion',
+                rer: '1.10 – 1.25 (Intense hyperventilation/buffering)',
+                choFat: '100% CHO / 0% Lipid',
+                dominantFuel: 'Muscle Glycogen (Fast Glycolytic)',
+                etiology: 'Fast glycolysis reaches its highest sustained rate in exercise history during the 400m. Rapid glycolysis and concurrent ATP hydrolysis outstrip mitochondrial proton buffering, resulting in significant intracellular proton (H⁺) accumulation and blood lactate concentrations often exceeding 15–20 mmol/L. Intracellular pH drops from ~7.1 to below 6.6, which inhibits phosphofructokinase-1 (PFK-1), competes with Ca²⁺ for troponin C binding sites, and directly diminishes muscle power output ("rigor" sensation in the final 100 meters).',
+                question: {
+                    text: 'What biochemical event is primarily responsible for the severe muscular fatigue and burning sensation experienced during the final 100m of a 400m race?',
+                    options: [
+                        { text: 'Lactic acid directly burns muscle nerve endings because lactate is a metabolic toxin.', correct: false, explanation: 'Lactate is not a metabolic poison or waste product; it is a vital metabolic fuel and shuttled intermediate. Fatigue stems from proton (H⁺) accumulation alongside ATP hydrolysis.' },
+                        { text: 'Accumulation of metabolic protons (H⁺) alongside ATP hydrolysis, leading to intracellular acidosis and impaired cross-bridge cycling.', correct: true, explanation: 'Correct! The rapid rate of glycolytic flux and ATP hydrolysis yields protons that overwhelm buffering mechanisms, lowering intracellular pH and inhibiting contractile proteins.' },
+                        { text: 'Total depletion of arterial oxygen saturation (SaO2 drops to zero).', correct: false, explanation: 'Arterial saturation does not drop to zero; peripheral intramuscular biochemistry limits force output.' },
+                        { text: 'Total hepatic gluconeogenesis failure.', correct: false, explanation: 'Liver glycogen and gluconeogenesis play minimal roles over a 45-second sprint event.' }
+                    ]
+                }
+            },
+            {
+                id: '1500m',
+                name: '1500m Middle-Distance',
+                duration: '3.5 – 4.2 minutes',
+                durationSec: 230,
+                intensity: 'Severe Domain (~100–115% VO2max)',
+                description: 'Classic middle-distance event balanced at the physiological tipping point between anaerobic capacity and aerobic power.',
+                actualPcr: 5,
+                actualGlyc: 45,
+                actualOx: 50,
+                correctSubstrate: 'mixed_cho',
+                correctFatigue: 'h_acidosis',
+                atpRate: '1.0 – 1.2 mmol·kg⁻¹·s⁻¹',
+                totalEnergy: '~2,200 – 2,800 kJ',
+                primaryLimitation: 'Attainment of VO2max, H⁺ accumulation & ventilatory threshold',
+                rer: '1.00 – 1.05',
+                choFat: '98% CHO / 2% Lipid',
+                dominantFuel: 'Muscle Glycogen (Aerobic + Anaerobic)',
+                etiology: 'The 1500m run represents the quintessential 50/50 bioenergetic crossover: approximately half the ATP comes from aerobic oxidative phosphorylation, and half from anaerobic pathways (predominantly fast glycolysis with a brief starting PCr contribution). Athletes race at or slightly above their VO2max. The severe domain requires sustained anaerobic contribution to maintain pace, culminating in massive proton loads, hyperventilation for respiratory compensation of metabolic acidosis, and extreme cardiovascular strain.',
+                question: {
+                    text: 'Historically, running coaches believed the 1500m was primarily an anaerobic event. Contemporary kinesiological research shows which breakdown?',
+                    options: [
+                        { text: '80% Anaerobic and 20% Aerobic.', correct: false, explanation: 'Old models underestimated oxidative kinetics; aerobic energy turns on much faster than assumed in the mid-20th century.' },
+                        { text: 'Approximately 50% Aerobic and 50% Anaerobic, with aerobic contribution increasing with competitive duration.', correct: true, explanation: 'Correct! Landmark studies by Gastin and Spencer showed the 50/50 aerobic-anaerobic crossover point occurs around 60–75 seconds, meaning a 3.5–4 minute 1500m is at least 50% oxidative.' },
+                        { text: '95% Aerobic and 5% PCr.', correct: false, explanation: 'This significantly underestimates the required high-intensity glycolytic contribution needed to maintain the 1500m pace.' },
+                        { text: '70% Lipid oxidation and 30% Glycolytic.', correct: false, explanation: 'At 100% VO2max, lipid oxidation is suppressed to near zero (crossover effect).' }
+                    ]
+                }
+            },
+            {
+                id: '5000m',
+                name: '5,000m Track Race',
+                duration: '12.5 – 15 minutes',
+                durationSec: 850,
+                intensity: 'Heavy to Severe Domain (~92–98% VO2max)',
+                description: 'Sustained velocity at critical speed and the maximum lactate steady-state (MLSS).',
+                actualPcr: 2,
+                actualGlyc: 18,
+                actualOx: 80,
+                correctSubstrate: 'mixed_cho',
+                correctFatigue: 'glycogen_depletion',
+                atpRate: '0.6 – 0.8 mmol·kg⁻¹·s⁻¹',
+                totalEnergy: '~6,000 – 7,500 kJ',
+                primaryLimitation: 'Mitochondrial oxidative capacity, stroke volume (VO2max), & running economy',
+                rer: '0.94 – 0.98',
+                choFat: '88% CHO / 12% Lipid',
+                dominantFuel: 'Muscle Glycogen + Blood Glucose',
+                etiology: 'At 5,000m, oxidative phosphorylation overwhelmingly predominates (~80% or more of total ATP resynthesis). Athletes sustain paces directly at or just above their Maximum Lactate Steady State (MLSS) or Critical Speed. Because of the high intensity, carbohydrates (muscle glycogen and circulating blood glucose) provide the predominant fuel substrate via pyruvate dehydrogenase and the Krebs cycle. Anaerobic glycolysis is reserved for tactical accelerations and the finishing kick over the final 300–400m.',
+                question: {
+                    text: 'Why do athletes in a 5,000m race utilize carbohydrates for almost 90% of their energy needs despite having abundant adipose fat stores?',
+                    options: [
+                        { text: 'Because lipid oxidation yields more ATP per liter of oxygen consumed than carbohydrate.', correct: false, explanation: 'In fact, carbohydrate oxidation produces ~5.05 kcal/L O2, whereas fat oxidation produces only ~4.69 kcal/L O2. Carbohydrate is ~7% more oxygen-efficient.' },
+                        { text: 'Carbohydrate oxidation produces more ATP per mole of O2 consumed and supports the faster flux rates required at 95% VO2max.', correct: true, explanation: 'Correct! Carbohydrates yield higher ATP per unit of oxygen and can be metabolized through mitochondrial respiration at rates up to 2-3x faster than long-chain fatty acids.' },
+                        { text: 'Adipose tissue cannot be mobilized unless the athlete is asleep.', correct: false, explanation: 'Adipose tissue mobilizes FFAs during exercise, but intracellular carnitine palmitoyltransferase (CPT-1) and high glycolytic flux inhibit fatty acid transport into mitochondria at high intensities.' },
+                        { text: 'PCr replenishment consumes all circulating fatty acids.', correct: false, explanation: 'PCr resynthesis does not bind or consume fatty acids directly.' }
+                    ]
+                }
+            },
+            {
+                id: 'marathon',
+                name: 'Marathon (42.195 km)',
+                duration: '2.0 – 4.0 hours',
+                durationSec: 7200,
+                intensity: 'Moderate to Heavy (~65–80% VO2max)',
+                description: 'Protracted endurance racing where fuel selection, glycogen sparing, and metabolic efficiency govern performance.',
+                actualPcr: 0,
+                actualGlyc: 2,
+                actualOx: 98,
+                correctSubstrate: 'lipids',
+                correctFatigue: 'glycogen_depletion',
+                atpRate: '0.4 – 0.5 mmol·kg⁻¹·s⁻¹',
+                totalEnergy: '~11,000 – 14,000 kJ',
+                primaryLimitation: 'Glycogen depletion ("bonking"), hyperthermia, & fluid loss',
+                rer: '0.82 – 0.88',
+                choFat: '55% CHO / 45% Lipid (shifts to more Lipid as glycogen depletes)',
+                dominantFuel: 'Plasma FFAs, Intramuscular Triglycerides, & Liver/Muscle Glycogen',
+                etiology: 'The marathon is almost purely oxidative (>98%). Even though fats are plentiful, sustaining a competitive marathon pace requires significant carbohydrate oxidation. When intramuscular and hepatic glycogen reserves are exhausted (typically at miles 18–22, "the Wall"), the body must shift to burning a higher proportion of fatty acids. Because beta-oxidation has a lower maximal flux rate and requires more oxygen per ATP resynthesized, the athlete is forced to slow their pace dramatically. Thermoregulatory stress, dehydration, and central fatigue also contribute.',
+                question: {
+                    text: 'What biochemical phenomenon explains why a marathon runner must slow down dramatically after "hitting the wall" (depleting muscle glycogen)?',
+                    options: [
+                        { text: 'Fat oxidation cannot continue without intermediate anaplerotic precursors from carbohydrate breakdown (oxaloacetate for the Krebs cycle), forcing pace reduction.', correct: true, explanation: 'Correct! "Fat burns in a carbohydrate flame." Glycogen depletion limits pyruvate and oxaloacetate availability, slowing the Krebs cycle flux while fat oxidation rates are inherently slower.' },
+                        { text: 'Lactate levels rise to over 25 mmol/L when muscle glycogen runs out.', correct: false, explanation: 'When glycogen runs out, lactate production actually drops drastically because substrate flux through glycolysis is extinguished.' },
+                        { text: 'PCr levels drop to absolute zero and can never be replenished.', correct: false, explanation: 'PCr is actually maintained at near-normal baseline resting levels during steady moderate endurance exercise.' },
+                        { text: 'The lungs lose the ability to exchange carbon dioxide with ambient air.', correct: false, explanation: 'Pulmonary function is not the primary limiting factor for glycogen depletion.' }
+                    ]
+                }
+            }
+        ];
+
+        /* Concept glossary modal content */
+        const CONCEPT_DATA = {
+            pcr: {
+                title: 'ATP-PCr (Phosphagen) Kinetics',
+                body: '<p class="text-sm text-slate-300 mb-3">The phosphagen system relies on intracellular ATP and phosphocreatine (PCr) catalyzed by <strong>creatine kinase</strong>: <br><span class="font-mono-code text-cyan-400 bg-slate-950 px-2 py-1 rounded block my-2 text-xs">PCr + ADP + H⁺ ⇌ Creatine + ATP</span></p><p class="text-xs text-slate-400 leading-relaxed">It delivers the fastest maximal rate of ATP resynthesis (~3.6 mmol/kg dry wt/s), but possesses minimal capacity. Within 8-10 seconds of all-out exertion, stores drop by 70-85%, requiring other pathways to take over.</p>'
+            },
+            crossover: {
+                title: 'The Bioenergetic Crossover Concept (Brooks)',
+                body: '<p class="text-sm text-slate-300 mb-3">Formulated by Dr. George Brooks, the crossover concept describes the balance between carbohydrate and fat utilization as a function of exercise intensity and training status.</p><p class="text-xs text-slate-400 leading-relaxed">At low intensities (<40% VO2max), lipids are the predominant fuel substrate. As power output crosses the lactate/ventilatory threshold into high intensities, carbohydrate flux becomes overwhelmingly dominant due to fast-twitch muscle fiber recruitment, sympathetic epinephrine release, and glycolytic enzyme activation.</p>'
+            },
+            acidosis: {
+                title: 'The Lactic Acid & Acidosis Paradox',
+                body: '<p class="text-sm text-slate-300 mb-3">Modern exercise biochemistry confirms that <strong>lactic acid is NOT produced in human skeletal muscle</strong>, nor is lactate the direct cause of metabolic acidosis (Robergs et al., 2004).</p><p class="text-xs text-slate-400 leading-relaxed">Glycolysis produces lactate⁻ and consumes a proton (H⁺) in the lactate dehydrogenase reaction. The true source of cellular acidosis is the high rate of non-mitochondrial <strong>ATP hydrolysis</strong>: <span class="font-mono-code text-rose-400 block my-1">ATP + H2O → ADP + Pi + H⁺</span>. Lactate formation actually buffers protons and delays metabolic acidosis!</p>'
+            },
+            capacity: {
+                title: 'Metabolic Power (Rate) vs. Capacity Trade-Off',
+                body: '<p class="text-sm text-slate-300 mb-3">A fundamental bioenergetic principle is the inverse relationship between the <strong>rate</strong> (speed of ATP production) and <strong>capacity</strong> (total amount of ATP possible).</p><ul class="text-xs text-slate-400 space-y-1.5 list-disc pl-4"><li><strong>Phosphagen:</strong> Highest Rate (~3.6 mol/min) | Lowest Capacity (~0.7 mol)</li><li><strong>Fast Glycolysis:</strong> High Rate (~1.6 mol/min) | Moderate Capacity (~1.2 mol)</li><li><strong>Oxidative (Glucose):</strong> Moderate Rate (~1.0 mol/min) | Large Capacity (~90 mol)</li><li><strong>Oxidative (Lipids):</strong> Low Rate (~0.4 mol/min) | Virtually Unlimited (>2,000 mol)</li></ul>'
+            }
+        };
+
+        /* =======================================================================
+           2. APPLICATION STATE MANAGEMENT
+           ======================================================================= */
+        let currentScenarioIndex = 0;
+        let completedScenarios = new Set();
+        let scoreHistory = {}; // scenarioId -> boolean (correct quiz on first attempt)
+
+        // Elements
+        const scenarioBtnGroup = document.getElementById('scenarioBtnGroup');
+        const scenarioSpecs = document.getElementById('scenarioSpecs');
+        const sliderPcr = document.getElementById('sliderPcr');
+        const sliderGlyc = document.getElementById('sliderGlyc');
+        const sliderOx = document.getElementById('sliderOx');
+        const numInputPcr = document.getElementById('numInputPcr');
+        const numInputGlyc = document.getElementById('numInputGlyc');
+        const numInputOx = document.getElementById('numInputOx');
+        const sumBadge = document.getElementById('sumBadge');
+        const sumStatusText = document.getElementById('sumStatusText');
+        const btnAutoBalance = document.getElementById('btnAutoBalance');
+        const btnResetPred = document.getElementById('btnResetPred');
+        const predSubstrate = document.getElementById('predSubstrate');
+        const predFatigue = document.getElementById('predFatigue');
+        const btnSubmitPrediction = document.getElementById('btnSubmitPrediction');
+        const resultsSection = document.getElementById('resultsSection');
+        const awaitingPrompt = document.getElementById('awaitingPredictionPrompt');
+        const kineticsCanvas = document.getElementById('kineticsCanvas');
+        const markerTimeText = document.getElementById('markerTimeText');
+        const completionCounter = document.getElementById('completionCounter');
+        const masteryScore = document.getElementById('masteryScore');
+
+        /* =======================================================================
+           3. INITIALIZATION & SCENARIO RENDERING
+           ======================================================================= */
+        function init() {
+            renderScenarioButtons();
+            loadScenario(0);
+            setupSliderListeners();
+            setupCanvas();
+            window.addEventListener('resize', () => {
+                resizeCanvas();
+                drawKineticsCurve();
+            });
+        }
+
+        function renderScenarioButtons() {
+            scenarioBtnGroup.innerHTML = '';
+            SCENARIOS.forEach((scen, idx) => {
+                const btn = document.createElement('button');
+                btn.className = `w-full text-left p-3 rounded-xl border transition-all flex items-center justify-between text-xs font-semibold ${idx === currentScenarioIndex
+                        ? 'bg-cyan-950/70 border-cyan-500 text-white shadow-md shadow-cyan-950/50'
+                        : 'bg-slate-800/40 border-slate-700/60 text-slate-300 hover:bg-slate-800 hover:text-white'
+                    }`;
+                btn.id = `scen-btn-${idx}`;
+                btn.innerHTML = `
+          <div class="flex items-center gap-2.5">
+            <span class="w-6 h-6 rounded-lg flex items-center justify-center font-mono-code text-[11px] ${completedScenarios.has(scen.id) ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40' : 'bg-slate-700 text-slate-300'
+                    }">${completedScenarios.has(scen.id) ? '✓' : idx + 1}</span>
+            <span>${scen.name}</span>
+          </div>
+          <span class="font-mono-code text-[10px] text-slate-400">${scen.duration.split(' ')[0]}</span>
+        `;
+                btn.onclick = () => loadScenario(idx);
+                scenarioBtnGroup.appendChild(btn);
+            });
+        }
+
+        function loadScenario(idx) {
+            currentScenarioIndex = idx;
+            const scen = SCENARIOS[idx];
+
+            // Update button highlights
+            SCENARIOS.forEach((_, i) => {
+                const b = document.getElementById(`scen-btn-${i}`);
+                if (b) {
+                    if (i === idx) {
+                        b.className = 'w-full text-left p-3 rounded-xl border transition-all flex items-center justify-between text-xs font-semibold bg-cyan-950/70 border-cyan-500 text-white shadow-md shadow-cyan-950/50';
+                    } else {
+                        b.className = 'w-full text-left p-3 rounded-xl border transition-all flex items-center justify-between text-xs font-semibold bg-slate-800/40 border-slate-700/60 text-slate-300 hover:bg-slate-800 hover:text-white';
+                    }
+                }
+            });
+
+            // Update Scenario Specs Card
+            scenarioSpecs.innerHTML = `
+        <div class="flex justify-between items-center"><span class="text-slate-400 font-medium">Standard Event Duration:</span> <strong class="text-cyan-300 font-mono-code">${scen.duration}</strong></div>
+        <div class="flex justify-between items-center"><span class="text-slate-400 font-medium">Relative Exercise Intensity:</span> <strong class="text-amber-300">${scen.intensity}</strong></div>
+        <p class="mt-2 text-slate-300 text-[11px] italic leading-normal border-t border-slate-700/60 pt-2">${scen.description}</p>
+      `;
+
+            // Reset sliders to 0 for independent input
+            setAllSliderValues(0, 0, 0);
+
+            // Reset qualitative selects
+            predSubstrate.selectedIndex = 0;
+            predFatigue.selectedIndex = 0;
+
+            // Update Kinetic Curve marker
+            markerTimeText.textContent = scen.duration;
+
+            // Reset submission view
+            resultsSection.classList.add('hidden');
+            awaitingPrompt.classList.remove('hidden');
+
+            // Redraw kinetics canvas with duration marker
+            drawKineticsCurve();
+        }
+
+        /* =======================================================================
+           4. FULLY INDEPENDENT SLIDERS & VALIDATION
+           ======================================================================= */
+        function setupSliderListeners() {
+            // Connect range sliders to independent updater
+            sliderPcr.addEventListener('input', (e) => onSliderChange('pcr', e.target.value));
+            sliderGlyc.addEventListener('input', (e) => onSliderChange('glyc', e.target.value));
+            sliderOx.addEventListener('input', (e) => onSliderChange('ox', e.target.value));
+
+            // Connect direct number inputs
+            numInputPcr.addEventListener('input', (e) => onNumberInputChange('pcr', e.target.value));
+            numInputGlyc.addEventListener('input', (e) => onNumberInputChange('glyc', e.target.value));
+            numInputOx.addEventListener('input', (e) => onNumberInputChange('ox', e.target.value));
+
+            // Helper Auto-Balance and Reset buttons
+            btnAutoBalance.addEventListener('click', handleAutoBalance);
+            btnResetPred.addEventListener('click', () => setAllSliderValues(0, 0, 0));
+
+            btnSubmitPrediction.addEventListener('click', handlePredictionSubmit);
+        }
+
+        function onSliderChange(system, val) {
+            const clampedVal = Math.max(0, Math.min(100, parseInt(val, 10) || 0));
+            if (system === 'pcr') numInputPcr.value = clampedVal;
+            else if (system === 'glyc') numInputGlyc.value = clampedVal;
+            else if (system === 'ox') numInputOx.value = clampedVal;
+            updateValidation();
+        }
+
+        function onNumberInputChange(system, val) {
+            let clampedVal = parseInt(val, 10);
+            if (isNaN(clampedVal)) clampedVal = 0;
+            clampedVal = Math.max(0, Math.min(100, clampedVal));
+
+            if (system === 'pcr') sliderPcr.value = clampedVal;
+            else if (system === 'glyc') sliderGlyc.value = clampedVal;
+            else if (system === 'ox') sliderOx.value = clampedVal;
+            updateValidation();
+        }
+
+        window.stepSlider = function (system, delta) {
+            let inputEl = system === 'pcr' ? numInputPcr : (system === 'glyc' ? numInputGlyc : numInputOx);
+            let cur = parseInt(inputEl.value, 10) || 0;
+            let next = Math.max(0, Math.min(100, cur + delta));
+            inputEl.value = next;
+            if (system === 'pcr') sliderPcr.value = next;
+            else if (system === 'glyc') sliderGlyc.value = next;
+            else if (system === 'ox') sliderOx.value = next;
+            updateValidation();
+        };
+
+        function setAllSliderValues(pcr, glyc, ox) {
+            sliderPcr.value = pcr;
+            numInputPcr.value = pcr;
+            sliderGlyc.value = glyc;
+            numInputGlyc.value = glyc;
+            sliderOx.value = ox;
+            numInputOx.value = ox;
+            updateValidation();
+        }
+
+        function handleAutoBalance() {
+            const p = parseInt(sliderPcr.value, 10) || 0;
+            const g = parseInt(sliderGlyc.value, 10) || 0;
+            const o = parseInt(sliderOx.value, 10) || 0;
+            const currentSum = p + g + o;
+            const diff = 100 - currentSum;
+
+            if (diff === 0) return; // already 100%
+
+            // If oxidative is at zero or can absorb the remainder, allocate to oxidative
+            if (o + diff >= 0 && o + diff <= 100) {
+                setAllSliderValues(p, g, o + diff);
+            } else if (g + diff >= 0 && g + diff <= 100) {
+                setAllSliderValues(p, g + diff, o);
+            } else if (p + diff >= 0 && p + diff <= 100) {
+                setAllSliderValues(p + diff, g, o);
+            } else {
+                // Proportionally distribute if feasible, otherwise reset
+                const target = 100;
+                if (currentSum > 0) {
+                    const newP = Math.round((p / currentSum) * target);
+                    const newG = Math.round((g / currentSum) * target);
+                    const newO = 100 - newP - newG;
+                    setAllSliderValues(newP, newG, Math.max(0, newO));
+                } else {
+                    setAllSliderValues(34, 33, 33);
+                }
+            }
+        }
+
+        function updateValidation() {
+            const p = parseInt(sliderPcr.value, 10) || 0;
+            const g = parseInt(sliderGlyc.value, 10) || 0;
+            const o = parseInt(sliderOx.value, 10) || 0;
+            const total = p + g + o;
+
+            sumBadge.textContent = `Total: ${total}%`;
+
+            if (total === 100) {
+                sumBadge.className = 'text-xs font-mono-code px-2.5 py-1 rounded-md bg-emerald-950 text-emerald-300 font-bold border border-emerald-500 shadow-sm';
+                sumStatusText.textContent = 'Balanced (100%)';
+                sumStatusText.className = 'font-semibold text-emerald-400 font-mono-code';
+
+                btnSubmitPrediction.disabled = false;
+                btnSubmitPrediction.className = 'mt-4 w-full py-2.5 px-4 rounded-xl font-semibold text-xs tracking-wider uppercase transition-all duration-200 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white shadow-lg shadow-cyan-900/40 active:scale-[0.98] cursor-pointer';
+                btnSubmitPrediction.textContent = 'Submit Prediction & Reveal Data';
+            } else if (total < 100) {
+                const remaining = 100 - total;
+                sumBadge.className = 'text-xs font-mono-code px-2.5 py-1 rounded-md bg-amber-950 text-amber-300 font-bold border border-amber-600/70';
+                sumStatusText.textContent = `Under by ${remaining}% (need 100%)`;
+                sumStatusText.className = 'font-semibold text-amber-400 font-mono-code';
+
+                btnSubmitPrediction.disabled = true;
+                btnSubmitPrediction.className = 'mt-4 w-full py-2.5 px-4 rounded-xl font-semibold text-xs tracking-wider uppercase transition-all duration-200 bg-slate-800 text-slate-500 cursor-not-allowed border border-slate-700/60 shadow-none';
+                btnSubmitPrediction.textContent = `Need ${remaining}% more to total 100%`;
+            } else {
+                const excess = total - 100;
+                sumBadge.className = 'text-xs font-mono-code px-2.5 py-1 rounded-md bg-rose-950 text-rose-300 font-bold border border-rose-600/70';
+                sumStatusText.textContent = `Exceeds by ${excess}% (must be 100%)`;
+                sumStatusText.className = 'font-semibold text-rose-400 font-mono-code';
+
+                btnSubmitPrediction.disabled = true;
+                btnSubmitPrediction.className = 'mt-4 w-full py-2.5 px-4 rounded-xl font-semibold text-xs tracking-wider uppercase transition-all duration-200 bg-slate-800 text-slate-500 cursor-not-allowed border border-slate-700/60 shadow-none';
+                btnSubmitPrediction.textContent = `Exceeds 100% by ${excess}%`;
+            }
+        }
+
+        /* =======================================================================
+           5. PREDICTION SUBMISSION & METRICS REVEAL
+           ======================================================================= */
+        function handlePredictionSubmit() {
+            const scen = SCENARIOS[currentScenarioIndex];
+            const pcrPred = parseInt(sliderPcr.value, 10);
+            const glycPred = parseInt(sliderGlyc.value, 10);
+            const oxPred = parseInt(sliderOx.value, 10);
+
+            // Render Predicted Stacked Bar
+            const predBarContainer = document.getElementById('predictedBarContainer');
+            predBarContainer.innerHTML = `
+        <div style="width: ${pcrPred}%;" class="bg-amber-500 h-full flex items-center justify-center text-[10px] font-bold text-slate-950 transition-all duration-500" title="PCr: ${pcrPred}%">${pcrPred > 7 ? pcrPred + '%' : ''}</div>
+        <div style="width: ${glycPred}%;" class="bg-rose-500 h-full flex items-center justify-center text-[10px] font-bold text-white transition-all duration-500" title="Glycolytic: ${glycPred}%">${glycPred > 7 ? glycPred + '%' : ''}</div>
+        <div style="width: ${oxPred}%;" class="bg-emerald-500 h-full flex items-center justify-center text-[10px] font-bold text-slate-950 transition-all duration-500" title="Oxidative: ${oxPred}%">${oxPred > 7 ? oxPred + '%' : ''}</div>
+      `;
+            document.getElementById('predBarLegend').textContent = `PCr: ${pcrPred}% | Glyc: ${glycPred}% | Ox: ${oxPred}%`;
+
+            // Render Actual Stacked Bar
+            const actualBarContainer = document.getElementById('actualBarContainer');
+            actualBarContainer.innerHTML = `
+        <div style="width: ${scen.actualPcr}%;" class="bg-amber-500 h-full flex items-center justify-center text-[10px] font-bold text-slate-950 transition-all duration-500">${scen.actualPcr > 5 ? scen.actualPcr + '%' : ''}</div>
+        <div style="width: ${scen.actualGlyc}%;" class="bg-rose-500 h-full flex items-center justify-center text-[10px] font-bold text-white transition-all duration-500">${scen.actualGlyc > 5 ? scen.actualGlyc + '%' : ''}</div>
+        <div style="width: ${scen.actualOx}%;" class="bg-emerald-500 h-full flex items-center justify-center text-[10px] font-bold text-slate-950 transition-all duration-500">${scen.actualOx > 5 ? scen.actualOx + '%' : ''}</div>
+      `;
+            document.getElementById('actualBarLegend').textContent = `PCr: ${scen.actualPcr}% | Glyc: ${scen.actualGlyc}% | Ox: ${scen.actualOx}%`;
+
+            // Calculate accuracy
+            const totalDiff = Math.abs(pcrPred - scen.actualPcr) + Math.abs(glycPred - scen.actualGlyc) + Math.abs(oxPred - scen.actualOx);
+            const accuracyBadge = document.getElementById('accuracyBadge');
+            if (totalDiff <= 15) {
+                accuracyBadge.textContent = 'High Scientific Accuracy (≤15% error)';
+                accuracyBadge.className = 'text-xs font-mono-code font-bold px-2.5 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800';
+            } else if (totalDiff <= 35) {
+                accuracyBadge.textContent = 'Moderate Alignment (Close Estimates)';
+                accuracyBadge.className = 'text-xs font-mono-code font-bold px-2.5 py-0.5 rounded-full bg-cyan-950 text-cyan-300 border border-cyan-800';
+            } else {
+                accuracyBadge.textContent = 'Learning Opportunity (Substantial Discrepancy)';
+                accuracyBadge.className = 'text-xs font-mono-code font-bold px-2.5 py-0.5 rounded-full bg-amber-950 text-amber-300 border border-amber-800';
+            }
+
+            // Populate Secondary Physiological Markers
+            document.getElementById('statAtpRate').textContent = scen.atpRate;
+            document.getElementById('statTotalEnergy').textContent = scen.totalEnergy;
+            document.getElementById('statLimitation').textContent = scen.primaryLimitation;
+            document.getElementById('statRer').textContent = scen.rer;
+            document.getElementById('statChoFat').textContent = scen.choFat;
+            document.getElementById('statDominantFuel').textContent = scen.dominantFuel;
+            document.getElementById('etiologyDetail').innerHTML = `
+        <p><strong class="text-cyan-400">Mechanism of Fatigue:</strong> ${scen.etiology}</p>
+        <div class="mt-2 text-[11px] p-2 bg-slate-900 rounded border border-slate-800 text-slate-400">
+          <span class="text-slate-300 font-semibold">Your Qualitative Hypotheses:</span> Substrate chosen was <em>${predSubstrate.options[predSubstrate.selectedIndex].text}</em> ${predSubstrate.value === scen.correctSubstrate ? '<span class="text-emerald-400 font-bold">✓ (Accurate)</span>' : '<span class="text-amber-400">(Deviates from primary fuel)</span>'}; Fatigue factor chosen was <em>${predFatigue.options[predFatigue.selectedIndex].text}</em> ${predFatigue.value === scen.correctFatigue ? '<span class="text-emerald-400 font-bold">✓ (Accurate)</span>' : '<span class="text-amber-400">(Secondary or misattributed)</span>'}.
+        </div>
+      `;
+
+            // Render Formative Assessment Quiz
+            renderQuiz(scen.question);
+
+            // Show results & scroll smoothly
+            awaitingPrompt.classList.add('hidden');
+            resultsSection.classList.remove('hidden');
+
+            // Mark scenario as completed in set
+            completedScenarios.add(scen.id);
+            renderScenarioButtons();
+            updateLabMasteryHeader();
+        }
+
+        /* =======================================================================
+           6. FORMATIVE ASSESSMENT LOGIC
+           ======================================================================= */
+        function renderQuiz(q) {
+            document.getElementById('quizQuestionText').textContent = q.text;
+            const optsList = document.getElementById('quizOptionsList');
+            const feedbackBox = document.getElementById('quizFeedbackBox');
+            optsList.innerHTML = '';
+            feedbackBox.className = 'hidden mt-4 p-3.5 rounded-xl text-xs border leading-relaxed fade-in';
+            feedbackBox.innerHTML = '';
+
+            q.options.forEach((opt, idx) => {
+                const btn = document.createElement('button');
+                btn.className = 'w-full text-left p-3 rounded-xl bg-slate-950/70 border border-slate-800 text-slate-200 hover:border-cyan-600 hover:bg-slate-800/80 transition flex items-start gap-2.5';
+                btn.innerHTML = `
+          <span class="w-5 h-5 rounded-md bg-slate-800 border border-slate-700 flex items-center justify-center font-mono-code text-[11px] text-slate-300 shrink-0 mt-0.5">${String.fromCharCode(65 + idx)}</span>
+          <span>${opt.text}</span>
+        `;
+                btn.onclick = () => handleQuizAnswer(opt, btn, q.options);
+                optsList.appendChild(btn);
+            });
+        }
+
+        function handleQuizAnswer(selectedOpt, selectedBtn, allOpts) {
+            const scen = SCENARIOS[currentScenarioIndex];
+            const feedbackBox = document.getElementById('quizFeedbackBox');
+            const allButtons = document.getElementById('quizOptionsList').querySelectorAll('button');
+
+            // Disable further clicks on options
+            allButtons.forEach(b => b.classList.add('pointer-events-none'));
+
+            // If not yet answered for this scenario, record first attempt score
+            if (!(scen.id in scoreHistory)) {
+                scoreHistory[scen.id] = selectedOpt.correct;
+                updateLabMasteryHeader();
+            }
+
+            if (selectedOpt.correct) {
+                selectedBtn.classList.remove('bg-slate-950/70', 'border-slate-800');
+                selectedBtn.classList.add('bg-emerald-950/60', 'border-emerald-500', 'text-white');
+                feedbackBox.className = 'mt-4 p-3.5 rounded-xl text-xs border leading-relaxed bg-emerald-950/40 border-emerald-800/70 text-emerald-200 fade-in';
+                feedbackBox.innerHTML = `
+          <div class="font-bold flex items-center gap-1.5 text-emerald-400 mb-1">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Correct Analysis!
+          </div>
+          ${selectedOpt.explanation}
+        `;
+            } else {
+                selectedBtn.classList.remove('bg-slate-950/70', 'border-slate-800');
+                selectedBtn.classList.add('bg-rose-950/60', 'border-rose-500', 'text-white');
+
+                // Highlight correct one
+                allOpts.forEach((opt, i) => {
+                    if (opt.correct) {
+                        allButtons[i].classList.remove('bg-slate-950/70', 'border-slate-800');
+                        allButtons[i].classList.add('bg-emerald-950/40', 'border-emerald-600/70', 'text-emerald-200');
+                    }
+                });
+
+                feedbackBox.className = 'mt-4 p-3.5 rounded-xl text-xs border leading-relaxed bg-rose-950/40 border-rose-800/70 text-rose-200 fade-in';
+                feedbackBox.innerHTML = `
+          <div class="font-bold flex items-center gap-1.5 text-rose-400 mb-1">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/></svg>
+            Incorrect Initial Response
+          </div>
+          ${selectedOpt.explanation}
+        `;
+            }
+        }
+
+        function updateLabMasteryHeader() {
+            const count = completedScenarios.size;
+            completionCounter.textContent = `${count} / ${SCENARIOS.length}`;
+
+            const answeredKeys = Object.keys(scoreHistory);
+            if (answeredKeys.length === 0) {
+                masteryScore.textContent = '0%';
+            } else {
+                const correctCount = answeredKeys.filter(k => scoreHistory[k] === true).length;
+                const pct = Math.round((correctCount / answeredKeys.length) * 100);
+                masteryScore.textContent = `${pct}%`;
+            }
+        }
+
+        /* =======================================================================
+           7. BIOENERGETIC CONTINUUM CANVAS GRAPHIC
+           Pure responsive HTML5 Canvas rendering mathematical kinetics curves
+           ======================================================================= */
+        function setupCanvas() {
+            resizeCanvas();
+            drawKineticsCurve();
+        }
+
+        function resizeCanvas() {
+            const dpr = window.devicePixelRatio || 1;
+            const rect = kineticsCanvas.getBoundingClientRect();
+            kineticsCanvas.width = rect.width * dpr;
+            kineticsCanvas.height = rect.height * dpr;
+            const ctx = kineticsCanvas.getContext('2d');
+            ctx.scale(dpr, dpr);
+        }
+
+        function drawKineticsCurve() {
+            const rect = kineticsCanvas.getBoundingClientRect();
+            const w = rect.width;
+            const h = rect.height;
+            const ctx = kineticsCanvas.getContext('2d');
+
+            ctx.clearRect(0, 0, w, h);
+
+            // Padding for axes
+            const padLeft = 45;
+            const padBottom = 32;
+            const padTop = 20;
+            const padRight = 20;
+            const plotW = w - padLeft - padRight;
+            const plotH = h - padTop - padBottom;
+
+            // Draw subtle grid lines
+            ctx.strokeStyle = '#1e293b';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            for (let yPct = 0; yPct <= 1.0; yPct += 0.25) {
+                const yPos = padTop + plotH * yPct;
+                ctx.moveTo(padLeft, yPos);
+                ctx.lineTo(w - padRight, yPos);
+            }
+            ctx.stroke();
+
+            // Axis labels
+            ctx.fillStyle = '#64748b';
+            ctx.font = '10px JetBrains Mono, monospace';
+            ctx.textAlign = 'right';
+            ctx.fillText('100%', padLeft - 8, padTop + 8);
+            ctx.fillText('50%', padLeft - 8, padTop + plotH * 0.5 + 4);
+            ctx.fillText('0%', padLeft - 8, padTop + plotH);
+
+            // Time ticks on X axis (logarithmic/non-linear scale from 0s to 120s to visualize fast sprint & crossover)
+            // Visual timeline mapping: 0 to 120 seconds covers 70% width, remaining 30% stretches to endurance.
+            const timeLabels = ['0s', '10s', '30s', '60s', '2m', '5m', '15m', '2h'];
+            ctx.textAlign = 'center';
+            timeLabels.forEach((lbl, i) => {
+                const xPos = padLeft + (i / (timeLabels.length - 1)) * plotW;
+                ctx.fillText(lbl, xPos, h - 10);
+            });
+
+            // Mathematical Bioenergetic curves mapping functions: t in [0, 1] representing timeline
+            // System 1: ATP-PCr (amber) -> peaks at t=0, drops exponentially by 10-15s
+            function pcrRate(t) {
+                return Math.exp(-t * 9.0);
+            }
+
+            // System 2: Fast Glycolysis (rose) -> ramps to max at ~15-30s, falls as duration extends
+            function glycRate(t) {
+                return Math.pow(t * 3.5, 0.9) * Math.exp(-t * 4.2) * 2.2;
+            }
+
+            // System 3: Oxidative Phosphorylation (emerald) -> sigmoidal activation, reaches steady state
+            function oxRate(t) {
+                return 1 / (1 + Math.exp(-(t - 0.28) * 9.0));
+            }
+
+            // Helper to plot a curve with subtle gradient fill
+            function plotSystem(rateFunc, strokeColor, fillColor) {
+                ctx.beginPath();
+                const steps = 120;
+                for (let i = 0; i <= steps; i++) {
+                    const t = i / steps;
+                    const val = Math.min(1.0, Math.max(0, rateFunc(t)));
+                    const x = padLeft + t * plotW;
+                    const y = padTop + plotH * (1 - val);
+                    if (i === 0) ctx.moveTo(x, y);
+                    else ctx.lineTo(x, y);
+                }
+                ctx.strokeStyle = strokeColor;
+                ctx.lineWidth = 2.5;
+                ctx.stroke();
+
+                // Optional Area under curve
+                ctx.lineTo(padLeft + plotW, padTop + plotH);
+                ctx.lineTo(padLeft, padTop + plotH);
+                ctx.closePath();
+                ctx.fillStyle = fillColor;
+                ctx.fill();
+            }
+
+            // Draw Curves
+            plotSystem(pcrRate, '#f59e0b', 'rgba(245, 158, 11, 0.08)');
+            plotSystem(glycRate, '#ef4444', 'rgba(239, 68, 68, 0.08)');
+            plotSystem(oxRate, '#10b981', 'rgba(16, 185, 129, 0.08)');
+
+            // Highlight Current Scenario Duration Indicator line
+            const scen = SCENARIOS[currentScenarioIndex];
+            let tRatio = 0.05; // 100m default
+            if (scen.id === '100m') tRatio = 0.07;
+            else if (scen.id === '400m') tRatio = 0.25;
+            else if (scen.id === '1500m') tRatio = 0.48;
+            else if (scen.id === '5000m') tRatio = 0.72;
+            else if (scen.id === 'marathon') tRatio = 0.95;
+
+            const markerX = padLeft + tRatio * plotW;
+            ctx.beginPath();
+            ctx.setLineDash([4, 4]);
+            ctx.strokeStyle = '#38bdf8';
+            ctx.lineWidth = 2;
+            ctx.moveTo(markerX, padTop);
+            ctx.lineTo(markerX, padTop + plotH);
+            ctx.stroke();
+            ctx.setLineDash([]); // Reset dash
+
+            // Marker Head
+            ctx.fillStyle = '#38bdf8';
+            ctx.beginPath();
+            ctx.arc(markerX, padTop + 4, 4, 0, Math.PI * 2);
+            ctx.fill();
+        }
+
+        /* =======================================================================
+           8. MODAL FOR PHYSIOLOGICAL CONCEPTS
+           ======================================================================= */
+        function showConceptModal(conceptKey) {
+            const data = CONCEPT_DATA[conceptKey];
+            if (!data) return;
+            const modal = document.getElementById('conceptModal');
+            const content = document.getElementById('modalContent');
+            content.innerHTML = `
+        <h3 class="text-base font-bold text-white mb-2">${data.title}</h3>
+        <div class="border-t border-slate-800 pt-3">${data.body}</div>
+        <div class="mt-5 text-right">
+          <button onclick="closeConceptModal()" class="px-4 py-1.5 rounded-lg bg-slate-800 text-slate-200 hover:bg-slate-700 text-xs font-semibold">
+            Close
+          </button>
+        </div>
+      `;
+            modal.classList.remove('hidden');
+        }
+
+        function closeConceptModal() {
+            document.getElementById('conceptModal').classList.add('hidden');
+        }
+
+        // Close modal on escape key
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeConceptModal();
+        });
+
+        // Run setup on window load
+        window.onload = function () {
+            init();
+        };
+    </script>
+</body>
+
+</html>

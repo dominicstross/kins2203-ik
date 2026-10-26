@@ -3,6 +3,19 @@
     "mcq": [
       {
         "id": 1,
+        "q": "Energy is liberated for muscular work when the chemical bond between ATP and its phosphate subgroup is broken through:",
+        "opts": [
+          "hydrolysis",
+          "glycolysis",
+          "the Krebs cycle",
+          "the Cori cycle",
+          "phosphorylation"
+        ],
+        "correct": 0,
+        "rationale": "Intramuscular myosin ATPase catalyzes the hydrolytic cleavage of ATP's terminal phosphate group, liberating approximately  of free energy under standard conditions  in vivo to fuel mechanical muscle action."
+      },
+      {
+        "id": 2,
         "q": "What is the primary organic compound universally recognized as the immediate energy currency of the human body?",
         "opts": [
           "Adenosine Triphosphate (ATP)",
@@ -14,7 +27,44 @@
         "rationale": "Adenosine Triphosphate (ATP) serves as the universal energy currency of the body because its chemical breakdown directly powers all cellular work and muscular contractions."
       },
       {
-        "id": 2,
+        "id": 3,
+        "q": "Which of the following statements regarding ATP is TRUE:",
+        "opts": [
+          "The ATP for muscular contraction is needed for the formation of cross bridges.",
+          "ATP cannot be regenerated in the human body.",
+          "ATP muscle stores are high enough to maintain muscular activity for long durations.",
+          "The process of ATP regeneration is always extremely slow."
+        ],
+        "correct": 0,
+        "rationale": "In the sliding filament theory, ATP binding and subsequent hydrolysis cock the myosin head into a high-energy conformational state, allowing cross-bridge attachment to actin binding sites."
+      },
+      {
+        "id": 4,
+        "q": "All energy in the human body is derived from the breakdown of",
+        "opts": [
+          "carbohydrates, fats, and proteins",
+          "carbohydrates and fats",
+          "carbohydrates, fats, and vitamins",
+          "fats and proteins",
+          "vitamins and minerals"
+        ],
+        "correct": 0,
+        "rationale": "Carbohydrates, lipids (fats), and dietary proteins are the three macronutrient fuel substrates that contain chemical energy convertible into cellular ATP; vitamins and minerals act as coenzymes and cofactors but do not yield direct chemical energy."
+      },
+      {
+        "id": 5,
+        "q": "What is the primary organic compound universally recognized as the immediate energy currency of the human body?",
+        "opts": [
+          "Adenosine Triphosphate (ATP)",
+          "Creatine Phosphate (CP)",
+          "Nicotinamide Adenine Dinucleotide (NADH)",
+          "Flavin Adenine Dinucleotide (FADH₂)"
+        ],
+        "correct": 0,
+        "rationale": "Adenosine Triphosphate (ATP) serves as the universal energy currency of the body because its chemical breakdown directly powers all cellular work and muscular contractions."
+      },
+      {
+        "id": 6,
         "q": "Which chemical reaction describes the enzymatic breakdown of ATP in the presence of water?",
         "opts": [
           "Hydrolysis",
@@ -26,7 +76,7 @@
         "rationale": "Hydrolysis is the chemical reaction where a compound reacts with water; specifically, ATPase catalyzes the hydrolysis of ATP into ADP, Pi, and free energy."
       },
       {
-        "id": 3,
+        "id": 7,
         "q": "Which enzyme specifically catalyzes the cleavage of the terminal high-energy phosphate bond of ATP?",
         "opts": [
           "Adenosine Triphosphatase (ATPase)",
@@ -38,7 +88,7 @@
         "rationale": "ATPase is the enzyme located along the myosin head and sarcolemma that catalyzes ATP hydrolysis during muscular contraction."
       },
       {
-        "id": 4,
+        "id": 8,
         "q": "Approximately how much free energy is liberated per mole of ATP hydrolyzed under standard physiological conditions?",
         "opts": [
           "7.3 kcal/mol",
@@ -50,7 +100,7 @@
         "rationale": "The cleavage of the terminal phosphate bond yields approximately 7.3 kcal of free energy per mole of ATP under standard physiological conditions."
       },
       {
-        "id": 5,
+        "id": 9,
         "q": "How much ATP is stored within resting skeletal muscle wet mass per kilogram?",
         "opts": [
           "5 to 6 mmol/kg",
@@ -62,7 +112,7 @@
         "rationale": "Resting skeletal muscle maintains a minimal ATP pool of approximately 5 to 6 mmol per kilogram of wet muscle mass."
       },
       {
-        "id": 6,
+        "id": 10,
         "q": "During maximal explosive muscle exertion, how rapidly will the resting intramuscular ATP pool be depleted if not resynthesized?",
         "opts": [
           "1 to 2 seconds",
@@ -74,7 +124,7 @@
         "rationale": "Because resting ATP stores are minimal, explosive maximal muscle actions exhaust the immediate ATP store within 1 to 2 seconds."
       },
       {
-        "id": 7,
+        "id": 11,
         "q": "Which process describes the endergonic recombination of ADP and an inorganic phosphate ion (Pᵢ) to regenerate ATP?",
         "opts": [
           "ATP Resynthesis",
@@ -86,7 +136,7 @@
         "rationale": "ATP resynthesis is the anabolic/endergonic process of adding inorganic phosphate back onto ADP using energy from nutrient catabolism."
       },
       {
-        "id": 8,
+        "id": 12,
         "q": "What structural components make up the adenosine tri-phosphate molecule?",
         "opts": [
           "Adenine base, ribose sugar, and three phosphate groups",
@@ -187,6 +237,24 @@
         "q": "ATP resynthesis is an endergonic process, meaning it requires an input of energy derived from macronutrient breakdown.",
         "ans": true,
         "feedback": "True. Recombining ADP and Pᵢ requires energy input supplied by exergonic nutrient catabolism."
+      },
+      {
+        "id": 5,
+        "q": "The total muscle stores of ATP are depleted after only a few minutes of high-intensity work.",
+        "ans": false,
+        "feedback": "Intramuscular ATP concentrations decline by at most 20% to 40% even at exhaustive volitional fatigue, and resting stores alone support all-out exercise for only 1 to 2 seconds before being regenerated via phosphocreatine and anaerobic glycolysis."
+      },
+      {
+        "id": 6,
+        "q": "The two anaerobic systems can be separated on the basis of whether or not lactic acid is produced during the energy production.",
+        "ans": true,
+        "feedback": "The alactic anaerobic system (ATP-PCr / phosphagen) resynthesizes ATP without yielding lactate, whereas the lactic anaerobic system (fast glycolysis) produces lactate as a byproduct of rapid anaerobic flux."
+      },
+      {
+        "id": 7,
+        "q": "The term hydrolysis refers to the chemical breakdown of a compound by the addition of air.",
+        "ans": false,
+        "feedback": "Hydrolysis specifically describes the cleavage of chemical bonds through the addition of a water molecule (![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAWCAMAAAALimf+AAAAAXNSR0IArs4c6QAAAGxQTFRFAAAAAAAAAAA6AABmADo6ADpmADqQAGa2OgAAOgA6OjqQOmaQOpDbZgAAZpDbZrbbZrb/kDoAkDpmkLb/kNv/tmYAtmY6tpBmttv/tv//25A625Bm27Zm27aQ2////7Zm/9uQ/9u2//+2///bzPeHDwAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAZdEVYdFNvZnR3YXJlAE1pY3Jvc29mdCBPZmZpY2V/7TVxAAAAr0lEQVQoU82QQRbCIAxEk1YFtdWiorXVgnD/O0pCBTflPXfOKmTgZwjAn2pAbMC1WF1SQH+TWB346JWYAAx22VTrHqxsqOFa6g/1Pbmaay2oYagOgGRayRi9CUgIc0nMYUVMvO8V9e02ZZoxkTCPZQzLtYyJhK+xD4n76QOLkXk4x7e76UX5dd3DU3LKkEnkXfgT5b8iro4pZC5G/suCxnPJ7MAsPrYyLKWELoB/td6C5ApusYEIJAAAAABJRU5ErkJggg==)), not air or oxygen."
       }
     ],
     "cloze": [
@@ -225,7 +293,7 @@
     ],
     "sa": [
       {
-        "id": 1,
+        "id": 3,
         "prompt": "Explain why skeletal muscle must resynthesize ATP continuously during exercise, referencing intramuscular resting ATP concentrations and depletion timelines.",
         "model": "Skeletal muscle maintains a minimal resting ATP pool of only 5 to 6 mmol/kg of wet muscle mass. Because cross-bridge cycling during muscular contraction consumes ATP rapidly, this localized store is exhausted within 1 to 2 seconds of maximal exertion. To prevent rapid cellular fatigue and rigor, muscle cells must continuously resynthesize ATP at a rate matching consumption by coupling endergonic ADP re-phosphorylation with exergonic macronutrient catabolism.",
         "criteria": [
@@ -235,7 +303,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 4,
         "prompt": "Write out the chemical equation for ATP hydrolysis and describe the physiological role of each product released.",
         "model": "The equation for ATP hydrolysis is: ATP + H₂O —(ATPase)→ ADP + Pᵢ + Energy. The products are Adenosine Diphosphate (ADP) and Inorganic Phosphate (Pᵢ), along with liberated free energy (~7.3 kcal/mol). The liberated free energy directly powers the pivoting of the myosin globular head during the sliding filament mechanism of muscle contraction.",
         "criteria": [
@@ -343,11 +411,24 @@
         ],
         "correct": 0,
         "rationale": "Lactic acid produced during rapid anaerobic glycolysis rapidly dissociates into lactate and hydrogen ions (H+), lowering cellular pH and inducing fatigue."
+      },
+      {
+        "id": 7,
+        "q": "ATP is broken down into:",
+        "opts": [
+          "ADP and a free phosphate",
+          "ADP and pyruvate",
+          "ADP and phosphocreatine",
+          "ADP and creatine phosphate",
+          "ADP and pyruvic acid"
+        ],
+        "correct": 0,
+        "rationale": "Hydrolysis of adenosine triphosphate (ATP) by ATPase cleaves the terminal high-energy phosphoanhydride bond, yielding adenosine diphosphate (ADP), an inorganic free phosphate group (Pi), and a release of free energy."
       }
     ],
     "ms": [
       {
-        "id": 1,
+        "id": 8,
         "q": "Which of the following characteristics accurately describe the Phosphagen System? (Select all that apply)",
         "opts": [
           "It operates anaerobically (without oxygen).",
@@ -472,7 +553,7 @@
     ],
     "sa": [
       {
-        "id": 1,
+        "id": 3,
         "prompt": "Compare the trade-offs between ATP synthesis rate (power) and total ATP production capacity across the phosphagen, glycolytic, and oxidative energy systems.",
         "model": "The phosphagen system possesses the highest rate of ATP resynthesis (maximal power) but the lowest total capacity, supporting efforts for only 0 to 10 seconds. The glycolytic system offers a high rate of ATP production for short-term efforts (15 to 120 seconds) but is limited in capacity by hydrogen ion accumulation and acidosis. The oxidative system has the lowest rate of ATP production but a virtually unlimited capacity, providing 36 to 39 moles of ATP per mole of glucose and utilizing fat stores for long-duration activities.",
         "criteria": [
@@ -482,7 +563,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 4,
         "prompt": "Explain how the concept of energy system interaction applies to an athlete competing in a high-intensity intermittent sport like soccer or basketball.",
         "model": "Energy systems operate on a continuum rather than in isolation. In high-intensity intermittent sports, explosive movements like jumping or sprinting (0-10 s) are powered by the anaerobic phosphagen system. Sustained high-speed drives or transitions (15-60 s) engage the anaerobic glycolytic system. During low-intensity play, walking, or stoppage recovery periods, the aerobic oxidative system dominates, delivering ATP to restore depleted creatine phosphate stores and assist in clearing metabolic by-products.",
         "criteria": [
