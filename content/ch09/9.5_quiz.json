@@ -1,0 +1,497 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What is the total resistive fluid force called that acts directly opposite to an athlete's direction of movement through air or water?",
+                "opts": [
+                    "Drag",
+                    "Magnus force",
+                    "Torque",
+                    "Buoyancy"
+                ],
+                "correct": 0,
+                "rationale": "Drag is defined as the total resistive fluid force acting directly opposite to a body's direction of motion through air or water."
+            },
+            {
+                "id": 2,
+                "q": "Which type of drag is caused by fluid molecules adhering to and rubbing along the surface roughness of an athlete's body or equipment?",
+                "opts": [
+                    "Surface drag (Skin friction)",
+                    "Profile drag (Pressure drag)",
+                    "Wave drag",
+                    "Induced lift"
+                ],
+                "correct": 0,
+                "rationale": "Surface drag (also known as skin friction) is caused by fluid molecules rubbing along the surface roughness of an object as it moves through a fluid."
+            },
+            {
+                "id": 3,
+                "q": "What is the region of fluid surrounding a moving body called where fluid molecules stick to the skin and tow adjacent outer fluid layers?",
+                "opts": [
+                    "Boundary layer",
+                    "Low-pressure wake",
+                    "Laminar vacuum",
+                    "Centric vector"
+                ],
+                "correct": 0,
+                "rationale": "The boundary layer is the thin region of relative motion surrounding an object where fluid molecules stick to the surface and tow adjacent layers along."
+            },
+            {
+                "id": 4,
+                "q": "Which fluid flow pattern within the boundary layer is characterized by a smooth, layered flow around a small, streamlined, smooth object without eddies or wakes?",
+                "opts": [
+                    "Laminar flow",
+                    "Turbulent flow",
+                    "Magnus flow",
+                    "Backflow cavitation"
+                ],
+                "correct": 0,
+                "rationale": "Laminar flow is a smooth, layered fluid flow pattern around a streamlined object with no wake or fluid disturbance."
+            },
+            {
+                "id": 5,
+                "q": "Which form of drag is the primary source of fluid resistance in high-speed sports such as skiing, cycling, running, and speedskating?",
+                "opts": [
+                    "Profile drag (Pressure drag)",
+                    "Surface drag (Skin friction)",
+                    "Hydrostatic drag",
+                    "Rotational friction"
+                ],
+                "correct": 0,
+                "rationale": "Profile drag (pressure or shape drag) is the main form of drag encountered in fast-moving athletic events."
+            },
+            {
+                "id": 6,
+                "q": "How does fluid drag force scale relative to an athlete's movement velocity?",
+                "opts": [
+                    "Drag increases proportionally as the square of speed (\\(v^2\\))",
+                    "Drag increases linearly with speed (\\(v\\))",
+                    "Drag decreases as speed increases",
+                    "Drag remains constant regardless of velocity"
+                ],
+                "correct": 0,
+                "rationale": "Fluid drag increases as the square of speed (\\(v^2\\)), meaning an object moving 10 times faster experiences 100 times more drag force."
+            },
+            {
+                "id": 7,
+                "q": "By approximately how much can an athlete save their metabolic energy expenditure by drafting within 1 meter behind another runner?",
+                "opts": [
+                    "Almost 6%",
+                    "Over 50%",
+                    "0%",
+                    "25% to 30%"
+                ],
+                "correct": 0,
+                "rationale": "Wind tunnel research demonstrates that running within 1 meter of a lead runner saves an athlete almost 6% of energy costs."
+            },
+            {
+                "id": 8,
+                "q": "Why does a skier in a low downhill egg tuck position achieve significantly higher speeds (up to 50% faster)?",
+                "opts": [
+                    "It minimizes the frontal cross-sectional surface area, reducing profile drag.",
+                    "It eliminates the force of gravity completely.",
+                    "It increases skin friction within the boundary layer.",
+                    "It increases the turbulent low-pressure wake behind the body."
+                ],
+                "correct": 0,
+                "rationale": "Adopting an egg tuck position streamlines the body and minimizes frontal surface area, significantly reducing profile drag."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which of the following are the two main components that make up total fluid drag force? (Select all that apply)",
+                "opts": [
+                    "Surface drag (Skin friction)",
+                    "Profile drag (Pressure or form drag)",
+                    "Gravitational pull",
+                    "Muscular tension"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Total drag force consists of two primary sources: surface drag (skin friction) and profile drag (pressure/form drag)."
+            },
+            {
+                "id": 2,
+                "q": "Which equipment and postural strategies are used by athletes to MINIMIZE PROFILE DRAG? (Select all that apply)",
+                "opts": [
+                    "Downhill ski racer adopting a low, streamlined egg position",
+                    "Luger lying supine on a sled with feet cutting through the air first",
+                    "Speedskater crouching parallel to the ice with arms tucked behind the back",
+                    "Cyclist riding upright with arms spread wide open"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Skiing egg tucks, supine luge positions, and speedskating crouches minimize frontal surface area to reduce profile drag. Upright posture with wide arms increases profile drag."
+            },
+            {
+                "id": 3,
+                "q": "Which factors influence the magnitude of SURFACE DRAG (skin friction) acting on an athlete? (Select all that apply)",
+                "opts": [
+                    "Surface roughness/texture of the body or clothing",
+                    "Fluid velocity past the body surface",
+                    "Size and contact area of the body surface",
+                    "Color of the athlete's uniform"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Surface drag depends on surface smoothness/texture, body size/contact area, and relative air velocity. Uniform color has no impact on fluid friction."
+            },
+            {
+                "id": 4,
+                "q": "Which statements accurately describe the physics and benefits of DRAFTING? (Select all that apply)",
+                "opts": [
+                    "Drafting allows an athlete to travel in the shielded low-pressure region behind another competitor.",
+                    "Running within 1 meter behind a lead runner can save almost 6% of energy costs.",
+                    "A drafting cyclist encounters significantly reduced profile drag.",
+                    "Drafting doubles the air resistance experienced by the trailing athlete."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Drafting takes advantage of the shielded low-pressure wake, saving ~6% energy in running and substantially reducing profile drag in cycling."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Fluid drag force increases linearly with speed, so doubling movement velocity doubles air resistance.",
+                "ans": false,
+                "feedback": "False. Drag force increases as the square of speed (v²); doubling velocity increases drag by a factor of 4 (2² = 4)."
+            },
+            {
+                "id": 2,
+                "q": "Laminar flow is a smooth, layered fluid flow pattern that occurs around small, smooth, slow-moving objects without creating a turbulent wake.",
+                "ans": true,
+                "feedback": "True. Laminar flow is characterized by smooth, undisturbed fluid layers around streamlined, slow objects."
+            },
+            {
+                "id": 3,
+                "q": "Profile drag is characterized by a high-pressure zone on the leading surface and a turbulent low-pressure zone behind the trailing surface.",
+                "ans": true,
+                "feedback": "True. The separation of airflow creates a low-pressure wake behind the object that creates a suction drag force."
+            },
+            {
+                "id": 4,
+                "q": "Wearing skin-tight rubberized nylon bodysuits increases surface drag compared to loose conventional clothing.",
+                "ans": false,
+                "feedback": "False. Skin-tight rubberized suits provide a smooth surface that reduces boundary layer turbulence and decreases skin friction."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Fluid resistance is divided into **surface drag** caused by skin friction and **profile drag** caused by pressure differentials.",
+                "targets": [
+                    "surface drag",
+                    "profile drag"
+                ],
+                "optionsBank": [
+                    "surface drag",
+                    "profile drag",
+                    "Magnus force",
+                    "laminar flow",
+                    "buoyancy"
+                ],
+                "hint": "The two main components comprising total fluid drag."
+            },
+            {
+                "id": 2,
+                "statement": "Fluid drag increases as the **square of speed**, meaning an object moving 10 times faster encounters **100 times** more drag.",
+                "targets": [
+                    "square of speed",
+                    "100 times"
+                ],
+                "optionsBank": [
+                    "square of speed",
+                    "100 times",
+                    "linear speed",
+                    "10 times",
+                    "cube of speed"
+                ],
+                "hint": "The non-linear mathematical relationship between velocity and fluid drag force."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Differentiate between surface drag (skin friction) and profile drag (pressure drag), detailing their primary causes and how athletes minimize each.",
+                "model": "Surface drag (skin friction) is caused by fluid molecules adhering to and rubbing along the surface roughness of an athlete's body or clothing within the boundary layer. Athletes minimize surface drag by wearing smooth, non-porous, skin-tight rubberized suits (e.g., lugers, speedskaters) to allow air to slide smoothly. Profile drag (pressure/shape drag) is caused by the size and cross-sectional shape of the body, creating high pressure on the leading edge and a turbulent low-pressure wake behind the trailing edge. Athletes minimize profile drag by reducing frontal surface area through streamlined body postures (e.g., downhill ski egg tuck, speedskating crouch) and drafting behind competitors.",
+                "criteria": [
+                    "Define surface drag as fluid friction along body surface/boundary layer, minimized by smooth skin-tight suits.",
+                    "Define profile drag as pressure differential created by frontal body shape, creating a low-pressure wake.",
+                    "Identify postural minimization strategies for profile drag (e.g., egg tuck, crouching, drafting)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain the kinetic velocity-drag relationship (Drag ∝ v²) and describe how distance runners and cyclists utilize drafting to optimize performance.",
+                "model": "Fluid drag force increases exponentially as the square of movement velocity (Drag ∝ v²), meaning an object moving 10 times faster experiences 100 times more air resistance. In high-speed sports, overcoming drag demands immense metabolic energy. Athletes utilize drafting—traveling closely behind a lead competitor—to position themselves within the lead athlete's shielded low-pressure turbulent wake. In distance running, drafting within 1 meter of a leader saves almost 6% of metabolic energy expenditure. In road cycling, drafting in a paceline drastically reduces profile drag, allowing trailing riders to maintain high speeds at significantly lower power outputs.",
+                "criteria": [
+                    "Explain the velocity-squared rule (Drag ∝ v², 10x speed = 100x drag).",
+                    "Define drafting as riding/running in the shielded low-pressure wake behind a lead athlete.",
+                    "State specific energy savings (e.g., ~6% energy saved in running within 1 meter)."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What aerodynamic phenomenon describes the force generated on a rotating sphere or object that causes its flight trajectory to curve?",
+                "opts": [
+                    "Magnus effect",
+                    "Bernoulli lift",
+                    "Laminar boundary effect",
+                    "Profile suction"
+                ],
+                "correct": 0,
+                "rationale": "The Magnus effect describes the aerodynamic force generated on a rotating body due to air pressure differentials created by its spinning boundary layer."
+            },
+            {
+                "id": 2,
+                "q": "How is a HIGH-PRESSURE zone created on a spinning ball according to the Magnus effect?",
+                "opts": [
+                    "On the side where the ball's surface spins against the relative air flow, slowing local air velocity",
+                    "On the side where the ball's surface spins in the same direction as the relative air flow, accelerating air velocity",
+                    "In the center core of the spinning ball",
+                    "Directly behind the ball in its trailing wake"
+                ],
+                "correct": 0,
+                "rationale": "Where the surface spins against oncoming airflow, friction slows local air velocity, creating a high-pressure zone."
+            },
+            {
+                "id": 3,
+                "q": "In which direction does the Magnus force push a spinning ball?",
+                "opts": [
+                    "From the high-pressure area toward the low-pressure area",
+                    "From the low-pressure area toward the high-pressure area",
+                    "Directly backward against linear travel",
+                    "Purely vertically upward regardless of spin direction"
+                ],
+                "correct": 0,
+                "rationale": "The pressure differential exerts a net force pushing the ball from the high-pressure zone toward the low-pressure zone."
+            },
+            {
+                "id": 4,
+                "q": "How does TOPSPIN alter the flight path trajectory of a tennis ball or volleyball serve?",
+                "opts": [
+                    "It creates high pressure on top and low pressure beneath, causing the ball to drop or 'dip' rapidly downward.",
+                    "It creates low pressure on top and high pressure beneath, generating aerodynamic lift.",
+                    "It causes the ball to float horizontally without dropping.",
+                    "It forces the ball to curve sideways toward the left referee."
+                ],
+                "correct": 0,
+                "rationale": "Topspin spins the top surface against airflow (high pressure top, low pressure bottom), creating a downward Magnus force that causes the ball to dip rapidly."
+            },
+            {
+                "id": 5,
+                "q": "What effect does BACKSPIN have on a golf ball drive or tennis slice?",
+                "opts": [
+                    "It creates low pressure on top and high pressure beneath, generating aerodynamic lift and extending flight distance.",
+                    "It creates high pressure on top and low pressure beneath, causing the ball to plunge into the ground.",
+                    "It doubles the weight of the ball in flight.",
+                    "It eliminates all air resistance around the ball."
+                ],
+                "correct": 0,
+                "rationale": "Backspin spins the top surface with airflow (low pressure top, high pressure bottom), creating an upward Magnus force (aerodynamic lift) that extends distance."
+            },
+            {
+                "id": 6,
+                "q": "Which projectile parameters maximize the lateral curve ('break') caused by the Magnus effect?",
+                "opts": [
+                    "Small, lightweight projectiles with high spin rates and high takeoff velocities",
+                    "Large, heavy projectiles with zero spin",
+                    "Smooth, non-spinning projectiles traveling at low speed",
+                    "Square projectiles with low linear velocity"
+                ],
+                "correct": 0,
+                "rationale": "The Magnus effect is most pronounced on small, lightweight projectiles traveling at high speeds with rapid spin rates."
+            },
+            {
+                "id": 7,
+                "q": "In baseball pitching mechanics, how does imparting topspin/forward spin create a breaking curveball?",
+                "opts": [
+                    "Top surface spins against airflow (high pressure above, low pressure below), pushing the ball downward towards home plate.",
+                    "Top surface spins with airflow (low pressure above, high pressure below), pushing the ball upward over the batter's head.",
+                    "Backspin creates upward lift that causes the ball to rise into the strike zone.",
+                    "The ball experiences zero pressure differential."
+                ],
+                "correct": 0,
+                "rationale": "A curveball is thrown with forward/topspin, creating high pressure above and low pressure below, forcing the ball to break downward."
+            },
+            {
+                "id": 8,
+                "q": "For a ball spinning with SIDESPIN about a vertical axis, in which direction will the flight path curve?",
+                "opts": [
+                    "Towards the spinning side (towards the low-pressure side)",
+                    "Towards the high-pressure side",
+                    "Purely vertically upward",
+                    "Directly backward toward the thrower"
+                ],
+                "correct": 0,
+                "rationale": "Sidespin creates a low-pressure zone on the side spinning with airflow; the ball deflects towards the low-pressure spinning side."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which physical conditions are necessary to produce the MAGNUS EFFECT on a projectile? (Select all that apply)",
+                "opts": [
+                    "The projectile must be rotating (spinning) about an axis.",
+                    "The projectile must be traveling through a fluid medium (e.g., air or water).",
+                    "The rotating boundary layer must create a velocity differential in relative airflow around the ball.",
+                    "The projectile must be in a complete vacuum with zero atmosphere."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "The Magnus effect requires a spinning body traveling through a fluid medium to create airflow velocity and pressure differentials. It cannot occur in a vacuum."
+            },
+            {
+                "id": 2,
+                "q": "Which statements regarding TOPSPIN trajectory kinetics are correct? (Select all that apply)",
+                "opts": [
+                    "Air velocity on top of the ball is slower (high pressure).",
+                    "Air velocity beneath the ball is faster (low pressure).",
+                    "The net Magnus force pushes the ball downward.",
+                    "Topspin extends horizontal flight distance and increases air hang-time."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Topspin creates high pressure above and low pressure below, pushing the ball downward (restricting horizontal distance). Backspin extends flight distance."
+            },
+            {
+                "id": 3,
+                "q": "Which sports frequently utilize the Magnus effect to manipulate projectile flight trajectories? (Select all that apply)",
+                "opts": [
+                    "Tennis (topspin forehands and backspin slices)",
+                    "Baseball (curveballs and sliders)",
+                    "Golf (backspin for driver distance and green stops)",
+                    "Shot put (heavy metal sphere thrown without spin)"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Tennis, baseball, golf, soccer, and ping-pong heavily feature Magnus forces on spinning balls. Shot put is a heavy 16-lb sphere where aerodynamic Magnus forces are negligible."
+            },
+            {
+                "id": 4,
+                "q": "Which factors increase the magnitude of deflection caused by the Magnus force? (Select all that apply)",
+                "opts": [
+                    "Higher rotational spin rate (RPM)",
+                    "Higher linear takeoff velocity",
+                    "Lighter projectile mass",
+                    "Completely smooth surface with zero boundary layer adhesion"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Higher spin rate, higher velocity, and lighter projectile mass maximize Magnus deflection. Surface friction is necessary to carry the boundary layer."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "According to the Magnus effect, air traveling faster over a surface creates a high-pressure zone.",
+                "ans": false,
+                "feedback": "False. In fluid dynamics, faster fluid velocity creates a low-pressure zone, whereas slower fluid velocity creates a high-pressure zone."
+            },
+            {
+                "id": 2,
+                "q": "Backspin generates an upward Magnus force (aerodynamic lift) that increases time in the air and horizontal distance.",
+                "ans": true,
+                "feedback": "True. Backspin creates low pressure above the ball and high pressure beneath it, generating upward lift."
+            },
+            {
+                "id": 3,
+                "q": "Topspin allows a tennis player to strike a ball with high velocity while causing it to drop rapidly within court boundaries.",
+                "ans": true,
+                "feedback": "True. Downward Magnus forces from topspin force the ball to dip rapidly onto the court."
+            },
+            {
+                "id": 4,
+                "q": "Heavy, massive projectiles experience greater flight curvature from the Magnus effect than small, lightweight projectiles.",
+                "ans": false,
+                "feedback": "False. Smaller, lighter projectiles (e.g., ping-pong balls) experience much greater path curvature than heavy objects."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "The Magnus effect occurs when a spinning boundary layer creates **high pressure** on the side spinning against airflow and **low pressure** on the side spinning with airflow.",
+                "targets": [
+                    "high pressure",
+                    "low pressure"
+                ],
+                "optionsBank": [
+                    "high pressure",
+                    "low pressure",
+                    "laminar drag",
+                    "zero friction",
+                    "skin traction"
+                ],
+                "hint": "The two pressure zones generated across opposite sides of a spinning ball."
+            },
+            {
+                "id": 2,
+                "statement": "Topspin produces a **downward** Magnus force that causes a ball to dip, whereas backspin produces an **upward** lift force.",
+                "targets": [
+                    "downward",
+                    "upward"
+                ],
+                "optionsBank": [
+                    "downward",
+                    "upward",
+                    "lateral",
+                    "backward",
+                    "horizontal"
+                ],
+                "hint": "The directional vector of the Magnus force for topspin vs backspin."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain the physical mechanism of the Magnus effect, detailing how boundary layer rotation creates airflow velocity differences and pressure differentials.",
+                "model": "The Magnus effect occurs when a rotating projectile carries a boundary layer of air along with its spin. On the side of the ball where the surface spin rotates against the oncoming relative airflow, friction slows the local air velocity, creating a high-pressure zone. On the opposite side, where surface spin rotates in the same direction as relative airflow, local air velocity is accelerated, creating a low-pressure zone. This pressure differential generates a net aerodynamic force (the Magnus force) that pushes the projectile from the high-pressure area toward the low-pressure area (in the direction the leading boundary layer is spinning).",
+                "criteria": [
+                    "Describe boundary layer rotation with spinning projectile surface.",
+                    "Explain high-pressure creation where spin opposes airflow (slower air = high pressure).",
+                    "Explain low-pressure creation where spin matches airflow (faster air = low pressure) and net force direction."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Compare the aerodynamic flight trajectories and athletic applications of TOPSPIN versus BACKSPIN in ball sports.",
+                "model": "Topspin occurs when the top surface of the ball spins forward in the flight direction (against oncoming air), creating high pressure above and low pressure beneath the ball. This generates a downward Magnus force that causes the ball to drop ('dip') rapidly, restricting horizontal distance at high speeds (applied in tennis forehands, volleyball serves, and soccer free kicks). Backspin occurs when the top surface spins backward against flight direction (with oncoming air), creating low pressure above and high pressure beneath. This generates an upward Magnus force (aerodynamic lift) that extends flight distance, hang-time, and accuracy (applied in golf drives, tennis slices, and basketball jumpshots).",
+                "criteria": [
+                    "Detail topspin mechanics (high pressure above, low pressure below -> downward force -> rapid dip/drop).",
+                    "Detail backspin mechanics (low pressure above, high pressure below -> upward lift -> extended distance/hang time).",
+                    "Provide valid sport-specific applications for both spin types."
+                ]
+            }
+        ]
+    }
+}

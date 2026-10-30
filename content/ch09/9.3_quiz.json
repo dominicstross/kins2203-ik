@@ -1,0 +1,746 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What physical property is defined as the total measure of the amount of matter an object possesses?",
+                "opts": [
+                    "Mass",
+                    "Weight",
+                    "Torque",
+                    "Moment of inertia"
+                ],
+                "correct": 0,
+                "rationale": "Mass is the measure of how much matter an object possesses, whereas weight is the force of gravity acting on that mass."
+            },
+            {
+                "id": 2,
+                "q": "Which property of a body causes it to resist any change in its current state of motion or rest?",
+                "opts": [
+                    "Inertia",
+                    "Velocity",
+                    "Acceleration",
+                    "Gravitational constant"
+                ],
+                "correct": 0,
+                "rationale": "Inertia is the fundamental physical property of objects that makes them reluctant to change their state of motion from rest to movement, or to alter speed."
+            },
+            {
+                "id": 3,
+                "q": "In SI units, how are mass and weight measured, respectively?",
+                "opts": [
+                    "Mass in kilograms (kg), weight in Newtons (N)",
+                    "Mass in Newtons (N), weight in kilograms (kg)",
+                    "Mass in pounds (lbs), weight in kilograms (kg)",
+                    "Mass in meters per second (m/s), weight in Joules (J)"
+                ],
+                "correct": 0,
+                "rationale": "Mass is measured in kilograms (kg), while weight, being a gravitational force, is measured in Newtons (N)."
+            },
+            {
+                "id": 4,
+                "q": "What is the approximate magnitude of acceleration due to gravity (g) at Earth's surface?",
+                "opts": [
+                    "9.8 m/s²",
+                    "1.6 m/s²",
+                    "0 m/s²",
+                    "98.1 m/s²"
+                ],
+                "correct": 0,
+                "rationale": "The acceleration due to gravity on Earth is approximately 9.8 m/s² (or 9.81 m/s²)."
+            },
+            {
+                "id": 5,
+                "q": "An astronaut travels to outer space where gravitational acceleration is zero (g = 0 m/s²). How do their mass and weight change compared to Earth?",
+                "opts": [
+                    "Mass remains identical, weight becomes 0 N",
+                    "Weight remains identical, mass becomes 0 kg",
+                    "Both mass and weight become zero",
+                    "Both mass and weight double"
+                ],
+                "correct": 0,
+                "rationale": "Mass measures matter/inertia and remains unchanged in space, whereas weight depends on gravity (W = m * g) and becomes 0 N when g = 0."
+            },
+            {
+                "id": 6,
+                "q": "What measures a rotating body's reluctance to change its state of angular motion?",
+                "opts": [
+                    "Moment of inertia",
+                    "Linear mass density",
+                    "Centripetal force",
+                    "Gravitational mass"
+                ],
+                "correct": 0,
+                "rationale": "The reluctance of rotating objects to change their state of angular motion is measured by their moment of inertia."
+            },
+            {
+                "id": 7,
+                "q": "Which two factors dictate the magnitude of a body's moment of inertia?",
+                "opts": [
+                    "Total mass and how mass is distributed relative to the axis of rotation",
+                    "Linear velocity and gravitational acceleration",
+                    "Surface area and ambient air pressure",
+                    "Joint angle and tendon insertion length"
+                ],
+                "correct": 0,
+                "rationale": "Moment of inertia depends on total mass and how far that mass is distributed from the axis of rotation (I = m * k²)."
+            },
+            {
+                "id": 8,
+                "q": "Why does a diver executing a somersault in a tight tuck position rotate faster than in a layout position?",
+                "opts": [
+                    "The tuck position moves body mass closer to the axis of rotation, decreasing the moment of inertia.",
+                    "The tuck position increases total body mass and gravitational force.",
+                    "The layout position reduces air resistance, slowing down rotational torque.",
+                    "The layout position eliminates angular momentum completely."
+                ],
+                "correct": 0,
+                "rationale": "In a tuck position, body parts are brought closer to the axis of rotation, reducing the moment of inertia and enabling faster angular velocity."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which of the following statements correctly distinguish between Mass and Weight? (Select all that apply)",
+                "opts": [
+                    "Mass is a scalar measure of inertia, whereas weight is a force measure of gravity.",
+                    "Mass is measured in kilograms (kg), whereas weight is measured in Newtons (N).",
+                    "A person's weight varies directly with acceleration due to gravity, but mass remains constant.",
+                    "In outer space with no gravity, an individual weighs 0 N but maintains their Earth mass."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four statements accurately represent textbook distinctions between mass (matter/inertia in kg) and weight (gravitational force in N)."
+            },
+            {
+                "id": 2,
+                "q": "Which factors influence an object's reluctance to change its state of angular rotation (moment of inertia)? (Select all that apply)",
+                "opts": [
+                    "The total mass of the rotating object",
+                    "The spatial distribution of mass relative to the axis of rotation",
+                    "The diameter or distance of mass from the axis of rotation",
+                    "The atmospheric temperature surrounding the object"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Moment of inertia depends on total mass and mass distribution relative to the axis of rotation (I = m * k²). Atmospheric temperature is irrelevant."
+            },
+            {
+                "id": 3,
+                "q": "Compared to a tennis ball, why does a soccer ball have greater inertia and moment of inertia? (Select all that apply)",
+                "opts": [
+                    "A soccer ball has more mass than a tennis ball.",
+                    "A soccer ball has a larger diameter, placing its mass farther from the rotation axis.",
+                    "A soccer ball requires greater force to change its linear state of motion.",
+                    "A soccer ball experiences zero gravitational pull on Earth."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "The soccer ball has greater mass (more linear inertia) and a larger radius placing mass farther from the axis (greater moment of inertia). It still experiences gravity."
+            },
+            {
+                "id": 4,
+                "q": "Which postural adjustments decrease an athlete's moment of inertia around their center of mass during aerial tumbling? (Select all that apply)",
+                "opts": [
+                    "Pulling the arms and legs tightly into a tuck position",
+                    "Bending at the knees and hips during a somersault",
+                    "Extending the arms and legs fully into a layout position",
+                    "Spreading the body into a wide star shape"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Tucking and flexing limbs brings body mass closer to the rotation axis, decreasing moment of inertia. Layout and extended positions increase moment of inertia."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Mass is a measure of inertia, whereas weight is a measure of the force of gravity acting on a body.",
+                "ans": true,
+                "feedback": "True. Mass quantifies matter and inertia in kg, whereas weight quantifies gravitational force in Newtons."
+            },
+            {
+                "id": 2,
+                "q": "In outer space where gravitational acceleration is zero, a human body has a weight of 0 N but retains its Earth mass.",
+                "ans": true,
+                "feedback": "True. Weight varies directly with gravitational acceleration (W = m * g), whereas mass remains constant regardless of location."
+            },
+            {
+                "id": 3,
+                "q": "Executing a somersault in a layout position gives a diver a smaller moment of inertia than executing the same dive in a tuck position.",
+                "ans": false,
+                "feedback": "False. A layout position places body parts farther from the rotation axis, yielding a greater moment of inertia and slower rotation."
+            },
+            {
+                "id": 4,
+                "q": "Moment of inertia depends only on an object's total mass, regardless of how that mass is distributed relative to the axis of rotation.",
+                "ans": false,
+                "feedback": "False. Moment of inertia depends on both total mass and the square of the distance from the mass to the axis of rotation."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Mass is a measure of **inertia**, whereas weight measures the force of **gravity** acting on a body.",
+                "targets": [
+                    "inertia",
+                    "gravity"
+                ],
+                "optionsBank": [
+                    "inertia",
+                    "gravity",
+                    "torque",
+                    "velocity",
+                    "friction"
+                ],
+                "hint": "Distinguishes the property resisting motion change from the force pulling toward Earth."
+            },
+            {
+                "id": 2,
+                "statement": "The rotational inertia of an object is measured by its **moment of inertia**, which depends on mass and **mass distribution** relative to the axis.",
+                "targets": [
+                    "moment of inertia",
+                    "mass distribution"
+                ],
+                "optionsBank": [
+                    "moment of inertia",
+                    "mass distribution",
+                    "linear momentum",
+                    "force arm",
+                    "center of pressure"
+                ],
+                "hint": "Identifies the metric of rotational resistance and its spatial dependency."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain the physical differences between mass and weight, including their SI units, equations, and how they change when an astronaut travels to microgravity in space.",
+                "model": "Mass (m) is a scalar measure of the total matter in an object and its linear inertia, measured in kilograms (kg). Weight (W) is a force vector representing the gravitational pull acting on that mass, measured in Newtons (N) according to W = m * g. On Earth, g is approximately 9.8 m/s². In microgravity space (g = 0 m/s²), the astronaut's mass remains completely unchanged because their quantity of matter is constant, but their weight becomes 0 N (weightlessness) because no gravitational acceleration is acting upon them.",
+                "criteria": [
+                    "Define mass (matter/inertia in kg) and weight (gravitational force in N).",
+                    "Provide the weight equation W = m * g and value for Earth gravity (9.8 m/s²).",
+                    "Explain that in microgravity, mass remains unchanged while weight drops to 0 N."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Analyze how a diver or gymnast uses posture changes to manipulate their moment of inertia and rotational speed when transitioning between layout and tuck positions.",
+                "model": "Moment of inertia (I = m * k²) measures a body's reluctance to change its state of angular rotation and depends on total mass and how far that mass is distributed from the axis of rotation. When a diver transitions from a layout position to a tight tuck position, they bring their body parts much closer to the axis of rotation passing through their center of mass. This dramatically decreases their radius of gyration and moment of inertia, allowing them to rotate at a much higher angular velocity. Opening back into a layout position increases the moment of inertia, slowing rotation for entry.",
+                "criteria": [
+                    "Define moment of inertia and its dependence on mass and distance from the rotation axis.",
+                    "Explain how the tuck position brings mass closer to the axis, reducing moment of inertia.",
+                    "Describe how reducing moment of inertia increases rotational velocity (and vice versa for layout)."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which type of motion occurs when all parts of a body move the same distance, in the same direction, and at the same time?",
+                "opts": [
+                    "Linear motion (Translation)",
+                    "Angular motion (Rotation)",
+                    "Reciprocating motion",
+                    "Parabolic rotation"
+                ],
+                "correct": 0,
+                "rationale": "Linear motion (translation) occurs when all parts of the body move identical distances, in identical directions, and simultaneously."
+            },
+            {
+                "id": 2,
+                "q": "What term is synonymous with linear motion, describing movement of the body as a unit without individual segments moving relative to each other?",
+                "opts": [
+                    "Translation",
+                    "Rotation",
+                    "Revolution",
+                    "Oscillation"
+                ],
+                "correct": 0,
+                "rationale": "Translation is another term for linear motion, referring to total body displacement without relative segment movement."
+            },
+            {
+                "id": 3,
+                "q": "Which of the following is an example of RECTILINEAR motion?",
+                "opts": [
+                    "A sprinter's 100-meter dash in a straight line",
+                    "A ski jumper's parabolic flight path through the air",
+                    "A thrown discus traveling along a curved arc",
+                    "A gymnast performing giant swings on a high bar"
+                ],
+                "correct": 0,
+                "rationale": "Rectilinear motion is linear movement along a straight line, such as a 100-m straightaway sprint or a dropped ball."
+            },
+            {
+                "id": 4,
+                "q": "Which of the following is an example of CURVILINEAR motion?",
+                "opts": [
+                    "A ski jumper's flight along a curved trajectory",
+                    "A toboggan sliding down a straight track",
+                    "A dropped ball falling straight down",
+                    "An automobile wheel turning about its axle"
+                ],
+                "correct": 0,
+                "rationale": "Curvilinear motion is linear translation along a curved line path, such as ski jump flight or a thrown discus trajectory."
+            },
+            {
+                "id": 5,
+                "q": "What type of motion occurs when a body moves along a circular path in the same direction about an axis of rotation?",
+                "opts": [
+                    "Angular motion (Rotation)",
+                    "Rectilinear translation",
+                    "Curvilinear translation",
+                    "Static equilibrium"
+                ],
+                "correct": 0,
+                "rationale": "Angular motion (rotation) occurs when a body moves on a circular path about an axis of rotation."
+            },
+            {
+                "id": 6,
+                "q": "What is the central line or pivot point called about which angular rotation occurs?",
+                "opts": [
+                    "Axis of rotation",
+                    "Center of drag",
+                    "Linear trajectory",
+                    "Translational origin"
+                ],
+                "correct": 0,
+                "rationale": "The line or pivot point about which bodies or segments rotate is defined as the axis of rotation."
+            },
+            {
+                "id": 7,
+                "q": "What classification of motion describes a body translating linearly while simultaneously rotating (combining linear and angular motion)?",
+                "opts": [
+                    "General motion",
+                    "Pure rectilinear motion",
+                    "Pure curvilinear motion",
+                    "Static rotation"
+                ],
+                "correct": 0,
+                "rationale": "General motion is defined as a combination of simultaneous linear and angular motion, which characterizes most human movement."
+            },
+            {
+                "id": 8,
+                "q": "Which everyday athletic activity represents a combination of linear and angular motion (general motion)?",
+                "opts": [
+                    "A gymnast performing a floor routine while translating across the mat",
+                    "A dropped ball falling purely vertically in a vacuum",
+                    "A block sliding on ice without spinning",
+                    "A stationary wheel spinning on a fixed axle"
+                ],
+                "correct": 0,
+                "rationale": "A floor routine involves general motion: the gymnast's center of mass translates across the floor while limbs and body segments rotate around joint axes."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which sub-classifications belong to the category of LINEAR MOTION (Translation)? (Select all that apply)",
+                "opts": [
+                    "Rectilinear motion (straight line path)",
+                    "Curvilinear motion (curved line path)",
+                    "Angular rotation around an axis",
+                    "Axial joint twisting"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Linear motion is divided into rectilinear (straight path) and curvilinear (curved path). Angular rotation is a separate motion category."
+            },
+            {
+                "id": 2,
+                "q": "Which of the following activities demonstrate ANGULAR MOTION? (Select all that apply)",
+                "opts": [
+                    "A gymnast executing giant swings on a high bar",
+                    "Body segments flexing and extending at joint articulations",
+                    "Twisting somersault dives about a longitudinal axis",
+                    "A toboggan gliding straight down a flat ice track"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "High bar swings, joint flexion/extension, and twisting somersaults involve rotation around an axis (angular motion). Tobogganing is linear translation."
+            },
+            {
+                "id": 3,
+                "q": "Which characteristics correctly describe GENERAL MOTION in human biomechanics? (Select all that apply)",
+                "opts": [
+                    "It is a combination of linear and angular motion occurring simultaneously.",
+                    "It describes most athletic skills and everyday human activities.",
+                    "It involves body segment rotations about joint axes resulting in total body linear translation.",
+                    "It occurs only when all joint movements are completely frozen."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "General motion combines linear translation and angular rotation, characterizing most human activities. It requires active joint rotation."
+            },
+            {
+                "id": 4,
+                "q": "Which movement examples are correctly matched with their motion classification? (Select all that apply)",
+                "opts": [
+                    "100-meter sprint straightaway — Rectilinear motion",
+                    "Ski jumper flight trajectory — Curvilinear motion",
+                    "Gymnast giant swing on high bar — Angular motion",
+                    "Diver falling downward while somersaulting — General motion"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four examples accurately match their textbook motion classifications."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Linear motion (translation) occurs when all parts of the body move the same distance, in the same direction, and at the same time.",
+                "ans": true,
+                "feedback": "True. Translation means the whole system moves uniformly in space without relative segment rotation."
+            },
+            {
+                "id": 2,
+                "q": "Rectilinear motion refers to movement along a curved path, whereas curvilinear motion refers to movement along a straight line.",
+                "ans": false,
+                "feedback": "False. Rectilinear motion is along a straight line, while curvilinear motion is along a curved path."
+            },
+            {
+                "id": 3,
+                "q": "A gymnast executing giant swings on a high bar is demonstrating angular motion.",
+                "ans": true,
+                "feedback": "True. Giant swings involve circular motion of the body around the high bar axis of rotation."
+            },
+            {
+                "id": 4,
+                "q": "General motion is rare in sports and applies only when an athlete is completely stationary.",
+                "ans": false,
+                "feedback": "False. General motion (combined linear and angular motion) is the most common form of movement in sports and daily life."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Linear motion along a straight line is called **rectilinear**, whereas linear motion along a curved line is **curvilinear**.",
+                "targets": [
+                    "rectilinear",
+                    "curvilinear"
+                ],
+                "optionsBank": [
+                    "rectilinear",
+                    "curvilinear",
+                    "angular",
+                    "torque",
+                    "inertia"
+                ],
+                "hint": "Differentiates straight-line translation from curved-path translation."
+            },
+            {
+                "id": 2,
+                "statement": "When a body translates linearly while simultaneously rotating, it experiences **general motion** around an **axis of rotation**.",
+                "targets": [
+                    "general motion",
+                    "axis of rotation"
+                ],
+                "optionsBank": [
+                    "general motion",
+                    "axis of rotation",
+                    "static equilibrium",
+                    "force arm",
+                    "center of mass"
+                ],
+                "hint": "Identifies the complex combined motion category and its central rotational line."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Differentiate between linear motion, angular motion, and general motion, giving one specific athletic example for each.",
+                "model": "Linear motion (translation) occurs when all parts of a body move identical distances, in the same direction, at the same time. It can be rectilinear (e.g., a 100-m sprinter running in a straight line) or curvilinear (e.g., a ski jumper's flight arc). Angular motion (rotation) occurs when a body moves along a circular path around an axis of rotation (e.g., a gymnast executing giant swings on a high bar or joint flexion/extension). General motion is a combination of simultaneous linear translation and angular rotation, which characterizes most athletic skills (e.g., a diver falling vertically while somersaulting).",
+                "criteria": [
+                    "Define linear motion (rectilinear/curvilinear translation) with a valid sport example.",
+                    "Define angular motion (rotation about an axis) with a valid sport example.",
+                    "Define general motion (combined translation and rotation) with a valid sport example."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain how general motion governs human running gait, detailing how joint angular rotations produce total body linear translation.",
+                "model": "Human running gait is a classic example of general motion. The athlete's primary objective is linear translation of their total body center of mass down the track. However, this overall linear displacement is achieved through coordinated angular rotations of individual body segments around joint axes (hip, knee, and ankle flexion and extension). As skeletal muscles contract, they generate torque to rotate leg segments around joint axes (angular motion), which pushes against the ground to propel the runner's total body forward linearly down the track (general motion).",
+                "criteria": [
+                    "Define running as general motion combining translation and rotation.",
+                    "Identify specific joint axes (hip, knee, ankle) undergoing angular rotation.",
+                    "Explain how segment angular rotations summate to drive linear translation of the center of mass."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What is defined as any push or pull action that tends to alter an object's state of motion by causing acceleration?",
+                "opts": [
+                    "Force",
+                    "Mass",
+                    "Inertia",
+                    "Displacement"
+                ],
+                "correct": 0,
+                "rationale": "A force is an action (push or pull) that tends to cause an object to change its state of motion by experiencing acceleration."
+            },
+            {
+                "id": 2,
+                "q": "What type of force acts directly through an object's center of mass, causing pure linear motion without rotation?",
+                "opts": [
+                    "Centric force",
+                    "Eccentric force",
+                    "Friction force",
+                    "Shear force"
+                ],
+                "correct": 0,
+                "rationale": "Forces acting through a body's center of mass are centric forces and cause pure linear motion."
+            },
+            {
+                "id": 3,
+                "q": "What turning effect is produced when an eccentric force acts away from an object's center of mass or pivot point?",
+                "opts": [
+                    "Moment of force, or torque",
+                    "Linear acceleration",
+                    "Mass expansion",
+                    "Gravitational constant"
+                ],
+                "correct": 0,
+                "rationale": "Forces applied away from the center of mass or pivot point cause angular motion, producing a moment of force or torque."
+            },
+            {
+                "id": 4,
+                "q": "In human musculoskeletal lever systems, what anatomical structures act as the levers, axes, and applied forces, respectively?",
+                "opts": [
+                    "Bones act as levers, joints act as axes, muscle contractions act as applied forces",
+                    "Joints act as levers, muscles act as axes, bones act as applied forces",
+                    "Tendons act as levers, bones act as axes, ligaments act as applied forces",
+                    "Skin acts as levers, nerves act as axes, blood acts as applied forces"
+                ],
+                "correct": 0,
+                "rationale": "Bones act as rigid levers rotating around joint pivot points (axes), driven by muscle pulling forces."
+            },
+            {
+                "id": 5,
+                "q": "How is the magnitude of torque calculated in a lever system?",
+                "opts": [
+                    "Torque = Force arm × Force",
+                    "Torque = Force ÷ Resistance arm",
+                    "Torque = Mass × Gravity",
+                    "Torque = Velocity × Time"
+                ],
+                "correct": 0,
+                "rationale": "Torque is calculated as the length of the force arm multiplied by the applied force (Torque = Force arm × Force)."
+            },
+            {
+                "id": 6,
+                "q": "In a FIRST CLASS lever system, how are the applied force, resistance, and axis arranged?",
+                "opts": [
+                    "The axis is located between the applied force and the resistance (F - A - R)",
+                    "The resistance is located between the axis and the applied force (A - R - F)",
+                    "The applied force is located between the axis and the resistance (A - F - R)",
+                    "The force and resistance are both located at the exact center of mass"
+                ],
+                "correct": 0,
+                "rationale": "In a first class lever, the applied force and resistance are on opposite sides of the axis (F - A - R), like a teeter-totter or C1 head flexion/extension."
+            },
+            {
+                "id": 7,
+                "q": "In a SECOND CLASS lever system, how are the components arranged relative to the axis?",
+                "opts": [
+                    "Applied force and resistance are on the same side of the axis, with resistance closer to the axis (A - R - F)",
+                    "Applied force and resistance are on opposite sides of the axis (F - A - R)",
+                    "Applied force is closer to the axis than resistance (A - F - R)",
+                    "There is no axis of rotation"
+                ],
+                "correct": 0,
+                "rationale": "In a second class lever, force and resistance are on the same side of the axis, with resistance closer to the axis (e.g., wheelbarrow, raising onto toes)."
+            },
+            {
+                "id": 8,
+                "q": "Why are most musculoskeletal lever systems in the human body classified as THIRD CLASS levers during concentric contractions?",
+                "opts": [
+                    "Muscle insertion forces are located closer to the joint axis than the external resistance (A - F - R).",
+                    "Human joints have no fixed axes of rotation.",
+                    "Human bones are designed exclusively for force amplification over speed.",
+                    "Resistance is always located directly at the joint axis."
+                ],
+                "correct": 0,
+                "rationale": "In third class levers, the applied muscle force is closer to the joint axis than the resistance (A - F - R), which optimizes speed and range of motion."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which factors influence the magnitude of torque generated by a lever system? (Select all that apply)",
+                "opts": [
+                    "The magnitude of the applied force",
+                    "The perpendicular length of the force arm (distance from axis to force application)",
+                    "The distance from the axis to the resistance application (resistance arm)",
+                    "The atmospheric color of the lever"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Torque = Force arm × Force. Thus, force arm length and applied force magnitude directly dictate generated torque."
+            },
+            {
+                "id": 2,
+                "q": "Which of the following are examples of FIRST CLASS levers? (Select all that apply)",
+                "opts": [
+                    "A balanced teeter-totter or crowbar",
+                    "Flexion and extension of the head about the C1 (atlanto-occipital) joint",
+                    "Simultaneous action of agonist and antagonist muscles on opposite sides of a joint axis",
+                    "Sweeping with a broom or using tweezers"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Teeter-totters, C1 head movement, and agonist-antagonist pairings around a joint axis are first class levers (F - A - R). Brooms and tweezers are third class levers."
+            },
+            {
+                "id": 3,
+                "q": "Which statements regarding SECOND CLASS levers are correct? (Select all that apply)",
+                "opts": [
+                    "The resistance is located between the axis and the applied force (A - R - F).",
+                    "Everyday examples include a wheelbarrow, nutcracker, and bottle opener.",
+                    "In the human body, raising the body onto the toes via calf contraction is a rare example.",
+                    "The force arm is shorter than the resistance arm."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Second class levers have R between A and F (wheelbarrow, calf raise on toes). In second class levers, the force arm is ALWAYS longer than the resistance arm."
+            },
+            {
+                "id": 4,
+                "q": "Which characteristics describe THIRD CLASS levers in human anatomy? (Select all that apply)",
+                "opts": [
+                    "The applied muscle force is closer to the joint axis than the resistance (A - F - R).",
+                    "Forearm flexion at the elbow and knee flexion are classic anatomical examples.",
+                    "They operate at a mechanical force disadvantage, requiring large muscle force for light loads.",
+                    "They favor speed and range of motion, allowing distal limbs to move rapidly."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Third class levers have force closer to axis (A - F - R), seen in forearm/knee flexion. They trade force advantage for speed and wide range of motion."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Forces acting through an object's center of mass cause linear motion, whereas off-center forces cause angular rotation (torque).",
+                "ans": true,
+                "feedback": "True. Centric forces produce linear translation; eccentric (off-center) forces produce torque and rotation."
+            },
+            {
+                "id": 2,
+                "q": "Torque is calculated by multiplying the applied force by the length of the force arm.",
+                "ans": true,
+                "feedback": "True. Torque = Force arm × Force. Lengthening the force arm increases generated torque."
+            },
+            {
+                "id": 3,
+                "q": "In a third class lever, the resistance is located between the axis and the applied force.",
+                "ans": false,
+                "feedback": "False. In a third class lever, the applied force is located between the axis and the resistance (A - F - R)."
+            },
+            {
+                "id": 4,
+                "q": "Most muscle-bone lever systems in the human body are third class levers built more for speed and range of motion than for force advantage.",
+                "ans": true,
+                "feedback": "True. Human anatomical levers are primarily third class, requiring large muscle forces but optimizing velocity and spatial arc range."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Forces passing through the center of mass cause linear motion, whereas off-center forces produce **torque** around an **axis of rotation**.",
+                "targets": [
+                    "torque",
+                    "axis of rotation"
+                ],
+                "optionsBank": [
+                    "torque",
+                    "axis of rotation",
+                    "mass",
+                    "inertia",
+                    "curvilinear motion"
+                ],
+                "hint": "Identifies the rotary force effect and its pivot line."
+            },
+            {
+                "id": 2,
+                "statement": "In a third class lever, the applied force is closer to the axis, making the **force arm** shorter than the **resistance arm**.",
+                "targets": [
+                    "force arm",
+                    "resistance arm"
+                ],
+                "optionsBank": [
+                    "force arm",
+                    "resistance arm",
+                    "moment of inertia",
+                    "center of gravity",
+                    "torque ratio"
+                ],
+                "hint": "Compares the two anatomical lever distances from the joint axis."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain the formula for calculating torque (Torque = Force arm × Force) and describe two ways a person can unbalance a teeter-totter using torque principles.",
+                "model": "Torque is the turning effect produced by a force acting at a distance from an axis of rotation, calculated as Torque = Force arm × Force (τ = FA × F). A teeter-totter is a first-class lever in balance when opposing torques are equal. To unbalance it, a person can: 1) Increase their force arm by leaning backward away from the fulcrum axis, which increases their torque without changing mass; or 2) Increase their applied force by having a second person sit on their side, increasing total force and generating greater torque down in their direction.",
+                "criteria": [
+                    "State the torque formula (Torque = Force arm × Force).",
+                    "Describe increasing the force arm (leaning back away from fulcrum).",
+                    "Describe increasing the applied force (adding weight/person on one side)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Compare the three classes of levers (first, second, third class) based on component arrangement (axis, force, resistance), providing one anatomical example and the mechanical advantage for each.",
+                "model": "1) First Class (F - A - R): Axis is between force and resistance. Example: C1 head extension/flexion or agonist-antagonist pairings. Mechanical focus: equilibrium or direction change. 2) Second Class (A - R - F): Resistance is between axis and force. Example: raising onto toes at the metatarsophalangeal joint. Mechanical advantage: force amplification (FA > RA). 3) Third Class (A - F - R): Force is between axis and resistance. Example: elbow flexion by biceps brachii or knee flexion. Mechanical focus: speed and range of motion despite force disadvantage (FA < RA).",
+                "criteria": [
+                    "Specify component arrangements (F-A-R for 1st, A-R-F for 2nd, A-F-R for 3rd).",
+                    "Provide accurate anatomical examples for all three classes.",
+                    "Detail the mechanical trade-offs (force amplification vs. speed and range of motion)."
+                ]
+            }
+        ]
+    }
+}

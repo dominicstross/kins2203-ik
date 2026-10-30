@@ -2,7 +2,7 @@
   "courseCode": "KINS 2203",
   "courseTitle": "KINS 2203 Introduction to Kinesiology",
   "institution": "Southeastern University",
-  "description": "Interactive learning modules, sub-discipline explorations, and professional practice foundations.",
+  "description": "Interactive online modules, laboratory simulations, and conceptual mastery.",
   "units": [
     {
       "unitTitle": "Unit 1: What is Kinesiology?",
@@ -100,43 +100,43 @@
               "id": "9.1",
               "title": "Types of Study",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "9.2",
               "title": "Anatomical Directions",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "9.3",
               "title": "Motion Concepts and Levers",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "9.4",
               "title": "Newton's Laws of Motion",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "9.5",
               "title": "Fluid Dynamics",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "9.6",
               "title": "Body Balance and Stability Control",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "9.7",
               "title": "Qualitative Analysis of Human Motion",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             }
           ],
           "status": "Under Development",

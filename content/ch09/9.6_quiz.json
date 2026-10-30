@@ -1,0 +1,750 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What physical state describes a system that is not experiencing any change in its linear speed or spatial direction?",
+                "opts": [
+                    "Equilibrium",
+                    "Acceleration",
+                    "Inertial momentum",
+                    "Centric deviation"
+                ],
+                "correct": 0,
+                "rationale": "Equilibrium describes the state of a system that is not experiencing any change in its direction or speed (net acceleration is zero)."
+            },
+            {
+                "id": 2,
+                "q": "Which state of equilibrium describes an object or athlete that is completely at rest (velocity equals 0 m/s)?",
+                "opts": [
+                    "Static equilibrium",
+                    "Dynamic equilibrium",
+                    "Unstable oscillation",
+                    "Rotational impulse"
+                ],
+                "correct": 0,
+                "rationale": "Static equilibrium describes the state of a system that is completely at rest."
+            },
+            {
+                "id": 3,
+                "q": "Which state of equilibrium describes a system moving with a constant velocity (unchanging speed and direction)?",
+                "opts": [
+                    "Dynamic equilibrium",
+                    "Static equilibrium",
+                    "Hyperbolic acceleration",
+                    "Angular torque"
+                ],
+                "correct": 0,
+                "rationale": "Dynamic equilibrium describes the state of a system that is moving with constant velocity."
+            },
+            {
+                "id": 4,
+                "q": "What is the active process whereby the body's state of equilibrium is controlled for a given purpose?",
+                "opts": [
+                    "Balance",
+                    "Mass expansion",
+                    "Gravitational drag",
+                    "Dynamic friction"
+                ],
+                "correct": 0,
+                "rationale": "Balance is defined as the process whereby the body's state of equilibrium is controlled for a given purpose."
+            },
+            {
+                "id": 5,
+                "q": "What term defines the area bounded by the points of contact between the human body and the supporting surface?",
+                "opts": [
+                    "Base of support",
+                    "Line of gravity",
+                    "Center of mass",
+                    "Moment of inertia"
+                ],
+                "correct": 0,
+                "rationale": "The base of support is the area defined by the points of contact between the body and the surface supporting it."
+            },
+            {
+                "id": 6,
+                "q": "What is the imaginary vertical line called that passes directly downward through the body's center of mass?",
+                "opts": [
+                    "Line of gravity",
+                    "Axis of rotation",
+                    "Base of support boundary",
+                    "Translational vector"
+                ],
+                "correct": 0,
+                "rationale": "The line of gravity is an imaginary vertical line that passes through the body's center of mass."
+            },
+            {
+                "id": 7,
+                "q": "Under what condition will the human body remain balanced according to center of gravity principles?",
+                "opts": [
+                    "Whenever the line of gravity passes through some part of the body's base of support",
+                    "Only when the body is in motion at maximum velocity",
+                    "When the base of support is reduced to a single point",
+                    "When the center of mass lies outside the physical body"
+                ],
+                "correct": 0,
+                "rationale": "If the line of gravity passes through some part of the body's base of support, the body will be balanced."
+            },
+            {
+                "id": 8,
+                "q": "What biomechanical term measures the ease or difficulty with which an object's state of equilibrium can be disturbed?",
+                "opts": [
+                    "Stability",
+                    "Velocity",
+                    "Momentum",
+                    "Kinematics"
+                ],
+                "correct": 0,
+                "rationale": "Stability is a relative term and is a measure of the ease or difficulty with which equilibrium can be disturbed."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which of the following athletes are in a state of STATIC EQUILIBRIUM? (Select all that apply)",
+                "opts": [
+                    "A football lineman holding a three-point stance",
+                    "A gymnast stationary in a balance hold on the beam",
+                    "A sprinter set motionless in the starting blocks",
+                    "A kayaker paddling at constant high velocity down a river"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Static equilibrium applies to systems completely at rest (lineman in stance, gymnast hold, sprinter set in blocks). The kayaker in motion is in dynamic equilibrium."
+            },
+            {
+                "id": 2,
+                "q": "Which factors are continuously manipulated to maintain and control postural balance? (Select all that apply)",
+                "opts": [
+                    "The size and shape of the base of support",
+                    "The location of the line of gravity relative to the base of support",
+                    "The ambient air pressure surrounding the body",
+                    "The chemical composition of muscular glycogen"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Balance is controlled by manipulating the base of support and maintaining the line of gravity within that base."
+            },
+            {
+                "id": 3,
+                "q": "Which conditions describe DYNAMIC EQUILIBRIUM? (Select all that apply)",
+                "opts": [
+                    "The system is moving with constant velocity.",
+                    "The speed of the system is unchanging.",
+                    "The direction of motion remains constant.",
+                    "The net linear acceleration of the system is zero."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Dynamic equilibrium requires constant velocity (unchanging speed and direction) and zero net acceleration while in motion."
+            },
+            {
+                "id": 4,
+                "q": "Which statements regarding balance and stability are correct? (Select all that apply)",
+                "opts": [
+                    "A wider base of support provides greater balance.",
+                    "If the line of gravity falls outside the base of support, balance is lost.",
+                    "Stability measures how easily equilibrium can be disturbed.",
+                    "A net force or moment of force is required to disturb equilibrium."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four statements accurately represent textbook balance and stability principles."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Static equilibrium describes a system at rest, whereas dynamic equilibrium describes a system moving with constant velocity.",
+                "ans": true,
+                "feedback": "True. Static equilibrium applies to rest (v = 0), while dynamic equilibrium applies to constant velocity motion."
+            },
+            {
+                "id": 2,
+                "q": "A body will remain balanced even if its line of gravity falls completely outside its base of support.",
+                "ans": false,
+                "feedback": "False. To maintain balance, the line of gravity must pass through some portion of the body's base of support."
+            },
+            {
+                "id": 3,
+                "q": "A sprinter setting up in the starting blocks intentionally adopts a less stable equilibrium position to allow rapid acceleration off the mark.",
+                "ans": true,
+                "feedback": "True. Sprinters trade stability for quick movement off the mark by positioning near the edge of balance."
+            },
+            {
+                "id": 4,
+                "q": "Stability is an absolute physical metric that cannot be modified by changing body posture.",
+                "ans": false,
+                "feedback": "False. Stability is a relative measure that is directly modified by changing base of support, mass, center of gravity, or stance width."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "The state of rest is **static equilibrium**, whereas motion at constant velocity represents **dynamic equilibrium**.",
+                "targets": [
+                    "static equilibrium",
+                    "dynamic equilibrium"
+                ],
+                "optionsBank": [
+                    "static equilibrium",
+                    "dynamic equilibrium",
+                    "angular acceleration",
+                    "profile drag",
+                    "magnus force"
+                ],
+                "hint": "Distinguishes the two mechanical states of equilibrium based on movement."
+            },
+            {
+                "id": 2,
+                "statement": "To maintain balance, the vertical **line of gravity** must intersect within the body's **base of support**.",
+                "targets": [
+                    "line of gravity",
+                    "base of support"
+                ],
+                "optionsBank": [
+                    "line of gravity",
+                    "base of support",
+                    "moment of inertia",
+                    "boundary layer",
+                    "center of pressure"
+                ],
+                "hint": "The imaginary vertical line from center of mass and the contact surface area."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Differentiate between static equilibrium and dynamic equilibrium, providing two athletic examples for each state.",
+                "model": "Static equilibrium describes a physical system completely at rest (velocity = 0 m/s and acceleration = 0 m/s²). Examples include a football lineman set in a three-point stance and a sprinter holding static in the starting blocks. Dynamic equilibrium describes a system moving with constant velocity (unchanging speed and direction, with acceleration = 0 m/s²). Examples include a kayaker paddling at a steady, constant velocity down a calm river and a cyclist cruising along a straight road at an unchanging speed.",
+                "criteria": [
+                    "Define static equilibrium as a system at rest.",
+                    "Define dynamic equilibrium as a system moving at constant velocity.",
+                    "Provide two valid athletic examples for static and dynamic equilibrium."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain the relationship between the center of mass, the line of gravity, and the base of support in maintaining human postural balance.",
+                "model": "Postural balance depends on the interaction between the base of support and the line of gravity. The base of support is the spatial area defined by the contact points between the body and the supporting surface. The line of gravity is an imaginary vertical line extending directly downward from the body's center of mass toward the ground under gravity. As long as the line of gravity intersects within the boundaries of the base of support, the body remains balanced. If body displacement causes the line of gravity to fall outside the base of support, balance is lost unless a new base of support is established.",
+                "criteria": [
+                    "Define base of support (contact surface area) and line of gravity (vertical line from center of mass).",
+                    "Explain that balance requires the line of gravity to intersect within the base of support.",
+                    "Describe what happens when the line of gravity falls outside the base of support."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How does increasing the size of the base of support affect an athlete's static stability?",
+                "opts": [
+                    "It directly increases stability.",
+                    "It decreases stability.",
+                    "It has no effect on stability.",
+                    "It causes immediate loss of balance."
+                ],
+                "correct": 0,
+                "rationale": "Stability in static equilibrium is directly proportional to the size of the base of support; a larger base provides greater stability."
+            },
+            {
+                "id": 2,
+                "q": "Why is a football lineman in a three-point stance vastly more stable than a gymnast balancing on one foot on a balance beam?",
+                "opts": [
+                    "The lineman has a much larger base of support (two feet plus one hand) compared to the gymnast's single foot contact.",
+                    "The gymnast has a much larger body mass than the lineman.",
+                    "The lineman's center of gravity is elevated high above his head.",
+                    "The gymnast eliminates the force of gravity."
+                ],
+                "correct": 0,
+                "rationale": "The lineman creates a wide three-point contact base of support, whereas the gymnast uses only the ball of one foot, creating extreme instability."
+            },
+            {
+                "id": 3,
+                "q": "How is the stability of a physical body related to its total body mass?",
+                "opts": [
+                    "Stability is directly proportional to body mass (and weight).",
+                    "Stability is inversely proportional to body mass.",
+                    "Stability is completely independent of body mass.",
+                    "Greater mass always causes instability."
+                ],
+                "correct": 0,
+                "rationale": "The stability of a body is directly proportional to its mass and weight; heavier objects require greater force and torque to move off balance."
+            },
+            {
+                "id": 4,
+                "q": "Why do combative sports like boxing, wrestling, and judo enforce strict weight divisions?",
+                "opts": [
+                    "Because body mass directly dictates stability, making heavier competitors much harder to throw or move off balance.",
+                    "To control the height of the balance beam.",
+                    "To eliminate the need for a base of support.",
+                    "Because lighter athletes have greater moment of inertia."
+                ],
+                "correct": 0,
+                "rationale": "Greater mass increases stability and resistance to external forces, making weight divisions necessary for fair competition."
+            },
+            {
+                "id": 5,
+                "q": "How is stability related to the vertical distance between an athlete's center of gravity and their base of support?",
+                "opts": [
+                    "Stability is indirectly (inversely) proportional to the distance between center of gravity and base of support.",
+                    "Stability is directly proportional to center of gravity height.",
+                    "Elevating the center of gravity increases stability.",
+                    "There is no mechanical relationship."
+                ],
+                "correct": 0,
+                "rationale": "Stability is indirectly (inversely) proportional to the height of the center of gravity above the base of support; lowering CG increases stability."
+            },
+            {
+                "id": 6,
+                "q": "How do combative athletes (wrestlers, judo fighters) manipulate their center of gravity and base of support when defending against a throw?",
+                "opts": [
+                    "They crouch low or lie flat on the mat and widen their base of support.",
+                    "They jump high into the air and narrow their feet.",
+                    "They stand upright on tiptoes with feet together.",
+                    "They raise their arms high above their heads."
+                ],
+                "correct": 0,
+                "rationale": "Defending wrestlers crouch or lie flat to lower their center of gravity and widen their base of support to maximize stability."
+            },
+            {
+                "id": 7,
+                "q": "In a given direction of expected force, how does the horizontal distance from the line of gravity to the edge of the base of support affect stability?",
+                "opts": [
+                    "Stability in that direction is directly proportional to the horizontal distance of the line of gravity from the edge of the base.",
+                    "Greater horizontal distance decreases directional stability.",
+                    "Horizontal distance has zero effect on directional force resistance.",
+                    "It forces the line of gravity to shift upward."
+                ],
+                "correct": 0,
+                "rationale": "Stability in a given direction is directly proportional to the horizontal distance of the center of gravity from the edge of the base towards that direction."
+            },
+            {
+                "id": 8,
+                "q": "Which postural adjustment will maximize an athlete's static stability when preparing to resist a heavy frontal push?",
+                "opts": [
+                    "Widening the stance in the front-to-back direction, lowering the knees into a crouch, and increasing body mass",
+                    "Standing upright on one foot with feet aligned laterally",
+                    "Elevating the hips and bringing both feet together",
+                    "Leaning backward with a narrow base of support"
+                ],
+                "correct": 0,
+                "rationale": "Increasing base of support in the direction of force, lowering center of gravity, and possessing greater mass all maximize static stability."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which four mechanical adjustments INCREASE an athlete's stability while in static equilibrium? (Select all that apply)",
+                "opts": [
+                    "Increase the size of the base of support.",
+                    "Increase the total body mass.",
+                    "Lower the center of gravity closer to the supporting surface.",
+                    "Increase the horizontal distance between the line of gravity and the edge of the base in the direction of movement."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four rules directly increase static stability according to biomechanical principles."
+            },
+            {
+                "id": 2,
+                "q": "Which statements explain why a 130 kg defensive tackle in football is harder to knock off balance than a 100 kg tackle? (Select all that apply)",
+                "opts": [
+                    "The 130 kg tackle possesses greater body mass, directly increasing stability.",
+                    "Greater mass provides greater linear inertia against opposing forces.",
+                    "It requires greater external force and torque to move a heavier body off its base of support.",
+                    "The 130 kg tackle has zero gravitational attraction."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Body mass directly increases stability and inertia, requiring more force/torque to disturb equilibrium. Mass does not eliminate gravity."
+            },
+            {
+                "id": 3,
+                "q": "Which postures represent LOW static stability? (Select all that apply)",
+                "opts": [
+                    "A gymnast balancing on one foot on a 10 cm wide balance beam",
+                    "A figure skater spinning on a single narrow steel blade",
+                    "A sprinter set at the starting blocks with center of gravity near the front edge of the base",
+                    "A wrestler lying flat on the mat with arms and legs spread wide"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Balancing on one foot on a beam, spinning on a skate blade, and leaning near the edge of balance in starting blocks represent low stability. Lying flat with wide stance represents high stability."
+            },
+            {
+                "id": 4,
+                "q": "How does lowering the center of gravity enhance stability? (Select all that apply)",
+                "opts": [
+                    "It increases the angular tilt required before the line of gravity falls outside the base of support.",
+                    "It reduces the vertical distance between center of mass and supporting surface.",
+                    "It makes it harder for an opposing force to tip the body over.",
+                    "It automatically doubles the athlete's body weight."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Lowering CG reduces height above BOS and increases the tilt angle required to push LOG outside BOS. It does not change body weight."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Increasing the size of the base of support increases an athlete's static stability.",
+                "ans": true,
+                "feedback": "True. Base of support size is directly proportional to static stability."
+            },
+            {
+                "id": 2,
+                "q": "An athlete's body mass is inversely proportional to their static stability.",
+                "ans": false,
+                "feedback": "False. Stability is directly proportional to body mass; heavier athletes possess greater stability."
+            },
+            {
+                "id": 3,
+                "q": "Stability is indirectly (inversely) proportional to the distance between the center of gravity and the base of support.",
+                "ans": true,
+                "feedback": "True. Lowering the center of gravity closer to the base of support increases stability."
+            },
+            {
+                "id": 4,
+                "q": "A football lineman in a three-point stance has a smaller base of support than a gymnast on a balance beam.",
+                "ans": false,
+                "feedback": "False. A three-point stance creates a large triangular base of support, whereas a gymnast on one foot on a beam has a very small base."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Static stability is directly proportional to **base of support** size and body mass, but inversely proportional to **center of gravity** height.",
+                "targets": [
+                    "base of support",
+                    "center of gravity"
+                ],
+                "optionsBank": [
+                    "base of support",
+                    "center of gravity",
+                    "moment of inertia",
+                    "fluid drag",
+                    "magnus force"
+                ],
+                "hint": "The supporting surface area and the mass center height."
+            },
+            {
+                "id": 2,
+                "statement": "Combative athletes crouch low to lower their **center of mass** and widen their feet to enlarge their **base of support**.",
+                "targets": [
+                    "center of mass",
+                    "base of support"
+                ],
+                "optionsBank": [
+                    "center of mass",
+                    "base of support",
+                    "line of flight",
+                    "skin friction",
+                    "turbulent wake"
+                ],
+                "hint": "The two posture adjustments used in defensive stability."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Detail the four fundamental biomechanical principles used to maximize stability in static equilibrium, giving a sport example for each.",
+                "model": "1) Increase base of support size: A football lineman assumes a 3-point stance (two feet, one hand) to create a large base area. 2) Increase body mass: Heavy 130-kg tackles are harder to knock off balance, leading to weight divisions in combat sports like wrestling and judo. 3) Lower the center of gravity: Wrestlers crouch low to the mat to decrease CG height above the base. 4) Increase horizontal distance from line of gravity to base perimeter: Lineman spread feet wide in the direction of expected opponent impact to maximize directional stability.",
+                "criteria": [
+                    "List four principles: increase BOS, increase mass, lower CG, increase horizontal LOG-to-BOS distance.",
+                    "Provide valid sport examples for each principle (lineman 3-point stance, heavy tackle/wrestling, low crouch, wide stance)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Compare the static stability of a 130 kg defensive football lineman in a 3-point stance versus a 50 kg gymnast balancing on one foot on a beam.",
+                "model": "The defensive lineman exhibits extremely high static stability because: 1) He creates a massive triangular base of support using two feet and one hand; 2) He possesses a large body mass (130 kg) giving high inertia; 3) He flexes his knees/hips to lower his center of gravity close to the turf; and 4) He spreads his contact points to maximize horizontal LOG distance to base edges. The gymnast exhibits extreme instability because: 1) Her base of support is tiny (the ball of one foot); 2) Her mass is low (50 kg); and 3) Her center of gravity is elevated high above the narrow beam surface.",
+                "criteria": [
+                    "Analyze lineman stability (large BOS, high mass, low CG, large horizontal LOG distance).",
+                    "Analyze gymnast instability (tiny BOS, low mass, elevated CG).",
+                    "Contrast the mechanical outcomes of both postures."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How should an athlete adjust their base of support to maintain dynamic stability when giving or receiving a large horizontal force?",
+                "opts": [
+                    "Extend the base of support in the direction of the external horizontal force.",
+                    "Narrow the feet and balance on tiptoes.",
+                    "Jump vertically into the air.",
+                    "Turn the body 90 degrees away from the force line."
+                ],
+                "correct": 0,
+                "rationale": "To increase dynamic stability when applying or absorbing force, an athlete must extend their base of support in the direction of the force."
+            },
+            {
+                "id": 2,
+                "q": "Why does a baseball pitcher stride far forward toward home plate during a pitch?",
+                "opts": [
+                    "It widens the base of support in the direction of the pitch, allowing force application without losing balance.",
+                    "It elevates his center of gravity above his head.",
+                    "It eliminates the need for foot contact with the mound.",
+                    "It reduces the mass of the baseball."
+                ],
+                "correct": 0,
+                "rationale": "Striding forward widens the base of support in the direction of the thrown force, providing a solid foundation for max force delivery."
+            },
+            {
+                "id": 3,
+                "q": "Where should an athlete position their center of gravity (and line of gravity) relative to their base of support when immediate, rapid acceleration off a mark is required?",
+                "opts": [
+                    "Close to the perimeter edge of the base of support in the direction of intended movement",
+                    "Directly in the exact geometric center of a wide base",
+                    "Far behind the back heel",
+                    "Elevated as high as possible above a single point"
+                ],
+                "correct": 0,
+                "rationale": "When quick acceleration is important, positioning the center of gravity near the edge of the base allows easy breaking of balance into motion."
+            },
+            {
+                "id": 4,
+                "q": "What postural adjustment should a hockey defender make when anticipating an oncoming body check from an opposing attacker?",
+                "opts": [
+                    "Shift their line of gravity towards the oncoming force by leaning into the attacker.",
+                    "Lean backward away from the attacker with feet together.",
+                    "Jump straight up in the air.",
+                    "Stand completely upright with a narrow stance."
+                ],
+                "correct": 0,
+                "rationale": "Shift the line of gravity towards an oncoming force (e.g., leaning into a body check or tackle) creates opposing torque to maintain balance."
+            },
+            {
+                "id": 5,
+                "q": "What reflex movement does a gymnast perform when losing balance on a balance beam to shift their center of mass back over the base?",
+                "opts": [
+                    "A rapid 'windmill' flailing action of the arms",
+                    "Freezing all limb movements completely",
+                    "Closing both eyes",
+                    "Dropping the head backward"
+                ],
+                "correct": 0,
+                "rationale": "Gymnasts perform reflex arm 'windmill' actions to create reactive torques that shift the center of mass back over the narrow beam base."
+            },
+            {
+                "id": 6,
+                "q": "How does executing a roll (e.g., shoulder roll) help an athlete recover from a fall or trip?",
+                "opts": [
+                    "It uses angular momentum to extend the time duration over which impact forces are exerted, reducing peak impact force.",
+                    "It instantaneously increases body mass by 100%.",
+                    "It eliminates all contact friction with the ground.",
+                    "It shifts the center of gravity permanently into the air."
+                ],
+                "correct": 0,
+                "rationale": "Rolling converts linear impact into rotation and increases the time required to absorb force, reducing peak forces while restoring an upright posture."
+            },
+            {
+                "id": 7,
+                "q": "Which action allows an athlete to establish balance after their line of gravity has fallen outside their initial base of support during a trip?",
+                "opts": [
+                    "Taking a rapid step in the direction of the fall to create a new base of support beneath the line of gravity",
+                    "Keeping both feet glued to the original contact points",
+                    "Leaning further in the direction of the fall without moving feet",
+                    "Raising both arms straight up"
+                ],
+                "correct": 0,
+                "rationale": "Taking a step in the direction of the fall creates a new base of support beneath the displaced line of gravity, restoring balance."
+            },
+            {
+                "id": 8,
+                "q": "Why do kayakers, cyclists, and skiers lean their upper body forward toward the edge of their support base when initiating a fast turn?",
+                "opts": [
+                    "To temporarily destabilize themselves, allowing rapid acceleration and directional change",
+                    "To increase static friction by 500%",
+                    "To lock their joints in static equilibrium",
+                    "To prevent the line of gravity from moving"
+                ],
+                "correct": 0,
+                "rationale": "Leaning toward the edge of the base destabilizes the posture, making it easy to change direction or accelerate rapidly."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which strategies enhance DYNAMIC STABILITY during athletic performance? (Select all that apply)",
+                "opts": [
+                    "Extend the base of support in the direction of external forces given or received.",
+                    "Shift the line of gravity towards an oncoming external impact force.",
+                    "Use reflex limb movements (e.g., arm windmilling) to correct lost balance.",
+                    "Execute a roll to extend force absorption time when falling."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four listed mechanisms enhance dynamic stability or assist balance recovery during movement and impacts."
+            },
+            {
+                "id": 2,
+                "q": "Which athletic scenarios illustrate shifting the center/line of gravity near the edge of the base of support to achieve RAPID ACCELERATION? (Select all that apply)",
+                "opts": [
+                    "A sprinter in the starting blocks leaning forward over their hands",
+                    "A kayaker leaning forward toward the edge of the seat base to initiate a sprint turn",
+                    "A downhill skier shifting weight forward to carve a rapid turn",
+                    "A Sumo wrestler standing in a deep, wide, central static crouch"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Sprinters, kayakers, and skiers shift LOG near base edges for rapid motion/turns. Sumo wrestlers maintain central low stability to resist being pushed."
+            },
+            {
+                "id": 3,
+                "q": "Which examples demonstrate extending the base of support in the direction of force? (Select all that apply)",
+                "opts": [
+                    "A baseball pitcher striding far forward toward home plate during a pitch",
+                    "A batter stepping into a swing toward the incoming pitch",
+                    "A tennis player stepping wide toward the sideline to hit a forehand",
+                    "A high jumper standing with feet touching together before approach"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Pitcher strides, batter steps, and tennis lateral plants extend BOS along the force vector. Feet together narrows BOS."
+            },
+            {
+                "id": 4,
+                "q": "What biomechanical functions are served by executing a shoulder roll during a fall or trip? (Select all that apply)",
+                "opts": [
+                    "It uses created angular momentum to lengthen the time duration required to exert stopping force.",
+                    "It reduces peak collision impact forces on joints.",
+                    "It helps the athlete transition back into an upright posture.",
+                    "It temporarily increases friction between the body and ground."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four statements represent textbook biomechanical benefits of rolling during a fall."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "To increase dynamic stability when throwing or receiving a body check, an athlete should extend their base of support in the direction of the force.",
+                "ans": true,
+                "feedback": "True. Widening the base along the force vector enhances dynamic force application and absorption."
+            },
+            {
+                "id": 2,
+                "q": "An athlete seeking rapid acceleration off a mark should center their line of gravity far away from all base edges.",
+                "ans": false,
+                "feedback": "False. Rapid acceleration requires positioning the line of gravity close to the perimeter edge of the base to allow easy breaking of balance."
+            },
+            {
+                "id": 3,
+                "q": "Leaning into an oncoming body check in ice hockey shifts the line of gravity toward the force to neutralize the collision impact.",
+                "ans": true,
+                "feedback": "True. Shifting LOG toward oncoming force creates an opposing moment that counteracts the external impact."
+            },
+            {
+                "id": 4,
+                "q": "Reflex arm movements (like windmilling) decrease stability and make balance recovery impossible.",
+                "ans": false,
+                "feedback": "False. Reflex limb actions generate reactive torques that help shift the center of mass back over the base of support."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "To absorb an oncoming impact, an athlete extends their **base of support** and shifts their **line of gravity** toward the force.",
+                "targets": [
+                    "base of support",
+                    "line of gravity"
+                ],
+                "optionsBank": [
+                    "base of support",
+                    "line of gravity",
+                    "moment of inertia",
+                    "boundary layer",
+                    "laminar flow"
+                ],
+                "hint": "The contact area and vertical gravity vector adjustments."
+            },
+            {
+                "id": 2,
+                "statement": "For rapid acceleration, position the center of gravity near the **edge** of the base, but for impact resistance, center it in a **wide** base.",
+                "targets": [
+                    "edge",
+                    "wide"
+                ],
+                "optionsBank": [
+                    "edge",
+                    "wide",
+                    "center",
+                    "narrow",
+                    "elevated"
+                ],
+                "hint": "The position of CG relative to base perimeter for speed vs. stability."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Describe four factors that an athlete can manipulate to enhance stability or recover balance in dynamic equilibrium.",
+                "model": "1) Extend base of support in direction of force: A baseball pitcher strides forward to create a wide base along the pitch force vector. 2) Position CG near base edge for rapid acceleration: Sprinters and cyclists lean forward so their LOG sits near the front base perimeter for fast movement. 3) Shift LOG toward oncoming forces: Hockey defenders lean into an incoming body check to neutralize collision torque. 4) Use reflex actions and rolls: Gymnasts perform arm 'windmill' actions to re-center CG, or athletes execute shoulder rolls to extend force absorption time (Δt) during falls.",
+                "criteria": [
+                    "Detail extending BOS in force direction (e.g. pitcher stride).",
+                    "Detail edge CG positioning for quick acceleration (e.g. sprinter/cyclist lean).",
+                    "Detail leaning LOG into oncoming forces (e.g. hockey body check defense).",
+                    "Detail reflex limb actions and rolling mechanics for balance recovery."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain how an ice hockey defender uses dynamic stability principles when receiving an open-ice body check from an opposing attacker.",
+                "model": "When receiving an open-ice body check, the defender maintains dynamic stability by: 1) Extending their base of support in the direction of the check (widening skate stance towards the attacker); 2) Lowering their center of gravity by flexing knees and hips; and 3) Proactively shifting their line of gravity towards the oncoming force by leaning their torso directly into the attacker. This leaning action creates an opposing gravitational torque that counteracts the collision force, preventing the defender from being tipped over.",
+                "criteria": [
+                    "Describe widening skate stance (BOS extension) toward the attacker.",
+                    "Describe lowering center of gravity (knee/hip flexion).",
+                    "Describe shifting line of gravity into the check (leaning into the attacker) to neutralize collision torque."
+                ]
+            }
+        ]
+    }
+}

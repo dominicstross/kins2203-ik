@@ -1,0 +1,748 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What type of human movement analysis relies on collecting numerical measurements of performance using advanced research instrumentation?",
+                "opts": [
+                    "Quantitative Analysis",
+                    "Qualitative Analysis",
+                    "Subjective Observation",
+                    "Kinesthetic Evaluation"
+                ],
+                "correct": 0,
+                "rationale": "Quantitative analysis involves collecting numerical measurements of movement parameters using high-tech instrumentation such as force plates, EMG, and video-digitizing systems."
+            },
+            {
+                "id": 2,
+                "q": "Which type of analysis is primarily used by coaches and teachers who rely on visual and aural information rather than laboratory equipment?",
+                "opts": [
+                    "Qualitative Analysis",
+                    "Quantitative Analysis",
+                    "Spectrographic Analysis",
+                    "Volumetric Analysis"
+                ],
+                "correct": 0,
+                "rationale": "Qualitative analysis is a non-numerical evaluation relying on visual or aural information, frameworks, checklists, and principles to observe, analyze, and correct performance errors."
+            },
+            {
+                "id": 3,
+                "q": "Which research technology is specifically used in quantitative analysis to detect and record the sequence of electrical activity in working muscles?",
+                "opts": [
+                    "Electromyography (EMG)",
+                    "Computerized Force-Measuring Platforms",
+                    "High-Speed Video Digitizing",
+                    "Goniometry"
+                ],
+                "correct": 0,
+                "rationale": "Electromyography (EMG) is a high-tech instrument used by biomechanists to measure the electrical activity and muscle activation sequence during human movement."
+            },
+            {
+                "id": 4,
+                "q": "What device is used by biomechanists during quantitative research to measure the pattern of forces exerted by a athlete against a surface, such as a sprinter on starting blocks?",
+                "opts": [
+                    "Computerized Force-Measuring Platform",
+                    "Electromyograph",
+                    "High-Speed Stroboscope",
+                    "Goniometer"
+                ],
+                "correct": 0,
+                "rationale": "Computerized force-measuring platforms (force plates) measure the magnitude and patterns of reaction forces exerted between an athlete and contact surfaces."
+            },
+            {
+                "id": 5,
+                "q": "Which component is NOT one of the four essential elements required to conduct a structured qualitative analysis of human movement?",
+                "opts": [
+                    "A 3-D computerized video-digitizing system",
+                    "A framework within which skilled performances can be observed",
+                    "A set of principles within which movement can be analyzed",
+                    "A checklist to identify errors and techniques to correct them"
+                ],
+                "correct": 0,
+                "rationale": "Computerized video-digitizing systems are used for quantitative analysis, whereas qualitative analysis relies on observational frameworks, mechanical principles, error checklists, and correction techniques."
+            },
+            {
+                "id": 6,
+                "q": "How does a coach execute a qualitative analysis when working with an athlete during daily practice?",
+                "opts": [
+                    "By observing the performance, applying biomechanical concepts, and offering an opinion for performance improvement",
+                    "By attaching surface EMG electrodes to measure muscle action potentials",
+                    "By processing 3-D marker coordinates through video-digitizing algorithms",
+                    "By placing the athlete on a force plate to calculate ground reaction forces"
+                ],
+                "correct": 0,
+                "rationale": "A coach performs qualitative analysis by visually/aurally observing movement, applying biomechanical principles, diagnosing technical errors via checklists, and instructing the athlete on corrections."
+            },
+            {
+                "id": 7,
+                "q": "Why do coaches and physical education teachers rely primarily on qualitative analysis rather than quantitative analysis?",
+                "opts": [
+                    "Because specialized lab equipment and analysis knowledge are not always readily available during practice",
+                    "Because quantitative analysis is inaccurate and scientifically invalid",
+                    "Because qualitative analysis is mathematically more complex than force-plate digitizing",
+                    "Because human movements cannot be measured numerically"
+                ],
+                "correct": 0,
+                "rationale": "Coaches and physical educators rely on qualitative analysis because high-tech quantitative equipment and specialized analytical software are rarely accessible in daily field settings."
+            },
+            {
+                "id": 8,
+                "q": "Which instrumentation allows biomechanists to collect spatial coordinate data and calculate three-dimensional joint movements at high frame rates?",
+                "opts": [
+                    "High-speed video recording and computerized video-digitizing systems",
+                    "Manual hand-held stopwatches",
+                    "Standard 2-D polaroid photography",
+                    "Analog pressure insoles"
+                ],
+                "correct": 0,
+                "rationale": "High-speed video recording systems combined with computerized video-digitizing allow biomechanists to track 3-D spatial markers and quantify high-velocity movements."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which of the following high-tech instruments are used by biomechanics researchers to conduct QUANTITATIVE analysis? (Select all that apply)",
+                "opts": [
+                    "Computerized force-measuring platforms",
+                    "Electromyography (EMG) systems",
+                    "High-speed video recording and digitizing systems",
+                    "Visual observation checklists used by field coaches"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Force platforms, EMG, and high-speed video digitizing are quantitative measurement tools. Visual observation checklists are tools for qualitative analysis."
+            },
+            {
+                "id": 2,
+                "q": "Which elements are required for a coach to perform a systematic QUALITATIVE analysis of human performance? (Select all that apply)",
+                "opts": [
+                    "An observational framework for viewing skilled performance",
+                    "A set of biomechanical movement principles",
+                    "A checklist for identifying performance errors",
+                    "Instructional techniques to correct movement errors"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Qualitative analysis requires a 4-part framework: an observational viewing strategy, biomechanical principles, an error detection checklist, and correction techniques."
+            },
+            {
+                "id": 3,
+                "q": "Which variables might a biomechanist investigate using quantitative research instrumentation? (Select all that apply)",
+                "opts": [
+                    "Pattern of reaction forces exerted onto a sprinter's starting block",
+                    "Sequence of muscle electrical activity during running via EMG",
+                    "Three-dimensional movement trajectories of body segments during a high jump",
+                    "A coach's subjective opinion on an athlete's attitude"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Starting block forces, EMG muscle activation sequences, and 3-D kinematic trajectories are quantitative variables. A subjective opinion on attitude is not a quantitative biomechanical measurement."
+            },
+            {
+                "id": 4,
+                "q": "How do quantitative and qualitative movement analyses differ in practical application? (Select all that apply)",
+                "opts": [
+                    "Quantitative analysis relies on numeric measurements, whereas qualitative analysis relies on visual/aural observations.",
+                    "Quantitative analysis is primarily used by scientific researchers, whereas qualitative analysis is used by coaches and teachers.",
+                    "Quantitative analysis requires specialized high-tech laboratory equipment.",
+                    "Qualitative analysis is completely random and does not require any principles or checklists."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Quantitative uses numeric lab instruments for research; qualitative uses observational frameworks and checklists for coaching. Qualitative analysis is systematic, not random."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Quantitative analysis of human performance relies on numeric measurements collected using specialized laboratory instrumentation.",
+                "ans": true,
+                "feedback": "True. Quantitative analysis involves gathering numerical data through tools like force plates, EMG, and high-speed motion capture."
+            },
+            {
+                "id": 2,
+                "q": "Qualitative analysis requires the use of computerized force-measuring platforms and surface electromyography.",
+                "ans": false,
+                "feedback": "False. Qualitative analysis does not require high-tech electronic equipment; it relies on sensory observations, frameworks, checklists, and mechanical principles."
+            },
+            {
+                "id": 3,
+                "q": "A coach performing a qualitative analysis observes movement, identifies technical errors using a checklist, and provides corrective feedback to the athlete.",
+                "ans": true,
+                "feedback": "True. Qualitative analysis provides a diagnostic framework for coaches to observe performance, spot errors, and provide corrective instructions."
+            },
+            {
+                "id": 4,
+                "q": "Electromyography (EMG) is used in qualitative analysis to visually observe an athlete's joint angles without measuring muscle electricity.",
+                "ans": false,
+                "feedback": "False. EMG is a quantitative tool used to measure electrical activity in skeletal muscle, not a qualitative visual observation technique."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Researchers use **quantitative analysis** to collect numeric measurements, whereas coaches rely on **qualitative analysis** to observe and correct movement skills.",
+                "targets": [
+                    "quantitative analysis",
+                    "qualitative analysis"
+                ],
+                "optionsBank": [
+                    "quantitative analysis",
+                    "qualitative analysis",
+                    "kinetic analysis",
+                    "particle analysis",
+                    "anthropometric analysis"
+                ],
+                "hint": "Distinguishes numeric laboratory research from observational coaching evaluations."
+            },
+            {
+                "id": 2,
+                "statement": "Quantitative research employs tools such as **electromyography** to detect muscle activity and **force platforms** to measure contact forces.",
+                "targets": [
+                    "electromyography",
+                    "force platforms"
+                ],
+                "optionsBank": [
+                    "electromyography",
+                    "force platforms",
+                    "qualitative checklists",
+                    "stick figures",
+                    "parabolic arcs"
+                ],
+                "hint": "Identifies high-tech instruments used for quantitative muscle and force measurements."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Compare and contrast quantitative analysis and qualitative analysis in terms of primary tools, setting, primary users, and data types.",
+                "model": "Quantitative analysis involves collecting numeric measurements of movement parameters using high-tech instrumentation (e.g., force plates, EMG, 3-D video-digitizing). It is primarily conducted in research laboratories by biomechanists to precisely evaluate forces and kinematics. Qualitative analysis involves non-numeric, sensory-based (visual/aural) observations of performance. It is used in daily field settings by coaches and teachers using systematic frameworks, mechanical principles, error checklists, and corrective feedback strategies.",
+                "criteria": [
+                    "Define quantitative analysis as numeric data collection using lab technology (EMG, force plates, digitizing).",
+                    "Define qualitative analysis as sensory-based observation using frameworks, principles, and checklists.",
+                    "Identify primary users and settings (biomechanics researchers in labs vs. coaches/teachers on fields)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Describe the four essential components required for a coach to conduct an effective qualitative analysis of an athlete's movement technique.",
+                "model": "An effective qualitative analysis requires four key components: 1) An observational framework that defines proper viewing angles and environmental conditions for skill observation; 2) A set of mechanical and biomechanical principles to evaluate movement quality; 3) An error detection checklist to systematically identify technical flaws; and 4) Remediation and feedback techniques to provide actionable instructions for skill correction.",
+                "criteria": [
+                    "Identify the observational framework for viewing performance.",
+                    "Specify the set of biomechanical principles used for evaluation.",
+                    "Mention the error identification checklist and corrective feedback techniques."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which branch of biomechanics describes the spatial and timing characteristics of movement without referring to the forces that cause the motion?",
+                "opts": [
+                    "Kinematics",
+                    "Kinetics",
+                    "Anthropometry",
+                    "Dynamics"
+                ],
+                "correct": 0,
+                "rationale": "Kinematics describes spatial and timing characteristics of motion (how long, how far, how fast, how consistent) without considering the forces causing that motion."
+            },
+            {
+                "id": 2,
+                "q": "Which branch of biomechanics focuses specifically on the internal and external forces that cause, produce, or alter movement?",
+                "opts": [
+                    "Kinetics",
+                    "Kinematics",
+                    "Morphology",
+                    "Electromyography"
+                ],
+                "correct": 0,
+                "rationale": "Kinetics focuses on the forces that produce, modify, or cause movement and resulting changes in motion."
+            },
+            {
+                "id": 3,
+                "q": "Which of the following variables is classified as a KINEMATIC measurement?",
+                "opts": [
+                    "Velocity",
+                    "Muscular pulling force",
+                    "Ground reaction force",
+                    "Joint compression force"
+                ],
+                "correct": 0,
+                "rationale": "Velocity is a kinematic variable describing rate of spatial displacement over time. Muscular pulling force and ground reaction forces are kinetic variables."
+            },
+            {
+                "id": 4,
+                "q": "Which force is explicitly classified as an INTERNAL force in human movement kinetics?",
+                "opts": [
+                    "Forces generated by muscles pulling on bones via their tendons",
+                    "The force of gravity acting on the total body mass",
+                    "Ground reaction force from contact with a starting block",
+                    "Aerodynamic drag force from surrounding air"
+                ],
+                "correct": 0,
+                "rationale": "Internal forces are generated within the body, such as muscle tendon pulling forces and bone-on-bone joint reaction forces. Gravity, ground contact, and drag are external forces."
+            },
+            {
+                "id": 5,
+                "q": "Which force is classified as an EXTERNAL force acting upon the human body?",
+                "opts": [
+                    "The force of gravity",
+                    "Tensile force in the Achilles tendon",
+                    "Compressive force across the tibiofemoral joint",
+                    "Force exerted by the biceps brachii on the radius"
+                ],
+                "correct": 0,
+                "rationale": "Gravity is an external force acting on the body from the outside. Tendon tensile forces and joint compressive forces are internal forces."
+            },
+            {
+                "id": 6,
+                "q": "Which four fundamental questions does a kinematic analysis answer regarding human movement?",
+                "opts": [
+                    "How long? How far? How fast? How consistent?",
+                    "How heavy? How strong? How painful? How rigid?",
+                    "Which muscle? Which bone? Which joint? Which nerve?",
+                    "What cost? What energy? What oxygen? What lactate?"
+                ],
+                "correct": 0,
+                "rationale": "Kinematics answers spatial and timing questions: how long (time), how far (displacement), how fast (velocity/speed), and how consistent (repeatability)."
+            },
+            {
+                "id": 7,
+                "q": "Why is quantifying kinetic forces critical for understanding human movement mechanics?",
+                "opts": [
+                    "Because net forces lead directly to acceleration, which causes changes in body position",
+                    "Because forces describe motion without needing any mathematical equations",
+                    "Because kinetic forces only occur when an athlete is stationary",
+                    "Because kinetic forces eliminate the need for time measurements"
+                ],
+                "correct": 0,
+                "rationale": "Quantifying kinetic forces explains why a body moves because applied forces produce acceleration (F = ma), which directly changes velocity and body position."
+            },
+            {
+                "id": 8,
+                "q": "Which set of variables consists ENTIRELY of kinematic parameters?",
+                "opts": [
+                    "Time, displacement, velocity, and acceleration",
+                    "Muscle force, joint torque, gravity, and friction",
+                    "Mass, pressure, ground reaction force, and strain",
+                    "Tendinous tension, bone compression, drag, and lift"
+                ],
+                "correct": 0,
+                "rationale": "Time, displacement, velocity, and acceleration are all kinematic variables describing the spatial and temporal aspects of motion."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which of the following variables are classified as KINEMATIC measurements? (Select all that apply)",
+                "opts": [
+                    "Movement duration (time)",
+                    "Spatial displacement",
+                    "Sprint velocity",
+                    "Ground reaction force"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Time, displacement, and velocity describe motion characteristics and are kinematic. Ground reaction force is a kinetic variable."
+            },
+            {
+                "id": 2,
+                "q": "Which of the following forces are classified as INTERNAL kinetic forces? (Select all that apply)",
+                "opts": [
+                    "Forces generated by skeletal muscles pulling on bones via tendons",
+                    "Bone-on-bone forces exerted across articular joint surfaces",
+                    "Force of gravity pulling down on the body",
+                    "Frictional force from the track surface"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Internal forces arise within the body (muscle-tendon tension, joint reaction forces). Gravity and surface friction are external forces."
+            },
+            {
+                "id": 3,
+                "q": "Which of the following forces are classified as EXTERNAL kinetic forces? (Select all that apply)",
+                "opts": [
+                    "Force of gravity",
+                    "Ground reaction force during foot contact",
+                    "Contact force from an opposing player or sport equipment",
+                    "Fluid resistance from water or air"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All listed forces (gravity, ground contact, opponent/equipment contact, fluid resistance) act on the body from without and are external kinetic forces."
+            },
+            {
+                "id": 4,
+                "q": "Which core questions does a kinematic evaluation address? (Select all that apply)",
+                "opts": [
+                    "How long was the motion? (time)",
+                    "How far did the body travel? (displacement)",
+                    "How fast was the body moving? (velocity)",
+                    "How consistent was the motion across trials?"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Kinematics answers all four questions regarding timing, spatial extent, rate of motion, and movement consistency."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Kinematics describes the spatial and timing characteristics of motion without considering the forces that cause the movement.",
+                "ans": true,
+                "feedback": "True. Kinematics focuses purely on motion descriptors (time, displacement, velocity, acceleration) without reference to causing forces."
+            },
+            {
+                "id": 2,
+                "q": "Kinetics studies the internal and external forces that produce or modify human motion.",
+                "ans": true,
+                "feedback": "True. Kinetics analyzes cause-and-effect forces that induce body accelerations and movement changes."
+            },
+            {
+                "id": 3,
+                "q": "Muscle pulling forces transmitted through tendons onto bones are classified as external kinetic forces.",
+                "ans": false,
+                "feedback": "False. Muscle pulling forces and bone-on-bone joint forces originate inside the body and are classified as internal forces."
+            },
+            {
+                "id": 4,
+                "q": "Velocity and acceleration are kinematic variables, whereas gravitational attraction is a kinetic force.",
+                "ans": true,
+                "feedback": "True. Velocity and acceleration describe how motion occurs (kinematics), while gravity is an external force that causes motion changes (kinetics)."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "The study of **kinematics** describes spatial and temporal motion parameters, while **kinetics** analyzes the underlying forces causing movement.",
+                "targets": [
+                    "kinematics",
+                    "kinetics"
+                ],
+                "optionsBank": [
+                    "kinematics",
+                    "kinetics",
+                    "anthropometry",
+                    "fluid dynamics",
+                    "biomechanics"
+                ],
+                "hint": "Distinguishes the description of motion from the study of causing forces."
+            },
+            {
+                "id": 2,
+                "statement": "Muscular tension on bones is an **internal force**, whereas gravity and ground reaction forces are **external forces**.",
+                "targets": [
+                    "internal force",
+                    "external forces"
+                ],
+                "optionsBank": [
+                    "internal force",
+                    "external forces",
+                    "kinematic variable",
+                    "particle model",
+                    "qualitative checklist"
+                ],
+                "hint": "Classifies forces generated inside the body versus forces exerted from outside."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Differentiate between kinematics and kinetics, providing two specific examples of variables measured in each domain.",
+                "model": "Kinematics is the branch of biomechanics that describes the spatial and timing characteristics of motion (e.g., displacement, velocity, acceleration, time) without reference to the forces causing the movement. Kinetics analyzes the forces that produce, modify, or cause the motion. Examples of kinematic variables include sprint velocity (e.g., 10 m/s) and joint angular displacement (e.g., 90° knee flexion). Examples of kinetic variables include internal muscle pulling force (e.g., quadriceps tension) and external ground reaction force (e.g., 2000 N force plate impact).",
+                "criteria": [
+                    "Define kinematics as describing spatial/temporal motion without reference to forces.",
+                    "Define kinetics as analyzing forces that produce or alter motion.",
+                    "Provide accurate examples for kinematics (velocity, displacement) and kinetics (muscle force, ground reaction force)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain the distinction between internal forces and external forces in human kinetics, giving two athletic examples of each.",
+                "model": "Internal forces are forces generated within the biological system, including muscle contractions pulling on bones via tendons and bone-on-bone joint reaction forces across articular surfaces. External forces act on the human body from the outside environment, including gravity, ground reaction contact forces, and fluid resistance. Examples of internal forces: hamstrings pulling on the tibia during running, patellofemoral compressive force. Examples of external forces: gravitational force pulling down a high jumper, water drag acting on a swimmer.",
+                "criteria": [
+                    "Define internal forces as forces generated inside the body (muscles, tendons, joint surfaces).",
+                    "Define external forces as forces acting from outside the body (gravity, ground reaction, fluid resistance).",
+                    "Provide realistic athletic examples for both force categories."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What is the science that examines the internal and external forces acting on the human body and the effects produced by these forces?",
+                "opts": [
+                    "Biomechanics",
+                    "Exercise Physiology",
+                    "Motor Learning",
+                    "Kinesiology Education"
+                ],
+                "correct": 0,
+                "rationale": "Biomechanics is explicitly defined as the science examining internal and external forces acting on the human body and the resulting motion effects."
+            },
+            {
+                "id": 2,
+                "q": "Which simplified biomechanical model represents the entire human body or object as a single point mass located at its center of mass?",
+                "opts": [
+                    "Particle Model",
+                    "Stick Figure Model",
+                    "Rigid Body Segment Model",
+                    "Finite Element Model"
+                ],
+                "correct": 0,
+                "rationale": "The particle model represents the body or object as a single dot/point mass, used when the object is airborne and acting as a projectile."
+            },
+            {
+                "id": 3,
+                "q": "Which biomechanical model represents body segments as rigid bars linked at joints to display gross 2-D motor skills for ground-bound athletes?",
+                "opts": [
+                    "Stick Figure Model",
+                    "Particle Model",
+                    "Rigid Body Segment Model",
+                    "3-D Volumetric Model"
+                ],
+                "correct": 0,
+                "rationale": "The stick figure model depicts body segments as rigid sticks linked at joints to represent total body configuration in 2-D gross motor skills like sprint starts."
+            },
+            {
+                "id": 4,
+                "q": "Which model represents each body segment as an irregularly shaped 3-D volume for sophisticated computer-based motion analyses?",
+                "opts": [
+                    "Rigid Body Segment Model",
+                    "Particle Model",
+                    "Stick Figure Model",
+                    "Planar Bar Model"
+                ],
+                "correct": 0,
+                "rationale": "The rigid body segment model represents body segments as 3-D volumetric solids for complex, multi-planar motion analysis."
+            },
+            {
+                "id": 5,
+                "q": "Where is the center of mass (center of gravity) located in standing position for human females compared to males?",
+                "opts": [
+                    "At ~55% of standing height in females and ~57% in males",
+                    "At ~57% of standing height in females and ~55% in males",
+                    "At 100% of standing height in both sexes",
+                    "At 30% of standing height in females and 70% in males"
+                ],
+                "correct": 0,
+                "rationale": "The center of mass is located at approximately 55% of standing height in females and 57% in males, meaning females generally have a lower center of gravity."
+            },
+            {
+                "id": 6,
+                "q": "Approximately how far above the groin area is the human center of mass located during standard standing anatomical posture?",
+                "opts": [
+                    "6 inches above the groin area",
+                    "12 inches below the knees",
+                    "Directly inside the sternum",
+                    "At the top of the skull"
+                ],
+                "correct": 0,
+                "rationale": "In standard standing posture, the human center of mass is located about 6 inches above the groin area."
+            },
+            {
+                "id": 7,
+                "q": "What path does the center of mass of an airborne body follow when acting as a projectile in events like long jump or high jump?",
+                "opts": [
+                    "A parabolic trajectory",
+                    "A perfectly straight horizontal line",
+                    "A zig-zag stair-step pattern",
+                    "A reverse exponential curve"
+                ],
+                "correct": 0,
+                "rationale": "Once airborne, the body behaves as a projectile whose center of mass follows an unalterable parabolic trajectory dictated by gravity."
+            },
+            {
+                "id": 8,
+                "q": "Which limitation applies to the 2-D stick figure model?",
+                "opts": [
+                    "It cannot easily represent fine local muscle movements (like hand grip) or 3-D longitudinal rotations",
+                    "It cannot represent athletes who are in contact with the ground",
+                    "It cannot show external forces acting on the body",
+                    "It can only be used when an athlete is airborne in flight"
+                ],
+                "correct": 0,
+                "rationale": "Stick figure models represent gross 2-D movement but cannot easily depict fine local muscular actions (e.g. grip on a bat) or 3-D longitudinal axial rotations."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which of the following are simplified models of human motion used by biomechanists? (Select all that apply)",
+                "opts": [
+                    "Particle model",
+                    "Stick figure model",
+                    "Rigid body segment model",
+                    "Hydrodynamic fluid model"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Biomechanists adopt three simplified models of human motion: the particle model, stick figure model, and rigid body segment model."
+            },
+            {
+                "id": 2,
+                "q": "In which athletic scenarios is the PARTICLE MODEL appropriately applied? (Select all that apply)",
+                "opts": [
+                    "A diver airborne in flight off the platform",
+                    "A basketball shot traveling through the air toward the hoop",
+                    "A gymnast airborne during a somersault vault",
+                    "A sprinter pushing against starting blocks on the ground"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "The particle model is used when the body or object is airborne and acting as a projectile (diver, shot ball, airborne gymnast). Ground contact skills use stick figures."
+            },
+            {
+                "id": 3,
+                "q": "Which statements regarding the human Center of Mass (Center of Gravity) are correct? (Select all that apply)",
+                "opts": [
+                    "It is the point around which body mass is equally distributed in all directions.",
+                    "It is located at ~55% standing height in females and ~57% in males.",
+                    "It can lie outside the physical material of the human body depending on posture.",
+                    "Once an athlete is airborne, limb movements change the parabolic trajectory of the CG."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "CG is the balance point, ~55% height in females, ~57% in males, and can lie outside the body (e.g. figure skater). Airborne CG trajectory is unalterable by mid-air limb movements."
+            },
+            {
+                "id": 4,
+                "q": "Which features describe the STICK FIGURE model? (Select all that apply)",
+                "opts": [
+                    "Represents body segments as rigid bars (sticks) linked at joints.",
+                    "Used for athletes in contact with the ground or earthbound objects.",
+                    "Displays total body configuration for gross motor skills in 2 dimensions.",
+                    "Shows exact 3-D volumetric shape deformations of muscular tissue."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Stick figures use rigid 2-D bars linked at joints for ground-bound gross motor skills. 3-D volumetric representations require the rigid body segment model."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "The particle model is used to analyze human motion when the athlete is airborne and acting as a projectile.",
+                "ans": true,
+                "feedback": "True. The particle model represents airborne objects or bodies as a single point mass at the center of mass."
+            },
+            {
+                "id": 2,
+                "q": "Females generally have a lower center of gravity than males relative to standing height.",
+                "ans": true,
+                "feedback": "True. Female center of mass is located at ~55% of standing height, compared to ~57% in males."
+            },
+            {
+                "id": 3,
+                "q": "Mid-air movements of an airborne athlete's arms and legs can alter the parabolic trajectory of their center of mass.",
+                "ans": false,
+                "feedback": "False. Once airborne, the center of mass follows a fixed parabolic trajectory governed by gravity, regardless of mid-air limb movements."
+            },
+            {
+                "id": 4,
+                "q": "The center of mass of a human body is strictly fixed and must always remain inside the anatomical tissue of the trunk.",
+                "ans": false,
+                "feedback": "False. The location of the center of mass changes with posture and can lie outside the physical body (e.g., in a arched back or figure skating spin)."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Airborne projectiles are represented by the **particle model**, whereas ground-contact 2-D movements use the **stick figure model**.",
+                "targets": [
+                    "particle model",
+                    "stick figure model"
+                ],
+                "optionsBank": [
+                    "particle model",
+                    "stick figure model",
+                    "rigid body model",
+                    "qualitative checklist",
+                    "force plate"
+                ],
+                "hint": "Identifies the models used for airborne projectiles vs. 2-D ground-contact skills."
+            },
+            {
+                "id": 2,
+                "statement": "The center of mass is located at approximately **55 percent** of standing height in females and **57 percent** in males.",
+                "targets": [
+                    "55 percent",
+                    "57 percent"
+                ],
+                "optionsBank": [
+                    "55 percent",
+                    "57 percent",
+                    "75 percent",
+                    "30 percent",
+                    "100 percent"
+                ],
+                "hint": "Normative relative standing height percentages for female vs. male center of gravity."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Compare the three simplified models of human motion (particle, stick figure, rigid body segment) in terms of segment representation and appropriate athletic applications.",
+                "model": "1) Particle Model: Represents the body/object as a single dot at its center of mass. Used when the body is airborne in flight as a projectile (diving, high jump, thrown ball). 2) Stick Figure Model: Represents body segments as 2-D rigid bars linked at joint pivot points. Used for athletes in contact with ground/apparatus performing gross 2-D motor skills (sprint start, running). 3) Rigid Body Segment Model: Represents each body segment as an irregularly shaped 3-D volume. Used for sophisticated 3-D motion analyses where multi-planar segment rotations and shape deformations occur.",
+                "criteria": [
+                    "Describe particle model (single point mass, used for airborne projectiles).",
+                    "Describe stick figure model (2-D rigid bars linked at joints, used for ground-contact 2-D gross skills).",
+                    "Describe rigid body segment model (3-D volumetric solids, used for complex 3-D computer analysis)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain the concept of center of mass (center of gravity), stating normative sex differences in standing position and how the center of mass behaves when a human becomes airborne.",
+                "model": "The center of mass (CG) is the single balance point around which a body's mass is equally distributed in all directions. In standard standing position, human CG lies about 6 inches above the groin area, located at approximately 55% of standing height in females and 57% in males (giving females a lower CG). When a human becomes airborne (a projectile), the body behaves as though all its mass were concentrated at the CG. The CG follows an unalterable parabolic trajectory dictated by gravity, which cannot be changed by mid-air limb movements.",
+                "criteria": [
+                    "Define center of mass as the balance point of equal mass distribution.",
+                    "State normative standing height percentages for females (55%) and males (57%).",
+                    "Explain that an airborne body's CG follows a fixed parabolic trajectory governed by gravity."
+                ]
+            }
+        ]
+    }
+}

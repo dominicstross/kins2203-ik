@@ -1,0 +1,1001 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What is the primary definition of a qualitative analysis of human motion?",
+                "opts": [
+                    "The non-numerical evaluation of human movement based on systematic visual observation and sensory feedback",
+                    "The direct measurement of kinetic joint forces using multi-axis force plates",
+                    "The calculation of angular accelerations using 3D motion capture cameras",
+                    "The mathematical modeling of muscle cross-sectional area and physiological strain"
+                ],
+                "correct": 0,
+                "rationale": "Qualitative analysis is defined as the evaluation of human motion without measuring and using numbers, relying on systematic visual observation and sensory judgment."
+            },
+            {
+                "id": 2,
+                "q": "Why is movement-specific qualitative feedback superior to non-specific instructional jargon like 'rotate more' or 'jump higher'?",
+                "opts": [
+                    "It provides targeted, biomechanically grounded guidance addressing specific movement mechanics.",
+                    "It eliminates the need for the athlete to practice.",
+                    "It reduces the physical mass of the athlete.",
+                    "It replaces all visual observation with automated computer algorithms."
+                ],
+                "correct": 0,
+                "rationale": "Movement-specific feedback clearly identifies specific body actions and mechanical corrections, whereas non-specific jargon provides no actionable biomechanical guidance."
+            },
+            {
+                "id": 3,
+                "q": "What foundational requirement must a coach possess to perform an accurate qualitative analysis of a movement skill?",
+                "opts": [
+                    "A thorough, experience-based understanding of the skill being evaluated",
+                    "High-speed 3D motion capture software",
+                    "A degree in mechanical engineering",
+                    "Direct force plate data for every athletic trial"
+                ],
+                "correct": 0,
+                "rationale": "Accurate qualitative evaluation relies on the coach's thorough understanding of the skill, developed through extensive coaching and instructional experience."
+            },
+            {
+                "id": 4,
+                "q": "Which of the following represents the correct sequence of the four stages in the integrated qualitative instruction model?",
+                "opts": [
+                    "Preparation -> Observation -> Evaluation -> Error Correction",
+                    "Observation -> Preparation -> Error Correction -> Evaluation",
+                    "Evaluation -> Preparation -> Observation -> Error Correction",
+                    "Error Correction -> Observation -> Evaluation -> Preparation"
+                ],
+                "correct": 0,
+                "rationale": "The integrated qualitative analysis model follows a logical four-stage sequence: Preparation, Observation, Evaluation, and Error Correction."
+            },
+            {
+                "id": 5,
+                "q": "What is the primary operational objective of the PREPARATION stage in qualitative analysis?",
+                "opts": [
+                    "Acquiring skill knowledge, identifying objectives, dividing the skill into phases, and formulating an observation plan",
+                    "Delivering verbal corrections to the athlete on the field",
+                    "Recording 240 fps video replays during competition",
+                    "Measuring ground reaction forces under the plant foot"
+                ],
+                "correct": 0,
+                "rationale": "During Preparation, the analyst develops a deep understanding of the skill, identifies its objective, divides it into phases, and designs a systematic observation plan."
+            },
+            {
+                "id": 6,
+                "q": "Which stage of the qualitative analysis model involves comparing observed performance against biomechanical criteria to diagnose movement flaws?",
+                "opts": [
+                    "Evaluation",
+                    "Preparation",
+                    "Observation",
+                    "Error Correction"
+                ],
+                "correct": 0,
+                "rationale": "Evaluation is the diagnostic phase where the analyst compares observed movement patterns against ideal criteria to identify technical flaws."
+            },
+            {
+                "id": 7,
+                "q": "Why does developing a 'critical eye' for qualitative evaluation require years of practical experience?",
+                "opts": [
+                    "Because high-speed movement subtleties require practiced visual pattern recognition to distinguish root causes from symptoms.",
+                    "Because human anatomy changes drastically every year.",
+                    "Because qualitative analysis relies entirely on memorizing numerical equations.",
+                    "Because rules of sports biomechanics change each season."
+                ],
+                "correct": 0,
+                "rationale": "Developing a critical eye requires extensive practice to recognize subtle technical nuances and differentiate primary mechanical causes from secondary symptoms."
+            },
+            {
+                "id": 8,
+                "q": "In clinical kinesiology and daily coaching, why is qualitative analysis utilized far more frequently than quantitative analysis?",
+                "opts": [
+                    "Laboratory quantification equipment is costly and impractical for daily sideline instructional evaluation.",
+                    "Qualitative analysis is 100% mathematically exact.",
+                    "Quantitative analysis cannot measure movement speed.",
+                    "Qualitative analysis does not require observing the athlete."
+                ],
+                "correct": 0,
+                "rationale": "Qualitative analysis is practical, immediate, and accessible on the field where force plates and laboratory equipment are unavailable."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which characteristics correctly describe QUALITATIVE ANALYSIS of human motion? (Select all that apply)",
+                "opts": [
+                    "It evaluates movement without measuring and using numbers.",
+                    "It is based on systematic direct visual observation or video recordings.",
+                    "It provides movement-specific feedback to correct technical errors.",
+                    "It requires 3D force plates and high-speed motion capture sensors."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Qualitative analysis is non-numerical, systematic observation that yields movement-specific feedback. Force plates and 3D camera sensors belong to quantitative analysis."
+            },
+            {
+                "id": 2,
+                "q": "Which stages belong to the four-part qualitative instruction model? (Select all that apply)",
+                "opts": [
+                    "Preparation",
+                    "Observation",
+                    "Evaluation",
+                    "Error Correction"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "The model integrates all four stages: Preparation, Observation, Evaluation, and Error Correction."
+            },
+            {
+                "id": 3,
+                "q": "Which actions are performed during the PREPARATION phase of qualitative analysis? (Select all that apply)",
+                "opts": [
+                    "Identifying the primary and secondary objectives of the skill",
+                    "Dividing the skill into logical movement phases",
+                    "Determining key body movements required for each phase",
+                    "Shouting immediate corrective instructions during execution"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Preparation involves establishing skill objectives, dividing skills into phases, and listing key body movements before observing."
+            },
+            {
+                "id": 4,
+                "q": "Why is non-specific feedback like 'jump higher' or 'try harder' ineffective compared to qualitative biomechanical feedback? (Select all that apply)",
+                "opts": [
+                    "It fails to identify the specific body segment movement error causing the problem.",
+                    "It gives the athlete no actionable technical instruction on how to alter mechanics.",
+                    "It focuses on performance outcomes rather than movement execution technique.",
+                    "It automatically forces the athlete to enter static equilibrium."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Vague jargon lacks technical specificity, fails to target movement mechanics, and focuses on outcome rather than segmental execution."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Qualitative analysis evaluates human motion without measuring and using numbers.",
+                "ans": true,
+                "feedback": "True. Qualitative analysis relies on systematic observation and visual/sensory feedback rather than numerical measurement."
+            },
+            {
+                "id": 2,
+                "q": "Vague instructional cues such as 'rotate more' or 'don't fall' represent high-quality qualitative feedback.",
+                "ans": false,
+                "feedback": "False. Jargon-infected cues are non-specific and inferior to movement-specific biomechanical feedback."
+            },
+            {
+                "id": 3,
+                "q": "Developing an accurate critical eye for movement evaluation requires years of instructional experience and biomechanical understanding.",
+                "ans": true,
+                "feedback": "True. Assessing technical subtleties and identifying root movement flaws requires extensive experience."
+            },
+            {
+                "id": 4,
+                "q": "The four stages of the qualitative instruction model are Preparation, Observation, Evaluation, and Error Correction.",
+                "ans": true,
+                "feedback": "True. These four stages form the universal integrated pedagogical framework for qualitative skill analysis."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Qualitative analysis evaluates human movement without using **numbers**, relying instead on systematic **visual observation**.",
+                "targets": [
+                    "numbers",
+                    "visual observation"
+                ],
+                "optionsBank": [
+                    "numbers",
+                    "visual observation",
+                    "force plates",
+                    "goniometers",
+                    "calculus"
+                ],
+                "hint": "Differentiates non-numerical analysis from quantitative laboratory measurement."
+            },
+            {
+                "id": 2,
+                "statement": "The qualitative instruction model begins with **preparation** and concludes with targeted **error correction**.",
+                "targets": [
+                    "preparation",
+                    "error correction"
+                ],
+                "optionsBank": [
+                    "preparation",
+                    "error correction",
+                    "acceleration",
+                    "moment of inertia",
+                    "profiling"
+                ],
+                "hint": "Identifies the initial planning stage and final instructional intervention stage."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define qualitative analysis of human motion and explain why it is the primary diagnostic method used by coaches on a daily basis.",
+                "model": "Qualitative analysis is the systematic evaluation of human movement without measuring and using numbers, relying on direct visual observation, video recordings, and sensory feedback. It is the primary daily diagnostic method for coaches because laboratory quantification tools (3D motion capture, force plates) are expensive and impractical on the field. Qualitative analysis allows coaches to discover movement tendencies, evaluate technique against biomechanical principles, and provide immediate, movement-specific feedback to correct technical flaws during practice.",
+                "criteria": [
+                    "Define qualitative analysis as non-numerical evaluation based on visual/sensory observation.",
+                    "Explain why quantitative laboratory equipment is impractical for daily sideline coaching.",
+                    "Highlight the ability to provide immediate, movement-specific feedback to rectify technical errors."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Describe the four integrated stages of the qualitative instruction model (Preparation, Observation, Evaluation, Error Correction) and their pedagogical functions.",
+                "model": "1) Preparation: The analyst acquires deep knowledge of the skill, identifies its objective, divides it into movement phases, determines key segmental movements, and designs an observation plan. 2) Observation: The analyst systematically gathers visual, auditory, tactile, and video evidence of the performance from optimal vantage points. 3) Evaluation: The analyst compares observed movement patterns against ideal biomechanical criteria to diagnose technical flaws and isolate root causes. 4) Error Correction: The analyst delivers targeted, positive, age-appropriate feedback to correct 1-2 key errors before re-observing.",
+                "criteria": [
+                    "Detail Stage 1 (Preparation): skill objectives, phase division, key movements, observation plan.",
+                    "Detail Stage 2 (Observation): multi-sensory data collection and vantage points.",
+                    "Detail Stage 3 (Evaluation) & Stage 4 (Error Correction): diagnosing root errors and delivering targeted feedback."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What is defined as the overall performance goal or main purpose of an athletic skill?",
+                "opts": [
+                    "Skill objective",
+                    "Profile drag",
+                    "Moment of force",
+                    "Boundary layer"
+                ],
+                "correct": 0,
+                "rationale": "An objective can be identified for all skills, representing the overarching performance purpose of the movement."
+            },
+            {
+                "id": 2,
+                "q": "Skills that share similar overall performance objectives are governed by which biomechanical rule?",
+                "opts": [
+                    "They are governed by similar underlying biomechanical principles, simplifying analysis.",
+                    "They require identical muscle cross-sectional areas.",
+                    "They eliminate the law of action-reaction.",
+                    "They must be performed at zero linear velocity."
+                ],
+                "correct": 0,
+                "rationale": "Skills with similar overall objectives (e.g., throwing, kicking, or striking for range) are governed by similar biomechanical principles."
+            },
+            {
+                "id": 3,
+                "q": "For projectile skills aimed at maximizing horizontal distance (range), what is the key mechanical purpose at release or impact?",
+                "opts": [
+                    "Imparting maximal takeoff velocity at the optimal angle of release",
+                    "Minimizing body mass to zero kilograms",
+                    "Achieving static equilibrium prior to landing",
+                    "Maximizing profile drag behind the ball"
+                ],
+                "correct": 0,
+                "rationale": "To maximize horizontal projectile range, the mechanical purpose is to release or strike the object with maximal takeoff velocity at the optimal release angle."
+            },
+            {
+                "id": 4,
+                "q": "Why do analysts divide complex movement skills into logical sequential PHASES?",
+                "opts": [
+                    "To structure the movement into manageable components for teaching, observation, and technical correction",
+                    "To force the athlete into static equilibrium during execution",
+                    "To eliminate the follow-through phase entirely",
+                    "To convert general motion into pure rectilinear translation"
+                ],
+                "correct": 0,
+                "rationale": "Dividing skills into phases breaks complex movement into logical parts, making teaching, observation, and error correction manageable."
+            },
+            {
+                "id": 5,
+                "q": "Which of the following represents a standard five-phase structural division of the baseball pitching skill?",
+                "opts": [
+                    "Windup, Cocking, Acceleration/Ball Release, Deceleration, Follow-through",
+                    "Approach, Plant, Takeoff, Airborne, Landing",
+                    "Glide, Pull, Kick, Glide, Recovery",
+                    "Preparation, Execution, Recovery, Rest, Restart"
+                ],
+                "correct": 0,
+                "rationale": "As detailed in the textbook, pitching a baseball is divided into: (1) windup; (2) cocking; (3) acceleration and ball release; (4) deceleration; and (5) follow-through."
+            },
+            {
+                "id": 6,
+                "q": "What are KEY BODY MOVEMENTS within a skill phase?",
+                "opts": [
+                    "Specific segmental actions that must be performed to satisfy the biomechanical criteria for that phase",
+                    "Random twitch contractions occurring after skill completion",
+                    "Involuntary reflex arm windmilling actions when falling",
+                    "Environmental markings left on the playing surface"
+                ],
+                "correct": 0,
+                "rationale": "Key body movements are specific observable segmental actions that satisfy the biomechanical criteria for a given phase."
+            },
+            {
+                "id": 7,
+                "q": "In the preparatory phase of a soccer kick, what is a crucial key body movement?",
+                "opts": [
+                    "Placing the plant foot directly beside the ball",
+                    "Striking the ball with the heel of the trailing leg",
+                    "Jumping backward away from the ball",
+                    "Closing both eyes at impact"
+                ],
+                "correct": 0,
+                "rationale": "In the preparatory phase of a soccer kick, placing the stance leg foot directly beside the ball is an essential key body movement."
+            },
+            {
+                "id": 8,
+                "q": "How many main phases and subphases are defined for qualitative analysis of the breaststroke in swimming?",
+                "opts": [
+                    "Four main phases and six subphases",
+                    "Ten main phases and two subphases",
+                    "One single continuous phase",
+                    "Three main phases and twelve subphases"
+                ],
+                "correct": 0,
+                "rationale": "As illustrated in Figure 9.9 of the textbook, the breaststroke is broken down into four main phases and six subphases."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which of the following are examples of PRIMARY SKILL OBJECTIVES? (Select all that apply)",
+                "opts": [
+                    "Throwing an opponent in judo",
+                    "Blocking an oncoming tackle in football",
+                    "Propelling a discus for maximum horizontal distance",
+                    "Eliminating the law of gravity during flight"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Throwing an opponent, blocking a tackle, and propelling a discus for maximum distance are primary skill objectives. Gravity cannot be eliminated."
+            },
+            {
+                "id": 2,
+                "q": "Which universal phase names are commonly used when structuralizing discrete athletic skills? (Select all that apply)",
+                "opts": [
+                    "Preparation (or windup)",
+                    "Execution (or acceleration/takeoff)",
+                    "Follow-through (or deceleration/landing)",
+                    "Sub-zero cryogenic hold"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Common phase designations include preparation, execution, takeoff/airborne, and follow-through/deceleration/landing."
+            },
+            {
+                "id": 3,
+                "q": "Which biomechanical criteria must be fulfilled to maximize projectile range in throwing, kicking, or striking sports? (Select all that apply)",
+                "opts": [
+                    "Maximal takeoff or release velocity",
+                    "Optimal angle of release or takeoff",
+                    "Proper release height relative to target surface",
+                    "Zero muscle activation during acceleration"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Maximizing projectile distance requires maximal release velocity, optimal release angle, and appropriate release height."
+            },
+            {
+                "id": 4,
+                "q": "Which key body movements occur during the propulsive pulling subphase of the breaststroke? (Select all that apply)",
+                "opts": [
+                    "Thumbs turned up",
+                    "Shoulders raised clear of the water",
+                    "Forearms sculled inward and backward",
+                    "Legs extended in a rigid layout position with zero flexion"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "During breaststroke pull propulsion, key movements include turning thumbs up, raising shoulders, and sculling forearms inward/backward."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Skills that share similar overall performance objectives are governed by similar biomechanical principles.",
+                "ans": true,
+                "feedback": "True. Common objectives (e.g., throwing/striking for maximum distance) share underlying mechanical principles."
+            },
+            {
+                "id": 2,
+                "q": "Pitching a baseball is a continuous movement skill that cannot be divided into distinct phases.",
+                "ans": false,
+                "feedback": "False. Pitching a baseball is a discrete skill divided into five distinct phases: windup, cocking, acceleration/release, deceleration, and follow-through."
+            },
+            {
+                "id": 3,
+                "q": "Key body movements are the specific observable segmental actions in a phase that satisfy biomechanical criteria.",
+                "ans": true,
+                "feedback": "True. Key movements are segmental actions performed to achieve the phase objective."
+            },
+            {
+                "id": 4,
+                "q": "In the preparatory phase of a soccer kick, plant foot placement beside the ball is irrelevant to kick execution.",
+                "ans": false,
+                "feedback": "False. Stance foot placement beside the ball is a critical key body movement in the preparatory phase."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "To analyze a skill, it is divided into logical **phases**, and within each phase, key **body movements** are identified.",
+                "targets": [
+                    "phases",
+                    "body movements"
+                ],
+                "optionsBank": [
+                    "phases",
+                    "body movements",
+                    "torques",
+                    "boundary layers",
+                    "streamlines"
+                ],
+                "hint": "The structural components used to break down a skill for evaluation."
+            },
+            {
+                "id": 2,
+                "statement": "Pitching a baseball includes a **cocking** phase followed by an **acceleration** and ball release phase.",
+                "targets": [
+                    "cocking",
+                    "acceleration"
+                ],
+                "optionsBank": [
+                    "cocking",
+                    "acceleration",
+                    "stagnation",
+                    "oscillation",
+                    "hovering"
+                ],
+                "hint": "Two sequential phases in baseball pitching mechanics."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain the concept of a 'skill objective' and describe the biomechanical criteria required to maximize horizontal distance in throwing, striking, or kicking skills.",
+                "model": "A skill objective is the overarching performance purpose or main goal defined for a physical action (e.g., throwing a discus, kicking a soccer ball, long jumping). Skills sharing the objective of maximizing horizontal projectile distance are governed by identical biomechanical principles. To fulfill this objective, the athlete must satisfy key mechanical criteria at the instant of release or takeoff: 1) Imparting maximal takeoff/release velocity; 2) Launching at the optimal angle of release; and 3) Maximizing release height relative to landing surface.",
+                "criteria": [
+                    "Define skill objective as the primary purpose of a movement skill.",
+                    "Identify common projectile skills (throwing, kicking, striking for distance).",
+                    "Detail key criteria: maximal release velocity, optimal release angle, and release height."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Detail how dividing a complex skill into sequential phases and key body movements prevents 'observational overload' during coaching evaluation.",
+                "model": "Attempting to evaluate a rapid, complex skill as an undivided whole causes observational overload, leading the coach to miss critical technical flaws. Dividing a skill into logical sequential phases (e.g., windup, cocking, acceleration, deceleration, follow-through) structures the evaluation into manageable components. Identifying specific key body movements within each phase (e.g., plant foot placement in soccer or knee drive in long jump) gives the analyst clear, concrete segmental benchmarks to observe, evaluate, and correct step-by-step.",
+                "criteria": [
+                    "Explain observational overload when analyzing complex skills as undivided wholes.",
+                    "Describe dividing skills into sequential phases (preparation, execution, follow-through).",
+                    "Explain how identifying specific key body movements provides concrete observation targets."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Why must a coach formulate a systematic observation plan before arriving at the field or gym?",
+                "opts": [
+                    "Because athletic movements occur too fast to observe details effectively without a structured strategy",
+                    "Because observation plans eliminate the need to watch the athlete",
+                    "To calculate exact ground reaction forces in real time",
+                    "Because qualitative analysis prohibits video replay"
+                ],
+                "correct": 0,
+                "rationale": "High-speed athletic skills occur too quickly to see specific details without a pre-formulated observation plan specifying what, why, where, and how to observe."
+            },
+            {
+                "id": 2,
+                "q": "What four fundamental questions must an effective observation plan explicitly answer?",
+                "opts": [
+                    "What, Why, Where, and How observation will occur",
+                    "Who, When, How much, and How heavy",
+                    "Distance, Velocity, Force, and Torque",
+                    "Mass, Weight, Gravity, and Friction"
+                ],
+                "correct": 0,
+                "rationale": "As stated in the text, an observation plan identifies what, why, where, and how observation of performance will occur."
+            },
+            {
+                "id": 3,
+                "q": "Which sensory sense, besides vision, provides valuable rhythmic timing information during sprinting or hurdle approaches?",
+                "opts": [
+                    "Auditory sense (hearing footfalls and breathing rhythms)",
+                    "Olfactory sense",
+                    "Gustatory sense",
+                    "Thermoreceptive sense"
+                ],
+                "correct": 0,
+                "rationale": "Auditory information, such as the timing of footfalls or breathing rhythms, provides critical non-visual cues regarding movement cadence and rhythm."
+            },
+            {
+                "id": 4,
+                "q": "In gymnastics and acrobatics, how does a coach utilize tactile and proprioceptive sensing during movement observation?",
+                "opts": [
+                    "Through physical contact during manual spotting to feel force magnitude and spatial deviation",
+                    "By reviewing written force plate graphs after practice",
+                    "By measuring joint angles with a steel goniometer during flight",
+                    "By listening to the gymnast's heart rate monitor"
+                ],
+                "correct": 0,
+                "rationale": "Tactile sensing occurs during manual spotting, where the coach physically feels force production, timing, and body position deviations."
+            },
+            {
+                "id": 5,
+                "q": "What are 'traces or tracks' in qualitative movement analysis?",
+                "opts": [
+                    "Physical environmental markings left by the athlete, such as ski tracks in snow or skate marks on ice",
+                    "Heart rate telemetry printouts",
+                    "Computerized muscle activation EMG signals",
+                    "Written checklist ratings"
+                ],
+                "correct": 0,
+                "rationale": "Traces are environmental marks left by performance, such as ski tracks, figure skating edge traces, or footprints in sand pits."
+            },
+            {
+                "id": 6,
+                "q": "Why should a coach observe a skill from MULTIPLE vantage points and angles?",
+                "opts": [
+                    "A single vantage point can conceal movement errors occurring in other spatial planes.",
+                    "Observing from multiple angles changes the athlete's body mass.",
+                    "Single angles automatically destroy video camera files.",
+                    "Multiple angles make high-speed movements slow down naturally."
+                ],
+                "correct": 0,
+                "rationale": "A single observation angle conceals technique flaws occurring in other anatomical planes; varying vantage points ensures comprehensive evaluation."
+            },
+            {
+                "id": 7,
+                "q": "How does high-speed video recording with slow-motion replay enhance qualitative movement observation?",
+                "opts": [
+                    "It allows the analyst to freeze frame and examine fast, subtle movement details imperceptible to the naked eye.",
+                    "It measures quantitative joint torque in Newton-meters automatically.",
+                    "It eliminates the need for the coach to understand the skill.",
+                    "It replaces the preparation stage of qualitative analysis."
+                ],
+                "correct": 0,
+                "rationale": "Slow-motion video replay permits detailed examination of rapid movement nuances that occur too fast for human visual resolution."
+            },
+            {
+                "id": 8,
+                "q": "What is the recommended general sequence when observing an athletic skill?",
+                "opts": [
+                    "Begin with an overview of the whole skill before zooming in on specific phases and body movements.",
+                    "Zoom in on the finger position first before watching the whole body.",
+                    "Observe only the landing phase and ignore the approach and execution.",
+                    "Observe the athlete only while they are completely stationary at rest."
+                ],
+                "correct": 0,
+                "rationale": "Observation should begin with an analysis of the whole skill to evaluate global flow and rhythm before focusing on isolated phases and key movements."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which multi-sensory data sources can a coach utilize during performance observation? (Select all that apply)",
+                "opts": [
+                    "Visual observation of joint angles and trajectories",
+                    "Auditory tracking of footfall rhythm and breathing",
+                    "Tactile feel during manual spotting in gymnastics",
+                    "Environmental trace marks left on snow, ice, or sand"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Thorough qualitative observation incorporates visual, auditory, tactile/spotting, and environmental trace evidence."
+            },
+            {
+                "id": 2,
+                "q": "Which strategies improve the accuracy of movement observation? (Select all that apply)",
+                "opts": [
+                    "Formulating a pre-planned observation plan (what, why, where, how)",
+                    "Varying the physical vantage point and observation angle",
+                    "Utilizing slow-motion video replay for fast movements",
+                    "Asking the athlete questions to confirm kinesthetic feedback"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four strategies enhance observation accuracy and help coaches capture subtle technical movement details."
+            },
+            {
+                "id": 3,
+                "q": "Which examples illustrate the use of TRACE EVIDENCE in qualitative movement analysis? (Select all that apply)",
+                "opts": [
+                    "Inspecting ski tracks in snow to evaluate turn carving technique",
+                    "Examining figure skating blade traces on ice to check edge control",
+                    "Checking foot plant marks in sand to measure long jump takeoff placement",
+                    "Measuring blood lactate concentration after a 400-meter sprint"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Ski tracks, ice blade traces, and sand footprints are environmental trace evidence. Blood lactate measurement is quantitative physiological testing."
+            },
+            {
+                "id": 4,
+                "q": "Why is relying solely on visual observation from a single fixed angle problematic? (Select all that apply)",
+                "opts": [
+                    "Perspective distortion can obscure joint alignment in non-visible planes.",
+                    "Key segmental actions may be blocked from view by other body parts.",
+                    "High-speed movements may exceed the eye's temporal tracking limits.",
+                    "It automatically forces the coach to calculate quantitative drag coefficients."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Single angles suffer from perspective distortion, anatomical occlusion, and visual speed limitations. Drag coefficient calculation is irrelevant."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Coaches should formulate a systematic observation plan before arriving at the playing field or gym.",
+                "ans": true,
+                "feedback": "True. Pre-planned observation strategies ensure effective sensory data collection during fast athletic movements."
+            },
+            {
+                "id": 2,
+                "q": "Visual observation is the only sensory modality useful in qualitative movement analysis.",
+                "ans": false,
+                "feedback": "False. Auditory cues (rhythm), tactile cues (spotting), and trace evidence provide vital observational data."
+            },
+            {
+                "id": 3,
+                "q": "Observation of a skill should begin with the whole movement before focusing on specific isolated body segments.",
+                "ans": true,
+                "feedback": "True. Analysts should view global skill flow and rhythm first before zooming in on isolated segmental actions."
+            },
+            {
+                "id": 4,
+                "q": "Slow-motion video replay is prohibited in qualitative movement analysis.",
+                "ans": false,
+                "feedback": "False. High-speed video with slow-motion replay is a primary technological tool for observing rapid movement details."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "An observation plan explicitly defines **what**, why, **where**, and how performance observation will occur.",
+                "targets": [
+                    "what",
+                    "where"
+                ],
+                "optionsBank": [
+                    "what",
+                    "where",
+                    "how much",
+                    "acceleration",
+                    "friction"
+                ],
+                "hint": "Two of the core questions answered in a pre-planned observation strategy."
+            },
+            {
+                "id": 2,
+                "statement": "Coaches listen to footfall **rhythms** and inspect environmental **traces** to supplement visual observation.",
+                "targets": [
+                    "rhythms",
+                    "traces"
+                ],
+                "optionsBank": [
+                    "rhythms",
+                    "traces",
+                    "torques",
+                    "vectors",
+                    "coefficients"
+                ],
+                "hint": "Auditory cues and physical markings left on snow/ice/sand."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain why a coach must design a pre-planned observation plan and list the four core questions it must address.",
+                "model": "A coach must design an observation plan prior to arriving at the field because athletic skills occur too quickly for the human eye to capture details without a structured strategy. An effective observation plan prevents observational overload by explicitly answering four core questions: 1) What to observe (which specific phases and key body movements); 2) Why it is being observed (biomechanical criteria); 3) Where to position the observer (vantage points, angles, distance); and 4) How to collect data (multi-sensory cues, checklists, video replay).",
+                "criteria": [
+                    "Explain why high movement speed demands a pre-planned observation strategy.",
+                    "List the four core questions: What, Why, Where, and How observation occurs.",
+                    "Provide examples of vantage points or multi-sensory data collection."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Describe how a track and field coach evaluating a 110m hurdler incorporates multi-sensory observation (visual, auditory, trace evidence, video).",
+                "model": "A coach evaluates a hurdler using multi-sensory techniques: 1) Visual observation from multiple angles (side view for lead-leg extension and clearance height; front view for lateral trunk sway); 2) Auditory observation by listening to the distinct 3-stride footfall rhythm between hurdles; 3) Environmental trace evidence by inspecting shoe marks at takeoff to verify plant distance from the hurdle base; and 4) Video technology by using 240 fps smartphone replay to analyze millisecond braking forces at touchdown.",
+                "criteria": [
+                    "Describe visual observation from multiple angles (sagittal/frontal planes).",
+                    "Describe auditory observation (listening to stride cadence/rhythm).",
+                    "Describe trace evidence (takeoff marks) and video replay (slow-motion kinematic analysis)."
+                ]
+            }
+        ]
+    },
+    "p4": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which of the following is a primary psychological cause of technical movement errors in athletes?",
+                "opts": [
+                    "Lapses in concentration or fear of execution/injury",
+                    "Inadequate muscle cross-sectional area",
+                    "Excessive profile drag",
+                    "High moment of inertia"
+                ],
+                "correct": 0,
+                "rationale": "Errors can arise from psychological factors, such as concentration lapses, judgment errors, or fear of execution."
+            },
+            {
+                "id": 2,
+                "q": "Which physical limitations frequently cause technical performance errors during skill execution?",
+                "opts": [
+                    "Lack of strength, power, endurance, or flexibility",
+                    "Excessive knowledge of results feedback",
+                    "Zero ground reaction force",
+                    "Laminar flow in the boundary layer"
+                ],
+                "correct": 0,
+                "rationale": "Physical limitations like insufficient strength, power, endurance, or flexibility directly prevent athletes from executing proper technique."
+            },
+            {
+                "id": 3,
+                "q": "What is the most common visual technique used by coaches for error detection?",
+                "opts": [
+                    "Direct visual observation, video analysis, and checking performance outcomes or follow-through",
+                    "Mathematical integration of accelerometric signals",
+                    "Electromyographic muscle needle insertion",
+                    "Wind tunnel drag coefficient profiling"
+                ],
+                "correct": 0,
+                "rationale": "Direct visual observation, video analysis, observing follow-through, and checking outcomes are the primary visual techniques for error detection."
+            },
+            {
+                "id": 4,
+                "q": "When an athlete commits a sequence of multiple technical errors across different skill phases, which error should the coach correct FIRST?",
+                "opts": [
+                    "The earliest error in the movement chain",
+                    "The last error during the follow-through phase",
+                    "The error that is easiest to ignore",
+                    "All errors simultaneously in a single sentence"
+                ],
+                "correct": 0,
+                "rationale": "Coaches should begin with the earliest error in the movement chain, as this foundational mistake frequently induces downstream errors."
+            },
+            {
+                "id": 5,
+                "q": "How many technical faults should a coach attempt to correct at one time before re-observing the athlete's performance?",
+                "opts": [
+                    "Only one or two faults",
+                    "Five to ten faults simultaneously",
+                    "Every single observed mistake at once",
+                    "None; coaches should never correct faults"
+                ],
+                "correct": 0,
+                "rationale": "To prevent cognitive overload, coaches should correct only one or two faults at a time before re-observing the skill."
+            },
+            {
+                "id": 6,
+                "q": "What type of language should conscientious coaches use when delivering verbal error corrections?",
+                "opts": [
+                    "Positive, specific, movement-focused language appropriate to developmental level",
+                    "Vague, negative jargon like 'don't fall' or 'do better'",
+                    "Complex mathematical equations and raw physics formulas",
+                    "Continuous shouting without waiting for athlete feedback"
+                ],
+                "correct": 0,
+                "rationale": "Effective error correction requires positive, specific language tailored to the athlete's age, developmental level, and competitive status."
+            },
+            {
+                "id": 7,
+                "q": "Why do conscientious coaches ask athletes for feedback after providing technical correction instructions?",
+                "opts": [
+                    "To check if the correction instructions were received and understood as intended",
+                    "To calculate the athlete's exact reaction time",
+                    "To pass the time between practice drills",
+                    "To eliminate the need for future observation"
+                ],
+                "correct": 0,
+                "rationale": "Asking for feedback verifies that the athlete accurately comprehended the instructional correction as intended by the coach."
+            },
+            {
+                "id": 8,
+                "q": "Why must an instructor minimize environmental distractions before delivering error correction feedback?",
+                "opts": [
+                    "To ensure the athlete can focus cognitive attention entirely on the instructional cues",
+                    "To reduce surface drag on the playing field",
+                    "To prevent the line of gravity from shifting",
+                    "To increase the athlete's body mass"
+                ],
+                "correct": 0,
+                "rationale": "Minimizing environmental distractions ensures that the athlete's cognitive focus is fully directed toward receiving and processing the correction cues."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which factors can cause an athlete to make performance errors during skill execution? (Select all that apply)",
+                "opts": [
+                    "Psychological factors (concentration lapses, fear of execution)",
+                    "Cognitive/judgment errors and poor tactical decision-making",
+                    "Physical limitations (lack of strength, power, endurance, flexibility)",
+                    "Entrenched poor movement habits from prior practice"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four options represent recognized textbook causes of athletic performance errors."
+            },
+            {
+                "id": 2,
+                "q": "Which methods are effectively used by coaches for ERROR DETECTION? (Select all that apply)",
+                "opts": [
+                    "Direct visual observation of movement execution",
+                    "Analyzing video recordings and slow-motion replays",
+                    "Observing performance outcomes (e.g., ball placement) and follow-through",
+                    "Using structured rating charts, checklists, and athlete self-reporting"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Visual observation, video replay, outcome/follow-through inspection, and checklists are valid error detection methods."
+            },
+            {
+                "id": 3,
+                "q": "Which pedagogical rules should a coach follow during ERROR CORRECTION? (Select all that apply)",
+                "opts": [
+                    "Correct the earliest root error in the movement chain first.",
+                    "Limit feedback to one or two faults at a time.",
+                    "Use positive, specific, age-appropriate language.",
+                    "Verify that instructions were understood as intended."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Addressing root errors first, limiting feedback, using positive specific language, and checking understanding are key correction rules."
+            },
+            {
+                "id": 4,
+                "q": "Why is correcting the EARLIEST error in a movement chain critical? (Select all that apply)",
+                "opts": [
+                    "Errors in early phases (windup/preparation) create cascading secondary errors in later phases.",
+                    "Fixing the root cause frequently automatically resolves downstream execution faults.",
+                    "It prevents wasting instructional time on secondary symptoms.",
+                    "It guarantees that the athlete's mass will double instantly."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Early errors induce cascading downstream faults; correcting the root cause fixes secondary symptoms. Body mass is unaffected."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Performance errors in athletes can result from psychological factors, judgment errors, or physical limitations like lack of strength.",
+                "ans": true,
+                "feedback": "True. Performance flaws stem from diverse psychological, cognitive, physiological, and habit-based causes."
+            },
+            {
+                "id": 2,
+                "q": "When an athlete makes several mistakes, the coach should correct the last error during follow-through first.",
+                "ans": false,
+                "feedback": "False. Coaches should correct the earliest error in the movement chain first to resolve cascading secondary errors."
+            },
+            {
+                "id": 3,
+                "q": "Coaches should limit corrections to one or two faults at a time before re-observing the skill.",
+                "ans": true,
+                "feedback": "True. Limiting feedback points prevents cognitive overload and allows focused motor adjustments."
+            },
+            {
+                "id": 4,
+                "q": "Conscientious coaches ask athletes for feedback to check if correction instructions were received and understood as intended.",
+                "ans": true,
+                "feedback": "True. Verifying instruction reception ensures clear communication and effective motor learning."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "When multiple errors occur, correct the **earliest** error in the chain first and limit feedback to **one or two** faults.",
+                "targets": [
+                    "earliest",
+                    "one or two"
+                ],
+                "optionsBank": [
+                    "earliest",
+                    "one or two",
+                    "latest",
+                    "ten to twelve",
+                    "random"
+                ],
+                "hint": "The sequence priority rule and the feedback quantity rule."
+            },
+            {
+                "id": 2,
+                "statement": "Instructional feedback should use **positive** language and instructors should check if cues were received as **intended**.",
+                "targets": [
+                    "positive",
+                    "intended"
+                ],
+                "optionsBank": [
+                    "positive",
+                    "intended",
+                    "negative",
+                    "accidental",
+                    "calculative"
+                ],
+                "hint": "The required language tone and communication verification step."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain why a coach must address the 'earliest error' in a movement chain first, giving a sport example of how a primary error causes secondary symptoms.",
+                "model": "A coach must address the earliest error first because mistakes made during early movement phases (preparation or windup) create cascading secondary errors in execution and follow-through. Correcting the initial root error frequently automatically resolves downstream symptoms without overwhelming the athlete. For example, in a soccer goal kick, if an athlete places their plant foot too far behind the ball (earliest root error during preparation), they are forced to lean backward excessively at impact, causing the ball to sail high over the crossbar (secondary symptom). Correcting plant foot placement first automatically fixes trunk lean and shot trajectory.",
+                "criteria": [
+                    "Explain that early errors cause cascading secondary errors in downstream movement phases.",
+                    "Highlight that correcting root causes automatically resolves secondary symptoms.",
+                    "Provide a clear sporting example (e.g. soccer kick plant foot placement or golf backswing grip)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Detail four communication and pedagogical principles that a coach should follow during error correction to maximize motor skill learning.",
+                "model": "1) Correct the earliest root error first: Address the foundational mistake in the movement chain to resolve cascading flaws. 2) Limit feedback quantity: Correct only one or two faults at a time to prevent cognitive overload. 3) Use positive and specific language: Describe clearly what the athlete SHOULD do using age-appropriate technical cues rather than negative jargon. 4) Verify understanding and minimize distractions: Ensure a quiet environment and ask the athlete to restate instructions to confirm cues were received as intended.",
+                "criteria": [
+                    "Detail addressing the earliest root error first.",
+                    "Detail limiting feedback to 1-2 points to avoid cognitive overload.",
+                    "Detail positive, specific, age-appropriate language.",
+                    "Detail verifying understanding and minimizing environmental distractions."
+                ]
+            }
+        ]
+    }
+}

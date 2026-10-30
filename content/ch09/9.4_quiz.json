@@ -1,0 +1,747 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which of Sir Isaac Newton's laws of motion describes the fundamental relationship between a body's physical inertia and unbalanced external forces?",
+                "opts": [
+                    "Newton's First Law of Motion (Law of Inertia)",
+                    "Newton's Second Law of Motion (Law of Acceleration)",
+                    "Newton's Third Law of Motion (Law of Action-Reaction)",
+                    "Newton's Law of Universal Gravitation"
+                ],
+                "correct": 0,
+                "rationale": "Newton's First Law of Motion, designated as the Law of Inertia, describes how objects maintain their state of rest or constant motion unless acted upon by an unbalanced external force."
+            },
+            {
+                "id": 2,
+                "q": "According to Newton's First Law, what state of motion will an object maintain if no unbalanced external force acts upon it?",
+                "opts": [
+                    "Remaining at rest, maintaining a constant linear velocity, or continuing in uniform circular motion",
+                    "Accelerating continuously at a constant rate",
+                    "Gradually slowing down until it comes to a complete stop",
+                    "Randomly changing its direction and velocity"
+                ],
+                "correct": 0,
+                "rationale": "The Law of Inertia dictates that without an unbalanced external force, an object will remain at rest, continue moving at a constant linear velocity, or maintain uniform circular rotation."
+            },
+            {
+                "id": 3,
+                "q": "Why is a football lineman significantly more difficult to move out of position at rest compared to a young gymnast?",
+                "opts": [
+                    "The lineman possesses a much larger body mass, resulting in greater physical inertia.",
+                    "The lineman experiences higher gravitational acceleration than the gymnast.",
+                    "The gymnast has no inertia while standing still on the mat.",
+                    "The lineman generates zero ground reaction force."
+                ],
+                "correct": 0,
+                "rationale": "Inertia is directly proportional to mass. Football linemen have a large mass and therefore large inertia, requiring a much greater external force to alter their resting state."
+            },
+            {
+                "id": 4,
+                "q": "Why do spotting coaches require smaller amounts of force to manipulate a young gymnast's body during acrobatic spotting compared to an adult athlete?",
+                "opts": [
+                    "Because the gymnast's small body mass gives them relatively low physical inertia.",
+                    "Because gymnasts eliminate the force of gravity during flight.",
+                    "Because young gymnasts do not obey Newton's First Law of Motion.",
+                    "Because spotting coaches generate infinite internal muscle force."
+                ],
+                "correct": 0,
+                "rationale": "Because young gymnasts possess a small body mass, their physical inertia is low, requiring smaller external forces to alter their state of motion."
+            },
+            {
+                "id": 5,
+                "q": "What happens to a moving object once it is set into motion if no external forces (such as friction or gravity) act upon it?",
+                "opts": [
+                    "It continues moving at a constant velocity in a straight line indefinitely.",
+                    "It gradually loses kinetic energy and stops.",
+                    "It begins to rotate around its center of mass.",
+                    "Its acceleration increases exponentially."
+                ],
+                "correct": 0,
+                "rationale": "An object in motion will tend to stay in motion with constant velocity in a straight line unless acted upon by an unbalanced external force."
+            },
+            {
+                "id": 6,
+                "q": "At the starting blocks of a 100-meter dash, what must a sprinter generate to break their initial state of resting inertia?",
+                "opts": [
+                    "An unbalanced external force acting on their body mass",
+                    "A state of constant velocity",
+                    "Zero net ground reaction force",
+                    "A balanced internal muscle contraction"
+                ],
+                "correct": 0,
+                "rationale": "To break a resting state (v = 0 m/s), an athlete must experience an unbalanced external force (from the starting blocks) acting on their mass."
+            },
+            {
+                "id": 7,
+                "q": "Which term describes the rotational equivalent of linear inertia regarding spinning bodies?",
+                "opts": [
+                    "Rotational inertia (Moment of inertia)",
+                    "Linear momentum",
+                    "Gravitational constant",
+                    "Translational displacement"
+                ],
+                "correct": 0,
+                "rationale": "Newton's First Law applies to rotational motion, stating that a body continues in uniform circular motion about a fixed axis unless acted upon by an unbalanced moment of force (torque)."
+            },
+            {
+                "id": 8,
+                "q": "If the vector sum of all external forces acting on an athlete equals zero (\\(\\sum \\mathbf{F} = 0\\)), what is the athlete's acceleration?",
+                "opts": [
+                    "Identically zero (\\(a = 0\\text{ m/s}^2\\))",
+                    "Constant positive acceleration",
+                    "Inversely proportional to mass",
+                    "Equal to 9.81 m/s²"
+                ],
+                "correct": 0,
+                "rationale": "When net external force is zero, there is no unbalanced force to overcome inertia, resulting in zero acceleration (constant velocity or rest)."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which statements accurately describe Newton's First Law of Motion? (Select all that apply)",
+                "opts": [
+                    "Objects at rest tend to stay at rest unless acted on by an unbalanced external force.",
+                    "Objects in motion tend to stay in motion at a constant velocity unless acted on by an unbalanced external force.",
+                    "Physical inertia is directly proportional to an object's mass.",
+                    "Acceleration is equal to force multiplied by mass."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Newton's First Law states objects maintain rest or constant velocity unless disturbed by an unbalanced net force, and inertia depends on mass. F = m * a is Newton's Second Law."
+            },
+            {
+                "id": 2,
+                "q": "Which athletic examples illustrate the concept of mass-dependent inertia? (Select all that apply)",
+                "opts": [
+                    "A heavy football lineman requiring a large force to move out of position at rest",
+                    "A moving football lineman being difficult for a quarterback to stop due to high linear momentum",
+                    "A young gymnast requiring smaller spotting forces due to their small body mass",
+                    "A sprinter accelerating without applying any ground reaction force"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Heavy linemen have large inertia (hard to move, hard to stop), while young gymnasts have low inertia (easy to spot). Sprinters must apply ground forces to accelerate."
+            },
+            {
+                "id": 3,
+                "q": "Which states of motion will persist under zero net external force according to the Law of Inertia? (Select all that apply)",
+                "opts": [
+                    "A state of static rest (\\(v = 0\\text{ m/s}\\))",
+                    "A state of constant linear velocity in a straight line",
+                    "Uniform circular motion about a fixed axis of rotation",
+                    "Continuous linear acceleration down a track"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Zero net force maintains static rest, constant linear velocity, or uniform circular rotation. Acceleration requires a net unbalanced force."
+            },
+            {
+                "id": 4,
+                "q": "What factors make stopping a moving athlete difficult according to Newton's First Law? (Select all that apply)",
+                "opts": [
+                    "A large body mass (\\(m\\))",
+                    "A high linear velocity (\\(v\\))",
+                    "Greater physical inertia resisting changes in motion",
+                    "Complete absence of external reaction forces"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Greater mass and velocity increase linear momentum (\\(p = m \\cdot v\\)) and inertia, making an athlete harder to decelerate."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Newton's First Law of Motion states that an object will change its state of motion only when acted upon by an unbalanced external force.",
+                "ans": true,
+                "feedback": "True. Objects maintain rest or uniform velocity unless an unbalanced net external force (or moment of force) acts upon them."
+            },
+            {
+                "id": 2,
+                "q": "A football lineman has less physical inertia than a young gymnast because of their larger body mass.",
+                "ans": false,
+                "feedback": "False. Inertia is directly proportional to mass; therefore, a heavy football lineman has significantly greater inertia than a lightweight gymnast."
+            },
+            {
+                "id": 3,
+                "q": "An athlete moving at a constant velocity of 5 m/s in a straight line experiences zero net external acceleration.",
+                "ans": true,
+                "feedback": "True. Constant velocity means acceleration is zero, indicating that all external forces acting on the athlete are balanced."
+            },
+            {
+                "id": 4,
+                "q": "Rotational motion around a fixed axis does not follow the Law of Inertia.",
+                "ans": false,
+                "feedback": "False. Newton's First Law explicitly applies to rotational motion, stating bodies maintain uniform circular motion unless acted upon by an unbalanced moment of force."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Newton's First Law of Motion is also known as the Law of **Inertia**, which dictates that body mass determines resistance to changes in **motion**.",
+                "targets": [
+                    "Inertia",
+                    "motion"
+                ],
+                "optionsBank": [
+                    "Inertia",
+                    "motion",
+                    "Acceleration",
+                    "Gravity",
+                    "Friction"
+                ],
+                "hint": "The name of Newton's 1st law and the physical property it resists changing."
+            },
+            {
+                "id": 2,
+                "statement": "An object at rest remains at rest unless acted upon by an **unbalanced** external **force**.",
+                "targets": [
+                    "unbalanced",
+                    "force"
+                ],
+                "optionsBank": [
+                    "unbalanced",
+                    "force",
+                    "internal",
+                    "torque",
+                    "velocity"
+                ],
+                "hint": "The required net state and type of physical action needed to alter motion."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain Newton's First Law of Motion (Law of Inertia) and compare how it applies to a 130 kg football lineman versus a 35 kg gymnast at rest and in motion.",
+                "model": "Newton's First Law of Motion states that an object will remain at rest or continue moving at a constant velocity unless acted upon by an unbalanced external force. Because inertia is directly proportional to mass, the 130 kg football lineman possesses high inertia. At rest, overcoming the lineman's inertia requires a massive external force; once in motion, stopping them requires a similarly large force. Conversely, the 35 kg gymnast has low mass and low inertia, requiring much smaller external forces for a spotting coach to manipulate or halt their movement.",
+                "criteria": [
+                    "State Newton's First Law of Motion accurately.",
+                    "Explain that physical inertia is directly proportional to body mass.",
+                    "Compare the large force required to move/stop a heavy lineman vs. the smaller force needed for a lightweight gymnast."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Describe how a sprinter at the starting blocks overcomes resting inertia to begin accelerating down the track.",
+                "model": "At the starting blocks, a sprinter is in a static resting state with a velocity of 0 m/s. According to Newton's First Law, the sprinter will remain at rest until an unbalanced external force acts on their body mass. To break this resting inertia, the sprinter generates explosive internal muscle contractions in their legs, exerting a large backward force against the block pedals. The blocks exert an equal and opposite unbalanced external reaction force forward against the sprinter, overcoming resting inertia and driving linear acceleration down the track.",
+                "criteria": [
+                    "Identify the sprinter's initial state as static rest (zero velocity).",
+                    "Explain that an unbalanced external force is required to break resting inertia.",
+                    "Detail how internal muscle contraction produces an external reaction force from the blocks to initiate motion."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which of Sir Isaac Newton's laws of motion quantifies the mathematical relationship between net force, mass, and acceleration?",
+                "opts": [
+                    "Newton's Second Law of Motion (Law of Acceleration)",
+                    "Newton's First Law of Motion (Law of Inertia)",
+                    "Newton's Third Law of Motion (Law of Action-Reaction)",
+                    "Newton's Law of Universal Gravitation"
+                ],
+                "correct": 0,
+                "rationale": "Newton's Second Law of Motion is known as the Law of Acceleration, defining the relationship \\(F = m \\cdot a\\) (or \\(a = \\frac{F}{m}\\))."
+            },
+            {
+                "id": 2,
+                "q": "According to Newton's Second Law, linear acceleration (\\(a\\)) is directly proportional to which variable?",
+                "opts": [
+                    "The net force (\\(F\\)) causing it",
+                    "The mass (\\(m\\)) of the body",
+                    "The square of the body's velocity (\\(v^2\\))",
+                    "The distance traveled (\\(d\\))"
+                ],
+                "correct": 0,
+                "rationale": "Newton's Second Law states that acceleration is directly proportional to the applied net force (\\(a = \\frac{F}{m}\\))."
+            },
+            {
+                "id": 3,
+                "q": "According to Newton's Second Law, linear acceleration (\\(a\\)) is INVERSELY proportional to which variable?",
+                "opts": [
+                    "The mass (\\(m\\)) of the body",
+                    "The net force (\\(F\\)) causing it",
+                    "The direction of the applied force",
+                    "The gravitational acceleration constant (\\(g\\))"
+                ],
+                "correct": 0,
+                "rationale": "Linear acceleration is inversely proportional to body mass (\\(a = \\frac{F}{m}\\)), meaning greater mass results in less acceleration for a given force."
+            },
+            {
+                "id": 4,
+                "q": "What is the mathematical equation used to calculate linear acceleration (\\(a\\)) when net force (\\(F\\)) and mass (\\(m\\)) are known?",
+                "opts": [
+                    "\\(\\text{Acceleration} = \\frac{\\text{Force}}{\\text{Mass}}\\)",
+                    "\\(\\text{Acceleration} = \\text{Force} \\times \\text{Mass}\\)",
+                    "\\(\\text{Acceleration} = \\frac{\\text{Mass}}{\\text{Force}}\\)",
+                    "\\(\\text{Acceleration} = \\text{Force} + \\text{Mass}\\)"
+                ],
+                "correct": 0,
+                "rationale": "As highlighted in the textbook note, Acceleration = Force / Mass (\\(a = \\frac{F}{m}\\))."
+            },
+            {
+                "id": 5,
+                "q": "For angular movements, what variable is angular acceleration directly proportional to?",
+                "opts": [
+                    "The moment of force (torque) causing it",
+                    "The linear displacement of the center of mass",
+                    "The total body mass in kilograms",
+                    "The gravitational force vector"
+                ],
+                "correct": 0,
+                "rationale": "For angular motion, angular acceleration (\\(\\alpha\\)) is directly proportional to the moment of force (torque, \\(\\tau\\)) causing it (\\(\\alpha = \\frac{\\tau}{I}\\))."
+            },
+            {
+                "id": 6,
+                "q": "How does a diver increase their angular acceleration about their center of mass when launching off a springboard?",
+                "opts": [
+                    "By experiencing a moment of force (torque) upon contact with the springboard",
+                    "By increasing their body mass while airborne",
+                    "By eliminating all external reaction forces",
+                    "By remaining in a completely motionless layout position"
+                ],
+                "correct": 0,
+                "rationale": "Divers experience a moment of force (torque) on their bodies upon springboard contact, inducing angular acceleration about their axis of rotation."
+            },
+            {
+                "id": 7,
+                "q": "When a hockey player delivers a body check to an opponent, what happens to the opponent according to Newton's Second Law?",
+                "opts": [
+                    "The opponent experiences an unbalanced force and accelerates in the direction of the check into the boards.",
+                    "The opponent moves in the opposite direction of the applied checking force.",
+                    "The opponent's body mass instantaneously drops to zero.",
+                    "The opponent experiences zero change in linear velocity."
+                ],
+                "correct": 0,
+                "rationale": "Applying an unbalanced external force to an opponent's mass causes the opponent to accelerate in the direction of the force into the boards."
+            },
+            {
+                "id": 8,
+                "q": "At the end of a race, how does a sprinter decelerate (experience negative acceleration) to come to a stop?",
+                "opts": [
+                    "By applying a large unbalanced force against the track in the direction opposite to their forward motion",
+                    "By increasing their forward horizontal ground force",
+                    "By allowing gravity to reduce their body mass",
+                    "By maintaining a constant zero net force"
+                ],
+                "correct": 0,
+                "rationale": "Deceleration is negative acceleration. To decelerate, sprinters apply ground reaction forces in the direction opposite to their forward movement."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which mathematical relationships correctly express Newton's Second Law of Motion? (Select all that apply)",
+                "opts": [
+                    "Force = Mass × Acceleration (\\(F = m \\cdot a\\))",
+                    "Acceleration = Force / Mass (\\(a = \\frac{F}{m}\\))",
+                    "Torque = Moment of Inertia × Angular Acceleration (\\(\\tau = I \\cdot \\alpha\\))",
+                    "Mass = Force × Acceleration (\\(m = F \\cdot a\\))"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "\\(F = m \\cdot a\\) and \\(a = \\frac{F}{m}\\) govern linear acceleration, while \\(\\tau = I \\cdot \\alpha\\) governs angular acceleration. \\(m = F \\cdot a\\) is mathematically incorrect."
+            },
+            {
+                "id": 2,
+                "q": "Which statements regarding linear acceleration are TRUE according to Newton's Second Law? (Select all that apply)",
+                "opts": [
+                    "Acceleration takes place in the exact same direction as the applied net force.",
+                    "Increasing the applied force while keeping mass constant increases acceleration.",
+                    "Increasing body mass while keeping applied force constant decreases acceleration.",
+                    "Acceleration is independent of both force and mass."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Acceleration occurs in the direction of net force, is directly proportional to force, and is inversely proportional to mass."
+            },
+            {
+                "id": 3,
+                "q": "Which athletic scenarios demonstrate Newton's Second Law of Motion in action? (Select all that apply)",
+                "opts": [
+                    "A sprinter applying a large horizontal force against starting blocks to achieve high initial acceleration",
+                    "A hockey player body checking an opponent, accelerating them into the boards",
+                    "A diver experiencing springboard torque to increase angular acceleration into somersaults",
+                    "A runner maintaining constant velocity with zero net external force"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Sprinting starts, hockey body checks, and springboard diving all involve unbalanced forces/torques causing linear or angular acceleration. Constant velocity exemplifies Newton's 1st Law."
+            },
+            {
+                "id": 4,
+                "q": "What happens if a 80 kg sprinter and a 60 kg sprinter both apply an identical net horizontal force of 400 N against starting blocks? (Select all that apply)",
+                "opts": [
+                    "The 60 kg sprinter experiences greater acceleration because of smaller body mass.",
+                    "The 80 kg sprinter experiences an acceleration of \\(5\\text{ m/s}^2\\) (\\(a = \\frac{400}{80}\\)).",
+                    "The 60 kg sprinter experiences an acceleration of \\(6.67\\text{ m/s}^2\\) (\\(a = \\frac{400}{60}\\)).",
+                    "Both sprinters experience identical linear acceleration."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Using \\(a = \\frac{F}{m}\\): 80 kg sprinter accelerates at \\(400/80 = 5\\text{ m/s}^2\\); 60 kg sprinter accelerates at \\(400/60 = 6.67\\text{ m/s}^2\\). Smaller mass yields higher acceleration."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Newton's Second Law states that acceleration is inversely proportional to the net force applied to a body.",
+                "ans": false,
+                "feedback": "False. Acceleration is directly proportional to net force and inversely proportional to mass."
+            },
+            {
+                "id": 2,
+                "q": "The linear acceleration experienced by a body takes place in the same direction as the force causing it.",
+                "ans": true,
+                "feedback": "True. Direction of acceleration always matches the direction of the net applied force vector."
+            },
+            {
+                "id": 3,
+                "q": "In angular motion, angular acceleration is directly proportional to the moment of force (torque) acting on the body.",
+                "ans": true,
+                "feedback": "True. Rotational acceleration is governed by \\(\\alpha = \\frac{\\tau}{I}\\), directly proportional to torque."
+            },
+            {
+                "id": 4,
+                "q": "Doubling the mass of an object while keeping the applied force constant will double its acceleration.",
+                "ans": false,
+                "feedback": "False. Acceleration is inversely proportional to mass; doubling mass cuts acceleration in half (\\(a = \\frac{F}{2m}\\))."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Newton's Second Law states that acceleration is directly proportional to **force** and inversely proportional to **mass**.",
+                "targets": [
+                    "force",
+                    "mass"
+                ],
+                "optionsBank": [
+                    "force",
+                    "mass",
+                    "velocity",
+                    "inertia",
+                    "displacement"
+                ],
+                "hint": "The numerator and denominator in the linear acceleration formula."
+            },
+            {
+                "id": 2,
+                "statement": "The mathematical formula for linear acceleration is Acceleration equals **Force** divided by **Mass**.",
+                "targets": [
+                    "Force",
+                    "Mass"
+                ],
+                "optionsBank": [
+                    "Force",
+                    "Mass",
+                    "Torque",
+                    "Gravity",
+                    "Inertia"
+                ],
+                "hint": "The two variables used to calculate \\(a = \\frac{F}{m}\\)."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "State Newton's Second Law of Motion for both linear and angular movements, including their mathematical equations.",
+                "model": "For linear movements, Newton's Second Law (Law of Acceleration) states that a body's acceleration (\\(a\\)) is directly proportional to the net force (\\(F\\)) causing it, occurs in the direction of the force, and is inversely proportional to body mass (\\(m\\)), expressed as \\(F = m \\cdot a\\) or \\(a = \\frac{F}{m}\\). For angular movements, angular acceleration (\\(\\alpha\\)) is directly proportional to the moment of force (torque, \\tau) causing it, occurs in the direction of the torque, and is inversely proportional to moment of inertia (\\(I\\)), expressed as \\tau = I \\cdot \\alpha or \\alpha = \\frac{\\tau}{I}.",
+                "criteria": [
+                    "State the linear law and formula \\(F = m \\cdot a\\) (\\(a = \\frac{F}{m}\\)).",
+                    "State the angular law and formula \\(\\tau = I \\cdot \\alpha\\) (\\(\\alpha = \\frac{\\tau}{I}\\)).",
+                    "Explain direct proportionality to force/torque and inverse proportionality to mass/moment of inertia."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Using \\(a = \\frac{F}{m}\\), explain why a sprinter strives to maximize ground force production at race start, and calculate acceleration for a 70 kg sprinter applying a net force of 350 N.",
+                "model": "According to \\(a = \\frac{F}{m}\\), linear acceleration is directly proportional to net force. To maximize acceleration out of the blocks, a sprinter must maximize horizontal force production (\\(F\\)) against their body mass (\\(m\\)). For a 70 kg sprinter applying a net horizontal force of 350 N, linear acceleration is calculated as \\(a = \\frac{350\\text{ N}}{70\\text{ kg}} = 5\\text{ m/s}^2\\) in the forward direction.",
+                "criteria": [
+                    "Explain direct proportionality between net force and acceleration.",
+                    "Apply the formula \\(a = \\frac{F}{m}\\) using 350 N and 70 kg.",
+                    "Provide the correct calculated result (\\(5\\text{ m/s}^2\\))."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which of Sir Isaac Newton's laws of motion is known as the Action-Reaction Principle?",
+                "opts": [
+                    "Newton's Third Law of Motion",
+                    "Newton's First Law of Motion",
+                    "Newton's Second Law of Motion",
+                    "Newton's Law of Inertia"
+                ],
+                "correct": 0,
+                "rationale": "Newton's Third Law of Motion is the Action-Reaction principle, stating that every action has an equal and opposite reaction."
+            },
+            {
+                "id": 2,
+                "q": "According to Newton's Third Law, when a sprinter's foot exerts a backward/downward force onto starting blocks, what force do the blocks exert?",
+                "opts": [
+                    "An equal magnitude force in the opposite (forward/upward) direction onto the sprinter's foot",
+                    "A smaller force in the same direction onto the track",
+                    "A larger force perpendicular to the sprinter's body",
+                    "Zero force because starting blocks are inanimate"
+                ],
+                "correct": 0,
+                "rationale": "Newton's Third Law dictates that action and reaction forces are equal in magnitude and opposite in direction. The blocks push forward/upward on the sprinter."
+            },
+            {
+                "id": 3,
+                "q": "From where do external propulsive forces originate when an athlete accelerates across ice or a running track?",
+                "opts": [
+                    "Internal muscle forces push against the environment, and the environment exerts an equal and opposite reaction force back onto the body.",
+                    "External forces arise spontaneously without internal muscle contraction.",
+                    "Gravity converts directly into horizontal forward translation.",
+                    "Air resistance pulls the athlete forward down the track."
+                ],
+                "correct": 0,
+                "rationale": "Athletes generate internal muscle forces to push against contact surfaces (ice, track); the surface's equal and opposite reaction force propels the athlete."
+            },
+            {
+                "id": 4,
+                "q": "During walking and running gait, why do athletes drive the left leg and right arm forward simultaneously?",
+                "opts": [
+                    "To create countermovements that twist hips and shoulders in opposite directions, preventing total body twisting",
+                    "To double total body mass during stance phase",
+                    "To eliminate ground reaction forces completely",
+                    "To prevent the feet from touching the ground"
+                ],
+                "correct": 0,
+                "rationale": "Opposite arm and leg movements create countermovements that twist upper and lower body parts in opposite directions, neutralizing torso rotation and balancing forces."
+            },
+            {
+                "id": 5,
+                "q": "In the long jump, how does an airborne athlete use the action-reaction principle during landing preparation?",
+                "opts": [
+                    "Flexing the upper body forward at the hip (action) causes the lower body and legs to swing forward (reaction) for maximum jump distance.",
+                    "Extending the upper body backward causes the legs to drop vertically downward.",
+                    "Twisting the shoulders left causes the legs to twist to the left.",
+                    "Holding all limbs rigid increases flight time."
+                ],
+                "correct": 0,
+                "rationale": "As described in the athletic jumping note, bringing the upper body forward around hips (action) causes lower body/legs to bend forward around hips (reaction) to extend reach."
+            },
+            {
+                "id": 6,
+                "q": "In handball throwing, what countermovement reaction prevents whole-body twisting and increases throwing power?",
+                "opts": [
+                    "Twisting the hips forward in the opposite direction to the throwing shoulder action",
+                    "Jumping backward away from the goal line",
+                    "Flexing both knees into a deep squat position",
+                    "Extending the non-throwing arm directly upward"
+                ],
+                "correct": 0,
+                "rationale": "Moving shoulder/arm forward (action) is accompanied by twisting hips forward in opposite direction (reaction), stabilizing trajectory and engaging trunk musculature."
+            },
+            {
+                "id": 7,
+                "q": "When a hockey player's skate blade pushes backward and laterally against the ice, what reaction force drives forward skating motion?",
+                "opts": [
+                    "The ice pushes forward and medially against the skate blade.",
+                    "The boards push backward against the player's stick.",
+                    "Gravity pushes horizontally against the player's chest.",
+                    "The air exerts a forward vacuum pull."
+                ],
+                "correct": 0,
+                "rationale": "Pushing backward/laterally against ice (action) causes the ice to push back forward/medially against the skate blade (reaction), propelling the skater."
+            },
+            {
+                "id": 8,
+                "q": "Who controls the magnitude and direction of the ground reaction force experienced during a sprint start?",
+                "opts": [
+                    "The athlete, through the magnitude and direction of their internal muscle forces exerted against the surface",
+                    "The starting block manufacturer, through pedal angle settings",
+                    "The stadium atmosphere, through ambient air pressure",
+                    "The timing clock operator"
+                ],
+                "correct": 0,
+                "rationale": "Reaction force is the mirror image of the action force. The athlete completely controls reaction force by controlling their internal muscle actions against blocks."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which characteristics correctly describe Newton's Third Law of Motion? (Select all that apply)",
+                "opts": [
+                    "Every action force has an equal and opposite reaction force.",
+                    "Action and reaction forces act simultaneously on two separate bodies.",
+                    "Reaction forces are equal in magnitude but opposite in direction to action forces.",
+                    "Action and reaction forces act on the same single body and cancel each other out."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Newton's 3rd Law involves equal and opposite forces acting simultaneously on TWO separate interacting bodies. They do not cancel out because they act on different objects."
+            },
+            {
+                "id": 2,
+                "q": "Which athletic countermovements demonstrate the Action-Reaction principle? (Select all that apply)",
+                "opts": [
+                    "Arm and leg cross-countermovements during walking and running gait",
+                    "Upper body forward hip flexion causing lower body forward leg extension in long jump landing",
+                    "Shoulder forward throwing motion countered by hip rotation in handball",
+                    "A sprinter remaining completely motionless in starting blocks"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Gait arm/leg countermovements, long jump landing leg positioning, and handball throw hip/shoulder actions all utilize action-reaction countermovements."
+            },
+            {
+                "id": 3,
+                "q": "Which external forces act upon a hockey player skating on an ice rink? (Select all that apply)",
+                "opts": [
+                    "Reaction force from the ice pushing back against skate blades",
+                    "Force of gravity pulling down on body mass",
+                    "Reaction force from arena boards during a body check impact",
+                    "Weight of the hockey stick and equipment"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Ice reaction forces, gravity, board collision impact reaction forces, and equipment weight are all external forces acting on the skater."
+            },
+            {
+                "id": 4,
+                "q": "How does cross-country skiing utilize Newton's Third Law for forward thrust? (Select all that apply)",
+                "opts": [
+                    "Skiers push backward against the snow with poles and skis (action).",
+                    "The snow exerts an equal and opposite reaction force forward against poles and skis.",
+                    "Pole countermovements operate in relation to leg movements to balance rotational forces.",
+                    "Skiers hover above snow to eliminate all ground reaction forces."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Pushing backward with poles/skies against snow creates forward reaction forces and pole/leg countermovements balance gait rotation."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction.",
+                "ans": true,
+                "feedback": "True. The Action-Reaction principle dictates paired forces equal in magnitude and opposite in direction."
+            },
+            {
+                "id": 2,
+                "q": "Action and reaction forces act on the same body and cancel each other out so no motion occurs.",
+                "ans": false,
+                "feedback": "False. Action and reaction forces act on two separate bodies (e.g., foot pushes block, block pushes foot), causing acceleration of the athlete."
+            },
+            {
+                "id": 3,
+                "q": "A sprinter controls the magnitude and direction of the external starting block reaction force through their internal muscle actions.",
+                "ans": true,
+                "feedback": "True. The reaction force is the exact mirror image of the resultant internal muscle force exerted against the blocks."
+            },
+            {
+                "id": 4,
+                "q": "In running gait, countermovements of the arms and legs cause the whole body to spin uncontrollably in circles.",
+                "ans": false,
+                "feedback": "False. Countermovements of opposite arms and legs balance angular momentum and prevent whole-body twisting."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Newton's Third Law states that every action has an **equal** and **opposite** reaction.",
+                "targets": [
+                    "equal",
+                    "opposite"
+                ],
+                "optionsBank": [
+                    "equal",
+                    "opposite",
+                    "greater",
+                    "parallel",
+                    "unequal"
+                ],
+                "hint": "The magnitude and directional relationship of paired forces."
+            },
+            {
+                "id": 2,
+                "statement": "Internal muscle forces push against the starting block pedal, and the block exerts an external **reaction force** that propels the **sprinter**.",
+                "targets": [
+                    "reaction force",
+                    "sprinter"
+                ],
+                "optionsBank": [
+                    "reaction force",
+                    "sprinter",
+                    "gravity",
+                    "mass",
+                    "inertia"
+                ],
+                "hint": "The external force returned by the surface and the athlete accelerated."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain Newton's Third Law of Motion (Action-Reaction Principle) and describe how it creates forward propulsion during a sprint block start.",
+                "model": "Newton's Third Law states that for every action force exerted by one body onto another, there is an equal and opposite reaction force exerted simultaneously back onto the first body. In a sprint block start, the athlete contracts leg muscles to drive their feet backward and downward against the block pedals (action force). Simultaneously, the starting blocks exert an equal magnitude reaction force forward and upward against the sprinter's feet (reaction force). This external ground reaction force accelerates the sprinter forward down the track.",
+                "criteria": [
+                    "State Newton's Third Law (equal and opposite forces on two interacting bodies).",
+                    "Identify the action force (sprinter's feet pushing backward/downward on block pedals).",
+                    "Identify the reaction force (blocks pushing forward/upward on sprinter's feet to propel them)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Analyze how countermovements in long jump landing and handball throwing utilize the Action-Reaction principle to enhance performance.",
+                "model": "Countermovements use action-reaction body segment interactions to optimize positioning and force transfer. In long jump landing, an airborne jumper flexes their upper body forward around the hip joints (action); in response, equal and opposite reaction forces cause the lower body and legs to swing forward around the hips, extending landing reach for maximum jump distance. In handball throwing, driving the throwing shoulder and arm forward (action) is accompanied by twisting the hips forward in the opposite direction (reaction), preventing total body twisting and engaging core musculature for peak throwing power.",
+                "criteria": [
+                    "Explain long jump landing countermovement (upper body forward flexion causes lower body/leg forward extension).",
+                    "Explain handball throw countermovement (shoulder forward drive countered by opposite hip rotation).",
+                    "Highlight how both countermovements optimize body positioning, stability, and performance."
+                ]
+            }
+        ]
+    }
+}
