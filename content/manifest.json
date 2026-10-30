@@ -256,31 +256,31 @@
               "id": "12.1",
               "title": "Conditions for Skill Acquisition",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "12.2",
               "title": "Stages of Learning a Skill",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "12.3",
               "title": "Feedback for Skill Learning",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "12.4",
               "title": "Transfer in Motor Learning",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "12.5",
               "title": "Designing Effective Practice",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             }
           ],
           "status": "Under Development",
