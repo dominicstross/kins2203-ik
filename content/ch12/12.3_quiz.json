@@ -1,0 +1,995 @@
+{
+  "p1": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What is defined as information provided to the learner as a natural consequence of performing a physical action?",
+        "opts": [
+          "Intrinsic feedback",
+          "Extrinsic feedback",
+          "Augmented feedback",
+          "Prescriptive feedback"
+        ],
+        "correct": 0,
+        "rationale": "Intrinsic feedback is information that is provided as a natural consequence of performing an action, such as seeing a dart fly or feeling arm extension."
+      },
+      {
+        "id": 2,
+        "q": "Which of the following is an example of INTRINSIC Knowledge of Results (KR)?",
+        "opts": [
+          "Seeing a basketball pass directly through the net on a free throw attempt",
+          "Feeling the extension of the elbow joint during a throw",
+          "A coach telling a player that their knee flexion was insufficient",
+          "Receiving a judge's numerical score after a gymnastics routine"
+        ],
+        "correct": 0,
+        "rationale": "Intrinsic Knowledge of Results (KR) is sensory outcome information naturally received by the performer, such as seeing the ball enter the net or a dart hit the bull's-eye."
+      },
+      {
+        "id": 3,
+        "q": "What type of feedback is provided when an athlete feels the muscle tension and joint sensations during arm extension in a dart throw?",
+        "opts": [
+          "Intrinsic Knowledge of Performance (KP)",
+          "Extrinsic Knowledge of Results (KR)",
+          "Augmented Prescriptive Feedback",
+          "Extrinsic Summary Feedback"
+        ],
+        "correct": 0,
+        "rationale": "Feeling arm extension or joint sensations relates to information about movement execution, which constitutes intrinsic Knowledge of Performance (KP)."
+      },
+      {
+        "id": 4,
+        "q": "Which specialized sensory organs located in muscles, tendons, and joints supply continuous information about body position, pressure, and tension?",
+        "opts": [
+          "Spindles (proprioceptors)",
+          "Photoreceptors",
+          "Otoconia",
+          "Chemoreceptors"
+        ],
+        "correct": 0,
+        "rationale": "Special receptors in muscles, tendons, and joints (called spindles due to their appearance) constantly supply information about joint positions, pressure, and tension."
+      },
+      {
+        "id": 5,
+        "q": "How is 'muscle sense' formally defined in the textbook?",
+        "opts": [
+          "The sum of all sensations resulting from every movement of all the limbs in the body",
+          "The total muscle glycogen stored in fast-twitch fibers",
+          "The maximum force produced during a 1RM bench press",
+          "The rate of ATP resynthesis during anaerobic glycolysis"
+        ],
+        "correct": 0,
+        "rationale": "Muscle sense (or muscle feeling) is defined as the sum of all sensations that result from every movement of all the limbs in the body."
+      },
+      {
+        "id": 6,
+        "q": "How does muscle sense develop as a learner transitions from the cognitive stage to the associative stage of learning?",
+        "opts": [
+          "Early muscle sense is unclear and ambiguous, but with practice learners rely increasingly on intrinsic muscle sensations rather than vision.",
+          "Muscle sense is perfectly developed in beginners and declines with practice.",
+          "Novices rely exclusively on muscle sense and never use visual feedback.",
+          "Muscle sense operates independently without collaborating with touch or balance."
+        ],
+        "correct": 0,
+        "rationale": "Beginners initially receive unclear signals and rely heavily on vision; with practice in the second (associative) stage, they learn to rely increasingly on intrinsic muscle sense."
+      },
+      {
+        "id": 7,
+        "q": "In addition to muscle spindles and tendons, which sensory systems collaborate closely with muscle sense to inform movement sequences?",
+        "opts": [
+          "The sense of touch, the vestibular sense of balance, and sight",
+          "The olfactory system and gustatory receptors",
+          "Auditory brainstem response in isolation",
+          "Cardiopulmonary baroreceptors only"
+        ],
+        "correct": 0,
+        "rationale": "Muscle sense works in close collaboration with the sense of touch, the sense governing balance, and vision."
+      },
+      {
+        "id": 8,
+        "q": "Why can seasoned jumpers, throwers, or gymnasts judge the distance or quality of their performance without looking at official measurements?",
+        "opts": [
+          "They utilize well-developed muscle sense to judge movement quality through internal body stimuli.",
+          "They receive continuous extrinsic bandwidth feedback during flight.",
+          "They rely on post-hoc descriptive scores from judges.",
+          "They guess based on stadium crowd noise."
+        ],
+        "correct": 0,
+        "rationale": "Seasoned athletes 'measure' and judge their movements using internal muscle sense\u2014stimuli naturally present in their bodies during movement execution."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which of the following are examples of INTRINSIC feedback? (Select all that apply)",
+        "opts": [
+          "Seeing a dart hit the bull's-eye",
+          "Feeling the pull in your shoulders while pulling an oar in rowing",
+          "A coach telling you to bend your knees more on a jump",
+          "Hearing a tennis ball make contact with the racquet strings"
+        ],
+        "correctArray": [
+          0,
+          1,
+          3
+        ],
+        "rationale": "Seeing the dart, feeling shoulder pull, and hearing racquet contact are all natural sensory consequences of movement (intrinsic). A coach's verbal instruction is extrinsic."
+      },
+      {
+        "id": 2,
+        "q": "Which sensory receptors and stimuli contribute to 'muscle sense' during physical activity? (Select all that apply)",
+        "opts": [
+          "Muscle spindles in muscles, tendons, and joints",
+          "Pressure and tension stimuli within active muscles and tendons",
+          "Tactile skin receptors providing feeling of touch",
+          "Exogenous video replay monitors"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Muscle spindles, muscle/tendon pressure and tension, and tactile skin receptors contribute to intrinsic muscle sense. Video replay monitors are extrinsic."
+      },
+      {
+        "id": 3,
+        "q": "What characteristics describe muscle sense in a NOVICE learner during the FIRST (cognitive) stage of learning? (Select all that apply)",
+        "opts": [
+          "Sensations are unclear, obscure, ambiguous, and blurred.",
+          "Moving muscles send contradictory bits of information to the brain.",
+          "Novices rely heavily on visual feedback (e.g., watching their hands/feet) rather than muscle sense.",
+          "Novices have a fully developed, judge-level instinct for movement execution."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "In novices, muscle sense is obscure and contradictory, leading them to rely on vision. Judge-level instinct develops in seasoned athletes after extensive practice."
+      },
+      {
+        "id": 4,
+        "q": "Which dimensions of movement are indicated when muscle sense collaborates with the sense of touch? (Select all that apply)",
+        "opts": [
+          "Movement strength and force",
+          "Movement speed and duration",
+          "Movement direction and extent",
+          "Numerical score assigned by official judges"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Together with touch, muscle sense indicates strength, force, speed, duration, direction, and extent of movement. Numerical scores are extrinsic."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Intrinsic feedback is information provided as a natural sensory consequence of performing a movement.",
+        "ans": true,
+        "feedback": "True. Intrinsic feedback arises naturally through visual, auditory, tactile, and proprioceptive mechanisms during action."
+      },
+      {
+        "id": 2,
+        "q": "Novice basketball players learning to dribble rely more on intrinsic muscle sense than on visual feedback.",
+        "ans": false,
+        "feedback": "False. Beginners tend to use visual feedback (watching hands/ball) because their muscle sense is initially ambiguous and undeveloped."
+      },
+      {
+        "id": 3,
+        "q": "Muscle sense operates in complete isolation, without collaborating with touch, balance, or vision.",
+        "ans": true,
+        "feedback": "False. Muscle sense works in close collaboration with the sense of touch, the vestibular sense of balance, and sight."
+      },
+      {
+        "id": 4,
+        "q": "Special receptors called spindles constantly supply information regarding joint position, pressure, and tension.",
+        "ans": true,
+        "feedback": "True. Muscle spindles and tendon receptors supply continuous proprioceptive feedback regarding body positioning and muscle state."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Information naturally arising from an action is **intrinsic feedback**, whereas muscle and joint sensations form **muscle sense**.",
+        "targets": [
+          "intrinsic feedback",
+          "muscle sense"
+        ],
+        "optionsBank": [
+          "intrinsic feedback",
+          "muscle sense",
+          "extrinsic feedback",
+          "bandwidth range",
+          "summary score"
+        ],
+        "hint": "Distinguishes natural sensory feedback from internal proprioceptive feeling."
+      },
+      {
+        "id": 2,
+        "statement": "In early skill learning, muscle sense is **ambiguous**, causing beginners to rely heavily on **visual feedback**.",
+        "targets": [
+          "ambiguous",
+          "visual feedback"
+        ],
+        "optionsBank": [
+          "ambiguous",
+          "visual feedback",
+          "automated",
+          "faded feedback",
+          "prescriptive cues"
+        ],
+        "hint": "Describes the blurred nature of novice proprioception and the sensory modality used to compensate."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Differentiate between intrinsic Knowledge of Results (KR) and intrinsic Knowledge of Performance (KP), providing one athletic example for each.",
+        "model": "Intrinsic Knowledge of Results (KR) refers to natural sensory information concerning the outcome or success of an action relative to its goal. An example is a basketball player seeing a free throw swish through the net or a dart thrower seeing the dart hit the bull's-eye. Intrinsic Knowledge of Performance (KP) refers to natural sensory information regarding the movement pattern itself and how it felt. An example is a rower feeling the tension and pull in their shoulders during an oar stroke or a gymnast feeling full elbow extension during a handstand.",
+        "criteria": [
+          "Define intrinsic KR as natural outcome sensory information (e.g., seeing ball go in hoop).",
+          "Define intrinsic KP as natural movement sensory information (e.g., feeling joint extension/muscle pull).",
+          "Provide clear, valid athletic examples for both intrinsic KR and intrinsic KP."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Explain the concept of 'muscle sense' (proprioception) and describe how a learner's reliance on sensory modalities changes from the cognitive stage to the associative stage.",
+        "model": "Muscle sense is the sum of all sensations resulting from every movement of the limbs, mediated by specialized receptors (spindles) in muscles, tendons, and joints that detect position, pressure, and tension. In the cognitive stage, muscle sense is unclear, obscure, and contradictory; beginners therefore rely primarily on visual feedback (e.g., a novice dribbler watching the ball). Through practice in the associative stage, muscle sense develops, allowing the learner to rely increasingly on internal intrinsic proprioceptive feedback rather than visual monitoring.",
+        "criteria": [
+          "Define muscle sense as the sum of proprioceptive sensations from muscle/tendon spindles.",
+          "Describe novice cognitive reliance on visual feedback due to obscure muscle sense signals.",
+          "Explain the transition in the associative stage toward reliance on intrinsic muscle sense."
+        ]
+      }
+    ]
+  },
+  "p2": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What is defined as information provided to the learner by an external source following a performance?",
+        "opts": [
+          "Extrinsic feedback",
+          "Intrinsic feedback",
+          "Muscle sense",
+          "Proprioceptive drift"
+        ],
+        "correct": 0,
+        "rationale": "Extrinsic (augmented) feedback is information provided to the learner by an external source, such as a coach's suggestion, judge's score, or video replay."
+      },
+      {
+        "id": 2,
+        "q": "Which of the following represents EXTRINSIC Knowledge of Results (KR)?",
+        "opts": [
+          "A judge's score awarded after a gymnastics routine or a numerical grade on a fitness test",
+          "Seeing the soccer ball enter the goal with your own eyes",
+          "Feeling your knee flex properly during a squat",
+          "The internal feeling of balance on a gymnast beam"
+        ],
+        "correct": 0,
+        "rationale": "Extrinsic Knowledge of Results is verbalized or external information regarding response success relative to a goal, such as judge scores, race times, or test grades."
+      },
+      {
+        "id": 3,
+        "q": "When a badminton coach tells a player, 'You are taking your eye off the birdie during the smash,' what type of feedback is being delivered?",
+        "opts": [
+          "Extrinsic Knowledge of Performance (KP)",
+          "Intrinsic Knowledge of Results (KR)",
+          "Internal Muscle Sense",
+          "Faded Summary Bandwidth"
+        ],
+        "correct": 0,
+        "rationale": "Teacher or coach feedback concerning the correctness of a specific movement pattern constitutes extrinsic Knowledge of Performance (KP)."
+      },
+      {
+        "id": 4,
+        "q": "In sports like gymnastics, diving, and figure skating, why is extrinsic Knowledge of Results (KR) essential for athletes?",
+        "opts": [
+          "Because performance outcomes depend on official judging scores that cannot be discerned naturally by the athlete alone.",
+          "Because athletes in these sports possess zero intrinsic muscle sense.",
+          "Because extrinsic KR replaces the need for physical execution.",
+          "Because judges provide continuous bandwidth feedback during the routine."
+        ],
+        "correct": 0,
+        "rationale": "In judged sports, the outcome is determined by external scoring standards, making extrinsic KR essential for the athlete to know how well they performed."
+      },
+      {
+        "id": 5,
+        "q": "What phenomenon occurs when a basketball player executes a free throw with flawless form but the ball bounces off the rim?",
+        "opts": [
+          "Positive KP with negative KR",
+          "Negative KP with positive KR",
+          "Intrinsic bandwidth failure",
+          "Summary feedback dependency"
+        ],
+        "correct": 0,
+        "rationale": "A movement can be executed with correct mechanics (positive KP) yet fail to achieve its outcome goal (negative KR), demonstrating that KP and KR are distinct."
+      },
+      {
+        "id": 6,
+        "q": "Which property of extrinsic feedback is essential for keeping learners engaged and encouraging continued skill practice?",
+        "opts": [
+          "Motivational properties",
+          "Retroactive interference",
+          "Laminar drag reduction",
+          "Proprioceptive decay"
+        ],
+        "correct": 0,
+        "rationale": "Appropriate extrinsic feedback fulfills a valuable motivational role, encouraging goal setting, reinforcing correct efforts, and maintaining engagement."
+      },
+      {
+        "id": 7,
+        "q": "Why is extrinsic Knowledge of Performance (KP) that highlights movement errors particularly critical for motor learning?",
+        "opts": [
+          "Because identifying movement errors allows the performer to modify technique for improved future performance.",
+          "Because highlighting errors increases learner dependency on the coach.",
+          "Because error identification eliminates the need for practice.",
+          "Because error feedback automatically converts fast-twitch fibers."
+        ],
+        "correct": 0,
+        "rationale": "For motor learning to progress, feedback highlighting movement errors is critical so that improper technique can be modified and corrected."
+      },
+      {
+        "id": 8,
+        "q": "When is extrinsic Knowledge of Results (KR) considered REDUNDANT for a performer?",
+        "opts": [
+          "When the outcome is obvious naturally (e.g., seeing a basketball miss the basket completely)",
+          "When competing in judged sports like diving or gymnastics",
+          "When target placement in archery cannot be seen from the firing line",
+          "When receiving exam grades after a multi-week delay"
+        ],
+        "correct": 0,
+        "rationale": "Extrinsic KR is redundant when the result is naturally obvious to the learner through intrinsic vision (such as seeing a missed shot)."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which of the following are examples of EXTRINSIC feedback? (Select all that apply)",
+        "opts": [
+          "A coach's verbal suggestion on follow-through technique",
+          "A score awarded by a gymnastics judging panel",
+          "A slow-motion video replay shown to an athlete",
+          "Feeling joint pressure in the shoulder during a tennis serve"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Coaches' suggestions, judges' scores, and video replays originate from external sources (extrinsic). Feeling shoulder joint pressure is intrinsic."
+      },
+      {
+        "id": 2,
+        "q": "Which statements accurately describe Knowledge of Performance (KP)? (Select all that apply)",
+        "opts": [
+          "KP provides information concerning the correctness of movement patterns produced.",
+          "KP can be provided extrinsically by a coach or intrinsically through muscle sense.",
+          "Positive KP can occur simultaneously with negative KR.",
+          "KP always guarantees that the environmental goal was achieved."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "KP concerns movement pattern correctness, can be extrinsic or intrinsic, and can be positive even when KR is negative. KP does not guarantee goal achievement."
+      },
+      {
+        "id": 3,
+        "q": "Under which conditions is EXTRINSIC Knowledge of Results (KR) essential for learning? (Select all that apply)",
+        "opts": [
+          "When performance outcomes are judged (e.g., gymnastics, diving, figure skating)",
+          "When the target impact point cannot be seen immediately (e.g., long-range archery)",
+          "When results are delayed (e.g., waiting weeks for a physical fitness grade)",
+          "When a basketball player visually watches a ball swish through the net"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Extrinsic KR is essential in judged sports, distant targets, or delayed grades. Seeing a ball enter the net is obvious intrinsic KR, making extrinsic KR redundant."
+      },
+      {
+        "id": 4,
+        "q": "What functions does effective extrinsic feedback perform in the learning environment? (Select all that apply)",
+        "opts": [
+          "Motivates the learner and keeps them involved",
+          "Supplies reinforcement for correct movement execution",
+          "Points out technical errors so movement patterns can be modified",
+          "Eliminates the need for the learner to engage in physical practice"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Extrinsic feedback motivates, reinforces correct actions, and highlights errors for modification. It never eliminates the need for physical practice."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Extrinsic feedback originates from an external source such as a coach, instructor, judge, or video replay.",
+        "ans": true,
+        "feedback": "True. Extrinsic (augmented) feedback is provided by external sources outside the athlete's natural sensory system."
+      },
+      {
+        "id": 2,
+        "q": "A movement pattern can be performed with perfect correctness (positive KP) and still fail to achieve its outcome goal (negative KR).",
+        "ans": true,
+        "feedback": "True. KP concerns movement form while KR concerns outcome success; a perfectly executed shot can still miss."
+      },
+      {
+        "id": 3,
+        "q": "Extrinsic Knowledge of Results is highly effective and necessary when the performance outcome is already completely obvious to the performer.",
+        "ans": false,
+        "feedback": "False. Extrinsic KR is redundant and ineffective when the outcome is naturally obvious through intrinsic vision."
+      },
+      {
+        "id": 4,
+        "q": "Pointing out technical errors through extrinsic KP helps learners modify improper movement patterns for future attempts.",
+        "ans": true,
+        "feedback": "True. Error-identifying feedback provides the prescriptive information needed to modify and improve motor technique."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Feedback from a coach regarding movement form is **extrinsic KP**, whereas a judge's score represents **extrinsic KR**.",
+        "targets": [
+          "extrinsic KP",
+          "extrinsic KR"
+        ],
+        "optionsBank": [
+          "extrinsic KP",
+          "extrinsic KR",
+          "intrinsic muscle sense",
+          "faded bandwidth",
+          "laminar flow"
+        ],
+        "hint": "Distinguishes external movement form feedback from external outcome score feedback."
+      },
+      {
+        "id": 2,
+        "statement": "An athlete can execute a skill with **positive KP** yet experience **negative KR** if the ball misses the target.",
+        "targets": [
+          "positive KP",
+          "negative KR"
+        ],
+        "optionsBank": [
+          "positive KP",
+          "negative KR",
+          "faded feedback",
+          "summary bandwidth",
+          "prescriptive drift"
+        ],
+        "hint": "The situation where movement form is correct but the outcome goal is not achieved."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Explain the 'Positive KP - Negative KR' situation in athletic performance, providing a specific sporting example.",
+        "model": "The 'Positive KP - Negative KR' situation occurs because Knowledge of Performance (KP) relates to movement pattern correctness, whereas Knowledge of Results (KR) relates to outcome goal success. An athlete can execute a skill with perfect mechanical form (positive KP) but fail to achieve the environmental goal (negative KR). For example, a basketball player executing a foul shot may maintain perfect stance, elbow alignment, and wrist follow-through (positive KP), yet the ball may hit the back of the rim and bounce out due to a slight gust of wind or unexpected ball rim friction (negative KR).",
+        "criteria": [
+          "Explain that KP measures movement form correctness while KR measures outcome success.",
+          "Define Positive KP / Negative KR as correct form failing to achieve the outcome goal.",
+          "Provide a realistic sporting example (e.g., perfect basketball shot mechanics that misses, or great golf swing hit into wind)."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Contrast the utility of extrinsic Knowledge of Results (KR) in obvious outcome scenarios versus non-obvious/judged athletic scenarios.",
+        "model": "In obvious outcome scenarios\u2014such as a basketball player watching a shot miss the rim or a soccer player seeing a kick sail wide\u2014extrinsic KR is redundant and ineffective because the performer naturally receives the outcome information through intrinsic vision. In contrast, in non-obvious or judged scenarios\u2014such as gymnastics, diving, figure skating, long-range archery, or delayed fitness testing\u2014the athlete cannot evaluate exact outcome success through intrinsic senses alone. In these cases, extrinsic KR (judge scores, target distance readouts, or numerical grades) is essential for learning and performance evaluation.",
+        "criteria": [
+          "Explain that extrinsic KR is redundant when outcomes are naturally obvious through intrinsic vision.",
+          "Explain that extrinsic KR is essential in judged sports or non-obvious outcome settings.",
+          "Provide examples for both obvious (missed shot) and judged/non-obvious (diving score, long-range archery) scenarios."
+        ]
+      }
+    ]
+  },
+  "p3": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What negative learning phenomenon occurs when an instructor provides extrinsic feedback too frequently during practice?",
+        "opts": [
+          "Feedback dependency",
+          "Positive motor transfer",
+          "Sarcopenic attenuation",
+          "Retroactive facilitation"
+        ],
+        "correct": 0,
+        "rationale": "Providing feedback too frequently causes the learner to rely on it as a cognitive crutch, leading to feedback dependency where performance suffers when feedback is removed."
+      },
+      {
+        "id": 2,
+        "q": "How does performance typically change when a feedback-dependent learner must perform independently in competition without instructor feedback?",
+        "opts": [
+          "Performance suffers significantly because the learner relied on feedback as a crutch.",
+          "Performance improves ten times faster.",
+          "Performance remains completely automated and flawless.",
+          "The learner automatically transitions to the autonomous stage."
+        ],
+        "correct": 0,
+        "rationale": "Feedback dependency causes skills to be executed well when feedback is present, but performance suffers when the athlete must perform independently."
+      },
+      {
+        "id": 3,
+        "q": "Which strategy prevents feedback dependency by providing high feedback frequency early in practice and systematically reducing feedback as skill develops?",
+        "opts": [
+          "Faded feedback",
+          "Bandwidth feedback",
+          "Summary feedback",
+          "Continuous feedback"
+        ],
+        "correct": 0,
+        "rationale": "Faded feedback provides high feedback frequencies early when movement patterns are being established, then gradually fades feedback as skill develops."
+      },
+      {
+        "id": 4,
+        "q": "In bandwidth feedback, when does the coach or instructor deliver feedback to the performer?",
+        "opts": [
+          "Only when performance errors fall outside a predefined range of correctness",
+          "After every single practice trial without exception",
+          "Only after a set block of 50 trials is completed",
+          "Continuously during the execution of the movement"
+        ],
+        "correct": 0,
+        "rationale": "Bandwidth feedback involves delivering feedback only when errors fall outside a defined margin or range of correctness, leaving acceptable trials unremarked."
+      },
+      {
+        "id": 5,
+        "q": "How does the bandwidth feedback range change when coaching elite professional athletes compared to novice performers?",
+        "opts": [
+          "Professional athletes require an extremely narrow bandwidth range due to high precision demands.",
+          "Professional athletes receive a wide bandwidth range with maximum leeway.",
+          "Novices receive zero bandwidth allowance.",
+          "Bandwidth ranges are legally fixed and cannot be modified by coaches."
+        ],
+        "correct": 0,
+        "rationale": "Because professional athletes require high precision, coaches apply an extremely narrow bandwidth range; wider ranges are used for lesser skilled athletes."
+      },
+      {
+        "id": 6,
+        "q": "Which of the following is a key advantage of bandwidth feedback supported by motor learning research?",
+        "opts": [
+          "It provides implicit positive reinforcement and prevents learners from changing movements on every trial, promoting consistency.",
+          "It guarantees 100% continuous feedback on every attempt.",
+          "It forces the athlete to rely entirely on verbal self-talk.",
+          "It eliminates the need for intrinsic muscle sense."
+        ],
+        "correct": 0,
+        "rationale": "Bandwidth feedback naturally fades feedback, gives positive reinforcement (no feedback = good trial), and prevents constant trial-to-trial movement alterations, fostering consistency."
+      },
+      {
+        "id": 7,
+        "q": "What is summary feedback?",
+        "opts": [
+          "Providing feedback concerning a group of practice trials only after the entire set of trials has been completed",
+          "Providing continuous feedback during every millisecond of a movement attempt",
+          "Providing feedback exclusively when catastrophic errors occur",
+          "Withholding all feedback permanently throughout a season"
+        ],
+        "correct": 0,
+        "rationale": "Summary feedback involves withholding feedback during practice trials and providing summary information only after a specific number of trials (e.g., every 10 serves) are completed."
+      },
+      {
+        "id": 8,
+        "q": "How do bandwidth and summary feedback techniques prevent information processing overload in learners?",
+        "opts": [
+          "By blocking the learner's tendency to correct movements on every trial and reducing feedback frequency",
+          "By forcing the learner to listen to 10 technical instructions per second",
+          "By replacing physical practice with written exams",
+          "By eliminating internal error detection capability"
+        ],
+        "correct": 0,
+        "rationale": "By avoiding continuous trial-by-trial feedback, summary and bandwidth feedback block micro-adjustments and prevent overloading the performer's working memory."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which strategies are explicitly used by coaches to MINIMIZE FEEDBACK DEPENDENCY? (Select all that apply)",
+        "opts": [
+          "Faded feedback",
+          "Bandwidth feedback",
+          "Summary feedback",
+          "Continuous high-frequency feedback on every trial"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Faded, bandwidth, and summary feedback are evidence-based strategies designed to minimize dependency. Continuous high-frequency feedback creates dependency."
+      },
+      {
+        "id": 2,
+        "q": "Which benefits are associated with using BANDWIDTH FEEDBACK? (Select all that apply)",
+        "opts": [
+          "It naturally produces faded feedback as performance improves and more trials fall within the acceptable band.",
+          "Withholding feedback on acceptable trials serves as positive reinforcement.",
+          "It discourages unnecessary movement corrections on every trial, building movement consistency.",
+          "It increases cognitive overload by delivering constant instructions."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Bandwidth feedback naturally fades, provides positive reinforcement, and promotes consistency. It reduces, rather than increases, cognitive overload."
+      },
+      {
+        "id": 3,
+        "q": "What happens when an instructor uses FADED FEEDBACK? (Select all that apply)",
+        "opts": [
+          "High feedback frequency is provided early during initial skill establishment.",
+          "Feedback is gradually reduced or faded as skill proficiency develops.",
+          "Learners are encouraged to develop their own internal error-detection capability.",
+          "Feedback is completely withheld during the first 100 practice trials."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Faded feedback starts high to establish correct form, then gradually decreases, encouraging internal error detection. Withholding early feedback is incorrect."
+      },
+      {
+        "id": 4,
+        "q": "Why is summary feedback beneficial during motor skill practice? (Select all that apply)",
+        "opts": [
+          "It avoids overloading the performer's information-processing capacity.",
+          "It prevents the learner from making erratic micro-corrections on every single trial.",
+          "It helps build movement execution consistency.",
+          "It guarantees that the coach never has to observe practice trials."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Summary feedback prevents information overload, stops erratic trial-to-trial changes, and fosters consistency. The coach still observes trials to summarize them."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Providing continuous extrinsic feedback over an extended period enhances long-term independent skill execution in competition.",
+        "ans": false,
+        "feedback": "False. Continuous feedback causes feedback dependency; performance suffers when the crutch is removed during independent performance."
+      },
+      {
+        "id": 2,
+        "q": "In bandwidth feedback, feedback is delivered only when movement errors exceed a predefined tolerance band.",
+        "ans": true,
+        "feedback": "True. Bandwidth feedback leaves trials within the acceptable band unremarked, providing feedback only on out-of-bounds errors."
+      },
+      {
+        "id": 3,
+        "q": "Bandwidth feedback ranges are identical for beginner children and elite professional athletes.",
+        "ans": false,
+        "feedback": "False. Professional athletes require narrow bandwidth ranges due to precision demands, whereas beginners are given wider tolerance bands."
+      },
+      {
+        "id": 4,
+        "q": "Summary feedback involves delivering feedback regarding a block of trials only after all trials in that block are completed.",
+        "ans": true,
+        "feedback": "True. Summary feedback summarizes performance across multiple trials (e.g., after 10 tennis serves) rather than after every single trial."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Providing continuous feedback creates **feedback dependency**, which can be prevented using **faded feedback**.",
+        "targets": [
+          "feedback dependency",
+          "faded feedback"
+        ],
+        "optionsBank": [
+          "feedback dependency",
+          "faded feedback",
+          "laminar flow",
+          "muscle spindles",
+          "prescriptive drift"
+        ],
+        "hint": "The negative cognitive crutch phenomenon and its progressive reduction solution."
+      },
+      {
+        "id": 2,
+        "statement": "In **bandwidth feedback**, feedback is withheld when errors fall within acceptable limits, whereas **summary feedback** provides feedback after a set block of trials.",
+        "targets": [
+          "bandwidth feedback",
+          "summary feedback"
+        ],
+        "optionsBank": [
+          "bandwidth feedback",
+          "summary feedback",
+          "continuous feedback",
+          "intrinsic sensation",
+          "tactile drag"
+        ],
+        "hint": "The tolerance-range method versus the multi-trial delayed report method."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Explain the concept of 'feedback dependency' and describe how faded feedback is implemented to cultivate athlete autonomy.",
+        "model": "Feedback dependency occurs when an instructor provides extrinsic feedback too frequently, causing the athlete to rely on external cues as a cognitive crutch. While performance appears strong during practice with feedback, it suffers significantly when the athlete must perform independently in competition without guidance. Faded feedback prevents dependency by providing high feedback frequency early in practice when movement patterns are being established, and then systematically reducing or fading feedback frequency as skill proficiency improves. This forces the learner to develop internal error-detection capabilities and perform independently.",
+        "criteria": [
+          "Define feedback dependency as relying on frequent external feedback as a cognitive crutch.",
+          "Explain that performance suffers in competition when feedback is withdrawn.",
+          "Describe faded feedback implementation (high early frequency, systematic reduction as skill develops to foster internal error detection)."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Detail the mechanics and three major advantages of bandwidth feedback in sports coaching.",
+        "model": "In bandwidth feedback, the coach defines an acceptable range (tolerance band) of movement correctness and delivers feedback only when an attempt falls outside this range. Trials within the band pass without remark. The three major advantages are: 1) It naturally produces faded feedback because as skill improves, more trials fall within the band; 2) Withholding feedback on acceptable trials serves as positive reinforcement; and 3) It prevents the learner from making erratic micro-adjustments on every trial, promoting movement execution consistency.",
+        "criteria": [
+          "Define bandwidth feedback (feedback given only when errors exceed a defined tolerance range).",
+          "Advantage 1: Automatically creates faded feedback as skill improves.",
+          "Advantage 2: Provides implicit positive reinforcement on unremarked trials.",
+          "Advantage 3: Prevents erratic trial-to-trial micro-corrections, enhancing movement consistency."
+        ]
+      }
+    ]
+  },
+  "p4": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "When in the motor learning process is extrinsic feedback required most desperately?",
+        "opts": [
+          "Early in learning, specifically during the cognitive and associative stages",
+          "Exclusively in the autonomous stage after 10 years of practice",
+          "Only after the athlete has won a professional championship",
+          "Feedback is never required at any point in the learning process"
+        ],
+        "correct": 0,
+        "rationale": "Feedback is required throughout learning but is particularly vital early on, especially during the cognitive and associative stages when movement patterns are formed."
+      },
+      {
+        "id": 2,
+        "q": "Why must instructors limit the amount of feedback provided during early skill practice?",
+        "opts": [
+          "Because a performer's information-processing capacity can easily be overloaded by too many technical cues.",
+          "Because feedback decreases an athlete's physical muscle mass.",
+          "Because rules prohibit coaches from talking during practice.",
+          "Because beginners can process 50 technical cues simultaneously without error."
+        ],
+        "correct": 0,
+        "rationale": "A learner's working memory and information-processing capacity are limited; providing too much feedback causes cognitive overload."
+      },
+      {
+        "id": 3,
+        "q": "What is the key difference between DESCRIPTIVE feedback and PRESCRIPTIVE feedback?",
+        "opts": [
+          "Descriptive feedback states what the learner did, whereas prescriptive feedback provides precise correction statements on how to improve.",
+          "Descriptive feedback provides mathematical formulas, whereas prescriptive feedback is silent.",
+          "Descriptive feedback is given by judges, whereas prescriptive feedback is given by fans.",
+          "Descriptive feedback is intrinsic, whereas prescriptive feedback is purely visual."
+        ],
+        "correct": 0,
+        "rationale": "Descriptive feedback indicates something done right or wrong ('There was no follow-through'), while prescriptive feedback provides precise correction cues ('Snap your wrist more')."
+      },
+      {
+        "id": 4,
+        "q": "Which of the following represents a PRESCRIPTIVE feedback statement in badminton?",
+        "opts": [
+          "'Snap your wrist more on the follow-through.'",
+          "'You were better last time.'",
+          "'Be more careful with your footwork.'",
+          "'Watch your timing.'"
+        ],
+        "correct": 0,
+        "rationale": "'Snap your wrist more on the follow-through' is prescriptive because it tells the player exactly how to correct the movement attempt."
+      },
+      {
+        "id": 5,
+        "q": "Which of the following represents a DESCRIPTIVE feedback statement in badminton?",
+        "opts": [
+          "'There was no follow-through.'",
+          "'Drive the shot deep like you did last time.'",
+          "'Stay on your toes when receiving the serve.'",
+          "'Keep your eye on the birdie during the smash.'"
+        ],
+        "correct": 0,
+        "rationale": "'There was no follow-through' is descriptive because it states what occurred without providing specific corrective instruction."
+      },
+      {
+        "id": 6,
+        "q": "When introducing a novel skill to beginners, how precise should initial feedback be?",
+        "opts": [
+          "General descriptive feedback is appropriate early, reserving highly precise prescriptive feedback until practice builds skill baseline.",
+          "Initial feedback must contain 15 high-precision biomechanical angle metrics.",
+          "Initial feedback must be completely silent for 6 months.",
+          "Initial feedback should only consist of shouting encouraging jargon."
+        ],
+        "correct": 0,
+        "rationale": "Early in learning, general descriptive feedback is appropriate; detailed, precise prescriptive feedback is withheld until students have enough practice to benefit."
+      },
+      {
+        "id": 7,
+        "q": "What is the optimal timing for delivering feedback relative to skill execution?",
+        "opts": [
+          "Immediate feedback is most beneficial because short-term memory decays rapidly.",
+          "Delaying feedback by several days allows information to solidify.",
+          "Feedback should only be given at the end of the semester.",
+          "Feedback delivered during sleep produces peak learning."
+        ],
+        "correct": 0,
+        "rationale": "Because short-term memory traces decay rapidly, immediate instruction is more beneficial than delayed feedback provided at the end of a lesson."
+      },
+      {
+        "id": 8,
+        "q": "According to motor learning research, what is the primary benefit of offering precise, prescriptive feedback once a baseline skill is established?",
+        "opts": [
+          "It generates superior performance results by guiding precise technical corrections.",
+          "It eliminates the need for physical practice.",
+          "It increases performance anxiety.",
+          "It forces the learner into feedback dependency."
+        ],
+        "correct": 0,
+        "rationale": "Research shows offering precise, specific prescriptive feedback generates better learning results once the performer can process detailed correction Cues."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which of the following statements are PRESCRIPTIVE feedback cues? (Select all that apply)",
+        "opts": [
+          "'Drive the shot deep like you did last time.'",
+          "'Snap your wrist more on the follow-through.'",
+          "'Stay on your toes when receiving the serve.'",
+          "'You were better last time.'"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Driving deep, snapping the wrist, and staying on toes provide explicit corrective instructions (prescriptive). 'You were better last time' is vague/descriptive."
+      },
+      {
+        "id": 2,
+        "q": "Which statements regarding FEEDBACK TIMING and QUANTITY are accurate? (Select all that apply)",
+        "opts": [
+          "Short-term memory is susceptible to rapid loss, making immediate feedback superior to delayed feedback.",
+          "A performer's working memory can easily be overloaded by excessive feedback.",
+          "Feedback is vital early in the cognitive and associative stages.",
+          "Instructors should deliver 10 complex instructions simultaneously to novices."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Immediate feedback combats memory decay, limited working memory requires concise cues, and feedback is vital in early stages. Overloading novices is detrimental."
+      },
+      {
+        "id": 3,
+        "q": "Which statements describe DESCRIPTIVE feedback? (Select all that apply)",
+        "opts": [
+          "It indicates something the performer did right or wrong.",
+          "Examples include 'There was no follow-through' or 'Be more careful with footwork'.",
+          "It provides precise, actionable correction instructions on how to adjust mechanics.",
+          "It is often appropriate during early practice before detailed prescriptive feedback is introduced."
+        ],
+        "correctArray": [
+          0,
+          1,
+          3
+        ],
+        "rationale": "Descriptive feedback states what occurred without providing explicit corrective Cues (which defines prescriptive feedback)."
+      },
+      {
+        "id": 4,
+        "q": "How should an instructor adapt feedback delivery as a learner progresses from novice to advanced status? (Select all that apply)",
+        "opts": [
+          "Provide general descriptive feedback early when skill baseline is forming.",
+          "Increase feedback precision and specificity as the performer's skill level improves.",
+          "Apply faded, bandwidth, or summary schedules to prevent dependency in later stages.",
+          "Provide continuous, high-frequency feedback on every single trial in advanced stages."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "General feedback transitions to precise prescriptive feedback, while faded/bandwidth/summary schedules build autonomy. Continuous advanced feedback creates dependency."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Descriptive feedback provides precise correction statements detailing how to improve movement execution on subsequent trials.",
+        "ans": false,
+        "feedback": "False. Prescriptive feedback provides precise correction statements; descriptive feedback merely states what occurred."
+      },
+      {
+        "id": 2,
+        "q": "Immediate feedback is more beneficial for skill development than feedback delayed until the end of a lesson because short-term memory decays rapidly.",
+        "ans": true,
+        "feedback": "True. Delaying feedback reduces its effectiveness because memory traces of the movement decay over time."
+      },
+      {
+        "id": 3,
+        "q": "A performer's information-processing capacity can easily be overloaded if an instructor provides too much feedback at once.",
+        "ans": true,
+        "feedback": "True. Working memory is limited; beginners can generally process only one focused technical cue at a time."
+      },
+      {
+        "id": 4,
+        "q": "Highly precise prescriptive feedback should be delivered to beginners on their very first practice attempt before basic form is established.",
+        "ans": false,
+        "feedback": "False. Highly precise feedback should be withheld until students have enough practice to benefit from detailed information."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Feedback stating 'There was no follow-through' is **descriptive feedback**, whereas 'Snap your wrist more' is **prescriptive feedback**.",
+        "targets": [
+          "descriptive feedback",
+          "prescriptive feedback"
+        ],
+        "optionsBank": [
+          "descriptive feedback",
+          "prescriptive feedback",
+          "intrinsic feedback",
+          "laminar flow",
+          "summary bandwidth"
+        ],
+        "hint": "Distinguishes describing what happened from prescribing how to fix it."
+      },
+      {
+        "id": 2,
+        "statement": "Because short-term memory decays rapidly, **immediate feedback** is vastly superior to **delayed feedback**.",
+        "targets": [
+          "immediate feedback",
+          "delayed feedback"
+        ],
+        "optionsBank": [
+          "immediate feedback",
+          "delayed feedback",
+          "continuous feedback",
+          "faded feedback",
+          "bandwidth range"
+        ],
+        "hint": "The optimal timing principle related to sensory memory retention."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Compare descriptive feedback and prescriptive feedback, providing two specific examples of each from a sport activity class.",
+        "model": "Descriptive feedback indicates what the performer did (right or wrong) without offering specific corrective instructions. Examples include: 'There was no follow-through' and 'Be more careful with your footwork.' Prescriptive feedback provides precise, actionable correction statements detailing exactly how the learner should adjust their movement on subsequent trials. Examples include: 'Snap your wrist more on the follow-through' and 'Stay on your toes when receiving the serve.'",
+        "criteria": [
+          "Define descriptive feedback (states what was done right/wrong).",
+          "Define prescriptive feedback (provides precise corrective instructions on how to adjust).",
+          "Provide two valid examples for descriptive feedback and two valid examples for prescriptive feedback."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Explain the principles governing feedback timing and feedback quantity to avoid cognitive overload and memory decay in novice learners.",
+        "model": "Regarding quantity, a novice learner's information-processing capacity and working memory are limited, making them easily overloaded by excessive instructions. Instructors must provide concise, selective feedback focusing on one technical aspect at a time. Regarding timing, short-term memory traces decay rapidly following movement execution. Therefore, immediate feedback delivered right after a trial is far more beneficial than delayed feedback provided at the end of a lesson, as the learner can clearly recall the sensory experience and apply the correction immediately.",
+        "criteria": [
+          "Explain feedback quantity limits (prevent working memory overload by focusing on 1 concise cue).",
+          "Explain feedback timing (immediate feedback prevents short-term memory trace decay).",
+          "Describe why immediate, focused instruction optimizes skill acquisition in beginners."
+        ]
+      }
+    ]
+  }
+}

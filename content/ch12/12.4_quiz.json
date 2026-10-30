@@ -1,0 +1,995 @@
+{
+  "p1": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What is the primary instructional concept behind 'transfer of learning' in motor skill acquisition?",
+        "opts": [
+          "Learning achieved on a practice task influences performance on a criterion task.",
+          "Movement skills are automatically transferred genetically across generations.",
+          "Physical practice on one task completely eliminates the need for future practice.",
+          "Learning is restricted strictly to the exact environmental conditions of practice."
+        ],
+        "correct": 0,
+        "rationale": "Transfer of learning involves learning that occurs on a criterion task (the goal of learning) as a result of practicing some other task (previous learning experiences)."
+      },
+      {
+        "id": 2,
+        "q": "What term defines the present goal of learning or target performance task in motor learning transfer?",
+        "opts": [
+          "Criterion task",
+          "Simulator baseline",
+          "Associative vector",
+          "Backward chain"
+        ],
+        "correct": 0,
+        "rationale": "The criterion task represents the present goal of learning or target performance activity toward which practice is directed."
+      },
+      {
+        "id": 3,
+        "q": "How does general task similarity affect the degree of transfer between two motor skills?",
+        "opts": [
+          "Transfer of learning generally increases as the similarity between the tasks increases.",
+          "Task similarity has zero impact on the magnitude of transfer.",
+          "Greater task similarity guarantees extreme negative transfer.",
+          "Transfer decreases as task similarity increases."
+        ],
+        "correct": 0,
+        "rationale": "The textbook notes that the transfer of learning between two tasks generally increases as the physical and mechanical similarity between them increases."
+      },
+      {
+        "id": 4,
+        "q": "Which scenario represents a classic example of NEGATIVE TRANSFER resulting from technical dissonance?",
+        "opts": [
+          "A tennis player with a firm wrist technique struggling to learn the flexible wrist action in squash",
+          "A basketball player practicing free throws to improve game shooting accuracy",
+          "A child throwing rocks into a lake to develop an overhand throwing pattern",
+          "A volleyball team practicing defensive plays against a simulated attack"
+        ],
+        "correct": 0,
+        "rationale": "Learning a tennis forehand requires a firm wrist, whereas a squash forehand requires a flexible wrist; this wrist action dissonance can cause negative transfer when switching sports."
+      },
+      {
+        "id": 5,
+        "q": "Which mechanical and spatial differences contribute to negative transfer between tennis and squash forehands?",
+        "opts": [
+          "Differences in wrist action (firm vs flexible), racquet shape/size, and distance from the ball at contact",
+          "Identical court surface friction and identical ball masses",
+          "Complete absence of motor program involvement",
+          "Differences in cardiovascular VO2max demands"
+        ],
+        "correct": 0,
+        "rationale": "The textbook highlights three key differences causing dissonance: wrist mechanics (firm vs flexible), racquet shape/size, and required distance from the ball at contact."
+      },
+      {
+        "id": 6,
+        "q": "What type of transfer occurs when practicing fundamental movement skills in drills directly enhances game performance?",
+        "opts": [
+          "Positive transfer",
+          "Negative transfer",
+          "Retroactive interference",
+          "Sarcopenic regression"
+        ],
+        "correct": 0,
+        "rationale": "When preliminary practice drills or lead-up games successfully enhance performance in the actual game (criterion task), positive transfer has occurred."
+      },
+      {
+        "id": 7,
+        "q": "When performance is critical in a competitive event, what should learners avoid doing regarding negative transfer?",
+        "opts": [
+          "Avoid practicing activities or skills that may transfer negatively to the criterion task.",
+          "Increase practice of conflicting skills immediately before competition.",
+          "Eliminate all physical warm-up activities.",
+          "Rely exclusively on mental rehearsal without physical movement."
+        ],
+        "correct": 0,
+        "rationale": "It is essential that learners avoid practicing activities that may transfer negatively to the criterion task when critical performance is required."
+      },
+      {
+        "id": 8,
+        "q": "Why do coaches put basketball players through lead-up drills such as lay-ups, free throws, and defensive footwork?",
+        "opts": [
+          "To leverage positive transfer from controlled practice drills to actual competitive game situations.",
+          "Because drills replace the need for competitive games.",
+          "To induce negative transfer and challenge the central nervous system.",
+          "To evaluate the player's cognitive mathematical abilities."
+        ],
+        "correct": 0,
+        "rationale": "Lead-up drills serve as a means to an end, designed to achieve positive transfer to the target criterion task (the actual basketball game)."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which factors cause motor skill dissonance and potential NEGATIVE TRANSFER between tennis and squash? (Select all that apply)",
+        "opts": [
+          "Wrist action demands (firm wrist in tennis vs flexible wrist in squash)",
+          "Contact surface variations (racquet shape and size)",
+          "Difference in required distance from the ball at point of contact",
+          "Identical scoring rules and court dimensions"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Wrist mechanics, racquet shape/size, and ball contact distance are the explicit textbook factors causing negative transfer between tennis and squash."
+      },
+      {
+        "id": 2,
+        "q": "Which statements accurately describe POSITIVE TRANSFER in motor learning? (Select all that apply)",
+        "opts": [
+          "It occurs when previous practice experiences facilitate performance on a criterion task.",
+          "Coaches utilize lead-up games and drills to foster positive transfer to actual competition.",
+          "The strength of positive transfer depends on the relevance and similarity of the practice drill to the game.",
+          "It occurs when practicing one skill degrades or hinders performance on a second skill."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Positive transfer facilitates criterion task performance, relies on relevant drills, and connects practice to competition. Degrading performance defines negative transfer."
+      },
+      {
+        "id": 3,
+        "q": "What core concepts define the 'criterion task' in motor skill instruction? (Select all that apply)",
+        "opts": [
+          "It represents the ultimate goal or target performance activity.",
+          "Practice drills are organized specifically to transfer learning to this task.",
+          "It is the present performance situation where skill proficiency is evaluated.",
+          "It is an obsolete practice drill that is discarded before learning begins."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "The criterion task is the target goal, the benchmark for practice transfer, and the ultimate performance context."
+      },
+      {
+        "id": 4,
+        "q": "Which principles should coaches apply regarding motor transfer when organizing practice sessions? (Select all that apply)",
+        "opts": [
+          "Ensure practice drills closely approximate key elements of the criterion task.",
+          "Avoid scheduling drills that introduce conflicting movement patterns right before competition.",
+          "Recognize that drills are a means to an end, effective only if positive transfer occurs.",
+          "Assume that all movement drills automatically produce 100% positive transfer."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Coaches must align drills to criterion demands, prevent negative transfer dissonance, and evaluate drill effectiveness based on positive transfer."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Transfer of learning involves learning that occurs on a criterion task as a result of practicing another task.",
+        "ans": true,
+        "feedback": "True. Transfer of learning is defined as the influence of previous practice experiences on criterion task performance."
+      },
+      {
+        "id": 2,
+        "q": "Negative transfer occurs when practicing a previous skill facilitates and improves performance on a new skill.",
+        "ans": false,
+        "feedback": "False. Negative transfer occurs when previous learning hinders or interferes with performance on a new task; positive transfer facilitates it."
+      },
+      {
+        "id": 3,
+        "q": "Learning a tennis forehand requires a firm wrist, whereas a squash forehand requires a flexible wrist.",
+        "ans": true,
+        "feedback": "True. This specific wrist mechanics difference is a primary textbook example of potential negative transfer between racquet sports."
+      },
+      {
+        "id": 4,
+        "q": "The transfer of learning between two tasks generally increases as the similarity between the tasks increases.",
+        "ans": true,
+        "feedback": "True. Greater physical, spatial, and mechanical similarity between tasks enhances the potential for positive transfer."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "The ultimate target goal of motor learning is called the **criterion task**, which benefits from **positive transfer** during practice.",
+        "targets": [
+          "criterion task",
+          "positive transfer"
+        ],
+        "optionsBank": [
+          "criterion task",
+          "positive transfer",
+          "negative transfer",
+          "laminar flow",
+          "boundary layer"
+        ],
+        "hint": "The target goal task and the beneficial learning transfer type."
+      },
+      {
+        "id": 2,
+        "statement": "Mechanical dissonance between skills, such as firm versus flexible wrist actions in racquet sports, can cause **negative transfer**.",
+        "targets": [
+          "negative transfer"
+        ],
+        "optionsBank": [
+          "negative transfer",
+          "far transfer",
+          "autonomic flux",
+          "simulated drag"
+        ],
+        "hint": "The interference phenomenon caused by conflicting movement mechanics."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Define 'transfer of learning' and 'criterion task', and explain how coaches organize practice sessions to maximize positive transfer.",
+        "model": "Transfer of learning refers to the influence that practicing one task has on the learning and performance of another task. The 'criterion task' is the present goal of learning or target performance situation (such as an actual competitive match or game). Coaches maximize positive transfer by designing lead-up games, drills, and practice conditions that closely replicate the motor, perceptual, and tactical elements of the criterion task. Practice drills are effective only to the extent that the skills developed during practice transfer positively to actual game execution.",
+        "criteria": [
+          "Define transfer of learning as the effect of prior practice on a new/criterion task.",
+          "Define criterion task as the target performance goal/game situation.",
+          "Explain how coaches organize drills to replicate game elements for positive transfer."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Explain the concept of negative transfer using the textbook comparison between tennis and squash forehands.",
+        "model": "Negative transfer occurs when dissonance between a previously learned skill and a new skill interferes with performance on the new task. In racquet sports, a tennis player who has mastered the forehand relies on a firm wrist, whereas a squash forehand requires a flexible wrist. Additionally, the racquets differ in shape and size, and each sport requires a different spatial distance from the ball at impact. An athlete transitioning from tennis to squash may initially experience negative transfer as the ingrained firm-wrist tennis motor program interferes with executing the flexible-wrist squash stroke.",
+        "criteria": [
+          "Define negative transfer as interference caused by movement dissonance.",
+          "Detail wrist mechanics differences (firm wrist in tennis vs flexible wrist in squash).",
+          "Mention additional factors: racquet shape/size and ball contact distance."
+        ]
+      }
+    ]
+  },
+  "p2": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What type of transfer is desired when the practice activity is different from, yet relatively similar to, the target criterion task?",
+        "opts": [
+          "Near transfer",
+          "Far transfer",
+          "Negative transfer",
+          "Retroactive interference"
+        ],
+        "correct": 0,
+        "rationale": "Near transfer is desired when the learning goal is a task that closely approximates or is relatively similar to the training task."
+      },
+      {
+        "id": 2,
+        "q": "Which scenario best illustrates NEAR TRANSFER in sports coaching?",
+        "opts": [
+          "A volleyball team practicing team offensive plays against a simulated block in preparation for an upcoming match",
+          "A young child throwing rocks into a lake to learn overhand throwing",
+          "A tennis player attempting to learn squash with a flexible wrist",
+          "An athlete practicing general sprinting to prepare for ice hockey"
+        ],
+        "correct": 0,
+        "rationale": "Practicing volleyball plays to prepare for an upcoming match closely approximates the match situation, representing near transfer."
+      },
+      {
+        "id": 3,
+        "q": "What type of transfer occurs when practice on one task transfers to a very different task or setting in the future?",
+        "opts": [
+          "Far transfer",
+          "Near transfer",
+          "Negative transfer",
+          "Zero transfer"
+        ],
+        "correct": 0,
+        "rationale": "Far transfer occurs when the transfer of learning transfers from one task to a very different task or future activity setting."
+      },
+      {
+        "id": 4,
+        "q": "Which fundamental movement pattern serves as a classic textbook example of FAR TRANSFER across multiple sports?",
+        "opts": [
+          "The general overhand throw pattern transferring to baseball, football, tennis serves, and volleyball spikes",
+          "A rigid-wrist tennis forehand transferring to a squash forehand",
+          "Practicing free throws in basketball to hit free throws in a game",
+          "Executing a shoulder roll during a gymnastics vault"
+        ],
+        "correct": 0,
+        "rationale": "Mastering the general overhand throwing pattern (e.g., throwing rocks into a lake) transfers broadly to throwing a baseball, throwing a football, serving in tennis, and spiking in volleyball."
+      },
+      {
+        "id": 5,
+        "q": "When is far transfer best applied in an individual's athletic development?",
+        "opts": [
+          "When a learner is just beginning to learn fundamental movement skills during early childhood",
+          "During the final 10 minutes before a professional championship game",
+          "When attempting to master a highly specialized, elite sport technique",
+          "Only after reaching the autonomous stage of motor learning"
+        ],
+        "correct": 0,
+        "rationale": "Far transfer is best applied when a player is just beginning to learn skills, laying broad movement foundations during early development."
+      },
+      {
+        "id": 6,
+        "q": "How does learning fundamental skills like running, jumping, and skating during childhood exemplify far transfer?",
+        "opts": [
+          "These general movement capabilities transfer to future participation in basketball, track and field, and ice hockey.",
+          "They guarantee immediate selection for Olympic teams without further practice.",
+          "They eliminate the need for sports-specific practice drills in adulthood.",
+          "They cause negative interference when learning ball games."
+        ],
+        "correct": 0,
+        "rationale": "Developing general movement capabilities (running, jumping, skating) establishes motor patterns that transfer far into future sports like basketball, track, and hockey."
+      },
+      {
+        "id": 7,
+        "q": "What underlying factor allows far transfer to occur successfully across different sports?",
+        "opts": [
+          "The different movement tasks share the same general movement pattern or motor program class.",
+          "The equipment used in both sports is 100% identical in mass and size.",
+          "Both sports are played on identical artificial turf surfaces.",
+          "The athlete uses continuous verbal self-talk in both sports."
+        ],
+        "correct": 0,
+        "rationale": "If a class of movements shares the same general pattern (e.g., overhand throwing pattern), the learner can transfer learning to other movements of that same class."
+      },
+      {
+        "id": 8,
+        "q": "In near transfer, how closely does the practice environment approximate the ultimate criterion situation?",
+        "opts": [
+          "It fairly specifically and closely approximates the ultimate criterion performance situation.",
+          "It is completely unrelated and distinct from the target situation.",
+          "It causes cognitive confusion and negative interference.",
+          "It focuses exclusively on general, non-sport-specific capabilities."
+        ],
+        "correct": 0,
+        "rationale": "Near transfer is specific and closely approximates the ultimate situation in which the learned skills will be applied."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which sports skills rely on the general OVERHAND THROWING PATTERN, illustrating far transfer? (Select all that apply)",
+        "opts": [
+          "Throwing a baseball",
+          "Throwing a football",
+          "Serving in tennis",
+          "Spiking a volleyball"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationale": "All four skills (baseball throw, football pass, tennis serve, volleyball spike) share the foundational overhand throwing movement pattern."
+      },
+      {
+        "id": 2,
+        "q": "Which statements accurately contrast NEAR TRANSFER and FAR TRANSFER? (Select all that apply)",
+        "opts": [
+          "Near transfer applies to practice tasks that closely approximate the target criterion task.",
+          "Far transfer applies to general capabilities transferring to very different future tasks.",
+          "Near transfer is desired when preparing a team for a specific upcoming game or match.",
+          "Far transfer is best applied during early skill acquisition to build broad movement intelligence."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationale": "All four statements correctly define and contrast near transfer (specific, close approximation) and far transfer (general, long-term broad development)."
+      },
+      {
+        "id": 3,
+        "q": "Which activities represent examples of FAR TRANSFER from general childhood movement to future sports? (Select all that apply)",
+        "opts": [
+          "Throwing rocks into a lake -> Tennis serve and volleyball spike",
+          "Childhood skating -> Playing competitive ice hockey",
+          "Childhood running and jumping -> Track & field and basketball",
+          "Practicing free throws on a regulation hoop -> Shooting free throws in a game"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Rock throwing, skating, and running/jumping transfer broadly to future sports (far transfer). Free throws in practice to game free throws is near transfer."
+      },
+      {
+        "id": 4,
+        "q": "Why is fostering FAR TRANSFER important in physical education programs for young children? (Select all that apply)",
+        "opts": [
+          "It builds a broad movement repertoire and versatile movement intelligence.",
+          "It allows children to acquire foundational movement patterns that support multiple future activities.",
+          "It avoids premature specialization while promoting lifelong physical literacy.",
+          "It guarantees that children never need to practice sport-specific skills later in life."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Far transfer builds movement intelligence, supports diverse future sports, and avoids premature specialization. Sport-specific practice is still needed later."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Near transfer occurs when the practice activity closely approximates the target criterion task.",
+        "ans": true,
+        "feedback": "True. Near transfer involves practice tasks that are relatively similar and specific to the criterion task."
+      },
+      {
+        "id": 2,
+        "q": "Far transfer refers to learning that transfers from one task to a very different task or setting in the future.",
+        "ans": true,
+        "feedback": "True. Far transfer focuses on general movement capabilities transferring to broad future applications."
+      },
+      {
+        "id": 3,
+        "q": "A child learning an overhand throw pattern by throwing rocks into a lake is an example of near transfer to playing baseball.",
+        "ans": false,
+        "feedback": "False. Throwing rocks into a lake to build a general throwing pattern for future sports is a classic example of far transfer."
+      },
+      {
+        "id": 4,
+        "q": "Far transfer is most effective when applied to beginners acquiring fundamental movement patterns.",
+        "ans": true,
+        "feedback": "True. Early skill acquisition benefits greatly from far transfer by establishing general motor pattern classes."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Practicing specific plays for an upcoming game is an example of **near transfer**, whereas developing a general overhand throw pattern illustrates **far transfer**.",
+        "targets": [
+          "near transfer",
+          "far transfer"
+        ],
+        "optionsBank": [
+          "near transfer",
+          "far transfer",
+          "negative transfer",
+          "laminar flow",
+          "profile drag"
+        ],
+        "hint": "Specific task approximation vs. broad movement pattern transfer."
+      },
+      {
+        "id": 2,
+        "statement": "If a class of movements shares the same general **motor pattern**, the learner can transfer skills across different activities in **far transfer**.",
+        "targets": [
+          "motor pattern",
+          "far transfer"
+        ],
+        "optionsBank": [
+          "motor pattern",
+          "far transfer",
+          "near transfer",
+          "autonomic drift",
+          "skin friction"
+        ],
+        "hint": "The underlying movement structure and the general transfer classification."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Distinguish between near transfer and far transfer, providing a sport-specific example for each.",
+        "model": "Near transfer occurs when the practice task is relatively similar to and closely approximates the target criterion task. An example is a volleyball team practicing specific offensive plays against a simulated block in preparation for an upcoming match. Far transfer occurs when learning transfers from one task to a very different task or setting in the future, focusing on broad movement capabilities. An example is a child developing a general overhand throwing pattern by throwing rocks into a lake, which later transfers to throwing a baseball, passing a football, serving in tennis, and spiking in volleyball.",
+        "criteria": [
+          "Define near transfer as specific practice approximating the criterion task, with a valid example (e.g. volleyball match prep).",
+          "Define far transfer as general capabilities transferring to broad future tasks, with a valid example (e.g. overhand throw pattern).",
+          "Clearly contrast specific short-term goal alignment versus broad long-term pattern development."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Explain how the concept of far transfer supports the development of fundamental movement skills in pediatric physical education.",
+        "model": "In pediatric physical education, the goal of practice is to provide young learners with general movement capabilities rather than early sport specialization. Developing fundamental movement patterns (such as running, jumping, catching, and overhand throwing) creates generalized motor programs. Through far transfer, these foundational movement patterns transfer broadly to a wide variety of future sports and physical activities (such as basketball, track and field, baseball, and tennis), building versatile movement intelligence and supporting lifelong physical literacy.",
+        "criteria": [
+          "Explain that pediatric PE focuses on general capabilities over early specialization.",
+          "State that fundamental movement patterns create generalized motor programs.",
+          "Describe how far transfer enables these patterns to support diverse future sports."
+        ]
+      }
+    ]
+  },
+  "p3": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "On what four critical elements does the overall transfer effectiveness of a training simulator depend?",
+        "opts": [
+          "Motor, perceptual, conceptual (tactical), and biomotor elements",
+          "Financial cost, metallic weight, color, and size",
+          "Laminar drag, profile drag, skin friction, and buoyancy",
+          "Anaerobic capacity, VO2max, heart rate reserve, and stroke volume"
+        ],
+        "correct": 0,
+        "rationale": "The textbook states that a simulator's effectiveness depends on its ability to simulate motor, perceptual, conceptual (tactical), and biomotor (strength, speed, endurance) elements."
+      },
+      {
+        "id": 2,
+        "q": "According to the Part vs. Whole Practice Decision Matrix, when is PART PRACTICE most effective?",
+        "opts": [
+          "When the task is high in complexity and low in interdependence",
+          "When the task is low in complexity and high in interdependence",
+          "When the task is a rapid, discrete action lasting under 200 milliseconds",
+          "When the task has zero component parts"
+        ],
+        "correct": 0,
+        "rationale": "Part practice is most effective for skills that are high in complexity (many component parts) and low in interdependence (components do not interact strongly)."
+      },
+      {
+        "id": 3,
+        "q": "According to the Decision Matrix, when is WHOLE PRACTICE most effective?",
+        "opts": [
+          "When the task is high in interdependence and low in complexity",
+          "When the task is high in complexity and low in interdependence",
+          "When the task is a long serial skill with independent parts",
+          "When component parts do not interact at all"
+        ],
+        "correct": 0,
+        "rationale": "Whole practice is most effective when task components are high in interdependence (intply interacting) and low in complexity."
+      },
+      {
+        "id": 4,
+        "q": "What method of part practice involves linking sequential movement parts together using forward or backward chaining?",
+        "opts": [
+          "Segmentation (progressive part practice)",
+          "Bandwidth feedback",
+          "Mental rehearsal",
+          "Faded feedback"
+        ],
+        "correct": 0,
+        "rationale": "Segmentation (progressive part practice) involves breaking a skill into segments and linking them together sequentially via forward or backward chaining."
+      },
+      {
+        "id": 5,
+        "q": "Which tracking field event uses BACKWARD CHAINING segmentation, where the final segment is actually practiced first?",
+        "opts": [
+          "Discus throw (practicing the toss first, then combining the toss with a turn)",
+          "100-meter dash",
+          "High jump approach run",
+          "Marathon running"
+        ],
+        "correct": 0,
+        "rationale": "Coaches use backward chaining for the discus throw by having athletes practice the final release/toss first before combining it with the preceding body turn."
+      },
+      {
+        "id": 6,
+        "q": "Why can practicing the isolated parts of a rapid, highly programmed discrete skill (like a golf swing) have a NEGATIVE impact on learning?",
+        "opts": [
+          "Because practicing parts separately changes the essential muscle dynamics and character of the rapid whole action.",
+          "Because part practice causes immediate muscle atrophy.",
+          "Because golf swings require zero muscle contraction.",
+          "Because whole practice eliminates all motor programs."
+        ],
+        "correct": 0,
+        "rationale": "In rapid discrete actions, components interact intensely; practicing parts in isolation alters muscle action dynamics and can negatively impact whole-skill learning."
+      },
+      {
+        "id": 7,
+        "q": "What transfer strategy involves reducing the difficulty or complexity of a whole skill within a particular environment while maintaining relative timing?",
+        "opts": [
+          "Simplification",
+          "Backward chaining",
+          "Negative transfer",
+          "Mental rehearsal"
+        ],
+        "correct": 0,
+        "rationale": "Simplification is a variation of whole practice that reduces environmental difficulty or complexity (e.g., using lighter, softer tennis balls or tee-ball) while preserving relative timing."
+      },
+      {
+        "id": 8,
+        "q": "How does using lighter, softer tennis balls in beginner tennis instruction demonstrate SIMPLIFICATION?",
+        "opts": [
+          "It reduces ball flying and bouncing speeds, giving learners more time to execute proper stroke mechanics.",
+          "It increases ball speed to force faster reaction times.",
+          "It changes tennis into squash.",
+          "It eliminates the need for tennis racquets."
+        ],
+        "correct": 0,
+        "rationale": "Lighter, softer tennis balls fly and bounce slower, simplifying the environmental timing demands while allowing beginners to practice whole stroke mechanics."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which elements must an advanced simulator replicate to achieve maximum positive transfer? (Select all that apply)",
+        "opts": [
+          "Motor elements (movement mechanics)",
+          "Perceptual elements (visual/spatial cues)",
+          "Conceptual elements (tactical decision-making)",
+          "Biomotor elements (strength, speed, endurance demands)"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationale": "All four elements (motor, perceptual, conceptual/tactical, biomotor) are explicitly required for effective simulation transfer."
+      },
+      {
+        "id": 2,
+        "q": "Which guidelines govern the selection between PART PRACTICE and WHOLE PRACTICE? (Select all that apply)",
+        "opts": [
+          "Part practice is superior for skills high in complexity and low in interdependence.",
+          "Whole practice is superior for skills high in interdependence and low in complexity.",
+          "Serial skills of long duration with independent parts suit part practice.",
+          "Rapid discrete skills with intense component interaction suit part practice in isolation."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "High complexity/low interdependence suits part practice; high interdependence/low complexity suits whole practice. Rapid discrete skills suit whole practice because isolating parts changes muscle dynamics."
+      },
+      {
+        "id": 3,
+        "q": "Which strategies represent forms of SIMPLIFICATION in motor practice? (Select all that apply)",
+        "opts": [
+          "Using lighter and softer tennis balls to reduce bounce and flight speed",
+          "Hitting a baseball off a tee to eliminate ball timing demands",
+          "Altering overall movement speed while preserving relative timing",
+          "Adding heavy weights to a bat during live competitive play"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Softer balls, batting off a tee, and reducing movement speed while keeping relative timing are classic textbook examples of simplification."
+      },
+      {
+        "id": 4,
+        "q": "Which statements regarding SEGMENTATION (progressive part practice) are accurate? (Select all that apply)",
+        "opts": [
+          "It involves linking sequential skill parts using forward or backward chaining.",
+          "Forward chaining practices the first segment to criterion before adding the second.",
+          "Backward chaining practices the final segment first (e.g., discus release toss).",
+          "It is used exclusively for rapid discrete skills lasting under 100 milliseconds."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Segmentation uses forward/backward chaining for sequential tasks. It is ill-suited for ultra-rapid discrete skills."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Part practice is most effective for skills that are high in complexity and low in interdependence.",
+        "ans": true,
+        "feedback": "True. When skill parts are complex but independent, practicing them separately is highly effective."
+      },
+      {
+        "id": 2,
+        "q": "Whole practice is most effective for rapid, highly interdependent discrete skills.",
+        "ans": true,
+        "feedback": "True. Highly interdependent skills suffer when broken apart because isolating components changes muscle action dynamics."
+      },
+      {
+        "id": 3,
+        "q": "Backward chaining involves practicing the first segment of a skill first until a criterion level is achieved.",
+        "ans": false,
+        "feedback": "False. Forward chaining practices the first segment first; backward chaining practices the final segment first."
+      },
+      {
+        "id": 4,
+        "q": "Batting a baseball off a tee is an example of simplification because it removes the timing demands of an approaching ball.",
+        "ans": true,
+        "feedback": "True. Tee-ball simplifies whole practice by eliminating environmental ball speed and timing variables."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Part practice is favored when task **complexity** is high and **interdependence** is low.",
+        "targets": [
+          "complexity",
+          "interdependence"
+        ],
+        "optionsBank": [
+          "complexity",
+          "interdependence",
+          "simulated drag",
+          "laminar flow",
+          "boundary layer"
+        ],
+        "hint": "The two axes of the Part vs Whole Practice Decision Matrix."
+      },
+      {
+        "id": 2,
+        "statement": "In progressive part practice, **forward chaining** introduces initial segments first, whereas **backward chaining** practices the final segment first.",
+        "targets": [
+          "forward chaining",
+          "backward chaining"
+        ],
+        "optionsBank": [
+          "forward chaining",
+          "backward chaining",
+          "mental rehearsal",
+          "faded feedback",
+          "bandwidth range"
+        ],
+        "hint": "The two directional strategies used in skill segmentation."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Explain the Part versus Whole Practice Decision Matrix based on task complexity and task interdependence.",
+        "model": "The decision to use part versus whole practice depends on two task characteristics: complexity (the number of component parts and cognitive demands) and interdependence (how strongly the component parts interact with one another). Part practice is most effective when a skill is high in complexity and low in interdependence (such as long serial gymnastics routines), allowing independent parts to be mastered separately. Whole practice is most effective when a skill is high in interdependence and low in complexity, or for rapid discrete actions (such as a golf swing or baseball pitch) where component parts interact intensely and isolating them alters muscle dynamics.",
+        "criteria": [
+          "Define task complexity (number of parts) and task interdependence (how parts interact).",
+          "Explain that part practice suits high complexity / low interdependence (serial skills).",
+          "Explain that whole practice suits high interdependence / low complexity (rapid discrete skills)."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Compare segmentation (forward vs. backward chaining) and simplification as motor transfer strategies.",
+        "model": "Segmentation (progressive part practice) involves breaking a sequential skill into distinct parts and chaining them together. In forward chaining, the first segment is practiced to criterion before adding the second (common in dance choreography). In backward chaining, the final segment is learned first before preceding parts are added (e.g., practicing the discus release toss before adding the body turn). Simplification is a variation of whole practice where the complexity of the whole skill is reduced within the environment (e.g., using softer tennis balls or hitting off a tee) to reduce speed/timing demands while maintaining the relative timing and overall character of the movement.",
+        "criteria": [
+          "Define segmentation and contrast forward chaining (first part first) with backward chaining (last part first with discus example).",
+          "Define simplification as reducing whole-skill environmental complexity while preserving relative timing.",
+          "Provide a valid simplification example (soft tennis balls, tee-ball)."
+        ]
+      }
+    ]
+  },
+  "p4": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What is the primary instructional purpose of using lead-up activities and drills in sports practice?",
+        "opts": [
+          "To serve as a means of positive transfer to the target sporting activity",
+          "To replace competitive games permanently",
+          "To evaluate student cognitive reading comprehension",
+          "To generate negative transfer and confuse opponents"
+        ],
+        "correct": 0,
+        "rationale": "Lead-up drills (e.g., agility ladders, passing slaloms) are rarely of interest in themselves; they are designed specifically to transfer movement skills to target game performance."
+      },
+      {
+        "id": 2,
+        "q": "Which lead-up drills are highlighted for developing football-specific movement patterns, speed, and footwork?",
+        "opts": [
+          "Stepping through tires and speed ladders",
+          "Swimming 400-meter individual medleys",
+          "Practicing squash flexible-wrist forehands",
+          "Static balance beam holds"
+        ],
+        "correct": 0,
+        "rationale": "The textbook explicitly identifies stepping through tires and speed ladders as lead-up drills designed to increase football-specific movement patterns."
+      },
+      {
+        "id": 3,
+        "q": "What is mental rehearsal (mental practice) in motor skill learning?",
+        "opts": [
+          "Cognitively rehearsing a skill in the absence of overt physical movement",
+          "Practicing a skill at 100% maximum physical speed until fatigue occurs",
+          "Watching an opponent perform without cognitive engagement",
+          "Reading biomechanics textbooks during physical exercise"
+        ],
+        "correct": 0,
+        "rationale": "Mental rehearsal involves constructing cognitive model situations and rehearsing skill execution in the mind without overt physical movement."
+      },
+      {
+        "id": 4,
+        "q": "How does mental rehearsal generate positive transfer in motor learning?",
+        "opts": [
+          "It aids concentration, develops timing/rhythm, and consolidates neural movement patterns.",
+          "It completely replaces the need for physical practice.",
+          "It increases muscle hypertrophy without physical load.",
+          "It eliminates the need for motor programs."
+        ],
+        "correct": 0,
+        "rationale": "Mental rehearsal aids concentration, assists in developing timing and rhythm, prepares athletes for competition, and consolidates specific neural motor patterns."
+      },
+      {
+        "id": 5,
+        "q": "Should mental rehearsal replace actual physical practice in a motor learning curriculum?",
+        "opts": [
+          "No; mental rehearsal should supplement, not replace, physical practice.",
+          "Yes; mental rehearsal is 100% superior to physical practice in all conditions.",
+          "Yes; physical practice causes negative transfer.",
+          "No; mental rehearsal has zero effect on motor learning."
+        ],
+        "correct": 0,
+        "rationale": "The textbook explicitly states that although mental practice alone should not replace actual physical practice, it is a valuable supplement."
+      },
+      {
+        "id": 6,
+        "q": "When is mental rehearsal particularly useful for an athlete during a training schedule?",
+        "opts": [
+          "Between physical practice trials, during injury rehabilitation, and prior to competition",
+          "Only during sleep",
+          "Only when using high-speed computerized pitching machines",
+          "When attempting to induce negative transfer"
+        ],
+        "correct": 0,
+        "rationale": "Mental rehearsal is a useful way to stay on top of skills between physical practice trials, prepare mentally before competition, and maintain mental motor patterns during injury."
+      },
+      {
+        "id": 7,
+        "q": "Which basketball lead-up drills are identified as effective practice for game movement demands?",
+        "opts": [
+          "Starting and stopping, turning, evading and faking, and skipping and jumping drills",
+          "Heavy weightlifting squat jumps only",
+          "Archery target shooting",
+          "Long-distance continuous marathon running"
+        ],
+        "correct": 0,
+        "rationale": "Experience in basketball coaching demonstrates that starting/stopping, turning, evading/faking, and skipping/jumping drills effectively transfer to game demands."
+      },
+      {
+        "id": 8,
+        "q": "How does mental rehearsal assist an athlete in managing competitive performance anxiety?",
+        "opts": [
+          "By constructing model situations and mentally walking through sequential actions to build cognitive preparation and focus",
+          "By eliminating central nervous system activity",
+          "By increasing heart rate to maximum levels before the event",
+          "By inducing muscular fatigue"
+        ],
+        "correct": 0,
+        "rationale": "Mentally going through model situations and sequential actions enhances concentration, cognitive readiness, and emotional control, reducing pre-competition anxiety."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which sport-specific lead-up drills are highlighted in Section 12.4? (Select all that apply)",
+        "opts": [
+          "Basketball: Starting/stopping, turning, evading, and faking drills",
+          "Soccer: Passing, shooting, dribbling, and faking drills",
+          "Football: Stepping through tires and speed ladders",
+          "Squash: Rigid-wrist firm forehand drills"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Basketball evasion/footwork, soccer passing/dribbling, and football tire/ladder drills are explicitly cited. Rigid-wrist forehands in squash cause negative transfer."
+      },
+      {
+        "id": 2,
+        "q": "Which benefits are associated with MENTAL REHEARSAL in motor skill performance? (Select all that apply)",
+        "opts": [
+          "Developing movement timing and rhythm",
+          "Aiding mental concentration and competitive preparation",
+          "Consolidating specific neural movement patterns",
+          "Replacing 100% of physical practice requirements"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Mental rehearsal improves timing, concentration, preparation, and motor pattern consolidation. It supplements but cannot replace physical practice."
+      },
+      {
+        "id": 3,
+        "q": "How can lead-up drills and activities be effectively integrated into practice design? (Select all that apply)",
+        "opts": [
+          "Ensure drills target specific movement patterns used in the criterion game.",
+          "Use agility ladders, slaloms, and evasion grids to build game-specific movement speed.",
+          "Recognize that drills are valuable only as a means to achieve positive game transfer.",
+          "Use generic drills that bear zero physical or tactical resemblance to the sport."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Drills must target game movement patterns, build speed/agility, and serve as a means for positive transfer. Unrelated drills are ineffective."
+      },
+      {
+        "id": 4,
+        "q": "In which situations is mental practice particularly beneficial for athletes? (Select all that apply)",
+        "opts": [
+          "As a supplement to physical practice trials during regular training",
+          "To mentally prepare and focus immediately prior to competition",
+          "To maintain cognitive movement patterns during injury recovery when physical practice is restricted",
+          "To eliminate the need for physical warm-ups"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Mental practice supplements physical trials, aids pre-competition preparation, and maintains cognitive patterns during injury rehabilitation."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Lead-up drills and activities are rarely of interest in themselves, serving primarily as a means of positive transfer to a target sporting activity.",
+        "ans": true,
+        "feedback": "True. Drills are instructional tools designed specifically to achieve positive transfer to actual game performance."
+      },
+      {
+        "id": 2,
+        "q": "Mental rehearsal involves cognitive practice of a skill in the absence of overt physical movement.",
+        "ans": true,
+        "feedback": "True. Mental rehearsal is the mental visualization and cognitive walkthrough of movement steps without physical execution."
+      },
+      {
+        "id": 3,
+        "q": "Mental rehearsal is so powerful that it should completely replace physical practice in athletic training.",
+        "ans": false,
+        "feedback": "False. Mental practice alone should never replace physical practice; it is a valuable supplement."
+      },
+      {
+        "id": 4,
+        "q": "Stepping through tires and speed ladders in football training helps build football-specific movement patterns and footwork.",
+        "ans": true,
+        "feedback": "True. Tire and ladder drills serve as lead-up activities to enhance footwork, balance, and agility for football."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Lead-up activities like speed ladders serve as a means to achieve **positive transfer** to the criterion **game performance**.",
+        "targets": [
+          "positive transfer",
+          "game performance"
+        ],
+        "optionsBank": [
+          "positive transfer",
+          "game performance",
+          "negative transfer",
+          "sarcopenia",
+          "laminar flow"
+        ],
+        "hint": "The learning transfer type and the target athletic outcome."
+      },
+      {
+        "id": 2,
+        "statement": "**Mental rehearsal** involves cognitive walkthroughs without overt physical movement, serving as a supplement to **physical practice**.",
+        "targets": [
+          "mental rehearsal",
+          "physical practice"
+        ],
+        "optionsBank": [
+          "mental rehearsal",
+          "physical practice",
+          "faded feedback",
+          "bandwidth range",
+          "profile drag"
+        ],
+        "hint": "The visualization technique and the primary practice mode it supplements."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Explain the role and value of lead-up activities and drills in sports practice design, giving two sport-specific examples.",
+        "model": "Lead-up activities and drills are designed not as end goals themselves, but as instructional tools to foster positive transfer to target competitive performance (the criterion task). They break down game demands into manageable movement, agility, and decision-making components. Examples include: 1) Basketball starting/stopping, turning, and faking drills that develop footwork for game evasion; and 2) Football tire and speed ladder drills that enhance multi-directional foot speed, balance, and foot placement for game situations.",
+        "criteria": [
+          "Explain that drills serve as tools for positive transfer to game performance.",
+          "Provide basketball example (starting/stopping, faking, evasion drills).",
+          "Provide football example (tire and speed ladder drills for footwork)."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Define mental rehearsal and describe three specific benefits it provides to an athlete when used as a supplement to physical practice.",
+        "model": "Mental rehearsal (or mental practice) is the cognitive performance of a skill in the mind in the absence of any overt physical movement. When used as a supplement to physical practice, it provides three key benefits: 1) It aids in developing timing, rhythm, and sequential motor pattern consolidation; 2) It enhances concentration and mental preparation prior to competition, reducing anxiety; and 3) It allows athletes to maintain mental movement templates between practice trials or during periods of physical injury when physical practice is restricted.",
+        "criteria": [
+          "Define mental rehearsal as cognitive movement walkthrough without overt physical movement.",
+          "State that it supplements (does not replace) physical practice.",
+          "Detail three benefits: timing/rhythm/pattern consolidation, concentration/anxiety reduction, and practice gap/injury maintenance."
+        ]
+      }
+    ]
+  }
+}

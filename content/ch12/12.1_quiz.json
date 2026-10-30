@@ -1,0 +1,1244 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Before individuals can become skilled in any physical activity, what must they first acquire?",
+                "opts": [
+                    "A basic movement repertoire consisting of fundamental movement skills",
+                    "An elite level of maximal oxygen uptake (VO2max)",
+                    "A complex understanding of sports tactics and strategies",
+                    "Advanced weight-training strength adaptations"
+                ],
+                "correct": 0,
+                "rationale": "According to the textbook, before individuals can become skilled in any activity, they must first acquire a basic movement repertoire consisting of fundamental movement skills."
+            },
+            {
+                "id": 2,
+                "q": "At what developmental stage should education involving movement skills begin?",
+                "opts": [
+                    "Early childhood, even as early as the preschool years",
+                    "Only after entering formal middle school physical education",
+                    "During early adolescence after puberty begins",
+                    "Upon joining a competitive varsity high school team"
+                ],
+                "correct": 0,
+                "rationale": "The textbook emphasizes that education involving movement skills should begin early, even as early as the preschool years."
+            },
+            {
+                "id": 3,
+                "q": "Which of the following represents fundamental movement skills highlighted in the textbook?",
+                "opts": [
+                    "Walking, throwing, catching, and climbing",
+                    "Pole vaulting, Olympic weightlifting, and triple jumping",
+                    "Curveball pitching, tennis spin serving, and slide tackling",
+                    "Scuba diving, alpine downhill skiing, and figure skating"
+                ],
+                "correct": 0,
+                "rationale": "Fundamental movement skills mentioned in the text include basic movement patterns such as walking, throwing, catching, and climbing."
+            },
+            {
+                "id": 4,
+                "q": "Why is it critically important to teach movement skills correctly the first time to young children?",
+                "opts": [
+                    "Because movement patterns are still being established, so correct teaching prevents bad habits early.",
+                    "Because young children cannot learn motor skills after age 8.",
+                    "Because incorrect practice causes permanent bone deformities.",
+                    "Because fundamental movement skills cannot be modified once learned."
+                ],
+                "correct": 0,
+                "rationale": "The text states that because movement patterns are still being established in young children, it is important to teach skills correctly the first time to avoid developing bad habits early."
+            },
+            {
+                "id": 5,
+                "q": "How do fundamental movement skills serve as the foundation for future physical performance?",
+                "opts": [
+                    "They form the basis for numerous other complex motor activities in a movement repertoire.",
+                    "They replace the need for physical practice in adulthood.",
+                    "They eliminate the need for qualified sports coaching.",
+                    "They automatically increase an individual's metabolic rate."
+                ],
+                "correct": 0,
+                "rationale": "Developing fundamental skills early allows children to incorporate these basic skills, which are the basis for numerous other activities, into their movement repertoire."
+            },
+            {
+                "id": 6,
+                "q": "What term describes the vast, flexible repertoire of movement experiences discussed in Chapter 11?",
+                "opts": [
+                    "Movement intelligence",
+                    "Anaerobic capacity",
+                    "Kinesthetic threshold",
+                    "Proprioceptive reflex"
+                ],
+                "correct": 0,
+                "rationale": "The textbook refers to the acquisition of movement intelligence as the overarching goal developed through fundamental skills."
+            },
+            {
+                "id": 7,
+                "q": "What is the primary risk of uncorrected, repetitive practice of incorrect technique in young children?",
+                "opts": [
+                    "Establishing bad motor habits that become difficult to unlearn later",
+                    "Decreasing lung volume and cardiorespiratory endurance",
+                    "Causing premature epiphyseal plate closure",
+                    "Reducing maximum heart rate during aerobic exercise"
+                ],
+                "correct": 0,
+                "rationale": "Incorrect early practice leads to establishing ingrained bad movement habits that are difficult to correct later."
+            },
+            {
+                "id": 8,
+                "q": "Which factor is identified as one of the essential conditions for developing movement intelligence starting early in life?",
+                "opts": [
+                    "Starting at a young age during foundational developmental years",
+                    "Specializing in a single sport before age 5",
+                    "Focusing exclusively on cognitive math skills",
+                    "Avoiding all physical activities until adolescence"
+                ],
+                "correct": 0,
+                "rationale": "Starting at a young age is explicitly identified as a key factor affecting the development of movement intelligence."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which movement activities are classified as fundamental movement skills in early skill acquisition? (Select all that apply)",
+                "opts": [
+                    "Walking",
+                    "Throwing",
+                    "Catching",
+                    "Climbing"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "The textbook explicitly lists walking, throwing, catching, and climbing as examples of fundamental movement skills developed early."
+            },
+            {
+                "id": 2,
+                "q": "What key benefits result from starting movement skill education at a young age? (Select all that apply)",
+                "opts": [
+                    "Children incorporate basic skills into a broad repertoire of motor skills.",
+                    "Early learning prevents the development of ingrained bad habits.",
+                    "Fundamental movement skills serve as the basis for numerous complex activities.",
+                    "Children bypass the need for future practice time."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Starting early allows skill integration, prevents bad habits, and provides a foundation for complex activities. Practice is still needed throughout life."
+            },
+            {
+                "id": 3,
+                "q": "Which statements regarding early childhood motor development are supported by the textbook? (Select all that apply)",
+                "opts": [
+                    "Movement skill education should begin as early as preschool years.",
+                    "Movement patterns are still actively being established in young children.",
+                    "Teaching skills correctly the first time is essential.",
+                    "Young children should only practice cognitive skills."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Preschool education, establishing motor patterns, and correct initial instruction are supported by text. Cognitive skills should not exclude physical motor skill development."
+            },
+            {
+                "id": 4,
+                "q": "Which factors are identified in Section 12.1 as influencing the development of movement intelligence? (Select all that apply)",
+                "opts": [
+                    "Starting at a young age",
+                    "Providing sufficient learning time",
+                    "Being taught by qualified instructors",
+                    "Following the right progression and using quality equipment"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four items (young age, sufficient time, qualified instructors, right progression, and quality equipment) are the core factors outlined in the section."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Education involving movement skills should begin early, even as early as the preschool years.",
+                "ans": true,
+                "feedback": "True. The textbook explicitly states that education involving movement skills should begin early, including preschool years."
+            },
+            {
+                "id": 2,
+                "q": "Fundamental movement skills like walking, throwing, catching, and climbing form the basis for numerous complex motor activities.",
+                "ans": true,
+                "feedback": "True. These fundamental skills serve as building blocks incorporated into a broader motor repertoire."
+            },
+            {
+                "id": 3,
+                "q": "Because young children learn quickly, it does not matter if skills are taught incorrectly at first.",
+                "ans": false,
+                "feedback": "False. Teaching skills correctly the first time is vital because movement patterns are actively forming, avoiding bad habits."
+            },
+            {
+                "id": 4,
+                "q": "Movement intelligence can be effectively developed without first acquiring a basic movement repertoire.",
+                "ans": false,
+                "feedback": "False. Before individuals can become skilled, they must first acquire a basic movement repertoire consisting of fundamental movement skills."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Education involving movement skills should begin early, even as early as the **preschool years**, to develop a basic **movement repertoire**.",
+                "targets": [
+                    "preschool years",
+                    "movement repertoire"
+                ],
+                "optionsBank": [
+                    "preschool years",
+                    "movement repertoire",
+                    "high school years",
+                    "cognitive threshold",
+                    "aerobic capacity"
+                ],
+                "hint": "Identifies the ideal early age window and the basic collection of motor skills."
+            },
+            {
+                "id": 2,
+                "statement": "Because movement patterns are still being established in young children, it is important to teach skills **correctly** the first time to avoid **bad habits**.",
+                "targets": [
+                    "correctly",
+                    "bad habits"
+                ],
+                "optionsBank": [
+                    "correctly",
+                    "bad habits",
+                    "rapidly",
+                    "lactate threshold",
+                    "joint flexibility"
+                ],
+                "hint": "Focuses on instructional accuracy to prevent persistent motor errors."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain why initiating motor skill education at a young age (e.g., preschool years) is critical for long-term movement intelligence and habit formation.",
+                "model": "Initiating motor skill education at a young age is critical because early childhood is when fundamental movement skills (like walking, throwing, catching, and climbing) are incorporated into an individual's basic movement repertoire. These fundamental skills serve as the essential foundation for numerous complex athletic activities throughout life. Furthermore, because movement patterns are actively being established in young children, correct initial instruction ensures neural patterns are formed accurately, avoiding the development of bad motor habits that are difficult to unlearn later in life.",
+                "criteria": [
+                    "Identify preschool/early childhood as the ideal starting period for fundamental skills.",
+                    "Explain that fundamental skills (walking, throwing, catching) form the foundation for complex activities.",
+                    "Highlight that correct early instruction prevents ingrained bad motor habits."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Identify four fundamental movement skills mentioned in the text and describe how they support future motor development.",
+                "model": "Four fundamental movement skills explicitly identified in the text are walking, throwing, catching, and climbing. These foundational movement patterns allow children to build movement intelligence. By mastering these basic motor skills early, children can effectively incorporate them into a versatile repertoire of motor skills, enabling seamless transfer when learning more complex, sport-specific skills later in childhood and adolescence.",
+                "criteria": [
+                    "Name the four fundamental skills: walking, throwing, catching, and climbing.",
+                    "Describe their role as building blocks for the movement repertoire.",
+                    "Explain their contribution to developing movement intelligence and complex skill transfer."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What traditional curricular focus in schools often consumes the majority of school day time at the expense of physical skill development?",
+                "opts": [
+                    "Cognitive skills like linguistic and mathematical literacy",
+                    "Vocational trade skills and industrial arts",
+                    "Fine arts like painting and instrumental music",
+                    "Extracurricular athletic competition"
+                ],
+                "correct": 0,
+                "rationale": "The text notes that a large amount of time during the school day is traditionally dedicated to the acquisition of cognitive skills like linguistic and mathematical skills."
+            },
+            {
+                "id": 2,
+                "q": "What is required in order to improve an individual's motor skill development according to the textbook?",
+                "opts": [
+                    "Sufficient time must be allotted to participating in physical activities.",
+                    "Students must rely exclusively on theoretical classroom lectures.",
+                    "Instruction must be restricted to elite athletes.",
+                    "Practice time should be limited to 10 minutes per week."
+                ],
+                "correct": 0,
+                "rationale": "The text states that to improve motor skill development, sufficient time must be allotted to participating in physical activities that enhance movement skills."
+            },
+            {
+                "id": 3,
+                "q": "What happens to motor skills if an individual lacks adequate physical practice experience?",
+                "opts": [
+                    "Skills cannot be learned effectively or maintained.",
+                    "Skills are automatically transferred from cognitive subjects.",
+                    "Skills reach peak mastery without physical effort.",
+                    "Skills become permanently fixed without regression."
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly emphasizes that without physical experience, skills cannot be learned effectively and maintained."
+            },
+            {
+                "id": 4,
+                "q": "How does time allocation for physical activity compare to cognitive skill time allocation in traditional education?",
+                "opts": [
+                    "Cognitive skills traditionally receive large time allocations, whereas physical motor skills need dedicated time to achieve balance.",
+                    "Physical skill practice receives ten times more time than mathematics.",
+                    "Linguistic skills require no time compared to physical skills.",
+                    "Both cognitive and motor skills are completely ignored in school day schedules."
+                ],
+                "correct": 0,
+                "rationale": "The textbook draws a direct parallel: just as cognitive skills receive large time allocations, physical motor skill development also requires sufficient dedicated time."
+            },
+            {
+                "id": 5,
+                "q": "Why is ongoing physical experience necessary even after a motor skill has been initially learned?",
+                "opts": [
+                    "Physical experience is necessary to maintain motor skills over time.",
+                    "Without practice, muscle fibers convert to fat tissue.",
+                    "To prevent cognitive linguistic skills from declining.",
+                    "Physical experience replaces the need for equipment."
+                ],
+                "correct": 0,
+                "rationale": "The text highlights that physical experience is necessary both to learn skills effectively and to maintain them."
+            },
+            {
+                "id": 6,
+                "q": "What role does practice time play in enhancing an individual's movement intelligence?",
+                "opts": [
+                    "It provides the necessary physical experience to refine and solidify motor skills.",
+                    "It lowers maximum oxygen uptake.",
+                    "It eliminates the need for fundamental movement skills.",
+                    "It guarantees instant professional athletic performance."
+                ],
+                "correct": 0,
+                "rationale": "Practice time allows individuals to engage in physical activities that directly enhance and solidify movement skills."
+            },
+            {
+                "id": 7,
+                "q": "In physical education program design, what is a primary consequence of cutting physical activity time?",
+                "opts": [
+                    "Students fail to effectively acquire and maintain motor skill proficiency.",
+                    "Mathematical literacy increases automatically.",
+                    "Movement intelligence develops twice as fast.",
+                    "Equipment lasts longer without wear."
+                ],
+                "correct": 0,
+                "rationale": "Insufficient physical activity time deprives students of the physical experience required for skill acquisition and retention."
+            },
+            {
+                "id": 8,
+                "q": "Which principle summarizes the textbook's stance on practice time and motor skill acquisition?",
+                "opts": [
+                    "Motor skills require sufficient, dedicated learning time through active physical experience.",
+                    "Cognitive study can substitute for physical motor practice.",
+                    "Motor skills are genetically predetermined and require zero practice.",
+                    "Short sporadic practice sessions are superior to dedicated practice time."
+                ],
+                "correct": 0,
+                "rationale": "Dedicated learning time through physical experience is essential for motor skill learning and maintenance."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which cognitive skills are traditionally allocated large amounts of school day time according to the text? (Select all that apply)",
+                "opts": [
+                    "Linguistic skills",
+                    "Mathematical skills",
+                    "Physical movement skills",
+                    "Tactile motor skills"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "The textbook specifically names linguistic and mathematical skills as examples of cognitive skills receiving large traditional school time allocations."
+            },
+            {
+                "id": 2,
+                "q": "What are the outcomes of providing sufficient learning time for physical activity? (Select all that apply)",
+                "opts": [
+                    "Effective skill acquisition",
+                    "Long-term skill maintenance",
+                    "Improvement of motor skill development",
+                    "Elimination of the need for qualified instructors"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Sufficient learning time supports skill learning, maintenance, and motor development. It does not replace qualified instruction."
+            },
+            {
+                "id": 3,
+                "q": "What occurs when students are deprived of adequate physical experience in motor learning? (Select all that apply)",
+                "opts": [
+                    "Skills cannot be learned effectively.",
+                    "Skills cannot be maintained over time.",
+                    "Motor skill development is compromised.",
+                    "Movement intelligence automatically reaches peak potential."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Deprivation of physical experience hinders skill learning, maintenance, and overall motor development."
+            },
+            {
+                "id": 4,
+                "q": "Which statements reflect the relationship between cognitive and physical skill education in schools? (Select all that apply)",
+                "opts": [
+                    "Cognitive skills traditionally receive dedicated daily school time.",
+                    "Motor skill development similarly requires allotted physical activity time.",
+                    "Physical experience is necessary for motor skill retention.",
+                    "Cognitive skills require physical practice to be maintained."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Textbook highlights that cognitive skills get high time, motor skills need parallel time, and physical practice drives retention."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Without physical experience, motor skills cannot be learned effectively or maintained.",
+                "ans": true,
+                "feedback": "True. The textbook explicitly states that physical experience is mandatory for effective skill learning and maintenance."
+            },
+            {
+                "id": 2,
+                "q": "Traditional school day schedules allocate ample time to physical activity while neglecting cognitive skills.",
+                "ans": false,
+                "feedback": "False. The text notes that cognitive skills (linguistic/mathematical) traditionally receive the large dedicated portion of school time."
+            },
+            {
+                "id": 3,
+                "q": "To improve motor skill development, physical education programs must allot sufficient learning time.",
+                "ans": true,
+                "feedback": "True. Sufficient time allotted to physical activity is a required condition for enhancing movement skills."
+            },
+            {
+                "id": 4,
+                "q": "Motor skills, once acquired in early childhood, remain at peak levels without ongoing practice time.",
+                "ans": false,
+                "feedback": "False. Skills cannot be maintained over time without continued physical practice experience."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "While school days traditionally dedicate time to **cognitive skills**, motor skill development requires sufficient **physical experience**.",
+                "targets": [
+                    "cognitive skills",
+                    "physical experience"
+                ],
+                "optionsBank": [
+                    "cognitive skills",
+                    "physical experience",
+                    "anaerobic threshold",
+                    "tactile reflex",
+                    "equipment scaling"
+                ],
+                "hint": "Compares traditional classroom subjects with physical motor practice."
+            },
+            {
+                "id": 2,
+                "statement": "Sufficient time must be allotted to physical activities, because without experience, skills cannot be **learned** or **maintained**.",
+                "targets": [
+                    "learned",
+                    "maintained"
+                ],
+                "optionsBank": [
+                    "learned",
+                    "maintained",
+                    "eliminated",
+                    "quantified",
+                    "isolated"
+                ],
+                "hint": "The two primary learning outcomes dependent on adequate practice time."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Discuss the necessity of allocating sufficient learning time for physical activity in school curricula, contrasting it with traditional cognitive time allocation.",
+                "model": "In traditional school schedules, substantial daily time is allocated to developing cognitive skills like language and mathematics. However, the textbook stresses that motor skill development operates under similar principles and requires sufficient, dedicated practice time. Without adequate physical experience, students cannot learn movement skills effectively nor maintain them over time. Allocating dedicated physical activity time is essential to foster and retain movement intelligence across a lifetime.",
+                "criteria": [
+                    "Acknowledge traditional high time allocation for cognitive subjects (linguistic/math).",
+                    "Explain that motor skills require parallel dedicated physical practice time.",
+                    "State that physical experience is necessary to effectively learn and maintain motor skills."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "What are the primary consequences of insufficient practice time on motor skill acquisition and long-term retention?",
+                "model": "When learning time is insufficient, individuals are deprived of necessary physical experience. Consequently, motor skills cannot be learned effectively during initial exposure, preventing the consolidation of clean movement patterns. Furthermore, previously acquired skills regress over time without ongoing physical practice, leading to diminished movement intelligence and reduced physical confidence.",
+                "criteria": [
+                    "Identify lack of physical experience as the root problem.",
+                    "Explain the failure to effectively learn initial movement patterns.",
+                    "Describe the inability to maintain skills long-term without ongoing practice."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What qualifications must instructors, physical educators, and coaches possess to teach movement skills effectively?",
+                "opts": [
+                    "Proper training and experience with teaching physical activity",
+                    "A background exclusively in professional competitive sports",
+                    "Certification in academic mathematics instruction",
+                    "Experience limited to voluntary sports fan participation"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that instructors, physical educators, and coaches must be properly trained and have experience with teaching physical activity."
+            },
+            {
+                "id": 2,
+                "q": "What common problem regarding instructional staff exists in schools, community programs, and sports camps?",
+                "opts": [
+                    "Unqualified staff are too commonly given the task of teaching movement skills.",
+                    "There are too many overqualified biomechanists teaching basic PE.",
+                    "Instructors are required to hold doctorate degrees to teach preschool.",
+                    "Sports camps refuse to hire coaches with physical activity experience."
+                ],
+                "correct": 0,
+                "rationale": "The text notes that too commonly, unqualified staff are given the task of teaching movement skills in schools, community programs, and sports camps."
+            },
+            {
+                "id": 3,
+                "q": "Why do students and young athletes deserve properly trained physical educators and coaches?",
+                "opts": [
+                    "Because quality instruction ensures safe, effective, and biomechanically correct skill learning.",
+                    "Because unqualified staff charge higher tuition fees.",
+                    "Because trained coaches eliminate the need for equipment.",
+                    "Because instruction has no impact on motor skill acquisition."
+                ],
+                "correct": 0,
+                "rationale": "Students deserve the best level of instruction available to ensure movement skills are taught correctly and effectively."
+            },
+            {
+                "id": 4,
+                "q": "How does an instructor's pedagogical experience influence a student's motor skill acquisition?",
+                "opts": [
+                    "Trained instructors know how to structure practice, provide feedback, and correct errors early.",
+                    "Trained instructors guarantee 100% professional athletic placement.",
+                    "Experienced coaches allow children to teach themselves without intervention.",
+                    "Instructor experience replaces the student's need for physical practice."
+                ],
+                "correct": 0,
+                "rationale": "Properly trained instructors possess the pedagogical skills required to guide skill development, sequence drills, and prevent bad habits."
+            },
+            {
+                "id": 5,
+                "q": "In which settings does the text highlight the frequent misuse of unqualified instructional personnel?",
+                "opts": [
+                    "Schools, community programs, and sports camps",
+                    "Olympic training centers and medical research facilities",
+                    "University biomechanics research laboratories",
+                    "Professional sports franchise executive boards"
+                ],
+                "correct": 0,
+                "rationale": "The textbook specifically identifies schools, community programs, and sports camps as settings where unqualified staff are commonly assigned."
+            },
+            {
+                "id": 6,
+                "q": "What key responsibility rests on physical educators when introducing new motor skills?",
+                "opts": [
+                    "Providing quality, knowledgeable instruction that prevents improper habit formation",
+                    "Ensuring students memorize theoretical biomechanical equations",
+                    "Forcing children to compete in adult professional league rules",
+                    "Restricting physical activity to elite talent identification"
+                ],
+                "correct": 0,
+                "rationale": "Qualified physical educators ensure foundational skills are taught correctly to promote safe, effective skill acquisition."
+            },
+            {
+                "id": 7,
+                "q": "Which statement best reflects the textbook's stance on instructor qualifications in physical education?",
+                "opts": [
+                    "Teaching movement skills requires formal training and practical physical activity experience.",
+                    "Anyone who plays sports is automatically qualified to teach children.",
+                    "Cognitive teachers can teach physical skills without physical activity training.",
+                    "Instruction quality has zero correlation with motor skill learning."
+                ],
+                "correct": 0,
+                "rationale": "The text asserts that teaching movement skills requires proper training and experience in physical activity."
+            },
+            {
+                "id": 8,
+                "q": "What is the primary risk of employing unqualified coaches in youth physical activity programs?",
+                "opts": [
+                    "Students receive poor instruction, leading to uncorrected errors and bad motor habits.",
+                    "Equipment suffers zero physical wear.",
+                    "Students acquire cognitive math skills too quickly.",
+                    "Movement progressions become overly simplified."
+                ],
+                "correct": 0,
+                "rationale": "Unqualified instructors lack the diagnostic skills to correct technique, risking bad habit formation and poor skill development."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "What qualifications should physical activity instructors possess according to the text? (Select all that apply)",
+                "opts": [
+                    "Proper training in physical education/coaching",
+                    "Practical experience with teaching physical activity",
+                    "Knowledge of proper movement skill mechanics",
+                    "A degree in advanced corporate business management"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Proper training, teaching experience, and movement skill knowledge are essential qualifications emphasized in the text."
+            },
+            {
+                "id": 2,
+                "q": "In which community and educational environments are unqualified staff commonly assigned to teach physical skills? (Select all that apply)",
+                "opts": [
+                    "Schools",
+                    "Community programs",
+                    "Sports camps",
+                    "Hospital surgical suites"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "The textbook explicitly lists schools, community programs, and sports camps as places where unqualified staff are too commonly assigned."
+            },
+            {
+                "id": 3,
+                "q": "Why is qualified instruction essential for young learners acquiring motor skills? (Select all that apply)",
+                "opts": [
+                    "Students deserve the highest level of instruction available.",
+                    "Qualified instructors ensure skills are taught correctly from the start.",
+                    "Proper instruction helps prevent the formation of bad motor habits.",
+                    "Qualified instructors eliminate the need for quality equipment."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Qualified instruction delivers high-level teaching, ensures correct initial technique, and prevents bad habits. Equipment is still needed."
+            },
+            {
+                "id": 4,
+                "q": "Which instructional roles require proper physical activity training according to Section 12.1? (Select all that apply)",
+                "opts": [
+                    "Instructors",
+                    "Physical educators",
+                    "Coaches",
+                    "Classroom mathematical lecturers"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "The text specifically groups instructors, physical educators, and coaches as professionals requiring proper training."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Instructors, physical educators, and coaches must be properly trained and have experience teaching physical activity.",
+                "ans": true,
+                "feedback": "True. Proper training and practical teaching experience are explicitly required for effective skill instruction."
+            },
+            {
+                "id": 2,
+                "q": "Unqualified staff are rarely given the task of teaching movement skills in community programs or schools.",
+                "ans": false,
+                "feedback": "False. The text notes that too commonly, unqualified staff are given this task in schools, community programs, and camps."
+            },
+            {
+                "id": 3,
+                "q": "Students deserve the best level of instruction available when learning movement skills.",
+                "ans": true,
+                "feedback": "True. The textbook explicitly emphasizes that students deserve top-level qualified instruction."
+            },
+            {
+                "id": 4,
+                "q": "Any adult who enjoys sports is fully qualified to coach movement skills without formal training.",
+                "ans": false,
+                "feedback": "False. Effective skill teaching requires proper training and specific experience in physical activity instruction."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Instructors and coaches must be properly **trained** and have experience with teaching **physical activity**.",
+                "targets": [
+                    "trained",
+                    "physical activity"
+                ],
+                "optionsBank": [
+                    "trained",
+                    "physical activity",
+                    "certified",
+                    "cognitive math",
+                    "tactile force"
+                ],
+                "hint": "The preparation and domain experience required for movement teachers."
+            },
+            {
+                "id": 2,
+                "statement": "Too commonly, **unqualified staff** are given the task of teaching skills in schools and **sports camps**.",
+                "targets": [
+                    "unqualified staff",
+                    "sports camps"
+                ],
+                "optionsBank": [
+                    "unqualified staff",
+                    "sports camps",
+                    "master coaches",
+                    "research labs",
+                    "elite clinics"
+                ],
+                "hint": "Identifies the common personnel issue and one key setting where it occurs."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain why having properly trained and experienced instructors is critical for effective motor skill acquisition in children.",
+                "model": "Having properly trained and experienced instructors is critical because teaching movement skills requires specialized knowledge of biomechanics, motor learning, and pedagogy. Qualified instructors know how to introduce skills correctly, structure practice, and correct technical errors early before bad habits become established. The textbook notes that too commonly, unqualified staff teach physical skills in schools and community camps, but students deserve the highest level of instruction to ensure optimal skill acquisition.",
+                "criteria": [
+                    "State that instructors require proper training and physical activity teaching experience.",
+                    "Explain that qualified coaches correct errors early and prevent bad habits.",
+                    "Highlight the problem of unqualified staff in schools and camps, asserting students deserve quality instruction."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Identify the settings where unqualified instructional staff are commonly deployed and describe the potential negative impacts on young learners.",
+                "model": "Unqualified instructional staff are commonly deployed in schools, community youth programs, and sports camps. When learners are taught by unqualified personnel, skills may be demonstrated or instructed incorrectly, leading to uncorrected technical flaws. This increases the risk that children develop persistent bad motor habits, experience movement frustration, and fail to develop their movement intelligence to its full potential.",
+                "criteria": [
+                    "Identify settings: schools, community programs, and sports camps.",
+                    "Describe negative impact: incorrect skill demonstration and uncorrected errors.",
+                    "Explain long-term consequences: bad habit formation and hindered movement intelligence."
+                ]
+            }
+        ]
+    },
+    "p4": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What direct influence does choosing the right instructional progression have on motor learning?",
+                "opts": [
+                    "It directly influences the acquisition of movement skills by making them easier to grasp.",
+                    "It eliminates the need for physical practice time.",
+                    "It guarantees instant mastery without equipment.",
+                    "It replaces fundamental movement skills with cognitive tasks."
+                ],
+                "correct": 0,
+                "rationale": "The text states that choosing the right progression to follow has a direct influence on the acquisition of movement skills, ensuring skills are easier to grasp."
+            },
+            {
+                "id": 2,
+                "q": "How does an organized sequence of drills facilitate motor skill learning?",
+                "opts": [
+                    "It breaks complex movements into simpler, structured tasks that build upon one another.",
+                    "It increases the mass of the sports equipment.",
+                    "It allows students to skip fundamental skills entirely.",
+                    "It reduces the need for qualified coaches."
+                ],
+                "correct": 0,
+                "rationale": "An organized action and sequence of drills simplifies the learning process so that skill components are easier to comprehend and execute."
+            },
+            {
+                "id": 3,
+                "q": "In the textbook's baseball example, what simplified lead-up activity is introduced before live pitching?",
+                "opts": [
+                    "Playing tee-ball to simplify the game",
+                    "Throwing heavy weighted medicine balls",
+                    "Batting against high-velocity automated pitching machines",
+                    "Fielding outfield fly balls in professional stadiums"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly uses tee-ball as an example of introducing baseball by simplifying the game before incorporating live pitching."
+            },
+            {
+                "id": 4,
+                "q": "In a batting progression for children, what step follows tee-ball before advancing to fast live pitching?",
+                "opts": [
+                    "Incorporating a live pitcher for batting using slow-pitch first",
+                    "Immediately playing full-speed competitive adult games",
+                    "Practicing bunting with a heavy iron rod",
+                    "Relying exclusively on virtual reality mental imagery"
+                ],
+                "correct": 0,
+                "rationale": "The textbook progression moves from tee-ball to slowly incorporating a live pitcher using slow-pitch first."
+            },
+            {
+                "id": 5,
+                "q": "What motor learning mechanism allows skills learned from simpler, modified tasks to enhance performance on complex tasks?",
+                "opts": [
+                    "Skill transfer (positive motor transfer)",
+                    "Retroactive interference",
+                    "Sarcopenic attenuation",
+                    "Anaerobic glycolysis"
+                ],
+                "correct": 0,
+                "rationale": "The text highlights that the skills learned from simpler tasks can be effectively transferred to more complex tasks."
+            },
+            {
+                "id": 6,
+                "q": "Why is task simplification an effective strategy when teaching new motor skills to novices?",
+                "opts": [
+                    "It reduces cognitive and physical overload, allowing focus on core mechanics.",
+                    "It makes equipment heavier and more challenging.",
+                    "It prevents students from making any physical movements.",
+                    "It eliminates the need for practice time."
+                ],
+                "correct": 0,
+                "rationale": "Simplifying tasks removes complex environmental variables (like ball speed), making basic mechanics easier to grasp."
+            },
+            {
+                "id": 7,
+                "q": "Which sequence illustrates a correct instructional progression for batting in baseball?",
+                "opts": [
+                    "Tee-ball batting -> Slow-pitch live pitching -> Fast live pitching",
+                    "Fast live pitching -> Tee-ball batting -> Mental visualization",
+                    "Weighted bat swings -> Professional pitching -> Tee-ball",
+                    "Fielding drills -> Bunting against automated machines -> Tee-ball"
+                ],
+                "correct": 0,
+                "rationale": "The textbook details the progression from tee-ball (stationary) to slow-pitch live pitching, and then to complex live batting."
+            },
+            {
+                "id": 8,
+                "q": "What is the ultimate objective of designing systematic practice progressions in physical education?",
+                "opts": [
+                    "To ensure skills are easier to grasp and effectively transferred to complex performance contexts",
+                    "To eliminate the need for scaled equipment",
+                    "To replace physical practice with cognitive testing",
+                    "To force early athletic specialization"
+                ],
+                "correct": 0,
+                "rationale": "Systematic progressions structure drills so skills are easily understood and transferred to complex sports settings."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "What features define an effective instructional progression according to the textbook? (Select all that apply)",
+                "opts": [
+                    "Organized action and sequential drills",
+                    "Simplifying complex games during early stages",
+                    "Ensuring skills learned from simple tasks transfer to complex tasks",
+                    "Exposing novices immediately to high-speed elite competition"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Effective progressions use organized sequences, task simplification, and positive transfer. Immediate elite competition overwhelms novices."
+            },
+            {
+                "id": 2,
+                "q": "Which steps are part of the baseball batting progression described in the text? (Select all that apply)",
+                "opts": [
+                    "Playing tee-ball to simplify batting mechanics",
+                    "Slowly incorporating a live pitcher",
+                    "Utilizing slow-pitch batting before faster pitching",
+                    "Starting children with adult professional hardball pitching"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Tee-ball, introducing live pitching slowly, and slow-pitch batting form the explicit progression described in the text."
+            },
+            {
+                "id": 3,
+                "q": "Why is skill transfer an important concept in designing instructional progressions? (Select all that apply)",
+                "opts": [
+                    "Foundational patterns learned in simple drills transfer to complex game conditions.",
+                    "Task simplification builds confidence and basic mechanics before adding speed.",
+                    "It allows instructors to guide learners step-by-step.",
+                    "It eliminates the requirement for physical experience."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Skill transfer connects simple drills to complex play, builds mechanics via task simplification, and enables step-by-step coaching."
+            },
+            {
+                "id": 4,
+                "q": "Which outcomes result from following the right instructional progression? (Select all that apply)",
+                "opts": [
+                    "Skills are easier for learners to grasp.",
+                    "Movement components are mastered systematically.",
+                    "Learners experience successful skill transfer.",
+                    "Bad motor habits are guaranteed to form."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Proper progression makes skills easier to grasp, promotes systematic mastery, and enables transfer while preventing bad habits."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Choosing the right progression to follow has a direct influence on the acquisition of movement skills.",
+                "ans": true,
+                "feedback": "True. The textbook states that instructional progression directly influences how easily movement skills are acquired."
+            },
+            {
+                "id": 2,
+                "q": "Skills learned from simpler, modified tasks can be effectively transferred to more complex tasks.",
+                "ans": true,
+                "feedback": "True. Positive motor transfer allows simpler task mechanics to support learning complex skills."
+            },
+            {
+                "id": 3,
+                "q": "When introducing children to baseball, instructors should immediately begin with high-velocity live pitching.",
+                "ans": false,
+                "feedback": "False. The text recommends starting with tee-ball to simplify the game before introducing live pitching."
+            },
+            {
+                "id": 4,
+                "q": "An organized sequence of drills makes complex physical skills harder for beginners to grasp.",
+                "ans": false,
+                "feedback": "False. Organized drill sequences ensure that skills are easier to grasp by structuring learning step-by-step."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Choosing the right **progression** ensures that skills are easier to grasp through an organized sequence of **drills**.",
+                "targets": [
+                    "progression",
+                    "drills"
+                ],
+                "optionsBank": [
+                    "progression",
+                    "drills",
+                    "equipment",
+                    "cognitive test",
+                    "anaerobic force"
+                ],
+                "hint": "The instructional sequence and structured practice exercises."
+            },
+            {
+                "id": 2,
+                "statement": "Introducing baseball via **tee-ball** simplifies the game so skills can **transfer** to complex tasks later.",
+                "targets": [
+                    "tee-ball",
+                    "transfer"
+                ],
+                "optionsBank": [
+                    "tee-ball",
+                    "transfer",
+                    "fast-pitch",
+                    "regress",
+                    "quantify"
+                ],
+                "hint": "The simplified lead-up activity and the motor learning phenomenon."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain the concept of instructional progression in motor learning and describe the baseball example used in the textbook.",
+                "model": "An instructional progression is an organized sequence of drills and modified tasks that makes movement skills easier to grasp. By structuring actions sequentially, simpler tasks allow learners to master core mechanics before facing complex conditions. The textbook illustrates this by introducing children to baseball through tee-ball (which eliminates ball motion to simplify hitting). Instructors then slowly incorporate live pitching, using slow-pitch first. The skills mastered during tee-ball and slow-pitch effectively transfer to full, complex batting conditions.",
+                "criteria": [
+                    "Define instructional progression as an organized sequence of drills simplifying skill learning.",
+                    "Describe the tee-ball example (stationary ball simplifies batting).",
+                    "Detail the step-by-step advance to slow-pitch and live pitching, highlighting skill transfer."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "How does task simplification facilitate positive motor skill transfer from beginner drills to complex athletic performance?",
+                "model": "Task simplification removes overwhelming environmental variables (such as ball speed or defender pressure) during early practice. This allows novice learners to focus their attention on mastering core biomechanical movement patterns. Once these basic movement templates are established in a simplified context, positive motor transfer enables the learner to apply these foundational skills smoothly when environmental complexity and speed are gradually increased.",
+                "criteria": [
+                    "Explain that task simplification reduces environmental complexity and cognitive load.",
+                    "Describe how learners focus on mastering basic movement templates.",
+                    "Explain that established templates transfer positively to full-speed, complex game situations."
+                ]
+            }
+        ]
+    },
+    "p5": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Why is the quality and appropriateness of physical equipment important for effective motor learning?",
+                "opts": [
+                    "Safe, appropriate, and well-maintained equipment makes learning most effective for students.",
+                    "High-quality equipment eliminates the need for practice time.",
+                    "Expensive equipment allows students to bypass fundamental movement skills.",
+                    "Equipment quality only matters for adult professional athletes."
+                ],
+                "correct": 0,
+                "rationale": "The text states that safe, appropriate, and well-maintained equipment makes learning most effective for students."
+            },
+            {
+                "id": 2,
+                "q": "Why do children require sports equipment that is scaled down to their size?",
+                "opts": [
+                    "Because children have different physical needs and proportions from teenagers or adults.",
+                    "Because full-sized equipment is too inexpensive.",
+                    "Because scaled equipment forces children to work ten times harder.",
+                    "Because adult equipment prevents any physical movement."
+                ],
+                "correct": 0,
+                "rationale": "The textbook emphasizes that since children have different needs from teenagers or adults, equipment scaled down to their size is essential."
+            },
+            {
+                "id": 3,
+                "q": "Which of the following represents an example of scaled-down equipment mentioned in the text?",
+                "opts": [
+                    "Lower basketball hoops, smaller soccer balls, and lighter baseball bats",
+                    "Heavy adult iron barbells and professional regulation hurdles",
+                    "Full-size 10-foot basketball rims for preschool children",
+                    "Adult regulation ice hockey goal crease dimensions"
+                ],
+                "correct": 0,
+                "rationale": "Textbook examples of scaled equipment include lower basketball hoops, smaller basketball/soccer balls, smaller soccer nets, and lighter baseball bats."
+            },
+            {
+                "id": 4,
+                "q": "What biomechanical risk occurs when young children are forced to use full-sized adult sports equipment?",
+                "opts": [
+                    "They adopt distorted, compensatory movement mechanics that establish bad motor habits.",
+                    "Their movement intelligence doubles instantaneously.",
+                    "They develop adult muscle mass immediately.",
+                    "Their equipment undergoes zero physical wear."
+                ],
+                "correct": 0,
+                "rationale": "Adult-sized equipment forces children to alter natural mechanics (e.g., throwing a heavy ball with two hands), creating bad motor habits."
+            },
+            {
+                "id": 5,
+                "q": "How does using smaller soccer balls and nets benefit child motor skill acquisition?",
+                "opts": [
+                    "It matches their physical size and strength, allowing authentic kicking and goaltending mechanics.",
+                    "It guarantees they will win adult championships.",
+                    "It eliminates the need for a soccer field.",
+                    "It replaces the need for a qualified coach."
+                ],
+                "correct": 0,
+                "rationale": "Scaled soccer balls and nets suit children's physical capacity, enabling proper skill execution and success."
+            },
+            {
+                "id": 6,
+                "q": "What three characteristics define quality equipment for effective learning according to the textbook?",
+                "opts": [
+                    "Safe, appropriate, and well-maintained",
+                    "Expensive, imported, and heavy",
+                    "Adult-standard, rigid, and metallic",
+                    "Electronic, automated, and digital"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly lists safe, appropriate, and well-maintained as the three attributes of effective learning equipment."
+            },
+            {
+                "id": 7,
+                "q": "Why is a lower basketball hoop essential for teaching shooting mechanics to young children?",
+                "opts": [
+                    "It allows children to shoot with proper overhand form rather than flinging the ball with two hands.",
+                    "It makes the basketball heavier.",
+                    "It prevents children from running on the court.",
+                    "It forces children to jump off two feet."
+                ],
+                "correct": 0,
+                "rationale": "Lowering the hoop matches children's physical strength, enabling them to shoot with authentic overhand mechanics."
+            },
+            {
+                "id": 8,
+                "q": "Which statement best summarizes the role of equipment in motor skill acquisition?",
+                "opts": [
+                    "Equipment must be safe, well-maintained, and scaled to the learner's physical development to optimize skill learning.",
+                    "Children should always train with adult regulation equipment to build strength quickly.",
+                    "Equipment quality has no effect on physical activity learning outcomes.",
+                    "Scaled equipment should only be used by elite teenage athletes."
+                ],
+                "correct": 0,
+                "rationale": "Quality, safe, well-maintained, and appropriately scaled equipment is essential for effective motor skill learning."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which examples of scaled-down equipment for children are explicitly listed in the textbook? (Select all that apply)",
+                "opts": [
+                    "Lower basketball hoops",
+                    "Smaller basketballs and soccer balls",
+                    "Smaller soccer nets",
+                    "Lighter baseball bats"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "The textbook explicitly lists lower basketball hoops, smaller basketballs/soccer balls, smaller soccer nets, and lighter baseball bats."
+            },
+            {
+                "id": 2,
+                "q": "Why is scaled equipment essential for young learners? (Select all that apply)",
+                "opts": [
+                    "Children have different physical needs from teenagers and adults.",
+                    "It promotes proper movement mechanics without physical strain.",
+                    "It prevents compensatory bad motor habits caused by oversized implements.",
+                    "It eliminates the need for practice time."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Children's physical needs differ from adults, scaled equipment enables proper mechanics, and it prevents compensatory habits."
+            },
+            {
+                "id": 3,
+                "q": "What criteria must equipment meet to make learning most effective for students? (Select all that apply)",
+                "opts": [
+                    "Safe",
+                    "Appropriate for the learner's size",
+                    "Well-maintained",
+                    "Identical to adult professional standards"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Safe, appropriate, and well-maintained are the textbook criteria. Adult standards are inappropriate for young children."
+            },
+            {
+                "id": 4,
+                "q": "What negative outcomes occur when young children use adult-sized sports equipment? (Select all that apply)",
+                "opts": [
+                    "Compensatory movement patterns are adopted.",
+                    "Bad motor habits develop early.",
+                    "Movement skill learning becomes inefficient or frustrated.",
+                    "Fundamental movement skills improve twice as fast."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Adult equipment causes compensatory mechanics, bad habits, and inefficient learning. It hinders, not improves, skill acquisition."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Safe, appropriate, and well-maintained equipment makes learning most effective for students.",
+                "ans": true,
+                "feedback": "True. The textbook explicitly identifies safe, appropriate, and well-maintained equipment as essential for effective learning."
+            },
+            {
+                "id": 2,
+                "q": "Children should use adult-sized sports equipment so they adapt to standard game conditions early.",
+                "ans": false,
+                "feedback": "False. Children have different physical needs from adults, making equipment scaled down to their size essential."
+            },
+            {
+                "id": 3,
+                "q": "Examples of scaled equipment include lower basketball hoops, smaller soccer balls, and lighter baseball bats.",
+                "ans": true,
+                "feedback": "True. These are explicit examples provided in the textbook for child-scaled equipment."
+            },
+            {
+                "id": 4,
+                "q": "The quality of equipment available for teaching movement skills has no impact on motor skill learning.",
+                "ans": false,
+                "feedback": "False. Equipment quality and scaling are important factors directly affecting the acquisition of movement skills."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Learning is most effective when equipment is safe, appropriate, and **well-maintained**, including implements **scaled down** to a child's size.",
+                "targets": [
+                    "well-maintained",
+                    "scaled down"
+                ],
+                "optionsBank": [
+                    "well-maintained",
+                    "scaled down",
+                    "adult-standard",
+                    "heavily weighted",
+                    "rigid metallic"
+                ],
+                "hint": "Equipment maintenance state and size modification for children."
+            },
+            {
+                "id": 2,
+                "statement": "Children require scaled equipment such as lower **basketball hoops** and lighter **baseball bats** to learn correct form.",
+                "targets": [
+                    "basketball hoops",
+                    "baseball bats"
+                ],
+                "optionsBank": [
+                    "basketball hoops",
+                    "baseball bats",
+                    "Olympic barbells",
+                    "vaulting poles",
+                    "javelins"
+                ],
+                "hint": "Two specific examples of modified sports equipment mentioned in the text."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain why equipment must be scaled down for children when teaching fundamental movement skills, providing three specific examples from the text.",
+                "model": "Equipment must be scaled down for children because children have vastly different physical dimensions, strength levels, and movement needs compared to teenagers or adults. Forcing children to use adult equipment causes them to adopt awkward, compensatory mechanics (such as flinging a heavy ball), creating bad habits. Examples of scaled equipment from the text include lower basketball hoops, smaller basketball and soccer balls (with smaller soccer nets), and lighter baseball bats.",
+                "criteria": [
+                    "Explain that children have different physical strength and size needs from adults.",
+                    "Warn that adult equipment causes compensatory movement mechanics and bad habits.",
+                    "Provide three text examples: lower basketball hoops, smaller balls/nets, and lighter baseball bats."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Identify the three attributes of effective learning equipment described in the textbook and explain how well-maintained equipment benefits students.",
+                "model": "The textbook states that effective learning equipment must be safe, appropriate, and well-maintained. Well-maintained and appropriate equipment ensures student safety, prevents equipment failure during practice, and allows learners to focus entirely on executing correct movement mechanics without adjusting for damaged or oversized gear. This fosters a high-success environment that optimizes motor skill learning.",
+                "criteria": [
+                    "Identify three attributes: safe, appropriate, and well-maintained.",
+                    "Explain that well-maintained equipment ensures safety and prevents practice disruption.",
+                    "Describe how proper equipment allows focus on correct mechanics and optimal skill learning."
+                ]
+            }
+        ]
+    }
+}

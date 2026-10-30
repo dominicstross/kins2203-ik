@@ -1,0 +1,994 @@
+{
+  "p1": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What characterizes a blocked practice schedule in motor learning?",
+        "opts": [
+          "A given task is practiced on many consecutive trials before moving on to the next task.",
+          "Tasks from different skill classes are randomly intermingled across trials.",
+          "Rest periods between trials are significantly longer than the trial duration.",
+          "Movement execution is mentally rehearsed without physical movement."
+        ],
+        "correct": 0,
+        "rationale": "Blocked practice is defined as a schedule where a given task is practiced repeatedly on many consecutive trials before proceeding to the next task."
+      },
+      {
+        "id": 2,
+        "q": "Which practice schedule involves randomly intermingling tasks from different skill classes throughout the practice period?",
+        "opts": [
+          "Random practice",
+          "Blocked practice",
+          "Massed practice",
+          "Faded practice"
+        ],
+        "correct": 0,
+        "rationale": "In random practice, the ordering of tasks is randomized so that different skill classes are mixed throughout practice without repeating the same stroke/task on consecutive trials."
+      },
+      {
+        "id": 3,
+        "q": "Why is blocked practice traditional and beneficial during the initial cognitive stage of skill acquisition?",
+        "opts": [
+          "It allows the learner to concentrate on one task at a time to correct specific problems and refine mechanics.",
+          "It maximizes contextual interference and response uncertainties.",
+          "It completely eliminates physical and mental fatigue.",
+          "It forces the learner to adapt to dynamic open environments immediately."
+        ],
+        "correct": 0,
+        "rationale": "Blocked practice enables beginners to isolate and concentrate on one task at a time, making it easier to correct specific problems and refine movement patterns early in learning."
+      },
+      {
+        "id": 4,
+        "q": "For which type of skills is random practice particularly important?",
+        "opts": [
+          "Open skills in dynamic environments where players must continually adapt to varying conditions",
+          "Closed skills performed in completely stable, unchanging environments",
+          "Discrete skills lasting less than a fraction of a second",
+          "Isometric muscular contractions held at fixed joint angles"
+        ],
+        "correct": 0,
+        "rationale": "Random practice is crucial for open skills because dynamic competitive environments demand continuous adaptation to response uncertainties."
+      },
+      {
+        "id": 5,
+        "q": "What does research demonstrate regarding the effectiveness of random practice versus blocked practice for competitive preparation?",
+        "opts": [
+          "Random practice is superior to blocked practice when preparing for competition involving response uncertainties.",
+          "Blocked practice is superior to random practice for long-term competitive transfer.",
+          "Both schedules produce identical long-term competitive retention.",
+          "Random practice hinders motor program development in experienced athletes."
+        ],
+        "correct": 0,
+        "rationale": "Research shows that random practice is superior to blocked practice when preparing players for real competition involving numerous response uncertainties."
+      },
+      {
+        "id": 6,
+        "q": "How would a tennis coach structure a random practice session for groundstrokes and volleys?",
+        "opts": [
+          "Intermingling a few forehands, backhands, volleys, and groundstrokes in random order",
+          "Executing 100 consecutive forehands, followed by 100 backhands, then 100 serves",
+          "Practicing only serves for four consecutive weeks without groundstrokes",
+          "Mental rehearsal of forehands followed by zero physical hitting"
+        ],
+        "correct": 0,
+        "rationale": "In random practice, a tennis player hits forehands, proceeds to backhands, moves to volleys, and repeats in varied, non-consecutive order."
+      },
+      {
+        "id": 7,
+        "q": "In volleyball coaching, what traditional practice structure exemplifies blocked practice?",
+        "opts": [
+          "Dedicated spiking drills, followed by separate bumping drills, serving drills, and volleying drills",
+          "Alternating a spike, a bump, a serve, and a volley on every single contact",
+          "Playing a full 6v6 competitive match without drill instruction",
+          "Executing mental imagery of volleyball plays while resting"
+        ],
+        "correct": 0,
+        "rationale": "Traditional volleyball training uses blocked practice by isolating spiking, bumping, serving, and volleying into separate, repetitive drill blocks."
+      },
+      {
+        "id": 8,
+        "q": "What is the primary advantage of random practice despite potential lower performance during initial practice trials?",
+        "opts": [
+          "It builds robust motor memory and flexible response selection for dynamic competitive transfer.",
+          "It reduces practice heart rate and physical energy expenditure.",
+          "It allows beginners to avoid making any motor errors during practice.",
+          "It eliminates the need for feedback from a coach."
+        ],
+        "correct": 0,
+        "rationale": "Random practice introduces contextual interference, forcing the brain to regenerate movement solutions on each trial, enhancing long-term competitive transfer."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which statements accurately describe BLOCKED PRACTICE? (Select all that apply)",
+        "opts": [
+          "A given task is practiced repeatedly on many consecutive trials.",
+          "It allows learners to concentrate on isolating and refining one skill at a time.",
+          "It is traditional and beneficial early in practice during the cognitive stage.",
+          "Tasks from different classes are intermingled randomly on every trial."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Blocked practice involves consecutive repetition of one task, helps isolate skill refinement early in learning, and is traditional. Random intermingling defines random practice."
+      },
+      {
+        "id": 2,
+        "q": "Which statements accurately describe RANDOM PRACTICE? (Select all that apply)",
+        "opts": [
+          "Tasks from different skill classes are mixed throughout the practice period.",
+          "The same skill is not repeated over and over on consecutive trials.",
+          "It is superior to blocked practice when preparing for open, uncertain competition.",
+          "It is the easiest practice structure for complete beginners in their first 5 minutes of learning."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Random practice mixes tasks, avoids consecutive repeats, and excels for open competition. It can be overwhelming for absolute beginners compared to blocked practice."
+      },
+      {
+        "id": 3,
+        "q": "Why does random practice enhance long-term competitive performance in open sports like tennis, soccer, and basketball? (Select all that apply)",
+        "opts": [
+          "It forces players to continually adapt to dynamic, varying environmental conditions.",
+          "It mimics the unpredictable response uncertainties faced during actual competition.",
+          "It requires the motor system to re-retrieve and reconstruct motor programs on each trial.",
+          "It guarantees zero fatigue during continuous endurance tasks."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Random practice mirrors competitive uncertainty, forces cognitive adaptation, and requires active reconstruction of motor programs. It does not prevent fatigue."
+      },
+      {
+        "id": 4,
+        "q": "Which sport drill structures represent BLOCKED PRACTICE? (Select all that apply)",
+        "opts": [
+          "A basketball player shooting 50 consecutive free throws from the same spot",
+          "A golfer hitting 30 consecutive 7-iron shots to the same target",
+          "A swimmer practicing 20 consecutive butterfly kick drills across the pool",
+          "A tennis player alternating forehand, backhand, overhead smash, and drop shot randomly"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Shooting 50 free throws, hitting 30 identical 7-irons, and 20 identical kick drills are blocked repetitions. Alternating shots randomly is random practice."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "In blocked practice, a given task is practiced on many consecutive trials before setting about to the next task.",
+        "ans": true,
+        "feedback": "True. Blocked practice consists of consecutive, uninterrupted repetition of a single skill."
+      },
+      {
+        "id": 2,
+        "q": "Random practice is superior to blocked practice when preparing players for competition involving response uncertainties.",
+        "ans": true,
+        "feedback": "True. Research confirms that random practice provides better long-term retention and transfer for dynamic, uncertain competitive environments."
+      },
+      {
+        "id": 3,
+        "q": "In random practice, the learner repeats the exact same skill over and over on consecutive trials.",
+        "ans": false,
+        "feedback": "False. In random practice, tasks from different classes are intermingled so the same stroke/task is not repeated on consecutive trials."
+      },
+      {
+        "id": 4,
+        "q": "Blocked practice enables beginners to correct specific problems and refine skills one at a time early in learning.",
+        "ans": true,
+        "feedback": "True. Blocked practice isolates a skill, making it easier for cognitive-stage beginners to focus on basic form."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "In **blocked practice**, a skill is practiced repeatedly on consecutive trials, whereas **random practice** intermingles different skill classes.",
+        "targets": [
+          "blocked practice",
+          "random practice"
+        ],
+        "optionsBank": [
+          "blocked practice",
+          "random practice",
+          "faded feedback",
+          "massed practice",
+          "mental rehearsal"
+        ],
+        "hint": "The two primary practice organization schedules based on task order."
+      },
+      {
+        "id": 2,
+        "statement": "Random practice is superior for preparing athletes for **open skills** that involve numerous **response uncertainties**.",
+        "targets": [
+          "open skills",
+          "response uncertainties"
+        ],
+        "optionsBank": [
+          "open skills",
+          "response uncertainties",
+          "closed skills",
+          "static balance",
+          "laminar flow"
+        ],
+        "hint": "The dynamic sport conditions and unpredictable competitive demands."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Compare blocked practice and random practice, explaining their structural differences and identifying when each schedule is most appropriate in motor learning.",
+        "model": "Blocked practice involves practicing a single task repeatedly over many consecutive trials before moving on to a new task (e.g., shooting 50 consecutive free throws). It isolates skill mechanics, making it ideal for beginners in the cognitive stage to correct specific flaws and grasp basic movement form. Random practice intermingles tasks from different skill classes throughout the session so that no single task is repeated on consecutive trials. Random practice creates contextual interference, making it superior for preparing intermediate and advanced athletes for open skills and competitive environments with high response uncertainty.",
+        "criteria": [
+          "Define blocked practice (consecutive task repetition) and random practice (intermingled task classes).",
+          "Explain that blocked practice suits cognitive beginners for isolating form.",
+          "Explain that random practice suits open skills and competitive preparation involving uncertainty."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Design a practice session for a basketball player using both blocked and random practice elements across different stages of workout design.",
+        "model": "A coach can structure the workout progressively: 1) Blocked Phase (Early Workout): The player performs blocked practice by executing 30 consecutive stationary form-shooting reps from the elbow to refine wrist snap and elbow alignment without distraction. 2) Random Phase (Late Workout / Game Context): The coach transitions to random practice where the player alternates unpredictably between a pick-and-roll jumper, a drive-and-kick layup, a step-back three-pointer, and a defensive closeout rep. This random structure forces the player to adapt to dynamic game conditions and re-retrieve motor programs on every trial.",
+        "criteria": [
+          "Describe a blocked phase (consecutive reps of one skill for form refinement).",
+          "Describe a random phase (mixing jumpers, layups, and defense in unpredictable order).",
+          "Explain the motor learning purpose of transitioning from blocked form work to random game play."
+        ]
+      }
+    ]
+  },
+  "p2": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "How is a massed practice schedule defined regarding the ratio of rest to trial length?",
+        "opts": [
+          "A schedule in which the amount of rest between practice trials is short relative to the trial length",
+          "A schedule in which the rest period lasts significantly longer than the trial itself",
+          "A schedule where tasks are randomly intermingled across days",
+          "A practice schedule consisting exclusively of mental imagery"
+        ],
+        "correct": 0,
+        "rationale": "Massed practice is defined as a schedule in which the amount of rest between practice trials is short relative to the trial length (e.g., 5 seconds rest for a 60-second trial)."
+      },
+      {
+        "id": 2,
+        "q": "How is a distributed practice schedule defined regarding rest periods?",
+        "opts": [
+          "Practice that allows for more rest between trials relative to the trial length (rest may equal or exceed trial length)",
+          "Practice with zero rest between continuous 60-minute workouts",
+          "Practicing only one trial per week",
+          "A schedule where rest is completely eliminated to maximize fatigue"
+        ],
+        "correct": 0,
+        "rationale": "Distributed practice provides longer rest periods relative to trial length, often allowing rest intervals that equal or exceed the physical work trial duration."
+      },
+      {
+        "id": 3,
+        "q": "What is the primary physiological and neurological impact of reducing rest intervals in massed practice?",
+        "opts": [
+          "It reduces recovery time for the body and central nervous system from physical and mental fatigue.",
+          "It speeds up muscular cellular repair during the workout.",
+          "It eliminates lactic acid accumulation instantly.",
+          "It doubles maximal oxygen uptake within 5 minutes."
+        ],
+        "correct": 0,
+        "rationale": "Reducing rest intervals in massed practice reduces the time available for the body and central nervous system to recover from physical and mental fatigue."
+      },
+      {
+        "id": 4,
+        "q": "How does severe physical and central nervous system fatigue accumulated during massed practice affect skill learning on successive trials?",
+        "opts": [
+          "It tends to have a negative effect on performance level, particularly when learning new skills.",
+          "It automatically accelerates motor program consolidation.",
+          "It guarantees 100% error-free movement execution.",
+          "It eliminates the need for distributed practice."
+        ],
+        "correct": 0,
+        "rationale": "Fatigue from short rest intervals tends to negatively impact performance quality on successive trials, especially when acquiring novel movement patterns."
+      },
+      {
+        "id": 5,
+        "q": "Which athletic drill exemplifies massed practice in basketball or badminton?",
+        "opts": [
+          "Continuous basketball lay-up drills with 5 seconds rest or uninterrupted overhead badminton smashes",
+          "Shooting 1 free throw followed by 10 minutes of sitting rest",
+          "Mental rehearsal of badminton serves in a quiet room",
+          "Swimming 1 lap followed by 15 minutes of pool deck rest"
+        ],
+        "correct": 0,
+        "rationale": "Continuous basketball lay-up drills (shooting/rebounding constantly) and uninterrupted badminton overhead smashes represent massed practice."
+      },
+      {
+        "id": 6,
+        "q": "Why is distributed practice generally recommended when learners are acquiring new, complex movement patterns?",
+        "opts": [
+          "The extended rest intervals allow recovery from fatigue, preserving technique quality and cognitive attention.",
+          "It reduces total practice time to zero minutes.",
+          "It forces the central nervous system into maximum exhaustion.",
+          "It replaces the need for an instructor or coach."
+        ],
+        "correct": 0,
+        "rationale": "Distributed practice gives the body and central nervous system time to recover from fatigue, preventing technical degradation during early skill acquisition."
+      },
+      {
+        "id": 7,
+        "q": "Is there a single universally optimal practice-to-rest ratio for all motor learning tasks?",
+        "opts": [
+          "No; there is no single optimal practice-rest ratio, as it depends on task demands and energy systems.",
+          "Yes; 10 seconds of work to 10 minutes of rest is universal.",
+          "Yes; massed practice is always superior for every sport.",
+          "Yes; rest should always equal exactly 50% of work time."
+        ],
+        "correct": 0,
+        "rationale": "The textbook explicitly notes that there is no single optimal practice-rest ratio for all learning tasks; schedules must match skill characteristics."
+      },
+      {
+        "id": 8,
+        "q": "What critical safety principle must coaches follow when designing practice-rest schedules?",
+        "opts": [
+          "A player's safety should never be compromised by fatigue.",
+          "Fatigue should be forced until athletes faint.",
+          "Rest periods must be eliminated during hot summer workouts.",
+          "Safety is completely unrelated to physical exhaustion."
+        ],
+        "correct": 0,
+        "rationale": "Coaches must tailor practice conditions to match energy demands and fitness levels, ensuring athlete safety is never compromised by fatigue."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which characteristics define MASSED PRACTICE? (Select all that apply)",
+        "opts": [
+          "Rest periods between trials are short relative to trial duration.",
+          "Example: 5 seconds of rest for a 60-second continuous practice trial.",
+          "It leads to rapid accumulation of physical and central nervous system fatigue.",
+          "Rest periods are always three times longer than the physical work trial."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Massed practice uses short rest relative to work (e.g., 5s rest for 60s work) and causes rapid physical/CNS fatigue accumulation."
+      },
+      {
+        "id": 2,
+        "q": "Which characteristics define DISTRIBUTED PRACTICE? (Select all that apply)",
+        "opts": [
+          "Rest periods between trials are longer relative to trial duration.",
+          "Rest intervals may equal or exceed the duration of the work trial.",
+          "It provides time for the body and central nervous system to recover from fatigue.",
+          "It requires athletes to train continuously for 4 hours without stopping."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Distributed practice allows generous rest (equal to or greater than work time) to allow physical and neurological recovery from fatigue."
+      },
+      {
+        "id": 3,
+        "q": "What are the primary consequences of reducing rest intervals during physical skill practice? (Select all that apply)",
+        "opts": [
+          "Reduces recovery time for the body and central nervous system.",
+          "Increases physical and mental fatigue.",
+          "Tends to negatively affect performance quality on successive trials.",
+          "Instantly improves movement precision in complex novel tasks."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Reducing rest cuts recovery time, elevates fatigue, and impairs performance quality, particularly when learning new motor tasks."
+      },
+      {
+        "id": 4,
+        "q": "Which athletic activities naturally align with MASSED PRACTICE conditions where fatigue is low or continuity is desired? (Select all that apply)",
+        "opts": [
+          "Short discrete baseball throwing or basketball free-throw drills",
+          "Continuous basketball lay-up drills with fast rebound rotations",
+          "Uninterrupted badminton overhead smash drills",
+          "High-intensity 400m sprint intervals with zero rest"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Short discrete tasks (free throws) and rapid continuous drills (layups, smashes) use massed practice. Sprinting with zero rest causes dangerous exhaustion."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Massed practice is defined as a schedule where rest periods between trials are short relative to trial length.",
+        "ans": true,
+        "feedback": "True. Massed practice features short rest intervals relative to active work duration."
+      },
+      {
+        "id": 2,
+        "q": "Distributed practice provides more rest between trials than massed practice.",
+        "ans": true,
+        "feedback": "True. Distributed practice distributes work across longer rest intervals."
+      },
+      {
+        "id": 3,
+        "q": "Reducing rest between practice trials increases recovery time for the central nervous system.",
+        "ans": false,
+        "feedback": "False. Shortening rest reduces recovery time for both the body and central nervous system."
+      },
+      {
+        "id": 4,
+        "q": "A player's safety should never be compromised by fatigue during practice scheduling.",
+        "ans": true,
+        "feedback": "True. Practice conditions must respect physical demands and fitness levels to ensure safety."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "In **massed practice**, rest intervals are short relative to work, whereas **distributed practice** provides extended rest between trials.",
+        "targets": [
+          "massed practice",
+          "distributed practice"
+        ],
+        "optionsBank": [
+          "massed practice",
+          "distributed practice",
+          "faded feedback",
+          "blocked practice",
+          "mental rehearsal"
+        ],
+        "hint": "The two practice schedules categorized by work-to-rest ratio."
+      },
+      {
+        "id": 2,
+        "statement": "Reducing rest intervals increases physical and mental **fatigue**, which negatively affects learning new **movement patterns**.",
+        "targets": [
+          "fatigue",
+          "movement patterns"
+        ],
+        "optionsBank": [
+          "fatigue",
+          "movement patterns",
+          "laminar flow",
+          "magnus force",
+          "tactile feedback"
+        ],
+        "hint": "The physical state caused by short rest and its impact on motor learning."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Distinguish between massed practice and distributed practice in terms of work-to-rest ratios and their physiological effects on fatigue.",
+        "model": "Massed practice features work trials with short rest intervals relative to trial duration (e.g., 5 seconds of rest for a 60-second trial). This continuous work leads to rapid accumulation of physical and central nervous system fatigue. Distributed practice features longer rest intervals relative to work duration, where rest may equal or exceed trial length. Distributed practice provides adequate recovery time for energy replenishment and CNS fatigue dissipation, preserving movement quality.",
+        "criteria": [
+          "Define massed practice (short rest relative to work) and distributed practice (longer rest relative to work).",
+          "Explain that massed practice leads to rapid physical and CNS fatigue accumulation.",
+          "Explain that distributed practice allows fatigue dissipation and recovery of movement quality."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Why must a physical educator or coach consider the energy requirements of a skill and athlete fitness when choosing between massed and distributed practice?",
+        "model": "A coach must evaluate energy requirements because high-intensity or continuous skills cause rapid muscular and metabolic fatigue. If massed practice is used for high-fatigue tasks, severe exhaustion degrades movement mechanics, compromises central nervous system control, and increases injury risk. Matching rest intervals to energy demands (distributed practice for high fatigue, massed for low fatigue) ensures technique is maintained and player safety is never compromised.",
+        "criteria": [
+          "Identify that high-intensity/continuous tasks generate substantial fatigue.",
+          "Explain that excessive fatigue degrades movement technique and increases injury risk.",
+          "State the rule that athlete safety must never be compromised by practice fatigue."
+        ]
+      }
+    ]
+  },
+  "p3": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "How does reducing rest intervals between practice trials affect learning and performance for short discrete tasks (e.g., baseball throwing, basketball shooting)?",
+        "opts": [
+          "It generally has no negative effect on learning or performance and may even provide a slight benefit.",
+          "It causes catastrophic movement breakdown instantly.",
+          "It prevents the formation of motor programs permanently.",
+          "It forces the athlete into immediate metabolic acidosis."
+        ],
+        "correct": 0,
+        "rationale": "For short discrete tasks lasting a fraction of a second, reducing rest between trials generally has no negative effect on learning or performance."
+      },
+      {
+        "id": 2,
+        "q": "Why does reducing rest between practice trials for continuous skills (e.g., swimming, cycling) have a negative impact on performance?",
+        "opts": [
+          "Principally because of the accumulation of physical fatigue during continuous metabolic work",
+          "Because discrete skills require 100% mental rehearsal",
+          "Because continuous skills do not use motor programs",
+          "Because swimming pool water eliminates fluid drag"
+        ],
+        "correct": 0,
+        "rationale": "Reducing rest during continuous skills negatively impacts performance primarily because continuous tasks generate significant physical fatigue."
+      },
+      {
+        "id": 3,
+        "q": "Which practice schedule is recommended for continuous skills such as swimming, cycling, and rowing?",
+        "opts": [
+          "Distributed practice schedules with increased rest periods for fatigue recovery",
+          "Massed practice schedules with zero rest for 3 continuous hours",
+          "Blocked mental rehearsal without physical swimming",
+          "Randomized 1-second sprint drills"
+        ],
+        "correct": 0,
+        "rationale": "Continuous skills like swimming and cycling require distributed practice schedules with adequate rest intervals to recover from fatigue."
+      },
+      {
+        "id": 4,
+        "q": "Which practice schedule is preferable when teaching and learning short discrete skills?",
+        "opts": [
+          "Massed practice",
+          "Distributed practice with 10-minute rest intervals between reps",
+          "Faded summary feedback",
+          "Continuous underwater swimming"
+        ],
+        "correct": 0,
+        "rationale": "The textbook summary highlights that massed practice is preferable when teaching and learning short discrete skills where fatigue per rep is minimal."
+      },
+      {
+        "id": 5,
+        "q": "What skill characteristic must instructors evaluate when searching for the right practice-rest balance?",
+        "opts": [
+          "The energy requirements and physical demands of the skill",
+          "The color of the athlete's uniform",
+          "The price of the facility rental",
+          "The latitude of the sports stadium"
+        ],
+        "correct": 0,
+        "rationale": "Instructors must evaluate the energy requirements and physical demands of the skill to tailor practice conditions to athlete fitness."
+      },
+      {
+        "id": 6,
+        "q": "Which examples represent short discrete tasks in sports?",
+        "opts": [
+          "Throwing a baseball, shooting a basketball, or kicking a soccer ball",
+          "Swimming 1500m freestyle, cycling 40km, or rowing 2000m",
+          "Running a 10km cross-country race",
+          "Cross-country skiing for 2 hours"
+        ],
+        "correct": 0,
+        "rationale": "Throwing a baseball, shooting a basketball, and kicking a soccer ball are short discrete tasks lasting a fraction of a second."
+      },
+      {
+        "id": 7,
+        "q": "What happens to movement coordination when an athlete attempts to practice continuous skills under extreme fatigue?",
+        "opts": [
+          "Actions become swift and smooth without attention.",
+          "Technique degrades, coordination breaks down, and injury risk increases.",
+          "Motor programs solidify twice as fast.",
+          "The athlete enters the autonomous stage automatically."
+        ],
+        "correct": 0,
+        "rationale": "Severe fatigue degrades movement technique and coordination, making continuous practice under exhaustion counterproductive and unsafe."
+      },
+      {
+        "id": 8,
+        "q": "How should a swim coach structure a high-intensity interval practice session for novice swimmers?",
+        "opts": [
+          "Using distributed practice with generous rest intervals between swim bouts to allow fatigue recovery and form maintenance",
+          "Using massed practice with zero rest for 60 consecutive laps",
+          "Eliminating physical swimming in favor of classroom lectures",
+          "Forcing swimmers to hold their breath underwater for 10 minutes"
+        ],
+        "correct": 0,
+        "rationale": "Distributed practice allows novice swimmers necessary rest to recover from metabolic fatigue, preserving swimming stroke technique."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which statements regarding DISCRETE SKILLS and practice scheduling are accurate? (Select all that apply)",
+        "opts": [
+          "They are short tasks lasting a fraction of a second (e.g., throwing, kicking).",
+          "Reducing rest between practice trials generally has no negative effect on learning.",
+          "Massed practice is often preferable when teaching and learning discrete skills.",
+          "They require 15 minutes of rest between every single rep."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Discrete skills are brief, tolerate reduced rest (massed practice) without performance breakdown, and do not need massive rest per rep."
+      },
+      {
+        "id": 2,
+        "q": "Which statements regarding CONTINUOUS SKILLS and practice scheduling are accurate? (Select all that apply)",
+        "opts": [
+          "They involve repetitive physical movement over extended time (e.g., swimming, cycling).",
+          "Reducing rest between trials negatively impacts performance due to fatigue.",
+          "Distributed practice schedules with adequate rest are generally recommended.",
+          "Fatigue has zero effect on continuous skill execution."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Continuous skills generate significant fatigue, making reduced rest detrimental and distributed practice recommended."
+      },
+      {
+        "id": 3,
+        "q": "Which sports tasks are classified as SHORT DISCRETE SKILLS? (Select all that apply)",
+        "opts": [
+          "Throwing a baseball",
+          "Shooting a basketball free throw",
+          "Kicking a soccer penalty kick",
+          "Rowing a 2000-meter ergometer race"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Throwing a baseball, shooting a free throw, and kicking a soccer ball are discrete skills. Rowing 2000m is a continuous endurance skill."
+      },
+      {
+        "id": 4,
+        "q": "Which factors must a coach analyze when tailoring practice-rest ratios? (Select all that apply)",
+        "opts": [
+          "The metabolic energy requirements of the skill",
+          "The current fitness level of the athletes",
+          "The duration and continuous vs. discrete nature of the movement",
+          "The athlete's favorite color"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Energy requirements, athlete fitness, and task duration/nature dictate practice-rest design. Uniform color is irrelevant."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "For short discrete tasks like throwing a baseball, reducing rest between trials generally has no negative effect on learning.",
+        "ans": true,
+        "feedback": "True. Discrete tasks last fractions of a second and accumulate minimal fatigue per rep."
+      },
+      {
+        "id": 2,
+        "q": "Distributed practice is generally better than massed practice for continuous skills like swimming and cycling.",
+        "ans": true,
+        "feedback": "True. Continuous skills generate high fatigue, requiring distributed rest intervals to preserve technique."
+      },
+      {
+        "id": 3,
+        "q": "Massed practice is recommended for continuous swimming workouts where extreme fatigue is desired.",
+        "ans": false,
+        "feedback": "False. Severe fatigue degrades continuous skill mechanics; distributed practice is recommended for continuous skills."
+      },
+      {
+        "id": 4,
+        "q": "The energy requirements of a skill dictate how practice and rest should be balanced.",
+        "ans": true,
+        "feedback": "True. Practice conditions must match the physical demands and energy systems of the task."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Massed practice is preferable for **discrete skills**, whereas distributed practice is superior for **continuous skills**.",
+        "targets": [
+          "discrete skills",
+          "continuous skills"
+        ],
+        "optionsBank": [
+          "discrete skills",
+          "continuous skills",
+          "open skills",
+          "closed skills",
+          "faded skills"
+        ],
+        "hint": "The two movement duration categories mapped to practice schedules."
+      },
+      {
+        "id": 2,
+        "statement": "Reducing rest during continuous activities causes **fatigue**, which degrades movement **technique**.",
+        "targets": [
+          "fatigue",
+          "technique"
+        ],
+        "optionsBank": [
+          "fatigue",
+          "technique",
+          "buoyancy",
+          "magnus effect",
+          "self-talk"
+        ],
+        "hint": "The physical exhaustion outcome and its negative impact on coordination."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Compare how practice scheduling (massed vs. distributed) should be applied to short discrete skills versus long continuous skills.",
+        "model": "Short discrete skills (e.g., throwing a baseball, shooting a basketball) last fractions of a second and produce minimal fatigue per trial. Reducing rest between trials (massed practice) has no negative impact on learning and allows high rep volume. Long continuous skills (e.g., swimming, cycling, rowing) involve repetitive cyclic motion that generates substantial metabolic fatigue. Reducing rest during continuous skills degrades technique and coordination. Therefore, distributed practice with expanded rest intervals is required for continuous skills to allow fatigue recovery and preserve form.",
+        "criteria": [
+          "Explain that short discrete skills tolerate massed practice (low fatigue per rep).",
+          "Explain that long continuous skills generate high metabolic fatigue.",
+          "State that distributed practice is necessary for continuous skills to recover form."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Why is massed practice suitable for basketball free-throw training, whereas distributed practice is necessary for a 400-meter swimming workout?",
+        "model": "Basketball free-throw shooting is a discrete skill lasting only 1-2 seconds per attempt. Because physical fatigue per shot is extremely low, massed practice (taking reps with short 5-second breaks) allows rapid repetition and form consolidation without technical breakdown. A 400-meter swim workout is a high-intensity continuous skill that rapidly depletes glycogen, elevates blood lactate, and causes muscular exhaustion. Using massed practice for swimming would cause stroke mechanics to collapse. Distributed practice provides necessary rest intervals for swimmers to recover energy, ensuring safe, high-quality technical execution.",
+        "criteria": [
+          "Identify free throws as discrete tasks with low per-rep fatigue suitable for massed practice.",
+          "Identify 400m swimming as a continuous task causing high metabolic/muscular fatigue.",
+          "Explain that distributed rest prevents stroke collapse and preserves technical quality."
+        ]
+      }
+    ]
+  },
+  "p4": {
+    "mcq": [
+      {
+        "id": 1,
+        "q": "What is the fundamental distinction between 'performance' and 'learning' in motor behavior?",
+        "opts": [
+          "Performance is temporary execution susceptible to fatigue/motivation, whereas learning represents relatively permanent changes in capability.",
+          "Performance is permanent, whereas learning is a temporary 5-second state.",
+          "Learning and performance are completely identical terms with zero distinction.",
+          "Performance occurs only in animals, whereas learning occurs only in computers."
+        ],
+        "correct": 0,
+        "rationale": "Performance refers to temporary observable execution affected by transient factors (fatigue, motivation), whereas learning refers to relatively permanent changes in movement capability."
+      },
+      {
+        "id": 2,
+        "q": "Why might a learner exhibit high temporary performance during a blocked practice session but show poor long-term retention during a competitive test?",
+        "opts": [
+          "Blocked practice enhances short-term performance through immediate repetition but fails to build permanent motor program retrieval capabilities.",
+          "Blocked practice causes permanent brain damage.",
+          "Random practice eliminates all long-term memory.",
+          "Performance during practice is always 100% predictive of competitive learning."
+        ],
+        "correct": 0,
+        "rationale": "Blocked practice produces high temporary practice scores (performance) due to simple repetition, but random practice produces superior long-term retention and transfer (learning)."
+      },
+      {
+        "id": 3,
+        "q": "Which practice conditions introduce 'contextual interference' that may depress immediate practice performance but significantly enhance long-term learning?",
+        "opts": [
+          "Random practice schedules",
+          "Blocked practice schedules",
+          "Massed discrete shooting drills",
+          "Constant 100% continuous feedback"
+        ],
+        "correct": 0,
+        "rationale": "Random practice creates contextual interference, which challenges immediate practice performance but drives deeper cognitive processing and superior long-term learning."
+      },
+      {
+        "id": 4,
+        "q": "How can a coach accurately assess whether true motor 'learning' has occurred as opposed to temporary 'performance' gains?",
+        "opts": [
+          "By conducting a retention or transfer test after a delay without guidance or artificial practice aids",
+          "By measuring performance on the very first practice trial",
+          "By asking the athlete if they feel confident",
+          "By eliminating all rest intervals permanently"
+        ],
+        "correct": 0,
+        "rationale": "True motor learning is evaluated using delayed retention or transfer tests after practice effects (fatigue, immediate feedback) have dissipated."
+      },
+      {
+        "id": 5,
+        "q": "What mental practice technique generates positive transfer and aids motor program consolidation without overt physical movement?",
+        "opts": [
+          "Mental rehearsal (mental practice)",
+          "Blocked massed sprinting",
+          "Faded bandwidth feedback",
+          "Isokinetic muscular contractions"
+        ],
+        "correct": 0,
+        "rationale": "Mental rehearsal involves constructing model situations and mentally going through movement sequences without physical motion, generating positive transfer."
+      },
+      {
+        "id": 6,
+        "q": "How should mental rehearsal be used in a comprehensive athletic training program?",
+        "opts": [
+          "As a useful supplement to physical practice to aid timing, concentration, and pre-competition preparation",
+          "As a 100% replacement for all physical practice",
+          "Only for athletes who refuse to participate in sports",
+          "To increase physical fatigue before competition"
+        ],
+        "correct": 0,
+        "rationale": "Mental rehearsal should not replace physical practice but serves as a powerful supplement to develop timing, concentration, and confidence."
+      },
+      {
+        "id": 7,
+        "q": "For which athletes is mental rehearsal particularly valuable according to the textbook?",
+        "opts": [
+          "Injured athletes unable to participate in physical practice trials",
+          "Athletes who have never seen the sport before",
+          "Athletes competing in zero-gravity environments",
+          "Coaches who do not know the rules of the game"
+        ],
+        "correct": 0,
+        "rationale": "Mental rehearsal is especially beneficial for injured athletes, allowing them to stay on top of skills and maintain cognitive movement patterns during recovery."
+      },
+      {
+        "id": 8,
+        "q": "What psychological benefits does mental rehearsal provide prior to major athletic competition?",
+        "opts": [
+          "Eliminates fears and anxieties, aids concentration, and builds competitive confidence",
+          "Increases heart rate to dangerous metabolic levels",
+          "Causes acute cognitive disorientation",
+          "Guarantees first-place medals without physical effort"
+        ],
+        "correct": 0,
+        "rationale": "Mental rehearsal helps eliminate fears and anxieties, sharpens concentration, and builds psychological confidence for future competition."
+      }
+    ],
+    "ms": [
+      {
+        "id": 1,
+        "q": "Which statements accurately distinguish PERFORMANCE from LEARNING? (Select all that apply)",
+        "opts": [
+          "Performance is temporary observable behavior during a practice trial.",
+          "Learning represents a relatively permanent change in the capability for movement.",
+          "Transient factors like fatigue, anxiety, and feedback affect practice performance.",
+          "High practice performance always guarantees superior long-term learning."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Performance is temporary and influenced by transient factors; learning is relatively permanent. High practice performance does NOT guarantee long-term retention."
+      },
+      {
+        "id": 2,
+        "q": "What benefits are provided by MENTAL REHEARSAL in motor learning? (Select all that apply)",
+        "opts": [
+          "Consolidates specific movement patterns in central memory.",
+          "Aids timing, rhythm, concentration, and competitive preparation.",
+          "Helps injured athletes maintain skills during physical recovery.",
+          "Replaces the need for all physical practice sessions."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Mental rehearsal consolidates motor patterns, improves timing/concentration, and maintains skills in injured athletes. It supplements, rather than replaces, physical practice."
+      },
+      {
+        "id": 3,
+        "q": "Which factors can temporarily elevate practice PERFORMANCE while obscuring true motor LEARNING? (Select all that apply)",
+        "opts": [
+          "Continuous, 100% feedback from a coach on every trial",
+          "Blocked practice repetitions of a single isolated skill",
+          "Low physical fatigue during easy practice conditions",
+          "A delayed retention test conducted 1 week after practice"
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Continuous feedback, blocked repetition, and zero fatigue artificially inflate practice performance. Delayed retention tests measure true learning."
+      },
+      {
+        "id": 4,
+        "q": "How does mental rehearsal help eliminate fears and build competitive confidence? (Select all that apply)",
+        "opts": [
+          "It allows athletes to construct model situations and walk through responses mentally.",
+          "It prepares the central nervous system for sequential competitive actions.",
+          "It reduces pre-competition anxiety.",
+          "It physically increases muscle cross-sectional area by 50%."
+        ],
+        "correctArray": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Mental rehearsal builds cognitive model situations, prepares CNS pathways, and lowers anxiety. It does not cause physical muscle hypertrophy."
+      }
+    ],
+    "tf": [
+      {
+        "id": 1,
+        "q": "Performance is a temporary observable behavior, whereas learning represents a relatively permanent change in movement capability.",
+        "ans": true,
+        "feedback": "True. This is the foundational distinction between temporary execution and permanent learning."
+      },
+      {
+        "id": 2,
+        "q": "High performance during a practice session is proof that permanent motor learning has occurred.",
+        "ans": false,
+        "feedback": "False. Temporary practice performance can be artificially inflated by blocked repetition or continuous feedback."
+      },
+      {
+        "id": 3,
+        "q": "Mental rehearsal can generate positive transfer in a motor learning context without overt physical movement.",
+        "ans": true,
+        "feedback": "True. Mental practice consolidates motor patterns and generates positive transfer."
+      },
+      {
+        "id": 4,
+        "q": "Mental rehearsal should completely replace physical practice for uninjured athletes.",
+        "ans": false,
+        "feedback": "False. Mental rehearsal is a useful supplement to physical practice, not a total replacement."
+      }
+    ],
+    "cloze": [
+      {
+        "id": 1,
+        "statement": "Temporary execution is defined as **performance**, whereas relatively permanent capability changes represent **learning**.",
+        "targets": [
+          "performance",
+          "learning"
+        ],
+        "optionsBank": [
+          "performance",
+          "learning",
+          "fatigue",
+          "massed practice",
+          "laminar flow"
+        ],
+        "hint": "The temporary vs. permanent behavioral concepts in motor learning."
+      },
+      {
+        "id": 2,
+        "statement": "Cognitive visualization without physical motion is **mental rehearsal**, which aids timing and **concentration**.",
+        "targets": [
+          "mental rehearsal",
+          "concentration"
+        ],
+        "optionsBank": [
+          "mental rehearsal",
+          "concentration",
+          "massed practice",
+          "buoyancy",
+          "drag force"
+        ],
+        "hint": "The non-physical practice strategy and its psychological benefit."
+      }
+    ],
+    "sa": [
+      {
+        "id": 1,
+        "prompt": "Explain the critical distinction between 'performance' and 'learning' in motor skill acquisition, and describe how a coach evaluates true learning.",
+        "model": "Performance refers to temporary, observable movement execution during practice, which is heavily influenced by transient factors such as fatigue, motivation, emotional state, and immediate feedback. Learning refers to a relatively permanent change in the capability for skilled movement that persists over time. A coach cannot measure true learning during practice because high practice performance (e.g., in blocked practice) may fade. True learning is evaluated using a delayed retention test or transfer test conducted after practice effects and immediate feedback have dissipated.",
+        "criteria": [
+          "Define performance as temporary execution influenced by transient variables (fatigue, feedback).",
+          "Define learning as relatively permanent change in movement capability.",
+          "Explain that true learning is evaluated via delayed retention or transfer tests."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Describe the role of mental rehearsal in motor learning, detailing its benefits for uninjured athletes and injured athletes.",
+        "model": "Mental rehearsal (mental practice) involves cognitively constructing model movement situations and stepping through actions without overt physical motion. For uninjured athletes, mental rehearsal serves as a valuable supplement to physical practice that sharpens timing and rhythm, consolidates neural motor programs, enhances concentration, and reduces pre-competition anxiety. For injured athletes unable to physically practice, mental rehearsal is crucial for maintaining cognitive movement patterns, staying on top of skills during recovery, and preserving competitive confidence.",
+        "criteria": [
+          "Define mental rehearsal as cognitive visualization without physical movement.",
+          "Detail benefits for uninjured athletes (timing, motor program consolidation, concentration, lower anxiety).",
+          "Detail benefits for injured athletes (skill maintenance, cognitive pattern retention during recovery)."
+        ]
+      }
+    ]
+  }
+}

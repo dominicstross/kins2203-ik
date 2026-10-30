@@ -1,0 +1,747 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What is the primary goal of the learner during the cognitive stage of learning a motor skill?",
+                "opts": [
+                    "To determine cognitively the general shape of the skill and the goals to be achieved",
+                    "To refine movement details using environmental cues and timing",
+                    "To reduce attention demands so focus can shift to strategy and creativity",
+                    "To automatically detect subtle motor errors using internal muscle sense"
+                ],
+                "correct": 0,
+                "rationale": "According to the textbook, when a skill is completely new, the first major goal for the learner in the cognitive stage is to determine cognitively the general shape of the skill and the goals to be achieved."
+            },
+            {
+                "id": 2,
+                "q": "Which types of questions predominate during the initial cognitive stage of motor learning?",
+                "opts": [
+                    "Questions concerning 'what', 'when', and 'how' as the learner tries to get a feel for the activity",
+                    "Questions concerning tactical deception and opponent strategy",
+                    "Questions concerning how to maximize movement speed and power output",
+                    "Questions concerning biomechanical lever arm torque equations"
+                ],
+                "correct": 0,
+                "rationale": "In the early cognitive stage, questions regarding 'what', 'when', and 'how' predominate as the novice attempts to grasp the general idea of the movement."
+            },
+            {
+                "id": 3,
+                "q": "How do beginners frequently guide themselves through novel physical skills during the cognitive stage?",
+                "opts": [
+                    "By engaging in verbal self-talk to give themselves verbal reminders",
+                    "By relying entirely on subconscious, automated motor programs",
+                    "By executing movements at maximum competitive velocity",
+                    "By analyzing complex environmental cues with high perceptual accuracy"
+                ],
+                "correct": 0,
+                "rationale": "Some learners verbally guide themselves through new skills by engaging in self-talk, giving themselves verbal reminders (e.g., reminding oneself to tuck the head on a forward roll)."
+            },
+            {
+                "id": 4,
+                "q": "What is a major cognitive drawback of relying heavily on self-talk during initial skill execution?",
+                "opts": [
+                    "It demands high concentration and does not allow other information to be processed simultaneously.",
+                    "It causes immediate permanent muscle fatigue.",
+                    "It completely prevents the acquisition of movement intelligence.",
+                    "It increases movement speed beyond safe physiological limits."
+                ],
+                "correct": 0,
+                "rationale": "The textbook notes that while self-talk offers security and instills major ideas, it demands high concentration and prevents processing other information simultaneously."
+            },
+            {
+                "id": 5,
+                "q": "Which instructional methods are effective for conveying the general idea of a skill to a cognitive-stage learner?",
+                "opts": [
+                    "Instruction, demonstrations, films, videos, and vivid descriptions",
+                    "Complex tactical chalk-talks without visual demonstration",
+                    "High-volume, fatigue-inducing random practice sessions",
+                    "Complete absence of verbal guidance or feedback"
+                ],
+                "correct": 0,
+                "rationale": "Instruction, demonstrations, films, videos, and vivid descriptions serve to convey the general visual and conceptual idea of the skill to the novice."
+            },
+            {
+                "id": 6,
+                "q": "Which phrase best characterizes movement performance during the cognitive stage?",
+                "opts": [
+                    "Slow, jerky, highly variable, and awkward",
+                    "Fluid, automated, highly consistent, and rapid",
+                    "Effortless, creative, strategic, and error-free",
+                    "Completely automatic with minimal conscious attention"
+                ],
+                "correct": 0,
+                "rationale": "Performance at the cognitive stage is described as slow, jerky, highly variable, and awkward, yet serving as a necessary foundation on which to build."
+            },
+            {
+                "id": 7,
+                "q": "Why is performance variability highest during the cognitive stage of motor learning?",
+                "opts": [
+                    "Because the learner is experimenting with basic coordination patterns and lacks established motor programs.",
+                    "Because the nervous system is operating in the autonomous stage.",
+                    "Because self-talk has been completely eliminated.",
+                    "Because the learner is focusing exclusively on competitive game strategy."
+                ],
+                "correct": 0,
+                "rationale": "In the cognitive stage, the learner lacks established motor programs and is attempting to figure out basic coordination, resulting in high trial-to-trial performance variability."
+            },
+            {
+                "id": 8,
+                "q": "What benefit does self-talk provide to a novice attempting a gymnastics forward roll or balance beam hold for the first time?",
+                "opts": [
+                    "It offers security and begins to instill the major ideas associated with performing the skill.",
+                    "It eliminates the need for physical practice.",
+                    "It allows the novice to process opponent strategies simultaneously.",
+                    "It automatically reduces reaction time to zero."
+                ],
+                "correct": 0,
+                "rationale": "Giving verbal reminders during initial attempts offers security to the learner and helps instill the primary concepts required for skill execution."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which characteristics are typical of a learner in the COGNITIVE STAGE of motor learning? (Select all that apply)",
+                "opts": [
+                    "Asking questions about 'what', 'when', and 'how' to perform the task",
+                    "Engaging in verbal self-talk to guide movement attempts",
+                    "Demonstrating slow, jerky, and highly variable performance",
+                    "Operating with minimal conscious attention and high strategic focus"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Cognitive learners ask 'what/when/how', use self-talk, and exhibit jerky, variable movements. Minimal attention and strategic focus belong to the autonomous stage."
+            },
+            {
+                "id": 2,
+                "q": "Which instructional tools help convey the general idea of a skill during the cognitive stage? (Select all that apply)",
+                "opts": [
+                    "Direct teacher instruction and verbal descriptions",
+                    "Visual demonstrations",
+                    "Instructional films and videos",
+                    "Complex competitive scrimmage play without feedback"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Direct instruction, visual demonstrations, films, videos, and vivid descriptions convey the basic idea of the skill to beginners."
+            },
+            {
+                "id": 3,
+                "q": "What are the effects of verbal self-talk during early motor skill attempts? (Select all that apply)",
+                "opts": [
+                    "It offers psychological security to the novice learner.",
+                    "It helps instill the major ideas associated with skill execution.",
+                    "It demands high concentration and restricts simultaneous processing of other cues.",
+                    "It increases movement fluidity and eliminates all errors."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Self-talk offers security and instills major ideas, but it consumes working memory concentration. It does not eliminate errors or make movements fluid."
+            },
+            {
+                "id": 4,
+                "q": "Which statements regarding the cognitive stage are supported by the textbook? (Select all that apply)",
+                "opts": [
+                    "It begins when a task is first introduced to the learner.",
+                    "Verbal activity can facilitate rapid early learning and considerable improvement.",
+                    "Performance serves as a necessary foundation upon which to build future skills.",
+                    "The learner has already developed automated motor programs."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "The cognitive stage begins upon skill introduction, verbal activity aids early improvement, and awkward performance builds a foundation. Motor programs develop later."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "The primary goal of the cognitive stage is to determine the general shape of the skill and the goals to be achieved.",
+                "ans": true,
+                "feedback": "True. As the skill is completely new, the beginner's first goal is understanding the general idea and objectives of the task."
+            },
+            {
+                "id": 2,
+                "q": "Engaging in self-talk allows a novice learner to process external environmental cues simultaneously without concentration demands.",
+                "ans": false,
+                "feedback": "False. Self-talk demands high concentration and prevents other information from being processed simultaneously."
+            },
+            {
+                "id": 3,
+                "q": "Performance during the cognitive stage is typically slow, jerky, and highly variable from attempt to attempt.",
+                "ans": true,
+                "feedback": "True. Novice performance is characterized by awkward, inconsistent, and jerky movement patterns."
+            },
+            {
+                "id": 4,
+                "q": "Learners in the cognitive stage possess highly refined internal mechanisms to detect their own technical errors.",
+                "ans": false,
+                "feedback": "False. Internal error detection capability develops later during the associative stage."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "In the initial **cognitive stage**, beginners frequently use **self-talk** to verbally guide themselves through unfamiliar movements.",
+                "targets": [
+                    "cognitive stage",
+                    "self-talk"
+                ],
+                "optionsBank": [
+                    "cognitive stage",
+                    "self-talk",
+                    "autonomous stage",
+                    "proprioceptive drift",
+                    "motor program"
+                ],
+                "hint": "The understanding phase of learning and the verbal self-guidance strategy."
+            },
+            {
+                "id": 2,
+                "statement": "Although performance in the cognitive stage is slow and **jerky**, it provides a necessary foundation for establishing **motor programs**.",
+                "targets": [
+                    "jerky",
+                    "motor programs"
+                ],
+                "optionsBank": [
+                    "jerky",
+                    "motor programs",
+                    "fluid",
+                    "laminar flow",
+                    "profile drag"
+                ],
+                "hint": "The movement quality of beginners and the underlying neural patterns formed."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Describe the primary characteristics, cognitive demands, and performance quality of a learner operating in the cognitive stage of motor learning.",
+                "model": "The cognitive stage is the initial understanding phase that begins when a novel skill is introduced. The learner's main objective is to cognitively determine the general shape of the skill and its goals. Cognitive demands are extremely high, as beginners rely on verbal self-talk and visual demonstrations to guide their attempts. This heavy reliance on self-talk requires intense concentration and prevents simultaneous processing of other cues. As a result, performance quality is slow, jerky, awkward, and highly variable, yet it serves as an essential foundation for subsequent skill development.",
+                "criteria": [
+                    "Identify the cognitive stage as the initial understanding phase.",
+                    "Describe high cognitive demands and heavy reliance on self-talk and visual cues.",
+                    "Characterize performance as slow, jerky, awkward, and highly variable."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "How should a coach or physical educator structure instruction for a beginner in the cognitive stage to facilitate learning without overwhelming working memory?",
+                "model": "A coach working with a cognitive-stage beginner should focus on conveying the general idea of the skill using concise verbal instructions, clear visual demonstrations, films, or vivid descriptions. Instructors should keep verbal cues simple and avoid delivering too many technical details at once, as the learner's working memory is heavily consumed by self-talk and basic coordination. Allowing the beginner to use simple self-talk reminders provides security and instills foundational movement concepts.",
+                "criteria": [
+                    "Recommend concise verbal instructions, visual demonstrations, and video models.",
+                    "Explain the need to limit technical details to avoid cognitive overload.",
+                    "Support the use of simple self-talk reminders for security and concept formation."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What is the primary focus of the learner during the associative stage of motor learning?",
+                "opts": [
+                    "Performing and refining the skill by organizing more appropriate movement patterns",
+                    "Determining the basic visual shape and general idea of the skill",
+                    "Focusing on high-level tactical creativity and strategic play",
+                    "Eliminating the need for physical practice"
+                ],
+                "correct": 0,
+                "rationale": "The associative (practice) stage focuses on performing and refining the skill by organizing more appropriate and efficient movement patterns."
+            },
+            {
+                "id": 2,
+                "q": "What happens to verbal self-talk as a learner progresses into the associative stage?",
+                "opts": [
+                    "Self-talk diminishes considerably as movements become more controlled.",
+                    "Self-talk increases dramatically to replace physical practice.",
+                    "Self-talk remains completely unchanged from the cognitive stage.",
+                    "Self-talk becomes the sole determinant of movement speed."
+                ],
+                "correct": 0,
+                "rationale": "As movement patterns become organized and more automatic during the associative stage, reliance on verbal self-talk diminishes considerably."
+            },
+            {
+                "id": 3,
+                "q": "Which neural structures begin to develop during the associative stage to make skilled movements more fluid and consistent?",
+                "opts": [
+                    "Motor programs",
+                    "Autonomic reflexes",
+                    "Laminar boundary layers",
+                    "Fast-twitch motor units"
+                ],
+                "correct": 0,
+                "rationale": "Practice during the associative stage allows motor programs to develop, making movements more fluid, consistent, and controlled."
+            },
+            {
+                "id": 4,
+                "q": "What critical self-monitoring capability emerges as an important development during the associative stage?",
+                "opts": [
+                    "The ability of learners to detect some of their own performance errors",
+                    "The ability to perform without any physiological energy expenditure",
+                    "The ability to completely ignore all environmental stimuli",
+                    "The ability to achieve 100% maximum power output instantaneously"
+                ],
+                "correct": 0,
+                "rationale": "An important development in the associative stage is the learner's emerging ability to detect some of their own errors during performance."
+            },
+            {
+                "id": 5,
+                "q": "How does performance variability change from attempt to attempt during the associative stage?",
+                "opts": [
+                    "Variability of performance begins to decrease significantly.",
+                    "Variability increases as movements become more chaotic.",
+                    "Variability remains identical to the cognitive stage.",
+                    "Variability fluctuates wildly due to increased self-talk."
+                ],
+                "correct": 0,
+                "rationale": "As motor programs solidify and movements become more consistent, performance variability from trial to trial decreases significantly."
+            },
+            {
+                "id": 6,
+                "q": "How does the duration of the associative stage generally compare to that of the cognitive stage for most individuals?",
+                "opts": [
+                    "The associative stage generally lasts longer than the cognitive stage.",
+                    "The associative stage is completed in a few seconds.",
+                    "The cognitive stage lasts five times longer than the associative stage.",
+                    "Both stages are always identical in duration to the second."
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly notes that, generally, the associative stage lasts longer than the cognitive stage for most individuals."
+            },
+            {
+                "id": 7,
+                "q": "What factor contributes to increased performer confidence during the associative stage?",
+                "opts": [
+                    "Discovering what constitutes an effective performance and seeing rapid improvements",
+                    "Relying on constant, continuous verbal cues from a coach",
+                    "Eliminating all practice time",
+                    "Performing movements in complete isolation from environmental cues"
+                ],
+                "correct": 0,
+                "rationale": "As performers discover what constitutes an effective performance and achieve greater consistency, their confidence increases."
+            },
+            {
+                "id": 8,
+                "q": "In the associative stage, how does the learner utilize environmental cues?",
+                "opts": [
+                    "To experiment with how movement timing and efficiency can be improved",
+                    "To generate surface drag within the boundary layer",
+                    "To completely replace physical muscle contractions",
+                    "To increase trial-to-trial movement variability"
+                ],
+                "correct": 0,
+                "rationale": "Learners in the associative stage experiment with environmental cues to refine timing, improve efficiency, and execute movements with greater speed."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which developments are characteristic of the ASSOCIATIVE STAGE of motor learning? (Select all that apply)",
+                "opts": [
+                    "Refinement of movement details and organized movement patterns",
+                    "Development of motor programs making movements fluid and consistent",
+                    "Significant reduction in verbal self-talk",
+                    "Emergence of the learner's ability to detect their own performance errors"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four options represent key textbook features of the associative stage: movement refinement, motor program development, reduced self-talk, and error detection capability."
+            },
+            {
+                "id": 2,
+                "q": "How does performance quality change during the associative stage? (Select all that apply)",
+                "opts": [
+                    "Performance improves quite rapidly.",
+                    "Movement consistency increases while trial-to-trial variability decreases.",
+                    "Anticipation improves.",
+                    "Movements become slow, jerky, and increasingly awkward."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "In the associative stage, performance improves rapidly, consistency and anticipation increase, and variability drops. Slow/jerky movement is characteristic of the cognitive stage."
+            },
+            {
+                "id": 3,
+                "q": "Which statements regarding practice during the associative stage are correct? (Select all that apply)",
+                "opts": [
+                    "Practice allows movements to become more automatic and controlled.",
+                    "Learners experiment with timing using environmental cues.",
+                    "The associative stage generally lasts longer than the cognitive stage.",
+                    "Learners must rely on 100% verbal self-talk for every movement attempt."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Practice builds automaticity, learners use environmental timing cues, and the stage lasts longer than cognitive. Self-talk diminishes considerably."
+            },
+            {
+                "id": 4,
+                "q": "What role do motor programs play during the associative stage? (Select all that apply)",
+                "opts": [
+                    "They begin to develop and solidify in central memory.",
+                    "They make skilled movements more fluid and consistent.",
+                    "They allow movements to be executed with greater efficiency and speed.",
+                    "They cause complete loss of error detection capability."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Motor programs develop to enhance fluidity, consistency, efficiency, and speed, while error detection capability actually improves."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "During the associative stage, verbal self-talk diminishes considerably compared to the cognitive stage.",
+                "ans": true,
+                "feedback": "True. As movement patterns become organized and controlled, reliance on verbal self-talk decreases."
+            },
+            {
+                "id": 2,
+                "q": "An important milestone in the associative stage is the learner's ability to detect some of their own performance errors.",
+                "ans": true,
+                "feedback": "True. Learners develop internal error detection mechanisms during the associative stage."
+            },
+            {
+                "id": 3,
+                "q": "The associative stage is generally much shorter in duration than the cognitive stage for most individuals.",
+                "ans": false,
+                "feedback": "False. The associative stage generally lasts longer than the cognitive stage."
+            },
+            {
+                "id": 4,
+                "q": "Trial-to-trial performance variability increases during the associative stage as the learner experiments.",
+                "ans": false,
+                "feedback": "False. Performance variability decreases as movements become more consistent and controlled."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "In the **associative stage**, practice helps solidify **motor programs**, resulting in decreased performance variability.",
+                "targets": [
+                    "associative stage",
+                    "motor programs"
+                ],
+                "optionsBank": [
+                    "associative stage",
+                    "motor programs",
+                    "cognitive stage",
+                    "profile drag",
+                    "laminar flow"
+                ],
+                "hint": "The practice/refinement stage and the underlying neural movement structures."
+            },
+            {
+                "id": 2,
+                "statement": "As learners discover effective movement patterns, **self-talk** diminishes and **error detection** capability improves.",
+                "targets": [
+                    "self-talk",
+                    "error detection"
+                ],
+                "optionsBank": [
+                    "self-talk",
+                    "error detection",
+                    "magnus force",
+                    "static equilibrium",
+                    "boundary layer"
+                ],
+                "hint": "The reduction in verbal guidance and the emergence of self-monitoring."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain how performance quality, movement consistency, self-talk, and error detection evolve as a learner transitions from the cognitive stage to the associative stage.",
+                "model": "As a learner transitions from the cognitive to the associative stage, performance quality improves rapidly and movements become smoother, more fluid, and more efficient. Trial-to-trial performance variability decreases as motor programs develop and solidify. Verbal self-talk, which was dominant during the cognitive stage, diminishes considerably because movements require less conscious verbal guidance. Additionally, learners develop the crucial ability to detect some of their own performance errors using internal sensory feedback rather than relying entirely on external feedback.",
+                "criteria": [
+                    "Describe rapid improvement in performance quality, fluidity, and efficiency.",
+                    "Note the decrease in performance variability as motor programs solidify.",
+                    "Explain the reduction in self-talk and the emergence of internal error detection capability."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Contrast the primary learning focus and typical duration of the cognitive stage versus the associative stage.",
+                "model": "The cognitive stage focuses on understanding the general idea, shape, and goals of a new skill, relying heavily on instructions, visual demonstrations, and self-talk. It is characterized by slow, jerky, and highly variable movements, but is relatively brief in duration. In contrast, the associative stage focuses on performing and refining the skill by organizing efficient movement patterns and developing motor programs. Performance becomes consistent, self-talk drops, and error detection improves. The associative stage generally lasts significantly longer than the cognitive stage.",
+                "criteria": [
+                    "Contrast the cognitive focus (understanding skill shape/goals) with associative focus (refining movement patterns/motor programs).",
+                    "Contrast performance characteristics (cognitive: slow/jerky vs. associative: fluid/consistent).",
+                    "Identify that the associative stage generally lasts longer than the cognitive stage."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What defines the final autonomous stage of motor skill learning?",
+                "opts": [
+                    "Movements become almost automatic, highly proficient, and demand minimal attention.",
+                    "Movements are slow, jerky, and heavily dependent on verbal self-talk.",
+                    "The learner is focused on determining 'what', 'when', and 'how' to perform.",
+                    "Performance variability is at its highest level across practice attempts."
+                ],
+                "correct": 0,
+                "rationale": "In the autonomous stage, movements become almost automatic and very proficient, with attention demands dramatically reduced."
+            },
+            {
+                "id": 2,
+                "q": "Because attention demands for skill execution are dramatically reduced in the autonomous stage, what can the performer focus on?",
+                "opts": [
+                    "Other aspects of performance, such as strategy, tactics, and creativity",
+                    "Reciting basic verbal self-talk prompts for joint movement",
+                    "Determining the basic visual shape of the skill",
+                    "Eliminating the use of established motor programs"
+                ],
+                "correct": 0,
+                "rationale": "Dramatically reduced attention demands for execution free up cognitive capacity, allowing performers to focus on higher-level strategy, tactics, and creative play."
+            },
+            {
+                "id": 3,
+                "q": "How does perceptual processing of environmental stimuli change during the autonomous stage?",
+                "opts": [
+                    "The ability to analyze environmental stimuli is enhanced, and relevant cues are quickly detected with increased accuracy.",
+                    "Perceptual processing shuts down completely.",
+                    "Environmental cues cause severe movement disruption and confusion.",
+                    "The performer becomes unable to anticipate opponent actions."
+                ],
+                "correct": 0,
+                "rationale": "During the autonomous stage, environmental analysis is enhanced, enabling performers to rapidly and accurately detect relevant cues."
+            },
+            {
+                "id": 4,
+                "q": "How does the rate of performance improvement in the autonomous stage compare to earlier stages?",
+                "opts": [
+                    "Performance improvements are relatively slow because the learner has already reached a high proficiency level.",
+                    "Performance improvements occur ten times faster than in the cognitive stage.",
+                    "Performance degrades rapidly back to novice levels.",
+                    "Performance improvement stops completely, and zero learning occurs."
+                ],
+                "correct": 0,
+                "rationale": "Improvements during the autonomous stage are relatively slow because the performer is already operating at an elite level of proficiency."
+            },
+            {
+                "id": 5,
+                "q": "Which example from the textbook illustrates elite performance in the autonomous stage?",
+                "opts": [
+                    "A professional hockey player executing creative plays or a refined pianist playing with speed, fluidity, and flair",
+                    "A beginner gymnast reminding herself to tuck her head on a forward roll",
+                    "A tee-ball player learning to strike a ball off a stationary post",
+                    "A sprinter set motionless in the starting blocks"
+                ],
+                "correct": 0,
+                "rationale": "The text highlights professional hockey players creating impossible plays and refined pianists playing with speed, fluidity, and creative flair as prime autonomous examples."
+            },
+            {
+                "id": 6,
+                "q": "Does motor learning cease once an athlete reaches the autonomous stage?",
+                "opts": [
+                    "No; learning continues through subtle gains such as reduced mental effort, lower anxiety, and technique refinements.",
+                    "Yes; motor learning stops completely upon reaching the autonomous stage.",
+                    "Yes; motor programs disintegrate after reaching autonomy.",
+                    "No; the performer must regress to the cognitive stage to continue learning."
+                ],
+                "correct": 0,
+                "rationale": "Learning does not stop; less obvious gains continue, such as reductions in anxiety and mental effort, as well as subtle technical refinements."
+            },
+            {
+                "id": 7,
+                "q": "Why can an autonomous-stage athlete execute complex plays that seem impossible to an average player?",
+                "opts": [
+                    "Because years of practice have automated skill execution, freeing cognitive capacity for environmental analysis and creative decision-making.",
+                    "Because autonomous athletes possess 100% fast-twitch muscle fibers.",
+                    "Because they use continuous verbal self-talk during live gameplay.",
+                    "Because they bypass the central nervous system entirely."
+                ],
+                "correct": 0,
+                "rationale": "Years of practice automate basic skill mechanics, allowing autonomous performers to dedicate working memory to creative, strategic play."
+            },
+            {
+                "id": 8,
+                "q": "What psychological and physiological benefits continue to develop during the autonomous stage despite slow observable performance gains?",
+                "opts": [
+                    "Reductions in anxiety, reduced required mental effort, and refined technical efficiency",
+                    "Increased trial-to-trial performance variability and higher anxiety",
+                    "Re-emergence of heavy verbal self-talk and cognitive confusion",
+                    "Complete loss of error detection capability"
+                ],
+                "correct": 0,
+                "rationale": "Subtle gains in the autonomous stage include reduced performance anxiety, decreased mental effort, and fine-tuning of movement mechanics."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which characteristics define an athlete performing in the AUTONOMOUS STAGE of motor skill learning? (Select all that apply)",
+                "opts": [
+                    "Movements are almost automatic, proficient, and highly consistent.",
+                    "Attention demands for skill execution are dramatically reduced.",
+                    "Cognitive capacity is freed up to focus on strategy, tactics, and creativity.",
+                    "Relevant environmental cues are detected quickly and with increased accuracy."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four choices are classic hallmarks of the autonomous stage: automaticity, reduced attention demand, strategic/creative focus, and rapid cue detection."
+            },
+            {
+                "id": 2,
+                "q": "Which statements regarding performance gains in the autonomous stage are accurate? (Select all that apply)",
+                "opts": [
+                    "Observable performance improvements occur relatively slowly.",
+                    "Learning continues through reductions in mental effort and anxiety.",
+                    "Technique refinements continue despite high baseline proficiency.",
+                    "Performance gains are larger and faster than in any previous stage."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Gains are slow because baseline proficiency is already elite, but learning continues through subtle mental and technical refinements. Cognitive/associative stages show faster initial gains."
+            },
+            {
+                "id": 3,
+                "q": "Which real-world performers are cited in the textbook as operating in the autonomous stage? (Select all that apply)",
+                "opts": [
+                    "Professional hockey players making creative plays on the ice",
+                    "Refined pianists playing with speed, fluidity, and imaginative flair",
+                    "Beginner gymnasts engaging in self-talk during a forward roll",
+                    "Novice swimmers learning the basic breaststroke pull"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Professional hockey players and refined pianists are explicitly cited as autonomous performers. Beginner gymnasts and novice swimmers are in the cognitive stage."
+            },
+            {
+                "id": 4,
+                "q": "What enables an autonomous performer to excel in dynamic, unpredictable sport environments? (Select all that apply)",
+                "opts": [
+                    "Automated skill execution that frees cognitive processing capacity",
+                    "Enhanced ability to analyze environmental stimuli and detect relevant cues",
+                    "High movement consistency and refined motor programs",
+                    "Heavy reliance on continuous verbal self-talk during play"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Automaticity, enhanced cue detection, and solidified motor programs drive autonomous success. Heavy self-talk hinders dynamic performance."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "In the autonomous stage, attention demands for skill execution are dramatically reduced.",
+                "ans": true,
+                "feedback": "True. Automaticity reduces attention demands, freeing cognitive focus for strategy and creativity."
+            },
+            {
+                "id": 2,
+                "q": "Rate of performance improvement is faster in the autonomous stage than in the cognitive stage.",
+                "ans": false,
+                "feedback": "False. Improvements are relatively slow in the autonomous stage because proficiency is already very high."
+            },
+            {
+                "id": 3,
+                "q": "Motor learning completely stops once a performer reaches the autonomous stage.",
+                "ans": false,
+                "feedback": "False. Learning continues through subtle technical refinements, reduced anxiety, and decreased mental effort."
+            },
+            {
+                "id": 4,
+                "q": "Professional hockey players creating plays on the ice demonstrate autonomous-stage motor performance.",
+                "ans": true,
+                "feedback": "True. Professional athletes operate in the autonomous stage, allowing them to focus on creative plays."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "In the **autonomous stage**, skill execution becomes automatic, allowing cognitive focus to shift to **strategy** and creativity.",
+                "targets": [
+                    "autonomous stage",
+                    "strategy"
+                ],
+                "optionsBank": [
+                    "autonomous stage",
+                    "strategy",
+                    "cognitive stage",
+                    "self-talk",
+                    "laminar flow"
+                ],
+                "hint": "The final stage of motor learning and the higher-level focus it enables."
+            },
+            {
+                "id": 2,
+                "statement": "Although observable improvements are **slow** in the autonomous stage, learning continues through reductions in **mental effort** and anxiety.",
+                "targets": [
+                    "slow",
+                    "mental effort"
+                ],
+                "optionsBank": [
+                    "slow",
+                    "mental effort",
+                    "rapid",
+                    "profile drag",
+                    "boundary layer"
+                ],
+                "hint": "The rate of improvement and one of the subtle cognitive gains."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Describe the attentional demands, perceptual capabilities, and performance features that characterize an athlete operating in the autonomous stage.",
+                "model": "An athlete in the autonomous stage exhibits almost automatic, highly proficient, and fluid skill execution. Attentional demands for performing the motor skill itself are dramatically reduced, freeing working memory capacity for tactical decision-making, opponent analysis, and creative play. Perceptual capabilities are enhanced, enabling the athlete to analyze environmental stimuli rapidly and detect relevant cues with high accuracy. While observable performance gains occur slowly due to high baseline proficiency, learning continues through reduced performance anxiety, lower mental effort, and fine technique refinements.",
+                "criteria": [
+                    "Highlight automatic skill execution and dramatically reduced attentional demands.",
+                    "Explain the shift of cognitive focus to strategy, tactics, and creativity.",
+                    "Describe enhanced perceptual capabilities (rapid, accurate environmental cue detection)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain why motor learning does not cease when an athlete reaches the autonomous stage, detailing the subtle gains that continue to occur.",
+                "model": "Motor learning does not cease in the autonomous stage, even though observable performance improvements become relatively slow due to the athlete's high baseline proficiency. Learning continues through subtle, internal adaptations. These include reductions in performance anxiety, a decrease in the overall mental effort required for skill execution, subtle refinements in technique efficiency, and enhanced perceptual anticipation under high-stress competitive conditions.",
+                "criteria": [
+                    "State clearly that motor learning continues despite slower observable gains.",
+                    "Explain that high baseline proficiency accounts for slower rate of visible improvement.",
+                    "Detail subtle ongoing gains: reduced mental effort, lower anxiety, refined technique, and enhanced perceptual anticipation."
+                ]
+            }
+        ]
+    }
+}
