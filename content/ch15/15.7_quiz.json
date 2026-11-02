@@ -1,0 +1,1002 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is motor ability (skill-related fitness) defined in Section 15.7?",
+                "opts": [
+                    "A subset of physical fitness dealing with the integration of the central nervous system and the muscular system",
+                    "The maximal oxygen uptake capacity measured during treadmill ergometry",
+                    "The percentage of total body weight composed of visceral adipose tissue",
+                    "The passive range of motion available at a skeletal joint"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.7 defines motor ability (skill-related fitness) as a subset of physical fitness dealing with the integration of the central nervous system and muscular system to determine how well the body moves."
+            },
+            {
+                "id": 2,
+                "q": "What primary biological role does the brain play in motor ability execution?",
+                "opts": [
+                    "Constantly monitoring internal and external environments, filtering relevant information, and making movement decisions",
+                    "Storing muscle glycogen directly inside peripheral nerve axons",
+                    "Synthesizing hemoglobin for arterial oxygen transport",
+                    "Eliminating lactic acid from skeletal muscle mitochondria"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explains that the brain constantly monitors internal and external environments, collecting information, deciding what is relevant, and applying it to physical movement."
+            },
+            {
+                "id": 3,
+                "q": "How is muscular power defined in Section 15.7?",
+                "opts": [
+                    "A combination of strength and speed involving the ability to overcome external resistance at a high rate of muscular contraction",
+                    "The ability to sustain submaximal isometric contractions for over 10 minutes",
+                    "The total mechanical work completed divided by respiratory rate",
+                    "The rate of lactic acid buffering in slow-twitch muscle fibers"
+                ],
+                "correct": 0,
+                "rationale": "Power is explicitly defined in Section 15.7 as a combination of strength and speed involving the ability to overcome external resistance at a high rate of muscular contraction."
+            },
+            {
+                "id": 4,
+                "q": "According to the textbook, what physical relationship determines muscular power output?",
+                "opts": [
+                    "How fast a force can be generated to overcome gravity and accelerate the body or an implement",
+                    "The ratio of bone density to joint cartilage thickness",
+                    "The total volume of blood pumped per cardiac cycle",
+                    "The static hold duration achieved during a wall sit"
+                ],
+                "correct": 0,
+                "rationale": "Power is a function of how fast a force can be generated to overcome gravity and thus accelerate the body or an implement."
+            },
+            {
+                "id": 5,
+                "q": "What guideline does Section 15.7 state regarding training frequency for muscular power?",
+                "opts": [
+                    "Train no more than three or four times per week",
+                    "Train seven days per week with double daily sessions",
+                    "Train once per month to avoid all neural stimulus",
+                    "Train continuously for 24 hours without rest"
+                ],
+                "correct": 0,
+                "rationale": "The text states that when training power, it is important not to train more than three or four times per week to monitor volume and prevent overuse injuries."
+            },
+            {
+                "id": 6,
+                "q": "What repetition and set guidelines are specified for power training workouts?",
+                "opts": [
+                    "Quick and intense movements repeated 8 to 10 times in each of 2 to 4 sets at maximal or near-maximal intensity",
+                    "Low-intensity movements repeated 50 to 100 times in 1 set",
+                    "Static holds held for 60 seconds across 10 sets",
+                    "Single 1RM lifts repeated once every 2 weeks"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.7 specifies that power training intensity needs to be at or close to maximum, with quick movements repeated 8 to 10 times across 2 to 4 sets."
+            },
+            {
+                "id": 7,
+                "q": "Why is it usually best to develop foundational strength BEFORE adding power training?",
+                "opts": [
+                    "To prevent injury and increase the effectiveness of power workouts",
+                    "Because strength training eliminates the need for muscle contraction",
+                    "Because power training decreases bone mineral density",
+                    "To convert fast-twitch muscle fibers into cardiac tissue"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly advises that to prevent injury and increase workout effectiveness, it is best to develop strength before adding power training."
+            },
+            {
+                "id": 8,
+                "q": "What mechanism defines plyometric training for leg power development?",
+                "opts": [
+                    "Moving a muscle to a 'prestretched' position and then explosively contracting the stretched muscle",
+                    "Holding an isometric contraction in a squat for 5 minutes",
+                    "Lifting heavy weights at a ultra-slow velocity of 30 seconds per rep",
+                    "Performing submaximal aerobic walking on a treadmill"
+                ],
+                "correct": 0,
+                "rationale": "Plyometric training involves moving a muscle to a prestretched position and then explosively contracting the stretched muscle, placing high stress on tendons."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which athletic movements are explicitly cited in Section 15.7 as examples of muscular power? (Select all that apply)",
+                "opts": [
+                    "Throwing or kicking a ball",
+                    "Blocking a spike in volleyball and punching in boxing",
+                    "Sprinting out of starting blocks and leaping in dance",
+                    "Driving a golf ball and doing a layup or dunk in basketball"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four choices list sport examples explicitly named in Section 15.7 as illustrations of power."
+            },
+            {
+                "id": 2,
+                "q": "Which principles guide power training prescription according to Section 15.7? (Select all that apply)",
+                "opts": [
+                    "Do not train more than 3 or 4 times per week.",
+                    "Keep intensity at or close to maximum with 8 to 10 reps in 2 to 4 sets.",
+                    "Develop strength before adding power training.",
+                    "Execute the exertion phase as quickly as possible with slow recovery."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four guidelines represent explicit textbook rules for power development."
+            },
+            {
+                "id": 3,
+                "q": "Which standardized tests assess power in the legs and upper body? (Select all that apply)",
+                "opts": [
+                    "Vertical jump test (leg power)",
+                    "Standing long jump test (leg power)",
+                    "Distance throwing of a weighted medicine ball or baseball (upper-body/arm power)",
+                    "Sit-and-reach test (leg power)"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Vertical jump, standing long jump, and weighted medicine ball/baseball throws are explicit power tests in Section 15.7. Sit-and-reach evaluates flexibility."
+            },
+            {
+                "id": 4,
+                "q": "Which characteristics apply to plyometric power training? (Select all that apply)",
+                "opts": [
+                    "Moves a muscle to a prestretched position prior to explosive contraction.",
+                    "Effective for improving explosive power in the legs.",
+                    "Places high amounts of stress on tendons.",
+                    "Requires great care to avoid tendon injury."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four statements represent explicit textbook facts regarding plyometric training mechanics and tendon safety."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Motor ability deals with the integration of the central nervous system and the muscular system.",
+                "ans": true,
+                "feedback": "True. Section 15.7 defines motor ability as CNS-muscular integration determining movement quality."
+            },
+            {
+                "id": 2,
+                "q": "When training power, it is safe to train 7 days a week with maximum volume.",
+                "ans": false,
+                "feedback": "False. Power training should not exceed 3 or 4 times per week, and total volume must be monitored to prevent overuse injuries."
+            },
+            {
+                "id": 3,
+                "q": "Developing strength before adding power training helps prevent injury and increases workout effectiveness.",
+                "ans": true,
+                "feedback": "True. Building a strength foundation prior to high-velocity power training is explicit textbook advice."
+            },
+            {
+                "id": 4,
+                "q": "The vertical jump and standing long jump are commonly used tests to assess power in the legs.",
+                "ans": true,
+                "feedback": "True. Both vertical jump and standing long jump are explicit leg power field assessments."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Power combines strength and **speed**, requiring explosive contractions against **external resistance**.",
+                "targets": [
+                    "speed",
+                    "external resistance"
+                ],
+                "optionsBank": [
+                    "speed",
+                    "external resistance",
+                    "flexibility",
+                    "aerobic debt",
+                    "isometric holds"
+                ],
+                "hint": "The velocity component and the load being overcome."
+            },
+            {
+                "id": 2,
+                "statement": "Explosive leg power can be developed using **plyometric training**, which prestretches muscle before an **explosive contraction**.",
+                "targets": [
+                    "plyometric training",
+                    "explosive contraction"
+                ],
+                "optionsBank": [
+                    "plyometric training",
+                    "explosive contraction",
+                    "static stretching",
+                    "1RM testing",
+                    "goniometry"
+                ],
+                "hint": "The prestretch jump method and the rapid concentric force phase."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define muscular power, state its two primary fitness components, and provide four athletic movement examples from Section 15.7.",
+                "model": "Muscular power is a combination of strength and speed, defined as the ability to overcome external resistance at a high rate of muscular contraction (generating force rapidly to overcome gravity and accelerate the body or an implement). Athletic examples from Section 15.7 include throwing or kicking a ball, blocking a spike in volleyball, punching in boxing, sprinting out of starting blocks, leaping in dance, driving a golf ball, or doing a layup/dunk in basketball.",
+                "criteria": [
+                    "Define power as overcoming resistance at a high rate of contraction (force generated rapidly).",
+                    "Identify strength and speed as the two components.",
+                    "Provide 4 sport examples from text (e.g., volleyball spike block, boxing punch, sprinter start, basketball dunk)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Outline the training principles for developing power (frequency, sets/reps, exertion style) and describe plyometric training along with its injury precautions.",
+                "model": "Power training guidelines specify: (1) Frequency: train no more than 3-4 times per week to prevent overuse injury; (2) Load/Reps: perform quick, intense movements for 8-10 reps across 2-4 sets near max intensity; (3) Exertion: execute exertion quickly with slow recovery. Strength should be built before power. Plyometric training improves leg power by moving a muscle into a prestretched position before explosively contracting it; because it places high stress on tendons, great care must be taken to prevent injury.",
+                "criteria": [
+                    "Specify frequency (<=3-4 times/week) and set/rep scheme (8-10 reps, 2-4 sets near max intensity).",
+                    "State that strength should be developed before power, with explosive exertion and slow recovery.",
+                    "Describe plyometrics (prestretch then explosive contraction) and tendon stress precautions."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is agility defined in Section 15.7 of the textbook?",
+                "opts": [
+                    "The ability to execute movements at high speed with rapid changes in direction, level, or plane",
+                    "The total force exerted during a single maximum isometric contraction",
+                    "The maximum distance covered during a 12-minute walk test",
+                    "The time required for an electrical impulse to travel down a nerve"
+                ],
+                "correct": 0,
+                "rationale": "Agility is explicitly defined as the ability to execute movements at high speed with rapid changes in direction, level, or plane."
+            },
+            {
+                "id": 2,
+                "q": "Which sports are explicitly listed as requiring a high level of agility in Section 15.7?",
+                "opts": [
+                    "Basketball, volleyball, football, and hockey",
+                    "Archery, target shooting, bowling, and billiards",
+                    "Marathon running and long-distance road cycling",
+                    "Handgrip dynamometry and static balance testing"
+                ],
+                "correct": 0,
+                "rationale": "The text explicitly names basketball, volleyball, football, and hockey as sports where agility is important."
+            },
+            {
+                "id": 3,
+                "q": "What athletic example illustrates high agility in Section 15.7?",
+                "opts": [
+                    "A football player dodging several opposing players on his way to scoring a touchdown",
+                    "A weightlifter holding a barbell overhead for 10 seconds",
+                    "A runner maintaining a constant 4-minute pace on a straight track",
+                    "A swimmer floating motionless on their back"
+                ],
+                "correct": 0,
+                "rationale": "The text uses a football player dodging several opposing players to score a touchdown as a prime example of agility."
+            },
+            {
+                "id": 4,
+                "q": "Which assessment drills are listed for evaluating agility in Section 15.7?",
+                "opts": [
+                    "Shuttle runs, zigzag runs, agility ladder, and hexagon jump",
+                    "1RM leg press and 1RM bench press",
+                    "12-minute run-walk and mCAFT step test",
+                    "Skinfold calipers and sit-and-reach box"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.7 explicitly lists shuttle runs, zigzag runs, agility ladder, and the hexagon jump as agility tests."
+            },
+            {
+                "id": 5,
+                "q": "How is coordination defined in Section 15.7?",
+                "opts": [
+                    "The ability to perform movements in the correct order and with the proper timing",
+                    "The maximum distance a joint can flex passively",
+                    "The total duration a muscle can hold a static contraction before fatigue",
+                    "The rate of ATP resynthesis during anaerobic glycolysis"
+                ],
+                "correct": 0,
+                "rationale": "Coordination is explicitly defined as the ability to perform movements in the correct order and with the proper timing."
+            },
+            {
+                "id": 6,
+                "q": "What biological integration is explicitly involved in coordination according to the text?",
+                "opts": [
+                    "Integration of eye, hand, and foot movements",
+                    "Integration of hair, nail, and skin growth rates",
+                    "Integration of liver glycogen with digestive bile",
+                    "Integration of cortical bone with subcutaneous fat"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.7 explicitly states that coordination involves the integration of eye, hand, and foot movements."
+            },
+            {
+                "id": 7,
+                "q": "What comparison does the textbook use to illustrate coordinated versus uncoordinated movement?",
+                "opts": [
+                    "Comparing the wild splashing of an inexperienced swimmer with the effortless action of a skilled swimmer",
+                    "Comparing a sprinter with a marathon runner",
+                    "Comparing a weightlifter with a gymnast",
+                    "Comparing a bicycle with a motor vehicle"
+                ],
+                "correct": 0,
+                "rationale": "The text contrasts the wild splashing of an inexperienced swimmer with the apparently effortless action of a skilled swimmer to illustrate coordination."
+            },
+            {
+                "id": 8,
+                "q": "Which simple drill is suggested in Section 15.7 for developing coordination?",
+                "opts": [
+                    "Bouncing two basketballs at the same time while starting to walk or move",
+                    "Holding a 100 kg barbell overhead while stationary",
+                    "Performing a 100-metre dash at maximum speed",
+                    "Holding a flexed arm hang until fatigue"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.7 suggests bouncing two basketballs at the same time and then walking or moving as a coordination drill."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which features characterize AGILITY according to Section 15.7? (Select all that apply)",
+                "opts": [
+                    "Executing movements at high speed",
+                    "Rapid changes in direction, level, or plane",
+                    "Important in sports like basketball, volleyball, football, and hockey",
+                    "Evaluated using shuttle runs, zigzag runs, agility ladders, and hexagon jumps"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four statements accurately represent explicit textbook facts regarding agility definition, sports, and evaluation."
+            },
+            {
+                "id": 2,
+                "q": "Which features characterize COORDINATION according to Section 15.7? (Select all that apply)",
+                "opts": [
+                    "Performing movements in correct order with proper timing",
+                    "Produces smooth and efficient physical movements",
+                    "Involves integration of eye, hand, and foot movements",
+                    "Essential in team sports for shooting, catching, throwing, trapping, dribbling, and kicking"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four choices are explicitly detailed in Section 15.7 under Coordination."
+            },
+            {
+                "id": 3,
+                "q": "Which field tests or practice drills are used to evaluate or train agility and coordination? (Select all that apply)",
+                "opts": [
+                    "Shuttle runs",
+                    "Zigzag runs",
+                    "Agility ladder and hexagon jump",
+                    "Bouncing two basketballs simultaneously while moving"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Shuttle runs, zigzag runs, agility ladder, hexagon jump, and dual-basketball dribbling are all explicitly named in Section 15.7."
+            },
+            {
+                "id": 4,
+                "q": "Which skill actions in team sports (baseball, soccer, basketball) depend on good coordination? (Select all that apply)",
+                "opts": [
+                    "Shooting and catching a ball",
+                    "Throwing and trapping a ball",
+                    "Dribbling and kicking a ball",
+                    "Measuring subcutaneous skinfold thickness"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Shooting, catching, throwing, trapping, dribbling, and kicking are explicitly listed ball manipulation skills. Skinfold thickness measures body fat."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Agility is the ability to execute movements at high speed with rapid changes in direction, level, or plane.",
+                "ans": true,
+                "feedback": "True. This is the exact textbook definition of agility in Section 15.7."
+            },
+            {
+                "id": 2,
+                "q": "Coordination involves the integration of eye, hand, and foot movements to make actions smooth and efficient.",
+                "ans": true,
+                "feedback": "True. Coordination explicitly integrates eye, hand, and foot movements for proper order and timing."
+            },
+            {
+                "id": 3,
+                "q": "Agility evaluation tests include shuttle runs, zigzag runs, the agility ladder, and the hexagon jump.",
+                "ans": true,
+                "feedback": "True. All four tests are explicitly listed as agility evaluation protocols."
+            },
+            {
+                "id": 4,
+                "q": "Uncoordinated movements are characteristically smooth, effortless, and highly energy efficient.",
+                "ans": false,
+                "feedback": "False. Coordinated movements are smooth and efficient; uncoordinated movements appear erratic and wild (like inexperienced splashing)."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Rapid direction changes at high speed define **agility**, evaluated using the **hexagon jump** or shuttle run.",
+                "targets": [
+                    "agility",
+                    "hexagon jump"
+                ],
+                "optionsBank": [
+                    "agility",
+                    "hexagon jump",
+                    "static balance",
+                    "1RM leg press",
+                    "skinfold caliper"
+                ],
+                "hint": "The motor ability for directional changes and the 6-sided jumping field test."
+            },
+            {
+                "id": 2,
+                "statement": "Proper movement ordering and timing define **coordination**, integrating **eye, hand, and foot** movements.",
+                "targets": [
+                    "coordination",
+                    "eye, hand, and foot"
+                ],
+                "optionsBank": [
+                    "coordination",
+                    "eye, hand, and foot",
+                    "absolute force",
+                    "respiratory volume",
+                    "bone marrow"
+                ],
+                "hint": "The skill component for smooth efficiency and the sensory-limb integration trio."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define agility, state four sports where agility is important, and list four standardized tests used to evaluate agility.",
+                "model": "Agility is the ability to execute movements at high speed with rapid changes in direction, level, or plane. It is important in sports such as basketball, volleyball, football, and hockey. Four standardized tests used to evaluate agility are shuttle runs, zigzag runs, the agility ladder, and the hexagon jump.",
+                "criteria": [
+                    "Define agility (high speed movements with rapid changes in direction, level, or plane).",
+                    "List 4 sports (basketball, volleyball, football, hockey).",
+                    "List 4 tests (shuttle runs, zigzag runs, agility ladder, hexagon jump)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Define coordination, explain what bodily integrations it requires, contrast coordinated vs. uncoordinated movement, and describe a drill to develop it.",
+                "model": "Coordination is the ability to perform physical movements in the correct order and with proper timing. It requires the integration of eye, hand, and foot movements. Coordinated movements are characteristically smooth and efficient, whereas uncoordinated movements appear wild and inefficient (e.g., wild splashing of a novice swimmer vs. effortless stroke of a skilled swimmer). A drill to develop coordination is bouncing two basketballs simultaneously while walking or moving.",
+                "criteria": [
+                    "Define coordination (correct movement order and timing).",
+                    "Identify required integration (eye, hand, and foot movements).",
+                    "Contrast coordinated (smooth/efficient) vs. uncoordinated (wild/inefficient splashing swimmer).",
+                    "Describe dual-basketball dribbling drill."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is reaction time defined in Section 15.7?",
+                "opts": [
+                    "The time it takes to initiate a physical response following the presentation of a stimulus",
+                    "The total distance an athlete can cover in 10 seconds of all-out effort",
+                    "The maximum isometric force held during static grip testing",
+                    "The rate of oxygen consumption during submaximal step testing"
+                ],
+                "correct": 0,
+                "rationale": "Reaction time is explicitly defined as the time it takes to initiate a response to a stimulus."
+            },
+            {
+                "id": 2,
+                "q": "Why is it IMPOSSIBLE to move or react instantaneously upon observing or hearing a stimulus?",
+                "opts": [
+                    "Because physiological processes (sensory arousal, nerve conduction to brain, decision making, nerve conduction to muscles, and contraction) require time",
+                    "Because human nerves do not conduct electrical impulses",
+                    "Because skeletal muscles cannot contract without manual external force",
+                    "Because the brain only processes information during sleep"
+                ],
+                "correct": 0,
+                "rationale": "Reactions require physiological steps: arousing sensory organs, conducting impulses to the brain, processing/deciding, conducting impulses to muscles, and muscle contraction."
+            },
+            {
+                "id": 3,
+                "q": "Which sequence correctly traces the physiological pathway involved in reaction time from stimulus to movement initiation?",
+                "opts": [
+                    "Sensory organ arousal -> nerve impulse to brain -> brain decision -> nerve impulse to muscles -> muscle contraction",
+                    "Muscle contraction -> nerve impulse to brain -> sensory organ arousal -> decision",
+                    "Brain decision -> muscle contraction -> sensory organ arousal -> nerve impulse to brain",
+                    "Nerve impulse to muscles -> muscle contraction -> sensory organ arousal -> brain decision"
+                ],
+                "correct": 0,
+                "rationale": "The text details: sensory organs aroused -> nerve conducts impulse to brain (decision made) -> impulse sent from brain to muscles -> muscle contracts."
+            },
+            {
+                "id": 4,
+                "q": "Which simple field test is explicitly described in Section 15.7 for assessing reaction time?",
+                "opts": [
+                    "Catching a dropped metre stick",
+                    "Vertical jump test on a contact mat",
+                    "50-metre dash sprint",
+                    "Stork stand test with eyes closed"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that a simple test for reaction time involves catching a metre stick."
+            },
+            {
+                "id": 5,
+                "q": "How is balance defined in Section 15.7?",
+                "opts": [
+                    "The ability to achieve and maintain body stability",
+                    "The rate of force development during plyometric jumping",
+                    "The distance reached during forward trunk flexion",
+                    "The percentage of body mass composed of skeletal muscle"
+                ],
+                "correct": 0,
+                "rationale": "Balance is explicitly defined as the ability to achieve and maintain body stability."
+            },
+            {
+                "id": 6,
+                "q": "How is STATIC balance defined in Section 15.7?",
+                "opts": [
+                    "The ability to balance on a stable surface when no locomotion is required",
+                    "The ability to balance on a moving surface during high-speed surfing",
+                    "The ability to dribble a soccer ball past defensive opponents",
+                    "The rapid change of direction executed on an agility ladder"
+                ],
+                "correct": 0,
+                "rationale": "Static balance is defined as the ability to balance on a stable surface when no locomotion is required (e.g., balance beam hold, golf setup)."
+            },
+            {
+                "id": 7,
+                "q": "Which activities illustrate DYNAMIC balance in Section 15.7?",
+                "opts": [
+                    "Balancing on a moving surface (rowing, kayaking, surfing) or balancing during locomotion (in-line skating, dribbling soccer ball, skiing)",
+                    "Standing stationary over a golf ball before swinging",
+                    "Holding a body position while standing still on a balance beam",
+                    "Catching a dropped metre stick while sitting motionless"
+                ],
+                "correct": 0,
+                "rationale": "Dynamic balance encompasses balancing on a moving surface (rowing, kayaking, surfing) or balancing during locomotion (skating, dribbling soccer ball, skiing)."
+            },
+            {
+                "id": 8,
+                "q": "Which standardized test is explicitly mentioned in Section 15.7 to track static balance improvements?",
+                "opts": [
+                    "Timing how long you can hold a static position in a 'stork stand' while keeping eyes closed",
+                    "Counting repetitions in a 60-second push-up test",
+                    "Measuring distance covered in a 12-minute run-walk test",
+                    "Performing a 100-metre dash on a synthetic track"
+                ],
+                "correct": 0,
+                "rationale": "The text states that to track improvements in static balance, time how long you can hold a static position in a 'stork stand' with eyes closed."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which physiological steps are required between observing a stimulus and initiating movement? (Select all that apply)",
+                "opts": [
+                    "Sensory organs (eyes/ears) must be aroused.",
+                    "Nerves conduct an impulse to the brain where decisions are made.",
+                    "Nerves conduct an impulse from the brain to target muscles.",
+                    "Target muscles must contract before overt movement is initiated."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four steps represent the exact neurophysiological pathway detailed in Section 15.7 for reaction time."
+            },
+            {
+                "id": 2,
+                "q": "Which examples illustrate STATIC balance in Section 15.7? (Select all that apply)",
+                "opts": [
+                    "Holding body position while standing on a balance beam",
+                    "Standing over a golf ball addressing a shot",
+                    "Holding a 'stork stand' posture with eyes closed",
+                    "Downhill skiing at 60 km/h"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Balance beam hold, golf posture setup, and stork stand are static balance examples (no locomotion). Downhill skiing is dynamic balance."
+            },
+            {
+                "id": 3,
+                "q": "Which examples illustrate DYNAMIC balance in Section 15.7? (Select all that apply)",
+                "opts": [
+                    "Balancing on a moving surface during rowing, kayaking, or surfing",
+                    "Balancing during locomotion in in-line skating or downhill skiing",
+                    "Balancing while dribbling a soccer ball or avoiding defensive players",
+                    "Standing still on tiptoes with eyes closed"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Rowing, kayaking, surfing, skating, skiing, and soccer dribbling/evasion are explicit dynamic balance examples. Tiptoe standing is static balance."
+            },
+            {
+                "id": 4,
+                "q": "Which tools or tests are used to evaluate reaction time and balance in Section 15.7? (Select all that apply)",
+                "opts": [
+                    "Metre stick drop test (reaction time)",
+                    "Timed stork stand test with eyes closed (static balance)",
+                    "100-metre dash (reaction time)",
+                    "Skinfold calipers (balance)"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Metre stick drop tests reaction time and timed stork stand with eyes closed tests static balance. 100m dash tests speed; calipers measure body fat."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Reaction time is the time it takes to initiate a response to a stimulus.",
+                "ans": true,
+                "feedback": "True. This is the explicit textbook definition of reaction time in Section 15.7."
+            },
+            {
+                "id": 2,
+                "q": "Physical movement occurs instantaneously the exact microsecond a visual or auditory stimulus is presented.",
+                "ans": false,
+                "feedback": "False. Movement cannot occur instantly because sensory arousal, nerve conduction, brain decision making, and muscle contraction require time."
+            },
+            {
+                "id": 3,
+                "q": "Static balance involves balancing on a stable surface when no locomotion is required.",
+                "ans": true,
+                "feedback": "True. Static balance is maintaining stability on a stationary surface without locomotion."
+            },
+            {
+                "id": 4,
+                "q": "Dynamic balance encompasses balancing on a moving surface (e.g., surfing) or during locomotion (e.g., skiing, soccer dribbling).",
+                "ans": true,
+                "feedback": "True. Dynamic balance includes moving surfaces and bodily locomotion states."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Sensory arousal and neural conduction dictate **reaction time**, evaluated simply using a **metre stick** drop test.",
+                "targets": [
+                    "reaction time",
+                    "metre stick"
+                ],
+                "optionsBank": [
+                    "reaction time",
+                    "metre stick",
+                    "flexibility",
+                    "skin-fold caliper",
+                    "vertical jump"
+                ],
+                "hint": "The stimulus response latency and the dropped measuring tool."
+            },
+            {
+                "id": 2,
+                "statement": "Stationary stability defines **static balance**, whereas balancing during locomotion or on moving surfaces defines **dynamic balance**.",
+                "targets": [
+                    "static balance",
+                    "dynamic balance"
+                ],
+                "optionsBank": [
+                    "static balance",
+                    "dynamic balance",
+                    "muscular power",
+                    "aerobic capacity",
+                    "1RM max"
+                ],
+                "hint": "The non-locomotor equilibrium mode vs. the active movement equilibrium mode."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define reaction time, explain why movement cannot occur instantaneously upon observing a stimulus, and outline the physiological steps involved.",
+                "model": "Reaction time is the time it takes to initiate a physical response following a stimulus. Movement cannot occur instantaneously because several physiological processes require time: (1) sensory organs (eyes/ears) must be aroused by the stimulus; (2) nerves conduct an impulse to the brain; (3) the brain processes information and makes a motor decision; (4) nerves conduct an impulse from brain to muscles; and (5) muscles contract before overt movement begins. A metre stick drop test evaluates simple reaction time.",
+                "criteria": [
+                    "Define reaction time (time to initiate response to stimulus).",
+                    "Explain why non-instantaneous (5 sequential physiological steps require time).",
+                    "List the steps (sensory arousal -> nerve to brain -> brain decision -> nerve to muscle -> muscle contraction)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Differentiate between static balance and dynamic balance, providing two sporting examples for each, and name a test to track static balance.",
+                "model": "Static balance is the ability to achieve and maintain equilibrium on a stable surface when no locomotion is required (e.g., holding position on a balance beam, standing over a golf ball). Dynamic balance encompasses balancing on a moving surface (e.g., surfing, kayaking) or balancing while involved in active locomotion (e.g., in-line skating, downhill skiing, dribbling a soccer ball). Static balance improvements are tracked by timing how long an individual can hold a 'stork stand' with eyes closed.",
+                "criteria": [
+                    "Define static balance (stable surface, no locomotion) and give 2 examples (balance beam hold, golf setup).",
+                    "Define dynamic balance (moving surface or active locomotion) and give 2 examples (surfing, skiing, soccer dribbling).",
+                    "Name static balance test (timed stork stand with eyes closed)."
+                ]
+            }
+        ]
+    },
+    "p4": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is speed defined in Section 15.7?",
+                "opts": [
+                    "The highest rate at which a movement or series of movements can be executed, or the ability to cover a given distance in the shortest possible time during a short all-out effort",
+                    "The maximum weight resistance moved in a single maximal effort",
+                    "The ability to sustain continuous aerobic exercise for over 20 minutes",
+                    "The total angular rotation available at a ball-and-socket joint"
+                ],
+                "correct": 0,
+                "rationale": "Speed is defined as the highest rate at which a movement or series of movements can be executed, or the ability to cover a distance in the shortest time during an all-out effort of short duration."
+            },
+            {
+                "id": 2,
+                "q": "What duration is specified for an 'all-out effort' when defining maximal speed in Section 15.7?",
+                "opts": [
+                    "Short duration, typically less than 10 seconds",
+                    "30 to 60 minutes continuously",
+                    "Exactly 2 hours",
+                    "5 to 10 milliseconds"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly specifies short duration all-out efforts of less than 10 seconds for maximal speed."
+            },
+            {
+                "id": 3,
+                "q": "In addition to sports situations, why is speed described as useful for everyone in everyday life?",
+                "opts": [
+                    "It is useful in emergency situations",
+                    "It eliminates the need for cardiorespiratory health",
+                    "It converts all body fat into cortical bone",
+                    "It lowers blood pressure to zero"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.7 explicitly notes that speed is important in sport situations and useful for everyone in emergency situations."
+            },
+            {
+                "id": 4,
+                "q": "How can speed be effectively developed according to Section 15.7?",
+                "opts": [
+                    "Through interval training at very high intensity",
+                    "Through long slow distance jog sessions lasting 3 hours",
+                    "Through static isometric stretching held for 60 minutes",
+                    "Through heavy 1RM powerlifting sets with 10-minute rest"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that speed can be developed through interval training at very high intensity."
+            },
+            {
+                "id": 5,
+                "q": "Which short run field tests are explicitly listed in Section 15.7 to evaluate speed?",
+                "opts": [
+                    "50-metre dash and 100-metre dash",
+                    "12-minute run-walk test and beep test",
+                    "Shuttle run and hexagon jump test",
+                    "Marathon run and triathlon swim"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.7 explicitly names the 50-metre dash and the 100-metre dash as examples of short run tests used to evaluate speed."
+            },
+            {
+                "id": 6,
+                "q": "What primary metabolic energy system powers all-out maximal speed efforts lasting less than 10 seconds?",
+                "opts": [
+                    "Immediate phosphagen (ATP-PC) energy system",
+                    "Long-term oxidative aerobic phosphorylation",
+                    "Slow mitochondrial fatty acid beta-oxidation",
+                    "Sub-threshold aerobic lactic buffering"
+                ],
+                "correct": 0,
+                "rationale": "All-out sprint efforts lasting less than 10 seconds rely on immediate intramuscular ATP and phosphocreatine (ATP-PC) energy stores."
+            },
+            {
+                "id": 7,
+                "q": "How does speed differ from agility according to Section 15.7?",
+                "opts": [
+                    "Speed focuses on maximal movement velocity/covering distance in shortest time, whereas agility requires rapid changes in direction, level, or plane",
+                    "Speed requires zero muscle contraction, whereas agility requires 100% 1RM strength",
+                    "Speed is measured with skinfold calipers, whereas agility uses a meter stick",
+                    "There is zero distinction between speed and agility"
+                ],
+                "correct": 0,
+                "rationale": "Speed is maximal movement rate / distance covering in linear or simple effort, whereas agility explicitly incorporates rapid changes in direction, level, or plane."
+            },
+            {
+                "id": 8,
+                "q": "Why are short sprint dashes (50m and 100m) ideal for testing pure speed?",
+                "opts": [
+                    "They evaluate maximal linear velocity during short, all-out efforts before PCr depletion and fatigue slow the runner",
+                    "They measure aerobic cardiorespiratory VO2 max capacity",
+                    "They test static balance in a stork stand posture",
+                    "They measure abdominal core muscle endurance"
+                ],
+                "correct": 0,
+                "rationale": "50m and 100m dashes test peak velocity over brief all-out durations (<10s) without cardiorespiratory limitations."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which definitions or features describe SPEED according to Section 15.7? (Select all that apply)",
+                "opts": [
+                    "Highest rate at which a movement or series of movements can be executed",
+                    "Ability to cover a given distance in the shortest possible time",
+                    "All-out effort of short duration (less than 10 seconds)",
+                    "Useful in sport situations and emergency situations"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four choices represent explicit textbook statements defining speed and its practical importance."
+            },
+            {
+                "id": 2,
+                "q": "Which protocols are used to train or evaluate speed in Section 15.7? (Select all that apply)",
+                "opts": [
+                    "High-intensity interval training (development)",
+                    "50-metre dash (evaluation test)",
+                    "100-metre dash (evaluation test)",
+                    "12-minute run-walk test (speed evaluation)"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "High-intensity interval training develops speed; 50m and 100m dashes evaluate speed. The 12-minute run-walk evaluates cardiorespiratory fitness."
+            },
+            {
+                "id": 3,
+                "q": "Which motor abilities make up the skill-related components of physical fitness in Section 15.7? (Select all that apply)",
+                "opts": [
+                    "Power and Agility",
+                    "Coordination and Reaction Time",
+                    "Balance and Speed",
+                    "Cardiorespiratory endurance and Body composition"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "The 6 motor abilities in Section 15.7 are Power, Agility, Coordination, Reaction Time, Balance, and Speed. Cardiorespiratory endurance and body composition are health-related components."
+            },
+            {
+                "id": 4,
+                "q": "Which physiological factors support maximal sprint speed execution? (Select all that apply)",
+                "opts": [
+                    "High rate of neuromuscular motor unit firing",
+                    "Immediate ATP-PC phosphagen energy availability",
+                    "Rapid muscular contraction velocity",
+                    "Aerobic fatty acid oxidation in mitochondria"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Neural firing rate, immediate ATP-PC stores, and rapid contraction velocity power short all-out sprint speed (<10s). Fatty acid oxidation supports long-term aerobic work."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Speed can be defined as the highest rate at which a movement or series of movements can be executed.",
+                "ans": true,
+                "feedback": "True. This is the exact textbook definition of speed in Section 15.7."
+            },
+            {
+                "id": 2,
+                "q": "Maximal speed efforts described in Section 15.7 are typically all-out efforts of short duration, less than 10 seconds.",
+                "ans": true,
+                "feedback": "True. Section 15.7 specifies short all-out efforts of less than 10 seconds."
+            },
+            {
+                "id": 3,
+                "q": "Speed can be effectively developed through high-intensity interval training.",
+                "ans": true,
+                "feedback": "True. The textbook explicitly states that speed can be developed through interval training at very high intensity."
+            },
+            {
+                "id": 4,
+                "q": "The 50-metre dash and 100-metre dash are examples of short runs used to evaluate speed.",
+                "ans": true,
+                "feedback": "True. Both 50m and 100m dashes are explicitly named speed field tests."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Covering distance in the shortest time defines **speed**, developed using high-intensity **interval training**.",
+                "targets": [
+                    "speed",
+                    "interval training"
+                ],
+                "optionsBank": [
+                    "speed",
+                    "interval training",
+                    "static stretch",
+                    "skinfold test",
+                    "aerobic jogging"
+                ],
+                "hint": "The velocity motor ability and the high-intensity conditioning method."
+            },
+            {
+                "id": 2,
+                "statement": "Short all-out efforts under 10 seconds are evaluated using the **50-metre dash** or **100-metre dash**.",
+                "targets": [
+                    "50-metre dash",
+                    "100-metre dash"
+                ],
+                "optionsBank": [
+                    "50-metre dash",
+                    "100-metre dash",
+                    "12-minute run",
+                    "beep test",
+                    "mCAFT test"
+                ],
+                "hint": "The two linear sprint field test distances."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define speed, specify the duration of an all-out effort for maximal speed, explain how it is developed, and name two field tests used to evaluate it.",
+                "model": "Speed is defined as the highest rate at which a movement or series of movements can be executed, or the ability to cover a given distance in the shortest possible time during an all-out effort of short duration (typically less than 10 seconds). Speed is developed through interval training at very high intensity. It is evaluated using short sprint field tests, such as the 50-metre dash and the 100-metre dash.",
+                "criteria": [
+                    "Define speed (highest rate of movement / covering distance in shortest time).",
+                    "Specify duration of all-out effort (less than 10 seconds).",
+                    "Explain development method (interval training at very high intensity).",
+                    "Name 2 field tests (50-metre dash, 100-metre dash)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "List the six significant motor abilities (skill-related fitness components) described in Section 15.7 and explain their general role in movement.",
+                "model": "The six significant motor abilities described in Section 15.7 are: (1) Power, (2) Agility, (3) Coordination, (4) Reaction Time, (5) Balance, and (6) Speed. These components deal with the integration of the central nervous system and the muscular system, determining how effectively and qualitative the human body moves in athletic environments and daily life.",
+                "criteria": [
+                    "List all 6 motor abilities (Power, Agility, Coordination, Reaction Time, Balance, Speed).",
+                    "Explain general role (CNS-muscular integration determining how well the body moves in sports and daily life)."
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "course": "IK - KINS 2203 Introduction to Kinesiology",
+        "chapter": "15",
+        "section": "15.2",
+        "ch": "15",
+        "mod": "15.2",
+        "moduleTitle": "15.2 Training Principles"
+    },
+    "pages": [
+        {
+            "id": "p1",
+            "title": "Part 1: Overload Principle",
+            "sampleCounts": {
+                "mcq": 2,
+                "ms": 2,
+                "tf": 2,
+                "cloze": 2,
+                "sa": 1
+            },
+            "readingHtml": "<h2>Mechanisms of the Overload Principle</h2><p>For physiological improvement or adaptation to occur in any biological system, training demands must exceed the threshold of normal, habitual performance requirements. The <strong>overload principle</strong> dictates that a muscle, organ, or physiological system must be subjected to a stimulus or load greater than that to which it is accustomed in order to stress its functional capacity and induce adaptive remodeling.</p><p>When a physiological system is exposed to an unaccustomed mechanical or metabolic overload, it experiences transient disruption of homeostasis. In response, the body initiates neuromuscular, cardiovascular, and endocrine adaptations that elevate the system's baseline functional capacity. If the training stimulus remains below normal threshold requirements, the physiological system merely maintains its current status without experiencing measurable performance gains.</p><h2>Systemic Application via FITT Parameters</h2><p>The overload principle can be systematically applied across different fitness components by manipulating the core design elements of the FITT framework:</p><ul><li><strong>Increasing Training Frequency:</strong> Escalating the number of weekly workout sessions (e.g., advancing from $3\\text{ sessions/week}$ to $5\\text{ sessions/week}$) increases total physiological stress.</li><li><strong>Increasing Training Intensity:</strong> Elevating the resistance load, movement velocity, or percentage of maximal effort (e.g., increasing cardiovascular workload from $60\\%\\text{ HR}_{max}$ to $80\\%\\text{ HR}_{max}$) places higher metabolic and mechanical demands on targeted tissues.</li><li><strong>Increasing Training Time:</strong> Extending the duration of individual training sessions or increasing total weekly training volume stresses metabolic endurance capacity.</li></ul><table class=\"data-table\"><thead><tr><th>FITT Parameter</th><th>Method of Overload Application</th><th>Targeted Physiological Adaptation</th></tr></thead><tbody><tr><td><strong>Frequency</strong></td><td>Increasing weekly training sessions ($3 \\rightarrow 5\\text{ days/week}$)</td><td>Enhanced cumulative metabolic stimulus and recovery adaptation</td></tr><tr><td><strong>Intensity</strong></td><td>Increasing load ($kg$), speed, or $\\%\\text{ HR}_{max}$</td><td>Increased motor unit recruitment and cardiac stroke volume</td></tr><tr><td><strong>Time / Duration</strong></td><td>Extending session length or total volume/distance</td><td>Expanded cellular energy stores and oxidative capacity</td></tr></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>In strength and conditioning, applying the overload principle requires careful quantification of training intensity and volume. For instance, an athlete aiming to increase maximal muscular strength must lift loads exceeding $80\\% - 85\\%\\text{ of 1RM}$. Lifting sub-threshold loads ($< 50\\%\\text{ 1RM}$) indefinitely fails to stress high-threshold fast-twitch motor units, resulting in stasis rather than hypertrophic or neural adaptations.</p></div>"
+        },
+        {
+            "id": "p2",
+            "title": "Part 2: Progression Principle",
+            "sampleCounts": {
+                "mcq": 2,
+                "ms": 2,
+                "tf": 2,
+                "cloze": 2,
+                "sa": 1
+            },
+            "readingHtml": "<h2>The Dynamics of Progressive Adaptation</h2><p>Following a period of consistent physical training, the neuromuscular and cardiovascular systems adapt to the imposed stress. As a result, a training load that previously generated an effective overload stimulus no longer provides sufficient physiological stress; that load has now become a \"normal\" or habitual stimulus. According to the <strong>progression principle</strong> (or progressive overload), the training stimulus must be periodically and systematically increased as the body adapts, ensuring continuous physiological improvements.</p><p>If the training stimulus is kept static over an extended period, adaptation plateaus and fitness levels stagnate. To maintain an upward trajectory in functional capacity, exercise physiologists and coaches structure training cycles with gradual, incremental load increases.</p><h2>Implementation Strategies for Progressive Overload</h2><p>Progression must be implemented gradually and systematically to allow structural tissue remodeling while preventing overtraining syndrome, chronic exhaustion, or musculoskeletal strain. For beginners and recreational trainees, increasing training loads in small, manageable steps across successive training cycles is strongly recommended.</p><p>Methods for incorporating progressive overload include:</p><ul><li>Gradually increasing resistance mass (e.g., adding $2.5\\text{ kg} - 5.0\\text{ kg}$ to a resistance exercise).</li><li>Increasing the number of repetitions per set or total completed sets.</li><li>Decreasing rest intervals between high-intensity exertion bouts.</li><li>Increasing movement speed or total distance in cyclic endurance sports.</li></ul><table class=\"data-table\"><thead><tr><th>Trainee Classification</th><th>Recommended Progression Rate</th><th>Primary Progression Variables</th><th>Risk of Improper Progression</th></tr></thead><tbody><tr><td><strong>Beginner / Novice</strong></td><td>Gradual, small incremental steps ($2.5\\% - 5\\%\\text{ load increase}$)</td><td>Repetitions, basic form, slight load additions</td><td>Overtraining, muscle soreness, joint injury</td></tr><tr><td><strong>Intermediate / Advanced</strong></td><td>Periodized training cycles with varied loading</td><td>Intensity ($\\%\\text{ 1RM}$), volume, movement velocity</td><td>Performance plateau, accommodation to static loads</td></tr></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>When coaching a novice weightlifter, applying the progression principle prevents premature performance plateaus. For example, once a trainee can complete 3 sets of 10 repetitions at $50\\text{ kg}$ with proper biomechanical technique, that weight is no longer an overload. Progressing the load to $52.5\\text{ kg}$ re-establishes an effective overload stimulus, driving continued neural recruitment and muscular hypertrophy.</p></div>"
+        },
+        {
+            "id": "p3",
+            "title": "Part 3: Reversibility Principle",
+            "sampleCounts": {
+                "mcq": 2,
+                "ms": 2,
+                "tf": 2,
+                "cloze": 2,
+                "sa": 1
+            },
+            "readingHtml": "<h2>Detraining and the Physiological Cost of Inactivity</h2><p>While adequate rest periods between workouts are essential for muscular recovery and cellular repair, extended training interruptions exert a marked negative effect on physical fitness levels. Illness, acute injury, or extended vacations can cause unavoidable breaks in a structured training routine. According to the <strong>reversibility principle</strong>, extended training interruptions lead to stagnation followed by a progressive decline in physical performance and functional capacity—a phenomenon summarized by the adage, \"Use it or lose it!\"</p><p>The magnitude and rate of performance loss during detraining are directly dictated by two key factors: the duration of the detraining period and the baseline training status of the individual. Fortunately, these detraining losses are temporary; performance declines can be reversed once regular training resumes.</p><h2>Differential Rates of Fitness Loss</h2><p>Not all physical fitness components regress at identical rates during periods of forced inactivity:</p><ul><li><strong>Cardiorespiratory and Muscular Endurance:</strong> Endurance capacity declines rapidly during detraining due to swift reductions in blood plasma volume, stroke volume, maximal cardiac output, capillary density, and oxidative mitochondrial enzyme activity.</li><li><strong>Maximal Strength and Power:</strong> Maximal strength and explosive power decay at a relatively slower rate compared to endurance, as structural muscle mass and neural motor unit recruitment patterns resist rapid regression over short breaks.</li><li><strong>Motor Ability Factors:</strong> Coordination, agility, and inter-muscular integration also decline during training interruptions because motor skill execution depends upon active neural motor program maintenance.</li></ul><table class=\"data-table\"><thead><tr><th>Fitness Component</th><th>Rate of Detraining Decline</th><th>Primary Underlying Physiological Factor</th></tr></thead><tbody><tr><td><strong>Cardiorespiratory Endurance</strong></td><td>Rapid decline ($1 - 2\\text{ weeks}$)</td><td>Decreased plasma volume, stroke volume, and mitochondrial enzymes</td></tr><tr><td><strong>Muscular Endurance</strong></td><td>Rapid to moderate decline</td><td>Reduced capillary density and muscle glycogen storage capacity</td></tr><tr><td><strong>Maximal Strength & Power</strong></td><td>Gradual, slower decline</td><td>Slow loss of neural recruitment efficiency and muscle cross-sectional area</td></tr><tr><td><strong>Motor Coordination & Skill</strong></td><td>Moderate decline</td><td>Loss of neural motor program conditioning and movement integration</td></tr></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>In sports medicine and athletic rehabilitation, understanding the reversibility principle is vital for managing injured athletes. When an athlete is immobilized due to an ankle sprain, cardiorespiratory fitness drops within $10 - 14\\text{ days}$. Physical therapists utilize modified non-injured limb ergometry or pool swimming during rehabilitation to maintain aerobic conditioning and minimize the systemic detraining effect.</p></div>"
+        },
+        {
+            "id": "p4",
+            "title": "Part 4: Specificity Principle",
+            "sampleCounts": {
+                "mcq": 2,
+                "ms": 2,
+                "tf": 2,
+                "cloze": 2,
+                "sa": 1
+            },
+            "readingHtml": "<h2>Biomechanical and Physiological Specificity</h2><p>The human body adapts with extreme precision to the specific mechanical, metabolic, and neural demands imposed upon it during training. The <strong>specificity principle</strong> dictates that specific activities and exercises elicit specific physiological responses and adaptations. Consequently, if an individual seeks to improve a particular fitness or skill component, they must select a training modality that closely matches the biomechanical actions, muscle contraction types, energy systems, and movement velocities of the target performance goal—summarized as, \"What you do is what you get.\"</p><h2>Empirical Examples of Training Specificity</h2><p>To maximize performance transfer, training conditions must align with target activity requirements across multiple physiological dimensions:</p><ul><li><strong>Contraction Mode & Joint Action:</strong> Training arm strength by pushing with bent arms against an immovable wall builds static isometric strength at that specific joint angle, but fails to enhance dynamic push-up performance.</li><li><strong>Environmental & Task Specificity:</strong> Basketball players shooting at an $8\\text{-foot}$ basket will not optimize their shooting accuracy for a standard $10\\text{-foot}$ regulation basket; hockey players practicing shots without a goalie fail to adapt to live defensive perception.</li><li><strong>Load Specificity:</strong> Workers required to lift $30\\text{-kg}$ boxes on the job derive minimal functional benefit from training with light $10\\text{-kg}$ loads.</li><li><strong>Anatomical & Muscle Group Specificity:</strong> Performing bench presses conditions the pectoralis major and triceps, providing zero muscular endurance adaptation for leg muscles.</li><li><strong>Metabolic Energy System Specificity:</strong> Sprinters who train primarily by running long, slow distances stress aerobic oxidative pathways rather than the explosive anaerobic phosphagen pathways required for sprinting.</li></ul><table class=\"data-table\"><thead><tr><th>Target Performance Requirement</th><th>Non-Specific (Ineffective) Training</th><th>Specific (Effective) Training</th><th>Kinesiological Principle</th></tr></thead><tbody><tr><td><strong>100m Sprinting Velocity</strong></td><td>Long-distance slow continuous running</td><td>High-velocity short sprint repeats ($100\\%\\text{ effort}$)</td><td>Anaerobic energy system & fast-twitch fiber specificity</td></tr><tr><td><strong>30kg Occupational Box Lifting</strong></td><td>Light resistance training ($10\\text{ kg}$)</td><td>Progressive lifting with $30\\text{ kg}$ functional loads</td><td>Load & mechanical force specificity</td></tr><tr><td><strong>Dynamic Push-up Performance</strong></td><td>Isometric wall pushes at bent arm angle</td><td>Dynamic bodyweight or weighted push-ups</td><td>Dynamic contraction mode & ROM specificity</td></tr><tr><td><strong>Basketball Regulation Shooting</strong></td><td>Shooting at an $8\\text{-foot}$ practice rim</td><td>Shooting at a regulation $10\\text{-foot}$ rim</td><td>Spatial & perceptual task specificity</td></tr></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>When designing conditioning programs for competitive athletes, strength coaches strictly enforce the specificity principle. For instance, a volleyball player requiring explosive vertical jumping power must perform multi-joint plyometric jumps and heavy squats that match the triple-extension movement mechanics (hips, knees, ankles) and rapid rate of force development ($RFD$) utilized during competitive blocking and spiking.</p></div>"
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Overload Principle",
+            "def": "The training principle stating that to achieve physical improvement, training demands must be higher than normal performance requirements to stress the target muscle or physiological system."
+        },
+        {
+            "term": "Progression Principle",
+            "def": "The training principle dictating that as the body adapts to a given workload, the training stimulus must be periodically increased to ensure continued fitness improvements."
+        },
+        {
+            "term": "Reversibility Principle",
+            "def": "The training principle stating that extended interruptions in physical training result in a temporary decline or loss of achieved physical fitness adaptations."
+        },
+        {
+            "term": "Detraining",
+            "def": "The partial or complete loss of training-induced physiological and performance adaptations as a result of training cessation or significant reduction in training load."
+        },
+        {
+            "term": "Specificity Principle",
+            "def": "The training principle asserting that specific exercises and activities elicit specific physiological adaptations, requiring training modalities to closely match target performance goals."
+        }
+    ]
+}

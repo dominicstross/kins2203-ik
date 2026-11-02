@@ -1,0 +1,999 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is station training defined in Section 15.8?",
+                "opts": [
+                    "The completion of all sets of one exercise before moving to the next exercise",
+                    "Performing one set at a station and immediately moving to another exercise station",
+                    "Executing high-intensity interval sprints with alternating 30-second rest periods",
+                    "Sustaining a static isometric hold until absolute muscle failure occurs"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.8 explicitly defines station training as the completion of all the sets of one exercise before moving to the next exercise."
+            },
+            {
+                "id": 2,
+                "q": "What happens to the targeted muscle groups when performing a series of sets within a station?",
+                "opts": [
+                    "The same muscle groups are stressed over and over again",
+                    "Muscle groups are alternated every single repetition to allow complete recovery",
+                    "Cardiorespiratory VO2 max increases by 50% during rest intervals",
+                    "Motor unit recruitment is inhibited entirely after the first repetition"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explains that when performing a series of sets within a station, the same muscle groups are stressed over and over again."
+            },
+            {
+                "id": 3,
+                "q": "Which equipment type is popular with elite athletes for dynamic resistance station training?",
+                "opts": [
+                    "Free weights",
+                    "Underwater treadmills",
+                    "Grip dynamometers exclusively",
+                    "Pneumatic balance boards"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.8 notes that dynamic resistance station training promotes strength development using free weights, which are popular with elite athletes."
+            },
+            {
+                "id": 4,
+                "q": "How does circuit training fundamental execution differ from station training?",
+                "opts": [
+                    "Only one set is completed (or performed for a specified time) before moving to the next exercise station",
+                    "All 10 sets of an exercise are completed before moving to any other station",
+                    "Circuit training uses zero exercise equipment and only passive stretching",
+                    "Circuit training requires a minimum 15-minute rest between every exercise station"
+                ],
+                "correct": 0,
+                "rationale": "Circuit training differs from station training because only one set is completed (or performed for a specified time) before moving to the next exercise."
+            },
+            {
+                "id": 5,
+                "q": "How many stations are contained in the most popular circuit training program designs?",
+                "opts": [
+                    "Circuits with 8 to 12 stations",
+                    "Circuits with 1 to 2 stations only",
+                    "Circuits with 30 to 50 stations",
+                    "Circuits with exactly 100 stations"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that circuits with 8 to 12 stations are the most popular."
+            },
+            {
+                "id": 6,
+                "q": "What is the typical time duration spent at each station in a circuit training program?",
+                "opts": [
+                    "Varies between 30 seconds and 60 seconds",
+                    "Varies between 5 minutes and 10 minutes",
+                    "Exactly 1 second per station",
+                    "Varies between 15 minutes and 30 minutes"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.8 states that time at each circuit station typically varies between 30 seconds and 60 seconds."
+            },
+            {
+                "id": 7,
+                "q": "What essential exercise sequencing rule governs circuit training design to prevent premature localized fatigue?",
+                "opts": [
+                    "No two consecutive exercises should involve the same muscle group",
+                    "All upper-body exercises must be performed before any lower-body exercises",
+                    "Every station must target the biceps brachii continuously",
+                    "Exercises must be performed in alphabetical order by equipment name"
+                ],
+                "correct": 0,
+                "rationale": "Exercises should be arranged so that no two consecutive exercises involve the same muscle group (e.g., arm extensor followed by leg extensor)."
+            },
+            {
+                "id": 8,
+                "q": "How can circuit training be modified to achieve cardiorespiratory fitness improvements alongside muscular endurance?",
+                "opts": [
+                    "By designing a circuit with no rest between stations, maintaining heart rate in the target zone",
+                    "By increasing rest between stations to 10 minutes per station",
+                    "By performing only 1 repetition per station with 100% 1RM load",
+                    "By sitting motionless at every third station"
+                ],
+                "correct": 0,
+                "rationale": "It is possible to design a circuit with no rest between stations, maintaining heart rate in the target zone and resulting in cardiorespiratory fitness improvement."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which design variables can be manipulated in circuit training programs? (Select all that apply)",
+                "opts": [
+                    "Number of stations (typically 8 to 12)",
+                    "Time at station (30 to 60 seconds)",
+                    "Number of laps (normally repeated 1 to 3 times)",
+                    "Recovery between exercises and laps"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four variables are explicitly listed in Section 15.8 as adjustable components of circuit training."
+            },
+            {
+                "id": 2,
+                "q": "Which equipment options can be utilized to perform circuit training? (Select all that apply)",
+                "opts": [
+                    "Own body weight and partner-assisted exercises",
+                    "Medicine balls and dumbbells",
+                    "Barbells and exercise machines",
+                    "Commercial skinfold calipers exclusively"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Body weight, partner exercises, medicine balls, dumbbells, barbells, and machines are explicitly named. Skinfold calipers are assessment tools."
+            },
+            {
+                "id": 3,
+                "q": "Which characteristics distinguish STATION training from CIRCUIT training? (Select all that apply)",
+                "opts": [
+                    "Station training completes all sets of an exercise before moving to the next exercise.",
+                    "Station training repeatedly stresses the same muscle group across consecutive sets.",
+                    "Circuit training completes one set per station before advancing to the next exercise.",
+                    "Station training requires no rest between any exercises in the entire facility."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Station training completes all sets at one station, repeatedly stressing the same muscle group. Circuit training rotates one set per station."
+            },
+            {
+                "id": 4,
+                "q": "How do recovery intervals differ based on training objectives in circuit design? (Select all that apply)",
+                "opts": [
+                    "For muscular endurance, relatively short or no recovery is planned between stations.",
+                    "For strength development, rest intervals are longer between stations.",
+                    "For strength development, every other station can be a stretching station.",
+                    "For muscular endurance, trainees rest 15 minutes after every station."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Short/no recovery develops endurance; longer rest intervals or stretching stations support strength development."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Station training refers to completing all sets of one exercise before moving to the next exercise.",
+                "ans": true,
+                "feedback": "True. This is the explicit definition of station training in Section 15.8."
+            },
+            {
+                "id": 2,
+                "q": "In circuit training, participants must complete 5 consecutive sets at a single exercise machine before moving on.",
+                "ans": false,
+                "feedback": "False. In circuit training, only one set (or time-capped effort) is completed before moving to the next exercise station."
+            },
+            {
+                "id": 3,
+                "q": "Exercises in a circuit should be arranged so that consecutive stations target the exact same muscle group.",
+                "ans": false,
+                "feedback": "False. Section 15.8 specifies that exercises should be arranged so that no two consecutive exercises involve the same muscle group."
+            },
+            {
+                "id": 4,
+                "q": "A circuit training program normally involves repeating the circuit sequence one to three times (laps).",
+                "ans": true,
+                "feedback": "True. Repeating the circuit sequence 1 to 3 times (laps) is standard circuit design."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "While **station training** completes all sets at one exercise, **circuit training** performs one set before moving to the next station.",
+                "targets": [
+                    "station training",
+                    "circuit training"
+                ],
+                "optionsBank": [
+                    "station training",
+                    "circuit training",
+                    "Fartlek training",
+                    "isometric hold",
+                    "cross-training"
+                ],
+                "hint": "The multi-set single-location format vs. the single-set multi-station rotation."
+            },
+            {
+                "id": 2,
+                "statement": "Circuits typically feature **8 to 12 stations** with a station time varying between **30 seconds and 60 seconds**.",
+                "targets": [
+                    "8 to 12 stations",
+                    "30 seconds and 60 seconds"
+                ],
+                "optionsBank": [
+                    "8 to 12 stations",
+                    "30 seconds and 60 seconds",
+                    "1 to 2 stations",
+                    "15 to 30 minutes",
+                    "50 to 100 reps"
+                ],
+                "hint": "Popular station count range and standard station time duration."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Compare station training and circuit training in terms of set execution, muscle group stress pattern, and primary fitness adaptations.",
+                "model": "Station training requires completing all prescribed sets of one exercise before moving to the next exercise, repeatedly stressing the same muscle group to promote maximal strength and hypertrophy (using free weights or machines). Circuit training requires performing only one set (or a timed bout of 30-60 seconds) at a station before advancing to the next station. By alternating muscle groups across 8-12 stations and minimizing rest, circuit training develops local muscular endurance and cardiorespiratory fitness.",
+                "criteria": [
+                    "Define set execution difference (all sets completed at one station vs. one set per station).",
+                    "Explain muscle stress pattern (repeated stress on same muscle group vs. alternating non-consecutive muscle groups).",
+                    "State adaptations (station -> strength/hypertrophy; circuit -> muscular endurance and cardiorespiratory fitness)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Detail six key design variables of a circuit training program as outlined in Section 15.8.",
+                "model": "Six key design variables of a circuit training program are: (1) Number of stations (typically 8 to 12 stations); (2) Time at station (varies between 30 and 60 seconds); (3) Exercise sequence (arranged so no two consecutive exercises target the same muscle group); (4) Number of laps (circuit is repeated 1 to 3 times); (5) Number of repetitions and resistance level (adjusted for strength, endurance, or power goals); and (6) Recovery between exercises (short/no rest for endurance, longer rest or stretching stations for strength).",
+                "criteria": [
+                    "Specify station count (8-12) and station time (30-60 seconds).",
+                    "Explain non-consecutive muscle group sequence rule.",
+                    "Detail laps (1-3 repeats) and recovery interval adjustments based on endurance vs. strength goals."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which activities are highlighted in Section 15.8 as the BEST overall exercises for developing and maintaining cardiorespiratory fitness?",
+                "opts": [
+                    "Brisk walking and jogging",
+                    "Single 1RM powerlifting lifts",
+                    "Flexed arm hang and wall sit",
+                    "Grip dynamometer squeezing"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.8 states that brisk walking and jogging are believed to be the best overall exercises for developing and maintaining cardiorespiratory fitness."
+            },
+            {
+                "id": 2,
+                "q": "What joint health advantage does walking offer compared to higher-impact aerobic activities?",
+                "opts": [
+                    "Walking is low impact, making it less damaging to the joints",
+                    "Walking completely eliminates the need for synovial fluid",
+                    "Walking doubles the ground impact force on cartilage",
+                    "Walking causes rapid bone mineral loss"
+                ],
+                "correct": 0,
+                "rationale": "The text explicitly notes that walking has the advantage of being low impact (i.e., less damaging to the joints)."
+            },
+            {
+                "id": 3,
+                "q": "According to the 'talk test' and 'breath sound check', what indicates that an exerciser has crossed the ventilatory threshold into an anaerobic level?",
+                "opts": [
+                    "Having difficulty talking and being out of breath",
+                    "Hearing normal quiet breathing while speaking easily",
+                    "Maintaining a completely silent heart rate for 10 minutes",
+                    "Achieving a resting pulse of 30 beats per minute"
+                ],
+                "correct": 0,
+                "rationale": "If you find that you have difficulty talking and are out of breath, you are working above the ventilatory threshold and have reached an anaerobic level."
+            },
+            {
+                "id": 4,
+                "q": "How is interval training defined in Section 15.8?",
+                "opts": [
+                    "A timed, systematic alternation of exertion and recovery (a series of exercises interspersed with rest periods)",
+                    "Continuous un-paced jogging at 20% max heart rate for 5 hours",
+                    "Performing 1RM maximal weight lifts with 15-minute rest intervals",
+                    "Static holding of a stretched position for 60 seconds"
+                ],
+                "correct": 0,
+                "rationale": "Interval training is defined as training that involves a timed, systematic alternation of exertion and recovery."
+            },
+            {
+                "id": 5,
+                "q": "Which four variables must be manipulated to establish workout intensity in interval training?",
+                "opts": [
+                    "Distance/time, speed/rate, rest period, and number of repetitions",
+                    "Height, weight, biological age, and eye color",
+                    "Ambient temperature, barometric pressure, humidity, and wind speed",
+                    "Flexibility rating, body density, somatotype, and skinfold thickness"
+                ],
+                "correct": 0,
+                "rationale": "The four variables that must be considered in interval training are (1) distance or length of time, (2) speed or rate, (3) rest period, and (4) number of repetitions."
+            },
+            {
+                "id": 6,
+                "q": "What is Fartlek training, and what does the Swedish word 'Fartlek' translate to?",
+                "opts": [
+                    "An extremely flexible endurance program combining varying paces over diverse terrain; translates to 'speed play'",
+                    "Strict station-based resistance training; translates to 'heavy iron'",
+                    "Static balance training on one foot; translates to 'stork stand'",
+                    "Submaximal step test protocol; translates to 'heart rate check'"
+                ],
+                "correct": 0,
+                "rationale": "Fartlek training comes from a Swedish word meaning 'speed play'; it is an extremely flexible training method designed to develop basic endurance using variable speeds."
+            },
+            {
+                "id": 7,
+                "q": "When do runners mainly utilize Fartlek training during their annual conditioning calendar?",
+                "opts": [
+                    "Mainly during the preparatory season (1 to 3 times per week)",
+                    "Exclusively during the final 5 seconds before a championship race",
+                    "Only during complete bed-rest recovery periods",
+                    "Never during any athletic training season"
+                ],
+                "correct": 0,
+                "rationale": "Fartlek training is used by runners mainly during the preparatory season (2 or 3 times per week during prep; once a week year-round)."
+            },
+            {
+                "id": 8,
+                "q": "How is cross-training defined, and what key injury benefit does it provide?",
+                "opts": [
+                    "Performing various exercise types or activities differing from usual routine; helps prevent overuse injuries and burnout",
+                    "Lifting 100% 1RM weights every single day; guarantees zero injury",
+                    "Sprinting 100 meters 50 times daily; eliminates muscle soreness",
+                    "Performing static stretches on a single joint exclusively"
+                ],
+                "correct": 0,
+                "rationale": "Cross-training is performing various kinds of exercise differing from one's usual routine; benefits include preventing boredom, burnout, and overuse injuries."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which everyday activities draw upon the AEROBIC vs. ANAEROBIC energy systems according to Section 15.8? (Select all that apply)",
+                "opts": [
+                    "Climbing multiple flights of stairs or walking in a park -> Aerobic system",
+                    "Running for the bus or racing up stairs to an appointment -> Anaerobic system",
+                    "Sprinting to catch a Frisbee -> Anaerobic system",
+                    "Sitting motionless in a chair -> Anaerobic system"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Walking/climbing stairs uses aerobic energy; running for a bus, racing up stairs, or sprinting for a Frisbee uses anaerobic energy."
+            },
+            {
+                "id": 2,
+                "q": "Which exercise modalities can incorporate Fartlek training? (Select all that apply)",
+                "opts": [
+                    "Running (hills, beach, parks, streets)",
+                    "Cycling and swimming",
+                    "Cross-country skiing and skating",
+                    "Static grip dynamometry"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Fartlek speed play principles can be applied to running, cycling, swimming, cross-country skiing, and skating."
+            },
+            {
+                "id": 3,
+                "q": "Which categories of cross-training are described in Section 15.8? (Select all that apply)",
+                "opts": [
+                    "Aerobic cross-training (cycling, swimming, water running, skating)",
+                    "Muscular endurance cross-training (rowing machine, stair climber, cycle ergometer)",
+                    "Activity cross-training (mountain biking, hockey, beach volleyball, football)",
+                    "Surgical cross-training (invasive joint modification)"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Aerobic, muscular endurance, and activity cross-training formats are explicitly detailed in Section 15.8."
+            },
+            {
+                "id": 4,
+                "q": "Which practical methods monitor aerobic versus anaerobic exercise intensity? (Select all that apply)",
+                "opts": [
+                    "Talk test (ability to carry on a conversation indicates moderate aerobic exercise)",
+                    "Breath sound check (just starting to hear breathing indicates minimum health fitness activity)",
+                    "Ventilatory threshold (difficulty talking and out of breath indicates working at an anaerobic level)",
+                    "1RM weight test (measures cardiorespiratory ventilatory threshold)"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Talk test, breath sound check, and difficulty talking at ventilatory threshold are non-invasive intensity monitoring methods."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Brisk walking is a low-impact activity that is less damaging to the joints than high-impact running.",
+                "ans": true,
+                "feedback": "True. Walking is explicitly highlighted as a low-impact activity that protects joints."
+            },
+            {
+                "id": 2,
+                "q": "The 'talk test' is based on the principle that you should be unable to speak a single word during moderate aerobic exercise.",
+                "ans": false,
+                "feedback": "False. The talk test states you should be able to carry on a conversation while exercising at moderate aerobic intensity."
+            },
+            {
+                "id": 3,
+                "q": "Fartlek is a Swedish term meaning 'speed play' that offers an unformatted, flexible endurance workout.",
+                "ans": true,
+                "feedback": "True. Fartlek translates to 'speed play' and provides flexible speed variations across terrain."
+            },
+            {
+                "id": 4,
+                "q": "Cross-training involves doing the exact same exercise routine every single day without any variation.",
+                "ans": false,
+                "feedback": "False. Cross-training is performing various exercises or activities that differ from your usual routine."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Monitoring aerobic exercise can use the **talk test**; difficulty speaking indicates crossing the **ventilatory threshold**.",
+                "targets": [
+                    "talk test",
+                    "ventilatory threshold"
+                ],
+                "optionsBank": [
+                    "talk test",
+                    "ventilatory threshold",
+                    "1RM max",
+                    "skinfold test",
+                    "stork stand"
+                ],
+                "hint": "The conversational monitoring method and the anaerobic transition point."
+            },
+            {
+                "id": 2,
+                "statement": "Systematic exertion and rest define **interval training**, whereas flexible speed variations define **Fartlek training**.",
+                "targets": [
+                    "interval training",
+                    "Fartlek training"
+                ],
+                "optionsBank": [
+                    "interval training",
+                    "Fartlek training",
+                    "station training",
+                    "static stretch",
+                    "plyometrics"
+                ],
+                "hint": "The timed work-rest protocol vs. the Swedish 'speed play' method."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain the 'talk test' and 'breath sound check' for monitoring exercise intensity, distinguishing between moderate aerobic exercise and anaerobic exercise.",
+                "model": "The breath sound check and talk test are practical methods to determine exercise intensity. The breath sound check identifies moderate activity when an exerciser just starts to hear their breathing. Under the talk test, moderate-intensity aerobic activity allows the individual to carry on a conversation while exercising. If exertion increases to where the person experiences difficulty talking and feels out of breath, they have passed the ventilatory threshold and reached an anaerobic level.",
+                "criteria": [
+                    "Explain breath sound check (hearing breathing indicates minimum health activity level).",
+                    "Explain talk test for moderate aerobic activity (ability to carry on a conversation).",
+                    "Explain ventilatory threshold / anaerobic level (difficulty talking and breathless)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Define interval training and Fartlek training, detailing the four variables of interval training and the Swedish origin/meaning of Fartlek.",
+                "model": "Interval training is a timed, systematic alternation of exertion bouts and recovery periods (rest intervals). It relies on 4 variables: (1) distance or time duration, (2) speed or rate, (3) rest period, and (4) number of repetitions. Fartlek training comes from the Swedish word for 'speed play'; it is an unformatted, flexible endurance workout combining easy running, fast bursts, and hill work over varied terrain, popular during the preparatory season.",
+                "criteria": [
+                    "Define interval training (timed alternation of exertion and recovery).",
+                    "Detail 4 interval variables (distance/time, speed/rate, rest period, reps).",
+                    "Define Fartlek (Swedish for 'speed play', flexible speed/terrain variations)."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is functional fitness defined in Section 15.8?",
+                "opts": [
+                    "Exercise training designed to help individuals function better in their homes and workplaces, and in rehabilitation",
+                    "Lifting maximal 1RM weight loads in isolated powerlifting stations",
+                    "Running 100-meter sprints until absolute exhaustion occurs",
+                    "Measuring body fat percentage using hydrostatic underwater weighing"
+                ],
+                "correct": 0,
+                "rationale": "Functional fitness is training that helps individuals function better in their homes and workplaces and is valuable in rehabilitation."
+            },
+            {
+                "id": 2,
+                "q": "Which training principle is identified as KEY when designing effective functional fitness exercises?",
+                "opts": [
+                    "Principle of specificity",
+                    "Principle of reversibility",
+                    "Principle of overtraining",
+                    "Principle of absolute force"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that the fitness training principle of specificity is key in designing effective functional fitness exercises."
+            },
+            {
+                "id": 3,
+                "q": "What do sport performance functional training programs emphasize over pure strength or endurance?",
+                "opts": [
+                    "Development of the neuromuscular system and motor abilities (balance, power, agility)",
+                    "Maximizing subcutaneous fat thickness",
+                    "Performing exercises to the point of severe fatigue and technique breakdown",
+                    "Restricting all joint range of motion to zero degrees"
+                ],
+                "correct": 0,
+                "rationale": "Sport performance functional programs emphasize developing the neuromuscular system and motor abilities (balance, power, agility) rather than pure strength/endurance."
+            },
+            {
+                "id": 4,
+                "q": "What crucial rule governs movement execution during functional fitness training for motor learning?",
+                "opts": [
+                    "Exercises are continued only as long as correct form and technique can be maintained; never performed to fatigue",
+                    "Exercises must be pushed past form breakdown until total muscle collapse",
+                    "Exercises must be performed at 100% 1RM load with rapid bouncing",
+                    "Exercises must be executed with eyes closed at all times"
+                ],
+                "correct": 0,
+                "rationale": "Because actions must be performed with perfect technique for motor learning to occur, exercises are continued only as long as correct form is maintained and never to fatigue."
+            },
+            {
+                "id": 5,
+                "q": "Which simple equipment items are commonly incorporated into functional fitness training?",
+                "opts": [
+                    "Stability balls, resistance bands, medicine balls, and balance boards",
+                    "Commercial leg press selectorized machines exclusively",
+                    "Underwater oxygen tanks and scuba fins",
+                    "Surgical scalpels and diagnostic X-ray film"
+                ],
+                "correct": 0,
+                "rationale": "Functional fitness training often incorporates simple equipment such as stability balls, resistance bands, medicine balls, and balance boards."
+            },
+            {
+                "id": 6,
+                "q": "Which mind-body practice disciplines are explicitly cited as ways to train functional fitness?",
+                "opts": [
+                    "Pilates and yoga",
+                    "Olympic weightlifting and powerlifting",
+                    "100m sprinting and marathon running",
+                    "Grip dynamometry and sit-and-reach box testing"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that other ways to train functional fitness include Pilates and yoga."
+            },
+            {
+                "id": 7,
+                "q": "What real-life example of functional fitness for an elderly person is cited in Section 15.8?",
+                "opts": [
+                    "Giving an elderly person the flexibility to tie his shoelaces",
+                    "Training an elderly person to bench press 150 kg",
+                    "Training an elderly person to run a 2-hour marathon",
+                    "Giving an elderly person the strength to perform a 360-degree basketball dunk"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.8 explicitly gives the example of exercises that give an elderly person the flexibility to tie his shoelaces."
+            },
+            {
+                "id": 8,
+                "q": "What real-life example of functional fitness for a grocery store cashier is cited in the text?",
+                "opts": [
+                    "Muscular endurance and core strength to bag an endless conveyor belt of purchases",
+                    "Absolute 1RM squatting power to lift grocery carts",
+                    "Agility to jump over cash registers during robberies",
+                    "Flexibility to perform splits on the checkout counter"
+                ],
+                "correct": 0,
+                "rationale": "The text cites giving a grocery store cashier the muscular endurance and core strength to bag an endless conveyor belt of purchases."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which real-world functional fitness applications are described in Section 15.8? (Select all that apply)",
+                "opts": [
+                    "Elderly person: flexibility to tie shoelaces",
+                    "Parent with back injury: strength and stability to move wet clothes to laundry hamper",
+                    "Grocery cashier: muscular endurance and core strength to bag conveyor belt purchases",
+                    "Sprinter: maximum 1RM bench press power"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Tying shoelaces, moving wet laundry safely, and bagging groceries are explicit real-world functional examples in the text."
+            },
+            {
+                "id": 2,
+                "q": "Which principles and rules characterize functional fitness exercise execution? (Select all that apply)",
+                "opts": [
+                    "Guided by the principle of specificity.",
+                    "Emphasizes neuromuscular system and motor abilities (balance, power, agility).",
+                    "Executed with perfect technique to facilitate motor learning.",
+                    "Never performed to the point of fatigue."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four choices are explicit textbook rules governing functional fitness training."
+            },
+            {
+                "id": 3,
+                "q": "Which equipment and practice modalities are used in functional fitness training? (Select all that apply)",
+                "opts": [
+                    "Stability balls and balance boards",
+                    "Resistance bands and medicine balls",
+                    "Pilates and yoga",
+                    "Heavy selectorized weight stacks exclusively"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Stability balls, balance boards, bands, medicine balls, Pilates, and yoga are explicitly listed functional modalities."
+            },
+            {
+                "id": 4,
+                "q": "Why is training to fatigue avoided in functional fitness motor learning drills? (Select all that apply)",
+                "opts": [
+                    "Fatigue causes technique degradation and improper movement mechanics.",
+                    "Skills and actions must be performed with perfect technique for proper motor learning.",
+                    "Fatigue prevents the central nervous system from encoding correct motor patterns.",
+                    "Fatigue increases 1RM strength tenfold."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Fatigue degrades technique, preventing the CNS from encoding clean motor programs required for motor learning."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Functional fitness helps individuals function better in their homes, workplaces, and rehabilitation settings.",
+                "ans": true,
+                "feedback": "True. Functional fitness prepares the body for real-world tasks in home, work, and rehab contexts."
+            },
+            {
+                "id": 2,
+                "q": "The principle of specificity is key when designing functional fitness exercises.",
+                "ans": true,
+                "feedback": "True. Exercises must mirror the specific demands, angles, and kinetic chains of real-world movements."
+            },
+            {
+                "id": 3,
+                "q": "Functional fitness drills should be performed to the point of severe fatigue and muscle failure.",
+                "ans": false,
+                "feedback": "False. Exercises are continued only as long as correct technique is maintained; they are never performed to fatigue."
+            },
+            {
+                "id": 4,
+                "q": "Pilates and yoga are examples of training modalities used for functional fitness.",
+                "ans": true,
+                "feedback": "True. Pilates and yoga are explicitly listed as ways to train functional fitness."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Designing functional exercises relies on the principle of **specificity**, using proper **technique** to ensure motor learning.",
+                "targets": [
+                    "specificity",
+                    "technique"
+                ],
+                "optionsBank": [
+                    "specificity",
+                    "technique",
+                    "reversibility",
+                    "fatigue",
+                    "1RM max"
+                ],
+                "hint": "The core training principle and the movement execution standard."
+            },
+            {
+                "id": 2,
+                "statement": "Functional fitness incorporates simple equipment like **stability balls** and practices such as **Pilates and yoga**.",
+                "targets": [
+                    "stability balls",
+                    "Pilates and yoga"
+                ],
+                "optionsBank": [
+                    "stability balls",
+                    "Pilates and yoga",
+                    "heavy barbells",
+                    "skinfold calipers",
+                    "treadmills"
+                ],
+                "hint": "The core stability equipment and the mind-body movement disciplines."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define functional fitness, explain the role of the principle of specificity, and detail three real-world examples from Section 15.8.",
+                "model": "Functional fitness is exercise training designed to help individuals function better in their homes, workplaces, and rehabilitation settings. The principle of specificity is key because exercises are tailored to match the exact movement patterns, joint angles, and tasks of real life. Three textbook examples include: (1) giving an elderly person flexibility to tie shoelaces; (2) giving a parent with a back injury strength/stability to carry laundry; and (3) giving a grocery cashier core endurance to bag conveyor belt purchases.",
+                "criteria": [
+                    "Define functional fitness (training for home, work, and rehab function).",
+                    "Explain specificity role (tailoring exercises to match specific real-world tasks/movements).",
+                    "Detail 3 real-world examples (elderly shoelaces, parent laundry, cashier bagging groceries)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain why functional fitness exercises are never performed to the point of fatigue, detailing the relationship between form, motor learning, and equipment used.",
+                "model": "Functional fitness drills focus on motor learning and neuromuscular control. For optimal motor learning to occur, skills and actions must be performed with perfect form and technique. If exercises are pushed to fatigue, movement mechanics break down, causing the central nervous system to encode faulty movement patterns. Thus, exercises stop when form degrades. Training incorporates simple balance/stability tools (stability balls, medicine balls, bands, balance boards) and modalities like Pilates and yoga.",
+                "criteria": [
+                    "Explain that motor learning requires perfect form/technique.",
+                    "Explain why fatigue is avoided (fatigue degrades technique, encoding faulty motor patterns).",
+                    "List functional equipment/modalities (stability balls, balance boards, bands, medicine balls, Pilates, yoga)."
+                ]
+            }
+        ]
+    },
+    "p4": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What is the typical time duration of a standard group fitness class described in Section 15.8?",
+                "opts": [
+                    "45 to 60 minutes",
+                    "5 to 10 minutes total",
+                    "3 to 4 hours continuously",
+                    "15 seconds"
+                ],
+                "correct": 0,
+                "rationale": "Group fitness classes usually last from 45 to 60 minutes."
+            },
+            {
+                "id": 2,
+                "q": "How much cardio work time is included in the basic elements of a 45- to 60-minute group fitness class?",
+                "opts": [
+                    "Cardio work for at least 20 minutes",
+                    "Cardio work for exactly 30 seconds",
+                    "Zero minutes of cardio work",
+                    "Cardio work for 3 hours"
+                ],
+                "correct": 0,
+                "rationale": "Group classes include basic elements such as a warm-up, cardio work for at least 20 minutes, muscular endurance work, and cool-down stretching."
+            },
+            {
+                "id": 3,
+                "q": "Which basic elements make up the standard structure of a group fitness class?",
+                "opts": [
+                    "Warm-up, cardio work (at least 20 min), muscular endurance work, and cool-down stretching",
+                    "1RM bench press testing, skinfold caliper pinching, and static balance testing",
+                    "30-minute sleep, 20-minute meal, and 10-minute sprint",
+                    "Station training, plyometric bounding, and 12-minute run"
+                ],
+                "correct": 0,
+                "rationale": "Group fitness class architecture comprises a warm-up, cardio work for at least 20 minutes, muscular endurance work, and cool-down stretching."
+            },
+            {
+                "id": 4,
+                "q": "Which types of group fitness classes are explicitly named in Section 15.8?",
+                "opts": [
+                    "Step, aquacise, spinning, rope jumping, gliding, boxercise, tae bo, Pilates, and yoga",
+                    "Powerlifting, Olympic weightlifting, and shot put exclusively",
+                    "Grip dynamometry and sit-and-reach testing classes",
+                    "Hydrostatic underwater weighing classes"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.8 lists step, low/high-impact aerobics, aquacise, spinning, rope jumping, gliding, boxercise, tae bo, Pilates, and yoga."
+            },
+            {
+                "id": 5,
+                "q": "What are the four design components of any fitness program represented by the FITT principle?",
+                "opts": [
+                    "Frequency, intensity, time, and type of activity",
+                    "Fast, intense, tough, and technical",
+                    "Flexibility, isometric, tension, and threshold",
+                    "Fat mass, initial load, total volume, and target rate"
+                ],
+                "correct": 0,
+                "rationale": "The four design components of any fitness program under the FITT principle are frequency, intensity, time, and type of activity."
+            },
+            {
+                "id": 6,
+                "q": "Which core exercise training principles produce effective results when developing a personalized fitness plan?",
+                "opts": [
+                    "Overload, progression, reversibility, and specificity",
+                    "Hypertrophy, atrophy, dystrophy, and dystrophy",
+                    "Static, dynamic, isometric, and isokinetic",
+                    "Concentric, eccentric, plyometric, and ballistic"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.8 highlights overload, progression, reversibility, and specificity as the key training principles that produce effective results."
+            },
+            {
+                "id": 7,
+                "q": "Which flexibility method is explicitly highlighted in the Section 15.8 summary as the MOST EFFECTIVE technique?",
+                "opts": [
+                    "Proprioceptive neuromuscular facilitation (PNF)",
+                    "Ballistic bouncing stretching",
+                    "Static stretching without warm-up",
+                    "Passive arm swings"
+                ],
+                "correct": 0,
+                "rationale": "The summary explicitly notes that flexibility can be improved by three methods (static, dynamic, PNF), and PNF is considered the most effective technique."
+            },
+            {
+                "id": 8,
+                "q": "What psychological/social benefit of group fitness classes is highlighted in Section 15.8?",
+                "opts": [
+                    "Group classes are a fun way to get fit, meet people, and enjoy the motivation of working out with others",
+                    "Group classes guarantee 100% elimination of all body fat in 1 session",
+                    "Group classes replace the need for central nervous system integration",
+                    "Group classes allow participants to exercise while sleeping"
+                ],
+                "correct": 0,
+                "rationale": "The text notes group classes are a fun way to get fit and meet new people, providing the motivation of working out with others."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which structural phases comprise a 45- to 60-minute group fitness class? (Select all that apply)",
+                "opts": [
+                    "Warm-up phase",
+                    "Cardio work (at least 20 minutes)",
+                    "Muscular endurance work phase",
+                    "Cool-down stretching phase"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four components make up the standard 45-60 minute group fitness class structure in Section 15.8."
+            },
+            {
+                "id": 2,
+                "q": "Which health-related physical fitness components are integrated into comprehensive program design? (Select all that apply)",
+                "opts": [
+                    "Muscular strength and muscular endurance",
+                    "Cardiorespiratory fitness",
+                    "Flexibility",
+                    "Body composition"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Muscular strength, muscular endurance, cardiorespiratory fitness, flexibility, and body composition are the health-related fitness components."
+            },
+            {
+                "id": 3,
+                "q": "Which training principles guide effective fitness program design in the Section 15.8 summary? (Select all that apply)",
+                "opts": [
+                    "Overload principle",
+                    "Progression principle",
+                    "Reversibility principle",
+                    "Specificity principle"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Overload, progression, reversibility, and specificity are the four explicit training principles in the synthesis."
+            },
+            {
+                "id": 4,
+                "q": "Which motor abilities (skill-related fitness) complement health-related fitness in total program design? (Select all that apply)",
+                "opts": [
+                    "Power and Agility",
+                    "Coordination and Reaction Time",
+                    "Balance and Speed",
+                    "Subcutaneous skinfold thickness"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Power, agility, coordination, reaction time, balance, and speed are the motor abilities. Skinfold thickness is a body comp measurement."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Group fitness classes usually last from 45 to 60 minutes and include at least 20 minutes of cardio work.",
+                "ans": true,
+                "feedback": "True. Standard group fitness classes run 45-60 minutes with a minimum 20-minute cardio phase."
+            },
+            {
+                "id": 2,
+                "q": "PNF stretching is considered the most effective flexibility technique in Section 15.8.",
+                "ans": true,
+                "feedback": "True. Proprioceptive neuromuscular facilitation (PNF) is explicitly identified as the most effective flexibility method."
+            },
+            {
+                "id": 3,
+                "q": "The FITT principle components are Frequency, Intensity, Time, and Type of activity.",
+                "ans": true,
+                "feedback": "True. FITT represents Frequency, Intensity, Time, and Type of activity."
+            },
+            {
+                "id": 4,
+                "q": "The principle of reversibility states that exercise adaptations are permanent and never lost when training stops.",
+                "ans": false,
+                "feedback": "False. The reversibility principle states that fitness gains diminish when training stimuli are stopped or reduced."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Group fitness classes last **45 to 60 minutes**, featuring at least **20 minutes** of cardio work.",
+                "targets": [
+                    "45 to 60 minutes",
+                    "20 minutes"
+                ],
+                "optionsBank": [
+                    "45 to 60 minutes",
+                    "20 minutes",
+                    "5 to 10 seconds",
+                    "3 hours",
+                    "100 reps"
+                ],
+                "hint": "The total class length range and minimum cardio phase duration."
+            },
+            {
+                "id": 2,
+                "statement": "Program design uses FITT variables alongside training principles: **overload, progression**, reversibility, and **specificity**.",
+                "targets": [
+                    "overload, progression",
+                    "specificity"
+                ],
+                "optionsBank": [
+                    "overload, progression",
+                    "specificity",
+                    "atrophy, dystrophy",
+                    "static hold",
+                    "1RM max"
+                ],
+                "hint": "The load-increasing principles and the task-matching principle."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Outline the standard structure and duration of a group fitness class, listing its four basic elements and five class format examples.",
+                "model": "Group fitness classes usually last from 45 to 60 minutes. Standard structure includes 4 basic elements: (1) warm-up, (2) cardio work for at least 20 minutes, (3) muscular endurance work, and (4) cool-down stretching. Five format examples from Section 15.8 are step aerobics, aquacise, spinning, boxercise/tae bo, and Pilates/yoga.",
+                "criteria": [
+                    "State class duration (45 to 60 minutes).",
+                    "List 4 basic elements (warm-up, cardio >=20 min, muscular endurance, cool-down stretching).",
+                    "List 5 class format examples (e.g., step, aquacise, spinning, boxercise, Pilates, yoga)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Summarize how health-related fitness components, motor abilities, FITT variables, and core training principles combine to form a comprehensive personalized fitness plan.",
+                "model": "A comprehensive personalized fitness plan integrates 5 health-related components (muscular strength, muscular endurance, cardiorespiratory fitness, flexibility, body composition) and 6 motor abilities (power, agility, coordination, reaction time, balance, speed). Program design manipulates FITT variables (Frequency, Intensity, Time, Type) while applying 4 core principles: overload (stressing systems beyond baseline), progression (gradual load increases), specificity (matching demands), and reversibility (maintaining consistency to prevent detraining).",
+                "criteria": [
+                    "List health-related components (strength, endurance, cardiorespiratory, flexibility, body comp).",
+                    "List motor abilities (power, agility, coordination, reaction time, balance, speed).",
+                    "Define FITT (Frequency, Intensity, Time, Type) and 4 principles (overload, progression, specificity, reversibility)."
+                ]
+            }
+        ]
+    }
+}

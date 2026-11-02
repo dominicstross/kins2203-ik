@@ -1,0 +1,997 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What is the primary requirement of the overload principle for physiological improvement to occur?",
+                "opts": [
+                    "Training demands must be higher than normal performance requirements to stress the target body system",
+                    "Exercise duration must be reduced to less than 5 minutes per workout session",
+                    "Training must be kept completely static and unchanged across long periods",
+                    "Movement speed must be reduced to zero during all exercise sets"
+                ],
+                "correct": 0,
+                "rationale": "The overload principle dictates that for improvement to occur, training demands must be higher than normal performance requirements in order to stress the capacity of the targeted muscle or body system."
+            },
+            {
+                "id": 2,
+                "q": "Which design elements of an exercise program can be adjusted to apply the overload principle?",
+                "opts": [
+                    "Frequency, intensity, or time (duration) of exercise",
+                    "Social activity settings, room temperature, and music selection",
+                    "Financial cost of equipment, location, and apparel selection",
+                    "Involuntary reflex speed, biological age, and height"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that the overload principle can be applied by increasing the frequency, intensity, or time of the exercise program."
+            },
+            {
+                "id": 3,
+                "q": "What happens if an individual exercises at a stimulus level equal to or below normal habitual requirements?",
+                "opts": [
+                    "The target physiological system maintains its current capacity without improving",
+                    "Muscular strength increases rapidly by 50% within two weeks",
+                    "Total blood plasma volume doubles immediately",
+                    "Neuromuscular motor units undergo rapid pathological degeneration"
+                ],
+                "correct": 0,
+                "rationale": "If training demands do not exceed normal requirements, no overload stimulus is provided, resulting in fitness maintenance or stasis rather than physiological improvement."
+            },
+            {
+                "id": 4,
+                "q": "How does increasing training intensity apply the overload principle in resistance training?",
+                "opts": [
+                    "By increasing the resistance or load to be overcome during workouts",
+                    "By reducing the total weight lifted to zero",
+                    "By increasing the rest interval between sets to 30 minutes",
+                    "By reducing weekly training frequency from 4 days to 1 day"
+                ],
+                "correct": 0,
+                "rationale": "Increasing intensity in resistance training involves lifting heavier resistance loads, placing greater mechanical and neural stress on the targeted neuromuscular system."
+            },
+            {
+                "id": 5,
+                "q": "How can training frequency be manipulated to provide an overload stimulus?",
+                "opts": [
+                    "By increasing the number of exercise sessions completed each week",
+                    "By reducing the number of weekly workouts from 3 to 1",
+                    "By extending the length of an individual rest interval during a set",
+                    "By changing the exercise location from indoor to outdoor"
+                ],
+                "correct": 0,
+                "rationale": "Training frequency represents how often an individual exercises per week; increasing session frequency adds cumulative stimulus to overload targeted body systems."
+            },
+            {
+                "id": 6,
+                "q": "How is training time manipulated to apply the overload principle in continuous aerobic exercise?",
+                "opts": [
+                    "By extending the duration or total volume/distance of exercise sessions",
+                    "By reducing workout duration from 30 minutes to 2 minutes",
+                    "By increasing the weight load lifted in a single max effort",
+                    "By eliminating all aerobic conditioning from the schedule"
+                ],
+                "correct": 0,
+                "rationale": "In continuous activities, increasing training time involves extending workout duration or accumulating greater total weekly volume/distance to overload cardiorespiratory capacity."
+            },
+            {
+                "id": 7,
+                "q": "Which statement accurately summarizes the core biological mechanism of the overload principle?",
+                "opts": [
+                    "Subjecting targeted tissues to unaccustomed physiological stress forces adaptive biological remodeling",
+                    "Exercising at minimal effort produces the greatest physiological adaptations",
+                    "Overload occurs only when training causes acute physical injury",
+                    "The human body adapts instantly without requiring repeated training stimuli"
+                ],
+                "correct": 0,
+                "rationale": "The overload principle relies on biological adaptation: exposing tissues to unaccustomed demands disrupts homeostasis, driving physiological adaptations that raise functional capacity."
+            },
+            {
+                "id": 8,
+                "q": "Why is sub-threshold training ineffective for elevating athletic performance capacity?",
+                "opts": [
+                    "Because demands that do not exceed normal levels fail to stimulate neuromuscular or metabolic adaptations",
+                    "Because low-intensity exercise causes rapid destruction of muscle tissue",
+                    "Because sub-threshold training completely prevents cellular recovery",
+                    "Because heart rate cannot be measured during low-intensity workouts"
+                ],
+                "correct": 0,
+                "rationale": "Sub-threshold training fails to provide an overload stimulus; without sufficient physiological stress, the body has no stimulus to adapt and improve beyond current levels."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which variables can be manipulated to apply the overload principle according to Section 15.2? (Select all that apply)",
+                "opts": [
+                    "Training frequency (increasing exercise sessions per week)",
+                    "Training intensity (increasing resistance, speed, or effort)",
+                    "Training time (extending workout duration or volume)",
+                    "Equipment color and brand selection"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Section 15.2 explicitly notes that the overload principle can be applied by increasing the frequency, intensity, or time of the exercise program."
+            },
+            {
+                "id": 2,
+                "q": "Which physiological outcomes occur when the overload principle is correctly applied? (Select all that apply)",
+                "opts": [
+                    "Targeted muscle or body systems are stressed beyond normal requirements.",
+                    "The body initiates adaptive biological remodeling to handle increased demands.",
+                    "Functional performance capacity improves over time.",
+                    "The body permanently loses all cardiovascular endurance."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Correct overload stresses targeted systems, drives adaptive remodeling, and improves functional capacity. It enhances, rather than loses, endurance."
+            },
+            {
+                "id": 3,
+                "q": "Which examples demonstrate appropriate application of the overload principle? (Select all that apply)",
+                "opts": [
+                    "Increasing resistance on bench press from \\(50\\text{ kg}\\) to \\(55\\text{ kg}\\)",
+                    "Increasing running duration from \\(20\\text{ minutes}\\) to \\(30\\text{ minutes}\\)",
+                    "Increasing workout frequency from \\(3\\text{ days/week}\\) to \\(4\\text{ days/week}\\)",
+                    "Reducing all workout weights to \\(0\\text{ kg}\\) permanently"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Adding resistance (intensity), extending duration (time), and increasing weekly workouts (frequency) are classic overload applications."
+            },
+            {
+                "id": 4,
+                "q": "Which statements regarding the overload principle are supported by the textbook? (Select all that apply)",
+                "opts": [
+                    "Demands must be higher than normal performance requirements.",
+                    "Targeted muscle or body systems must be stressed.",
+                    "Overload can be achieved through FITT variable manipulation.",
+                    "Normal, habitual workloads are sufficient for continuous improvement."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Overload requires demands higher than normal, targets body systems, and uses FITT variables. Habitual loads only maintain current levels."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "For fitness improvement to occur, training demands must be higher than normal performance requirements.",
+                "ans": true,
+                "feedback": "True. The overload principle requires stress beyond normal levels to induce adaptive improvements."
+            },
+            {
+                "id": 2,
+                "q": "The overload principle can only be applied by increasing exercise intensity, never by changing frequency or time.",
+                "ans": false,
+                "feedback": "False. The textbook explicitly states overload can be applied by increasing frequency, intensity, or time."
+            },
+            {
+                "id": 3,
+                "q": "Exercising at normal, comfortable workload levels provides an adequate overload stimulus for continuous gains.",
+                "ans": false,
+                "feedback": "False. Normal workloads only maintain current capacity; an unaccustomed overload stimulus is required for improvement."
+            },
+            {
+                "id": 4,
+                "q": "Manipulating training frequency by adding a weekly workout session is a valid method of applying overload.",
+                "ans": true,
+                "feedback": "True. Increasing training frequency increases total workload stimulus, providing physiological overload."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "The **overload principle** states that training demands must be higher than normal to stress the targeted **body system**.",
+                "targets": [
+                    "overload principle",
+                    "body system"
+                ],
+                "optionsBank": [
+                    "overload principle",
+                    "body system",
+                    "reversibility principle",
+                    "specificity principle",
+                    "detraining index"
+                ],
+                "hint": "The foundational principle requiring elevated demands and the physiological target."
+            },
+            {
+                "id": 2,
+                "statement": "Overload is achieved by increasing exercise **frequency**, intensity, or training **time**.",
+                "targets": [
+                    "frequency",
+                    "time"
+                ],
+                "optionsBank": [
+                    "frequency",
+                    "time",
+                    "reversibility",
+                    "isometric force",
+                    "somatotype"
+                ],
+                "hint": "Two FITT variables used alongside intensity to elevate training stress."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define the overload principle and explain how an exercise specialist can apply it using three distinct FITT variables.",
+                "model": "The overload principle dictates that for physical improvement to occur, training demands must be higher than normal performance requirements to stress the capacity of targeted muscles or body systems. An exercise specialist can apply overload by: (1) Increasing Frequency (e.g., advancing from 3 to 4 workouts per week), (2) Increasing Intensity (e.g., increasing resistance load or running speed), or (3) Increasing Time (e.g., extending workout duration from 30 to 45 minutes).",
+                "criteria": [
+                    "Define overload: training demands higher than normal requirements to stress targeted systems.",
+                    "Explain application via Frequency (more sessions/week).",
+                    "Explain application via Intensity (heavier load/speed) or Time (longer duration)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain why exercising at normal, habitual performance levels fails to produce ongoing fitness improvements.",
+                "model": "Exercising at normal, habitual performance levels fails to produce improvements because the body has already adapted to that specific workload. Without a training stimulus that exceeds habitual demands, physiological systems experience no disruption of homeostasis, leaving no biological prompt for cellular remodeling, hypertrophic growth, or cardiorespiratory capacity enhancement.",
+                "criteria": [
+                    "State that the body has already adapted to normal habitual loads.",
+                    "Explain that sub-threshold workloads fail to disrupt homeostasis.",
+                    "Conclude that an elevated overload stimulus is necessary to prompt biological adaptation."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What core physiological reality dictates the need for the progression principle?",
+                "opts": [
+                    "A training load that previously created stress becomes 'normal' as the body adapts over time",
+                    "Muscles permanently lose all contractile proteins after three workouts",
+                    "Training loads automatically double in weight every 24 hours without human effort",
+                    "Human bone structure breaks down if workout loads remain identical"
+                ],
+                "correct": 0,
+                "rationale": "The progression principle exists because after a period of training, the load that previously created stress becomes a normal stimulus due to adaptation, requiring periodic load increases."
+            },
+            {
+                "id": 2,
+                "q": "How does the progression principle define the required modification to training stimuli over time?",
+                "opts": [
+                    "The training stimulus must be periodically increased to ensure continuous improvement",
+                    "The training load must be kept completely unchanged for ten consecutive years",
+                    "The training intensity must be reduced to zero after two weeks of practice",
+                    "The training duration must be cut in half every workout cycle"
+                ],
+                "correct": 0,
+                "rationale": "The progression principle dictates that to ensure muscles or systems continue to improve, the training stimulus must be periodically increased as adaptation occurs."
+            },
+            {
+                "id": 3,
+                "q": "What loading strategy is explicitly recommended for beginners and recreational trainees?",
+                "opts": [
+                    "Gradually increasing the training load in small steps from one training cycle to another",
+                    "Doubling resistance load every single workout set until failure",
+                    "Lifting maximal 1RM loads without warm-up during initial sessions",
+                    "Maintaining identical light weights for five consecutive years"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly recommends gradually increasing the training load in small steps from one training cycle to another for beginners and recreational trainees."
+            },
+            {
+                "id": 4,
+                "q": "What outcome occurs if an athlete ignores the progression principle and maintains a static workout load indefinitely?",
+                "opts": [
+                    "Fitness adaptations plateau and performance improvements stagnate",
+                    "Muscular strength continues to increase exponentially forever",
+                    "The athlete develops elite Olympic cardiorespiratory endurance automatically",
+                    "Heart rate decreases to zero during high-intensity sprinting"
+                ],
+                "correct": 0,
+                "rationale": "Maintaining a static load causes adaptation to plateau because the stimulus is no longer an overload, resulting in performance stasis."
+            },
+            {
+                "id": 5,
+                "q": "Which of the following is a valid practical method for applying progressive overload in resistance training?",
+                "opts": [
+                    "Adding small weight increments, increasing repetitions, or increasing sets over training cycles",
+                    "Reducing the number of completed sets from 3 sets to 0 sets",
+                    "Extending rest periods between sets from 1 minute to 45 minutes",
+                    "Replacing all weights with unweighted visual imagery"
+                ],
+                "correct": 0,
+                "rationale": "Progressive overload in resistance training can be applied by making small, structured additions to resistance load, repetition count, or total set volume."
+            },
+            {
+                "id": 6,
+                "q": "Why should load progression occur in 'small steps' rather than abrupt, massive jumps?",
+                "opts": [
+                    "To allow tissue adaptation while minimizing risks of overtraining, severe soreness, or injury",
+                    "Because biological tissues adapt slower if loads are increased gradually",
+                    "Because small steps prevent athletes from enjoying workout sessions",
+                    "Because large jumps cause immediate reversal of muscle hypertrophy"
+                ],
+                "correct": 0,
+                "rationale": "Gradual progression in small steps ensures progressive overload while giving connective tissues and neuromuscular systems adequate time to adapt safely without injury."
+            },
+            {
+                "id": 7,
+                "q": "In the context of the progression principle, what does a 'training cycle' represent?",
+                "opts": [
+                    "A structured period of workout sessions over which adaptation occurs before stepping up the load",
+                    "A single repetition of a bicep curl exercise",
+                    "The rest interval spent sitting between exercise sets",
+                    "A stationary exercise bicycle used for aerobic warm-ups"
+                ],
+                "correct": 0,
+                "rationale": "A training cycle is a structured period of training where an athlete adapts to a specific stimulus before progressing to a higher load in the next cycle."
+            },
+            {
+                "id": 8,
+                "q": "Which statement best contrasts the overload principle with the progression principle?",
+                "opts": [
+                    "Overload provides the initial above-normal stimulus, whereas progression dictates periodically increasing that stimulus as adaptation occurs",
+                    "Overload applies only to running, whereas progression applies only to weightlifting",
+                    "Overload causes detraining, whereas progression causes immediate muscle atrophy",
+                    "Overload and progression are completely identical terms with zero distinction"
+                ],
+                "correct": 0,
+                "rationale": "Overload defines the need for an above-normal stimulus; progression defines the ongoing systematic increase of that stimulus over time as the body adapts."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which statements correctly describe the progression principle according to Section 15.2? (Select all that apply)",
+                "opts": [
+                    "A load that previously created stress becomes 'normal' after a period of adaptation.",
+                    "To ensure continued improvement, the training stimulus must be periodically increased.",
+                    "Gradually increasing training load in small steps is recommended for beginners.",
+                    "Training load should remain completely static once an initial goal is reached."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Progression accounts for adaptation, requires periodic load increases, and recommends small steps for beginners. Static loads cause plateaus."
+            },
+            {
+                "id": 2,
+                "q": "Which methods can be used to progressively increase training load over time? (Select all that apply)",
+                "opts": [
+                    "Increasing the resistance or weight lifted in small steps",
+                    "Increasing the number of repetitions or sets completed",
+                    "Decreasing rest intervals between high-intensity exertion sets",
+                    "Decreasing workout frequency to once a month"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Increasing weight, reps, or sets, and decreasing rest intervals are valid methods for progressive overload. Decreasing frequency reduces stimulus."
+            },
+            {
+                "id": 3,
+                "q": "Why is progressive loading necessary for long-term athletic development? (Select all that apply)",
+                "opts": [
+                    "Biological systems adapt to static workloads, causing performance plateaus.",
+                    "Systematic progression re-establishes an effective overload stimulus.",
+                    "It drives ongoing neuromuscular and metabolic adaptations over time.",
+                    "It guarantees that an athlete will never experience muscle fatigue."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Progressive loading prevents plateaus, re-establishes overload, and drives continuous neural/metabolic adaptations."
+            },
+            {
+                "id": 4,
+                "q": "Which guidelines apply to implementing progression for recreational trainees? (Select all that apply)",
+                "opts": [
+                    "Progress loads gradually in small, manageable steps.",
+                    "Move systematically from one training cycle to another.",
+                    "Base load increases on the individual's adapting fitness level.",
+                    "Apply sudden, extreme loading spikes during early training weeks."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Progression for recreational trainees should be gradual, systematic across cycles, and tailored to fitness levels to avoid overtraining."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "After a period of training, a load that previously created physiological stress becomes a 'normal' load.",
+                "ans": true,
+                "feedback": "True. Neuromuscular and cardiorespiratory adaptations cause previously stressful loads to become habitual normal stimuli."
+            },
+            {
+                "id": 2,
+                "q": "According to the progression principle, training load should be increased rapidly in massive jumps for beginners.",
+                "ans": false,
+                "feedback": "False. The text explicitly recommends gradually increasing the load in small steps from one cycle to another."
+            },
+            {
+                "id": 3,
+                "q": "To ensure continuous improvement, the training stimulus must be periodically increased as adaptation occurs.",
+                "ans": true,
+                "feedback": "True. Periodic load increases re-establish overload, preventing performance plateaus."
+            },
+            {
+                "id": 4,
+                "q": "Maintaining an identical resistance load for a full year will cause continuous, steady strength gains.",
+                "ans": false,
+                "feedback": "False. Static loads lead to adaptation plateaus, halting further strength improvements."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "As the body adapts to a workload, the load becomes normal and the stimulus must be **periodically increased** according to the **progression principle**.",
+                "targets": [
+                    "periodically increased",
+                    "progression principle"
+                ],
+                "optionsBank": [
+                    "periodically increased",
+                    "progression principle",
+                    "permanently reduced",
+                    "reversibility principle",
+                    "somatotype"
+                ],
+                "hint": "The required modification to training stimulus and the governing training principle."
+            },
+            {
+                "id": 2,
+                "statement": "For beginners, training loads should be increased gradually in **small steps** from one **training cycle** to another.",
+                "targets": [
+                    "small steps",
+                    "training cycle"
+                ],
+                "optionsBank": [
+                    "small steps",
+                    "training cycle",
+                    "massive jumps",
+                    "heart rate zone",
+                    "anaerobic threshold"
+                ],
+                "hint": "The recommended rate of load addition and the structured practice timeframe."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain the progression principle and describe why a training load that initially caused stress eventually fails to induce further fitness improvements.",
+                "model": "The progression principle dictates that as the body adapts to a training load, the stimulus must be periodically increased to ensure continued physical improvement. A load that initially caused physiological stress eventually fails to induce further gains because neuromuscular and metabolic systems adapt to it over time. Once adaptation occurs, that specific load becomes a 'normal' habitual stimulus, requiring a higher load to re-establish an effective overload.",
+                "criteria": [
+                    "Define the progression principle (periodic load increases as adaptation occurs).",
+                    "Explain that biological systems adapt to initial training stress.",
+                    "State that adapted loads become 'normal' or habitual, necessitating higher stimuli for further gains."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Describe practical guidelines for applying the progression principle safely in a resistance training program for beginners.",
+                "model": "For beginners, progressive overload should be applied gradually in small, manageable steps from one training cycle to the next. Rather than making abrupt, massive jumps in resistance (which increases injury risk), instructors should increase load incrementally (e.g., adding 2.5 kg), increase repetitions per set, or add a set once the trainee can execute the current load with proper technique and ease.",
+                "criteria": [
+                    "Recommend gradual progression in small, manageable steps across training cycles.",
+                    "Warn against abrupt, large loading jumps to prevent overtraining or injury.",
+                    "Provide specific examples (e.g., small weight additions, extra reps, or extra sets)."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How does the reversibility principle define the outcome of extended training interruptions?",
+                "opts": [
+                    "Extended training interruptions result in stagnation or a temporary decline in performance",
+                    "Extended training interruptions permanently double maximal anaerobic power",
+                    "Training breaks cause immediate, irreversible ossification of skeletal muscle",
+                    "Training interruptions increase maximal cardiac output by 40%"
+                ],
+                "correct": 0,
+                "rationale": "The reversibility principle states that extended interruptions in physical training result in stagnation or a temporary decline in physical performance."
+            },
+            {
+                "id": 2,
+                "q": "Which popular adage summarizes the reversibility principle in Section 15.2?",
+                "opts": [
+                    "\"Use it or lose it!\"",
+                    "\"No pain, no gain!\"",
+                    "\"What you see is what you get!\"",
+                    "\"Slow and steady wins the race!\""
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly highlights the adage \"Use it or lose it!\" to summarize the reversibility principle."
+            },
+            {
+                "id": 3,
+                "q": "Which fitness components tend to decline FASTER during periods of extended training interruption?",
+                "opts": [
+                    "Cardiorespiratory endurance and muscular endurance",
+                    "Maximal muscular strength and explosive power",
+                    "Bone density and joint cartilage thickness",
+                    "Anatomical limb length and height"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly notes that cardiorespiratory and muscular endurance performance declines faster than maximal strength and power performance."
+            },
+            {
+                "id": 4,
+                "q": "What happens to detraining effects when regular physical training is resumed?",
+                "opts": [
+                    "Detraining effects can be reversed when training resumes",
+                    "Detraining effects become permanent and can never be recovered",
+                    "Resuming training causes immediate, complete cardiac failure",
+                    "Performance declines twice as fast upon resuming exercise"
+                ],
+                "correct": 0,
+                "rationale": "According to Section 15.2, detraining effects are temporary and can be reversed once regular physical training resumes."
+            },
+            {
+                "id": 5,
+                "q": "Which factors dictate how much physical performance is lost during a training layoff?",
+                "opts": [
+                    "The length of the detraining period and the training status of the individual",
+                    "The athlete's blood type and chronological age exclusively",
+                    "The brand of athletic footwear worn prior to the break",
+                    "The time of day at which workouts were previously scheduled"
+                ],
+                "correct": 0,
+                "rationale": "The text states that the length of the detraining period and the individual's baseline training status dictate performance loss during time off."
+            },
+            {
+                "id": 6,
+                "q": "Why do motor ability performance factors like coordination and muscle integration decline during training breaks?",
+                "opts": [
+                    "Because motor ability factors are interrelated and depend on active neural motor program maintenance",
+                    "Because nerve cells die off permanently within 48 hours of rest",
+                    "Because muscle fibers convert into fat tissue during vacations",
+                    "Because bone density drops by 80% during short rest periods"
+                ],
+                "correct": 0,
+                "rationale": "Motor abilities like coordination and muscle integration depend on active neural motor program maintenance; training interruptions disrupt this interrelation, leading to skill decline."
+            },
+            {
+                "id": 7,
+                "q": "How do maximal strength and power decay rates compare to endurance decay rates during detraining?",
+                "opts": [
+                    "Maximal strength and power decline relatively slower than cardiorespiratory endurance",
+                    "Maximal strength declines ten times faster than cardiorespiratory endurance",
+                    "Maximal strength drops to zero within 24 hours of rest",
+                    "Strength and endurance decay at completely identical per-second rates"
+                ],
+                "correct": 0,
+                "rationale": "The textbook specifically highlights that cardiorespiratory/muscular endurance declines faster than maximal strength and power performance."
+            },
+            {
+                "id": 8,
+                "q": "What distinguishes necessary recovery rest intervals between workouts from extended rest intervals causing reversibility?",
+                "opts": [
+                    "Short rest between workouts enables physiological repair, whereas extended layoffs cause detraining regression",
+                    "Short rest causes severe detraining, whereas extended layoffs build maximal strength",
+                    "There is zero physiological difference between 24 hours rest and 6 months off",
+                    "Recovery rest intervals are prohibited in proper training design"
+                ],
+                "correct": 0,
+                "rationale": "The text clarifies that while rest periods between workouts are necessary for recovery, extended rest intervals (illness, injury, vacation) lead to detraining."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which statements accurately describe the reversibility principle? (Select all that apply)",
+                "opts": [
+                    "Extended training interruptions result in stagnation or performance decline.",
+                    "Detraining effects can be reversed when training resumes.",
+                    "Losses are influenced by layoff duration and individual training status.",
+                    "Cardiorespiratory endurance declines slower than maximal strength."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Reversibility causes decline, detraining is reversible upon resuming exercise, and losses depend on duration/status. Cardiorespiratory endurance declines faster, not slower."
+            },
+            {
+                "id": 2,
+                "q": "Which factors cause extended, unavoidable interruptions in training schedules? (Select all that apply)",
+                "opts": [
+                    "Illness",
+                    "Injury",
+                    "Extended vacations or breaks",
+                    "Normal 60-second rest phases during interval workouts"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Illness, injury, and extended vacations are cited as causes of training interruptions. Short interval rest is normal recovery, not detraining."
+            },
+            {
+                "id": 3,
+                "q": "Which performance factors decline during extended periods of detraining? (Select all that apply)",
+                "opts": [
+                    "Cardiorespiratory endurance",
+                    "Muscular endurance",
+                    "Motor abilities like coordination and muscle integration",
+                    "Maximal strength and power (though relatively slower)"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All listed components experience decline during detraining, with endurance and motor skills dropping fastest and strength declining relatively slower."
+            },
+            {
+                "id": 4,
+                "q": "Which physiological insights regarding detraining are supported by Section 15.2? (Select all that apply)",
+                "opts": [
+                    "The adage \"Use it or lose it!\" summarizes the principle.",
+                    "Endurance declines faster than maximal strength.",
+                    "Performance losses can be reversed when regular training resumes.",
+                    "Detraining effects are completely permanent and irreversible."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Summarized as 'Use it or lose it!', endurance drops faster than strength, and gains are reversible upon resuming training."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "According to the reversibility principle, extended training interruptions result in a decline in performance.",
+                "ans": true,
+                "feedback": "True. Inactivity leads to detraining losses, summarized as 'Use it or lose it!'"
+            },
+            {
+                "id": 2,
+                "q": "Cardiorespiratory endurance performance declines slower than maximal strength during detraining.",
+                "ans": false,
+                "feedback": "False. Cardiorespiratory and muscular endurance decline faster than maximal strength and power."
+            },
+            {
+                "id": 3,
+                "q": "Detraining effects caused by a layoff can be reversed when regular training resumes.",
+                "ans": true,
+                "feedback": "True. Resuming training stimulates adaptive pathways, reversing detraining losses."
+            },
+            {
+                "id": 4,
+                "q": "Motor skills like coordination remain completely unaffected by long breaks from physical activity.",
+                "ans": false,
+                "feedback": "False. Motor abilities decline with training interruptions because neural integration requires active maintenance."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "The **reversibility principle** states that extended training interruptions lead to detraining, summarized as **\"Use it or lose it!\"**.",
+                "targets": [
+                    "reversibility principle",
+                    "\"Use it or lose it!\""
+                ],
+                "optionsBank": [
+                    "reversibility principle",
+                    "\"Use it or lose it!\"",
+                    "overload principle",
+                    "\"What you do is what you get!\"",
+                    "FITT principle"
+                ],
+                "hint": "The principle governing training breaks and its famous summary phrase."
+            },
+            {
+                "id": 2,
+                "statement": "During detraining, **cardiorespiratory endurance** declines faster than maximal **strength** and power.",
+                "targets": [
+                    "cardiorespiratory endurance",
+                    "strength"
+                ],
+                "optionsBank": [
+                    "cardiorespiratory endurance",
+                    "strength",
+                    "bone length",
+                    "somatotype",
+                    "flexibility"
+                ],
+                "hint": "The fitness component that declines most rapidly vs. the component that declines relatively slower."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define the reversibility principle and describe how the rates of performance loss differ between endurance versus maximal strength.",
+                "model": "The reversibility principle states that extended interruptions in training (due to illness, injury, or vacation) lead to stagnation or a temporary decline in physical performance (\"Use it or lose it!\"). Cardiorespiratory and muscular endurance decline rapidly during detraining due to swift reductions in cardiovascular and metabolic capacities. In contrast, maximal strength and explosive power decay at a relatively slower rate.",
+                "criteria": [
+                    "Define reversibility: training breaks lead to stagnation and temporary performance decline ('Use it or lose it!').",
+                    "Explain that cardiorespiratory/muscular endurance declines rapidly.",
+                    "Explain that maximal strength and power decline relatively slower."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain what factors dictate the amount of performance lost during a training layoff and whether detraining effects are permanent.",
+                "model": "The amount of performance lost during a training layoff is dictated by two main factors: the length of the detraining period and the baseline training status of the individual. Detraining effects are not permanent; performance losses can be reversed when regular, structured physical training resumes.",
+                "criteria": [
+                    "Identify layoff duration as a factor.",
+                    "Identify baseline training status as a factor.",
+                    "State clearly that detraining effects are reversible upon resuming regular exercise."
+                ]
+            }
+        ]
+    },
+    "p4": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What fundamental rule defines the specificity principle in Section 15.2?",
+                "opts": [
+                    "Specific activities and exercises cause specific physiological responses or changes",
+                    "All physical exercises produce 100% identical cardiovascular adaptations",
+                    "Training light upper body weights increases leg muscle endurance by 500%",
+                    "Running slow marathon distances optimizes 100m sprint acceleration"
+                ],
+                "correct": 0,
+                "rationale": "The specificity principle dictates that specific activities and exercises cause specific physiological responses or changes ('What you do is what you get')."
+            },
+            {
+                "id": 2,
+                "q": "Which summary phrase is used in the textbook to express the specificity principle?",
+                "opts": [
+                    "\"What you do is what you get.\"",
+                    "\"Use it or lose it!\"",
+                    "\"No pain, no gain!\"",
+                    "\"More is always better!\""
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly summarizes the specificity principle with the phrase \"What you do is what you get.\""
+            },
+            {
+                "id": 3,
+                "q": "Why does training arm strength by pushing against an immovable wall fail to improve push-up performance?",
+                "opts": [
+                    "Because wall pushes use static isometric contractions, whereas push-ups require dynamic contractions",
+                    "Because wall pushes increase leg muscle endurance instead of arm strength",
+                    "Because pushing walls destroys fast-twitch motor units permanently",
+                    "Because push-ups do not require any muscle contraction"
+                ],
+                "correct": 0,
+                "rationale": "Pushing against a wall uses static (isometric) contractions at a fixed angle, whereas push-ups require dynamic muscle contractions throughout a range of motion."
+            },
+            {
+                "id": 4,
+                "q": "Why is running long slow distances ineffective for sprinters seeking to improve 100m sprint velocity?",
+                "opts": [
+                    "Because long-distance running conditions aerobic oxidative pathways rather than explosive anaerobic sprinting systems",
+                    "Because long-distance running causes immediate arm muscle atrophy",
+                    "Because sprinters are biologically incapable of running more than 50 meters",
+                    "Because long-distance running increases maximal jumping height exclusively"
+                ],
+                "correct": 0,
+                "rationale": "Sprint velocity depends on anaerobic power and fast-twitch motor units; running long slow distances trains aerobic pathways, violating energy system specificity."
+            },
+            {
+                "id": 5,
+                "q": "Why is practicing bench presses ineffective for improving leg muscle endurance?",
+                "opts": [
+                    "Because bench press conditions the upper body musculature (pectoralis, triceps), providing zero stimulus to leg muscles",
+                    "Because leg muscles do not contain any muscle fibers",
+                    "Because bench press is an aerobic cardiorespiratory exercise",
+                    "Because leg endurance can only be trained using isometric wall pushes"
+                ],
+                "correct": 0,
+                "rationale": "Specificity applies anatomically: bench press targets upper body pressing muscles and cannot induce musculoskeletal adaptations in lower body leg muscles."
+            },
+            {
+                "id": 6,
+                "q": "If a worker must lift 30-kg boxes on the job, why is training with 10-kg resistance inefficient for improving work efficiency?",
+                "opts": [
+                    "Because 10-kg resistance fails to replicate the specific force and load demands of the 30-kg occupational task",
+                    "Because 10-kg weights are too heavy for human muscles to lift",
+                    "Because lifting 30-kg boxes requires zero muscle force",
+                    "Because load specificity only applies to elite Olympic sprinters"
+                ],
+                "correct": 0,
+                "rationale": "Specificity includes load demands: training with sub-task loads (10 kg) does not adequately prepare the neuromuscular system for the heavier 30-kg occupational requirement."
+            },
+            {
+                "id": 7,
+                "q": "Why is practicing basketball shooting at an 8-foot rim ineffective for preparing for regulation game play?",
+                "opts": [
+                    "Because regulation games use 10-foot rims, requiring different trajectory, force, and spatial coordination",
+                    "Because 8-foot rims make basketballs heavier",
+                    "Because shooting at an 8-foot rim trains leg endurance instead of shooting mechanics",
+                    "Because regulation basketball games prohibit shooting entirely"
+                ],
+                "correct": 0,
+                "rationale": "Task specificity requires matching game conditions; shooting at an 8-foot rim alters spatial mechanics and visual cues needed for a 10-foot regulation rim."
+            },
+            {
+                "id": 8,
+                "q": "According to the specificity principle, how should a coach select exercise modalities for an athlete?",
+                "opts": [
+                    "Select modalities that match as closely as possible in action, energy system, and muscle groups to the end performance goal",
+                    "Select completely random exercises unrelated to the target sport",
+                    "Select only long-distance running regardless of the sport discipline",
+                    "Select static isometric wall pushes for all athletic sports"
+                ],
+                "correct": 0,
+                "rationale": "To improve a specific fitness or skill component, the specificity principle dictates choosing training modalities as close in action to the target task as possible."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which statements accurately reflect the specificity principle? (Select all that apply)",
+                "opts": [
+                    "Specific activities cause specific physiological responses and adaptations.",
+                    "Training modalities must closely match the end performance goal.",
+                    "The principle is summarized as \"What you do is what you get.\"",
+                    "Any physical exercise improves all sports skills equally."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Specificity means specific activities cause specific changes, training must match target goals, and 'What you do is what you get.' General exercise does not adapt all skills equally."
+            },
+            {
+                "id": 2,
+                "q": "Which textbook examples illustrate violations of the specificity principle? (Select all that apply)",
+                "opts": [
+                    "Sprinters training by running long slow distances",
+                    "Performing bench press to improve leg muscle endurance",
+                    "Basketball players practicing shooting at an 8-foot basket for a 10-foot game",
+                    "Training for 30-kg box lifting using 10-kg light resistance"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four options are explicit textbook examples highlighting non-specific training that fails to transfer effectively to target tasks."
+            },
+            {
+                "id": 3,
+                "q": "Along which dimensions must training align to satisfy the specificity principle? (Select all that apply)",
+                "opts": [
+                    "Muscle group and anatomical region",
+                    "Muscle contraction mode (static vs. dynamic)",
+                    "Metabolic energy systems (aerobic vs. anaerobic)",
+                    "Target environment and task parameters (e.g., rim height, goalies)"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Specificity requires matching muscle groups, contraction modes, energy systems, and target environmental/task parameters."
+            },
+            {
+                "id": 4,
+                "q": "Why is static isometric wall pushing ineffective for improving dynamic push-up performance? (Select all that apply)",
+                "opts": [
+                    "Wall pushing involves static contractions at a fixed joint angle.",
+                    "Push-ups require dynamic contractions throughout a range of motion.",
+                    "The physiological adaptation is specific to the contraction type used.",
+                    "Wall pushing trains leg muscles while push-ups train cardiorespiratory capacity."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Wall pushing is static (isometric) while push-ups are dynamic, and adaptations are specific to contraction mode. Both target upper body pressing muscles."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "The specificity principle dictates that specific activities cause specific physiological adaptations.",
+                "ans": true,
+                "feedback": "True. Adaptations directly mirror the specific mechanical and metabolic demands of training ('What you do is what you get')."
+            },
+            {
+                "id": 2,
+                "q": "Performing bench presses is an effective method for improving leg muscle endurance.",
+                "ans": false,
+                "feedback": "False. Bench press conditions upper body muscles (pectoralis, triceps), providing zero adaptation for leg muscles."
+            },
+            {
+                "id": 3,
+                "q": "Sprinters will derive significant performance benefits from training by running long distances.",
+                "ans": false,
+                "feedback": "False. Long-distance running trains aerobic oxidative pathways, violating energy system specificity for anaerobic sprinters."
+            },
+            {
+                "id": 4,
+                "q": "Basketball players should practice shooting at a regulation 10-foot basket to ensure training specificity.",
+                "ans": true,
+                "feedback": "True. Task parameters (rim height) must match game conditions for optimal skill transfer."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "The **specificity principle** states that training must closely match the target task, summarized as **\"What you do is what you get.\"**.",
+                "targets": [
+                    "specificity principle",
+                    "\"What you do is what you get.\""
+                ],
+                "optionsBank": [
+                    "specificity principle",
+                    "\"What you do is what you get.\"",
+                    "overload principle",
+                    "\"Use it or lose it!\"",
+                    "FITT principle"
+                ],
+                "hint": "The principle requiring matched modalities and its textbook summary phrase."
+            },
+            {
+                "id": 2,
+                "statement": "Wall pushes involve static **isometric** contractions, whereas push-ups require **dynamic** contractions.",
+                "targets": [
+                    "isometric",
+                    "dynamic"
+                ],
+                "optionsBank": [
+                    "isometric",
+                    "dynamic",
+                    "aerobic",
+                    "glycolytic",
+                    "detrained"
+                ],
+                "hint": "The fixed joint contraction mode vs. the moving joint contraction mode."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define the specificity principle, state its textbook summary phrase, and explain how it applies to muscle group selection.",
+                "model": "The specificity principle dictates that specific activities and exercises elicit specific physiological responses and adaptations. It is summarized by the phrase, \"What you do is what you get.\" Regarding muscle groups, training is anatomically specific: exercising the upper body (e.g., bench press) adapts pectoralis and triceps muscles, but provides zero physiological or endurance adaptation for unworked lower body leg muscles.",
+                "criteria": [
+                    "Define specificity: specific activities cause specific physiological changes.",
+                    "State the summary phrase: 'What you do is what you get.'",
+                    "Explain muscle group specificity (e.g., bench press conditions chest/arms, not leg endurance)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Using two examples from the textbook, explain how non-specific training fails to improve target performance goals.",
+                "model": "Example 1: Sprinters who train by running long slow distances fail to improve sprint velocity because long distance conditions aerobic oxidative pathways rather than explosive anaerobic phosphagen systems. Example 2: Static wall pushes fail to improve push-up performance because wall pushes utilize isometric contractions at a fixed angle, whereas push-ups require dynamic muscle contractions through a range of motion.",
+                "criteria": [
+                    "Provide Example 1 (e.g., sprinters running long distance -> aerobic vs. anaerobic energy system mismatch).",
+                    "Provide Example 2 (e.g., wall pushes vs. push-ups -> isometric vs. dynamic contraction mismatch).",
+                    "Explain why the training fails to transfer due to lack of specificity."
+                ]
+            }
+        ]
+    }
+}

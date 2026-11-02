@@ -1,0 +1,1004 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is physical fitness defined in the introductory text of Chapter 15?",
+                "opts": [
+                    "An individual's functional readiness and level of effectiveness required to adapt to daily demands and stresses",
+                    "The absolute maximum amount of weight a person can lift in a single effort",
+                    "A static genetic trait that remains constant regardless of physical activity",
+                    "The ability to run a marathon in under three hours"
+                ],
+                "correct": 0,
+                "rationale": "The textbook defines fitness as functional readiness and level of effectiveness required for everything you do, involving the ability to adapt to the demands and stresses of daily life."
+            },
+            {
+                "id": 2,
+                "q": "Which dimensions of health and well-being are explicitly encompassed by fitness according to the text?",
+                "opts": [
+                    "Physical, emotional, social, and intellectual dimensions",
+                    "Occupational, financial, and metabolic dimensions only",
+                    "Cardiovascular and respiratory dimensions exclusively",
+                    "Competitive, muscular, and skeletal dimensions only"
+                ],
+                "correct": 0,
+                "rationale": "The text highlights that fitness is used in many ways and has many dimensions, including physical, emotional, social, and intellectual dimensions."
+            },
+            {
+                "id": 3,
+                "q": "Which five health-related components of physical fitness are outlined in the text?",
+                "opts": [
+                    "Muscular strength, muscular endurance, cardiorespiratory endurance, flexibility, and body composition",
+                    "Agility, balance, coordination, power, and reaction time",
+                    "Speed, hypertrophy, anaerobic power, aerobic threshold, and vital capacity",
+                    "Metabolic rate, bone density, joint mobility, muscle tone, and neural drive"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly lists muscular strength, muscular endurance, cardiorespiratory endurance, flexibility, and body composition as core health-related fitness components."
+            },
+            {
+                "id": 4,
+                "q": "What relationship exists between general physical fitness and sport-specific fitness?",
+                "opts": [
+                    "High levels of general physical fitness are important prerequisites for developing sport-specific fitness",
+                    "Sport-specific fitness must be fully developed before general fitness can begin",
+                    "General fitness and sport-specific fitness are completely unrelated and independent",
+                    "General physical fitness replaces the need for sport-specific skill acquisition"
+                ],
+                "correct": 0,
+                "rationale": "The text emphasizes that high levels of general fitness are important prerequisites for the effective and optimal development of sport-specific fitness."
+            },
+            {
+                "id": 5,
+                "q": "What do the four letters in the FITT principle acronym stand for?",
+                "opts": [
+                    "Frequency, Intensity, training Time, and Type of activity",
+                    "Flexibility, Interval, Target heart rate, and Toughness",
+                    "Function, Isometric force, Tonnage, and Training threshold",
+                    "Fast-twitch, Intracellular ATP, Time-to-exhaustion, and Tension"
+                ],
+                "correct": 0,
+                "rationale": "The FITT principle is a simple method to recall four design elements: Frequency, Intensity, training Time, and Type of activity."
+            },
+            {
+                "id": 6,
+                "q": "Which health benefits are directly attributed to engaging in regular physical exercise in the introductory text?",
+                "opts": [
+                    "Weight control, stress management, immune system enhancement, and disease protection",
+                    "Reversal of chronological age and elimination of all genetic risks",
+                    "Immediate immunity from infectious bacteria without cellular adaptation",
+                    "Permanent elevation of basal metabolic rate without ongoing exercise"
+                ],
+                "correct": 0,
+                "rationale": "Engaging in physical exercise helps control weight, manage stress, boost the immune system, and protect against disease."
+            },
+            {
+                "id": 7,
+                "q": "Why is physical exercise described as one of the most 'controllable' factors affecting general health?",
+                "opts": [
+                    "Because individuals can personally decide their workout frequency, intensity, duration, and activity selection",
+                    "Because exercise automatically regulates external environmental pollution",
+                    "Because exercise eliminates the need for proper nutritional intake",
+                    "Because involuntary motor reflexes control all workout decisions"
+                ],
+                "correct": 0,
+                "rationale": "Exercise is a controllable lifestyle factor because individuals have direct personal choice over training variables like frequency, intensity, time, and type."
+            },
+            {
+                "id": 8,
+                "q": "How does adhering to established training principles like FITT impact an exercise program?",
+                "opts": [
+                    "It makes the program more likely to generate the greatest improvements in fitness level",
+                    "It guarantees that no muscle fatigue will ever occur during workouts",
+                    "It restricts exercise options strictly to running and cycling",
+                    "It eliminates the need for recovery and rest days"
+                ],
+                "correct": 0,
+                "rationale": "The textbook notes that a program adhering to well-established training principles is more likely to generate the greatest improvements in fitness."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which of the following are health-related components of physical fitness mentioned in Chapter 15? (Select all that apply)",
+                "opts": [
+                    "Muscular strength",
+                    "Muscular endurance",
+                    "Cardiorespiratory endurance",
+                    "Flexibility and body composition"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four options list the five core health-related components of physical fitness detailed in the textbook."
+            },
+            {
+                "id": 2,
+                "q": "Which dimensions of fitness are explicitly identified in the introductory text? (Select all that apply)",
+                "opts": [
+                    "Physical dimension",
+                    "Emotional dimension",
+                    "Social dimension",
+                    "Intellectual dimension"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "The text notes that fitness is multi-dimensional, encompassing physical, emotional, social, and intellectual dimensions."
+            },
+            {
+                "id": 3,
+                "q": "Which elements comprise the FITT principle framework? (Select all that apply)",
+                "opts": [
+                    "Frequency (how often you exercise)",
+                    "Intensity (how hard you work)",
+                    "Time (training duration)",
+                    "Type of activity (exercise selection)"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Frequency, Intensity, training Time, and Type of activity form the complete FITT design framework."
+            },
+            {
+                "id": 4,
+                "q": "Which physiological and health benefits result from regular exercise according to Section 15.1? (Select all that apply)",
+                "opts": [
+                    "Weight management and control",
+                    "Stress reduction and management",
+                    "Boosting the body's immune system",
+                    "Protection against chronic disease"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four options are explicitly cited in the text as major physiological and health benefits of regular exercise."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Physical fitness is a static concept restricted exclusively to competitive running and cycling.",
+                "ans": false,
+                "feedback": "False. Physical fitness is a dynamic way of life with many activity options beyond running and cycling."
+            },
+            {
+                "id": 2,
+                "q": "High levels of general physical fitness serve as an important prerequisite for developing sport-specific fitness.",
+                "ans": true,
+                "feedback": "True. The textbook explicitly states that general fitness is an essential foundation for sport-specific fitness."
+            },
+            {
+                "id": 3,
+                "q": "The FITT principle provides four key design elements: Frequency, Intensity, Time, and Type.",
+                "ans": true,
+                "feedback": "True. FITT stands for Frequency, Intensity, training Time, and Type of activity."
+            },
+            {
+                "id": 4,
+                "q": "Exercise is an involuntary genetic process that individuals cannot consciously control or modify.",
+                "ans": false,
+                "feedback": "False. Exercise is described as one of the most controllable factors affecting personal health."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Fitness is defined as your **functional readiness** and level of effectiveness required to adapt to daily **stresses**.",
+                "targets": [
+                    "functional readiness",
+                    "stresses"
+                ],
+                "optionsBank": [
+                    "functional readiness",
+                    "stresses",
+                    "anaerobic power",
+                    "glycolytic capacity",
+                    "basal metabolism"
+                ],
+                "hint": "Refers to physical preparedness and the daily environmental demands encountered."
+            },
+            {
+                "id": 2,
+                "statement": "The **FITT principle** guides program design using Frequency, Intensity, **Time**, and Type.",
+                "targets": [
+                    "FITT principle",
+                    "Time"
+                ],
+                "optionsBank": [
+                    "FITT principle",
+                    "Time",
+                    "Overload rule",
+                    "Specificity",
+                    "Tonnage"
+                ],
+                "hint": "The core design acronym and its temporal duration element."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain how general physical fitness serves as a prerequisite for developing sport-specific fitness, citing benefits from the text.",
+                "model": "General physical fitness builds a broad physiological foundation across core health components (muscular strength, endurance, cardiorespiratory capacity, flexibility, body composition). High general fitness improves functional readiness, stress adaptation, and fatigue recovery, enabling athletes to safely handle the rigorous volume and intensity required to develop high-level, sport-specific fitness skills.",
+                "criteria": [
+                    "Identify general fitness as a foundational prerequisite for sport-specific fitness.",
+                    "Reference health-related fitness components (strength, endurance, cardiorespiratory capacity).",
+                    "Explain how general fitness enhances adaptation and workload tolerance for sport specialization."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Define the four elements of the FITT principle and describe why adhering to established training principles improves exercise outcomes.",
+                "model": "The FITT principle comprises Frequency (sessions per week), Intensity (workload/effort level), Time (session duration and volume), and Type (exercise modality). Adhering to these established training principles ensures structured, goal-aligned progression, preventing overtraining while maximizing physiological fitness adaptations.",
+                "criteria": [
+                    "Define Frequency, Intensity, Time, and Type accurately.",
+                    "Explain that FITT structures workout variables for targeted goals.",
+                    "Describe how principle-based program design maximizes fitness improvements and safety."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is training frequency defined in Section 15.1?",
+                "opts": [
+                    "The number of times a person exercises each week",
+                    "The total number of repetitions completed in a single set",
+                    "The percentage of maximum heart rate sustained during a workout",
+                    "The duration in minutes of an individual training session"
+                ],
+                "correct": 0,
+                "rationale": "Training frequency is explicitly defined as the number of times a person exercises each week."
+            },
+            {
+                "id": 2,
+                "q": "How many training sessions per week are recommended if an individual's goal is to MAINTAIN an achieved level of fitness?",
+                "opts": [
+                    "Two or three sessions per week",
+                    "Four to six sessions per week",
+                    "Seven sessions per week with zero rest days",
+                    "One session every two weeks"
+                ],
+                "correct": 0,
+                "rationale": "The textbook states that if the goal is to maintain an achieved level of fitness, two or three sessions per week are sufficient."
+            },
+            {
+                "id": 3,
+                "q": "How many training sessions per week are recommended if an individual's goal is to IMPROVE physical fitness?",
+                "opts": [
+                    "Four to six sessions per week",
+                    "Two or three sessions per week",
+                    "One session per week",
+                    "Eight to ten sessions per week"
+                ],
+                "correct": 0,
+                "rationale": "If the goal is to improve physical fitness, four to six sessions per week are recommended."
+            },
+            {
+                "id": 4,
+                "q": "How is training intensity monitored during cardiorespiratory endurance exercise?",
+                "opts": [
+                    "By measuring the pulse or heart rate, aiming for 50 to 85 percent of predicted maximum heart rate",
+                    "By counting the total distance covered in kilometers",
+                    "By measuring the total weight lifted in kilograms",
+                    "By tracking the number of circuit loops completed"
+                ],
+                "correct": 0,
+                "rationale": "Cardiorespiratory training intensity is monitored by measuring pulse/heart rate, aiming to keep heart rate between 50% and 85% of predicted maximum."
+            },
+            {
+                "id": 5,
+                "q": "Which target heart rate range of predicted maximum is specified for cardiorespiratory conditioning?",
+                "opts": [
+                    "50 to 85 percent of predicted maximum heart rate",
+                    "20 to 40 percent of predicted maximum heart rate",
+                    "90 to 100 percent of predicted maximum heart rate exclusively",
+                    "30 to 50 percent of predicted maximum heart rate"
+                ],
+                "correct": 0,
+                "rationale": "The text specifies keeping the heart rate between 50 and 85 percent of the predicted maximum for cardiorespiratory endurance."
+            },
+            {
+                "id": 6,
+                "q": "Which of the following is cited as a measure of training intensity besides heart rate?",
+                "opts": [
+                    "Resistance to be overcome, number of repetitions, speed of movement, and percentage of maximum performance effort",
+                    "Total weekly caloric expenditure and body water percentage",
+                    "Ambient room temperature and outdoor humidity",
+                    "Total distance run during a monthly training period"
+                ],
+                "correct": 0,
+                "rationale": "Other measures of intensity include resistance to be overcome, number of repetitions, speed of movement, and percentage of max effort."
+            },
+            {
+                "id": 7,
+                "q": "In a 1:2 work-to-rest ratio example, what does the rest phase represent?",
+                "opts": [
+                    "The rest phase is two times the length of the work phase",
+                    "The rest phase is half the length of the work phase",
+                    "The rest phase is equal in duration to the work phase",
+                    "The rest phase is ten times shorter than the work phase"
+                ],
+                "correct": 0,
+                "rationale": "The text explains a 1:2 work-to-rest ratio as one where the rest phase is two times the length of the work phase."
+            },
+            {
+                "id": 8,
+                "q": "What general rule governs exercise intensity and the required duration of rest periods?",
+                "opts": [
+                    "Generally, the lower the intensity of exercise, the shorter the rest periods required",
+                    "Lower intensity exercise requires longer rest periods than maximal exertion",
+                    "Exercise intensity has zero effect on required rest duration",
+                    "High-intensity exercise requires zero rest intervals for recovery"
+                ],
+                "correct": 0,
+                "rationale": "The textbook notes that generally, the lower the intensity of exercise, the shorter the rest periods required to recover from fatigue."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which factors determine an individual's optimal weekly training frequency? (Select all that apply)",
+                "opts": [
+                    "Individual goals (maintenance vs. improvement)",
+                    "Physical abilities and baseline fitness level",
+                    "Sport requirements",
+                    "Strict chronological age limits"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Training frequency depends on an individual's goals, abilities, fitness level, and sport."
+            },
+            {
+                "id": 2,
+                "q": "Which methods are used to measure or monitor training intensity across different activities? (Select all that apply)",
+                "opts": [
+                    "Measuring pulse or heart rate (50-85% predicted max)",
+                    "Resistance to be overcome (weight load)",
+                    "Number of repetitions and speed of movement",
+                    "Percentage of maximum performance effort"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four options are explicitly listed in the text as valid measures of training intensity."
+            },
+            {
+                "id": 3,
+                "q": "Which statements correctly describe work-to-rest ratios and fatigue recovery? (Select all that apply)",
+                "opts": [
+                    "In a 1:2 work-to-rest ratio, rest is twice as long as work.",
+                    "The rest phase allows for recovery from muscle fatigue.",
+                    "Lower intensity exercise requires shorter rest periods.",
+                    "Higher intensity exercise requires longer rest intervals."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four statements accurately represent the textbook principles governing work-to-rest ratios and exercise intensity."
+            },
+            {
+                "id": 4,
+                "q": "Which weekly frequencies align with textbook recommendations? (Select all that apply)",
+                "opts": [
+                    "2 to 3 sessions per week to maintain fitness",
+                    "4 to 6 sessions per week to improve fitness",
+                    "1 session per week for rapid fitness gains",
+                    "14 sessions per week for basic maintenance"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Textbook recommends 2-3 sessions/week for maintenance and 4-6 sessions/week for fitness improvement."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Training frequency refers to the total number of times a person exercises each week.",
+                "ans": true,
+                "feedback": "True. Training frequency is defined as the number of exercise sessions completed per week."
+            },
+            {
+                "id": 2,
+                "q": "To maintain an achieved level of fitness, 4 to 6 sessions per week are required.",
+                "ans": false,
+                "feedback": "False. 2 to 3 sessions per week are sufficient for maintenance; 4 to 6 are recommended for improvement."
+            },
+            {
+                "id": 3,
+                "q": "Cardiorespiratory intensity should maintain a heart rate between 50 and 85 percent of predicted maximum.",
+                "ans": true,
+                "feedback": "True. The textbook specifies 50% to 85% of predicted max heart rate for cardiorespiratory endurance."
+            },
+            {
+                "id": 4,
+                "q": "Lower intensity exercise generally requires longer rest periods than high intensity exercise.",
+                "ans": false,
+                "feedback": "False. Lower intensity exercise requires shorter rest periods because less muscle fatigue is accumulated."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "To maintain fitness, **2 or 3** sessions per week are needed, whereas improving fitness requires **4 to 6** sessions.",
+                "targets": [
+                    "2 or 3",
+                    "4 to 6"
+                ],
+                "optionsBank": [
+                    "2 or 3",
+                    "4 to 6",
+                    "1 or 2",
+                    "7 to 10",
+                    "10 to 12"
+                ],
+                "hint": "Specifies weekly session frequencies for maintenance versus improvement goals."
+            },
+            {
+                "id": 2,
+                "statement": "Cardiorespiratory intensity targets **50 and 85** percent of max heart rate, utilizing a **work-to-rest ratio** to recover from fatigue.",
+                "targets": [
+                    "50 and 85",
+                    "work-to-rest ratio"
+                ],
+                "optionsBank": [
+                    "50 and 85",
+                    "work-to-rest ratio",
+                    "10 and 30",
+                    "FITT principle",
+                    "volume index"
+                ],
+                "hint": "The aerobic heart rate percentage zone and the exercise-rest structure."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Differentiate between weekly training frequency recommendations for maintaining versus improving physical fitness.",
+                "model": "To maintain an established level of physical fitness, a training frequency of 2 to 3 sessions per week is sufficient. To stimulate progressive physiological adaptation and improve fitness, a higher frequency of 4 to 6 sessions per week is recommended.",
+                "criteria": [
+                    "State 2 to 3 sessions/week for fitness maintenance.",
+                    "State 4 to 6 sessions/week for fitness improvement.",
+                    "Explain that frequency depends on goals, fitness level, and physical capacity."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain how cardiorespiratory intensity is monitored and describe the concept of a work-to-rest ratio.",
+                "model": "Cardiorespiratory intensity is monitored by measuring pulse/heart rate, aiming for 50% to 85% of predicted maximum heart rate. A work-to-rest ratio structures exertion and recovery (e.g., a 1:2 ratio means rest is double the work duration), allowing muscle fatigue recovery. Lower intensity requires shorter rest, while higher intensity demands longer rest.",
+                "criteria": [
+                    "State the 50% to 85% predicted max heart rate target range.",
+                    "Define work-to-rest ratio with an example (e.g., 1:2).",
+                    "Explain that rest allows fatigue recovery and higher intensity requires longer rest."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is training time defined in the context of the FITT principle?",
+                "opts": [
+                    "The total time devoted to developing fitness, based on the duration of each session",
+                    "The time of day at which an exercise session is scheduled",
+                    "The total recovery time required between weekly workouts",
+                    "The speed at which a single repetition is executed"
+                ],
+                "correct": 0,
+                "rationale": "Training time is defined as the total time devoted to developing fitness, based on session duration."
+            },
+            {
+                "id": 2,
+                "q": "How is training volume measured for cyclic movements like walking, running, swimming, kayaking, or rowing?",
+                "opts": [
+                    "As the total distance covered in one workout or accumulated over one week",
+                    "As the total number of heartbeats during a session",
+                    "As the total resistance load moved in kilograms",
+                    "As the number of circuit rounds completed in a gym"
+                ],
+                "correct": 0,
+                "rationale": "In cyclic movements, total distance in one workout or accumulated over a week represents training volume."
+            },
+            {
+                "id": 3,
+                "q": "Which of the following is classified as a cyclic movement in Section 15.1?",
+                "opts": [
+                    "Walking, running, swimming, kayaking, and rowing",
+                    "Bench press, squat, and deadlift",
+                    "Street hockey, social dancing, and mall walking",
+                    "Group fitness classes and circuit weight training"
+                ],
+                "correct": 0,
+                "rationale": "Cyclic movements explicitly listed in the textbook include walking, running, swimming, kayaking, and rowing."
+            },
+            {
+                "id": 4,
+                "q": "Which metric can represent training volume in strength training according to the textbook?",
+                "opts": [
+                    "Total resistance moved or total number of repetitions",
+                    "Total distance swum in a 25-meter pool",
+                    "Percentage of maximum heart rate sustained",
+                    "Work-to-rest ratio duration in seconds"
+                ],
+                "correct": 0,
+                "rationale": "Strength training volume refers to total reps of an exercise, total reps in a workout, total resistance moved, or circuit rounds completed."
+            },
+            {
+                "id": 5,
+                "q": "Which of the following is NOT one of the four strength training volume metrics listed in the text?",
+                "opts": [
+                    "Total oxygen consumed per repetition",
+                    "Total number of all repetitions of each exercise",
+                    "Total of all repetitions during a workout",
+                    "Total resistance moved or number of completed circuits"
+                ],
+                "correct": 0,
+                "rationale": "The four textbook metrics for strength volume are reps of each exercise, total workout reps, total resistance moved, and circuit loops completed. Oxygen consumed is not listed."
+            },
+            {
+                "id": 6,
+                "q": "If an athlete completes a weightlifting circuit 4 times, what represents their training volume for that circuit drill?",
+                "opts": [
+                    "The number of times the circuit was completed (4 times)",
+                    "The maximum heart rate achieved on the last set",
+                    "The total time spent resting between exercises",
+                    "The frequency of weekly circuit sessions"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly lists 'the number of times a circuit was completed' as a valid measure of strength training volume."
+            },
+            {
+                "id": 7,
+                "q": "How does training volume differ between cyclic endurance sports and resistance training?",
+                "opts": [
+                    "Cyclic volume uses total distance, whereas strength volume uses repetitions, resistance load, or completed circuits",
+                    "Cyclic volume uses heart rate, whereas strength volume uses running miles",
+                    "Cyclic volume is measured in seconds, whereas strength volume is measured in kilometers",
+                    "There is zero difference; both use total distance exclusively"
+                ],
+                "correct": 0,
+                "rationale": "Cyclic movement volume is quantified by total distance, while strength training volume uses reps, resistance load, or circuit loops."
+            },
+            {
+                "id": 8,
+                "q": "What constitutes the total training volume over the course of one week for a runner or swimmer?",
+                "opts": [
+                    "The total distance covered across all workouts in that week",
+                    "The average heart rate recorded during workouts",
+                    "The total weight lifted in strength sessions",
+                    "The number of rest days taken during the week"
+                ],
+                "correct": 0,
+                "rationale": "For cyclic activities, total distance covered across workouts over a week represents weekly training volume."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which activities are classified as cyclic movements in Section 15.1? (Select all that apply)",
+                "opts": [
+                    "Walking and running",
+                    "Swimming",
+                    "Kayaking",
+                    "Rowing"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Walking, running, swimming, kayaking, and rowing are all explicitly listed as cyclic movements."
+            },
+            {
+                "id": 2,
+                "q": "Which metrics can quantify training volume in strength training? (Select all that apply)",
+                "opts": [
+                    "Total number of repetitions of each exercise",
+                    "Total repetitions during an entire workout",
+                    "Total resistance moved (weight load)",
+                    "Number of times a circuit was completed"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four options are explicitly listed in the textbook as measures of strength training volume."
+            },
+            {
+                "id": 3,
+                "q": "Which statements regarding training time and volume are accurate? (Select all that apply)",
+                "opts": [
+                    "Training time is based on session duration.",
+                    "Volume for cyclic sports is measured in total distance.",
+                    "Volume for weight training can be total resistance moved.",
+                    "Volume is an element of exercise time."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four statements correctly reflect textbook definitions of training time and volume."
+            },
+            {
+                "id": 4,
+                "q": "How can a strength coach increase training volume in a workout? (Select all that apply)",
+                "opts": [
+                    "Increase the total repetitions performed per exercise",
+                    "Increase the total resistance moved across sets",
+                    "Increase the number of completed circuit rounds",
+                    "Decrease the training frequency to once a month"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Increasing reps, total resistance, or circuit rounds elevates strength volume. Monthly frequency reduces training stimulus."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Training volume for cyclic activities like running and swimming is measured in total distance covered.",
+                "ans": true,
+                "feedback": "True. Total distance covered in a workout or week represents volume for cyclic movements."
+            },
+            {
+                "id": 2,
+                "q": "Strength training volume can only be measured by tracking maximum pulse rate.",
+                "ans": false,
+                "feedback": "False. Strength volume is measured using repetitions, total resistance load moved, or completed circuit rounds."
+            },
+            {
+                "id": 3,
+                "q": "Kayaking and rowing are classified as cyclic movements in the textbook.",
+                "ans": true,
+                "feedback": "True. Kayaking and rowing are explicitly categorized alongside running and swimming as cyclic movements."
+            },
+            {
+                "id": 4,
+                "q": "Training time is based on the duration of each individual training session.",
+                "ans": true,
+                "feedback": "True. Training time refers to the total temporal duration devoted to fitness sessions."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "In cyclic sports like running, volume is measured by **total distance**, whereas strength training uses **total resistance** moved.",
+                "targets": [
+                    "total distance",
+                    "total resistance"
+                ],
+                "optionsBank": [
+                    "total distance",
+                    "total resistance",
+                    "heart rate",
+                    "flexibility score",
+                    "target zone"
+                ],
+                "hint": "Compares volume metrics between continuous endurance sports and weight lifting."
+            },
+            {
+                "id": 2,
+                "statement": "Training time depends on session **duration**, while volume tracks the total **quantity** of exercise completed.",
+                "targets": [
+                    "duration",
+                    "quantity"
+                ],
+                "optionsBank": [
+                    "duration",
+                    "quantity",
+                    "frequency",
+                    "rest interval",
+                    "heart rate"
+                ],
+                "hint": "Temporal length of workout vs. total work amount."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Explain how training volume is measured differently for cyclic endurance activities compared to resistance strength training.",
+                "model": "For cyclic endurance activities (running, swimming, rowing), training volume is measured as total distance covered in a session or over a week. For resistance strength training, volume is measured by total repetitions of an exercise, total workout repetitions, total resistance load moved, or number of completed circuit rounds.",
+                "criteria": [
+                    "State total distance for cyclic activities (running, swimming, rowing).",
+                    "Identify repetitions, total resistance load, or completed circuit rounds for strength training.",
+                    "Contrast the distance-based metric with repetition/load-based metrics."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Detail the four methods listed in the textbook for quantifying training volume in a resistance training program.",
+                "model": "The four textbook methods for measuring strength training volume are: (a) total repetitions of each exercise, (b) total repetitions across the entire workout, (c) total resistance load moved, and (d) total number of completed circuit rounds.",
+                "criteria": [
+                    "List total reps per exercise.",
+                    "List total reps per workout.",
+                    "List total resistance moved and circuit completions."
+                ]
+            }
+        ]
+    },
+    "p4": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How are formal fitness activities defined in Section 15.1?",
+                "opts": [
+                    "Structured physical activities where fitness development is the primary explicit goal",
+                    "Unstructured social gatherings where fitness is an accidental secondary by-product",
+                    "Involuntary occupational labor tasks required for daily employment",
+                    "Competitive professional sports leagues with financial compensation"
+                ],
+                "correct": 0,
+                "rationale": "Formal fitness activities are defined as structured activities where the development of fitness is the main goal."
+            },
+            {
+                "id": 2,
+                "q": "Which of the following is explicitly listed as a formal fitness activity in the text?",
+                "opts": [
+                    "Circuit training, group fitness classes, jogging, and weight training",
+                    "Pick-up street hockey, social dancing, and 3-on-3 basketball",
+                    "Mall walking purely for social interaction with friends",
+                    "Casual window shopping in an indoor shopping mall"
+                ],
+                "correct": 0,
+                "rationale": "Textbook examples of formal fitness include circuit training, group fitness classes, jogging, and weight training."
+            },
+            {
+                "id": 3,
+                "q": "How are informal fitness activities defined in Section 15.1?",
+                "opts": [
+                    "Activities emphasizing social aspects like camaraderie, cooperation, and fun, with fitness as a by-product",
+                    "Strictly regulated Olympic weightlifting competitions with official judges",
+                    "High-intensity interval runs designed exclusively for cardiac rehabilitation",
+                    "Isolated biomechanical laboratory force-plate testing sessions"
+                ],
+                "correct": 0,
+                "rationale": "Informal fitness activities emphasize social camaraderie, cooperation, and fun as the main goal, with fitness being a by-product."
+            },
+            {
+                "id": 4,
+                "q": "Which of the following is explicitly listed as an informal fitness activity in the textbook?",
+                "opts": [
+                    "Pick-up street hockey, social dancing, three-on-three basketball, and mall walking",
+                    "Structured weightlifting circuits and competitive marathon running",
+                    "Formal group aerobics classes led by certified instructors",
+                    "Laboratory VO2max treadmill stress testing"
+                ],
+                "correct": 0,
+                "rationale": "Textbook examples of informal fitness include pick-up street hockey, social dancing, 3-on-3 basketball, and mall walking."
+            },
+            {
+                "id": 5,
+                "q": "What primary factor determines whether a specific activity (like mall walking or street hockey) is formal or informal?",
+                "opts": [
+                    "The participant's subjective intent and primary personal goal",
+                    "The physical location or facility where the activity occurs",
+                    "The cost of the equipment required to participate",
+                    "The specific time of day the activity takes place"
+                ],
+                "correct": 0,
+                "rationale": "The text notes that often the participant will determine categorization based on intent (e.g. mall walking to improve fitness vs to meet people)."
+            },
+            {
+                "id": 6,
+                "q": "In an informal fitness activity, what role does physical fitness improvement play?",
+                "opts": [
+                    "It serves as a beneficial secondary by-product of social participation",
+                    "It is the sole primary goal and social interaction is banned",
+                    "It is completely impossible to achieve any fitness benefit",
+                    "It replaces the need for proper nutrition"
+                ],
+                "correct": 0,
+                "rationale": "In informal activities, social fun is the main goal, and fitness improvements occur as an enjoyable by-product."
+            },
+            {
+                "id": 7,
+                "q": "Why can pick-up street hockey or mall walking be classified as either formal OR informal?",
+                "opts": [
+                    "Because one person may participate explicitly to improve fitness (formal), while another participates to socialize (informal)",
+                    "Because hockey requires ice whereas mall walking requires concrete",
+                    "Because formal activities require uniforms whereas informal activities require helmets",
+                    "Because street hockey is always formal and mall walking is always informal"
+                ],
+                "correct": 0,
+                "rationale": "Classification depends on intent: one person uses street hockey/mall walking for fitness (formal), while another uses it to socialize (informal)."
+            },
+            {
+                "id": 8,
+                "q": "What recommendation does the textbook give regarding goals to maximize training experiences across any activity type?",
+                "opts": [
+                    "It is important to set specific goals in order to maximize your training experience",
+                    "Goals should be kept secret and never recorded or evaluated",
+                    "Goals are only necessary for elite Olympic athletes in formal training",
+                    "Goals should focus exclusively on financial rewards"
+                ],
+                "correct": 0,
+                "rationale": "The text concludes by emphasizing that setting specific goals is important to maximize training experiences across all activities."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which activities are explicitly categorized as formal fitness activities in the textbook? (Select all that apply)",
+                "opts": [
+                    "Circuit training",
+                    "Group fitness classes",
+                    "Jogging",
+                    "Weight training"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Circuit training, group fitness classes, jogging, and weight training are all explicitly listed as formal fitness examples."
+            },
+            {
+                "id": 2,
+                "q": "Which activities are explicitly categorized as informal fitness activities in the textbook? (Select all that apply)",
+                "opts": [
+                    "Pick-up street hockey",
+                    "Social dancing",
+                    "Three-on-three basketball",
+                    "Mall walking"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Pick-up street hockey, social dancing, 3-on-3 basketball, and mall walking are explicitly listed as informal fitness examples."
+            },
+            {
+                "id": 3,
+                "q": "Which features characterize informal fitness activities according to Section 15.1? (Select all that apply)",
+                "opts": [
+                    "Emphasize social aspects such as camaraderie, cooperation, and fun",
+                    "Physical fitness improvement is a secondary by-product",
+                    "Main goal centers on social interaction and enjoyment",
+                    "Require expensive certified personal trainers"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Informal activities focus on camaraderie, cooperation, and fun, yielding fitness as a secondary by-product."
+            },
+            {
+                "id": 4,
+                "q": "Which statements regarding exercise type and goal setting are supported by the textbook? (Select all that apply)",
+                "opts": [
+                    "Participant intent determines if an activity is formal or informal.",
+                    "The same activity can be formal for one person and informal for another.",
+                    "Setting specific goals helps maximize the training experience.",
+                    "Informal fitness activities provide zero physiological benefits."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Participant intent dictates categorization, activities can fulfill both roles, and setting specific goals maximizes outcomes. Informal activities do yield fitness benefits as a by-product."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Formal fitness activities have physical fitness development as their main explicit goal.",
+                "ans": true,
+                "feedback": "True. Formal activities like jogging and weight training are structured primarily to improve fitness."
+            },
+            {
+                "id": 2,
+                "q": "In informal fitness activities, social interaction and fun are main goals, with fitness being a by-product.",
+                "ans": true,
+                "feedback": "True. Informal activities emphasize camaraderie and fun, yielding physical fitness as a secondary benefit."
+            },
+            {
+                "id": 3,
+                "q": "Pick-up street hockey and social dancing are examples of formal fitness activities.",
+                "ans": false,
+                "feedback": "False. Street hockey and social dancing are categorized as informal fitness activities."
+            },
+            {
+                "id": 4,
+                "q": "Setting specific goals is important for maximizing training experiences in physical activity.",
+                "ans": true,
+                "feedback": "True. The textbook explicitly recommends setting specific goals to maximize training outcomes."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Circuit training is a **formal fitness** activity, whereas pick-up street hockey represents **informal fitness**.",
+                "targets": [
+                    "formal fitness",
+                    "informal fitness"
+                ],
+                "optionsBank": [
+                    "formal fitness",
+                    "informal fitness",
+                    "cyclic movement",
+                    "anaerobic power",
+                    "work-to-rest ratio"
+                ],
+                "hint": "Differentiates structured conditioning from recreational social exercise."
+            },
+            {
+                "id": 2,
+                "statement": "In informal fitness, social camaraderie is the main goal and physical fitness is a **by-product**, optimized by setting **specific goals**.",
+                "targets": [
+                    "by-product",
+                    "specific goals"
+                ],
+                "optionsBank": [
+                    "by-product",
+                    "specific goals",
+                    "primary mandate",
+                    "target heart rate",
+                    "volume metric"
+                ],
+                "hint": "The secondary nature of fitness gains in social sport and the recommended practice."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Compare formal and informal fitness activities, giving two textbook examples for each and explaining how participant intent affects categorization.",
+                "model": "Formal fitness activities are structured exercises where fitness development is the main goal (e.g., circuit training, weight training). Informal fitness activities emphasize social camaraderie, cooperation, and fun as the main goal, with fitness as a by-product (e.g., pick-up street hockey, social dancing). Participant intent determines categorization: one person may do mall walking or street hockey formally to build fitness, while another does it informally to socialize.",
+                "criteria": [
+                    "Define formal fitness (fitness is main goal; e.g. circuit training, weight training).",
+                    "Define informal fitness (social/fun main goal, fitness is by-product; e.g. street hockey, social dancing).",
+                    "Explain that participant intent determines whether an activity is formal or informal."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain why setting specific goals is recommended for both formal and informal physical activities.",
+                "model": "Setting specific goals provides clear direction, motivation, and structure regardless of whether an activity is formal or informal. In formal fitness, specific goals ensure progressive overload and measurable physical gains. In informal fitness, goals help maintain consistency and engagement, maximizing the overall training experience and health benefits.",
+                "criteria": [
+                    "State that goal setting maximizes training experience across all activities.",
+                    "Explain how goals benefit formal fitness (structure, physiological progress).",
+                    "Explain how goals benefit informal fitness (engagement, sustained activity)."
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1002 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is muscular strength defined in Section 15.3?",
+                "opts": [
+                    "The ability of a muscle or muscle group to exert force against a resistance in a single maximal effort",
+                    "The ability of a muscle to sustain submaximal contractions over a 20-minute period",
+                    "The speed at which an athlete can execute a rapid directional change",
+                    "The maximum distance a joint can move through a passive range of motion"
+                ],
+                "correct": 0,
+                "rationale": "Muscular strength is explicitly defined in the textbook as the ability of a muscle or muscle group to exert force against a resistance."
+            },
+            {
+                "id": 2,
+                "q": "At the cellular level, what structural factor directly determines a muscle's maximal force production capacity?",
+                "opts": [
+                    "Muscle cross-sectional diameter or area",
+                    "Total skeletal bone length",
+                    "Subcutaneous fat layer thickness",
+                    "Joint ligament elasticity"
+                ],
+                "correct": 0,
+                "rationale": "The textbook states that force generation is directly related to muscle size: the greater the muscle diameter or cross-sectional area, the greater the force it should be able to generate."
+            },
+            {
+                "id": 3,
+                "q": "How do muscular strength levels compare between biological males and females prior to puberty?",
+                "opts": [
+                    "Girls and boys have similar levels of muscular strength before puberty",
+                    "Boys possess five times greater muscular strength than girls before puberty",
+                    "Girls possess double the absolute muscular strength of boys before puberty",
+                    "Strength cannot be measured in children before puberty"
+                ],
+                "correct": 0,
+                "rationale": "The textbook notes that girls and boys have similar levels of strength before puberty; sex differences emerge during and after puberty due to testosterone."
+            },
+            {
+                "id": 4,
+                "q": "What hormone drives the post-pubertal development of larger muscle mass and greater strength capacity in males?",
+                "opts": [
+                    "Testosterone",
+                    "Estrogen",
+                    "Insulin",
+                    "Thyroxine"
+                ],
+                "correct": 0,
+                "rationale": "Because of the influence of testosterone during and after puberty, males have the capacity to develop larger muscles and thus generally develop greater absolute strength."
+            },
+            {
+                "id": 5,
+                "q": "Which sport example illustrates muscular force applied against a FIXED object as described in the text?",
+                "opts": [
+                    "Sprinter pushing against starting blocks at the start of a race",
+                    "Olympic weightlifter lifting a barbell off the platform",
+                    "Shot putter throwing a metal sphere across a field",
+                    "Swimmer pulling water backward with a paddle"
+                ],
+                "correct": 0,
+                "rationale": "The textbook distinguishes between force applied against a movable object (e.g., weightlifting) versus force applied against a fixed object, such as sprinter starting blocks."
+            },
+            {
+                "id": 6,
+                "q": "How is absolute muscular strength defined in the textbook?",
+                "opts": [
+                    "The total force a person can apply in a single effort regardless of their body mass",
+                    "The maximum force generated divided by total body weight in kilograms",
+                    "The maximum repetitions achieved using a 10 kg dumbbell",
+                    "The percentage of muscle fibers recruited during a 5 km run"
+                ],
+                "correct": 0,
+                "rationale": "Absolute strength is defined as the total force a person can apply in a single effort against a resistance, regardless of their body weight or mass."
+            },
+            {
+                "id": 7,
+                "q": "How is relative muscular strength calculated?",
+                "opts": [
+                    "By taking the person's maximum (absolute) strength and dividing it by their body mass",
+                    "By multiplying absolute strength by height in centimeters",
+                    "By subtracting body mass from total weight lifted",
+                    "By dividing total repetitions by set duration in seconds"
+                ],
+                "correct": 0,
+                "rationale": "Relative strength takes body mass into account and is calculated by taking maximum (absolute) strength and dividing it by total body mass."
+            },
+            {
+                "id": 8,
+                "q": "In the textbook example of the 14-year-old female athlete who gains 6 kg over a year while maintaining her absolute arm strength, what happens to her performance?",
+                "opts": [
+                    "Her absolute strength is maintained, but her relative strength decreases, preventing her from doing a chin-up",
+                    "Her relative strength increases, allowing her to complete twice as many chin-ups",
+                    "Both her absolute and relative strength increase exponentially",
+                    "Her muscle diameter shrinks by 50% automatically"
+                ],
+                "correct": 0,
+                "rationale": "After gaining 6 kg, her upper body remained just as strong in absolute terms, but because her body mass increased, her relative strength decreased, making chin-ups impossible."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which statements correctly describe factors influencing muscular strength development? (Select all that apply)",
+                "opts": [
+                    "Greater muscle diameter is associated with greater force production capacity.",
+                    "Girls and boys have similar strength levels prior to puberty.",
+                    "Testosterone secretion during puberty enables males to develop larger muscle mass.",
+                    "Muscle force can be applied against movable or fixed external resistances."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four statements are explicitly supported by the textbook in Section 15.3."
+            },
+            {
+                "id": 2,
+                "q": "Which features distinguish relative strength from absolute strength? (Select all that apply)",
+                "opts": [
+                    "Relative strength accounts for an individual's total body mass.",
+                    "It is calculated as absolute strength divided by total body mass.",
+                    "It is critical in body-weight-dependent movements like chin-ups and gymnastics.",
+                    "If body mass increases while absolute strength stays constant, relative strength drops."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four choices describe key principles of relative strength from the textbook."
+            },
+            {
+                "id": 3,
+                "q": "Which tasks illustrate daily life or sport applications of muscular strength mentioned in the text? (Select all that apply)",
+                "opts": [
+                    "Lifting movable objects like barbells in weightlifting",
+                    "Exerting force against fixed objects like sprinter starting blocks",
+                    "Manipulating body weight and carrying groceries or backpacks",
+                    "Lifting occupational tools or carrying children"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "The text explicitly details both sport applications (movable/fixed objects) and daily life demands (groceries, backpacks, children, tools)."
+            },
+            {
+                "id": 4,
+                "q": "Which claims regarding absolute and relative strength are supported by Section 15.3? (Select all that apply)",
+                "opts": [
+                    "Absolute strength measures total weight moved regardless of body mass.",
+                    "Relative strength is the primary strength metric for chin-ups and body-weight maneuvers.",
+                    "Two people with identical absolute strength can have different relative strength if their body weights differ.",
+                    "Absolute strength is calculated by dividing body mass by maximum force."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Options 0, 1, and 2 are correct. Option 3 is false because relative strength is absolute strength divided by body mass, not vice versa."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Girls and boys possess similar levels of muscular strength before puberty.",
+                "ans": true,
+                "feedback": "True. Pre-pubertal males and females have similar strength levels; sex differences emerge post-puberty due to testosterone."
+            },
+            {
+                "id": 2,
+                "q": "Absolute strength is calculated by dividing total weight lifted by body weight in kilograms.",
+                "ans": false,
+                "feedback": "False. Relative strength is calculated by dividing absolute strength by body mass; absolute strength measures total force regardless of weight."
+            },
+            {
+                "id": 3,
+                "q": "Sprinter starting blocks represent an example of force applied against a fixed object.",
+                "ans": true,
+                "feedback": "True. The textbook identifies starting blocks as a fixed object against which muscular force is applied."
+            },
+            {
+                "id": 4,
+                "q": "If an individual gains body mass while maintaining the exact same absolute strength, their relative strength decreases.",
+                "ans": true,
+                "feedback": "True. Because body mass is in the denominator, an increase in mass reduces the relative strength ratio."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "While **absolute strength** measures total force regardless of body mass, **relative strength** divides maximum force by body weight.",
+                "targets": [
+                    "absolute strength",
+                    "relative strength"
+                ],
+                "optionsBank": [
+                    "absolute strength",
+                    "relative strength",
+                    "anaerobic power",
+                    "glycolytic capacity",
+                    "flexibility score"
+                ],
+                "hint": "The total force metric vs. the weight-adjusted force ratio."
+            },
+            {
+                "id": 2,
+                "statement": "Post-pubertal male strength development is driven by **testosterone**, which increases muscle **diameter**.",
+                "targets": [
+                    "testosterone",
+                    "diameter"
+                ],
+                "optionsBank": [
+                    "testosterone",
+                    "diameter",
+                    "estrogen",
+                    "length",
+                    "flexibility"
+                ],
+                "hint": "The anabolic hormone secreted during puberty and the structural muscle dimension."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Compare absolute strength and relative strength, provide the mathematical formula for relative strength, and explain how a gain in body weight affects relative strength.",
+                "model": "Absolute strength is the total force a person can exert in a single maximal effort against resistance, regardless of body weight. Relative strength accounts for body mass and is calculated as Relative Strength = Absolute Strength / Body Mass. If an individual gains body mass while their absolute strength remains static, their relative strength decreases because a larger mass denominator divides the same absolute force capacity, reducing performance in body-weight tasks like chin-ups.",
+                "criteria": [
+                    "Define absolute strength (total force regardless of body mass).",
+                    "Define relative strength and provide the formula (Absolute Strength / Body Mass).",
+                    "Explain that gaining weight with constant absolute strength decreases relative strength."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain the biological basis for pre-pubertal versus post-pubertal strength differences between sexes and contrast force applied against movable versus fixed objects.",
+                "model": "Before puberty, boys and girls have similar muscular strength levels. During and after puberty, males secrete higher levels of testosterone, stimulating greater muscle fiber hypertrophy and larger muscle diameter, which yields higher absolute force capacity. In performance, force can be exerted against movable objects (e.g., barbells in weightlifting) or fixed immovable objects (e.g., sprinter starting blocks).",
+                "criteria": [
+                    "State that pre-pubertal males and females have similar strength levels.",
+                    "Identify testosterone as the post-pubertal driver of larger muscle diameter in males.",
+                    "Differentiate movable object resistance (barbells) from fixed object resistance (starting blocks)."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How much recovery time is normally required between strength training sessions for the same muscle groups to allow optimal adaptation?",
+                "opts": [
+                    "At least 48 hours",
+                    "Exactly 12 hours",
+                    "7 to 10 days",
+                    "Zero hours (continuous daily loading)"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that at least 48 hours of recovery is required between strength training sessions for muscle adaptation to occur."
+            },
+            {
+                "id": 2,
+                "q": "If an individual chooses to strength train every day, how should their workouts be scheduled according to the textbook?",
+                "opts": [
+                    "By using split-routines that focus on training different body areas in each session",
+                    "By performing max effort full-body workouts 7 days a week",
+                    "By reducing workout sets to 1 second per day",
+                    "By performing leg press exclusively every single day"
+                ],
+                "correct": 0,
+                "rationale": "If working out daily, the textbook recommends focusing on different body areas in each session (e.g., upper body one day, legs the next) to allow 48 hours rest per muscle group."
+            },
+            {
+                "id": 3,
+                "q": "What loading combination is recommended for building MAXIMUM muscular strength?",
+                "opts": [
+                    "High resistance and low repetitions",
+                    "Low resistance and high repetitions",
+                    "Zero resistance and 100 repetitions",
+                    "Moderate resistance and 50 repetitions"
+                ],
+                "correct": 0,
+                "rationale": "The text states that in general, for building maximum strength, the resistance should be high and the repetitions low."
+            },
+            {
+                "id": 4,
+                "q": "What target percentage of 1RM and repetition range per set are recommended for strength overload?",
+                "opts": [
+                    "75 to 80 percent of 1RM for 8 to 12 repetitions",
+                    "20 to 30 percent of 1RM for 30 to 40 repetitions",
+                    "95 to 100 percent of 1RM for 25 repetitions",
+                    "50 percent of 1RM for 1 repetition"
+                ],
+                "correct": 0,
+                "rationale": "The textbook suggests selecting a resistance that is about 75 to 80 percent of 1RM and performing sets of 8 to 12 repetitions to muscular failure."
+            },
+            {
+                "id": 5,
+                "q": "What training adaptation occurs if a trainee can complete MORE than 12 repetitions per set during resistance exercise?",
+                "opts": [
+                    "The stimulus shifts toward muscular endurance, indicating it is time to increase resistance load",
+                    "Maximal strength increases ten times faster",
+                    "The muscle group immediately undergoes severe atrophy",
+                    "The exercise converts into a static isometric hold"
+                ],
+                "correct": 0,
+                "rationale": "If you can perform more than 12 repetitions, you start working on muscular endurance rather than maximum strength, signaling it is time to increase weight resistance."
+            },
+            {
+                "id": 6,
+                "q": "What consequence occurs if a training program focuses exclusively on increasing agonist strength while ignoring antagonist muscles?",
+                "opts": [
+                    "Shortens agonist muscles, weakens antagonist muscles, alters strength proportions, and predisposes joints to injury",
+                    "Doubles overall flexibility and eliminates all joint cartilage pressure",
+                    "Automatically balances joint mechanics across all limbs",
+                    "Prevents muscle fatigue permanently"
+                ],
+                "correct": 0,
+                "rationale": "Training only agonists shortens agonist muscles and weakens antagonists, disrupting strength proportions surrounding joints and predisposing cartilage and tendons to injury."
+            },
+            {
+                "id": 7,
+                "q": "Which training approach systematically includes exercises for both prime movers and counteracting muscles?",
+                "opts": [
+                    "Agonist-antagonist training",
+                    "Unilateral isolated training",
+                    "Passive stretching exclusively",
+                    "Sub-threshold aerobic jogging"
+                ],
+                "correct": 0,
+                "rationale": "Agonist-antagonist training systematically includes exercises for both working muscles (agonists) and counteracting muscles (antagonists) to ensure balanced strength."
+            },
+            {
+                "id": 8,
+                "q": "Which muscle pairing illustrates agonist-antagonist complementary training in Section 15.3?",
+                "opts": [
+                    "Biceps training complemented with triceps training",
+                    "Biceps training paired with calf raises",
+                    "Quadriceps training paired with deltoid lateral raises",
+                    "Pectoralis training paired with neck extension"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly cites pairing biceps (flexor) with triceps (extensor), and trunk extensors with trunk flexors, as prime examples of agonist-antagonist training."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which recovery and scheduling guidelines apply to strength training? (Select all that apply)",
+                "opts": [
+                    "At least 48 hours of recovery is required between sessions for the same muscle group.",
+                    "Muscle adaptation (increased size and force capacity) occurs during recovery between sessions.",
+                    "Daily training requires split routines targeting different muscle groups on alternating days.",
+                    "Maximum strength requires high resistance and low repetitions."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four statements are explicitly detailed in Section 15.3 under Training Muscular Strength."
+            },
+            {
+                "id": 2,
+                "q": "Which loading parameters characterize maximum strength training according to the textbook? (Select all that apply)",
+                "opts": [
+                    "Working at 75 to 80 percent of 1RM",
+                    "Performing sets of 8 to 12 repetitions to muscular failure",
+                    "High resistance loads paired with low repetition numbers",
+                    "Performing over 20 repetitions per set with light weights"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Options 0, 1, and 2 describe max strength parameters. Option 3 describes muscular endurance training."
+            },
+            {
+                "id": 3,
+                "q": "Which pathological outcomes result from unbalanced agonist-only strength training? (Select all that apply)",
+                "opts": [
+                    "Shortening of agonist muscles",
+                    "Weakening of antagonist muscles",
+                    "Shift in strength proportion/equilibrium surrounding joints",
+                    "Impaired joint positions predisposing cartilage and tendons to injury"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four choices are cited in the 'Agonist-Antagonist Training' note as direct consequences of neglecting antagonist muscles."
+            },
+            {
+                "id": 4,
+                "q": "Which exercise pairings represent correct agonist-antagonist training? (Select all that apply)",
+                "opts": [
+                    "Biceps flexor training paired with Triceps extensor training",
+                    "Trunk extensor training paired with Trunk flexor training",
+                    "Leg press/Quadriceps extension paired with Hamstring flexor training",
+                    "Biceps flexor training paired with Quadriceps extension"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Pairing opposing muscle groups acting across the same joint/region (biceps/triceps, trunk flexors/extensors, quads/hamstrings) represents agonist-antagonist training."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "At least 48 hours of rest is required between strength sessions targeting the same muscle group.",
+                "ans": true,
+                "feedback": "True. Optimal muscle adaptation occurs during this 48-hour recovery period between sessions."
+            },
+            {
+                "id": 2,
+                "q": "To build maximum strength, exercise resistance should be low and repetitions should be high.",
+                "ans": false,
+                "feedback": "False. For maximum strength, resistance should be high and repetitions low (8-12 reps at 75-80% 1RM)."
+            },
+            {
+                "id": 3,
+                "q": "Exceeding 12 repetitions per set shifts the training stimulus from strength toward muscular endurance.",
+                "ans": true,
+                "feedback": "True. The textbook notes that performing >12 reps targets muscular endurance, signaling a need for heavier load."
+            },
+            {
+                "id": 4,
+                "q": "Agonist-antagonist training focuses exclusively on strengthening prime movers while ignoring opposing muscles.",
+                "ans": false,
+                "feedback": "False. Agonist-antagonist training balances training between working muscles (agonists) and counteracting muscles (antagonists)."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Strength adaptation requires at least **48 hours** between sessions, utilizing **split-routines** if training daily.",
+                "targets": [
+                    "48 hours",
+                    "split-routines"
+                ],
+                "optionsBank": [
+                    "48 hours",
+                    "split-routines",
+                    "12 hours",
+                    "isometric holds",
+                    "aerobic sets"
+                ],
+                "hint": "The recovery duration and daily workout structure."
+            },
+            {
+                "id": 2,
+                "statement": "Maximum strength uses **75 to 80 percent** of 1RM for **8 to 12 repetitions** per set.",
+                "targets": [
+                    "75 to 80 percent",
+                    "8 to 12 repetitions"
+                ],
+                "optionsBank": [
+                    "75 to 80 percent",
+                    "8 to 12 repetitions",
+                    "20 to 30 percent",
+                    "50 repetitions",
+                    "1RM max"
+                ],
+                "hint": "The target % 1RM load and the repetitions-to-failure range."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Detail the resistance intensity (% 1RM), repetition range, and set guidelines for maximum strength training, including what adjustment should be made if a trainee completes more than 12 repetitions.",
+                "model": "Maximum strength training requires high resistance and low repetitions. Trainees should select a load equivalent to 75 to 80 percent of 1RM and perform sets of 8 to 12 repetitions to muscular failure. If a trainee can perform more than 12 repetitions, the stimulus has shifted from strength toward muscular endurance, indicating that weight resistance should be increased.",
+                "criteria": [
+                    "Specify high resistance / low reps at 75-80% of 1RM.",
+                    "Specify 8 to 12 repetitions per set to muscular failure.",
+                    "Explain that completing >12 reps indicates a shift to endurance and requires increasing resistance load."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain the concept of agonist-antagonist training and describe the joint and tissue consequences of neglecting antagonist muscle groups.",
+                "model": "Agonist-antagonist training is an approach that systematically pairs exercises for primary working muscles (agonists) with opposing counteracting muscles (antagonists), such as pairing biceps curls with triceps extensions. Neglecting antagonists shortens agonist muscles and weakens antagonists, disrupting natural strength proportions surrounding joints. This shift alters joint positions and cartilage loading, predisposing articular cartilage, tendons, and muscles to disease and injury.",
+                "criteria": [
+                    "Define agonist-antagonist training with an example (e.g., biceps and triceps).",
+                    "Explain that neglecting antagonists shortens agonists and weakens antagonists.",
+                    "Describe joint consequences: altered strength proportions, impaired joint positions, and elevated injury risk."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which equipment modalities can be incorporated into resistance strength training according to Section 15.3?",
+                "opts": [
+                    "Free weights, strength-training machines, body weight, and medicine balls",
+                    "Cardiovascular treadmills and cycle ergometers exclusively",
+                    "Passive massage chairs and sauna heat wraps",
+                    "Hydraulic water immersion tanks only"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.3 states that resistance or strength training can incorporate free weights, strength-training machines, body weight, medicine balls, and so on."
+            },
+            {
+                "id": 2,
+                "q": "How many different strength exercises might RECREATIONAL athletes incorporate to develop all-around muscular strength?",
+                "opts": [
+                    "More than 40 different strength exercises",
+                    "Only 1 single exercise per year",
+                    "Exactly 3 to 5 exercises",
+                    "8 to 12 exercises exclusively"
+                ],
+                "correct": 0,
+                "rationale": "Recreational athletes seeking all-around strength of as many muscle groups as possible may train using more than 40 different strength exercises."
+            },
+            {
+                "id": 3,
+                "q": "How many targeted exercises do COMPETITIVE athletes typically perform to develop sport-specific strength capacities?",
+                "opts": [
+                    "Only 3 to 5 exercises",
+                    "Over 100 exercises per workout",
+                    "Exactly 40 exercises",
+                    "Zero resistance exercises"
+                ],
+                "correct": 0,
+                "rationale": "Competitive athletes striving to develop sport- or event-specific strength capacities find it necessary to perform only 3 to 5 exercises."
+            },
+            {
+                "id": 4,
+                "q": "How many core exercises do Olympic WEIGHTLIFTERS customarily include in their regular training programs?",
+                "opts": [
+                    "8 to 12 different exercises",
+                    "1 to 2 exercises",
+                    "Over 50 exercises",
+                    "3 to 5 exercises"
+                ],
+                "correct": 0,
+                "rationale": "Weightlifters customarily include 8 to 12 different exercises in their regular training programs."
+            },
+            {
+                "id": 5,
+                "q": "Which athletic group uses the GREATEST number of exercises by far in their training regimens to target almost all muscles?",
+                "opts": [
+                    "Bodybuilders",
+                    "Competitive sprinters",
+                    "Olympic weightlifters",
+                    "Marathon runners"
+                ],
+                "correct": 0,
+                "rationale": "In comparison, bodybuilders use the greatest number of exercises by far in their training regimens, as they wish to target almost all muscles of the body."
+            },
+            {
+                "id": 6,
+                "q": "What primary factor dictates the choice of exercise variety and session structure in a strength program?",
+                "opts": [
+                    "The overall goal and specific demands of the athlete or participant",
+                    "The time of day the facility opens",
+                    "The color of the weight plates",
+                    "The athlete's blood pressure prior to exercise"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that exercise variety depends on the overall goal (e.g., all-around fitness vs. sport-specific performance vs. hypertrophy)."
+            },
+            {
+                "id": 7,
+                "q": "In the leg press machine example, what resistance load and repetition range are specified for strength building?",
+                "opts": [
+                    "75 to 80 percent of 1RM for 8 to 12 repetitions",
+                    "10 percent of 1RM for 100 repetitions",
+                    "50 percent of 1RM for 1 repetition",
+                    "95 percent of 1RM for 30 repetitions"
+                ],
+                "correct": 0,
+                "rationale": "The leg press example in the text explicitly uses a resistance of 75 to 80 percent of 1RM for sets of 8 to 12 repetitions."
+            },
+            {
+                "id": 8,
+                "q": "Why do competitive athletes perform fewer total exercises (3 to 5) compared to recreational athletes (>40)?",
+                "opts": [
+                    "To concentrate effort on sport-specific movement patterns and maximize transfer to performance",
+                    "Because competitive athletes lack physical endurance to perform more than 5 exercises",
+                    "Because competitive rules limit athletes to 3 exercises per week",
+                    "Because 3 to 5 exercises take 12 hours to complete"
+                ],
+                "correct": 0,
+                "rationale": "Competitive athletes focus on a small selection of 3 to 5 exercises to concentrate neural drive on movement patterns that transfer directly to their sport."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which statements accurately reflect exercise variety across athletic populations in Section 15.3? (Select all that apply)",
+                "opts": [
+                    "Recreational athletes may use over 40 exercises for all-around strength.",
+                    "Competitive athletes focus on 3 to 5 sport-specific exercises.",
+                    "Weightlifters customarily use 8 to 12 core exercises.",
+                    "Bodybuilders use the greatest number of exercises by far to target all muscle groups."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four statements represent exact textbook statistics regarding exercise variety across populations."
+            },
+            {
+                "id": 2,
+                "q": "Which equipment modalities are listed in Section 15.3 for resistance training? (Select all that apply)",
+                "opts": [
+                    "Free weights (barbells, dumbbells)",
+                    "Strength-training machines (e.g., leg press)",
+                    "Body weight",
+                    "Medicine balls"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Free weights, strength-training machines, body weight, and medicine balls are all explicitly listed."
+            },
+            {
+                "id": 3,
+                "q": "Which characteristics apply to strength program design for competitive athletes? (Select all that apply)",
+                "opts": [
+                    "Selection of 3 to 5 concentrated exercises",
+                    "Focus on developing sport- or event-specific strength capacities",
+                    "Targeting movement patterns that transfer directly to competition",
+                    "Using over 40 different exercises in every individual workout"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Competitive athletes use 3-5 sport-specific exercises. Using >40 exercises describes recreational athletes across a program."
+            },
+            {
+                "id": 4,
+                "q": "Which principles guide exercise order and selection within a training session? (Select all that apply)",
+                "opts": [
+                    "Variety depends on the overall training goal.",
+                    "Heavy compound movements targeting sport skills are prioritized for athletes.",
+                    "Exercises should be repeated to muscular failure within 8 to 12 repetitions for strength.",
+                    "All athletes must perform identical exercise routines regardless of goals."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Variety depends on goals, sport skills are prioritized, and strength sets target failure in 8-12 reps. Routines vary by population."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Recreational athletes seeking all-around strength may train using more than 40 different strength exercises.",
+                "ans": true,
+                "feedback": "True. Recreational athletes use broad variety (>40 exercises) to target all major muscle groups."
+            },
+            {
+                "id": 2,
+                "q": "Competitive athletes striving for sport-specific strength perform 40 to 50 exercises per workout.",
+                "ans": false,
+                "feedback": "False. Competitive athletes perform only 3 to 5 concentrated exercises matching their sport demands."
+            },
+            {
+                "id": 3,
+                "q": "Bodybuilders use the greatest number of exercises by far in their training regimens.",
+                "ans": true,
+                "feedback": "True. Bodybuilders use extensive exercise variety to isolate and hypertrophy all individual muscle groups."
+            },
+            {
+                "id": 4,
+                "q": "Weightlifters customarily include 8 to 12 different exercises in their regular training programs.",
+                "ans": true,
+                "feedback": "True. Weightlifters focus on 8 to 12 core competitive and assistance exercises."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Competitive athletes focus on **3 to 5 exercises** for sport specificity, whereas recreational athletes may train with over **40 exercises**.",
+                "targets": [
+                    "3 to 5 exercises",
+                    "40 exercises"
+                ],
+                "optionsBank": [
+                    "3 to 5 exercises",
+                    "40 exercises",
+                    "100 exercises",
+                    "1 exercise",
+                    "12 exercises"
+                ],
+                "hint": "The exercise variety count for competitive vs. recreational athletes."
+            },
+            {
+                "id": 2,
+                "statement": "**Bodybuilders** use the greatest exercise variety by far, while **weightlifters** customarily use 8 to 12 core exercises.",
+                "targets": [
+                    "Bodybuilders",
+                    "weightlifters"
+                ],
+                "optionsBank": [
+                    "Bodybuilders",
+                    "weightlifters",
+                    "Sprinters",
+                    "Gymnasts",
+                    "Marathoners"
+                ],
+                "hint": "The group seeking total muscle hypertrophy vs. the group performing snatch / clean & jerk."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Compare the exercise variety strategies used by recreational athletes, competitive athletes, weightlifters, and bodybuilders as outlined in Section 15.3.",
+                "model": "Recreational athletes use broad variety (>40 exercises) to build all-around strength across all muscle groups. Competitive athletes use a concentrated selection of 3 to 5 exercises focused on sport-specific movement transfer. Weightlifters include 8 to 12 core exercises focused on competition lifts and assistance movements. Bodybuilders use the greatest number of exercises by far to target and isolate almost all body muscles for aesthetic development.",
+                "criteria": [
+                    "State recreational athletes use >40 exercises for all-around strength.",
+                    "State competitive athletes use 3 to 5 concentrated exercises for sport-specific transfer.",
+                    "State weightlifters use 8 to 12 exercises and bodybuilders use the greatest number by far."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "List four equipment modalities used in resistance training and explain why a competitive athlete performs fewer total exercises than a recreational athlete.",
+                "model": "Resistance equipment modalities include free weights, strength-training machines, body weight, and medicine balls. A competitive athlete performs fewer exercises (3 to 5) than a recreational athlete (>40) because competitive athletes focus specifically on movements that mirror their sport's biomechanics to maximize positive transfer, whereas recreational athletes aim for general all-around fitness across all muscle groups.",
+                "criteria": [
+                    "List free weights, machines, body weight, and medicine balls.",
+                    "Contrast competitive athlete focus (3-5 sport-specific exercises) with recreational focus (>40 exercises for all-around fitness).",
+                    "Explain that sport specificity drives the concentrated selection in competitive athletes."
+                ]
+            }
+        ]
+    },
+    "p4": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which clinical device is one of the most common tools used to measure overall static muscular strength?",
+                "opts": [
+                    "Grip dynamometer",
+                    "Skinfold caliper",
+                    "Electrocardiogram (ECG)",
+                    "Goniometer"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that grip dynamometers are one of the most common devices used to measure overall muscular strength."
+            },
+            {
+                "id": 2,
+                "q": "How is One Repetition Maximum (1RM) defined in Section 15.3?",
+                "opts": [
+                    "The maximum weight or resistance that can be moved in a single maximum effort of a particular exercise",
+                    "The number of repetitions completed in 60 seconds using a 5 kg weight",
+                    "The average resistance lifted across 10 consecutive sets",
+                    "The time in seconds required to complete 10 push-ups"
+                ],
+                "correct": 0,
+                "rationale": "One Repetition Maximum (1RM) is defined as the amount of weight that can be moved in a single maximum effort of a particular exercise."
+            },
+            {
+                "id": 3,
+                "q": "Which of the following is cited as a primary application for determining 1RM in a strength program?",
+                "opts": [
+                    "To determine starting resistance in a training program, compare against norms, and track improvement",
+                    "To measure passive flexibility in hamstrings",
+                    "To calculate daily caloric intake and protein balance",
+                    "To evaluate resting lung volume and cardiac output"
+                ],
+                "correct": 0,
+                "rationale": "The text states 1RM testing is used to determine starting resistance in a training program, to compare strength against norms, and to track improvement."
+            },
+            {
+                "id": 4,
+                "q": "What type of muscle contraction is evaluated when using a handgrip dynamometer?",
+                "opts": [
+                    "Static isometric contraction",
+                    "Dynamic concentric contraction",
+                    "Dynamic eccentric contraction",
+                    "Isokinetic constant velocity rotation"
+                ],
+                "correct": 0,
+                "rationale": "Grip dynamometry measures static (isometric) force output without joint rotation."
+            },
+            {
+                "id": 5,
+                "q": "How does 1RM testing assist in prescribing training intensity for an athlete?",
+                "opts": [
+                    "It allows mathematical calculation of specific training percentages, such as 75 to 80 percent of 1RM for strength sets",
+                    "It eliminates the need for resistance weights during workouts",
+                    "It automatically determines the athlete's maximum heart rate",
+                    "It mandates that all training sets be performed at 100 percent 1RM daily"
+                ],
+                "correct": 0,
+                "rationale": "Establishing 1RM provides a baseline value from which coaches calculate training workloads (e.g., 75-80% of 1RM for an 8-12 rep set)."
+            },
+            {
+                "id": 6,
+                "q": "Why is proper form essential during 1RM strength testing?",
+                "opts": [
+                    "To ensure safety and accurately isolate the force capacity of the target muscle group",
+                    "To reduce the weight lifted to zero kg",
+                    "To prevent the testing session from lasting longer than 2 seconds",
+                    "Because improper form automatically disqualifies an athlete from all sports"
+                ],
+                "correct": 0,
+                "rationale": "Proper form ensures participant safety under maximal loads and prevents momentum or secondary muscle compensation from distorting test accuracy."
+            },
+            {
+                "id": 7,
+                "q": "How can 1RM scores be adjusted to allow fair strength comparisons between individuals of different body sizes?",
+                "opts": [
+                    "By dividing 1RM score by total body mass to calculate relative 1RM",
+                    "By multiplying 1RM score by height in inches",
+                    "By subtracting age in years from 1RM score",
+                    "By measuring resting heart rate after testing"
+                ],
+                "correct": 0,
+                "rationale": "Dividing 1RM by body mass yields relative strength (1RM / Mass), enabling fair comparisons across different weight categories."
+            },
+            {
+                "id": 8,
+                "q": "What role does periodic 1RM re-testing play during a multi-week resistance training program?",
+                "opts": [
+                    "It quantifies longitudinal strength gains and evaluates the effectiveness of the training program",
+                    "It replaces the need for recovery rest days",
+                    "It forces the athlete to regress to beginner strength levels",
+                    "It prevents muscle hypertrophy from occurring"
+                ],
+                "correct": 0,
+                "rationale": "Periodic 1RM re-testing allows coaches to track improvement over time and adjust training loads as the athlete adapts."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which primary reasons for conducting 1RM strength testing are listed in Section 15.3? (Select all that apply)",
+                "opts": [
+                    "To determine starting resistance in a training program",
+                    "To compare strength against normative standards",
+                    "To track strength improvement over time",
+                    "To measure maximal oxygen uptake (VO2max)"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Section 15.3 explicitly lists determining starting resistance, comparing against norms, and tracking improvement. VO2max measures aerobic capacity."
+            },
+            {
+                "id": 2,
+                "q": "Which statements regarding grip dynamometry are correct? (Select all that apply)",
+                "opts": [
+                    "It is one of the most common devices used to measure overall muscular strength.",
+                    "It measures static (isometric) force output.",
+                    "It evaluates grip and forearm flexor strength.",
+                    "It requires moving heavy barbells through a full range of motion."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Grip dynamometry is common, static/isometric, and measures grip/forearm force. Moving barbells through ROM describes 1RM testing."
+            },
+            {
+                "id": 3,
+                "q": "Which parameters define a valid 1RM test attempt? (Select all that apply)",
+                "opts": [
+                    "Maximum weight moved in a single effort",
+                    "Execution through a full range of motion",
+                    "Maintenance of proper biomechanical form",
+                    "Performing 20 continuous repetitions without stopping"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "1RM is a single maximal effort through full ROM with proper form. 20 continuous reps evaluates muscular endurance."
+            },
+            {
+                "id": 4,
+                "q": "How do exercise physiologists utilize 1RM testing data? (Select all that apply)",
+                "opts": [
+                    "Calculating workload percentages (e.g., 75-80% 1RM for strength sets)",
+                    "Calculating relative strength ratios (1RM / body mass)",
+                    "Evaluating longitudinal strength gains across training cycles",
+                    "Diagnosing cardiac arrhythmias during maximal exertion"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "1RM data is used for workload calculation, relative strength ratios, and tracking gains. Arrhythmias are diagnosed via ECG."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Grip dynamometers are one of the most common devices used to measure overall muscular strength.",
+                "ans": true,
+                "feedback": "True. Grip dynamometry is a widely used clinical assessment for overall static muscular strength."
+            },
+            {
+                "id": 2,
+                "q": "One Repetition Maximum (1RM) represents the maximum weight a person can lift for 10 repetitions.",
+                "ans": false,
+                "feedback": "False. 1RM represents the maximum weight moved in a single maximal effort."
+            },
+            {
+                "id": 3,
+                "q": "1RM testing can be used to determine the starting resistance in a strength training program.",
+                "ans": true,
+                "feedback": "True. Establishing baseline 1RM allows precise calculation of training loads (e.g., 75-80% of 1RM)."
+            },
+            {
+                "id": 4,
+                "q": "Grip dynamometry evaluates dynamic concentric muscle shortening through a full joint rotation.",
+                "ans": false,
+                "feedback": "False. Grip dynamometry measures static (isometric) force without joint rotation."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Static grip strength is measured with a **grip dynamometer**, whereas dynamic maximum strength uses **one repetition maximum**.",
+                "targets": [
+                    "grip dynamometer",
+                    "one repetition maximum"
+                ],
+                "optionsBank": [
+                    "grip dynamometer",
+                    "one repetition maximum",
+                    "skin-fold caliper",
+                    "heart rate monitor",
+                    "spirometer"
+                ],
+                "hint": "The clinical handheld device vs. the single max lift assessment."
+            },
+            {
+                "id": 2,
+                "statement": "Evaluating **1RM** allows coaches to set starting resistance, compare against **norms**, and track progress.",
+                "targets": [
+                    "1RM",
+                    "norms"
+                ],
+                "optionsBank": [
+                    "1RM",
+                    "norms",
+                    "BMR",
+                    "somatotypes",
+                    "lactate threshold"
+                ],
+                "hint": "The maximum lift metric and standardized population averages."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define One Repetition Maximum (1RM) and state three primary reasons why exercise specialists conduct 1RM testing.",
+                "model": "One Repetition Maximum (1RM) is the maximum weight or resistance that an individual can move in a single maximum effort of a particular exercise through a full range of motion with proper form. Exercise specialists conduct 1RM testing to: (1) determine starting resistance loads for a training program, (2) compare an individual's strength against age/sex normative standards, and (3) track longitudinal strength improvements over time.",
+                "criteria": [
+                    "Define 1RM (maximum weight moved in a single effort through full ROM).",
+                    "State Reason 1: determine starting resistance/workloads.",
+                    "State Reason 2: compare strength against normative standards.",
+                    "State Reason 3: track progress/improvements over time."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Compare grip dynamometry testing with 1RM testing in terms of contraction type, equipment used, and primary application.",
+                "model": "Grip dynamometry measures static (isometric) force output using a handheld grip dynamometer, serving as a quick clinical screening tool for overall static strength. In contrast, 1RM testing evaluates dynamic (concentric/eccentric) force output using resistance equipment (e.g., barbells or leg press), measuring the maximum weight moved in a single effort to prescribe specific training percentages and evaluate dynamic muscle group performance.",
+                "criteria": [
+                    "Compare contraction types: grip dynamometry is static (isometric), 1RM is dynamic.",
+                    "Compare equipment: handheld dynamometer vs. resistance equipment (barbells/machines).",
+                    "Compare applications: general static strength screening vs. prescribing dynamic training loads and tracking progress."
+                ]
+            }
+        ]
+    }
+}

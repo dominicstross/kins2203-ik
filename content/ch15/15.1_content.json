@@ -1,0 +1,102 @@
+{
+    "meta": {
+        "course": "IK - KINS 2203 Introduction to Kinesiology",
+        "chapter": "15",
+        "section": "15.1",
+        "ch": "15",
+        "mod": "15.1",
+        "moduleTitle": "15.1 FITT Principle"
+    },
+    "pages": [
+        {
+            "id": "p1",
+            "title": "Part 1: Foundations of Physical Fitness and the FITT Framework",
+            "sampleCounts": {
+                "mcq": 2,
+                "ms": 2,
+                "tf": 2,
+                "cloze": 2,
+                "sa": 1
+            },
+            "readingHtml": "<h2>Physical Fitness as a Way of Life</h2><p>Physical fitness represents a comprehensive state of functional readiness and physiological effectiveness required to meet the demands and stresses of daily living, occupational tasks, and physical activity. Far from being a static or narrow concept, physical fitness encompasses multiple interconnected dimensions—including physical, emotional, social, and intellectual health. Achieving and maintaining physical fitness is a controllable, dynamic process directly dictated by the frequency, volume, and intensity of habitual exercise.</p><p>A well-structured exercise program targets the five health-related components of physical fitness: <strong>muscular strength</strong>, <strong>muscular endurance</strong>, <strong>cardiorespiratory endurance</strong>, <strong>flexibility</strong>, and <strong>body composition</strong>. Regular physical activity delivers extensive physiological benefits, including body weight regulation, stress management, immune system enhancement, and protection against chronic metabolic and cardiovascular diseases. Furthermore, general physical fitness provides the vital physiological foundation required for athletes to develop high-level, sport-specific fitness capabilities.</p><h2>The FITT Principle Design Framework</h2><p>To maximize fitness adaptation while minimizing the risk of overtraining or injury, exercise programs must adhere to established kinesiological training principles. The <strong>FITT principle</strong> serves as an essential design acronym representing the four core parameters of any exercise prescription:</p><ul><li><strong>Frequency:</strong> How often an individual engages in exercise sessions per week (\\(2 - 3\\text{ to } 4 - 6\\text{ sessions/week}\\)).</li><li><strong>Intensity:</strong> The physiological workload or exertion level required during training (\\(50\\% - 85\\%\\text{ predicted HR}_{max}\\)).</li><li><strong>Time:</strong> The total duration devoted to an individual workout session and overall training volume.</li><li><strong>Type:</strong> The specific category or mode of physical activity performed (formal vs. informal exercises).</li></ul><table class=\"data-table\"><thead><tr><th>FITT Component</th><th>Core Definition</th><th>Primary Measurement Unit</th><th>Kinesiological Application</th></tr></thead><tbody><tr><td><strong>Frequency</strong></td><td>Number of exercise sessions per week</td><td>Days/week or sessions/week</td><td>\\(2 - 3\\text{ days}\\) (Maintenance) vs. \\(4 - 6\\text{ days}\\) (Improvement)</td></tr><tr><td><strong>Intensity</strong></td><td>Degree of physiological exertion/stress</td><td>\\(\\%\\text{ HR}_{max}\\), resistance (kg), speed</td><td>Target zone (\\(50\\% - 85\\%\\text{ HR}_{max}\\)), work-to-rest ratio (\\(1:2\\))</td></tr><tr><td><strong>Time</strong></td><td>Duration and total volume of exercise</td><td>Minutes/session, total distance, reps</td><td>Session length and weekly training volume metrics</td></tr><tr><td><strong>Type</strong></td><td>Specific exercise modality or activity mode</td><td>Categorical activity classification</td><td>Formal fitness (jogging, weights) vs. informal (street hockey)</td></tr></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>When designing exercise prescriptions for both clinical populations and competitive athletes, exercise physiologists utilize the FITT framework as a systematic structure. By adjusting one FITT variable at a time—such as increasing training frequency before escalating intensity—coaches ensure progressive overload while safeguarding joint structures and cardiovascular health.</p></div>"
+        },
+        {
+            "id": "p2",
+            "title": "Part 2: Training Frequency and Training Intensity",
+            "sampleCounts": {
+                "mcq": 2,
+                "ms": 2,
+                "tf": 2,
+                "cloze": 2,
+                "sa": 1
+            },
+            "readingHtml": "<h2>Training Frequency Guidelines</h2><p><strong>Training frequency</strong> is defined as the number of exercise sessions completed within a given weekly time frame. Optimal training frequency is individually determined based upon the participant's specific training goals, baseline fitness level, physical capabilities, and sport requirements:</p><ul><li><strong>Maintenance Goal:</strong> Performing \\(2 - 3\\text{ training sessions per week}\\) is sufficient to maintain an established level of physical fitness.</li><li><strong>Improvement Goal:</strong> Performing \\(4 - 6\\text{ training sessions per week}\\) is recommended to stimulate progressive physiological adaptation and elevate physical fitness levels.</li></ul><h2>Quantifying Training Intensity</h2><p><strong>Training intensity</strong> represents the physiological effort or mechanical workload required during physical activity. To induce adaptive cardiovascular or musculoskeletal remodeling, exercise must meet or exceed a specific intensity threshold. Methods for monitoring and quantifying training intensity vary across fitness components:</p><ul><li><strong>Cardiorespiratory Endurance:</strong> Monitored via heart rate or pulse rate, targeting \\(50\\% - 85\\%\\) of predicted maximum heart rate (\\(\\text{HR}_{max}\\)).</li><li><strong>Muscular Strength & Endurance:</strong> Quantified by resistance overcome (kilograms or pounds), total repetitions, movement velocity, or percentage of maximum performance effort (\\(\\text{1RM}\\)).</li></ul><h2>Work-to-Rest Ratios and Fatigue Recovery</h2><p>Training intensity directly dictates the required recovery interval between exercise bouts. Intensity considerations include the <strong>work-to-rest ratio</strong>—such as a \\(1:2\\text{ ratio}\\), where the rest phase is twice the duration of the work phase. Rest intervals allow for cellular energy substrate replenishment and recovery from muscular fatigue. Lower-intensity exercise requires shorter rest periods, whereas high-intensity exertion demands extended rest intervals.</p><table class=\"data-table\"><thead><tr><th>Training Parameter</th><th>Target Goal / Fitness Domain</th><th>Recommended Metric / Range</th><th>Physiological Rationale</th></tr></thead><tbody><tr><td><strong>Frequency (Maintenance)</strong></td><td>Preserving current fitness level</td><td>\\(2 - 3\\text{ sessions/week}\\)</td><td>Prevents detraining while allowing full recovery</td></tr><tr><td><strong>Frequency (Improvement)</strong></td><td>Elevating fitness capacity</td><td>\\(4 - 6\\text{ sessions/week}\\)</td><td>Provides repeated stimulus for progressive adaptation</td></tr><tr><td><strong>Intensity (Cardiorespiratory)</strong></td><td>Aerobic conditioning</td><td>\\(50\\% - 85\\%\\text{ predicted HR}_{max}\\)</td><td>Stimulates cardiac output and aerobic enzyme activity</td></tr><tr><td><strong>Work-to-Rest Ratio</strong></td><td>Interval training recovery</td><td>\\(1:2\\text{ (Work : Rest)}\\)</td><td>Allows phosphagen replenishment and lactate clearance</td></tr></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>In prescription for high-intensity interval training (HIIT), managing the work-to-rest ratio is paramount. A \\(1:2\\text{ work-to-rest ratio}\\) (\\(30\\text{ seconds work} : 60\\text{ seconds rest}\\)) ensures that ATP-PCr and glycolytic energy stores partially recover, allowing the athlete to maintain high power output across successive exercise sets without premature neuromuscular exhaustion.</p></div>"
+        },
+        {
+            "id": "p3",
+            "title": "Part 3: Training Time and Training Volume",
+            "sampleCounts": {
+                "mcq": 2,
+                "ms": 2,
+                "tf": 2,
+                "cloze": 2,
+                "sa": 1
+            },
+            "readingHtml": "<h2>Training Time and Duration</h2><p><strong>Training time</strong> refers to the total temporal duration devoted to developing physical fitness within an individual training session or across a training week. The required duration of an exercise session is inversely related to training intensity: high-intensity workouts achieve physiological adaptation in shorter time frames, whereas low-to-moderate intensity activities require longer duration to achieve equivalent metabolic expenditure.</p><h2>Quantifying Training Volume Across Exercise Modalities</h2><p><strong>Training volume</strong> is an essential dimension of training time that quantifies the total quantity of work performed. The metrics used to measure training volume depend directly upon the movement classification:</p><ul><li><strong>Cyclic Movements:</strong> In repetitive, continuous sports (e.g., walking, running, swimming, kayaking, rowing), training volume is measured as total distance covered in a single workout or accumulated over a training week (e.g., kilometers or miles).</li><li><strong>Resistance Training:</strong> In strength and conditioning programs, training volume is quantified using four distinct methods: <ol><li>Total number of repetitions of a specific exercise.</li><li>Total number of repetitions accumulated across an entire workout.</li><li>Total resistance load moved (\\(\\text{Weight} \\times \\text{Reps} \\times \\text{Sets}\\)).</li><li>Total number of completed circuit rounds.</li></ol></li></ul><table class=\"data-table\"><thead><tr><th>Movement Classification</th><th>Activity Examples</th><th>Primary Volume Measurement Units</th></tr></thead><tbody><tr><td><strong>Cyclic / Continuous Activities</strong></td><td>Running, swimming, cycling, rowing, kayaking</td><td>Total distance per session or per week (km or miles)</td></tr><tr><td><strong>Resistance / Strength Training</strong></td><td>Weightlifting, machine resistance, bodyweight circuits</td><td>Total repetitions, total resistance load moved (kg), completed circuits</td></tr></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>Accurate volume tracking is critical for preventing overuse injuries such as tendonitis or stress fractures in endurance athletes and weightlifters. By monitoring total weekly running distance or total weekly resistance tonnage (load \\(\\times\\) reps), coaches ensure that volume increases progressively (typically \\(\\le 10\\%\\text{ per week}\\)) to allow structural connective tissue remodeling.</p></div>"
+        },
+        {
+            "id": "p4",
+            "title": "Part 4: Type of Activity: Formal versus Informal Fitness",
+            "sampleCounts": {
+                "mcq": 2,
+                "ms": 2,
+                "tf": 2,
+                "cloze": 2,
+                "sa": 1
+            },
+            "readingHtml": "<h2>Categorizing Physical Activity Modes</h2><p>The final element of the FITT framework is the <strong>type of activity</strong>, which refers to the specific mode or category of exercise performed. Selecting appropriate exercise modalities ensures that physical activity aligns with an individual's personal preferences, lifestyle, and fitness objectives. Physical activities are broadly categorized into formal and informal fitness activities:</p><h2>Formal Fitness Activities</h2><p><strong>Formal fitness activities</strong> are structured, intentional exercise programs where the primary explicit goal is the development or maintenance of physical fitness. Characteristics include planned exercise structure, targeted conditioning goals, and structured environments. Examples include circuit training, group fitness classes, structured jogging, and weight training.</p><h2>Informal Fitness Activities</h2><p><strong>Informal fitness activities</strong> emphasize social engagement, recreation, cooperation, and fun as the main goals, with physical fitness improvements occurring as an enjoyable secondary by-product. Examples include pick-up street hockey, social dancing, three-on-three recreational basketball, and mall walking.</p><h2>Subjective Intent and Goal Setting</h2><p>The classification of an activity as formal or informal often depends upon the subjective intent of the participant. For instance, one individual may engage in mall walking or street hockey with the explicit formal intent of elevating cardiorespiratory fitness, whereas another participant joins the exact same activity purely to socialize and build friendships. Regardless of the activity type chosen, setting specific, measurable goals is essential for maximizing the training experience and sustaining long-term exercise adherence.</p><table class=\"data-table\"><thead><tr><th>Activity Classification</th><th>Primary Explicit Goal</th><th>Secondary By-Product</th><th>Representative Activity Examples</th></tr></thead><tbody><tr><td><strong>Formal Fitness Activities</strong></td><td>Physical fitness development & physical conditioning</td><td>Social enjoyment, stress relief</td><td>Circuit training, weight training, group fitness, structured jogging</td></tr><tr><td><strong>Informal Fitness Activities</strong></td><td>Social interaction, camaraderie, fun, recreation</td><td>Physical fitness improvements, calorie expenditure</td><td>Pick-up street hockey, social dancing, 3-on-3 basketball, mall walking</td></tr></tbody></table><div class=\"callout-box\"><div class=\"callout-title\">Clinical / Coaching Application</div><p>To promote lifelong physical activity adherence, exercise specialists recommend incorporating a blend of both formal and informal fitness activities. While formal weight training and structured aerobic exercise optimize physiological parameters, informal team sports and recreational activities foster social connection and psychological rejuvenation, preventing exercise burnout.</p></div>"
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Physical Fitness",
+            "def": "The functional readiness and level of physiological effectiveness required to adapt to the demands and stresses of daily life and physical activity."
+        },
+        {
+            "term": "FITT Principle",
+            "def": "A foundational exercise prescription framework outlining the four key design elements of a training program: Frequency, Intensity, Time, and Type."
+        },
+        {
+            "term": "Training Frequency",
+            "def": "The number of exercise sessions completed within a specific time frame, typically measured per week."
+        },
+        {
+            "term": "Training Intensity",
+            "def": "The degree of physiological effort, workload, or exertion required during physical activity."
+        },
+        {
+            "term": "Target Heart Rate Zone",
+            "def": "The recommended aerobic intensity range, calculated as 50 percent to 85 percent of an individual's predicted maximum heart rate."
+        },
+        {
+            "term": "Work-to-Rest Ratio",
+            "def": "The proportional relationship between the duration of an exercise work phase and the subsequent recovery rest phase."
+        },
+        {
+            "term": "Training Time",
+            "def": "The temporal duration devoted to an individual workout session or accumulated across a training period."
+        },
+        {
+            "term": "Training Volume",
+            "def": "The total quantity of work performed, measured in distance for cyclic activities or resistance load/repetitions for strength training."
+        },
+        {
+            "term": "Formal Fitness Activities",
+            "def": "Structured physical exercises performed with the primary explicit goal of improving or maintaining physical fitness."
+        },
+        {
+            "term": "Informal Fitness Activities",
+            "def": "Recreational physical activities engaged in primarily for social enjoyment, fun, and camaraderie, where physical fitness is a secondary benefit."
+        }
+    ]
+}

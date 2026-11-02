@@ -1,0 +1,746 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How is muscular endurance defined in Section 15.4?",
+                "opts": [
+                    "The ability of a muscle or muscle group to sustain a given level of force repeatedly at a given resistance",
+                    "The total maximum force a muscle can generate in a single 1RM effort",
+                    "The maximum speed of joint rotation during explosive acceleration",
+                    "The total passive range of motion available at a skeletal articulation"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly defines muscular endurance as the ability of a muscle or muscle group to sustain a given level of force repeatedly at a given resistance."
+            },
+            {
+                "id": 2,
+                "q": "Which type of exercise involves sustained muscle contractions without joint movement to keep the body in position?",
+                "opts": [
+                    "Static exercises",
+                    "Dynamic concentric exercises",
+                    "Isokinetic constant velocity exercises",
+                    "Plyometric stretch-shortening exercises"
+                ],
+                "correct": 0,
+                "rationale": "Static exercises involve sustained contractions without movement to keep the body in position, such as the flexed arm hang."
+            },
+            {
+                "id": 3,
+                "q": "What physiological accumulation occurs during static contractions, causing a strong burning sensation and rapid fatigue?",
+                "opts": [
+                    "Lactic acid accumulation",
+                    "Mitochondrial oxygen saturation",
+                    "Creatine phosphate synthesis",
+                    "Muscle glycogen overload"
+                ],
+                "correct": 0,
+                "rationale": "During static contractions, restricted blood flow causes lactic acid to accumulate, generating a strong burning sensation and rapid fatigue."
+            },
+            {
+                "id": 4,
+                "q": "How do dynamic exercises delay muscular fatigue compared to static exercises?",
+                "opts": [
+                    "Continual rhythmical contractions and relaxations allow continuous delivery of oxygen to the working muscles",
+                    "Dynamic exercises eliminate all muscle fiber recruitment",
+                    "Dynamic exercises bypass anaerobic glycolysis completely",
+                    "Dynamic exercises convert skeletal muscle into connective tissue"
+                ],
+                "correct": 0,
+                "rationale": "Continual rhythmical contractions and relaxations in dynamic exercise permit ongoing blood flow and oxygen delivery, delaying fatigue."
+            },
+            {
+                "id": 5,
+                "q": "Which exercise example is explicitly cited in Section 15.4 as an illustration of a static exercise?",
+                "opts": [
+                    "Flexed arm hang",
+                    "Distance running",
+                    "Cross-country skiing",
+                    "Cycling laps"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly names the flexed arm hang as an example of a static exercise involving sustained contractions."
+            },
+            {
+                "id": 6,
+                "q": "What critical physiological role does blood delivery play during sustained muscular exertion?",
+                "opts": [
+                    "Delivering oxygen to working muscles, reducing fatigue depending on exercise intensity",
+                    "Filtering joint fluid to prevent ligament swelling",
+                    "Transporting calcium ions directly into the bone cortex",
+                    "Eliminating the need for cardiac output"
+                ],
+                "correct": 0,
+                "rationale": "Blood delivery supplies oxygen to active muscles, delaying fatigue depending on exercise intensity."
+            },
+            {
+                "id": 7,
+                "q": "Which component of physical fitness must work in close conjunction with leg muscular endurance during prolonged cycling?",
+                "opts": [
+                    "Cardiorespiratory endurance",
+                    "Absolute flexibility",
+                    "Subcutaneous somatotype rating",
+                    "Static grip strength"
+                ],
+                "correct": 0,
+                "rationale": "The text notes that while cycling requires leg muscular endurance, cardiorespiratory endurance is equally important to deliver blood to those muscles."
+            },
+            {
+                "id": 8,
+                "q": "Which sports activities are explicitly listed as involving BOTH large muscle group contractions for prolonged periods AND cardiorespiratory endurance?",
+                "opts": [
+                    "Distance running, cross-country skiing, cycling, and swimming",
+                    "Shot put, discus throw, 100m sprint, and vertical jump",
+                    "Powerlifting, bench press, and handgrip dynamometry",
+                    "Flexed arm hang, plank hold, and static wall sit"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.4 explicitly lists distance running, cross-country skiing, cycling, and swimming as exercises engaging large muscle groups for prolonged periods that rely on cardiorespiratory endurance."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which characteristics define static exercises according to Section 15.4? (Select all that apply)",
+                "opts": [
+                    "Involve sustained contractions to keep the body in position",
+                    "Flexed arm hang is a representative example",
+                    "Lactic acid accumulates, generating a burning sensation",
+                    "Continuous oxygen delivery prevents all fatigue"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Static exercises involve sustained contractions (e.g., flexed arm hang) where restricted blood flow leads to lactic acid accumulation and fatigue. Continuous oxygen delivery applies to dynamic exercises."
+            },
+            {
+                "id": 2,
+                "q": "Which physiological mechanisms distinguish dynamic exercises from static exercises? (Select all that apply)",
+                "opts": [
+                    "Involve continual rhythmical contractions and relaxations",
+                    "Allow continuous delivery of oxygen to working muscles",
+                    "Delay muscle fatigue and the burning sensation",
+                    "Completely prevent any lactic acid formation during max exertion"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Dynamic exercises feature alternating contraction/relaxation cycles that maintain oxygen delivery and delay fatigue."
+            },
+            {
+                "id": 3,
+                "q": "Which sports engage large muscle groups for prolonged periods, requiring both muscular endurance and cardiorespiratory endurance? (Select all that apply)",
+                "opts": [
+                    "Distance running",
+                    "Cross-country skiing",
+                    "Cycling",
+                    "Swimming"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Distance running, cross-country skiing, cycling, and swimming are all explicitly named in Section 15.4."
+            },
+            {
+                "id": 4,
+                "q": "Which factors directly influence fatigue development during sustained muscular work? (Select all that apply)",
+                "opts": [
+                    "Exercise intensity and contraction type (static vs. dynamic)",
+                    "The body's capacity to deliver oxygenated blood to working muscles",
+                    "Lactic acid accumulation during restricted blood flow",
+                    "Bone density and biological height"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Exercise intensity, contraction mode, blood/oxygen delivery, and lactic acid accumulation dictate fatigue rates in the textbook."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Muscular endurance is the ability of a muscle or muscle group to sustain a given level of force repeatedly at a given resistance.",
+                "ans": true,
+                "feedback": "True. This is the exact textbook definition provided in Section 15.4."
+            },
+            {
+                "id": 2,
+                "q": "Static exercises involve continual rhythmical contractions and relaxations that promote continuous oxygen delivery.",
+                "ans": false,
+                "feedback": "False. Dynamic exercises involve rhythmical contractions/relaxations; static exercises involve sustained holds that cause lactic acid accumulation."
+            },
+            {
+                "id": 3,
+                "q": "During static contractions like the flexed arm hang, lactic acid accumulates, causing a burning sensation and rapid fatigue.",
+                "ans": true,
+                "feedback": "True. Restricted blood flow during sustained static holds causes rapid lactic acid build-up."
+            },
+            {
+                "id": 4,
+                "q": "Cycling requires leg muscular endurance, but cardiorespiratory endurance is equally important to deliver oxygenated blood to active muscles.",
+                "ans": true,
+                "feedback": "True. The textbook emphasizes cardiorespiratory interplay during cycling and other prolonged activities."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Static exercises like the **flexed arm hang** cause **lactic acid** to accumulate, creating a burning sensation.",
+                "targets": [
+                    "flexed arm hang",
+                    "lactic acid"
+                ],
+                "optionsBank": [
+                    "flexed arm hang",
+                    "lactic acid",
+                    "distance running",
+                    "creatine phosphate",
+                    "glycogen depletion"
+                ],
+                "hint": "The static exercise hold example and the metabolic byproduct."
+            },
+            {
+                "id": 2,
+                "statement": "Dynamic exercises feature rhythmical contractions that maintain **oxygen delivery** and delay **muscle fatigue**.",
+                "targets": [
+                    "oxygen delivery",
+                    "muscle fatigue"
+                ],
+                "optionsBank": [
+                    "oxygen delivery",
+                    "muscle fatigue",
+                    "lactic acid accumulation",
+                    "joint friction",
+                    "bone remodeling"
+                ],
+                "hint": "The vascular benefit of alternating relaxation and the postponed outcome."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Compare static and dynamic exercises in terms of muscle contraction pattern, blood flow/oxygen delivery, and fatigue mechanisms.",
+                "model": "Static exercises involve sustained muscle contractions without movement (e.g., flexed arm hang), compressing local blood vessels, restricting oxygen delivery, and causing rapid lactic acid accumulation and fatigue. Dynamic exercises involve continual, rhythmical contraction and relaxation cycles, allowing continuous blood flow and oxygen delivery to active muscles, thereby delaying lactic acid accumulation and muscle fatigue.",
+                "criteria": [
+                    "Describe static exercises (sustained contraction, restricted blood flow, rapid lactic acid accumulation/fatigue).",
+                    "Describe dynamic exercises (rhythmical contraction/relaxation, continuous oxygen delivery).",
+                    "Explain how dynamic exercise delays fatigue compared to static holds."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain the interaction between local muscular endurance and systemic cardiorespiratory endurance during prolonged activities like distance running or cycling.",
+                "model": "During prolonged, large-muscle group activities like distance running, cross-country skiing, cycling, and swimming, local muscles require muscular endurance to repeatedly exert force against resistance. However, local muscular endurance depends directly on systemic cardiorespiratory endurance to pump and deliver oxygenated blood continuously to those working muscles, clearing metabolic waste and sustaining aerobic performance.",
+                "criteria": [
+                    "Identify sports requiring cardiorespiratory and muscular endurance interplay (running, cycling, swimming, skiing).",
+                    "Explain that local muscular endurance requires repeated force production.",
+                    "Describe how cardiorespiratory endurance supplies oxygenated blood to delay fatigue."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "What repetition range per set is specified in Section 15.4 for training muscular endurance?",
+                "opts": [
+                    "15 to 30 repetitions per set",
+                    "1 to 5 repetitions per set",
+                    "8 to 12 repetitions per set",
+                    "50 to 100 repetitions per set"
+                ],
+                "correct": 0,
+                "rationale": "The textbook specifies that when training for muscular endurance, resistance needs to be relatively low to allow for 15 to 30 repetitions per set."
+            },
+            {
+                "id": 2,
+                "q": "What resistance load requirement accompanies high-volume muscular endurance training?",
+                "opts": [
+                    "Resistance needs to be relatively low",
+                    "Resistance must be set at 95% of 1RM",
+                    "Resistance must be maximal on every set",
+                    "Resistance should be zero"
+                ],
+                "correct": 0,
+                "rationale": "To allow 15 to 30 repetitions, resistance must be kept relatively low."
+            },
+            {
+                "id": 3,
+                "q": "What occurs when a body-weight exercise (such as chin-ups or pull-ups) offers too much resistance for a trainee?",
+                "opts": [
+                    "Muscular strength is worked instead of muscular endurance",
+                    "Muscular endurance increases ten times faster",
+                    "The exercise converts into aerobic cardiorespiratory running",
+                    "The trainee undergoes rapid biological detraining"
+                ],
+                "correct": 0,
+                "rationale": "The text explains that when body weight offers too much resistance, muscular strength is worked instead of muscular endurance because the trainee cannot achieve the high repetition range."
+            },
+            {
+                "id": 4,
+                "q": "What relationship exists between repetition volume and resistance load variables when training for strength versus endurance?",
+                "opts": [
+                    "An inverse relationship: strength requires low volume/high resistance, whereas endurance requires high volume/low resistance",
+                    "A direct parallel relationship where strength and endurance use identical loads and reps",
+                    "An unpredictable random relationship with zero consistency",
+                    "Resistance and volume are always kept at maximum values simultaneously"
+                ],
+                "correct": 0,
+                "rationale": "Figure 15.2 and text detail an inverse relationship between repetition volume and resistance load."
+            },
+            {
+                "id": 5,
+                "q": "Which common conditioning method is explicitly highlighted in Section 15.4 as a primary structure for training muscular endurance?",
+                "opts": [
+                    "Circuit training",
+                    "Heavy 1RM powerlifting",
+                    "Static grip dynamometry",
+                    "Sub-threshold aerobic walking"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly highlights circuit training as a common method of training for muscular endurance."
+            },
+            {
+                "id": 6,
+                "q": "Which activities are listed as body-weight resistance training exercises for muscular endurance in the text?",
+                "opts": [
+                    "Chin-ups, pull-ups, and push-ups",
+                    "Bench press, leg press, and deadlift",
+                    "Flexed arm hang, plank hold, and wall sit",
+                    "Grip dynamometer squeeze and finger tapping"
+                ],
+                "correct": 0,
+                "rationale": "Chin-ups, pull-ups, and push-ups are explicitly listed as body-weight resistance exercises."
+            },
+            {
+                "id": 7,
+                "q": "Which equipment options can be used for resistance training to develop muscular endurance besides body weight?",
+                "opts": [
+                    "Free weights or exercise machines",
+                    "Aerobic treadmills exclusively",
+                    "Grip dynamometers exclusively",
+                    "Underwater pulse meters"
+                ],
+                "correct": 0,
+                "rationale": "The text lists free weights or exercise machines alongside body-weight exercises for endurance training."
+            },
+            {
+                "id": 8,
+                "q": "If an individual performs a set of leg presses for 25 repetitions to failure, which fitness component is primarily being targeted?",
+                "opts": [
+                    "Muscular endurance",
+                    "Maximal 1RM muscular strength",
+                    "Joint flexibility",
+                    "Body composition somatotype"
+                ],
+                "correct": 0,
+                "rationale": "Performing 15 to 30 repetitions places the exercise squarely in the muscular endurance training zone."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which training methods are common for developing muscular endurance according to Section 15.4? (Select all that apply)",
+                "opts": [
+                    "Circuit training",
+                    "Resistance training using free weights or exercise machines",
+                    "Moving body weight during chin-ups, pull-ups, and push-ups",
+                    "Single-repetition maximum 1RM weightlifting"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Circuit training, free weights/machines, and body-weight calisthenics (chin-ups, pull-ups, push-ups) are cited for endurance. 1RM weightlifting targets strength."
+            },
+            {
+                "id": 2,
+                "q": "Which rules govern loading and volume when targeting muscular endurance? (Select all that apply)",
+                "opts": [
+                    "Resistance must be relatively low.",
+                    "Target repetition range is 15 to 30 repetitions per set.",
+                    "An inverse relationship exists between resistance load and repetition volume.",
+                    "Heavy loads performed for 3 repetitions optimize muscular endurance."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Low load, 15-30 reps, and an inverse load-volume relationship characterize endurance training. Heavy loads with 3 reps target strength."
+            },
+            {
+                "id": 3,
+                "q": "Which body-weight exercises are explicitly named as muscular endurance training modalities in the text? (Select all that apply)",
+                "opts": [
+                    "Chin-ups",
+                    "Pull-ups",
+                    "Push-ups",
+                    "Bench press"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Chin-ups, pull-ups, and push-ups are explicitly named as body-weight endurance exercises in Section 15.4."
+            },
+            {
+                "id": 4,
+                "q": "What happens when an unconditioned individual attempts body-weight chin-ups and can only complete 4 repetitions? (Select all that apply)",
+                "opts": [
+                    "The body weight provides too much resistance for an endurance stimulus.",
+                    "The exercise trains muscular strength rather than muscular endurance.",
+                    "The repetition count falls below the 15 to 30 rep endurance target.",
+                    "The workout automatically becomes a static isometric hold."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Completing only 4 reps due to high body-weight resistance targets muscular strength, failing to reach the 15-30 rep endurance threshold."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "When training for muscular endurance, resistance needs to be relatively low to allow for 15 to 30 repetitions per set.",
+                "ans": true,
+                "feedback": "True. This is the explicit loading rule in Section 15.4."
+            },
+            {
+                "id": 2,
+                "q": "If body weight offers too much resistance during push-ups or chin-ups, muscular strength is worked instead of muscular endurance.",
+                "ans": true,
+                "feedback": "True. High resistance limits reps, shifting adaptation from endurance to strength."
+            },
+            {
+                "id": 3,
+                "q": "Circuit training is an effective method of training for muscular endurance.",
+                "ans": true,
+                "feedback": "True. The textbook highlights circuit training as a primary endurance method."
+            },
+            {
+                "id": 4,
+                "q": "Training for muscular endurance requires high resistance loads and low repetition volume per set.",
+                "ans": false,
+                "feedback": "False. Endurance requires low resistance and high repetition volume (15-30 reps); high resistance with low reps targets strength."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Muscular endurance training requires low resistance to complete **15 to 30 repetitions**, utilizing **circuit training** or body weight.",
+                "targets": [
+                    "15 to 30 repetitions",
+                    "circuit training"
+                ],
+                "optionsBank": [
+                    "15 to 30 repetitions",
+                    "circuit training",
+                    "1 to 5 repetitions",
+                    "1RM testing",
+                    "isometric holds"
+                ],
+                "hint": "The high-volume repetition target and the primary station-based conditioning method."
+            },
+            {
+                "id": 2,
+                "statement": "An **inverse relationship** exists between resistance load and repetition volume; excess body weight shifts training to **muscular strength**.",
+                "targets": [
+                    "inverse relationship",
+                    "muscular strength"
+                ],
+                "optionsBank": [
+                    "inverse relationship",
+                    "muscular strength",
+                    "direct parallel",
+                    "cardiorespiratory endurance",
+                    "flexibility"
+                ],
+                "hint": "The opposing load-volume curve and the strength adaptation when reps are low."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Describe the loading parameters (resistance level and repetition range) for muscular endurance training and contrast them with maximal strength training.",
+                "model": "Muscular endurance training utilizes relatively low resistance loads paired with high repetition volume, requiring 15 to 30 repetitions per set before reaching muscle fatigue. In contrast, maximal strength training utilizes high resistance loads (e.g., 75-80% 1RM) paired with low repetition volume (8 to 12 repetitions per set), representing an inverse relationship between load and volume variables.",
+                "criteria": [
+                    "Specify 15 to 30 repetitions per set for muscular endurance.",
+                    "State that endurance requires relatively low resistance.",
+                    "Contrast with strength parameters (high resistance, low repetition volume of 8-12 reps)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain why performing chin-ups or push-ups might train muscular strength in one individual but muscular endurance in another.",
+                "model": "Body-weight calisthenics like chin-ups and push-ups use total body mass as the external load. For an unconditioned individual, body weight represents a high relative load (near 1RM), allowing only a few repetitions (<12 reps) and thus training muscular strength. For a well-conditioned athlete with high strength-to-weight ratio, body weight represents a low relative load, allowing 15 to 30 repetitions and effectively training muscular endurance.",
+                "criteria": [
+                    "Explain that body weight acts as the external resistance load.",
+                    "Describe how high relative load limits reps (<12), shifting training to muscular strength.",
+                    "Describe how low relative load permits 15 to 30 reps, effectively training muscular endurance."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which standardized field tests are explicitly listed in Section 15.4 for measuring UPPER-BODY muscular endurance?",
+                "opts": [
+                    "Push-ups and chin-ups",
+                    "Bench press and bicep curls",
+                    "Handgrip dynamometer squeeze",
+                    "Flexed arm hang and plank hold"
+                ],
+                "correct": 0,
+                "rationale": "The text states that common tests of upper-body muscular endurance include push-ups and chin-ups."
+            },
+            {
+                "id": 2,
+                "q": "Which standardized field test is explicitly listed in Section 15.4 for measuring ABDOMINAL muscular endurance?",
+                "opts": [
+                    "Partial curl-ups",
+                    "Full sit-ups with anchored feet",
+                    "Standing broad jump",
+                    "30-second sprint"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly names partial curl-ups as the test for measuring abdominal endurance."
+            },
+            {
+                "id": 3,
+                "q": "How are muscular endurance field tests administered regarding repetition completion rules?",
+                "opts": [
+                    "Exercises are done as many times as possible before muscle fatigue sets in or before a set time limit is reached",
+                    "Exercises are performed for exactly 1 repetition at 100% 1RM",
+                    "Exercises are held statically for 10 minutes without moving",
+                    "Exercises are stopped as soon as heart rate reaches 50% max"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.4 specifies that tests are done as many times as possible before fatigue sets in or a time limit is reached."
+            },
+            {
+                "id": 4,
+                "q": "What muscle group's endurance is evaluated by the partial curl-up test?",
+                "opts": [
+                    "Abdominal muscles",
+                    "Upper-body flexor muscles",
+                    "Leg extensor muscles",
+                    "Forearm flexor muscles"
+                ],
+                "correct": 0,
+                "rationale": "The text states that partial curl-ups measure abdominal endurance."
+            },
+            {
+                "id": 5,
+                "q": "What muscle region's endurance is evaluated by push-ups and chin-ups?",
+                "opts": [
+                    "Upper-body endurance",
+                    "Lower-body leg endurance",
+                    "Cardiorespiratory lung endurance",
+                    "Ankle stability endurance"
+                ],
+                "correct": 0,
+                "rationale": "The text identifies push-ups and chin-ups as measuring upper-body endurance."
+            },
+            {
+                "id": 6,
+                "q": "When evaluating muscular endurance using push-ups or chin-ups, what signals the termination of the test?",
+                "opts": [
+                    "Onset of muscle fatigue (inability to complete reps) or reaching a set time limit",
+                    "Reaching a blood pressure reading of 120/80",
+                    "Completing a single 1RM repetition",
+                    "Experiencing zero physical exertion"
+                ],
+                "correct": 0,
+                "rationale": "Tests are done as many times as possible until fatigue sets in or a set time limit is reached."
+            },
+            {
+                "id": 7,
+                "q": "Why are partial curl-ups preferred over full sit-ups in modern abdominal endurance testing?",
+                "opts": [
+                    "Partial curl-ups isolate abdominal muscles while reducing hip flexor pull and lumbar spine stress",
+                    "Partial curl-ups train maximal 1RM leg strength",
+                    "Partial curl-ups do not require any abdominal muscle contraction",
+                    "Partial curl-ups test cardiorespiratory VO2max exclusively"
+                ],
+                "correct": 0,
+                "rationale": "Partial curl-ups specifically target abdominal endurance while maintaining proper form and safety."
+            },
+            {
+                "id": 8,
+                "q": "What primary measurement metric is recorded during a push-up or partial curl-up endurance test?",
+                "opts": [
+                    "The total number of correctly completed repetitions",
+                    "The maximum weight lifted in kilograms",
+                    "The time required to run 1 mile",
+                    "The height achieved in inches"
+                ],
+                "correct": 0,
+                "rationale": "Muscular endurance tests record the total count of correctly performed repetitions completed before fatigue or time limit."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which assessment protocols are explicitly identified in Section 15.4 for evaluating local muscular endurance? (Select all that apply)",
+                "opts": [
+                    "Push-ups (upper-body endurance)",
+                    "Chin-ups (upper-body endurance)",
+                    "Partial curl-ups (abdominal endurance)",
+                    "Grip dynamometer 1RM test"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Push-ups, chin-ups, and partial curl-ups are explicitly listed. Grip dynamometer evaluates static strength, not repetition endurance field tests."
+            },
+            {
+                "id": 2,
+                "q": "Which conditions terminate a muscular endurance field test according to Section 15.4? (Select all that apply)",
+                "opts": [
+                    "Onset of muscle fatigue preventing further repetitions",
+                    "Reaching a pre-determined set time limit",
+                    "Inability to maintain proper biomechanical form",
+                    "Completing 1 single rep"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Onset of fatigue, reaching time limits, and breakdown of form terminate endurance testing."
+            },
+            {
+                "id": 3,
+                "q": "Which muscle groups and corresponding tests align correctly according to the textbook? (Select all that apply)",
+                "opts": [
+                    "Upper-body endurance -> Push-ups and chin-ups",
+                    "Abdominal endurance -> Partial curl-ups",
+                    "Upper-body endurance -> Partial curl-ups",
+                    "Abdominal endurance -> Chin-ups"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Upper-body endurance uses push-ups and chin-ups; abdominal endurance uses partial curl-ups."
+            },
+            {
+                "id": 4,
+                "q": "Which factors are recorded or controlled during standardized muscular endurance testing? (Select all that apply)",
+                "opts": [
+                    "Total completed repetitions before fatigue",
+                    "Set time limits (when applicable)",
+                    "Proper execution technique and form",
+                    "Maximal 1RM weight load in pounds"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Total reps, time limits, and proper form are recorded/controlled in endurance tests. 1RM weight applies to maximal strength testing."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "Common tests of upper-body muscular endurance include push-ups and chin-ups.",
+                "ans": true,
+                "feedback": "True. Push-ups and chin-ups are explicit upper-body endurance tests."
+            },
+            {
+                "id": 2,
+                "q": "Partial curl-ups are used to measure abdominal muscular endurance.",
+                "ans": true,
+                "feedback": "True. Partial curl-ups specifically assess abdominal endurance."
+            },
+            {
+                "id": 3,
+                "q": "Muscular endurance tests are terminated as soon as a participant completes a single repetition.",
+                "ans": false,
+                "feedback": "False. Endurance tests require performing as many repetitions as possible until fatigue or a time limit."
+            },
+            {
+                "id": 4,
+                "q": "Muscular endurance field tests record the maximal number of repetitions completed before fatigue sets in or a time limit is reached.",
+                "ans": true,
+                "feedback": "True. Repetition count to fatigue or within a time limit is the core metric."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Upper-body muscular endurance is measured using **push-ups and chin-ups**, whereas abdominal endurance uses **partial curl-ups**.",
+                "targets": [
+                    "push-ups and chin-ups",
+                    "partial curl-ups"
+                ],
+                "optionsBank": [
+                    "push-ups and chin-ups",
+                    "partial curl-ups",
+                    "grip dynamometry",
+                    "1RM leg press",
+                    "flexed arm hang"
+                ],
+                "hint": "Upper-body field tests vs. the core abdominal assessment."
+            },
+            {
+                "id": 2,
+                "statement": "Muscular endurance tests record maximum repetitions before **muscle fatigue** occurs or a **set time limit** expires.",
+                "targets": [
+                    "muscle fatigue",
+                    "set time limit"
+                ],
+                "optionsBank": [
+                    "muscle fatigue",
+                    "set time limit",
+                    "1RM max load",
+                    "glycogen depletion",
+                    "heart rate rest"
+                ],
+                "hint": "The physiological endpoint and the temporal constraint."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Identify three standardized field tests used to evaluate muscular endurance, stating the specific muscle region assessed by each.",
+                "model": "The three standardized field tests identified in Section 15.4 are: (1) Push-ups, which assess upper-body pressing muscular endurance; (2) Chin-ups, which assess upper-body pulling muscular endurance; and (3) Partial curl-ups, which assess abdominal muscular endurance.",
+                "criteria": [
+                    "Identify push-ups (upper-body endurance).",
+                    "Identify chin-ups (upper-body endurance).",
+                    "Identify partial curl-ups (abdominal endurance)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain the testing protocol rules for administering field tests of muscular endurance, including termination criteria.",
+                "model": "Muscular endurance field tests require participants to perform a given exercise (such as push-ups, chin-ups, or partial curl-ups) through a full range of motion with proper form. Participants execute as many repetitions as possible. Test termination occurs either when muscle fatigue sets in (preventing further reps with proper form) or when a designated set time limit is reached.",
+                "criteria": [
+                    "State that repetitions are performed with proper form through full ROM.",
+                    "State the objective (maximize repetitions completed).",
+                    "Explain termination criteria (onset of muscle fatigue or expiration of time limit)."
+                ]
+            }
+        ]
+    }
+}

@@ -300,49 +300,49 @@
               "id": "15.1",
               "title": "FITT Principle",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "15.2",
               "title": "Training Principles",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "15.3",
               "title": "Components of Physical Fitness - Muscular Strength",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "15.4",
               "title": "Components of Physical Fitness - Muscular Endurance",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "15.5",
               "title": "Components of Physical Fitness - Cardiorespiratory Endurance",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "15.6",
               "title": "Components of Physical Fitness - Flexibility, Body Composition",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "15.7",
               "title": "Components of Motor Ability",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             },
             {
               "id": "15.8",
               "title": "Fitness Training Activities",
               "status": "Under Development",
-              "locked": true
+              "locked": false
             }
           ],
           "status": "Under Development",

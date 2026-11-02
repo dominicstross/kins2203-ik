@@ -1,0 +1,747 @@
+{
+    "p1": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which organs and vascular structures are explicitly encompassed by cardiorespiratory (cardiovascular) endurance?",
+                "opts": [
+                    "The heart (cardio), lungs (respiratory), and blood vessels (vascular)",
+                    "Skeletal muscles, motor neurons, and joint cartilage exclusively",
+                    "The stomach, liver, and digestive tract",
+                    "The brain, spinal cord, and peripheral reflex arcs"
+                ],
+                "correct": 0,
+                "rationale": "Cardiorespiratory endurance, also known as cardiorespiratory fitness, explicitly involves the heart (cardio), lungs (respiratory), and blood vessels (vascular)."
+            },
+            {
+                "id": 2,
+                "q": "What is the main biological function of the cardiorespiratory system during physical activity?",
+                "opts": [
+                    "To provide oxygen to the muscle cells",
+                    "To store glycogen directly inside joint capsules",
+                    "To generate rapid isometric twitch forces without blood flow",
+                    "To regulate skeletal bone growth and limb length"
+                ],
+                "correct": 0,
+                "rationale": "The main function of the cardiorespiratory system is to provide oxygen to the muscle cells."
+            },
+            {
+                "id": 3,
+                "q": "How does the textbook define operating in the 'aerobic zone'?",
+                "opts": [
+                    "Circulatory systems supply the required oxygen without the individual experiencing oxygen debt (getting breathless)",
+                    "Muscle cells produce ATP exclusively without using oxygen",
+                    "Heart rate exceeds 100 percent of maximum heart rate continuously",
+                    "Lactic acid accumulates to maximal concentration within 5 seconds"
+                ],
+                "correct": 0,
+                "rationale": "Operating in the aerobic zone means the circulatory system supplies the required oxygen without experiencing oxygen debt or breathlessness."
+            },
+            {
+                "id": 4,
+                "q": "What is oxygen debt colloquially described as in Section 15.5?",
+                "opts": [
+                    "Getting breathless",
+                    "Muscle hypertrophy",
+                    "Grip fatigue",
+                    "Joint stiffness"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly describes oxygen debt as 'getting breathless' when oxygen supply fails to meet demand."
+            },
+            {
+                "id": 5,
+                "q": "How does a well-trained individual compare to an untrained person regarding the aerobic threshold?",
+                "opts": [
+                    "A well-trained person can put forth more effort without reaching the threshold of oxygen debt",
+                    "A well-trained person reaches oxygen debt much faster during light walking",
+                    "There is zero physiological difference between trained and untrained individuals",
+                    "Untrained persons can sustain high speeds without needing oxygen"
+                ],
+                "correct": 0,
+                "rationale": "A well-trained individual can put forth more effort without reaching the threshold of oxygen debt (breathlessness) than an untrained person."
+            },
+            {
+                "id": 6,
+                "q": "What eventually forces a well-trained person with good cardiorespiratory endurance to stop jogging at a high pace?",
+                "opts": [
+                    "Muscular fatigue or lack of time",
+                    "Gasping for air due to immediate oxygen debt",
+                    "Complete failure of the cardiac pacemaker",
+                    "Spontaneous loss of joint flexibility"
+                ],
+                "correct": 0,
+                "rationale": "A person with good cardiorespiratory endurance can jog at a high pace without gasping for air; what eventually stops them is muscular fatigue or lack of time."
+            },
+            {
+                "id": 7,
+                "q": "What example does the text use to illustrate low cardiorespiratory endurance in an unfit person?",
+                "opts": [
+                    "Needing to stop halfway up a staircase to catch his breath",
+                    "Inability to squeeze a grip dynamometer",
+                    "Experiencing muscle soreness 48 hours after weightlifting",
+                    "Inability to perform a single 1RM bench press"
+                ],
+                "correct": 0,
+                "rationale": "The text contrasts a trained runner with an unfit person who may need to stop halfway up a staircase to catch his breath."
+            },
+            {
+                "id": 8,
+                "q": "What measure serves as a direct indicator of the cardiorespiratory system's endurance?",
+                "opts": [
+                    "The body's ability to sustain aerobic activities",
+                    "The total weight lifted in a single maximal repetition",
+                    "The flexibility rating during a sit-and-reach test",
+                    "The ratio of bone mass to fat-free mass"
+                ],
+                "correct": 0,
+                "rationale": "The textbook states that the body's ability to sustain aerobic activities is a measure of cardiorespiratory endurance."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which anatomical and physiological systems are included in cardiorespiratory endurance? (Select all that apply)",
+                "opts": [
+                    "The heart (cardio)",
+                    "The lungs (respiratory)",
+                    "The blood vessels (vascular)",
+                    "Subcutaneous adipose stores"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Cardiorespiratory endurance explicitly involves the heart, lungs, and blood vessels."
+            },
+            {
+                "id": 2,
+                "q": "Which physiological characteristics describe operating within the aerobic zone? (Select all that apply)",
+                "opts": [
+                    "The circulatory system supplies the required oxygen.",
+                    "The individual operates without experiencing oxygen debt.",
+                    "The person avoids getting breathless.",
+                    "Exercise can be sustained over extended time periods."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "Operating in the aerobic zone means oxygen supply matches demand, avoiding oxygen debt and breathlessness, allowing sustained activity."
+            },
+            {
+                "id": 3,
+                "q": "Which factors eventually stop a well-trained runner during high-pace jogging according to Section 15.5? (Select all that apply)",
+                "opts": [
+                    "Muscular fatigue",
+                    "Lack of time",
+                    "Gasping for air due to immediate oxygen debt",
+                    "Severe early oxygen debt on flat terrain"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Trained runners jog without gasping for air; what eventually stops them is muscular fatigue or lack of time."
+            },
+            {
+                "id": 4,
+                "q": "Which statements correctly contrast trained and unfit individuals regarding cardiorespiratory response? (Select all that apply)",
+                "opts": [
+                    "Trained individuals put forth more effort before reaching oxygen debt.",
+                    "Trained runners can jog at a high pace without gasping for air.",
+                    "Unfit individuals may need to stop halfway up a staircase to catch their breath.",
+                    "Unfit individuals sustain high-intensity aerobic exercise longer than trained runners."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Trained individuals delay oxygen debt and jog at high paces without gasping, whereas unfit individuals get breathless climbing stairs."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "The main function of the cardiorespiratory system is to provide oxygen to the muscle cells.",
+                "ans": true,
+                "feedback": "True. The cardiorespiratory system's primary function is delivering oxygen to active muscle cells."
+            },
+            {
+                "id": 2,
+                "q": "Operating in the aerobic zone means the circulatory system supplies oxygen without incurring oxygen debt.",
+                "ans": true,
+                "feedback": "True. The aerobic zone is defined as supplying required oxygen without experiencing oxygen debt (getting breathless)."
+            },
+            {
+                "id": 3,
+                "q": "A person with good cardiorespiratory endurance is primarily stopped during jogging by severe gasping for air.",
+                "ans": false,
+                "feedback": "False. Well-trained runners jog without gasping for air; they are eventually stopped by muscular fatigue or lack of time."
+            },
+            {
+                "id": 4,
+                "q": "An unfit person may experience oxygen debt and need to stop halfway up a staircase to catch his breath.",
+                "ans": true,
+                "feedback": "True. The textbook uses climbing a staircase as an example of an everyday task causing breathlessness in an unfit person."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "The cardiorespiratory system provides **oxygen** to muscle cells, allowing individuals to operate in the **aerobic zone**.",
+                "targets": [
+                    "oxygen",
+                    "aerobic zone"
+                ],
+                "optionsBank": [
+                    "oxygen",
+                    "aerobic zone",
+                    "lactic acid",
+                    "anaerobic threshold",
+                    "glycogen debt"
+                ],
+                "hint": "The essential respiratory gas and the metabolic state where supply meets demand."
+            },
+            {
+                "id": 2,
+                "statement": "Getting breathless represents **oxygen debt**, whereas a trained person is eventually stopped by **muscular fatigue** or lack of time.",
+                "targets": [
+                    "oxygen debt",
+                    "muscular fatigue"
+                ],
+                "optionsBank": [
+                    "oxygen debt",
+                    "muscular fatigue",
+                    "cardiac arrest",
+                    "target heart rate",
+                    "joint stiffness"
+                ],
+                "hint": "The physiological term for breathlessness and the factor stopping a trained runner."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Define cardiorespiratory endurance, state the primary function of the cardiorespiratory system, and identify its three structural components.",
+                "model": "Cardiorespiratory endurance (cardiorespiratory fitness) is the body's ability to sustain aerobic activities over time. Its primary function is to provide oxygen to active muscle cells. It structurally involves the heart (cardio), the lungs (respiratory), and the blood vessels (vascular).",
+                "criteria": [
+                    "Define cardiorespiratory endurance as the ability to sustain aerobic activities.",
+                    "State primary function: providing oxygen to muscle cells.",
+                    "Identify the three structures: heart (cardio), lungs (respiratory), and blood vessels (vascular)."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain the concept of the aerobic zone and oxygen debt, contrasting how a trained person and an unfit person respond to exercise.",
+                "model": "Operating in the aerobic zone means the circulatory system supplies all required oxygen without incurring oxygen debt (getting breathless). A trained person can put forth greater effort and jog at a high pace without gasping for air, eventually stopping due to muscular fatigue or time. An unfit person reaches oxygen debt quickly, needing to stop during minor tasks like climbing a staircase to catch their breath.",
+                "criteria": [
+                    "Define aerobic zone: oxygen supply meets demand without oxygen debt.",
+                    "Define oxygen debt: getting breathless when oxygen supply is insufficient.",
+                    "Contrast responses: trained person jogs without gasping (stopped by muscle fatigue/time); unfit person gets breathless on stairs."
+                ]
+            }
+        ]
+    },
+    "p2": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "How often should an individual train each week to improve cardiorespiratory endurance according to Section 15.5?",
+                "opts": [
+                    "At least three times a week",
+                    "Once every two weeks",
+                    "Exactly seven days a week with zero rest",
+                    "Twice a month"
+                ],
+                "correct": 0,
+                "rationale": "To improve cardiorespiratory endurance, you should train at least three times a week; more is better if there is no fatigue or injury."
+            },
+            {
+                "id": 2,
+                "q": "What target heart-rate zone range is specified in the textbook for cardiorespiratory conditioning?",
+                "opts": [
+                    "50 to 85 percent of maximum heart rate",
+                    "10 to 30 percent of maximum heart rate",
+                    "90 to 100 percent of maximum heart rate exclusively",
+                    "20 to 40 percent of maximum heart rate"
+                ],
+                "correct": 0,
+                "rationale": "You should train in your target heart-rate zone, defined as 50 to 85 percent of your maximum heart rate."
+            },
+            {
+                "id": 3,
+                "q": "Why is exercising BELOW 50 percent of maximum heart rate ineffective for cardiorespiratory improvement?",
+                "opts": [
+                    "It is ineffective at creating an overload stimulus",
+                    "It causes immediate cardiac hypertrophy",
+                    "It leads to severe overtraining syndrome within 5 minutes",
+                    "It completely halts all cellular respiration"
+                ],
+                "correct": 0,
+                "rationale": "A heart rate below 50 percent of maximum is ineffective at creating a physiological overload."
+            },
+            {
+                "id": 4,
+                "q": "Why is exercising ABOVE 85 percent of maximum heart rate not recommended for general cardiorespiratory training in Section 15.5?",
+                "opts": [
+                    "Higher intensity is too difficult to maintain long enough and does not produce greater results",
+                    "It causes immediate permanent loss of lung volume",
+                    "It prevents the heart from beating entirely",
+                    "It converts aerobic muscle fibers into adipose tissue"
+                ],
+                "correct": 0,
+                "rationale": "Intensities above 85% HR max are too difficult to maintain long enough to sustain the workout and do not produce superior results."
+            },
+            {
+                "id": 5,
+                "q": "How long should an individual maintain their heart rate in the target heart-rate zone during a workout session?",
+                "opts": [
+                    "15 to 20 minutes",
+                    "1 to 2 minutes",
+                    "2 to 3 hours continuously",
+                    "30 seconds"
+                ],
+                "correct": 0,
+                "rationale": "You should keep your heart rate in the target heart-rate zone for 15 to 20 minutes per training session."
+            },
+            {
+                "id": 6,
+                "q": "What is described as the BEST way to monitor heart rate during cardiorespiratory training?",
+                "opts": [
+                    "Wearing a heart-rate monitor watch",
+                    "Estimating sweat rate on the forehead",
+                    "Measuring body temperature with a thermometer",
+                    "Counting respiratory breaths per hour"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly states that the best way to monitor heart rate is to wear a heart-rate monitor watch."
+            },
+            {
+                "id": 7,
+                "q": "If taking manual pulse checks during brief workout breaks, what duration is specified for counting pulse beats?",
+                "opts": [
+                    "10-second pulse checks",
+                    "60-second pulse checks",
+                    "30-minute pulse checks",
+                    "2-second pulse checks"
+                ],
+                "correct": 0,
+                "rationale": "Stopping for brief periods to do 10-second pulse checks is listed as a manual monitoring alternative."
+            },
+            {
+                "id": 8,
+                "q": "How can strength and endurance circuits be modified to ensure heart rate stays within the target zone?",
+                "opts": [
+                    "By reducing or eliminating the rest between sets",
+                    "By increasing rest periods between sets to 15 minutes",
+                    "By lifting 100% 1RM loads for 1 repetition",
+                    "By sitting motionless between exercises"
+                ],
+                "correct": 0,
+                "rationale": "You can do strength and endurance circuits and reduce or eliminate rest between sets to ensure you stay within the target heart-rate zone."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which principles govern cardiorespiratory endurance training in Section 15.5? (Select all that apply)",
+                "opts": [
+                    "Train at least three times a week.",
+                    "Maintain heart rate in target zone (50-85% max HR).",
+                    "Sustain target heart rate for 15 to 20 minutes.",
+                    "More training is better as long as there is no fatigue or injury."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All four guidelines represent explicit textbook training principles for cardiorespiratory endurance."
+            },
+            {
+                "id": 2,
+                "q": "Which options are valid ways to structure workout sessions within the target heart-rate zone? (Select all that apply)",
+                "opts": [
+                    "Maintain a steady heart rate within the zone.",
+                    "Vary heart rate within the zone by working harder briefly then easing off.",
+                    "Take short breaks (under two minutes) and then resume training.",
+                    "Take 30-minute rest breaks between every 2 minutes of exertion."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Steady state, interval-like variations within the zone, and short breaks (<2 min) are explicit training options in the text."
+            },
+            {
+                "id": 3,
+                "q": "Which methods for monitoring heart rate are listed in Section 15.5? (Select all that apply)",
+                "opts": [
+                    "Wearing a heart-rate monitor watch (best way)",
+                    "Stopping for brief periods to do 10-second pulse checks",
+                    "Using underwater sonar pulse detection",
+                    "Measuring skin temperature changes"
+                ],
+                "correctArray": [
+                    0,
+                    1
+                ],
+                "rationale": "Heart-rate monitor watches and 10-second pulse checks are the two methods listed in the text."
+            },
+            {
+                "id": 4,
+                "q": "Which whole-body activities are explicitly listed as ways to train cardiorespiratory fitness? (Select all that apply)",
+                "opts": [
+                    "Step aerobics and tae box",
+                    "Spinning classes and swimming lengths",
+                    "Dancing, cycling, running, and cross-country skiing",
+                    "Strength/endurance circuits with reduced rest between sets"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "rationale": "All listed activities are explicitly named in Section 15.5 as whole-body cardiorespiratory training options."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "To improve cardiorespiratory endurance, an individual should train at least three times a week.",
+                "ans": true,
+                "feedback": "True. Training at least three times weekly is the recommended minimum frequency."
+            },
+            {
+                "id": 2,
+                "q": "The target heart-rate zone is defined as 50 to 85 percent of maximum heart rate.",
+                "ans": true,
+                "feedback": "True. 50% to 85% of predicted maximum heart rate forms the conditioning zone."
+            },
+            {
+                "id": 3,
+                "q": "Heart rate below 50 percent of maximum is ideal for creating a cardiorespiratory overload stimulus.",
+                "ans": false,
+                "feedback": "False. Heart rate below 50% max is ineffective at creating a training overload."
+            },
+            {
+                "id": 4,
+                "q": "Heart rate should be maintained within the target heart-rate zone for 15 to 20 minutes during training.",
+                "ans": true,
+                "feedback": "True. The textbook recommends keeping heart rate in the target zone for 15 to 20 minutes."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Cardiorespiratory training requires exercising at least **three times** a week within **50 to 85 percent** of maximum heart rate.",
+                "targets": [
+                    "three times",
+                    "50 to 85 percent"
+                ],
+                "optionsBank": [
+                    "three times",
+                    "50 to 85 percent",
+                    "once",
+                    "10 to 20 percent",
+                    "90 to 100 percent"
+                ],
+                "hint": "Minimum weekly frequency and target heart-rate zone range."
+            },
+            {
+                "id": 2,
+                "statement": "Target heart rate should be maintained for **15 to 20 minutes**, monitored best using a **heart-rate monitor watch**.",
+                "targets": [
+                    "15 to 20 minutes",
+                    "heart-rate monitor watch"
+                ],
+                "optionsBank": [
+                    "15 to 20 minutes",
+                    "heart-rate monitor watch",
+                    "2 to 3 hours",
+                    "spirometer",
+                    "goniometer"
+                ],
+                "hint": "Session target duration and the top recommended monitoring tool."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Detail the FITT training guidelines for improving cardiorespiratory endurance, specifying frequency, intensity (% HR max), and time duration.",
+                "model": "To improve cardiorespiratory endurance: (1) Frequency: train at least three times per week (more is beneficial if no fatigue/injury exists); (2) Intensity: train within the target heart-rate zone of 50 to 85 percent of maximum heart rate; and (3) Time: maintain heart rate in the target zone for 15 to 20 minutes per session.",
+                "criteria": [
+                    "State frequency: at least three times a week.",
+                    "State intensity: target heart-rate zone of 50 to 85% of maximum heart rate.",
+                    "State duration: 15 to 20 minutes in the target zone."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain why heart rates below 50% and above 85% of max HR are discouraged for general cardiorespiratory training, and describe two methods for monitoring heart rate.",
+                "model": "Heart rates below 50% max HR are ineffective at creating a physiological overload stimulus. Intensities above 85% max HR are too difficult to maintain long enough and do not yield superior results. Heart rate can be monitored by (1) wearing a heart-rate monitor watch (the best method) or (2) pausing briefly for 10-second manual pulse checks.",
+                "criteria": [
+                    "Explain <50% max HR is ineffective for overload.",
+                    "Explain >85% max HR is too difficult to sustain and unnecessary.",
+                    "Describe heart-rate monitor watch and 10-second pulse checks."
+                ]
+            }
+        ]
+    },
+    "p3": {
+        "mcq": [
+            {
+                "id": 1,
+                "q": "Which field test is explicitly listed in Section 15.5 for assessing cardiorespiratory fitness over a 12-minute duration?",
+                "opts": [
+                    "12-minute run-walk test",
+                    "12-minute push-up test",
+                    "12-minute grip dynamometer test",
+                    "12-minute flexed arm hang"
+                ],
+                "correct": 0,
+                "rationale": "The textbook explicitly lists the 12-minute run-walk test as one of three common cardiorespiratory fitness tests."
+            },
+            {
+                "id": 2,
+                "q": "Which multi-stage progressive shuttle run protocol is named in Section 15.5 for testing cardiorespiratory fitness?",
+                "opts": [
+                    "Beep test",
+                    "1RM squat test",
+                    "Sit-and-reach test",
+                    "Grip strength test"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.5 explicitly lists the beep test as a standard cardiorespiratory fitness test."
+            },
+            {
+                "id": 3,
+                "q": "Which Canadian stepping protocol is explicitly identified in Section 15.5 for testing cardiorespiratory fitness?",
+                "opts": [
+                    "mCAFT test",
+                    "1RM bench press",
+                    "Partial curl-up test",
+                    "Vertical jump test"
+                ],
+                "correct": 0,
+                "rationale": "The text explicitly names the mCAFT test (Modified Canadian Aerobic Fitness Test) for cardiorespiratory testing."
+            },
+            {
+                "id": 4,
+                "q": "How many specific cardiorespiratory field tests are explicitly named in Section 15.5?",
+                "opts": [
+                    "Three tests (12-minute run-walk test, beep test, mCAFT test)",
+                    "Ten tests",
+                    "One test only",
+                    "Zero tests"
+                ],
+                "correct": 0,
+                "rationale": "Section 15.5 explicitly names three tests: the 12-minute run-walk test, the beep test, and the mCAFT test."
+            },
+            {
+                "id": 5,
+                "q": "Where does the textbook state that protocols and norms for cardiorespiratory fitness tests can be found?",
+                "opts": [
+                    "In many physical education publications",
+                    "In commercial shoe store catalogs",
+                    "In local newspaper opinion columns",
+                    "On musical concert posters"
+                ],
+                "correct": 0,
+                "rationale": "The text notes that protocols and norms for these tests can be found in many physical education publications."
+            },
+            {
+                "id": 6,
+                "q": "Which component of physical fitness do the 12-minute run-walk test, beep test, and mCAFT test evaluate?",
+                "opts": [
+                    "Cardiorespiratory fitness / endurance",
+                    "Muscular hypertrophy",
+                    "Absolute upper-body strength",
+                    "Joint flexibility"
+                ],
+                "correct": 0,
+                "rationale": "All three tests are explicitly identified as methods for testing cardiorespiratory fitness."
+            },
+            {
+                "id": 7,
+                "q": "What primary requirement must a field test satisfy to measure cardiorespiratory endurance?",
+                "opts": [
+                    "It must engage large muscle groups continuously to stress the cardio, respiratory, and vascular systems",
+                    "It must measure a single maximal 1RM weight load",
+                    "It must assess static force without joint rotation",
+                    "It must measure skinfold fat thickness"
+                ],
+                "correct": 0,
+                "rationale": "Cardiorespiratory tests evaluate aerobic capacity by engaging whole-body systems over time."
+            },
+            {
+                "id": 8,
+                "q": "Why are standardized testing protocols and norms important when administering cardiorespiratory assessments?",
+                "opts": [
+                    "To ensure accurate, repeatable evaluation and allow comparison against peer benchmarks",
+                    "To eliminate the need for participant physical movement",
+                    "To guarantee that all participants score 100 percent",
+                    "To shorten testing time to 1 second"
+                ],
+                "correct": 0,
+                "rationale": "Standardized protocols and norms published in physical education literature allow reliable assessment and peer comparisons."
+            }
+        ],
+        "ms": [
+            {
+                "id": 1,
+                "q": "Which cardiorespiratory fitness tests are explicitly named in Section 15.5? (Select all that apply)",
+                "opts": [
+                    "12-minute run-walk test",
+                    "Beep test",
+                    "mCAFT test",
+                    "1RM leg press test"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "The 12-minute run-walk test, beep test, and mCAFT test are explicitly listed in Section 15.5. 1RM leg press measures strength."
+            },
+            {
+                "id": 2,
+                "q": "Which statements regarding cardiorespiratory testing are supported by Section 15.5? (Select all that apply)",
+                "opts": [
+                    "Testing is easily accomplished using standardized field tests.",
+                    "Tests include the 12-minute run-walk, beep test, and mCAFT test.",
+                    "Protocols and norms can be found in physical education publications.",
+                    "Cardiorespiratory testing requires expensive, invasive surgery."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Cardiorespiratory testing is easily accomplished via field tests whose protocols/norms appear in physical education publications."
+            },
+            {
+                "id": 3,
+                "q": "Which features characterize field tests like the 12-minute run-walk, beep test, and mCAFT? (Select all that apply)",
+                "opts": [
+                    "Evaluate cardiorespiratory fitness.",
+                    "Utilize whole-body movement to stress heart, lungs, and blood vessels.",
+                    "Rely on published protocols and norms for evaluation.",
+                    "Measure maximum single-effort grip force."
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "These tests evaluate aerobic cardiorespiratory fitness using whole-body movement and published norms. Single-effort grip force describes grip dynamometry."
+            },
+            {
+                "id": 4,
+                "q": "Which metrics or outcomes can be determined from standardized cardiorespiratory testing? (Select all that apply)",
+                "opts": [
+                    "Aerobic fitness level",
+                    "Comparison against standardized age/sex norms",
+                    "Baseline cardiorespiratory capacity for program prescription",
+                    "Maximal 1RM bench press strength"
+                ],
+                "correctArray": [
+                    0,
+                    1,
+                    2
+                ],
+                "rationale": "Cardiorespiratory field tests assess aerobic fitness, compare against norms, and guide conditioning. 1RM bench press evaluates upper-body strength."
+            }
+        ],
+        "tf": [
+            {
+                "id": 1,
+                "q": "The 12-minute run-walk test is used to evaluate cardiorespiratory fitness.",
+                "ans": true,
+                "feedback": "True. The 12-minute run-walk test is an explicit cardiorespiratory assessment."
+            },
+            {
+                "id": 2,
+                "q": "The beep test and mCAFT test are standard field assessments for cardiorespiratory endurance.",
+                "ans": true,
+                "feedback": "True. Both the beep test and mCAFT test are explicitly listed in Section 15.5."
+            },
+            {
+                "id": 3,
+                "q": "Cardiorespiratory fitness testing requires highly invasive laboratory surgery in all cases.",
+                "ans": false,
+                "feedback": "False. Section 15.5 states testing is easily accomplished using practical field tests."
+            },
+            {
+                "id": 4,
+                "q": "Protocols and norms for cardiorespiratory field tests can be found in physical education publications.",
+                "ans": true,
+                "feedback": "True. Physical education literature publishes standard protocols and normative tables for these tests."
+            }
+        ],
+        "cloze": [
+            {
+                "id": 1,
+                "statement": "Cardiorespiratory fitness testing uses the **12-minute run-walk test**, the **beep test**, or the mCAFT test.",
+                "targets": [
+                    "12-minute run-walk test",
+                    "beep test"
+                ],
+                "optionsBank": [
+                    "12-minute run-walk test",
+                    "beep test",
+                    "1RM bench press",
+                    "grip dynamometry",
+                    "sit-and-reach"
+                ],
+                "hint": "The timed distance run test and the multi-stage shuttle test."
+            },
+            {
+                "id": 2,
+                "statement": "Testing cardiorespiratory fitness is easily accomplished using field tests whose protocols and **norms** are in **physical education publications**.",
+                "targets": [
+                    "norms",
+                    "physical education publications"
+                ],
+                "optionsBank": [
+                    "norms",
+                    "physical education publications",
+                    "1RM max loads",
+                    "surgical journals",
+                    "somatotype scales"
+                ],
+                "hint": "The population benchmarks and the source literature."
+            }
+        ],
+        "sa": [
+            {
+                "id": 1,
+                "prompt": "Identify the three standardized cardiorespiratory fitness field tests named in Section 15.5 and state where their protocols and norms are published.",
+                "model": "The three cardiorespiratory field tests named in Section 15.5 are: (1) the 12-minute run-walk test, (2) the beep test, and (3) the mCAFT test. Protocols and norms for performing these tests are published in physical education publications.",
+                "criteria": [
+                    "Identify the 12-minute run-walk test.",
+                    "Identify the beep test.",
+                    "Identify the mCAFT test and state that protocols/norms are in physical education publications."
+                ]
+            },
+            {
+                "id": 2,
+                "prompt": "Explain why field tests like the 12-minute run-walk, beep test, and mCAFT are practical for evaluating cardiorespiratory fitness in physical education.",
+                "model": "These field tests are practical because cardiorespiratory fitness testing is easily accomplished without complex laboratory machinery. They utilize whole-body exercise (running, walking, stepping) to stress the heart, lungs, and blood vessels, allowing educators to evaluate aerobic endurance and compare results against established norms from physical education literature.",
+                "criteria": [
+                    "State that field tests make testing easily accomplished.",
+                    "Explain that whole-body movements evaluate cardiorespiratory capacity.",
+                    "Mention comparison against published normative standards."
+                ]
+            }
+        ]
+    }
+}
