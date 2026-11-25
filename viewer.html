@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KINS 4403 Interactive OLM Engine</title>
+  <title>KINS 2203 Interactive OLM Engine</title>
 
   <!-- KaTeX for physiological formulas -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
@@ -590,6 +590,333 @@
       content: "⚡";
       font-size: 0.85rem;
     }
+
+    /* === REUSABLE JSON MULTIMEDIA CAROUSEL === */
+    .olm-carousel-wrap {
+      background: #ffffff;
+      border: 1px solid var(--slate-200, #e2e8f0);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+      margin: 1.5rem 0;
+      overflow: hidden;
+    }
+
+    .olm-carousel-header {
+      background: var(--slate-50, #f8fafc);
+      border-bottom: 1px solid var(--slate-200, #e2e8f0);
+      padding: 12px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .olm-carousel-title {
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--slate-800, #1e293b);
+      margin: 0;
+    }
+
+    .olm-carousel-counter {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--slate-600, #475569);
+      background: #ffffff;
+      border: 1px solid var(--slate-200, #e2e8f0);
+      padding: 3px 10px;
+      border-radius: 999px;
+    }
+
+    .olm-carousel-stage {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      min-height: 320px;
+      transition: opacity 0.22s ease;
+    }
+
+    .olm-carousel-stage.fading {
+      opacity: 0.35;
+    }
+
+    .olm-carousel-wrap .olm-carousel-stage.no-media {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      padding: 28px 24px !important;
+    }
+
+    .olm-carousel-wrap .olm-carousel-stage.no-media .olm-carousel-body {
+      flex: 0 1 560px !important;
+      width: 100% !important;
+      max-width: 560px !important;
+      margin: 0 auto !important;
+      text-align: left !important;
+    }
+
+    .olm-header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .olm-fs-btn {
+      background: #ffffff;
+      border: 1px solid var(--slate-300, #cbd5e1);
+      color: var(--slate-700, #334155);
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s ease;
+    }
+
+    .olm-fs-btn:hover {
+      background: var(--slate-100, #f1f5f9);
+      border-color: var(--slate-400, #94a3b8);
+    }
+
+    .olm-carousel-wrap:fullscreen,
+    .olm-carousel-wrap.olm-pseudo-fs {
+      position: fixed !important;
+      inset: 0 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      max-width: none !important;
+      margin: 0 !important;
+      border-radius: 0 !important;
+      border: none !important;
+      z-index: 99999 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      background: #ffffff !important;
+    }
+
+    .olm-carousel-wrap:fullscreen .olm-carousel-stage,
+    .olm-carousel-wrap.olm-pseudo-fs .olm-carousel-stage {
+      flex: 1 !important;
+      min-height: 0 !important;
+      overflow-y: auto !important;
+    }
+
+    .olm-carousel-wrap:fullscreen .olm-carousel-media,
+    .olm-carousel-wrap.olm-pseudo-fs .olm-carousel-media {
+      max-height: none !important;
+      height: 100% !important;
+    }
+
+    .olm-carousel-wrap:fullscreen .olm-carousel-media img,
+    .olm-carousel-wrap.olm-pseudo-fs .olm-carousel-media img {
+      max-height: calc(100vh - 140px) !important;
+    }
+@media (max-width: 820px) {
+      .olm-carousel-stage {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .olm-carousel-media {
+      background: #0f172a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      min-height: 260px;
+      max-height: 440px;
+    }
+
+    .olm-carousel-media img {
+      max-width: 100%;
+      max-height: 408px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+      display: block;
+    }
+
+    .olm-carousel-body {
+      padding: 20px 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #ffffff;
+    }
+
+    .olm-carousel-heading {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--slate-900, #0f172a);
+      margin: 0 0 10px 0;
+    }
+
+    .olm-carousel-desc {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--slate-700, #334155);
+      margin: 0 0 12px 0;
+    }
+
+    .olm-carousel-bullets {
+      margin: 0 0 16px 0;
+      padding-left: 20px;
+      color: var(--slate-700, #334155);
+      font-size: 0.92rem;
+      line-height: 1.55;
+    }
+
+    .olm-carousel-bullets li {
+      margin-bottom: 6px;
+    }
+
+    .olm-audio-bar {
+      background: var(--slate-50, #f8fafc);
+      border: 1px solid var(--slate-200, #e2e8f0);
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-top: auto;
+    }
+
+    .olm-audio-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .olm-audio-play {
+      background: var(--primary, #1d4ed8);
+      color: #ffffff;
+      border: none;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s ease;
+    }
+
+    .olm-audio-play:hover {
+      filter: brightness(1.08);
+    }
+
+    .olm-audio-scrub {
+      flex: 1;
+      accent-color: var(--primary, #1d4ed8);
+      cursor: pointer;
+      height: 5px;
+    }
+
+    .olm-audio-time {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.8rem;
+      color: var(--slate-600, #475569);
+      white-space: nowrap;
+    }
+
+    .olm-audio-speed {
+      background: #ffffff;
+      border: 1px solid var(--slate-300, #cbd5e1);
+      border-radius: 5px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--slate-700, #334155);
+      padding: 3px 6px;
+      cursor: pointer;
+    }
+
+    .olm-transcript-toggle {
+      background: none;
+      border: none;
+      color: var(--primary, #1d4ed8);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 6px 0 0 0;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .olm-transcript-box {
+      display: none;
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px dashed var(--slate-300, #cbd5e1);
+      font-size: 0.85rem;
+      line-height: 1.5;
+      color: var(--slate-600, #475569);
+    }
+
+    .olm-transcript-box.open {
+      display: block;
+    }
+
+    .olm-carousel-footer {
+      background: var(--slate-50, #f8fafc);
+      border-top: 1px solid var(--slate-200, #e2e8f0);
+      padding: 12px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .olm-nav-btn {
+      background: #ffffff;
+      border: 1px solid var(--slate-300, #cbd5e1);
+      color: var(--slate-800, #1e293b);
+      border-radius: 6px;
+      padding: 6px 14px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .olm-nav-btn:hover:not(:disabled) {
+      background: var(--slate-100, #f1f5f9);
+      border-color: var(--slate-400, #94a3b8);
+    }
+
+    .olm-nav-btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .olm-carousel-dots {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+
+    .olm-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: none;
+      background: var(--slate-300, #cbd5e1);
+      padding: 0;
+      cursor: pointer;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+
+    .olm-dot:hover {
+      background: var(--slate-400, #94a3b8);
+      transform: scale(1.2);
+    }
+
+    .olm-dot.active {
+      background: var(--primary, #1d4ed8);
+      transform: scale(1.25);
+    }
   </style>
 </head>
 
@@ -599,7 +926,7 @@
     <div class="header-top">
       <div class="header-titles">
         <h1 id="moduleTitle">Loading Module...</h1>
-        <p id="courseTitle">KINS 4403 Physiology of Exercise</p>
+        <p id="courseTitle">KINS 2203 Introduction to Kinesiology</p>
       </div>
       <div class="score-badge" id="scoreTracker">Score: 0 / 0 pts (0%)</div>
     </div>
@@ -633,6 +960,20 @@
 
     <main id="pane-lesson" class="panel active">
       <!-- DEFAULT COLLAPSED: NO "open" CLASS -->
+            <!-- DEDICATED SLIDE PRESENTATION ACCORDION -->
+      <div class="accordion-card" id="acc-slides" style="display:none;">
+        <div class="accordion-header" onclick="toggleCard(this)">
+          <div class="accordion-header-left">
+            <span>&#127916; Interactive Slide Presentation</span>
+          </div>
+          <div class="accordion-header-right">
+            <span class="section-badge" id="badge-slides">0 Slides</span>
+            <span class="chevron">&#9660;</span>
+          </div>
+        </div>
+        <div class="accordion-body" id="slidesContainer"></div>
+      </div>
+
       <div class="accordion-card" id="acc-reading">
         <div class="accordion-header" onclick="toggleCard(this)">
           <div class="accordion-header-left">
@@ -749,6 +1090,9 @@
 
   <script>
     let moduleData = null;
+    let activeModuleBase = '';
+    let companionSlidesData = null;
+    let activeCarousels = [];
     let quizData = null;
     let currentPartIndex = 0;
     let currentPartCounts = {};
@@ -938,6 +1282,14 @@
         if (!resContent.ok) throw new Error(`Could not fetch content for Ch ${currentCh}, Module ${currentMod} (HTTP ${resContent.status})`);
         moduleData = await resContent.json();
         quizData = resQuiz.ok ? await resQuiz.json() : null;
+        activeModuleBase = matchedBase || '';
+        companionSlidesData = null;
+        if (activeModuleBase) {
+          try {
+            const sRes = await fetch(`${activeModuleBase}_slides.json?t=${Date.now()}`);
+            if (sRes.ok) companionSlidesData = await sRes.json();
+          } catch (e) { }
+        }
         const title = (moduleData.meta && moduleData.meta.moduleTitle) || moduleData.title || `Module ${currentMod}`;
         const course = (moduleData.meta && moduleData.meta.course) || moduleData.course || moduleData.unit || 'KINS 2203';
         const titleEl = document.getElementById('moduleTitle');
@@ -1011,6 +1363,10 @@
       readingDiv.innerHTML = page.readingHtml || '<p>No reading content available.</p>';
       readingDiv.querySelectorAll('details[open]').forEach(d => d.removeAttribute('open'));
       readingDiv.querySelectorAll('.accordion-card.open').forEach(c => c.classList.remove('open'));
+
+      // Stop any audio from previous part's carousels and mount new carousels
+      destroyActiveCarousels();
+      initCarouselsForPart(readingDiv, page, idx);
 
       // 4. Sample and populate quizzes
       currentPartCounts = page.sampleCounts || { mcq: 2, ms: 2, tf: 2, cloze: 2, sa: 1 };
@@ -1207,20 +1563,48 @@
       c.innerHTML = (!items || !items.length) ? '<p style="color:var(--slate-600)">No items available.</p>' : '';
       items.forEach((item, i) => {
         const qId = `ms_${currentPartIndex}_${i}_${item.id || i}`;
-        const correctArr = item.correctArray || item.correct || [];
+        const rawOpts = item.opts || item.options || [];
+        const rawCorrectArr = item.correctArray || item.correct || [];
+
+        // 1. Strip hardcoded leading letters (e.g., "A. ", "B) ") and track correctness
+        let mappedOpts = rawOpts.map((optText, origIdx) => {
+          const cleanText = String(optText).replace(/^[A-Fa-f][\.\)]\s*/, '').trim();
+          return {
+            text: cleanText,
+            isCorrect: rawCorrectArr.includes(origIdx)
+          };
+        });
+
+        // 2. Check if question relies on position-dependent choices
+        const hasAnchor = mappedOpts.some(o => /all of the above|none of the above|both [a-d] and|neither [a-d]/i.test(o.text));
+
+        // 3. Shuffle options using Fisher-Yates if no position anchors exist
+        if (!hasAnchor && mappedOpts.length > 1) {
+          for (let j = mappedOpts.length - 1; j > 0; j--) {
+            const k = Math.floor(Math.random() * (j + 1));
+            [mappedOpts[j], mappedOpts[k]] = [mappedOpts[k], mappedOpts[j]];
+          }
+        }
+
+        // 4. Calculate new correct index array
+        const newCorrectArr = mappedOpts.reduce((acc, optObj, newIdx) => {
+          if (optObj.isCorrect) acc.push(newIdx);
+          return acc;
+        }, []);
+
         const div = document.createElement('div');
         div.className = 'q-item';
         div.innerHTML = `
         <div class="q-title">${i + 1}. ${item.q || item.question} (Select all that apply)</div>
         <div class="option-group">
-          ${(item.opts || item.options || []).map((opt, optIdx) => `
+          ${mappedOpts.map((optObj, optIdx) => `
             <label class="opt-label" id="${qId}_ms_${optIdx}">
               <input type="checkbox" name="${qId}" value="${optIdx}">
-              <span>${opt}</span>
+              <span>${optObj.text}</span>
             </label>
           `).join('')}
         </div>
-        <button class="action-btn" onclick="gradeMS('${qId}', ${JSON.stringify(correctArr)})">Check Selection</button>
+        <button class="action-btn" onclick="gradeMS('${qId}', ${JSON.stringify(newCorrectArr)})">Check Selection</button>
         <div class="feedback-box info" id="${qId}_fb"><strong>Rationale:</strong> ${item.rationale || item.feedback || ''}</div>
       `;
         c.appendChild(div);
@@ -1485,58 +1869,62 @@
       document.querySelectorAll('.accordion-card').forEach(c => c.classList.toggle('open', open));
     };
 
+
     function buildActivities() {
-      const container = document.getElementById("activitiesGrid") || document.getElementById("activitiesContainer") || document.getElementById("activitiesList");
-      const badge = document.getElementById("actCount") || document.getElementById("activityBadge") || document.getElementById("activitiesCount");
-      const activities = moduleData.activities || [];
+      const actCountEl = document.getElementById("actCount");
+      const grid = document.getElementById("activitiesGrid");
+      const emptyState = document.getElementById("activitiesEmpty");
+      if (!grid) return;
 
-      if (badge) badge.textContent = activities.length;
-      if (!container) return;
+      grid.innerHTML = "";
 
-      container.innerHTML = "";
-      if (activities.length === 0) {
-        container.innerHTML = '<p style="color:var(--slate-400); font-style:italic; grid-column: 1 / -1;">No interactive activities for this module.</p>';
+      let dataObj = typeof moduleData !== 'undefined' ? moduleData : null;
+      if (!dataObj && typeof window !== 'undefined' && window.moduleData) dataObj = window.moduleData;
+
+      const activities = (dataObj && dataObj.activities && Array.isArray(dataObj.activities)) ? dataObj.activities : [];
+
+      if (actCountEl) actCountEl.textContent = activities.length;
+
+      if (!activities.length) {
+        if (emptyState) emptyState.style.display = "block";
         return;
       }
 
-      const urlParams = new URLSearchParams(window.location.search);
-      let ch = urlParams.get("ch") || (moduleData.meta && moduleData.meta.chapter) || "01";
-      ch = String(ch).padStart(2, "0");
+      if (emptyState) emptyState.style.display = "none";
 
-      activities.forEach((act, idx) => {
-        let rawPath = (act.file || act.path || act.src || act.href || "").trim();
-        let finalHref = "";
+      // Pill container wrapper
+      const pillContainer = document.createElement("div");
+      pillContainer.className = "activity-links-container";
 
-        if (rawPath.startsWith("http://") || rawPath.startsWith("https://")) {
-          finalHref = rawPath;
-        } else if (rawPath.includes("content/")) {
-          finalHref = "./" + rawPath.replace(/^(\.\/|\/)+/, "");
-        } else if (rawPath.includes("activities/")) {
-          const cleanActPath = rawPath.replace(/^(\.\/|\/)*activities\//, "");
-          finalHref = `./content/ch${ch}/activities/${cleanActPath}`;
+      activities.forEach(act => {
+        const pill = document.createElement("a");
+        pill.className = "activity-pill";
+
+        // Support act.file, act.path, act.src, or act.href
+        let rawPath = act.file || act.path || act.src || act.href || "";
+
+        if (rawPath.indexOf("http") === 0) {
+          pill.href = rawPath;
+        } else if (rawPath.indexOf("content/") === 0) {
+          pill.href = "./" + rawPath;
+        } else if (rawPath.indexOf("activities/") === 0) {
+          const urlParams = new URLSearchParams(window.location.search);
+          const ch = urlParams.get("ch") || "05";
+          pill.href = "./content/ch" + ch + "/" + rawPath;
         } else {
-          finalHref = `./content/ch${ch}/activities/${rawPath}`;
+          pill.href = "./" + rawPath;
         }
 
-        const card = document.createElement("div");
-        card.className = "activity-card";
-        card.style.cssText = "background:#fff; border:1px solid var(--slate-200); border-radius:8px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; gap:14px; box-shadow:0 1px 3px rgba(0,0,0,0.05);";
+        pill.target = "_blank";
+        pill.rel = "noopener noreferrer";
 
-        const descText = act.desc || act.description || "";
-        const typeBadge = act.type ? `<span style="font-size:0.7rem; font-weight:700; text-transform:uppercase; padding:2px 8px; border-radius:4px; background:var(--accent-bg, #eff6ff); color:var(--accent, #2563eb); margin-bottom:8px; display:inline-block;">${act.type}</span>` : "";
+        const titleText = act.title || "Interactive Activity";
+        pill.innerHTML = `<span>${titleText}</span>`;
 
-        card.innerHTML = `
-          <div>
-            ${typeBadge}
-            <h4 style="margin:0 0 6px 0; font-size:1rem; color:var(--slate-800);">${act.title || ("Activity " + (idx + 1))}</h4>
-            <p style="margin:0; font-size:0.85rem; color:var(--slate-600); line-height:1.4;">${descText}</p>
-          </div>
-          <div style="margin-top:auto; padding-top:8px;">
-            <a href="${finalHref}" target="_blank" class="launch-btn" style="display:inline-block; text-align:center; padding:8px 16px; background:var(--accent, #2563eb); color:#fff; border-radius:6px; text-decoration:none; font-weight:600; font-size:0.85rem;">Launch Activity &rarr;</a>
-          </div>
-        `;
-        container.appendChild(card);
+        pillContainer.appendChild(pill);
       });
+
+      grid.appendChild(pillContainer);
     }
 
     function buildGlossary() {
@@ -1566,6 +1954,426 @@
     };
 
     window.addEventListener('DOMContentLoaded', init);
+
+    /* === REUSABLE JSON MULTIMEDIA CAROUSEL ENGINE === */
+    function formatCarouselTime(sec) {
+      if (!isFinite(sec) || sec < 0) return '00:00';
+      const m = Math.floor(sec / 60);
+      const s = Math.floor(sec % 60);
+      return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    }
+
+    function extractYouTubeId(urlOrId) {
+      if (!urlOrId || typeof urlOrId !== 'string') return null;
+      const trimmed = urlOrId.trim();
+      if (/^[a-zA-Z0-9_-]{11}$/.test(trimmed)) return trimmed;
+      const match = trimmed.match(/(?:youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/|v\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+      return match ? match[1] : null;
+    }
+
+    class OLMCarousel {
+      constructor(containerEl, data) {
+        this.container = containerEl;
+        this.title = data.title || 'Interactive Slide Presentation';
+        this.slides = Array.isArray(data.slides) ? data.slides : [];
+        this.rootYoutubeId = extractYouTubeId(data.youtube || data.youtubeUrl || data.videoUrl);
+        this.rootDescription = data.description || '';
+        this.currentIndex = 0;
+        this.audio = new Audio();
+        this.audio.preload = 'metadata';
+        this.playbackRate = 1.0;
+
+        if (this.rootYoutubeId && !this.slides.length) {
+          this.renderYouTubeDeck();
+          return;
+        }
+
+        if (!this.slides.length) {
+          this.container.innerHTML = '<p style="color:var(--slate-600);">No slides configured for this presentation.</p>';
+          return;
+        }
+
+        this.buildShell();
+        this.bindEvents();
+        this.renderSlide(0, false);
+      }
+
+      attachFullscreenHandler(wrapEl, btnEl) {
+        const syncLabel = () => {
+          const isFs = (document.fullscreenElement === wrapEl) || wrapEl.classList.contains('olm-pseudo-fs');
+          btnEl.innerHTML = isFs ? '&#x2715; Exit Fullscreen' : '&#x26F6; Fullscreen';
+        };
+        btnEl.addEventListener('click', async () => {
+          const isNativeFs = (document.fullscreenElement === wrapEl);
+          const isPseudoFs = wrapEl.classList.contains('olm-pseudo-fs');
+          if (isNativeFs) {
+            await document.exitFullscreen().catch(() => {});
+          } else if (isPseudoFs) {
+            wrapEl.classList.remove('olm-pseudo-fs');
+            syncLabel();
+          } else if (wrapEl.requestFullscreen) {
+            try {
+              await wrapEl.requestFullscreen();
+            } catch (e) {
+              wrapEl.classList.add('olm-pseudo-fs');
+              syncLabel();
+            }
+          } else {
+            wrapEl.classList.add('olm-pseudo-fs');
+            syncLabel();
+          }
+        });
+        document.addEventListener('fullscreenchange', syncLabel);
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && wrapEl.classList.contains('olm-pseudo-fs')) {
+            wrapEl.classList.remove('olm-pseudo-fs');
+            syncLabel();
+          }
+        });
+      }
+
+      renderYouTubeDeck() {
+        this.container.innerHTML = `
+          <div class="olm-carousel-wrap" role="region" aria-label="${this.title}">
+            <div class="olm-carousel-header">
+              <h4 class="olm-carousel-title">${this.title}</h4>
+              <div class="olm-header-actions">
+                <span class="olm-carousel-counter">Video Lecture</span>
+                <button type="button" class="olm-fs-btn" data-role="fsBtn" title="Toggle Fullscreen">&#x26F6; Fullscreen</button>
+              </div>
+            </div>
+            <div class="olm-yt-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/${this.rootYoutubeId}?rel=0" referrerpolicy="strict-origin-when-cross-origin"
+                title="${this.title}"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            ${this.rootDescription ? `<p class="olm-yt-caption">${this.rootDescription}</p>` : ''}
+          </div>
+        `;
+        this.wrap = this.container.querySelector('.olm-carousel-wrap');
+        const fsBtn = this.container.querySelector('[data-role="fsBtn"]');
+        if (this.wrap && fsBtn) this.attachFullscreenHandler(this.wrap, fsBtn);
+      }
+
+      buildShell() {
+        this.container.innerHTML = `
+          <div class="olm-carousel-wrap" tabindex="0" role="region" aria-label="${this.title}">
+            <div class="olm-carousel-header">
+              <h4 class="olm-carousel-title">${this.title}</h4>
+              <div class="olm-header-actions">
+                <span class="olm-carousel-counter" data-role="counter">1 of ${this.slides.length}</span>
+                <button type="button" class="olm-fs-btn" data-role="fsBtn" title="Toggle Fullscreen">&#x26F6; Fullscreen</button>
+              </div>
+            </div>
+            <div class="olm-carousel-stage" data-role="stage">
+              <div class="olm-carousel-media" data-role="media">
+                <img data-role="img" src="" alt="" loading="lazy" />
+                <div class="olm-yt-wrap" data-role="slideYtWrap" style="display:none;">
+                  <iframe data-role="slideYtFrame" src="" title="Slide Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="olm-carousel-body">
+                <div>
+                  <h5 class="olm-carousel-heading" data-role="heading"></h5>
+                  <p class="olm-carousel-desc" data-role="desc"></p>
+                  <ul class="olm-carousel-bullets" data-role="bullets"></ul>
+                </div>
+                <div class="olm-audio-bar" data-role="audioBar" style="display:none;">
+                  <div class="olm-audio-controls">
+                    <button type="button" class="olm-audio-play" data-role="playBtn">&#9654; Play</button>
+                    <input type="range" class="olm-audio-scrub" data-role="scrub" min="0" max="100" value="0" step="0.1" aria-label="Narration progress" />
+                    <span class="olm-audio-time" data-role="time">00:00 / 00:00</span>
+                    <select class="olm-audio-speed" data-role="speed" aria-label="Playback speed">
+                      <option value="1">1.0x</option>
+                      <option value="1.25">1.25x</option>
+                      <option value="1.5">1.5x</option>
+                    </select>
+                  </div>
+                  <button type="button" class="olm-transcript-toggle" data-role="transcriptBtn" style="display:none;">Show Transcript</button>
+                  <div class="olm-transcript-box" data-role="transcriptBox"></div>
+                </div>
+              </div>
+            </div>
+            <div class="olm-carousel-footer">
+              <button type="button" class="olm-nav-btn" data-role="prevBtn">&larr; Previous</button>
+              <div class="olm-carousel-dots" data-role="dots">
+                ${this.slides.map((_, idx) => `<button type="button" class="olm-dot ${idx === 0 ? 'active' : ''}" data-idx="${idx}" aria-label="Go to slide ${idx + 1}"></button>`).join('')}
+              </div>
+              <button type="button" class="olm-nav-btn" data-role="nextBtn">Next &rarr;</button>
+            </div>
+          </div>
+        `;
+
+        this.wrap = this.container.querySelector('.olm-carousel-wrap');
+        this.els = {
+          counter: this.container.querySelector('[data-role="counter"]'),
+          fsBtn: this.container.querySelector('[data-role="fsBtn"]'),
+          stage: this.container.querySelector('[data-role="stage"]'),
+          media: this.container.querySelector('[data-role="media"]'),
+          img: this.container.querySelector('[data-role="img"]'),
+          slideYtWrap: this.container.querySelector('[data-role="slideYtWrap"]'),
+          slideYtFrame: this.container.querySelector('[data-role="slideYtFrame"]'),
+          heading: this.container.querySelector('[data-role="heading"]'),
+          desc: this.container.querySelector('[data-role="desc"]'),
+          bullets: this.container.querySelector('[data-role="bullets"]'),
+          audioBar: this.container.querySelector('[data-role="audioBar"]'),
+          playBtn: this.container.querySelector('[data-role="playBtn"]'),
+          scrub: this.container.querySelector('[data-role="scrub"]'),
+          time: this.container.querySelector('[data-role="time"]'),
+          speed: this.container.querySelector('[data-role="speed"]'),
+          transcriptBtn: this.container.querySelector('[data-role="transcriptBtn"]'),
+          transcriptBox: this.container.querySelector('[data-role="transcriptBox"]'),
+          prevBtn: this.container.querySelector('[data-role="prevBtn"]'),
+          nextBtn: this.container.querySelector('[data-role="nextBtn"]'),
+          dots: Array.from(this.container.querySelectorAll('.olm-dot'))
+        };
+      }
+
+      bindEvents() {
+        if (this.wrap && this.els.fsBtn) {
+          this.attachFullscreenHandler(this.wrap, this.els.fsBtn);
+        }
+
+        this.els.prevBtn.addEventListener('click', () => {
+          if (this.currentIndex > 0) this.renderSlide(this.currentIndex - 1, true);
+        });
+        this.els.nextBtn.addEventListener('click', () => {
+          if (this.currentIndex < this.slides.length - 1) this.renderSlide(this.currentIndex + 1, true);
+        });
+        this.els.dots.forEach(dot => {
+          dot.addEventListener('click', () => {
+            const target = parseInt(dot.dataset.idx, 10);
+            if (!isNaN(target) && target !== this.currentIndex) this.renderSlide(target, true);
+          });
+        });
+
+        this.wrap.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowLeft' && this.currentIndex > 0) {
+            this.renderSlide(this.currentIndex - 1, true);
+          } else if (e.key === 'ArrowRight' && this.currentIndex < this.slides.length - 1) {
+            this.renderSlide(this.currentIndex + 1, true);
+          }
+        });
+
+        this.els.playBtn.addEventListener('click', () => {
+          if (this.audio.paused) {
+            this.audio.play().catch(() => {});
+          } else {
+            this.audio.pause();
+          }
+        });
+
+        this.audio.addEventListener('play', () => {
+          this.els.playBtn.innerHTML = '&#10074;&#10074; Pause';
+        });
+        this.audio.addEventListener('pause', () => {
+          this.els.playBtn.innerHTML = '&#9654; Play';
+        });
+        this.audio.addEventListener('ended', () => {
+          this.els.playBtn.innerHTML = '&#9654; Replay';
+        });
+        this.audio.addEventListener('loadedmetadata', () => {
+          this.els.scrub.max = this.audio.duration || 100;
+          this.els.time.textContent = `00:00 / ${formatCarouselTime(this.audio.duration)}`;
+        });
+        this.audio.addEventListener('timeupdate', () => {
+          if (!this.isScrubbing) {
+            this.els.scrub.value = this.audio.currentTime;
+          }
+          this.els.time.textContent = `${formatCarouselTime(this.audio.currentTime)} / ${formatCarouselTime(this.audio.duration)}`;
+        });
+
+        this.els.scrub.addEventListener('input', () => {
+          this.isScrubbing = true;
+          this.els.time.textContent = `${formatCarouselTime(parseFloat(this.els.scrub.value))} / ${formatCarouselTime(this.audio.duration)}`;
+        });
+        this.els.scrub.addEventListener('change', () => {
+          this.audio.currentTime = parseFloat(this.els.scrub.value);
+          this.isScrubbing = false;
+        });
+
+        this.els.speed.addEventListener('change', () => {
+          this.playbackRate = parseFloat(this.els.speed.value) || 1.0;
+          this.audio.playbackRate = this.playbackRate;
+        });
+
+        this.els.transcriptBtn.addEventListener('click', () => {
+          const open = this.els.transcriptBox.classList.toggle('open');
+          this.els.transcriptBtn.textContent = open ? 'Hide Transcript' : 'Show Transcript';
+        });
+      }
+
+      stopAudio() {
+        this.audio.pause();
+        this.audio.currentTime = 0;
+        if (this.els && this.els.playBtn) {
+          this.els.playBtn.innerHTML = '&#9654; Play';
+          this.els.scrub.value = 0;
+        }
+      }
+
+      renderSlide(idx, animate) {
+        this.stopAudio();
+        this.currentIndex = idx;
+        const slide = this.slides[idx];
+
+        const applyContent = () => {
+          const slideYtId = extractYouTubeId(slide.youtube || slide.youtubeUrl);
+
+          if (slideYtId) {
+            this.els.stage.style.display = '';
+            this.els.stage.style.justifyContent = '';
+            this.els.stage.classList.remove('no-media');
+            this.els.media.style.display = 'flex';
+            this.els.media.style.padding = '0';
+            this.els.img.style.display = 'none';
+            this.els.slideYtWrap.style.display = 'block';
+            this.els.slideYtFrame.src = `https://www.youtube-nocookie.com/embed/${slideYtId}?rel=0`;
+          } else if (slide.image && String(slide.image).trim()) {
+            this.els.stage.style.display = '';
+            this.els.stage.style.justifyContent = '';
+            this.els.stage.classList.remove('no-media');
+            this.els.media.style.display = 'flex';
+            this.els.media.style.padding = '16px';
+            this.els.slideYtWrap.style.display = 'none';
+            this.els.slideYtFrame.src = '';
+            this.els.img.style.display = 'block';
+            this.els.img.src = slide.image;
+            this.els.img.alt = slide.alt || slide.heading || `Slide ${idx + 1}`;
+          } else {
+            this.els.media.style.display = 'none';
+            this.els.slideYtFrame.src = '';
+            this.els.stage.classList.add('no-media');
+            this.els.stage.style.display = 'flex';
+            this.els.stage.style.justifyContent = 'center';
+          }
+
+          this.els.heading.textContent = slide.heading || `Slide ${idx + 1}`;
+          this.els.desc.textContent = slide.description || '';
+          this.els.desc.style.display = slide.description ? 'block' : 'none';
+
+          if (Array.isArray(slide.bullets) && slide.bullets.length) {
+            this.els.bullets.innerHTML = slide.bullets.map(b => `<li>${b}</li>`).join('');
+            this.els.bullets.style.display = 'block';
+          } else {
+            this.els.bullets.innerHTML = '';
+            this.els.bullets.style.display = 'none';
+          }
+
+          if (slide.audio) {
+            this.els.audioBar.style.display = 'block';
+            this.audio.src = slide.audio;
+            this.audio.playbackRate = this.playbackRate;
+            this.els.time.textContent = '00:00 / 00:00';
+          } else {
+            this.els.audioBar.style.display = 'none';
+            this.audio.removeAttribute('src');
+          }
+
+          if (slide.transcript) {
+            this.els.transcriptBtn.style.display = 'inline-block';
+            this.els.transcriptBox.textContent = slide.transcript;
+            this.els.transcriptBox.classList.remove('open');
+            this.els.transcriptBtn.textContent = 'Show Transcript';
+          } else {
+            this.els.transcriptBtn.style.display = 'none';
+            this.els.transcriptBox.textContent = '';
+            this.els.transcriptBox.classList.remove('open');
+          }
+
+          this.els.counter.textContent = `${idx + 1} of ${this.slides.length}`;
+          this.els.prevBtn.disabled = (idx === 0);
+          this.els.nextBtn.disabled = (idx === this.slides.length - 1);
+          this.els.dots.forEach((d, dIdx) => d.classList.toggle('active', dIdx === idx));
+        };
+
+        if (animate) {
+          this.els.stage.classList.add('fading');
+          setTimeout(() => {
+            applyContent();
+            this.els.stage.classList.remove('fading');
+          }, 140);
+        } else {
+          applyContent();
+        }
+      }
+
+      destroy() {
+        if (this.wrap) {
+          if (document.fullscreenElement === this.wrap) {
+            document.exitFullscreen().catch(() => {});
+          }
+          this.wrap.classList.remove('olm-pseudo-fs');
+        }
+        this.stopAudio();
+        this.audio.src = '';
+        this.container.innerHTML = '';
+      }
+    }
+
+    function destroyActiveCarousels() {
+      activeCarousels.forEach(c => c.destroy());
+      activeCarousels = [];
+    }
+
+    function isValidDeckData(obj) {
+      if (!obj || typeof obj !== 'object') return false;
+      const hasSlides = Array.isArray(obj.slides) && obj.slides.length > 0;
+      const hasYt = Boolean(extractYouTubeId(obj.youtube || obj.youtubeUrl || obj.videoUrl));
+      return hasSlides || hasYt;
+    }
+
+    async function initCarouselsForPart(readingDiv, page, partIdx) {
+      const slidesAcc = document.getElementById('acc-slides');
+      const slidesCont = document.getElementById('slidesContainer');
+      const slidesBadge = document.getElementById('badge-slides');
+      const navSlides = document.getElementById('nav-slides');
+
+      if (slidesAcc && slidesCont) {
+        slidesCont.innerHTML = '';
+        slidesAcc.style.display = 'none';
+        if (navSlides) navSlides.style.display = 'none';
+      }
+
+      const placeholders = Array.from(readingDiv.querySelectorAll('.olm-carousel[data-src]'));
+      for (const el of placeholders) {
+        const src = el.getAttribute('data-src');
+        if (!src) continue;
+        try {
+          const res = await fetch(`${src}?t=${Date.now()}`);
+          if (res.ok) {
+            const json = await res.json();
+            activeCarousels.push(new OLMCarousel(el, json));
+          } else {
+            el.innerHTML = `<p style="color:#b91c1c; font-size:0.9rem;">Could not load slide deck (${src}).</p>`;
+          }
+        } catch (err) {
+          el.innerHTML = `<p style="color:#b91c1c; font-size:0.9rem;">Error loading slide deck (${src}).</p>`;
+        }
+      }
+
+      let deckData = null;
+      if (page && isValidDeckData(page.carousel)) {
+        deckData = page.carousel;
+      } else if (partIdx === 0 && isValidDeckData(companionSlidesData)) {
+        deckData = companionSlidesData;
+      }
+
+      if (deckData && slidesAcc && slidesCont) {
+        slidesAcc.style.display = 'block';
+        if (navSlides) navSlides.style.display = 'inline-block';
+        if (slidesBadge) {
+          const isYtDeck = Boolean(extractYouTubeId(deckData.youtube || deckData.youtubeUrl || deckData.videoUrl)) && (!deckData.slides || !deckData.slides.length);
+          slidesBadge.textContent = isYtDeck ? 'Video Lecture' : `${deckData.slides.length} Slides`;
+        }
+        const host = document.createElement('div');
+        slidesCont.appendChild(host);
+        activeCarousels.push(new OLMCarousel(host, deckData));
+      }
+    }
   </script>
 </body>
 
