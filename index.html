@@ -553,8 +553,6 @@
           (unit.chapters || []).forEach((ch, chIdx) => {
             const details = document.createElement("details");
             details.className = "chapter-accordion";
-            // Keep first chapter open by default
-            if (uIdx === 0 && chIdx === 0) details.open = true;
 
             let modLinksHtml = "";
             (ch.modules || []).forEach(m => {
@@ -602,7 +600,82 @@
       }
     }
 
-    document.addEventListener("DOMContentLoaded", loadCoursePortal);
+
+    async function loadCourseWideDownloads() {
+      const container = document.getElementById("unitsContainer") || document.querySelector("main.container") || document.querySelector(".container");
+      if (!container) return;
+
+      try {
+        const res = await fetch(`downloads/manifest.json?t=${Date.now()}`);
+        if (!res.ok) return;
+        const data = await res.json();
+
+        const isGeneral = (s) => {
+          const v = String(s || "general").trim().toLowerCase();
+          return !v || v === "general" || v === "course-wide resources";
+        };
+
+        const files = (data.files || []).filter(f => isGeneral(f.scope));
+        const links = (data.links || []).filter(l => isGeneral(l.scope));
+        const total = files.length + links.length;
+        if (total === 0) return;
+
+        const sec = document.createElement("section");
+        sec.style.marginTop = "28px";
+
+        const details = document.createElement("details");
+        details.className = "chapter-accordion";
+
+        let itemsHtml = "";
+        files.forEach(f => {
+          itemsHtml += `
+            <a href="${f.path}" download class="module-card">
+              <div class="module-card-body">
+                <span class="module-id-badge">${f.ext || "FILE"}</span>
+                <span class="module-title-text">${f.title} <span style="color:var(--slate-400); font-size:0.82rem;">(${f.size})</span></span>
+              </div>
+              <span class="module-arrow">&darr;</span>
+            </a>
+          `;
+        });
+        links.forEach(l => {
+          itemsHtml += `
+            <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="module-card">
+              <div class="module-card-body">
+                <span class="module-id-badge">LINK</span>
+                <span class="module-title-text">${l.title}${l.description ? ` <span style="color:var(--slate-500); font-size:0.84rem; font-weight:400;">— ${l.description}</span>` : ""}</span>
+              </div>
+              <span class="module-arrow">&nearr;</span>
+            </a>
+          `;
+        });
+
+        details.innerHTML = `
+          <summary>
+            <div class="summary-left">
+              <span class="chapter-chevron">&#9656;</span>
+              <span class="chapter-name">Course-Wide Links &amp; Downloads</span>
+            </div>
+            <span class="module-count">${total} Resources</span>
+          </summary>
+          <div class="chapter-content">
+            <div class="module-list">
+              ${itemsHtml}
+            </div>
+          </div>
+        `;
+
+        sec.appendChild(details);
+        container.appendChild(sec);
+      } catch (err) {
+        console.warn("No course-wide downloads manifest found:", err);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      await loadCoursePortal();
+      await loadCourseWideDownloads();
+    });
   </script>
 </body>
 
