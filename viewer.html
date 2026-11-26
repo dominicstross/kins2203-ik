@@ -956,6 +956,7 @@
       <button class="tab-btn" onclick="switchView('activities')">Applied Labs &amp; Scenarios (<span
           id="actCount">0</span>)</button>
       <button class="tab-btn" onclick="switchView('glossary')">Glossary</button>
+      <button class="tab-btn" onclick="switchView('downloads')">Links &amp; Downloads (<span id="dlCount">0</span>)</button>
     </div>
 
     <main id="pane-lesson" class="panel active">
@@ -1075,6 +1076,16 @@
         </thead>
         <tbody id="glossaryBody"></tbody>
       </table>
+    </section>
+
+    <section id="pane-downloads" class="panel">
+      <h3 style="color: var(--primary); margin-bottom: 8px;">Course &amp; Module Downloads</h3>
+      <p style="color: var(--slate-600); font-size: 0.92rem; margin-bottom: 16px;">Downloadable worksheets, templates, and readings for this module and course.</p>
+      <div id="downloadsFilesList"></div>
+
+      <h3 style="color: var(--primary); margin: 28px 0 8px;">External Reference Links</h3>
+      <p style="color: var(--slate-600); font-size: 0.92rem; margin-bottom: 16px;">Curated external websites, tools, and supplemental resources.</p>
+      <div id="downloadsLinksList"></div>
     </section>
   </div>
 
@@ -1947,9 +1958,12 @@
       } else if (tab === 'activities') {
         document.querySelectorAll('.tab-btn')[1].classList.add('active');
         document.getElementById('pane-activities').classList.add('active');
-      } else {
+      } else if (tab === 'glossary') {
         document.querySelectorAll('.tab-btn')[2].classList.add('active');
         document.getElementById('pane-glossary').classList.add('active');
+      } else if (tab === 'downloads') {
+        document.querySelectorAll('.tab-btn')[3].classList.add('active');
+        document.getElementById('pane-downloads').classList.add('active');
       }
     };
 
@@ -2374,6 +2388,75 @@
         activeCarousels.push(new OLMCarousel(host, deckData));
       }
     }
+  
+    async function loadDownloadsManifest() {
+      const filesEl = document.getElementById('downloadsFilesList');
+      const linksEl = document.getElementById('downloadsLinksList');
+      const countEl = document.getElementById('dlCount');
+      if (!filesEl || !linksEl) return;
+
+      const params = new URLSearchParams(window.location.search);
+      const chRaw = (params.get('ch') || '').replace(/^0+/, '');
+      const modRaw = (params.get('mod') || '').trim().toLowerCase();
+      const chScope = chRaw ? `ch${chRaw.padStart(2, '0')}` : '';
+      const chScopeShort = chRaw ? `ch${chRaw}` : '';
+
+      const matchesScope = (scopeVal) => {
+        const s = String(scopeVal || 'general').trim().toLowerCase();
+        if (!s || s === 'general' || s === 'course-wide resources') return true;
+        if (modRaw && s === modRaw) return true;
+        if (chScope && (s === chScope || s === chScopeShort)) return true;
+        return false;
+      };
+
+      const badgeLabel = (scopeVal) => {
+        const s = String(scopeVal || 'general').trim();
+        if (!s || s.toLowerCase() === 'general' || s.toLowerCase() === 'course-wide resources') return 'Course-Wide';
+        return s.toUpperCase();
+      };
+
+      try {
+        const res = await fetch(`downloads/manifest.json?t=${Date.now()}`);
+        if (!res.ok) throw new Error('No downloads manifest');
+        const data = await res.json();
+        const files = (data.files || []).filter(f => matchesScope(f.scope));
+        const links = (data.links || []).filter(l => matchesScope(l.scope));
+
+        if (countEl) countEl.textContent = String(files.length + links.length);
+
+        if (files.length === 0) {
+          filesEl.innerHTML = '<p style="color: var(--slate-500); font-style: italic;">No downloadable files posted for this module yet.</p>';
+        } else {
+          filesEl.innerHTML = `<table class="data-table">
+            <thead><tr><th>Document</th><th style="width:14%;">Scope</th><th style="width:14%;">Type / Size</th><th style="width:16%;">Action</th></tr></thead>
+            <tbody>${files.map(f => `<tr>
+              <td><strong>${f.title}</strong><div style="font-size:0.8rem;color:var(--slate-500);">${f.filename}</div></td>
+              <td><span style="background:var(--slate-100);padding:2px 8px;border-radius:999px;font-size:0.78rem;font-weight:600;">${badgeLabel(f.scope)}</span></td>
+              <td>${f.ext} &middot; ${f.size}</td>
+              <td><a href="${f.path}" download style="display:inline-block;padding:6px 12px;background:var(--accent);color:#fff;border-radius:6px;text-decoration:none;font-weight:600;font-size:0.85rem;">Download</a></td>
+            </tr>`).join('')}</tbody>
+          </table>`;
+        }
+
+        if (links.length === 0) {
+          linksEl.innerHTML = '<p style="color: var(--slate-500); font-style: italic;">No external links posted for this module yet.</p>';
+        } else {
+          linksEl.innerHTML = `<table class="data-table">
+            <thead><tr><th>Resource</th><th style="width:14%;">Scope</th><th style="width:16%;">Action</th></tr></thead>
+            <tbody>${links.map(l => `<tr>
+              <td><strong>${l.title}</strong>${l.description ? `<div style="font-size:0.85rem;color:var(--slate-600);margin-top:2px;">${l.description}</div>` : ''}</td>
+              <td><span style="background:var(--slate-100);padding:2px 8px;border-radius:999px;font-size:0.78rem;font-weight:600;">${badgeLabel(l.scope)}</span></td>
+              <td><a href="${l.url}" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:6px 12px;background:var(--primary);color:#fff;border-radius:6px;text-decoration:none;font-weight:600;font-size:0.85rem;">Open Link &nearr;</a></td>
+            </tr>`).join('')}</tbody>
+          </table>`;
+        }
+      } catch (err) {
+        if (countEl) countEl.textContent = '0';
+        filesEl.innerHTML = '<p style="color: var(--slate-500); font-style: italic;">No downloadable files available.</p>';
+        linksEl.innerHTML = '<p style="color: var(--slate-500); font-style: italic;">No external links available.</p>';
+      }
+    }
+    loadDownloadsManifest();
   </script>
 </body>
 
