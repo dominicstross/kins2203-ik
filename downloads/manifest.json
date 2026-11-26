@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "links": [
+    {
+      "title": "PubMed Exercise Science & Kinesiology Literature",
+      "url": "https://pubmed.ncbi.nlm.nih.gov",
+      "description": "Peer-reviewed research database for exercise physiology, biomechanics, and human movement",
+      "scope": "general"
+    },
+    {
+      "title": "NSCA Certification & Resources",
+      "url": "https://www.nsca.com",
+      "description": "National Strength and Conditioning Association standards, journals, and career guides",
+      "scope": "general"
+    }
+  ]
+}
